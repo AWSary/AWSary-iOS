@@ -23,7 +23,7 @@
 		EE00842328820C8B003BA190 /* awsaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awsaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE00842A28820C8C003BA190 /* awsary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00842A28820C8C003BA190 /* AWSary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843028820C8C003BA190 /* awsary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843228820C8C003BA190 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EEE8414128820E3B0062238E /* awsServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsServices.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		EE00842B28820C8C003BA190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE00842A28820C8C003BA190 /* awsary.app */,
+				EE00842A28820C8C003BA190 /* AWSary.app */,
 				EE00843028820C8C003BA190 /* awsary.app */,
 			);
 			name = Products;
@@ -103,7 +103,7 @@
 			);
 			name = "awsary (iOS)";
 			productName = "awsary (iOS)";
-			productReference = EE00842A28820C8C003BA190 /* awsary.app */;
+			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EE00842F28820C8C003BA190 /* awsary (macOS) */ = {
@@ -340,7 +340,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
-				PRODUCT_NAME = awsary;
+				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -370,7 +370,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
-				PRODUCT_NAME = awsary;
+				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
