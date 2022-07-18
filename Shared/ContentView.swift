@@ -11,10 +11,18 @@ struct ContentView: View {
     @ObservedObject var fetch = FetchAwsService()
     @State private var searchQuery = ""
     
+    var filteredAwsServices: [awsService] {
+            if searchQuery.isEmpty {
+                return fetch.awsServices
+            } else {
+                return fetch.awsServices.filter { $0.name.lowercased().contains(searchQuery.lowercased()) }
+            }
+        }
+    
     var body: some View {
         NavigationView{
             List{
-                ForEach(fetch.awsServices, id:\.id){ item in
+                ForEach(filteredAwsServices, id:\.id){ item in
                     NavigationLink(
                         destination:
                             DetailsView(service: item)
@@ -41,7 +49,8 @@ struct ContentView: View {
             .refreshable {
                 //TODO refresh contet
             }
-            .searchable(text: $searchQuery, prompt: "(Not working yet) Search for a Service or a Feature")  // TODO Searchable
+            .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for a Service or a Feature")
+            .disableAutocorrection(true)
 //            .autocorrectionDisabled() //only available on iOS 16
             .navigationTitle("AWS Dictionary")
             .toolbar {
