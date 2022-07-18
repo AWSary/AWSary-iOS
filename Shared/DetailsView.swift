@@ -22,7 +22,7 @@ struct DetailsView: View {
                 } placeholder: {
                     ProgressView()
                 }
-               .frame(width: 120, height: 120)
+               .frame(width: 80, height: 80)
                .clipShape(RoundedRectangle(cornerRadius: 8))
                 Text(service.shortDesctiption)
             }.padding()
