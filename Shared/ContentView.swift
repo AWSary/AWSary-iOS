@@ -17,7 +17,7 @@ struct ContentView: View {
                 ForEach(fetch.awsServices, id:\.id){ item in
                     NavigationLink(
                         destination:
-                            Text("Future detail view of the service \(item.name)")
+                            DetailsView(service: item)
                     ){
                         HStack{
                             AsyncImage(url: URL(string: "https://static.tig.pt/awsary/logos/\(item.imageURL)"))
@@ -44,6 +44,11 @@ struct ContentView: View {
             .searchable(text: $searchQuery, prompt: "(Not working yet) Search for a Service or a Feature")  // TODO Searchable
 //            .autocorrectionDisabled() //only available on iOS 16
             .navigationTitle("AWS Dictionary")
+            .toolbar {
+                Button(action: {}) {
+                    Image(systemName: "gear")
+                }
+            }
         }
     }
 }

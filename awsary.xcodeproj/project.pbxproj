@@ -13,6 +13,8 @@
 		EE00843628820C8C003BA190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* ContentView.swift */; };
 		EE00843728820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
 		EE00843828820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
+		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
+		EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE8414228820E3B0062238E /* awsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsServices.swift */; };
 		EEE8414328820E3B0062238E /* awsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsServices.swift */; };
 		EEE8414828820E740062238E /* fetchAwsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414728820E740062238E /* fetchAwsService.swift */; };
@@ -26,6 +28,7 @@
 		EE00842A28820C8C003BA190 /* AWSary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843028820C8C003BA190 /* awsary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843228820C8C003BA190 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		EEE8414128820E3B0062238E /* awsServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsServices.swift; sourceTree = "<group>"; };
 		EEE8414728820E740062238E /* fetchAwsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fetchAwsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +67,7 @@
 				EE00842328820C8B003BA190 /* awsaryApp.swift */,
 				EEE8414728820E740062238E /* fetchAwsService.swift */,
 				EE00842428820C8B003BA190 /* ContentView.swift */,
+				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -185,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE00843528820C8C003BA190 /* ContentView.swift in Sources */,
+				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE00843328820C8C003BA190 /* awsaryApp.swift in Sources */,
 				EEE8414828820E740062238E /* fetchAwsService.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsServices.swift in Sources */,
@@ -196,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE00843628820C8C003BA190 /* ContentView.swift in Sources */,
+				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE00843428820C8C003BA190 /* awsaryApp.swift in Sources */,
 				EEE8414928820E740062238E /* fetchAwsService.swift in Sources */,
 				EEE8414328820E3B0062238E /* awsServices.swift in Sources */,
