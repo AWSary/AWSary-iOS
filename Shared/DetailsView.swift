@@ -14,7 +14,7 @@ struct DetailsView: View {
    
    var body: some View {
       VStack{
-         Text("Elastic Compute Cloud").font(Font.title)
+         Text(service.longName).font(Font.title)
          HStack{
             AsyncImage(url: URL(string: service.imageURL))
             { image in
@@ -56,8 +56,9 @@ struct DetailsView_Previews: PreviewProvider {
                         awsService(
                            id: 1,
                            name: "EC2",
+                           longName: "Elastic Compute Cloud",
                            shortDesctiption: "Run your code without thinking about servers with this event driven service that will wow you",
-                           imageURL: "Arch_AWS-Lambda_64.png"
+                           imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64.png"
                         )
          )
       }

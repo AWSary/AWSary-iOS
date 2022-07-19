@@ -10,6 +10,7 @@ import Foundation
 struct awsService: Codable, Identifiable {
    public var id: Int
    public var name: String
+   public var longName: String
    public var shortDesctiption: String
    public var imageURL: String
 }
