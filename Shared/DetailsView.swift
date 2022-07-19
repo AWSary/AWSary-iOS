@@ -13,16 +13,16 @@ struct DetailsView: View {
     var service:awsService
     
     var body: some View {
-        VStack{
+       VStack{
             Text("Elastic Compute Cloud").font(Font.title)
             HStack{
-                AsyncImage(url: URL(string: "https://static.tig.pt/awsary/logos/\(service.imageURL)"))
+                AsyncImage(url: URL(string: service.imageURL))
                 { image in
                     image.resizable()
                 } placeholder: {
                     ProgressView()
                 }
-               .frame(width: 80, height: 80)
+               .frame(width: 64, height: 64)
                .clipShape(RoundedRectangle(cornerRadius: 8))
                 Text(service.shortDesctiption)
             }.padding()

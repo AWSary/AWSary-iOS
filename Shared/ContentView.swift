@@ -28,13 +28,13 @@ struct ContentView: View {
                             DetailsView(service: item)
                     ){
                         HStack{
-                            AsyncImage(url: URL(string: "https://static.tig.pt/awsary/logos/\(item.imageURL)"))
+                            AsyncImage(url: URL(string: item.imageURL))
                             { image in
                                image.resizable()
                            } placeholder: {
                                ProgressView()
                            }
-                           .frame(width: 70, height: 70)
+                           .frame(width: 64, height: 64)
                            .clipShape(RoundedRectangle(cornerRadius: 8))
                             VStack(alignment: .leading){
                                 Text(item.name).font(.title2).lineLimit(2)
