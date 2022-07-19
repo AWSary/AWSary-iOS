@@ -7,7 +7,20 @@
 
 import SwiftUI
 
+struct SheetView: View {
+   @Environment(\.dismiss) var dismiss
+   
+   var body: some View {
+      Button("Press to dismiss settings screen") {
+         dismiss()
+      }
+      .font(.title)
+      .padding()
+   }
+}
+
 struct ContentView: View {
+   @State private var showingSheet = false
    @ObservedObject var fetch = FetchAwsService()
    @State private var searchQuery = ""
    
@@ -54,16 +67,20 @@ struct ContentView: View {
          //            .autocorrectionDisabled() //only available on iOS 16
          .navigationTitle("AWS Dictionary")
          .toolbar {
-            Button(action: {}) {
+            Button(action: {
+               showingSheet.toggle()
+            }) {
                Image(systemName: "gear")
             }
          }
-      }
+      }.sheet(isPresented: $showingSheet) {
+         SheetView()
+     }
    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-   static var previews: some View {
-      ContentView()
+   
+   struct ContentView_Previews: PreviewProvider {
+      static var previews: some View {
+         ContentView()
+      }
    }
 }
