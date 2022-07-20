@@ -11,6 +11,10 @@ class FetchAwsService: ObservableObject {
    @Published var awsServices = [awsService]()
    
    init() {
+      refresh()
+   }
+   
+   func refresh(){
       //        Get json from bundle instead of internet for offline debug
       //        guard let url = Bundle.main.url(forResource: "services", withExtension: "json") else {
       //            print("JSON file not found")
