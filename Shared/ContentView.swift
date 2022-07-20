@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-struct SheetView: View {
-   @Environment(\.dismiss) var dismiss
-   
-   var body: some View {
-      Button("Press to dismiss settings screen") {
-         dismiss()
-      }
-      .font(.title)
-      .padding()
-   }
-}
-
 struct ContentView: View {
    @State private var showingSheet = false
    @ObservedObject var fetch = FetchAwsService()
@@ -74,8 +62,8 @@ struct ContentView: View {
             }
          }
       }.sheet(isPresented: $showingSheet) {
-         SheetView()
-     }
+         SettingsView()
+      }
    }
    
    struct ContentView_Previews: PreviewProvider {
