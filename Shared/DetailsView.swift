@@ -32,8 +32,8 @@ struct DetailsView: View {
          }
          // https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it
          Picker("What is your favorite color?", selection: $favoriteColor) {
-            Text("Docs".uppercased()).tag(0)
-            Text("Tutorials".uppercased()).tag(1)
+            Text("Overview".uppercased()).tag(0)
+            Text("Best-practice".uppercased()).tag(1)
             Text("Pricing".uppercased()).tag(2)
          }
          .pickerStyle(.segmented)
