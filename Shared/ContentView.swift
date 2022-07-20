@@ -60,7 +60,7 @@ struct ContentView: View {
             }
          }
          .refreshable {
-            //TODO refresh contet
+            fetch.refresh()
          }
          .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for a Service or a Feature")
          .disableAutocorrection(true)
