@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
-
+import YouTubePlayerKit
 
 struct DetailsView: View {
    @State private var favoriteColor = 0
+   @State private var showingVideo = true
    var service:awsService
+   let youTubePlayer: YouTubePlayer = "https://www.youtube.com/watch?v=9me296xhHYw"
    
    var body: some View {
       VStack{
@@ -25,11 +27,43 @@ struct DetailsView: View {
             .frame(width: 64, height: 64)
             .clipShape(RoundedRectangle(cornerRadius: 8))
             Text(service.shortDesctiption)
-         }.padding()
-         Section() {
-            Text("Tags".uppercased()).font(Font.footnote)
-            Text("Compute, managed, eventDriven".uppercased())
+         }.padding(.leading, 3)
+         HStack{
+            VStack(alignment: .leading){
+               Text("Tags".uppercased()).font(Font.footnote)
+               HStack{
+                  Text("Compute".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .orange).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
+                  Text("managed".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .green).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
+               }
+            }.padding(.leading)
+            Spacer()
+            VStack{
+               Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
+               Text("\(showingVideo ? "Hide":"Show") Video").fixedSize().font(Font.system(.body, design: .monospaced)).padding(.top, 1)
+            }.padding(.trailing)
+            .onTapGesture {
+               showingVideo.toggle()
+               
+            }
+         }.padding(.top)
+         if showingVideo {
+            YouTubePlayerView(self.youTubePlayer) { state in
+                        switch state {
+                        case .idle:
+                           HStack{
+                              Text("Video is loading  ")
+                              ProgressView()
+                           }
+                        case .ready:
+                            EmptyView()
+                        case .error(let error):
+                            Text(verbatim: "YouTube player couldn't be loaded")
+                        }
+                    }
+//            YouTubePlayerView("https://www.youtube.com/watch?v=9me296xhHYw")
          }
+         
+         
          // https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it
          Picker("What is your favorite color?", selection: $favoriteColor) {
             Text("Overview".uppercased()).tag(0)
