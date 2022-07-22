@@ -41,9 +41,9 @@ struct DetailsView: View {
 //               }
 //            }.padding(.leading)
             Spacer()
-            VStack{
+            HStack{
+               Text("\(showingVideo ? "Hide":"Show") ").fixedSize().font(Font.system(.body, design: .monospaced))
                Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
-               Text("\(showingVideo ? "Hide":"Show") Video").fixedSize().font(Font.system(.body, design: .monospaced)).padding(.top, 1)
             }.padding(.trailing)
             .onTapGesture {
                showingVideo.toggle()
