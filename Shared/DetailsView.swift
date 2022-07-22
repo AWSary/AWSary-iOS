@@ -33,13 +33,13 @@ struct DetailsView: View {
             Text(service.shortDesctiption)
          }.padding(.leading, 3)
          HStack{
-            VStack(alignment: .leading){
-               Text("Tags".uppercased()).font(Font.footnote)
-               HStack{
-                  Text("Compute".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .orange).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
-                  Text("managed".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .green).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
-               }
-            }.padding(.leading)
+//            VStack(alignment: .leading){
+//               Text("Tags".uppercased()).font(Font.footnote)
+//               HStack{
+//                  Text("Compute".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .orange).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
+//                  Text("managed".uppercased()).padding(.leading,4).padding(.trailing,4).padding(3).background(Color .green).cornerRadius(15).fixedSize().minimumScaleFactor(0.01)
+//               }
+//            }.padding(.leading)
             Spacer()
             VStack{
                Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
