@@ -42,7 +42,7 @@ struct DetailsView: View {
 //            }.padding(.leading)
             Spacer()
             HStack{
-               Text("\(showingVideo ? "Hide":"Show") ").fixedSize().font(Font.system(.body, design: .monospaced))
+               Text("\(showingVideo ? "Hide":"Show") ").fixedSize().font(Font.system(.body, design: .monospaced)).padding(.trailing, -10)
                Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
             }.padding(.trailing)
             .onTapGesture {
