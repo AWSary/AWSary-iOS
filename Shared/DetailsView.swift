@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NukeUI
 import YouTubePlayerKit
 
 struct DetailsView: View {
@@ -18,14 +19,17 @@ struct DetailsView: View {
       VStack{
          Text(service.longName).font(Font.title)
          HStack{
-            AsyncImage(url: URL(string: service.imageURL))
-            { image in
-               image.resizable()
-            } placeholder: {
-               ProgressView()
+            LazyImage(source: URL(string: service.imageURL)) { state in
+               if let image = state.image {
+                  image
+               } else if state.error != nil {
+                  Text("Error Loading Image").font(.footnote).multilineTextAlignment(.center)
+               } else {
+                  ProgressView()
+               }
             }
             .frame(width: 64, height: 64)
-            .clipShape(RoundedRectangle(cornerRadius: 8))
+//            .clipShape(RoundedRectangle(cornerRadius: 8))
             Text(service.shortDesctiption)
          }.padding(.leading, 3)
          HStack{
