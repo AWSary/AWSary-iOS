@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NukeUI
 
 struct ContentView: View {
    @State private var showingSheet = false
@@ -29,14 +30,17 @@ struct ContentView: View {
                      DetailsView(service: item)
                ){
                   HStack{
-                     AsyncImage(url: URL(string: item.imageURL))
-                     { image in
-                        image.resizable()
-                     } placeholder: {
-                        ProgressView()
+                     LazyImage(source: URL(string: item.imageURL)) { state in
+                        if let image = state.image {
+                           image
+                        } else if state.error != nil {
+                           Text("Error Loading Image").font(.footnote).multilineTextAlignment(.center)
+                        } else {
+                           ProgressView()
+                        }
                      }
                      .frame(width: 64, height: 64)
-                     .clipShape(RoundedRectangle(cornerRadius: 8))
+                     //.clipShape(RoundedRectangle(cornerRadius: 8))
                      VStack(alignment: .leading){
                         Text(item.name).font(.title2).lineLimit(2)
                         Text(item.shortDesctiption).font(.footnote).lineLimit(2)

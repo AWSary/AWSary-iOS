@@ -15,6 +15,7 @@
 		EE00843828820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
 		EECFBC9028883E6A00FFDB49 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */; };
 		EECFBC9128883E6A00FFDB49 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */; };
+		EED0D68F288B18E000203C05 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = EED0D68E288B18E000203C05 /* NukeUI */; };
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7348E2889A72000718ACC /* YouTubePlayerKit */; };
@@ -43,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
+				EED0D68F288B18E000203C05 /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +116,7 @@
 			name = "awsary (iOS)";
 			packageProductDependencies = (
 				EEE7348E2889A72000718ACC /* YouTubePlayerKit */,
+				EED0D68E288B18E000203C05 /* NukeUI */,
 			);
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
@@ -165,6 +168,7 @@
 			mainGroup = EE00841D28820C8B003BA190;
 			packageReferences = (
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+				EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
 			projectDirPath = "";
@@ -490,6 +494,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.3;
+			};
+		};
 		EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
@@ -501,6 +513,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		EED0D68E288B18E000203C05 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
+		};
 		EEE7348E2889A72000718ACC /* YouTubePlayerKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
