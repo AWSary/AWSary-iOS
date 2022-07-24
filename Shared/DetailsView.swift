@@ -18,7 +18,7 @@ struct DetailsView: View {
    var body: some View {
       VStack{
          Text(service.longName).font(Font.title)
-         HStack{
+         HStack(alignment: .top){
             LazyImage(source: URL(string: service.imageURL)) { state in
                if let image = state.image {
                   image
@@ -31,7 +31,9 @@ struct DetailsView: View {
             .frame(width: 64, height: 64)
 //            .clipShape(RoundedRectangle(cornerRadius: 8))
             Text(service.shortDesctiption)
-         }.padding(.leading, 3)
+         }
+         .padding(.leading)
+         .padding(.trailing)
          HStack{
 //            VStack(alignment: .leading){
 //               Text("Tags".uppercased()).font(Font.footnote)
@@ -49,7 +51,7 @@ struct DetailsView: View {
                showingVideo.toggle()
                
             }
-         }.padding(.top)
+         }.padding(.top, 3)
          if showingVideo {
             YouTubePlayerView(self.youTubePlayer) { state in
                         switch state {
@@ -95,7 +97,7 @@ struct DetailsView_Previews: PreviewProvider {
                            id: 1,
                            name: "EC2",
                            longName: "Elastic Compute Cloud",
-                           shortDesctiption: "Run your code without thinking about servers with this event driven service that will wow you",
+                           shortDesctiption: "Run your code without thinking abouSA  FDAS F AS F AS F DASF AS D F ASF AS F S AF AS F AS F AS F DAS F SAf sad f asf da f dsf as d fa sfdt servers with this event driven service that will wow you",
                            imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64.png"
                         )
          )
