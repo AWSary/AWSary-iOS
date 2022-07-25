@@ -66,7 +66,6 @@ struct DetailsView: View {
                             Text(verbatim: "YouTube player couldn't be loaded")
                         }
                     }
-//            YouTubePlayerView("https://www.youtube.com/watch?v=9me296xhHYw")
          }
          
          
