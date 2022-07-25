@@ -16,7 +16,8 @@ struct DetailsView: View {
    let youTubePlayer: YouTubePlayer = "https://www.youtube.com/watch?v=9me296xhHYw"
    
    var body: some View {
-      VStack{
+      ScrollView{
+         VStack{
          Text(service.longName).font(Font.title)
          HStack(alignment: .top){
             LazyImage(source: URL(string: service.imageURL)) { state in
@@ -65,7 +66,7 @@ struct DetailsView: View {
                         case .error(let error):
                             Text(verbatim: "YouTube player couldn't be loaded")
                         }
-                    }
+            }.frame(height: 250)
          }
          
          
@@ -82,6 +83,7 @@ struct DetailsView: View {
 //            }
 //         }
          Spacer()
+      }
       }
       .navigationTitle(service.name)
       .navigationBarTitleDisplayMode(.inline)
