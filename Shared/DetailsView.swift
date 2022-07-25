@@ -70,17 +70,17 @@ struct DetailsView: View {
          
          
          // https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it
-         Picker("What is your favorite color?", selection: $favoriteColor) {
-            Text("Overview".uppercased()).tag(0)
-            Text("Best-practice".uppercased()).tag(1)
-            Text("Pricing".uppercased()).tag(2)
-         }
-         .pickerStyle(.segmented)
-         List{
-            ForEach((1...100), id: \.self) {
-               Text("\($0) sample item")
-            }
-         }
+//         Picker("What is your favorite color?", selection: $favoriteColor) {
+//            Text("Overview".uppercased()).tag(0)
+//            Text("Best-practice".uppercased()).tag(1)
+//            Text("Pricing".uppercased()).tag(2)
+//         }
+//         .pickerStyle(.segmented)
+//         List{
+//            ForEach((1...100), id: \.self) {
+//               Text("\($0) sample item")
+//            }
+//         }
          Spacer()
       }
       .navigationTitle(service.name)
