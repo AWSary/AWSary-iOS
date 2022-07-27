@@ -9,11 +9,32 @@ import SwiftUI
 import NukeUI
 import YouTubePlayerKit
 
+struct MyYoutubePlayer: View {
+   let youtube_id: String
+   
+   var body: some View {
+      YouTubePlayerView(YouTubePlayer(stringLiteral: "https://www.youtube.com/watch?v=\(self.youtube_id)")) { state in
+                  switch state {
+                  case .idle:
+                     HStack{
+                        Text("Video is loading  ")
+                        ProgressView()
+                     }
+                  case .ready:
+                      EmptyView()
+                  case .error(let error):
+                      Text(verbatim: "YouTube player couldn't be loaded")
+                  }
+      }.frame(height: 220)
+   }
+}
+
+
 struct DetailsView: View {
    @State private var favoriteColor = 0
    @State private var showingVideo = true
    var service:awsService
-   let youTubePlayer: YouTubePlayer = "https://www.youtube.com/watch?v=9me296xhHYw"
+   
    
    var body: some View {
       ScrollView{
@@ -44,29 +65,19 @@ struct DetailsView: View {
 //               }
 //            }.padding(.leading)
             Spacer()
-            HStack{
-               Text("\(showingVideo ? "Hide":"Show") ").fixedSize().font(Font.system(.body, design: .monospaced)).padding(.trailing, -10)
-               Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
-            }.padding(.trailing)
-            .onTapGesture {
-               showingVideo.toggle()
-               
+            if service.youtube_id != "" {
+               HStack{
+                  Text("\(showingVideo ? "Hide":"Show") ").fixedSize().font(Font.system(.body, design: .monospaced)).padding(.trailing, -10)
+                  Image(systemName: "play.rectangle.fill").font(.title2).foregroundColor(Color .red)
+               }.padding(.trailing)
+               .onTapGesture {
+                  showingVideo.toggle()
+                  
+               }
             }
          }.padding(.top, 3)
-         if showingVideo {
-            YouTubePlayerView(self.youTubePlayer) { state in
-                        switch state {
-                        case .idle:
-                           HStack{
-                              Text("Video is loading  ")
-                              ProgressView()
-                           }
-                        case .ready:
-                            EmptyView()
-                        case .error(let error):
-                            Text(verbatim: "YouTube player couldn't be loaded")
-                        }
-            }.frame(height: 250)
+         if showingVideo && service.youtube_id != "" {
+            MyYoutubePlayer(youtube_id: service.youtube_id)
          }
          
          
@@ -94,13 +105,14 @@ struct DetailsView_Previews: PreviewProvider {
    static var previews: some View {
       NavigationView{
          DetailsView(service:
-                        awsService(
-                           id: 1,
-                           name: "EC2",
-                           longName: "Elastic Compute Cloud",
-                           shortDesctiption: "Run your code without thinking abouSA  FDAS F AS F AS F DASF AS D F ASF AS F S AF AS F AS F AS F DAS F SAf sad f asf da f dsf as d fa sfdt servers with this event driven service that will wow you",
-                           imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64.png"
-                        )
+            awsService(
+               id: 1,
+               name: "EC2",
+               longName: "Elastic Compute Cloud",
+               shortDesctiption: "Run your code without thinking abouSA  FDAS F AS F AS F DASF AS D F ASF AS F S AF AS F AS F AS F DAS F SAf sad f asf da f dsf as d fa sfdt servers with this event driven service that will wow you",
+               imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64.png",
+               youtube_id: "d_u1GKWm2f0"
+            )
          )
       }
    }
