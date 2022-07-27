@@ -32,7 +32,7 @@ struct ContentView: View {
                   HStack{
                      LazyImage(source: URL(string: item.imageURL)) { state in
                         if let image = state.image {
-                           image
+                           image.cornerRadius(8)
                         } else if state.error != nil {
                            Text("Error Loading Image").font(.footnote).multilineTextAlignment(.center)
                         } else {
