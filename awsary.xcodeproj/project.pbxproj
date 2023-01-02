@@ -13,16 +13,19 @@
 		EE00843628820C8C003BA190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* ContentView.swift */; };
 		EE00843728820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
 		EE00843828820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
-		EECFBC9028883E6A00FFDB49 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */; };
-		EECFBC9128883E6A00FFDB49 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */; };
-		EED0D68F288B18E000203C05 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = EED0D68E288B18E000203C05 /* NukeUI */; };
+		EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */; };
+		EE00CBB72963003200FE3DCB /* AwsServiceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */; };
+		EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB8296300C800FE3DCB /* AwsServices.swift */; };
+		EE00CBBA296300C800FE3DCB /* AwsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB8296300C800FE3DCB /* AwsServices.swift */; };
+		EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
+		EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
+		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
+		EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7348E2889A72000718ACC /* YouTubePlayerKit */; };
 		EEE8414228820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
 		EEE8414328820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
-		EEE8414828820E740062238E /* fetchAwsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414728820E740062238E /* fetchAwsService.swift */; };
-		EEE8414928820E740062238E /* fetchAwsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414728820E740062238E /* fetchAwsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +35,12 @@
 		EE00842A28820C8C003BA190 /* AWSary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843028820C8C003BA190 /* awsary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843228820C8C003BA190 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsServiceImageView.swift; sourceTree = "<group>"; };
+		EE00CBB8296300C800FE3DCB /* AwsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsServices.swift; sourceTree = "<group>"; };
+		EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYoutubePlayer.swift; sourceTree = "<group>"; };
+		EECFBC8F28883E6A00FFDB49 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		EEE8414128820E3B0062238E /* awsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsService.swift; sourceTree = "<group>"; };
-		EEE8414728820E740062238E /* fetchAwsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fetchAwsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
-				EED0D68F288B18E000203C05 /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +74,10 @@
 		EE00842228820C8B003BA190 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				EEE8414128820E3B0062238E /* awsService.swift */,
+				EE00CBBF29630BC800FE3DCB /* DataModels */,
+				EE00CBBE29630BB300FE3DCB /* MainViews */,
+				EE00CBC029630C0A00FE3DCB /* AuxiliarViews */,
 				EE00842328820C8B003BA190 /* awsaryApp.swift */,
-				EEE8414728820E740062238E /* fetchAwsService.swift */,
-				EE00842428820C8B003BA190 /* ContentView.swift */,
-				EECFBC8F28883E6A00FFDB49 /* SettingsView.swift */,
-				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -98,6 +100,34 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		EE00CBBE29630BB300FE3DCB /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE00842428820C8B003BA190 /* ContentView.swift */,
+				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
+				EECFBC8F28883E6A00FFDB49 /* AboutView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		EE00CBBF29630BC800FE3DCB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EEE8414128820E3B0062238E /* awsService.swift */,
+				EE00CBB8296300C800FE3DCB /* AwsServices.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		EE00CBC029630C0A00FE3DCB /* AuxiliarViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */,
+				EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */,
+			);
+			path = AuxiliarViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,7 +146,6 @@
 			name = "awsary (iOS)";
 			packageProductDependencies = (
 				EEE7348E2889A72000718ACC /* YouTubePlayerKit */,
-				EED0D68E288B18E000203C05 /* NukeUI */,
 			);
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
@@ -168,7 +197,6 @@
 			mainGroup = EE00841D28820C8B003BA190;
 			packageReferences = (
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
-				EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
 			projectDirPath = "";
@@ -206,10 +234,12 @@
 			files = (
 				EE00843528820C8C003BA190 /* ContentView.swift in Sources */,
 				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
+				EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
 				EE00843328820C8C003BA190 /* awsaryApp.swift in Sources */,
-				EECFBC9028883E6A00FFDB49 /* SettingsView.swift in Sources */,
-				EEE8414828820E740062238E /* fetchAwsService.swift in Sources */,
+				EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */,
+				EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
+				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,10 +249,12 @@
 			files = (
 				EE00843628820C8C003BA190 /* ContentView.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
+				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
 				EE00843428820C8C003BA190 /* awsaryApp.swift in Sources */,
-				EECFBC9128883E6A00FFDB49 /* SettingsView.swift in Sources */,
-				EEE8414928820E740062238E /* fetchAwsService.swift in Sources */,
+				EE00CBBA296300C800FE3DCB /* AwsServices.swift in Sources */,
+				EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EEE8414328820E3B0062238E /* awsService.swift in Sources */,
+				EE00CBB72963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,7 +454,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
@@ -451,7 +483,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
@@ -494,30 +526,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kean/NukeUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.8.3;
-			};
-		};
 		EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EED0D68E288B18E000203C05 /* NukeUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EED0D68D288B18E000203C05 /* XCRemoteSwiftPackageReference "NukeUI" */;
-			productName = NukeUI;
-		};
 		EEE7348E2889A72000718ACC /* YouTubePlayerKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
