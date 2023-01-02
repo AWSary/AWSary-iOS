@@ -18,7 +18,7 @@ struct AboutView: View {
             }
             Section(header: Text("How to use AWSary")){
                Text("Search for a AWS service logo, drag and drop it to your favorite drawing applicaiton.")
-// TODO make a youtube video on how to use the app and configure it here.
+// TODO - make a youtube video on how to use the app and configure it here.
 //               MyYoutubePlayer(youtube_id: "d_u1GKWm2f0")
             }
 //            Section(header: Text("AWSary.com")){
