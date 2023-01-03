@@ -14,10 +14,10 @@ struct AboutView: View {
       NavigationView{
          List{
             Section(header: Text("Why AWSary")){
-               Text("I'm a AWS Cloud Consultant and Trainer.\n\nI draw AWS Cloud diagrams daily on iPad, to explore ideas either with Clients or Students.\n\nGood drawing Applicaitons don't have AWS services logos, so I created this application aiming to be the best AWS Cloud Consultant companion tool.")
+               Text("I'm an AWS Cloud Consultant and Trainer.\n\nI draw AWS Cloud diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so I created this application aiming to be the best AWS Cloud Consultant companion tool.")
             }
             Section(header: Text("How to use AWSary")){
-               Text("Search for a AWS service logo, drag and drop it to your favorite drawing applicaiton.")
+               Text("Search for an AWS service logo, and drag and drop it to your favorite drawing application.")
 // TODO - make a youtube video on how to use the app and configure it here.
 //               MyYoutubePlayer(youtube_id: "d_u1GKWm2f0")
             }
