@@ -68,9 +68,9 @@
 		EE00841D28820C8B003BA190 = {
 			isa = PBXGroup;
 			children = (
-				EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE00843128820C8C003BA190 /* macOS */,
+				EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */,
 				EE00842B28820C8C003BA190 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -395,6 +395,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "awsary--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -425,6 +426,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "awsary--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

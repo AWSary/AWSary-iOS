@@ -14,7 +14,7 @@ struct AboutView: View {
       NavigationView{
          List{
             Section(header: Text("Why AWSary")){
-               Text("I'm an AWS Cloud Consultant and Trainer.\n\nI draw AWS Cloud diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so I created this application aiming to be the best AWS Cloud Consultant companion tool.")
+               Text("I'm an AWS Cloud Consultant and Trainer.\n\nI draw AWS Cloud Architecture diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so I created this application aiming to be the best AWS Cloud Consultant companion tool.")
             }
             Section(header: Text("How to use AWSary")){
                Text("Search for an AWS service logo, and drag and drop it to your favorite drawing application.")

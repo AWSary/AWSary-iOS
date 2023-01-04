@@ -29,12 +29,13 @@ struct ContentView: View {
                  GridItem(.flexible(minimum: 50, maximum: 200), spacing: 16, alignment: .top)
              ], alignment: .leading, spacing: 14, content:{
                  ForEach(filteredAwsServices, id: \.self){ service in
-                    NavigationLink(destination: DetailsView(service: service)){
+// TODO enable details page
+//                    NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .leading, spacing: 4, content: {
                           AwsServiceImageView(service: service)
                           Text("\(service.name)").font(.subheadline).lineLimit(2)
                        })
-                    }
+//                    }
                  }
              }).padding(.horizontal, 12)
          }
