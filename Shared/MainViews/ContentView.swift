@@ -23,19 +23,15 @@ struct ContentView: View {
    var body: some View {
       NavigationView{
          ScrollView{
-             LazyVGrid(columns: [
-                 GridItem(.flexible(minimum: 50, maximum: 200), spacing: 16, alignment: .top),
-                 GridItem(.flexible(minimum: 50, maximum: 200), spacing: 16, alignment: .top),
-                 GridItem(.flexible(minimum: 50, maximum: 200), spacing: 16, alignment: .top)
-             ], alignment: .leading, spacing: 14, content:{
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 10, content: {
                  ForEach(filteredAwsServices, id: \.self){ service in
 // TODO enable details page
 //                    NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .leading, spacing: 4, content: {
                           AwsServiceImageView(service: service)
                           Text("\(service.name)").font(.subheadline).lineLimit(2)
+                          Spacer()
                        })
-//                    }
                  }
              }).padding(.horizontal, 12)
          }
@@ -82,7 +78,7 @@ struct ContentView: View {
          }
       }.sheet(isPresented: $showingSheet) {
          AboutView()
-      }
+      }.navigationViewStyle(.stack)
    }
    
    struct ContentView_Previews: PreviewProvider {
