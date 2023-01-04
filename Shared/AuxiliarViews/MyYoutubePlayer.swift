@@ -21,6 +21,6 @@ struct MyYoutubePlayer: View {
          case .error(_):
             Text(verbatim: "YouTube player couldn't be loaded")
          }
-      }.frame(height: 220)
+      }.frame(height: 280)
    }
 }
