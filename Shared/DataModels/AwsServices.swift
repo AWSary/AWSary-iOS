@@ -24,7 +24,7 @@ class AwsServices: ObservableObject {
         //                let awsServices = try? JSONDecoder().decode([awsService].self, from: data!)
         //                self.awsServices = awsServices!
         //        Get json from internet
-        let url = URL(string: "https://static.tig.pt/awsary/services3.json")!
+        let url = URL(string: "https://static.tig.pt/awsary/services_app_store.json")!
         URLSession.shared.dataTask(with: url) {(data, response, error) in
             do {
                 if let awsServiceData = data {

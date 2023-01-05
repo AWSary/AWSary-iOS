@@ -25,13 +25,13 @@ struct ContentView: View {
          ScrollView{
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 10, content: {
                  ForEach(filteredAwsServices, id: \.self){ service in
-// TODO enable details page
-//                    NavigationLink(destination: DetailsView(service: service)){
+                    NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .leading, spacing: 4, content: {
                           AwsServiceImageView(service: service)
                           Text("\(service.name)").font(.subheadline).lineLimit(2)
                           Spacer()
                        })
+                    }
                  }
              }).padding(.horizontal, 12)
          }
