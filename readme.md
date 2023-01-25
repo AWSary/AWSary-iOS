@@ -9,6 +9,6 @@ I plan to develop this mobile app (maybe also a web app) using AWS as a backend 
 
 You can open issues with ideas for features or bugs on the [GitHub repo](https://github.com/tigpt/awsary-ios).
 
-You can beta test the [TestFlight](https://testflight.apple.com/join/V29zWbIF) version while it's not on the AppStore.
+You can find the app on [AppStore](https://apps.apple.com/us/app/awsary-aws-dictionary/id1634871091?uo=2)
 
 Thanks for your interest in AWSary.com let's help more people learn about AWS.
