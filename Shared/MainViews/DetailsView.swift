@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MarkdownUI
 
 struct DetailsView: View {
    @State private var favoriteColor = 0
@@ -20,7 +21,7 @@ struct DetailsView: View {
                Text(service.longName).font(Font.title)
             }
             Spacer()
-            Text(service.shortDesctiption).padding()
+            Markdown(service.shortDesctiption).padding()
             Spacer()
             HStack{
 //            VStack(alignment: .leading){
