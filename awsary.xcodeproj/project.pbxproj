@@ -20,6 +20,7 @@
 		EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE00CBC32963857300FE3DCB /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = EE00CBC22963857300FE3DCB /* CachedAsyncImage */; };
+		EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE29922E29A3CB4E0071030A /* MarkdownUI */; };
 		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
 				EE00CBC32963857300FE3DCB /* CachedAsyncImage in Frameworks */,
 			);
@@ -151,6 +153,7 @@
 			packageProductDependencies = (
 				EEE7348E2889A72000718ACC /* YouTubePlayerKit */,
 				EE00CBC22963857300FE3DCB /* CachedAsyncImage */,
+				EE29922E29A3CB4E0071030A /* MarkdownUI */,
 			);
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
@@ -203,6 +206,7 @@
 			packageReferences = (
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 				EE00CBC12963857300FE3DCB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
 			projectDirPath = "";
@@ -405,7 +409,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -436,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -550,6 +554,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
@@ -565,6 +577,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EE00CBC12963857300FE3DCB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
 			productName = CachedAsyncImage;
+		};
+		EE29922E29A3CB4E0071030A /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
 		};
 		EEE7348E2889A72000718ACC /* YouTubePlayerKit */ = {
 			isa = XCSwiftPackageProductDependency;
