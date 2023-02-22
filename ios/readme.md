@@ -1,7 +1,7 @@
 # AWSary is a AWS Dictionary iOS App
 
 
-![AWSary Logo](https://raw.githubusercontent.com/tigpt/awsary-ios/main/logo/icon-logo_152_color.png)
+![AWSary Logo](https://raw.githubusercontent.com/tigpt/AWSary/main/ios/logo/icon-logo_152_color.png)
 
 I've registered [AWSary.com](https://AWSary.com) that don't have any content yet but will eventually be the backend for this app developed on AWS.
 
