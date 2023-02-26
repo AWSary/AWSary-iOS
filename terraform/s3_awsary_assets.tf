@@ -3,7 +3,8 @@ locals {
 }
 
 module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
+  source  = "terraform-aws-modules/s3-bucket/aws"
+  version = "~> 3.0"
 
   bucket = local.bucket_name
   acl    = "private"
