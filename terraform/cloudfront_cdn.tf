@@ -46,6 +46,8 @@ module "cloudfront" {
 
     # This is id for SecurityHeadersPolicy copied from https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-response-headers-policies.html
     response_headers_policy_id = "67f7725c-6f97-4210-82d7-5512b31e9d03"
+    cache_policy_id            = "658327ea-f89d-4fab-a63d-7e88639e58f6"
+    use_forwarded_values = false
   }
 
 
@@ -59,6 +61,9 @@ module "cloudfront" {
       cached_methods  = ["GET", "HEAD"]
       compress        = true
       query_string    = true
+
+      cache_policy_id            = "658327ea-f89d-4fab-a63d-7e88639e58f6"
+      use_forwarded_values = false
     }
   ]
 
