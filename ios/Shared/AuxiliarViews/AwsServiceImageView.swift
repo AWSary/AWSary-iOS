@@ -6,23 +6,16 @@
 //
 
 import SwiftUI
-import CachedAsyncImage
+import SDWebImageSwiftUI
 
 struct AwsServiceImageView: View {
     let service: awsService
     var body: some View{
-        CachedAsyncImage(url: URL(string: service.imageURL)) { phase in
-            if let image = phase.image{
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            } else if phase.error != nil {
-                Image(systemName: "photo")
-                    .font(.largeTitle)
-            } else {
-                ProgressView()
-            }
-        }.onDrag({
+       WebImage(url: URL(string: service.imageURL))
+          .resizable()
+          .indicator(.activity)
+          .scaledToFit()
+          .onDrag({
            print("Dragging name:\(service.name) id:\(service.id)")
            let cache = URLCache.shared
            //let request = URLRequest(url: URL(string: service.imageURL)!)
