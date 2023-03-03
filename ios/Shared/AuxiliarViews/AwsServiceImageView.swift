@@ -15,15 +15,12 @@ struct AwsServiceImageView: View {
             if let image = phase.image{
                 image
                     .resizable()
-                    .cornerRadius(8)
                     .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: 100, maxHeight: 100)
             } else if phase.error != nil {
                 Image(systemName: "photo")
                     .font(.largeTitle)
             } else {
                 ProgressView()
-                    .frame(width: 100, height: 100, alignment: .center)
             }
         }.onDrag({
            print("Dragging name:\(service.name) id:\(service.id)")
@@ -39,6 +36,8 @@ struct AwsServiceImageView: View {
            let itemProvider = NSItemProvider(object: dragImage as UIImage)
            return itemProvider
         })
+        .frame(width: 100, height: 100, alignment: .center)
+        .cornerRadius(8)
     }
 }
 
