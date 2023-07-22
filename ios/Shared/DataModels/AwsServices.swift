@@ -51,5 +51,6 @@ class AwsServices: ObservableObject {
    
     func refresh(){
        getData()
+       services.sort {$0.name < $1.name}
     }
 }
