@@ -35,34 +35,6 @@ struct ContentView: View {
                  }
              }).padding(.horizontal, 12)
          }
-//         List{
-//            ForEach(filteredAwsServices, id:\.id){ item in
-//               NavigationLink(
-//                  destination:
-//                     DetailsView(service: item)
-//               ){
-//                  HStack{
-//                     LazyImage(source: URL(string: item.imageURL)) { state in
-//                        if let image = state.image {
-//                           image.cornerRadius(8)
-//                        } else if state.error != nil {
-//                           Text("Error Loading Image").font(.footnote).multilineTextAlignment(.center)
-//                        } else {
-//                           ProgressView()
-//                        }
-//                     }
-//                     .frame(width: 64, height: 64)
-//                     //.clipShape(RoundedRectangle(cornerRadius: 8))
-//                     VStack(alignment: .leading){
-//                        Text(item.name).font(.title2).lineLimit(2)
-//                        Text(item.shortDesctiption).font(.footnote).lineLimit(2)
-//                           .foregroundColor(Color.gray)
-//                     }
-//                  }
-//                  .frame(height: 68)
-//               }
-//            }
-//         }
          .refreshable {
             AwsServices().refresh()
          }
