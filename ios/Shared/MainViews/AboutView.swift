@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppReview
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
@@ -43,7 +44,10 @@ struct AboutView: View {
          .navigationTitle("About AWSary")
          .toolbar {
             ToolbarItem(placement: .confirmationAction){
-               Button("Done", action: {dismiss()})
+               Button("Done", action: {
+                  dismiss()
+                  AppReview.requestIf(launches: 3, days: 5)
+               })
             }
          }
       }
