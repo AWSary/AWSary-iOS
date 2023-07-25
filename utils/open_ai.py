@@ -1,5 +1,6 @@
 import openai
 
+openai.api_key = "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"
 
 import boto3
 import json
