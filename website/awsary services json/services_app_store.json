@@ -1,0 +1,930 @@
+[
+    {
+        "name": "Activate",
+        "longName": "AWS Activate",
+        "shortDesctiption": "AWS Activate is a program designed to provide startups with the resources they need to get started on Amazon Web Services (AWS). It provides startups with access to credits, training, and support to help them quickly get up and running on AWS.\nThere are two tiers of the AWS Activate program: the AWS Activate Portfolio and the AWS Activate Platform.\nThe AWS Activate Portfolio is for startups that have received venture capital, equity investment, or grants. It provides startups with credits, support, and training to help them get started on AWS.\nThe AWS Activate Platform is for startups that are part of a startup accelerator, incubator, or seed stage funding program. It provides startups with credits and support to help them get started on AWS.\nBoth tiers of the AWS Activate program provide startups with access to AWS experts and a variety of resources, including:\n- Credits: Startup companies can receive credits to help cover their AWS usage costs.\n- Training and resources: Startup companies can access online training and resources to help them learn how to use AWS.\n- Support: Startup companies can get support from AWS experts to help them get started on AWS.\n\nThe AWS Activate program is designed to help startups get started quickly and easily on AWS, so they can focus on building and growing their businesses.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Activate_64@5x.png",
+        "youtube_id": "",
+        "id": 27
+    },
+    {
+        "name": "Amplify",
+        "longName": "AWS Amplify",
+        "shortDesctiption": "AWS Amplify is a set of tools and services that helps developers build, deploy, and manage cloud-powered applications. It provides a set of libraries, UI components, and a command-line interface (CLI) to build mobile and web applications powered by AWS services.\n\nOne of the main features of AWS Amplify is the ability to set up and manage a cloud-powered back-end for your application with just a few lines of code. This back-end can include features such as storage, database, authentication, and serverless functions, among others.\n\nAWS Amplify also provides a set of UI components that you can use to build the front-end of your application. These components are designed to work with the AWS back-end and can be easily customized to fit the needs of your application.\n\nIn addition to these features, AWS Amplify also provides a CLI that you can use to set up and manage your cloud resources, as well as to deploy your application to the cloud.\n\nOverall, AWS Amplify is a powerful set of tools and services that makes it easy for developers to build, deploy, and manage cloud-powered applications. It provides a simple and flexible way to build applications powered by AWS services, without the need to manage the underlying infrastructure.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Amplify_64@5x.png",
+        "youtube_id": "",
+        "id": 28
+    },
+    {
+        "name": "App Mesh",
+        "longName": "AWS App Mesh",
+        "shortDesctiption": "AWS App Mesh is a service mesh that makes it easy to monitor and control microservices running on Amazon Web Services (AWS). It provides a set of APIs and tools for creating and managing a mesh of services, as well as for monitoring and securing communication between those services.\nA service mesh is a transparent infrastructure layer that allows you to manage communication between your microservices. It gives you visibility into the health and performance of your microservices, as well as the ability to monitor and control the traffic between them.\nAWS App Mesh is designed to work with Amazon ECS, Amazon EKS, and Kubernetes on AWS. It provides integration with these container orchestration platforms, making it easy to set up and manage a service mesh for your microservices.\nAWS App Mesh provides features such as:\n- Traffic routing: You can use App Mesh to route traffic between your microservices based on service-level objectives such as latency and error rates.\n- Resiliency: App Mesh provides features such as retries and timeouts to help your microservices handle failures and errors.\n- Observability: App Mesh provides detailed metrics and logs for your microservices, making it easy to monitor the health and performance of your application.\n- Security: App Mesh integrates with AWS Identity and Access Management (IAM) and supports mutual TLS authentication to secure communication between your microservices.\n\nOverall, AWS App Mesh is a powerful tool for managing and monitoring microservices running on AWS. It provides a set of APIs and tools for creating and managing a service mesh, as well as for monitoring and securing communication between your microservices.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-App-Mesh_64@5x.png",
+        "youtube_id": "",
+        "id": 29
+    },
+    {
+        "name": "App Runner",
+        "longName": "AWS App Runner",
+        "shortDesctiption": "AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized applications on AWS. It provides a user-friendly interface for defining and deploying your application, as well as for scaling and managing it once it is running.\n\nWith AWS App Runner, you can define your application using a simple YAML configuration file that specifies the containers and resources your application needs. App Runner then takes care of building and deploying your application, as well as managing the underlying infrastructure.\n\nApp Runner integrates with other AWS services such as Amazon ECR (for container images) and Amazon ECS (for container orchestration), making it easy to build and deploy applications that are powered by these services.\n\nAWS App Runner provides features such as:\n\n- A simple and intuitive user interface for building and deploying applications\n- Automated build and deployment pipelines for fast and reliable updates to your application\n- Scaling and resource management to ensure that your application has the resources it needs to run smoothly\n- Integration with other AWS services such as Amazon ECR and Amazon ECS\n\nOverall, AWS App Runner is a fully managed service that makes it easy to build, deploy, and run containerized applications on AWS. It provides a user-friendly interface and integrates with other AWS services to make it easy to build and manage cloud-powered applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-App-Runner_64@5x.png",
+        "youtube_id": "",
+        "id": 30
+    },
+    {
+        "name": "AppConfig",
+        "longName": "AWS AppConfig",
+        "shortDesctiption": "AWS AppConfig is a service that helps you to easily and quickly deploy application configurations. It provides a way to define and store configurations in a central location, as well as to roll out configurations to your applications in a controlled and monitored way.\n\nWith AWS AppConfig, you can define your application configurations in a central location, such as an Amazon S3 bucket or an AWS Systems Manager Parameter Store parameter. You can then use AppConfig to roll out these configurations to your applications, either on a schedule or on-demand.\n\nAppConfig provides features such as:\n\n- Deployment policies: You can use deployment policies to control how configurations are rolled out to your applications. For example, you can specify a percentage of users to receive the new configuration, or you can specify a time window for the rollout.\n- Monitoring and feedback: AppConfig provides detailed monitoring and feedback on the status of your configuration deployments, including error rates and success rates.\n- Integration with other AWS services: AppConfig integrates with other AWS services such as AWS CodePipeline, AWS CodeBuild, and AWS CodeDeploy, making it easy to build and manage a continuous delivery workflow for your configurations.\n\nOverall, AWS AppConfig is a useful service for deploying and managing application configurations. It provides a central location for storing and managing configurations, as well as tools for rolling out configurations to your applications in a controlled and monitored way.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-AppConfig_64@5x.png",
+        "youtube_id": "",
+        "id": 31
+    },
+    {
+        "name": "AppSync",
+        "longName": "AWS AppSync",
+        "shortDesctiption": "AWS AppSync is a fully managed service that makes it easy to build and deploy serverless applications. It provides a way to create and manage a cloud-powered GraphQL API for your application, as well as to interact with data stored in other AWS services such as Amazon DynamoDB and Amazon S3.\n\nWith AWS AppSync, you can create a GraphQL API for your application by defining the data types and operations that you want to expose. AppSync then generates the API and handles all of the underlying infrastructure and scaling, allowing you to focus on building your application.\n\nAWS AppSync provides features such as:\n\n- Real-time data: You can use AppSync to build real-time applications by subscribing to data updates and receiving notifications when data changes.\n- Offline support: AppSync supports offline data access and synchronization, allowing your application to continue to function even when it is not connected to the internet.\n- Data synchronization: You can use AppSync to synchronize data between devices and servers, making it easy to build applications that work across multiple devices.\n- Security: AppSync integrates with AWS Identity and Access Management (IAM) and supports OAuth and OpenID Connect for user authentication.\n\nOverall, AWS AppSync is a fully managed service that makes it easy to build and deploy serverless applications. It provides a way to create and manage a cloud-powered GraphQL API for your application, as well as to interact with data stored in other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-AppSync_64@5x.png",
+        "youtube_id": "",
+        "id": 32
+    },
+    {
+        "name": "Application Auto Scaling",
+        "longName": "AWS Application Auto Scaling",
+        "shortDesctiption": "AWS Application Auto Scaling is a service that allows you to automatically scale your Amazon Web Services (AWS) resources in response to changing demand. It enables you to set up automatic scaling for Amazon EC2 instances, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas.\n\nApplication Auto Scaling helps you to ensure that your resources are always able to meet the demands of your applications, without the need for manual intervention. It does this by monitoring the performance of your resources and automatically scaling them up or down based on predetermined scaling policies.\n\nWith Application Auto Scaling, you can:\n\n- Set up automatic scaling for Amazon EC2 instances, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas.\n- Use predefined scaling policies or create your own custom policies to specify when and how to scale your resources.\n- Monitor the performance of your resources and receive alerts when there are issues or when scaling actions are taken.\n- Take advantage of integration with other AWS services such as Amazon CloudWatch and AWS Lambda to build custom scaling solutions.\n\nOverall, AWS Application Auto Scaling is a useful service for automatically scaling your AWS resources in response to changing demand. It enables you to set up automatic scaling and provides integration with other AWS services to help you build custom scaling solutions.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 33
+    },
+    {
+        "name": "Application Cost Profiler",
+        "longName": "AWS Application Cost Profiler",
+        "shortDesctiption": "AWS Application Cost Profiler is a service that helps you to understand the cost of running your applications on Amazon Web Services (AWS). It provides a way to analyze your AWS cost and usage data and identify opportunities for cost optimization.\n\nApplication Cost Profiler analyzes your AWS cost and usage data and generates recommendations for reducing costs. It provides recommendations at the resource level, such as Amazon EC2 instances or Amazon RDS databases, as well as at the application level, such as specific microservices or workloads.\n\nApplication Cost Profiler provides features such as:\n\n- Cost optimization recommendations: Application Cost Profiler analyzes your AWS cost and usage data and provides recommendations for reducing costs.\n- Customized recommendations: You can specify your business goals and cost optimization priorities, and Application Cost Profiler will generate customized recommendations based on these priorities.\n- Integration with other AWS services: Application Cost Profiler integrates with other AWS services such as Amazon CloudWatch and AWS Cost Explorer, providing a comprehensive view of your AWS costs and usage.\n\nOverall, AWS Application Cost Profiler is a useful service for understanding the cost of running your applications on AWS. It provides recommendations for reducing costs and integrates with other AWS services to provide a comprehensive view of your AWS costs and usage.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Cost-Profiler_64@5x.png",
+        "youtube_id": "",
+        "id": 34
+    },
+    {
+        "name": "Application Discovery Service",
+        "longName": "AWS Application Discovery Service",
+        "shortDesctiption": "AWS Application Discovery Service is a fully managed service that helps you to identify the applications running in your on-premises data centers, as well as the dependencies between them. It provides a way to discover and document your on-premises infrastructure and applications, as well as to migrate them to the cloud.\n\nApplication Discovery Service performs an automated discovery of your on-premises applications and their dependencies, and generates a map of your infrastructure. It can discover a wide range of applications, including custom and third-party applications, as well as infrastructure components such as servers and network devices.\n\nApplication Discovery Service provides features such as:\n\n- Automated discovery: Application Discovery Service performs an automated discovery of your on-premises applications and their dependencies, and generates a map of your infrastructure.\n- Dependency mapping: Application Discovery Service provides a detailed map of the dependencies between your on-premises applications, making it easier to understand how they work together.\n- Cloud migration support: You can use Application Discovery Service to discover and document your on-premises infrastructure and applications, as well as to migrate them to the cloud.\n\nOverall, AWS Application Discovery Service is a fully managed service that helps you to identify the applications running in your on-premises data centers, as well as the dependencies between them. It provides a way to discover and document your on-premises infrastructure and applications, as well as to migrate them to the cloud.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Discovery-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 35
+    },
+    {
+        "name": "Application Migration Service",
+        "longName": "AWS Application Migration Service",
+        "shortDesctiption": "AWS Application Migration Service is a fully managed service that helps you to migrate your applications to the cloud. It provides a way to migrate your applications to AWS quickly and easily, with minimal downtime and no need to rewrite your application code.\n\nApplication Migration Service provides a range of tools and services to help you migrate your applications to AWS. It supports a variety of migration scenarios, including migrations from on-premises data centers, other cloud environments, and remote desktop environments.\n\nWith Application Migration Service, you can:\n\n- Migrate your applications to AWS quickly and easily, with minimal downtime and no need to rewrite your application code.\n- Use a range of tools and services to migrate your applications, including the AWS Server Migration Service, the AWS Database Migration Service, and the AWS Migration Hub.\n- Monitor and track the progress of your migrations using the AWS Migration Hub.\n\nOverall, AWS Application Migration Service is a fully managed service that helps you to migrate your applications to the cloud. It provides a range of tools and services to help you migrate your applications quickly and easily, with minimal downtime and no need to rewrite your application code.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Migration-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 36
+    },
+    {
+        "name": "Artifact",
+        "longName": "AWS Artifact",
+        "shortDesctiption": "AWS Artifact is a portal that provides on-demand access to AWS compliance reports and select online agreements. These reports and agreements pertain to various AWS services and compliance frameworks, such as PCI DSS, SOC, and ISO.\n\nAWS Artifact allows you to access and download the following types of documents:\n\n- Compliance reports: These are reports that provide information about the compliance of AWS services with various regulatory frameworks.\n- Online agreements: These are legal agreements that outline the terms and conditions for using specific AWS services.\n\nAWS Artifact is intended to help customers who need to demonstrate compliance with various regulatory frameworks, as well as to review and accept online agreements for AWS services. It provides an easy-to-use portal for accessing the compliance reports and online agreements that are relevant to your use of AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Artifact_64@5x.png",
+        "youtube_id": "",
+        "id": 37
+    },
+    {
+        "name": "Audit Manager",
+        "longName": "AWS Audit Manager",
+        "shortDesctiption": "AWS Audit Manager is a fully managed service that helps you to automate the auditing process for your AWS infrastructure and applications. It provides a way to create and manage assessments of your AWS resources, as well as to document and review findings from those assessments.\n\nWith AWS Audit Manager, you can:\n\n- Create and manage assessments of your AWS resources: You can use Audit Manager to define the scope and objectives of your assessments, as well as to specify the AWS accounts and resources that you want to include in the assessment.\n- Document and review findings from assessments: Audit Manager provides tools for documenting and reviewing the findings from your assessments, including the ability to add comments and annotations, and to track the status of findings.\n- Automate the auditing process: Audit Manager provides a range of features to help you automate the auditing process, including the ability to schedule assessments and to generate reports.\n\nOverall, AWS Audit Manager is a fully managed service that helps you to automate the auditing process for your AWS infrastructure and applications. It provides tools for creating and managing assessments, as well as for documenting and reviewing findings from those assessments.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Audit-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 38
+    },
+    {
+        "name": "Auto Scaling",
+        "longName": "AWS Auto Scaling",
+        "shortDesctiption": "AWS Auto Scaling is a service that allows you to automatically scale your Amazon Web Services (AWS) resources in response to changing demand. It enables you to set up automatic scaling for Amazon EC2 instances, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas.\n\nAuto Scaling helps you to ensure that your resources are always able to meet the demands of your applications, without the need for manual intervention. It does this by monitoring the performance of your resources and automatically scaling them up or down based on predetermined scaling policies.\n\nWith Auto Scaling, you can:\n\n- Set up automatic scaling for Amazon EC2 instances, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas.\n- Use predefined scaling policies or create your own custom policies to specify when and how to scale your resources.\n- Monitor the performance of your resources and receive alerts when there are issues or when scaling actions are taken.\n- Take advantage of integration with other AWS services such as Amazon CloudWatch and AWS Lambda to build custom scaling solutions.\n\nOverall, AWS Auto Scaling is a useful service for automatically scaling your AWS resources in response to changing demand. It enables you to set up automatic scaling and provides integration with other AWS services to help you build custom scaling solutions.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 39
+    },
+    {
+        "name": "Backint Agent",
+        "longName": "AWS Backint Agent",
+        "shortDesctiption": "AWS Backint Agent is a software agent that enables you to use the AWS Backup service to back up data from your on-premises storage systems to AWS. It is designed to work with a range of storage systems, including those from vendors such as NetApp, HPE, and EMC.\n\nWith AWS Backint Agent, you can:\n\n- Use the AWS Backup service to back up data from your on-premises storage systems to AWS.\n- Schedule automated backups of your data and specify retention policies to control how long backups are retained.\n- Monitor the status of your backups and receive notifications when there are issues or when backups are completed.\n- Restore data from backups as needed.\nAWS Backint Agent is a useful tool for backing up data from your on-premises storage systems to AWS. It provides integration with the AWS Backup service, making it easy to set up and manage automated backups of your data.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Backint-Agent_64@5x.png",
+        "youtube_id": "",
+        "id": 40
+    },
+    {
+        "name": "Backup",
+        "longName": "AWS Backup",
+        "shortDesctiption": "AWS Backup is a fully managed service that makes it easy to back up data from your Amazon Web Services (AWS) resources. It provides a centralized location for storing and managing your backups, as well as tools for scheduling and automating backups of your data.\n\nWith AWS Backup, you can:\n\n- Back up data from a wide range of AWS resources, including Amazon EC2 instances, Amazon EBS volumes, Amazon RDS databases, and Amazon DynamoDB tables.\n- Schedule automated backups of your data and specify retention policies to control how long backups are retained.\n- Monitor the status of your backups and receive notifications when there are issues or when backups are completed.\n- Restore data from backups as needed.\n\nAWS Backup is a useful service for backing up data from your AWS resources. It provides a centralized location for storing and managing your backups, as well as tools for scheduling and automating backups of your data.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Backup_64@5x.png",
+        "youtube_id": "",
+        "id": 41
+    },
+    {
+        "name": "Batch",
+        "longName": "AWS Batch",
+        "shortDesctiption": "AWS Batch is a fully managed service that makes it easy to run batch computing workloads on the Amazon Web Services (AWS) cloud. It allows you to run batch jobs of any scale, without the need to provision, manage, or scale the underlying infrastructure.\n\nWith AWS Batch, you can define and submit batch jobs, and AWS Batch will take care of the underlying infrastructure and scaling required to run your jobs. You can specify the resources and dependencies required for your jobs, and AWS Batch will automatically schedule and run your jobs on the most appropriate infrastructure.\n\nAWS Batch provides features such as:\n\n- Job scheduling: AWS Batch automatically schedules and runs your batch jobs, based on the resources and dependencies you specify.\n- Resource management: AWS Batch provides automatic scaling of the underlying infrastructure based on the needs of your batch jobs.\n- Integration with other AWS services: AWS Batch integrates with other AWS services such as Amazon S3 and Amazon ECR, making it easy to run batch jobs that utilize these services.\n\nOverall, AWS Batch is a fully managed service that makes it easy to run batch computing workloads on the AWS cloud. It allows you to run batch jobs of any scale, without the need to provision, manage, or scale the underlying infrastructure.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Batch_64@5x.png",
+        "youtube_id": "",
+        "id": 42
+    },
+    {
+        "name": "Billing Conductor",
+        "longName": "AWS Billing Conductor",
+        "shortDesctiption": "AWS Billing Conductor is a fully managed service that helps you to optimize your Amazon Web Services (AWS) cost and usage by providing a way to analyze and optimize your AWS billing data. It provides tools and insights to help you understand your AWS cost and usage patterns, as well as to identify opportunities for cost optimization.\n\nWith AWS Billing Conductor, you can:\n\n- Analyze your AWS cost and usage data: Billing Conductor provides tools for analyzing and visualizing your AWS cost and usage data, including detailed breakdowns of your costs by service, region, and account.\n- Identify opportunities for cost optimization: Billing Conductor provides recommendations for reducing your AWS costs based on your cost and usage patterns.\n- Monitor your cost and usage: Billing Conductor provides alerts and notifications when your cost or usage exceeds specified thresholds, helping you to stay on top of your AWS spending.\n\nOverall, AWS Billing Conductor is a fully managed service that helps you to optimize your AWS cost and usage. It provides tools and insights to help you understand your AWS cost and usage patterns, as well as to identify opportunities for cost optimization.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Billing-Conductor_64@5x.png",
+        "youtube_id": "",
+        "id": 43
+    },
+    {
+        "name": "Budgets",
+        "longName": "AWS Budgets",
+        "shortDesctiption": "AWS Budgets is a service that helps you to monitor and control your Amazon Web Services (AWS) spending. It provides a way to set up budgets that track your AWS costs and usage, and to receive alerts when your actual costs or usage exceed your budgeted amount.\n\nWith AWS Budgets, you can:\n\n- Set up budgets that track your AWS costs and usage: You can create budgets that track your AWS costs and usage by service, by account, or across your entire organization.\n- Receive alerts when your costs or usage exceed your budgeted amount: You can specify the threshold at which you want to receive alerts, and AWS Budgets will send you notifications when your actual costs or usage exceed your budgeted amount.\n- Monitor your AWS spending: AWS Budgets provides detailed reports and visualizations that help you to understand your AWS spending, including breakdowns of your costs by service, region, and account.\n\nOverall, AWS Budgets is a useful service for monitoring and controlling your AWS spending. It provides a way to set up budgets that track your AWS costs and usage, and to receive alerts when your actual costs or usage exceed your budgeted amount.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Budgets_64@5x.png",
+        "youtube_id": "",
+        "id": 44
+    },
+    {
+        "name": "Certificate Manager",
+        "longName": "AWS Certificate Manager",
+        "shortDesctiption": "AWS Certificate Manager (ACM) is a service that makes it easy to provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with Amazon Web Services (AWS) resources. It provides a central location for storing, managing, and deploying your SSL/TLS certificates, and integrates with other AWS services such as Elastic Load Balancing and Amazon CloudFront.\n\nWith ACM, you can:\n\n- Request and manage SSL/TLS certificates: You can use ACM to request and manage SSL/TLS certificates for your domains, including certificates for wildcard domains and multi-domain certificates.\n- Automatically deploy certificates: ACM integrates with other AWS services such as Elastic Load Balancing and Amazon CloudFront, allowing you to automatically deploy your SSL/TLS certificates to these services.\n- Monitor certificate expiration: ACM provides alerts when your SSL/TLS certificates are due to expire, helping you to avoid disruptions to your service.\n\nOverall, AWS Certificate Manager is a useful service for provisioning, managing, and deploying SSL/TLS certificates for use with AWS resources. It provides a central location for storing, managing, and deploying your certificates, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Certificate-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 45
+    },
+    {
+        "name": "Chatbot",
+        "longName": "AWS Chatbot",
+        "shortDesctiption": "AWS Chatbot is a service that allows you to use Amazon Chime chat rooms or Slack channels to receive alerts, run commands, and take actions in response to those alerts and commands. It provides a way to use chat rooms and channels as an interface for interacting with your AWS resources, and integrates with other AWS services such as Amazon CloudWatch and AWS Lambda.\n\nWith AWS Chatbot, you can:\n\n- Use chat rooms or channels to receive alerts and run commands: You can set up AWS Chatbot to send alerts and run commands in response to events or conditions that you specify.\n- Take actions in response to alerts and commands: You can use AWS Chatbot to trigger actions such as scaling resources or running custom scripts in response to alerts and commands.\n- Integrate with other AWS services: AWS Chatbot integrates with other AWS services such as Amazon CloudWatch and AWS Lambda, allowing you to use chat rooms and channels as an interface for interacting with those services.\n\nOverall, AWS Chatbot is a useful service for using chat rooms and channels as an interface for interacting with your AWS resources. It provides a way to receive alerts, run commands, and take actions in response to those alerts and commands, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Chatbot_64@5x.png",
+        "youtube_id": "",
+        "id": 46
+    },
+    {
+        "name": "Client VPN",
+        "longName": "AWS Client VPN",
+        "shortDesctiption": "AWS Client VPN is a fully managed service that enables you to securely access your Amazon Virtual Private Cloud (Amazon VPC) and your on-premises data centers over an IPsec VPN connection. It provides a way to establish a secure, encrypted connection between your VPC and your on-premises network, and integrates with other AWS services such as Amazon CloudWatch and AWS Directory Service.\n\nWith AWS Client VPN, you can:\n\n- Securely access your Amazon VPC and your on-premises data centers over an IPsec VPN connection.\n- Use Active Directory or a self-managed OpenLDAP directory to manage access to your resources.\n- Monitor the status of your VPN connections using Amazon CloudWatch.\n\nOverall, AWS Client VPN is a fully managed service that enables you to securely access your Amazon VPC and your on-premises data centers over an IPsec VPN connection. It provides a way to establish a secure, encrypted connection between your VPC and your on-premises network, and integrates with other AWS services such as Amazon CloudWatch and AWS Directory Service.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Client-VPN_64@5x.png",
+        "youtube_id": "",
+        "id": 47
+    },
+    {
+        "name": "Cloud Control API",
+        "longName": "AWS Cloud Control API",
+        "shortDesctiption": "The AWS Cloud Control API is a set of APIs that allows you to programmatically manage your Amazon Web Services (AWS) resources. It provides a way to automate tasks such as provisioning and managing resources, and to interact with other AWS services such as Amazon EC2 and Amazon S3.\n\nThe AWS Cloud Control API consists of a number of individual APIs, each of which provides access to a specific set of AWS resources and functionality. For example, the Amazon EC2 API allows you to manage your Amazon Elastic Compute Cloud (Amazon EC2) instances, while the Amazon S3 API allows you to manage your Amazon Simple Storage Service (Amazon S3) buckets and objects.\n\nWith the AWS Cloud Control API, you can:\n\n- Programmatically manage your AWS resources: You can use the AWS Cloud Control API to automate tasks such as provisioning and managing resources.\n- Interact with other AWS services: You can use the AWS Cloud Control API to interact with other AWS services such as Amazon EC2 and Amazon S3.\n- Build custom applications: You can use the AWS Cloud Control API to build custom applications that interact with your AWS resources and services.\n\nOverall, the AWS Cloud Control API is a useful tool for programmatically managing your AWS resources and interacting with other AWS services. It provides a way to automate tasks and build custom applications that work with your AWS resources.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Control-API_64@5x.png",
+        "youtube_id": "",
+        "id": 48
+    },
+    {
+        "name": "Cloud Development Kit (CDK)",
+        "longName": "AWS Cloud Development Kit",
+        "shortDesctiption": "The AWS Cloud Development Kit (CDK) is a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. It allows you to use familiar programming languages, such as TypeScript, JavaScript, Python, C#, and Java, to build cloud infrastructure in an organized and predictable manner.\n\nWith the CDK, you can:\n\n- Use familiar programming languages to define cloud infrastructure: You can use the CDK to define cloud infrastructure using programming languages such as TypeScript, JavaScript, Python, C#, and Java.\n- Use AWS CloudFormation constructs to define your infrastructure: The CDK provides a library of constructs that you can use to define your cloud infrastructure in a way that is familiar to users of AWS CloudFormation.\n- Provision your infrastructure through AWS CloudFormation: The CDK compiles your infrastructure definitions into AWS CloudFormation templates and provisions your infrastructure through CloudFormation.\n\nOverall, the AWS Cloud Development Kit is a software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. It allows you to use familiar programming languages to build cloud infrastructure in an organized and predictable manner.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Development-Kit_64@5x.png",
+        "youtube_id": "",
+        "id": 49
+    },
+    {
+        "name": "Cloud Map",
+        "longName": "AWS Cloud Map",
+        "shortDesctiption": "AWS Cloud Map is a service that makes it easy to discover and connect to resources that are hosted in the Amazon Web Services (AWS) cloud. It provides a way to register and discover resources such as web services, databases, and file storage systems, and to connect to them using domain names and other identifying information.\n\nWith AWS Cloud Map, you can:\n\n- Register resources: You can use AWS Cloud Map to register your resources with a unique identifier and metadata such as a domain name, IP address, or port number.\n- Discover resources: You can use AWS Cloud Map to discover resources that are registered with the service, using their unique identifier or metadata such as a domain name.\n- Connect to resources: You can use AWS Cloud Map to connect to your resources using their unique identifier or metadata, without the need to hardcode specific IP addresses or port numbers.\n\nOverall, AWS Cloud Map is a useful service for discovering and connecting to resources that are hosted in the AWS cloud. It provides a way to register and discover resources, and to connect to them using domain names and other identifying information.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Map_64@5x.png",
+        "youtube_id": "",
+        "id": 50
+    },
+    {
+        "name": "Cloud WAN",
+        "longName": "AWS Wavelength",
+        "shortDesctiption": "AWS Cloud WAN (AWS Wavelength) is a service that enables you to build applications that have low latency and high performance for users on 5G devices. It does this by providing access to compute and storage resources that are physically located in the same data centers as major mobile network operators (MNOs).\n\nWith AWS Cloud WAN, you can:\n\n- Build applications with low latency and high performance: AWS Cloud WAN provides access to compute and storage resources that are physically located in the same data centers as MNOs, enabling you to build applications with low latency and high performance for users on 5G devices.\n- Use familiar AWS tools and services: AWS Cloud WAN is fully integrated with other AWS services, allowing you to use familiar tools and services such as Amazon EC2 and Amazon S3 to build and deploy your applications.\n- Scale your applications as needed: AWS Cloud WAN provides the ability to scale your applications as needed to meet the demands of your users.\n\nOverall, AWS Cloud WAN is a service that enables you to build applications with low latency and high performance for users on 5G devices. It provides access to compute and storage resources that are physically located in the same data centers as MNOs, and is fully integrated with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-WAN_64@5x.png",
+        "youtube_id": "",
+        "id": 51
+    },
+    {
+        "name": "Cloud9",
+        "longName": "AWS Cloud9",
+        "shortDesctiption": "AWS Cloud WAN (AWS Wavelength) is a service that enables you to build applications that have low latency and high performance for users on 5G devices. It does this by providing access to compute and storage resources that are physically located in the same data centers as major mobile network operators (MNOs).\n\nWith AWS Cloud WAN, you can:\n\n- Build applications with low latency and high performance: AWS Cloud WAN provides access to compute and storage resources that are physically located in the same data centers as MNOs, enabling you to build applications with low latency and high performance for users on 5G devices.\n- Use familiar AWS tools and services: AWS Cloud WAN is fully integrated with other AWS services, allowing you to use familiar tools and services such as Amazon EC2 and Amazon S3 to build and deploy your applications.\n- Scale your applications as needed: AWS Cloud WAN provides the ability to scale your applications as needed to meet the demands of your users.\n\nOverall, AWS Cloud WAN is a service that enables you to build applications with low latency and high performance for users on 5G devices. It provides access to compute and storage resources that are physically located in the same data centers as MNOs, and is fully integrated with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud9_64@5x.png",
+        "youtube_id": "",
+        "id": 52
+    },
+    {
+        "name": "CloudFormation",
+        "longName": "AWS CloudFormation",
+        "shortDesctiption": "AWS CloudFormation is a service that helps you to create and manage infrastructure for your applications in the Amazon Web Services (AWS) cloud. It provides a way to use templates to define your infrastructure as code, and to automate the process of creating and managing your infrastructure.\n\nWith AWS CloudFormation, you can:\n\n- Define your infrastructure as code: You can use templates written in JSON or YAML to define your infrastructure in a way that is easy to understand and maintain.\n- Automate the process of creating and managing your infrastructure: You can use CloudFormation to automate the process of creating and managing your infrastructure, including tasks such as provisioning and configuring resources.\n- Version and manage your infrastructure: CloudFormation allows you to version your templates and infrastructure, and to use features such as stacksets to manage infrastructure across multiple accounts and regions.\n\nOverall, AWS CloudFormation is a useful service for creating and managing infrastructure for your applications in the AWS cloud. It provides a way to define your infrastructure as code, and to automate the process of creating and managing your infrastructure.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudFormation_64@5x.png",
+        "youtube_id": "",
+        "id": 53
+    },
+    {
+        "name": "CloudHSM",
+        "longName": "AWS CloudHSM",
+        "shortDesctiption": "AWS CloudHSM is a service that provides hardware security modules (HSMs) in the cloud. HSMs are physical devices that provide a secure environment for generating, storing, and managing cryptographic keys. They are often used to secure sensitive data such as encryption keys and digital certificates.\n\nWith AWS CloudHSM, you can:\n\n- Use HSMs in the cloud: You can use CloudHSM to access HSMs in the cloud, rather than having to purchase and maintain your own HSMs.\n- Generate, store, and manage cryptographic keys: You can use CloudHSM to generate, store, and manage cryptographic keys in a secure environment.\n- Integrate with other AWS services: CloudHSM integrates with other AWS services such as Amazon S3 and Amazon RDS, allowing you to use your HSMs to secure data in these services.\n\nOverall, AWS CloudHSM is a service that provides hardware security modules (HSMs) in the cloud. It allows you to use HSMs in the cloud to generate, store, and manage cryptographic keys, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudHSM_64@5x.png",
+        "youtube_id": "",
+        "id": 54
+    },
+    {
+        "name": "CloudShell",
+        "longName": "AWS CloudShell",
+        "shortDesctiption": "AWS CloudShell is a service that provides a browser-based shell for interacting with the Amazon Web Services (AWS) cloud. It allows you to run commands and scripts, and to manage your AWS resources using a web-based command line interface (CLI).\n\nWith AWS CloudShell, you can:\n\n- Use a web-based CLI to manage your AWS resources: You can use CloudShell to run commands and scripts, and to manage your AWS resources using a web-based CLI.\n- Access a pre-authenticated CLI: CloudShell provides a pre-authenticated CLI, allowing you to access your AWS resources without the need to manually authenticate.\n- Collaborate with others: CloudShell allows you to share your CloudShell environment with others, enabling collaborative work on AWS resources.\n\nOverall, AWS CloudShell is a service that provides a browser-based shell for interacting with the AWS cloud. It allows you to run commands and scripts, and to manage your AWS resources using a web-based CLI.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudShell_64@5x.png",
+        "youtube_id": "",
+        "id": 55
+    },
+    {
+        "name": "CloudTrail",
+        "longName": "AWS CloudTrail",
+        "shortDesctiption": "AWS CloudTrail is a service that enables you to track changes to your Amazon Web Services (AWS) resources and to log those changes. It provides a way to audit and monitor activity in your AWS account, and can help you to identify and troubleshoot issues, as well as to meet compliance requirements.\n\nWith AWS CloudTrail, you can:\n\n- Track changes to your AWS resources: CloudTrail logs changes to your AWS resources, including information about who made the change and when it was made.\n- Monitor activity in your AWS account: CloudTrail provides a record of activity in your AWS account, allowing you to monitor for unusual or unauthorized activity.\n- Identify and troubleshoot issues: You can use CloudTrail to identify and troubleshoot issues by reviewing the log data it provides.\n- Meet compliance requirements: CloudTrail can help you to meet compliance requirements by providing a record of activity in your AWS account.\n\nOverall, AWS CloudTrail is a useful service for tracking changes to your AWS resources and logging those changes. It provides a way to audit and monitor activity in your AWS account, and can help you to identify and troubleshoot issues, as well as to meet compliance requirements.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudTrail_64@5x.png",
+        "youtube_id": "",
+        "id": 56
+    },
+    {
+        "name": "CodeArtifact",
+        "longName": "AWS CodeArtifact",
+        "shortDesctiption": "AWS CodeArtifact is a fully managed service that makes it easy to store, publish, and share software packages. It provides a central location for storing and managing your software packages, and integrates with other AWS services such as AWS CodeBuild and AWS CodePipeline.\n\nWith AWS CodeArtifact, you can:\n\n- Store, publish, and share software packages: CodeArtifact provides a central location for storing and managing your software packages, and allows you to publish and share those packages with others.\n- Integrate with other AWS services: CodeArtifact integrates with other AWS services such as AWS CodeBuild and AWS CodePipeline, allowing you to use those services to build and release your software packages.\n- Use familiar tools: CodeArtifact is compatible with popular package management tools such as Maven, npm, and pip, allowing you to use your existing tools and processes.\n\nOverall, AWS CodeArtifact is a fully managed service that makes it easy to store, publish, and share software packages. It provides a central location for storing and managing your software packages, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeArtifact_64@5x.png",
+        "youtube_id": "",
+        "id": 57
+    },
+    {
+        "name": "CodeBuild",
+        "longName": "AWS CodeBuild",
+        "shortDesctiption": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. It allows you to build and test your code in a variety of languages, and integrates with other AWS services such as AWS CodeCommit and AWS CodePipeline.\n\nWith AWS CodeBuild, you can:\n\n- Build and test your code in a variety of languages: CodeBuild supports a wide range of languages, including Java, C++, and Python, and allows you to specify custom build environments.\n- Automate your build and test workflows: CodeBuild integrates with other AWS services such as AWS CodeCommit and AWS CodePipeline, allowing you to automate your build and test workflows.\n- Scale your builds: CodeBuild can automatically scale build capacity up or down to meet the needs of your projects, allowing you to build and test your code faster.\n\nOverall, AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. It allows you to build and test your code in a variety of languages, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeBuild_64@5x.png",
+        "youtube_id": "",
+        "id": 58
+    },
+    {
+        "name": "CodeCommit",
+        "longName": "AWS CodeCommit",
+        "shortDesctiption": "AWS CodeCommit is a fully managed version control service that makes it easy to host and manage your Git repositories. It provides a secure and scalable way to store your code, and integrates with other AWS services such as AWS CodeBuild and AWS CodePipeline.\n\nWith AWS CodeCommit, you can:\n\n- Host and manage your Git repositories: CodeCommit provides a secure and scalable way to store your code, and allows you to use familiar Git tools and processes to manage your repositories.\n- Collaborate with others: CodeCommit allows you to invite others to collaborate on your repositories, and provides features such as pull requests and code reviews to facilitate collaboration.\n- Integrate with other AWS services: CodeCommit integrates with other AWS services such as AWS CodeBuild and AWS CodePipeline, allowing you to use those services to build and deploy your code.\n\nOverall, AWS CodeCommit is a fully managed version control service that makes it easy to host and manage your Git repositories. It provides a secure and scalable way to store your code, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeCommit_64@5x.png",
+        "youtube_id": "",
+        "id": 59
+    },
+    {
+        "name": "CodeDeploy",
+        "longName": "AWS CodeDeploy",
+        "shortDesctiption": "AWS CodeDeploy is a fully managed service that makes it easy to automate the deployment of your applications to a variety of compute platforms, including Amazon EC2, AWS Fargate, and on-premises servers. It allows you to deploy your code quickly and reliably, and integrates with other AWS services such as AWS CodePipeline and Amazon ECS.\n\nWith AWS CodeDeploy, you can:\n\n- Automate the deployment of your applications: CodeDeploy makes it easy to automate the deployment of your applications to a variety of compute platforms, including Amazon EC2, AWS Fargate, and on-premises servers.\n- Deploy your code quickly and reliably: CodeDeploy provides features such as blue/green deployments and canary deployments to help you deploy your code quickly and reliably.\n- Integrate with other AWS services: CodeDeploy integrates with other AWS services such as AWS CodePipeline and Amazon ECS, allowing you to use those services to build and deploy your applications.\n\nOverall, AWS CodeDeploy is a fully managed service that makes it easy to automate the deployment of your applications to a variety of compute platforms. It allows you to deploy your code quickly and reliably, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeDeploy_64@5x.png",
+        "youtube_id": "",
+        "id": 60
+    },
+    {
+        "name": "CodePipeline",
+        "longName": "AWS CodePipeline",
+        "shortDesctiption": "AWS CodePipeline is a fully managed service that helps you automate the build, test, and deployment of your software projects. It provides a way to orchestrate the steps required to release your software, and integrates with other AWS services such as AWS CodeCommit, AWS CodeBuild, and AWS CodeDeploy.\n\nWith AWS CodePipeline, you can:\n\n- Automate the build, test, and deployment of your software projects: CodePipeline provides a way to automate the steps required to release your software, including tasks such as building, testing, and deploying code.\n- Integrate with other AWS services: CodePipeline integrates with other AWS services such as AWS CodeCommit, AWS CodeBuild, and AWS CodeDeploy, allowing you to use those services to build and deploy your software.\n- Visualize and monitor your release process: CodePipeline provides a visual representation of your release process, and allows you to monitor the progress of your releases.\n\nOverall, AWS CodePipeline is a fully managed service that helps you automate the build, test, and deployment of your software projects. It provides a way to orchestrate the steps required to release your software, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodePipeline_64@5x.png",
+        "youtube_id": "",
+        "id": 61
+    },
+    {
+        "name": "CodeStar",
+        "longName": "AWS CodeStar",
+        "shortDesctiption": "AWS CodeStar is a fully managed service that helps you develop and deploy applications quickly. It provides a cloud-based integrated development environment (IDE), and integrates with other AWS services such as AWS CodeCommit, AWS CodeBuild, and AWS CodePipeline.\n\nWith AWS CodeStar, you can:\n\n- Develop and deploy applications quickly: CodeStar provides a cloud-based IDE and integrates with other AWS services, allowing you to develop and deploy applications quickly.\n- Collaborate with others: CodeStar allows you to invite others to collaborate on your projects, and provides features such as code reviews to facilitate collaboration.\n- Monitor your applications: CodeStar provides tools for monitoring your applications, including integration with Amazon CloudWatch.\n\nOverall, AWS CodeStar is a fully managed service that helps you develop and deploy applications quickly. It provides a cloud-based IDE and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeStar_64@5x.png",
+        "youtube_id": "",
+        "id": 62
+    },
+    {
+        "name": "Command Line Interface (CLI)",
+        "longName": "AWS Command Line Interface (CLI)",
+        "shortDesctiption": "The AWS Command Line Interface (CLI) is a tool that you can use to control and automate your Amazon Web Services (AWS) resources from the command line. It allows you to run commands and scripts to manage your AWS resources, and provides a way to automate tasks such as provisioning and configuring resources.\n\nWith the AWS CLI, you can:\n\n- Control and automate your AWS resources: You can use the AWS CLI to run commands and scripts to manage your AWS resources, including tasks such as creating and deleting resources, and modifying resource configurations.\n- Run commands in multiple AWS regions and accounts: The AWS CLI supports multiple regions and accounts, allowing you to manage your resources across those regions and accounts.\n- Use the AWS CLI with other tools: You can use the AWS CLI in combination with other tools such as scripts, continuous integration and delivery (CI/CD) systems, and configuration management tools.\n\nOverall, the AWS CLI is a useful tool for controlling and automating your AWS resources from the command line. It allows you to run commands and scripts to manage your resources, and provides a way to automate tasks such as provisioning and configuring resources.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Command-Line-Interface_64@5x.png",
+        "youtube_id": "",
+        "id": 63
+    },
+    {
+        "name": "Compute Optimizer",
+        "longName": "AWS Compute Optimizer",
+        "shortDesctiption": "AWS Compute Optimizer is a service that helps you optimize the performance and cost of your Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Elastic Container Service (Amazon ECS) workloads. It provides recommendations for optimizing your workloads by identifying under-utilized or over-utilized resources, and by suggesting Amazon EC2 instance types that are better suited for your workloads.\n\nWith AWS Compute Optimizer, you can:\n\n- Identify under-utilized or over-utilized resources: Compute Optimizer analyzes your Amazon EC2 and Amazon ECS workloads and identifies resources that are under-utilized or over-utilized, helping you to optimize their usage and reduce costs.\n- Get recommendations for Amazon EC2 instance types: Compute Optimizer provides recommendations for Amazon EC2 instance types that are better suited for your workloads, helping you to improve the performance of your workloads.\n- Monitor your workloads over time: Compute Optimizer allows you to monitor your workloads over time, helping you to identify trends and potential optimization opportunities.\n\nOverall, AWS Compute Optimizer is a service that helps you optimize the performance and cost of your Amazon EC2 and Amazon ECS workloads. It provides recommendations for optimizing your workloads by identifying under-utilized or over-utilized resources, and by suggesting Amazon EC2 instance types that are better suited for your workloads.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Compute-Optimizer_64@5x.png",
+        "youtube_id": "",
+        "id": 64
+    },
+    {
+        "name": "Config",
+        "longName": "AWS Config",
+        "shortDesctiption": "AWS Config is a service that helps you to assess, audit, and evaluate the configurations of your AWS resources. It provides a way to track changes to your resources and their configurations, and can help you to comply with regulations and standards such as the Payment Card Industry Data Security Standard (PCI DSS).\n\nWith AWS Config, you can:\n\n- Track changes to your resources and their configurations: Config logs changes to your AWS resources and their configurations, allowing you to see what has changed over time.\n- Evaluate the compliance of your resources: Config provides a way to evaluate the compliance of your resources with rules that you define, helping you to ensure that your resources are configured in accordance with your policies and standards.\n- Monitor the configurations of your resources: Config allows you to monitor the configurations of your resources, helping you to identify misconfigurations and potential security issues.\n\nOverall, AWS Config is a service that helps you to assess, audit, and evaluate the configurations of your AWS resources. It provides a way to track changes to your resources and their configurations, and can help you to comply with regulations and standards.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Config_64@5x.png",
+        "youtube_id": "",
+        "id": 65
+    },
+    {
+        "name": "Console Mobile Application",
+        "longName": "AWS Console Mobile Application",
+        "shortDesctiption": "The AWS Console Mobile Application is a mobile app that allows you to access your Amazon Web Services (AWS) resources and services from your mobile device. It provides a way to manage your AWS resources and services on the go, and includes features such as the ability to view resource usage and costs, and to receive alerts when specific thresholds are met or exceeded.\n\nWith the AWS Console Mobile Application, you can:\n\n- Access your AWS resources and services from your mobile device: The app allows you to manage your AWS resources and services on the go, including tasks such as viewing resource usage and costs, and receiving alerts.\n- View resource usage and costs: The app provides a way to view the usage and costs of your AWS resources and services, helping you to stay within your budget and optimize your usage.\n- Receive alerts when specific thresholds are met or exceeded: The app allows you to set thresholds for resource usage and costs, and will send you alerts when those thresholds are met or exceeded.\n\nOverall, the AWS Console Mobile Application is a mobile app that allows you to access your AWS resources and services from your mobile device. It provides a way to manage your AWS resources and services on the go, and includes features such as the ability to view resource usage and costs, and to receive alerts when specific thresholds are met or exceeded.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Console-Mobile-Application_64@5x.png",
+        "youtube_id": "",
+        "id": 66
+    },
+    {
+        "name": "Control Tower",
+        "longName": "AWS Control Tower",
+        "shortDesctiption": "AWS Control Tower is a service that helps you set up and govern a new, secure, multi-account AWS environment. It provides a set of pre-defined best practices for establishing a secure, compliant, and scalable AWS environment, and includes features such as an account factory and an auditing dashboard.\n\nWith AWS Control Tower, you can:\n\n- Set up and govern a new, secure, multi-account AWS environment: Control Tower provides a set of pre-defined best practices for establishing a secure, compliant, and scalable AWS environment.\n- Use an account factory to create new AWS accounts: Control Tower includes an account factory that allows you to create new AWS accounts in a consistent and automated way.\n- Use an auditing dashboard to monitor your environment: Control Tower provides an auditing dashboard that allows you to monitor your environment for compliance with best practices and policies.\n\nOverall, AWS Control Tower is a service that helps you set up and govern a new, secure, multi-account AWS environment. It provides a set of pre-defined best practices for establishing a secure, compliant, and scalable AWS environment, and includes features such as an account factory and an auditing dashboard.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Control-Tower_64@5x.png",
+        "youtube_id": "",
+        "id": 67
+    },
+    {
+        "name": "Cost Explorer",
+        "longName": "AWS Cost Explorer",
+        "shortDesctiption": "AWS Cost Explorer is a tool that helps you visualize, understand, and manage your Amazon Web Services (AWS) costs and usage. It provides a way to view and analyze your costs and usage over time, and allows you to set up alerts and budgets to help you optimize your costs.\n\nWith AWS Cost Explorer, you can:\n\n- View and analyze your costs and usage over time: Cost Explorer provides a way to view and analyze your AWS costs and usage over time, allowing you to see how your costs are trending and identify opportunities for cost optimization.\n- Set up alerts and budgets: Cost Explorer allows you to set up alerts and budgets to help you optimize your costs. You can set alerts to notify you when your costs exceed a certain threshold, and you can set budgets to help you manage your costs within a specified limit.\n- Use customizable reports: Cost Explorer provides customizable reports that allow you to view and analyze your costs and usage data in a variety of formats, including charts, tables, and CSV files.\n\nOverall, AWS Cost Explorer is a tool that helps you visualize, understand, and manage your AWS costs and usage. It provides a way to view and analyze your costs and usage over time, and allows you to set up alerts and budgets to help you optimize your costs.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cost-Explorer_64@5x.png",
+        "youtube_id": "",
+        "id": 68
+    },
+    {
+        "name": "Cost and Usage Report",
+        "longName": "AWS Cost and Usage Report",
+        "shortDesctiption": "The AWS Cost and Usage Report is a report that provides detailed information about your Amazon Web Services (AWS) costs and usage. It includes data about your AWS usage, costs, and reservations, and allows you to analyze your costs and usage over time.\n\nWith the AWS Cost and Usage Report, you can:\n\n- View detailed information about your AWS costs and usage: The report provides data about your AWS usage, costs, and reservations, including information about resource types, regions, and accounts.\n- Analyze your costs and usage over time: The report allows you to view and analyze your costs and usage data over time, helping you to identify trends and optimization opportunities.\n- Use customizable reports: The report provides customizable reports that allow you to view and analyze your costs and usage data in a variety of formats, including charts, tables, and CSV files.\n\nOverall, the AWS Cost and Usage Report is a report that provides detailed information about your AWS costs and usage. It includes data about your usage, costs, and reservations, and allows you to analyze your costs and usage over time.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cost-and-Usage-Report_64@5x.png",
+        "youtube_id": "",
+        "id": 69
+    },
+    {
+        "name": "Data Exchange",
+        "longName": "AWS Data Exchange",
+        "shortDesctiption": "AWS Data Exchange is a service that makes it easy to find, subscribe to, and use third-party data in the cloud. It provides a marketplace of data from a variety of sources, including companies, governments, and non-profits, and allows you to access and use that data in your own AWS environment.\n\nWith AWS Data Exchange, you can:\n\n- Find and subscribe to third-party data: Data Exchange provides a marketplace of data from a variety of sources, allowing you to easily find and subscribe to the data that you need.\n- Use data in your own AWS environment: Data Exchange allows you to access and use the data that you subscribe to in your own AWS environment, including services such as Amazon S3, Amazon Redshift, and Amazon Athena.\n- Collaborate with others: Data Exchange provides features such as shared data sets and data set versions that allow you to collaborate with others and work with data together.\n\nOverall, AWS Data Exchange is a service that makes it easy to find, subscribe to, and use third-party data in the cloud. It provides a marketplace of data from a variety of sources, and allows you to access and use that data in your own AWS environment.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Data-Exchange_64@5x.png",
+        "youtube_id": "",
+        "id": 70
+    },
+    {
+        "name": "Data Pipeline",
+        "longName": "AWS Data Pipeline",
+        "shortDesctiption": "AWS Data Pipeline is a service that helps you move data between data stores and processing systems. It provides a way to automate the movement and transformation of data, and can be used to process and analyze data in a variety of scenarios, including extract, transform, load (ETL) processes, and data migration.\n\nWith AWS Data Pipeline, you can:\n\n- Automate the movement and transformation of data: Data Pipeline provides a way to automate the movement and transformation of data between data stores and processing systems, including tasks such as extracting data from databases, transforming data, and loading data into data warehouses.\n- Process and analyze data in a variety of scenarios: Data Pipeline can be used to process and analyze data in a variety of scenarios, including ETL processes and data migration.\n- Integrate with other AWS services: Data Pipeline integrates with other AWS services such as Amazon S3, Amazon Redshift, and Amazon EMR, allowing you to use those services to process and analyze your data.\n\nOverall, AWS Data Pipeline is a service that helps you move data between data stores and processing systems. It provides a way to automate the movement and transformation of data, and can be used to process and analyze data in a variety of scenarios.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Data-Pipeline_64@5x.png",
+        "youtube_id": "",
+        "id": 71
+    },
+    {
+        "name": "DataSync",
+        "longName": "AWS DataSync",
+        "shortDesctiption": "AWS DataSync is a service that makes it easy to transfer data between on-premises storage systems and Amazon Web Services (AWS). It provides high-speed data transfer and can be used to migrate data to the cloud, replicate data between on-premises and cloud storage systems, and synchronize data between on-premises and cloud storage systems.\n\nWith AWS DataSync, you can:\n\n- Transfer data between on-premises storage systems and AWS: DataSync provides high-speed data transfer, allowing you to easily move data between on-premises storage systems and AWS.\n- Migrate data to the cloud: DataSync can be used to migrate data from on-premises storage systems to the cloud, helping you to move to a cloud-based storage architecture.\n- Replicate and synchronize data: DataSync can be used to replicate data between on-premises and cloud storage systems, and to synchronize data between on-premises and cloud storage systems.\n\nOverall, AWS DataSync is a service that makes it easy to transfer data between on-premises storage systems and AWS. It provides high-speed data transfer and can be used to migrate data to the cloud, replicate data between on-premises and cloud storage systems, and synchronize data between on-premises and cloud storage systems.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DataSync_64@5x.png",
+        "youtube_id": "",
+        "id": 72
+    },
+    {
+        "name": "Database Migration Service",
+        "longName": "AWS Database Migration Service",
+        "shortDesctiption": "AWS Database Migration Service (DMS) is a service that makes it easy to migrate databases to the cloud. It provides a way to migrate data from a variety of database platforms, including Oracle, MySQL, and SQL Server, to Amazon Web Services (AWS) destinations such as Amazon Aurora, Amazon RDS, and Amazon Redshift.\n\nWith AWS DMS, you can:\n\n- Migrate databases to the cloud: DMS provides a way to migrate databases to the cloud, including tasks such as extracting data from the source database, transforming it, and loading it into the target database.\n- Migrate data from a variety of database platforms: DMS can migrate data from a variety of database platforms, including Oracle, MySQL, and SQL Server.\n- Migrate data to a variety of AWS destinations: DMS can migrate data to a variety of AWS destinations, including Amazon Aurora, Amazon RDS, and Amazon Redshift.\n\nOverall, AWS Database Migration Service is a service that makes it easy to migrate databases to the cloud. It provides a way to migrate data from a variety of database platforms to AWS destinations, and can be used to migrate databases to the cloud.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Database-Migration-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 73
+    },
+    {
+        "name": "Deep Learning AMIs",
+        "longName": "AWS Deep Learning AMIs",
+        "shortDesctiption": "AWS Deep Learning AMIs are Amazon Machine Images (AMIs) that provide a pre-configured environment for deep learning on Amazon Web Services (AWS). They include popular deep learning frameworks such as TensorFlow, PyTorch, and MXNet, and are optimized for performance on AWS infrastructure, including Amazon EC2 GPU-powered instances.\n\nWith AWS Deep Learning AMIs, you can:\n\n- Use pre-configured environments for deep learning: Deep Learning AMIs provide a pre-configured environment for deep learning, including popular frameworks such as TensorFlow, PyTorch, and MXNet.\n- Use GPU-powered instances for deep learning: Deep Learning AMIs are optimized for performance on AWS infrastructure, including Amazon EC2 GPU-powered instances, which are well-suited for deep learning workloads.\n- Use a variety of instance types: Deep Learning AMIs are available for a variety of Amazon EC2 instance types, allowing you to choose the instance type that best fits your workload.\n\nOverall, AWS Deep Learning AMIs are AMIs that provide a pre-configured environment for deep learning on AWS. They include popular deep learning frameworks, and are optimized for performance on AWS infrastructure.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Deep-Learning-AMIs_64@5x.png",
+        "youtube_id": "",
+        "id": 74
+    },
+    {
+        "name": "Deep Learning Containers",
+        "longName": "AWS Deep Learning Containers",
+        "shortDesctiption": "AWS Deep Learning Containers are Docker images that provide a pre-configured environment for deep learning on Amazon Web Services (AWS). They include popular deep learning frameworks such as TensorFlow, PyTorch, and MXNet, and are optimized for performance on AWS infrastructure, including Amazon EC2 GPU-powered instances.\n\nWith AWS Deep Learning Containers, you can:\n\n- Use pre-configured environments for deep learning: Deep Learning Containers provide a pre-configured environment for deep learning, including popular frameworks such as TensorFlow, PyTorch, and MXNet.\n- Use GPU-powered instances for deep learning: Deep Learning Containers are optimized for performance on AWS infrastructure, including Amazon EC2 GPU-powered instances, which are well-suited for deep learning workloads.\n- Use a variety of instance types: Deep Learning Containers are available for a variety of Amazon EC2 instance types, allowing you to choose the instance type that best fits your workload.\n\nOverall, AWS Deep Learning Containers are Docker images that provide a pre-configured environment for deep learning on AWS. They include popular deep learning frameworks, and are optimized for performance on AWS infrastructure.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Deep-Learning-Containers_64@5x.png",
+        "youtube_id": "",
+        "id": 75
+    },
+    {
+        "name": "DeepComposer",
+        "longName": "AWS DeepComposer",
+        "shortDesctiption": "AWS DeepComposer is a deep learning-powered music synthesizer and creative tool. It allows you to create original music by training a machine learning model on your own music preferences, and then using the model to generate new compositions.\n\nWith AWS DeepComposer, you can:\n\n- Create original music: DeepComposer allows you to create original music by training a machine learning model on your own music preferences, and then using the model to generate new compositions.\n- Use a variety of music styles: DeepComposer supports a variety of music styles, including classical, jazz, and pop.\n- Experiment with different parameters: DeepComposer allows you to experiment with different parameters, such as the length of the generated compositions and the instrumentation, to create a wide range of musical styles and sounds.\n\nOverall, AWS DeepComposer is a deep learning-powered music synthesizer and creative tool. It allows you to create original music by training a machine learning model on your own music preferences, and then using the model to generate new compositions.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepComposer_64@5x.png",
+        "youtube_id": "",
+        "id": 76
+    },
+    {
+        "name": "DeepLens",
+        "longName": "AWS DeepLens",
+        "shortDesctiption": "AWS DeepLens is a deep learning-powered video camera that allows you to build and deploy machine learning models on the edge. It is designed to be used in a variety of applications, including object and scene recognition, facial analysis, and video indexing.\n\nWith AWS DeepLens, you can:\n\n- Build and deploy machine learning models on the edge: DeepLens allows you to build and deploy machine learning models on the device itself, allowing you to process data locally and in real-time.\n- Use deep learning for a variety of applications: DeepLens is designed to be used in a variety of applications, including object and scene recognition, facial analysis, and video indexing.\n- Use pre-trained models or build your own: DeepLens includes a library of pre-trained models that you can use out-of-the-box, or you can build and train your own models using the AWS DeepLens console.\n\nOverall, AWS DeepLens is a deep learning-powered video camera that allows you to build and deploy machine learning models on the edge. It is designed to be used in a variety of applications, and includes a library of pre-trained models that you can use or build upon.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepLens_64@5x.png",
+        "youtube_id": "",
+        "id": 77
+    },
+    {
+        "name": "DeepRacer",
+        "longName": "AWS DeepRacer",
+        "shortDesctiption": "AWS DeepRacer is a 1/18th scale race car that is powered by reinforcement learning. It allows you to build, train, and deploy machine learning models that can learn to drive the car around a track by interacting with the environment.\n\nWith AWS DeepRacer, you can:\n\n- Build, train, and deploy machine learning models: DeepRacer allows you to build, train, and deploy machine learning models that can learn to drive the car around a track by interacting with the environment.\n- Learn about reinforcement learning: DeepRacer is a physical embodiment of reinforcement learning, allowing you to learn about this type of machine learning through hands-on experimentation.\n- Compete in virtual and physical races: DeepRacer includes a virtual racing league where you can compete against other users, and there are also physical DeepRacer events held around the world.\n\nOverall, AWS DeepRacer is a 1/18th scale race car that is powered by reinforcement learning. It allows you to build, train, and deploy machine learning models that can learn to drive the car around a track, and provides a fun and interactive way to learn about reinforcement learning.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepRacer_64@5x.png",
+        "youtube_id": "",
+        "id": 78
+    },
+    {
+        "name": "Device Farm",
+        "longName": "AWS Device Farm",
+        "shortDesctiption": "AWS Device Farm is a service that allows you to test mobile apps on real devices in the cloud. It provides a variety of physical devices, including phones and tablets, that you can use to test your app, and includes tools for testing the functionality, performance, and compatibility of your app.\n\nWith AWS Device Farm, you can:\n\n- Test mobile apps on real devices: Device Farm provides a variety of physical devices that you can use to test your app, including phones and tablets from different manufacturers and operating system versions.\n- Test the functionality, performance, and compatibility of your app: Device Farm includes tools for testing the functionality, performance, and compatibility of your app, including tools for testing user interfaces, performance metrics, and compatibility with different devices and operating systems.\n- Debug and fix issues: Device Farm provides tools for debugging and fixing issues with your app, including logs, screenshots, and video recordings of your tests.\n\nOverall, AWS Device Farm is a service that allows you to test mobile apps on real devices in the cloud. It provides a variety of physical devices and tools for testing the functionality, performance, and compatibility of your app, and includes tools for debugging and fixing issues.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Device-Farm_64@5x.png",
+        "youtube_id": "",
+        "id": 79
+    },
+    {
+        "name": "Direct Connect",
+        "longName": "AWS Direct Connect",
+        "shortDesctiption": "AWS Direct Connect is a network service that allows you to establish a dedicated connection from your on-premises data centers to AWS. It provides a high-bandwidth, low-latency connection that can be used to transfer large amounts of data between your on-premises infrastructure and the cloud.\n\nWith AWS Direct Connect, you can:\n\n- Establish a dedicated connection to AWS: Direct Connect allows you to establish a dedicated connection from your on-premises data centers to AWS, providing a high-bandwidth, low-latency connection.\n- Transfer large amounts of data: Direct Connect is well-suited for transferring large amounts of data between your on-premises infrastructure and the cloud, such as when migrating data to the cloud or replicating data between on-premises and cloud storage systems.\n- Improve the performance of your applications: Direct Connect can improve the performance of applications that rely on transferring large amounts of data between on-premises and cloud environments, such as big data and analytics applications.\n\nOverall, AWS Direct Connect is a network service that allows you to establish a dedicated connection from your on-premises data centers to AWS. It provides a high-bandwidth, low-latency connection that can be used to transfer large amounts of data between your on-premises infrastructure and the cloud.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Direct-Connect_64@5x.png",
+        "youtube_id": "",
+        "id": 80
+    },
+    {
+        "name": "Directory Service",
+        "longName": "AWS Directory Service",
+        "shortDesctiption": "AWS Directory Service is a service that allows you to set up and run directories in the cloud, or connect your on-premises directories to the cloud. It provides several directory options, including Microsoft Active Directory (AD), Simple AD, and AD Connector, which you can use to manage users, groups, and other resources in your organization.\n\nWith AWS Directory Service, you can:\n\n- Set up and run directories in the cloud: Directory Service allows you to set up and run directories in the cloud, including Microsoft Active Directory (AD), Simple AD, and AD Connector.\n- Connect your on-premises directories to the cloud: Directory Service allows you to connect your on-premises directories to the cloud, allowing you to manage users, groups, and other resources in your organization from a single location.\n- Integrate with other AWS services: Directory Service integrates with other AWS services, such as Amazon EC2, Amazon S3, and Amazon RDS, allowing you to use those services with your directory.\n\nOverall, AWS Directory Service is a service that allows you to set up and run directories in the cloud, or connect your on-premises directories to the cloud. It provides several directory options, and integrates with other AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Directory-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 81
+    },
+    {
+        "name": "Distro for OpenTelemetry",
+        "longName": "AWS Distro for OpenTelemetry",
+        "shortDesctiption": "AWS Distro for OpenTelemetry is a distribution of the OpenTelemetry project, which provides a set of APIs, libraries, and tools for instrumenting code and collecting telemetry data. It is designed to be used with Amazon Web Services (AWS) and includes integrations with AWS services, such as Amazon CloudWatch and Amazon X-Ray.\n\nWith AWS Distro for OpenTelemetry, you can:\n\n- Instrument your code and collect telemetry data: Distro for OpenTelemetry provides a set of APIs, libraries, and tools for instrumenting code and collecting telemetry data, such as metrics, traces, and logs.\n- Use OpenTelemetry with AWS: Distro for OpenTelemetry is designed to be used with AWS and includes integrations with AWS services, such as Amazon CloudWatch and Amazon X-Ray.\n- Monitor and debug your applications: Distro for OpenTelemetry allows you to monitor and debug your applications by collecting telemetry data and providing tools for analyzing and visualizing that data.\n\nOverall, AWS Distro for OpenTelemetry is a distribution of the OpenTelemetry project that is designed to be used with AWS. It provides a set of APIs, libraries, and tools for instrumenting code and collecting telemetry data, and includes integrations with AWS services.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Distro-for-OpenTelemetry_64@5x.png",
+        "youtube_id": "",
+        "id": 82
+    },
+    {
+        "name": "Elastic Beanstalk",
+        "longName": "AWS Elastic Beanstalk",
+        "shortDesctiption": "AWS Elastic Beanstalk is a fully managed service that makes it easy to deploy and run applications in the cloud. It provides a platform for deploying a variety of applications, including web and mobile applications, and supports a number of programming languages and frameworks, including Java, .NET, PHP, and Node.js.\n\nWith AWS Elastic Beanstalk, you can:\n\n- Deploy and run applications in the cloud: Elastic Beanstalk provides a platform for deploying and running applications in the cloud, making it easy to get your applications up and running quickly.\n- Use a variety of programming languages and frameworks: Elastic Beanstalk supports a number of programming languages and frameworks, including Java, .NET, PHP, and Node.js, allowing you to choose the tools that best fit your needs.\n- Monitor and manage your applications: Elastic Beanstalk provides tools for monitoring and managing your applications, including tools for tracking resource utilization, deploying updates, and scaling your applications up or down as needed.\n\nOverall, AWS Elastic Beanstalk is a fully managed service that makes it easy to deploy and run applications in the cloud. It provides a platform for deploying a variety of applications and supports a number of programming languages and frameworks, and includes tools for monitoring and managing your applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elastic-Beanstalk_64@5x.png",
+        "youtube_id": "",
+        "id": 83
+    },
+    {
+        "name": "Elemental Appliances & Software",
+        "longName": "AWS Elemental Appliances & Software",
+        "shortDesctiption": "AWS Elemental Appliances and Software are products that allow you to create and deliver video content over the internet. The products include both hardware appliances and software tools, and are designed to be used in a variety of applications, including video transcoding, packaging, and delivery.\n\nWith AWS Elemental Appliances and Software, you can:\n\n- Create and deliver video content over the internet: Elemental Appliances and Software allow you to create and deliver video content over the internet, using a variety of tools for transcoding, packaging, and delivery.\n- Use a variety of hardware and software products: Elemental Appliances and Software include both hardware appliances and software tools, allowing you to choose the products that best fit your needs.\n- Use in a variety of applications: Elemental Appliances and Software are designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making them well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental Appliances and Software are products that allow you to create and deliver video content over the internet. They include both hardware appliances and software tools, and are designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Appliances-&-Software_64@5x.png",
+        "youtube_id": "",
+        "id": 84
+    },
+    {
+        "name": "Elemental Conductor",
+        "longName": "AWS Elemental Conductor",
+        "shortDesctiption": "AWS Elemental Conductor is a software-defined video processing platform that allows you to create, manage, and deliver video content. It provides a range of tools for transcoding, packaging, and delivery, and is designed to be used in a variety of applications, including video transcoding, packaging, and delivery.\n\nWith AWS Elemental Conductor, you can:\n\n- Create, manage, and deliver video content: Elemental Conductor provides a range of tools for creating, managing, and delivering video content, including tools for transcoding, packaging, and delivery.\n- Use a software-defined platform: Elemental Conductor is a software-defined platform, allowing you to manage your video processing infrastructure using software rather than hardware.\n- Use in a variety of applications: Elemental Conductor is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental Conductor is a software-defined video processing platform that allows you to create, manage, and deliver video content. It provides a range of tools for transcoding, packaging, and delivery, and is designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Conductor_64@5x.png",
+        "youtube_id": "",
+        "id": 85
+    },
+    {
+        "name": "Elemental Delta",
+        "longName": "AWS Elemental Delta",
+        "shortDesctiption": "AWS Elemental Delta is a software-defined video processing platform that allows you to create, manage, and deliver video content. It is designed to be used in conjunction with other AWS Elemental products, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.\n\nWith AWS Elemental Delta, you can:\n\n- Create, manage, and deliver video content: Elemental Delta provides tools for creating, managing, and delivering video content, including tools for transcoding, packaging, and delivery.\n- Use a software-defined platform: Elemental Delta is a software-defined platform, allowing you to manage your video processing infrastructure using software rather than hardware.\n- Manage and automate video workflows: Elemental Delta includes tools for managing and automating video workflows, making it easier to create and deliver video content.\n\nOverall, AWS Elemental Delta is a software-defined video processing platform that allows you to create, manage, and deliver video content. It is designed to be used in conjunction with other AWS Elemental products, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Delta_64@5x.png",
+        "youtube_id": "",
+        "id": 86
+    },
+    {
+        "name": "Elemental Link",
+        "longName": "AWS Elemental Link",
+        "shortDesctiption": "AWS Elemental Link is a hardware appliance that allows you to create and deliver video content over the internet. It is designed to be used in conjunction with other AWS Elemental products, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.\n\nWith AWS Elemental Link, you can:\n\n- Create and deliver video content over the internet: Elemental Link allows you to create and deliver video content over the internet, using a variety of tools for transcoding, packaging, and delivery.\n- Use a hardware appliance: Elemental Link is a hardware appliance, providing a physical device that you can use to create and deliver video content.\n- Use in conjunction with other AWS Elemental products: Elemental Link is designed to be used in conjunction with other AWS Elemental products, such as AWS Elemental Conductor and AWS Elemental Delta, allowing you to create and deliver video content using a range of tools and products.\n\nOverall, AWS Elemental Link is a hardware appliance that allows you to create and deliver video content over the internet. It is designed to be used in conjunction with other AWS Elemental products, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Link_64@5x.png",
+        "youtube_id": "",
+        "id": 87
+    },
+    {
+        "name": "Elemental Live",
+        "longName": "AWS Elemental Live",
+        "shortDesctiption": "AWS Elemental Live is a software-defined video processing platform that allows you to create, manage, and deliver live video streams. It is designed to be used in a variety of applications, including live events, sports, and news, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.\n\nWith AWS Elemental Live, you can:\n\n- Create, manage, and deliver live video streams: Elemental Live provides tools for creating, managing, and delivering live video streams, including tools for transcoding, packaging, and delivery.\n- Use a software-defined platform: Elemental Live is a software-defined platform, allowing you to manage your video processing infrastructure using software rather than hardware.\n- Use in a variety of applications: Elemental Live is designed to be used in a variety of applications, including live events, sports, and news, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental Live is a software-defined video processing platform that allows you to create, manage, and deliver live video streams. It provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows, and is designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Live_64@5x.png",
+        "youtube_id": "",
+        "id": 88
+    },
+    {
+        "name": "Elemental MediaConnect",
+        "longName": "AWS Elemental MediaConnect",
+        "shortDesctiption": "AWS Elemental MediaConnect is a fully managed service that allows you to transfer live video streams between systems and devices. It is designed to be used in a variety of applications, including live events, sports, and news, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental MediaConnect, you can:\n\n- Transfer live video streams between systems and devices: MediaConnect allows you to transfer live video streams between systems and devices, making it easy to move video content from one location to another.\n- Use a fully managed service: MediaConnect is a fully managed service, providing a simple and reliable way to transfer live video streams without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaConnect is designed to be used in a variety of applications, including live events, sports, and news, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaConnect is a fully managed service that allows you to transfer live video streams between systems and devices. It is designed to be used in a variety of applications, and provides tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaConnect_64@5x.png",
+        "youtube_id": "",
+        "id": 89
+    },
+    {
+        "name": "Elemental MediaConvert",
+        "longName": "AWS Elemental MediaConvert",
+        "shortDesctiption": "AWS Elemental MediaConvert is a fully managed service that allows you to convert video files from one format to another. It is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental MediaConvert, you can:\n\n- Convert video files from one format to another: MediaConvert allows you to convert video files from one format to another, making it easy to create video content in a variety of formats.\n- Use a fully managed service: MediaConvert is a fully managed service, providing a simple and reliable way to convert video files without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaConvert is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaConvert is a fully managed service that allows you to convert video files from one format to another. It is designed to be used in a variety of applications, and provides tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaConvert_64@5x.png",
+        "youtube_id": "",
+        "id": 90
+    },
+    {
+        "name": "Elemental MediaLive",
+        "longName": "AWS Elemental MediaLive",
+        "shortDesctiption": "AWS Elemental MediaLive is a fully managed service that allows you to create, manage, and deliver live video streams. It is designed to be used in a variety of applications, including live events, sports, and news, and provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows.\n\nWith AWS Elemental MediaLive, you can:\n\n- Create, manage, and deliver live video streams: MediaLive allows you to create, manage, and deliver live video streams, including tools for transcoding, packaging, and delivery.\n- Use a fully managed service: MediaLive is a fully managed service, providing a simple and reliable way to create and deliver live video streams without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaLive is designed to be used in a variety of applications, including live events, sports, and news, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaLive is a fully managed service that allows you to create, manage, and deliver live video streams. It provides tools for transcoding, packaging, and delivery, as well as tools for managing and automating video workflows, and is designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaLive_64@5x.png",
+        "youtube_id": "",
+        "id": 91
+    },
+    {
+        "name": "Elemental MediaPackage",
+        "longName": "AWS Elemental MediaPackage",
+        "shortDesctiption": "AWS Elemental MediaPackage is a fully managed service that allows you to package and deliver video content over the internet. It is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental MediaPackage, you can:\n\n- Package and deliver video content over the internet: MediaPackage allows you to package and deliver video content over the internet, using a variety of tools for transcoding, packaging, and delivery.\n- Use a fully managed service: MediaPackage is a fully managed service, providing a simple and reliable way to package and deliver video content without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaPackage is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaPackage is a fully managed service that allows you to package and deliver video content over the internet. It provides tools for managing and automating video workflows, and is designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaPackage_64@5x.png",
+        "youtube_id": "",
+        "id": 92
+    },
+    {
+        "name": "Elemental MediaStore",
+        "longName": "AWS Elemental MediaStore",
+        "shortDesctiption": "AWS Elemental MediaStore is a fully managed service that provides a scalable and low-latency storage option for video content. It is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental MediaStore, you can:\n\n- Store video content: MediaStore provides a scalable and low-latency storage option for video content, allowing you to store and access large volumes of video data.\n- Use a fully managed service: MediaStore is a fully managed service, providing a simple and reliable way to store video content without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaStore is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaStore is a fully managed service that provides a scalable and low-latency storage option for video content. It is designed to be used in a variety of applications, and provides tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaStore_64@5x.png",
+        "youtube_id": "",
+        "id": 93
+    },
+    {
+        "name": "Elemental MediaTailor",
+        "longName": "AWS Elemental MediaTailor",
+        "shortDesctiption": "AWS Elemental MediaTailor is a fully managed service that allows you to insert personalized advertisements into video streams. It is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental MediaTailor, you can:\n\n- Insert personalized advertisements into video streams: MediaTailor allows you to insert personalized advertisements into video streams, allowing you to target specific audiences with relevant advertisements.\n- Use a fully managed service: MediaTailor is a fully managed service, providing a simple and reliable way to insert personalized advertisements into video streams without the need to manage infrastructure or software.\n- Use in a variety of applications: MediaTailor is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental MediaTailor is a fully managed service that allows you to insert personalized advertisements into video streams. It is designed to be used in a variety of applications, and provides tools for managing and automating video workflows.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaTailor_64@5x.png",
+        "youtube_id": "",
+        "id": 94
+    },
+    {
+        "name": "Elemental Server",
+        "longName": "AWS Elemental Server",
+        "shortDesctiption": "AWS Elemental Server is a software-defined video processing platform that allows you to create, manage, and deliver video content. It is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, and provides tools for managing and automating video workflows.\n\nWith AWS Elemental Server, you can:\n\n- Create, manage, and deliver video content: Elemental Server provides tools for creating, managing, and delivering video content, including tools for transcoding, packaging, and delivery.\n- Use a software-defined platform: Elemental Server is a software-defined platform, allowing you to manage your video processing infrastructure using software rather than hardware.\n- Use in a variety of applications: Elemental Server is designed to be used in a variety of applications, including video transcoding, packaging, and delivery, making it well-suited for use in a range of video-based projects.\n\nOverall, AWS Elemental Server is a software-defined video processing platform that allows you to create, manage, and deliver video content. It provides tools for managing and automating video workflows, and is designed to be used in a variety of applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Server_64@5x.png",
+        "youtube_id": "",
+        "id": 95
+    },
+    {
+        "name": "Express Workflows",
+        "longName": "AWS Express Workflows",
+        "shortDesctiption": "AWS Express Workflows is a fully managed service that allows you to build and run serverless workflows using a visual interface. It is designed to be used in a variety of applications, including those that require complex processing pipelines or those that require the execution of multiple tasks in a specific order.\n\nWith AWS Express Workflows, you can:\n\n- Build and run serverless workflows: Express Workflows allows you to build and run serverless workflows, allowing you to automate complex processes and tasks without the need to manage infrastructure or code.\n- Use a visual interface: Express Workflows provides a visual interface, allowing you to create and modify workflows using drag-and-drop tools and pre-built templates.\n- Use in a variety of applications: Express Workflows is designed to be used in a variety of applications, including those that require complex processing pipelines or those that require the execution of multiple tasks in a specific order.\n\nOverall, AWS Express Workflows is a fully managed service that allows you to build and run serverless workflows using a visual interface. It is designed to be used in a variety of applications, and provides tools for automating complex processes and tasks.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Express-Workflows_64@5x.png",
+        "youtube_id": "",
+        "id": 96
+    },
+    {
+        "name": "Fargate",
+        "longName": "AWS Fargate",
+        "shortDesctiption": "AWS Fargate is a fully managed service that allows you to run containers without the need to manage underlying infrastructure. It is designed to be used in conjunction with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS), and provides tools for deploying and managing containerized applications.\n\nWith AWS Fargate, you can:\n\n- Run containers without the need to manage infrastructure: Fargate allows you to run containers without the need to manage underlying infrastructure, allowing you to focus on building and deploying applications.\n- Use a fully managed service: Fargate is a fully managed service, providing a simple and reliable way to run containers without the need to manage infrastructure or software.\n- Use with ECS and EKS: Fargate is designed to be used in conjunction with ECS and EKS, allowing you to easily deploy and manage containerized applications.\n\nOverall, AWS Fargate is a fully managed service that allows you to run containers without the need to manage underlying infrastructure. It is designed to be used in conjunction with ECS and EKS, and provides tools for deploying and managing containerized applications.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Fargate_64@5x.png",
+        "youtube_id": "",
+        "id": 97
+    },
+    {
+        "name": "Fault Injection Simulator",
+        "longName": "AWS Fault Injection Simulator",
+        "shortDesctiption": "AWS Fault Injection Simulator is a tool that allows you to simulate and test the resilience of your applications in the face of various types of failures. It is designed to be used in a variety of applications, including those that require high availability or those that are designed to be resilient to failure.\n\nWith AWS Fault Injection Simulator, you can:\n\n- Simulate and test the resilience of your applications: Fault Injection Simulator allows you to simulate and test the resilience of your applications in the face of various types of failures, including infrastructure failures, network failures, and application failures.\n- Test your applications in a controlled environment: Fault Injection Simulator allows you to test your applications in a controlled environment, allowing you to identify and address potential failures before they occur in production.\n- Use in a variety of applications: Fault Injection Simulator is designed to be used in a variety of applications, including those that require high availability or those that are designed to be resilient to failure.\n\nOverall, AWS Fault Injection Simulator is a tool that allows you to simulate and test the resilience of your applications in the face of various types of failures. It is designed to be used in a variety of applications, and provides tools for testing the resilience of your applications in a controlled environment.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Fault-Injection-Simulator_64@5x.png",
+        "youtube_id": "",
+        "id": 98
+    },
+    {
+        "name": "Firewall Manager",
+        "longName": "AWS Firewall Manager",
+        "shortDesctiption": "AWS Firewall Manager is a fully managed service that allows you to centralize the management of firewalls for your Amazon Virtual Private Cloud (VPC) resources. It is designed to be used in a variety of applications, including those that require the enforcement of security policies or the protection of resources from external threats.\n\nWith AWS Firewall Manager, you can:\n\n- Centralize the management of firewalls for your VPC resources: Firewall Manager allows you to centralize the management of firewalls for your VPC resources, making it easier to enforce security policies and protect resources from external threats.\n- Use a fully managed service: Firewall Manager is a fully managed service, providing a simple and reliable way to manage firewalls without the need to manage infrastructure or software.\n- Use in a variety of applications: Firewall Manager is designed to be used in a variety of applications, including those that require the enforcement of security policies or the protection of resources from external threats.\n\nOverall, AWS Firewall Manager is a fully managed service that allows you to centralize the management of firewalls for your VPC resources. It is designed to be used in a variety of applications, and provides tools for enforcing security policies and protecting resources from external threats.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Firewall-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 99
+    },
+    {
+        "name": "GameKit",
+        "longName": "AWS GameKit",
+        "shortDesctiption": "AWS GameKit is a suite of tools and services that allows you to build and operate cloud-powered games. It is designed to be used in a variety of applications, including mobile games, PC games, and console games, and provides tools for game development, game operations, and game analytics.\n\nWith AWS GameKit, you can:\n\n- Build and operate cloud-powered games: GameKit provides tools and services for building and operating cloud-powered games, including tools for game development, game operations, and game analytics.\n- Use in a variety of applications: GameKit is designed to be used in a variety of applications, including mobile games, PC games, and console games, making it well-suited for use in a range of game-based projects.\n- Benefit from a suite of tools and services: GameKit is a suite of tools and services, providing a range of tools and services for building and operating cloud-powered games.\n\nOverall, AWS GameKit is a suite of tools and services that allows you to build and operate cloud-powered games. It is designed to be used in a variety of applications, and provides tools for game development, game operations, and game analytics.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-GameKit_64@5x.png",
+        "youtube_id": "",
+        "id": 100
+    },
+    {
+        "name": "Global Accelerator",
+        "longName": "AWS Global Accelerator",
+        "shortDesctiption": "AWS Global Accelerator is a fully managed service that allows you to accelerate the delivery of your applications and improve the performance of your applications for users around the world. It is designed to be used in a variety of applications, including those that require fast and reliable access to global users.\n\nWith AWS Global Accelerator, you can:\n\n- Accelerate the delivery of your applications: Global Accelerator allows you to accelerate the delivery of your applications, improving the performance of your applications for users around the world.\n- Improve the performance of your applications: Global Accelerator allows you to improve the performance of your applications for users around the world, providing fast and reliable access to your applications.\n- Use in a variety of applications: Global Accelerator is designed to be used in a variety of applications, including those that require fast and reliable access to global users.\n\nOverall, AWS Global Accelerator is a fully managed service that allows you to accelerate the delivery of your applications and improve the performance of your applications for users around the world. It is designed to be used in a variety of applications, and provides tools for improving the performance of your applications for global users.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Global-Accelerator_64@5x.png",
+        "youtube_id": "",
+        "id": 101
+    },
+    {
+        "name": "Glue DataBrew",
+        "longName": "AWS Glue DataBrew",
+        "shortDesctiption": "AWS Glue DataBrew is a fully managed service that allows you to visually explore, transform, and prepare data for analysis and machine learning. It is designed to be used in a variety of applications, including those that require the preparation of data for analysis or machine learning, and provides tools for data exploration, data transformation, and data preparation.\n\nWith AWS Glue DataBrew, you can:\n\n- Visually explore, transform, and prepare data: DataBrew allows you to visually explore, transform, and prepare data using a visual interface, making it easier to prepare data for analysis and machine learning.\n- Use a fully managed service: DataBrew is a fully managed service, providing a simple and reliable way to explore, transform, and prepare data without the need to manage infrastructure or software.\n- Use in a variety of applications: DataBrew is designed to be used in a variety of applications, including those that require the preparation of data for analysis or machine learning, making it well-suited for use in a range of data-focused projects.\n\nOverall, AWS Glue DataBrew is a fully managed service that allows you to visually explore, transform, and prepare data for analysis and machine learning. It is designed to be used in a variety of applications, and provides tools for data exploration, data transformation, and data preparation.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue-DataBrew_64@5x.png",
+        "youtube_id": "",
+        "id": 102
+    },
+    {
+        "name": "Glue Elastic Views",
+        "longName": "AWS Glue Elastic Views",
+        "shortDesctiption": "AWS Glue Elastic Views is a fully managed service that allows you to combine and enrich data from different data stores and make it available for real-time querying and analysis. It is designed to be used in a variety of applications, including those that require real-time access to data from multiple sources, and provides tools for data integration and data enrichment.\n\nWith AWS Glue Elastic Views, you can:\n\n- Combine and enrich data from different data stores: Elastic Views allows you to combine and enrich data from different data stores, making it available for real-time querying and analysis.\n- Use a fully managed service: Elastic Views is a fully managed service, providing a simple and reliable way to combine and enrich data without the need to manage infrastructure or software.\n- Use in a variety of applications: Elastic Views is designed to be used in a variety of applications, including those that require real-time access to data from multiple sources, making it well-suited for use in a range of data-focused projects.\n\nOverall, AWS Glue Elastic Views is a fully managed service that allows you to combine and enrich data from different data stores and make it available for real-time querying and analysis. It is designed to be used in a variety of applications, and provides tools for data integration and data enrichment.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue-Elastic-Views_64@5x.png",
+        "youtube_id": "",
+        "id": 103
+    },
+    {
+        "name": "Glue",
+        "longName": "AWS Glue",
+        "shortDesctiption": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to move data between data stores. It is designed to be used in a variety of applications, including those that require the integration of data from different sources, and provides tools for data integration, data transformation, and data management.\n\nWith AWS Glue, you can:\n\n- Move data between data stores: Glue allows you to move data between data stores, making it easy to integrate data from different sources.\n- Use a fully managed service: Glue is a fully managed service, providing a simple and reliable way to move data without the need to manage infrastructure or software.\n- Use in a variety of applications: Glue is designed to be used in a variety of applications, including those that require the integration of data from different sources, making it well-suited for use in a range of data-focused projects.\n\nOverall, AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to move data between data stores. It is designed to be used in a variety of applications, and provides tools for data integration, data transformation, and data management.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue_64@5x.png",
+        "youtube_id": "",
+        "id": 104
+    },
+    {
+        "name": "Ground Station",
+        "longName": "AWS Ground Station",
+        "shortDesctiption": "AWS Ground Station is a fully managed service that allows you to control satellite communications and access satellite data in near real-time. It is designed to be used in a variety of applications, including those that require access to satellite data or the control of satellite communications, and provides tools for satellite data access, satellite communication control, and satellite data processing.\n\nWith AWS Ground Station, you can:\n\n- Control satellite communications and access satellite data: Ground Station allows you to control satellite communications and access satellite data in near real-time, making it easy to incorporate satellite data into your applications and processes.\n- Use a fully managed service: Ground Station is a fully managed service, providing a simple and reliable way to control satellite communications and access satellite data without the need to manage infrastructure or software.\n- Use in a variety of applications: Ground Station is designed to be used in a variety of applications, including those that require access to satellite data or the control of satellite communications, making it well-suited for use in a range of satellite-based projects.\n\nOverall, AWS Ground Station is a fully managed service that allows you to control satellite communications and access satellite data in near real-time. It is designed to be used in a variety of applications, and provides tools for satellite data access, satellite communication control, and satellite data processing.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Ground-Station_64@5x.png",
+        "youtube_id": "",
+        "id": 105
+    },
+    {
+        "name": "IQ",
+        "longName": "AWS IQ",
+        "shortDesctiption": "AWS IQ is a fully managed service that allows you to connect with experts who can help you with a wide range of technical tasks, including software development, data analysis, and machine learning. It is designed to be used in a variety of applications, including those that require specialized expertise or technical assistance, and provides tools for finding and engaging with experts, managing projects, and tracking progress.\n\nWith AWS IQ, you can:\n\n- Connect with experts who can help with technical tasks: IQ allows you to connect with experts who can help with a wide range of technical tasks, including software development, data analysis, and machine learning.\n- Use a fully managed service: IQ is a fully managed service, providing a simple and reliable way to connect with experts and get the technical assistance you need.\n- Use in a variety of applications: IQ is designed to be used in a variety of applications, including those that require specialized expertise or technical assistance, making it well-suited for use in a range of projects that require technical expertise.\n\nOverall, AWS IQ is a fully managed service that allows you to connect with experts who can help you with a wide range of technical tasks, including software development, data analysis, and machine learning. It is designed to be used in a variety of applications, and provides tools for finding and engaging with experts, managing projects, and tracking progress.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IQ_64@5x.png",
+        "youtube_id": "",
+        "id": 106
+    },
+    {
+        "name": "Identity and Access Management (IAM)",
+        "longName": "AWS Identity and Access Management (IAM)",
+        "shortDesctiption": "AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.\n\nIAM is designed to help you manage access to your AWS resources in a secure and scalable way. Some of the key features of IAM include:\n\n- Users and groups: IAM allows you to create AWS users and groups, and assign permissions to them that control their access to AWS resources.\n- Policies: IAM uses policies to allow or deny access to AWS resources. You can create and attach policies to users and groups, and use them to specify the actions that users and groups can take and the resources they can access.\n- MFA (multi-factor authentication): IAM supports MFA, which adds an additional layer of security by requiring users to provide a second form of authentication in addition to their user name and password.\n- Identity federation: IAM allows you to use external identity providers (such as Active Directory, Google, or Facebook) to manage access to your AWS resources. This allows you to use your existing identity infrastructure to control access to your AWS resources.\n\nOverall, AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. It allows you to create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+        "youtube_id": "",
+        "id": 107
+    },
+    {
+        "name": "IoT 1 Click",
+        "longName": "AWS IoT 1 Click",
+        "shortDesctiption": "AWS IoT 1-Click is a fully managed service that allows you to create and manage simple devices that can trigger AWS Lambda functions, allowing you to build simple applications that can be triggered with a single click or tap. It is designed to be used in a variety of applications, including those that require simple, low-cost devices that can trigger AWS Lambda functions, and provides tools for creating and managing these devices.\n\nWith AWS IoT 1-Click, you can:\n\n- Create and manage simple devices that can trigger AWS Lambda functions: IoT 1-Click allows you to create and manage simple devices that can trigger AWS Lambda functions, making it easy to build simple applications that can be triggered with a single click or tap.\n- Use a fully managed service: IoT 1-Click is a fully managed service, providing a simple and reliable way to create and manage these devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT 1-Click is designed to be used in a variety of applications, including those that require simple, low-cost devices that can trigger AWS Lambda functions, making it well-suited for use in a range of projects that require simple device-based triggers.\n\nOverall, AWS IoT 1-Click is a fully managed service that allows you to create and manage simple devices that can trigger AWS Lambda functions, allowing you to build simple applications that can be triggered with a single click or tap. It is designed to be used in a variety of applications, and provides tools for creating and managing these devices.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-1-Click_64@5x.png",
+        "youtube_id": "",
+        "id": 108
+    },
+    {
+        "name": "IoT Analytics",
+        "longName": "AWS IoT Analytics",
+        "shortDesctiption": "AWS IoT Analytics is a fully managed service that allows you to analyze and process data from IoT devices and applications. It is designed to be used in a variety of applications, including those that require the analysis of large amounts of data from IoT devices and applications, and provides tools for data ingestion, data preparation, data analysis, and data visualization.\n\nWith AWS IoT Analytics, you can:\n\n- Analyze and process data from IoT devices and applications: IoT Analytics allows you to analyze and process data from IoT devices and applications, making it easy to extract insights and make data-driven decisions.\n- Use a fully managed service: IoT Analytics is a fully managed service, providing a simple and reliable way to analyze and process IoT data without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Analytics is designed to be used in a variety of applications, including those that require the analysis of large amounts of data from IoT devices and applications, making it well-suited for use in a range of projects that require the analysis of IoT data.\n\nOverall, AWS IoT Analytics is a fully managed service that allows you to analyze and process data from IoT devices and applications. It is designed to be used in a variety of applications, and provides tools for data ingestion, data preparation, data analysis, and data visualization.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Analytics_64@5x.png",
+        "youtube_id": "",
+        "id": 109
+    },
+    {
+        "name": "IoT Button",
+        "longName": "AWS IoT Button",
+        "shortDesctiption": "AWS IoT Button is a simple, low-cost device that allows you to trigger AWS Lambda functions with a single click or tap. It is designed to be used in a variety of applications, including those that require simple, low-cost devices that can trigger AWS Lambda functions, and provides a physical button that can be clicked or tapped to trigger a specified Lambda function.\n\nWith AWS IoT Button, you can:\n\n- Trigger AWS Lambda functions with a single click or tap: IoT Button allows you to trigger AWS Lambda functions with a single click or tap, making it easy to build simple applications that can be triggered with a physical button.\n- Use a simple, low-cost device: IoT Button is a simple, low-cost device, providing a cost-effective way to trigger AWS Lambda functions.\n- Use in a variety of applications: IoT Button is designed to be used in a variety of applications, including those that require simple, low-cost devices that can trigger AWS Lambda functions, making it well-suited for use in a range of projects that require simple device-based triggers.\n\nOverall, AWS IoT Button is a simple, low-cost device that allows you to trigger AWS Lambda functions with a single click or tap. It is designed to be used in a variety of applications, and provides a physical button that can be clicked or tapped to trigger a specified Lambda function.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Button_64@5x.png",
+        "youtube_id": "",
+        "id": 110
+    },
+    {
+        "name": "IoT Core",
+        "longName": "AWS IoT Core",
+        "shortDesctiption": "AWS IoT Core is a fully managed service that allows you to connect, manage, and communicate with IoT devices at scale. It is designed to be used in a variety of applications, including those that require the management of large fleets of IoT devices, and provides tools for device communication, device management, and device security.\n\nWith AWS IoT Core, you can:\n\n- Connect and communicate with IoT devices at scale: IoT Core allows you to connect, manage, and communicate with IoT devices at scale, making it easy to build and deploy IoT applications that can handle large fleets of devices.\n- Use a fully managed service: IoT Core is a fully managed service, providing a simple and reliable way to connect and communicate with IoT devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Core is designed to be used in a variety of applications, including those that require the management of large fleets of IoT devices, making it well-suited for use in a range of projects that require the management of large numbers of IoT devices.\n\nOverall, AWS IoT Core is a fully managed service that allows you to connect, manage, and communicate with IoT devices at scale. It is designed to be used in a variety of applications, and provides tools for device communication, device management, and device security.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Core_64@5x.png",
+        "youtube_id": "",
+        "id": 111
+    },
+    {
+        "name": "IoT Device Defender",
+        "longName": "AWS IoT Device Defender",
+        "shortDesctiption": "AWS IoT Device Defender is a fully managed service that allows you to monitor and protect your IoT devices from unauthorized access or malicious activity. It is designed to be used in a variety of applications, including those that require the secure management of IoT devices, and provides tools for device monitoring, device auditing, and device security.\n\nWith AWS IoT Device Defender, you can:\n\n- Monitor and protect your IoT devices: IoT Device Defender allows you to monitor and protect your IoT devices from unauthorized access or malicious activity, making it easy to secure your IoT deployment and ensure that your devices are operating safely.\n- Use a fully managed service: IoT Device Defender is a fully managed service, providing a simple and reliable way to monitor and protect your IoT devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Device Defender is designed to be used in a variety of applications, including those that require the secure management of IoT devices, making it well-suited for use in a range of projects that require the secure management of IoT devices.\n\nOverall, AWS IoT Device Defender is a fully managed service that allows you to monitor and protect your IoT devices from unauthorized access or malicious activity. It is designed to be used in a variety of applications, and provides tools for device monitoring, device auditing, and device security.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Device-Defender_64@5x.png",
+        "youtube_id": "",
+        "id": 112
+    },
+    {
+        "name": "IoT Device Management",
+        "longName": "AWS IoT Device Management",
+        "shortDesctiption": "AWS IoT Device Management is a fully managed service that allows you to securely onboard, organize, and manage your IoT devices at scale. It is designed to be used in a variety of applications, including those that require the secure management of large fleets of IoT devices, and provides tools for device onboarding, device organization, and device management.\n\nWith AWS IoT Device Management, you can:\n\n- Securely onboard, organize, and manage your IoT devices at scale: IoT Device Management allows you to securely onboard, organize, and manage your IoT devices at scale, making it easy to build and deploy IoT applications that can handle large fleets of devices.\n- Use a fully managed service: IoT Device Management is a fully managed service, providing a simple and reliable way to securely onboard, organize, and manage your IoT devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Device Management is designed to be used in a variety of applications, including those that require the secure management of large fleets of IoT devices, making it well-suited for use in a range of projects that require the secure management of large numbers of IoT devices.\n\nOverall, AWS IoT Device Management is a fully managed service that allows you to securely onboard, organize, and manage your IoT devices at scale. It is designed to be used in a variety of applications, and provides tools for device onboarding, device organization, and device management.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Device-Management_64@5x.png",
+        "youtube_id": "",
+        "id": 113
+    },
+    {
+        "name": "IoT Events",
+        "longName": "AWS IoT Events",
+        "shortDesctiption": "AWS IoT Events is a fully managed service that allows you to detect and respond to events from IoT devices and applications. It is designed to be used in a variety of applications, including those that require the detection and response to events from IoT devices and applications, and provides tools for event detection, event analysis, and event response.\n\nWith AWS IoT Events, you can:\n\n- Detect and respond to events from IoT devices and applications: IoT Events allows you to detect and respond to events from IoT devices and applications, making it easy to build and deploy IoT applications that can react to events in real-time.\n- Use a fully managed service: IoT Events is a fully managed service, providing a simple and reliable way to detect and respond to events from IoT devices and applications without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Events is designed to be used in a variety of applications, including those that require the detection and response to events from IoT devices and applications, making it well-suited for use in a range of projects that require the detection and response to events from IoT devices and applications.\n\nOverall, AWS IoT Events is a fully managed service that allows you to detect and respond to events from IoT devices and applications. It is designed to be used in a variety of applications, and provides tools for event detection, event analysis, and event response.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Events_64@5x.png",
+        "youtube_id": "",
+        "id": 114
+    },
+    {
+        "name": "IoT ExpressLink",
+        "longName": "AWS IoT ExpressLink",
+        "shortDesctiption": "AWS IoT ExpressLink is a fully managed service that allows you to extend your on-premises network to the cloud and connect to AWS services over a dedicated network connection. It is designed to be used in a variety of applications, including those that require a dedicated network connection to AWS services, and provides tools for network extension and connection management.\n\nWith AWS IoT ExpressLink, you can:\n\n- Extend your on-premises network to the cloud: IoT ExpressLink allows you to extend your on-premises network to the cloud, making it easy to connect to AWS services over a dedicated network connection.\n- Use a fully managed service: IoT ExpressLink is a fully managed service, providing a simple and reliable way to extend your on-premises network to the cloud and connect to AWS services over a dedicated network connection without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT ExpressLink is designed to be used in a variety of applications, including those that require a dedicated network connection to AWS services, making it well-suited for use in a range of projects that require a dedicated network connection to AWS services.\n\nOverall, AWS IoT ExpressLink is a fully managed service that allows you to extend your on-premises network to the cloud and connect to AWS services over a dedicated network connection. It is designed to be used in a variety of applications, and provides tools for network extension and connection management.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-ExpressLink_64@5x.png",
+        "youtube_id": "",
+        "id": 115
+    },
+    {
+        "name": "IoT FleetWise",
+        "longName": "AWS IoT FleetWise",
+        "shortDesctiption": "AWS IoT FleetWise is a fully managed service that allows you to manage, monitor, and optimize large fleets of IoT devices at scale. It is designed to be used in a variety of applications, including those that require the management of large fleets of IoT devices, and provides tools for device management, device monitoring, and device optimization.\n\nWith AWS IoT FleetWise, you can:\n\n- Manage, monitor, and optimize large fleets of IoT devices at scale: IoT FleetWise allows you to manage, monitor, and optimize large fleets of IoT devices at scale, making it easy to build and deploy IoT applications that can handle large fleets of devices.\n- Use a fully managed service: IoT FleetWise is a fully managed service, providing a simple and reliable way to manage, monitor, and optimize large fleets of IoT devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT FleetWise is designed to be used in a variety of applications, including those that require the management of large fleets of IoT devices, making it well-suited for use in a range of projects that require the management of large numbers of IoT devices.\n\nOverall, AWS IoT FleetWise is a fully managed service that allows you to manage, monitor, and optimize large fleets of IoT devices at scale. It is designed to be used in a variety of applications, and provides tools for device management, device monitoring, and device optimization.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-FleetWise_64@5x.png",
+        "youtube_id": "",
+        "id": 116
+    },
+    {
+        "name": "IoT Greengrass",
+        "longName": "AWS IoT Greengrass",
+        "shortDesctiption": "AWS IoT Greengrass is a fully managed service that allows you to run local compute, messaging, and data storage for connected devices in a secure way. It is designed to be used in a variety of applications, including those that require the ability to run local compute, messaging, and data storage for connected devices, and provides tools for local compute, messaging, and data storage.\n\nWith AWS IoT Greengrass, you can:\n\n- Run local compute, messaging, and data storage for connected devices: IoT Greengrass allows you to run local compute, messaging, and data storage for connected devices, making it easy to build and deploy IoT applications that can run locally on connected devices.\n- Use a fully managed service: IoT Greengrass is a fully managed service, providing a simple and reliable way to run local compute, messaging, and data storage for connected devices without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Greengrass is designed to be used in a variety of applications, including those that require the ability to run local compute, messaging, and data storage for connected devices, making it well-suited for use in a range of projects that require the ability to run local compute, messaging, and data storage for connected devices.\n\nOverall, AWS IoT Greengrass is a fully managed service that allows you to run local compute, messaging, and data storage for connected devices in a secure way. It is designed to be used in a variety of applications, and provides tools for local compute, messaging, and data storage.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Greengrass_64@5x.png",
+        "youtube_id": "",
+        "id": 117
+    },
+    {
+        "name": "IoT RoboRunner",
+        "longName": "AWS IoT RoboRunner",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-RoboRunner",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-RoboRunner_64@5x.png",
+        "youtube_id": "",
+        "id": 118
+    },
+    {
+        "name": "IoT SiteWise",
+        "longName": "AWS IoT SiteWise",
+        "shortDesctiption": "AWS IoT SiteWise is a fully managed service that allows you to collect, organize, and analyze data from your industrial equipment at scale. It is designed to be used in a variety of applications, including those that require the collection, organization, and analysis of data from industrial equipment, and provides tools for data collection, data organization, and data analysis.\n\nWith AWS IoT SiteWise, you can:\n\n- Collect, organize, and analyze data from your industrial equipment at scale: IoT SiteWise allows you to collect, organize, and analyze data from your industrial equipment at scale, making it easy to build and deploy IoT applications that can handle large amounts of data from industrial equipment.\n- Use a fully managed service: IoT SiteWise is a fully managed service, providing a simple and reliable way to collect, organize, and analyze data from your industrial equipment without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT SiteWise is designed to be used in a variety of applications, including those that require the collection, organization, and analysis of data from industrial equipment, making it well-suited for use in a range of projects that require the collection, organization, and analysis of data from industrial equipment.\n\nOverall, AWS IoT SiteWise is a fully managed service that allows you to collect, organize, and analyze data from your industrial equipment at scale. It is designed to be used in a variety of applications, and provides tools for data collection, data organization, and data analysis.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-SiteWise_64@5x.png",
+        "youtube_id": "",
+        "id": 119
+    },
+    {
+        "name": "IoT Things Graph",
+        "longName": "AWS IoT Things Graph",
+        "shortDesctiption": "AWS IoT Things Graph is a fully managed service that allows you to create, organize, and maintain a visual representation of your IoT devices and their relationships. It is designed to be used in a variety of applications, including those that require the creation, organization, and maintenance of a visual representation of IoT devices and their relationships, and provides tools for visual representation creation, organization, and maintenance.\n\nWith AWS IoT Things Graph, you can:\n\n- Create, organize, and maintain a visual representation of your IoT devices and their relationships: IoT Things Graph allows you to create, organize, and maintain a visual representation of your IoT devices and their relationships, making it easy to build and deploy IoT applications that can handle large numbers of devices and their relationships.\n- Use a fully managed service: IoT Things Graph is a fully managed service, providing a simple and reliable way to create, organize, and maintain a visual representation of your IoT devices and their relationships without the need to manage infrastructure or software.\n- Use in a variety of applications: IoT Things Graph is designed to be used in a variety of applications, including those that require the creation, organization, and maintenance of a visual representation of IoT devices and their relationships, making it well-suited for use in a range of projects that require the creation, organization, and maintenance of a visual representation of IoT devices and their relationships.\n\nOverall, AWS IoT Things Graph is a fully managed service that allows you to create, organize, and maintain a visual representation of your IoT devices and their relationships. It is designed to be used in a variety of applications, and provides tools for visual representation creation, organization, and maintenance.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Things-Graph_64@5x.png",
+        "youtube_id": "",
+        "id": 120
+    },
+    {
+        "name": "IoT TwinMaker",
+        "longName": "AWS IoT TwinMaker",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-TwinMaker",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-TwinMaker_64@5x.png",
+        "youtube_id": "",
+        "id": 121
+    },
+    {
+        "name": "Key Management Service (KMS)",
+        "longName": "AWS Key Management Service (KMS)",
+        "shortDesctiption": "AWS Key Management Service (KMS) is a fully managed service that allows you to create and control the encryption keys used to encrypt your data. It is designed to be used in a variety of applications, including those that require the use of encryption keys to encrypt data, and provides tools for key creation, key management, and key use.\n\nWith AWS KMS, you can:\n\n- Create and control the encryption keys used to encrypt your data: KMS allows you to create and control the encryption keys used to encrypt your data, making it easy to build and deploy applications that use encryption to secure data.\n- Use a fully managed service: KMS is a fully managed service, providing a simple and reliable way to create and control the encryption keys used to encrypt your data without the need to manage infrastructure or software.\n- Use in a variety of applications: KMS is designed to be used in a variety of applications, including those that require the use of encryption keys to encrypt data, making it well-suited for use in a range of projects that require the use of encryption to secure data.\n\nOverall, AWS KMS is a fully managed service that allows you to create and control the encryption keys used to encrypt your data. It is designed to be used in a variety of applications, and provides tools for key creation, key management, and key use.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Key-Management-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 122
+    },
+    {
+        "name": "Lake Formation",
+        "longName": "AWS Lake Formation",
+        "shortDesctiption": "AWS Lake Formation is a fully managed service that makes it easy to build, secure, and manage a data lake. A data lake is a central repository that allows you to store all your structured and unstructured data at any scale. It is designed to be used in a variety of applications, including those that require the ability to store and manage large amounts of data, and provides tools for data storage, data management, and data security.\n\nWith AWS Lake Formation, you can:\n\n- Build, secure, and manage a data lake: Lake Formation makes it easy to build, secure, and manage a data lake, allowing you to store and manage large amounts of data in a central repository.\n- Use a fully managed service: Lake Formation is a fully managed service, providing a simple and reliable way to build, secure, and manage a data lake without the need to manage infrastructure or software.\n- Use in a variety of applications: Lake Formation is designed to be used in a variety of applications, including those that require the ability to store and manage large amounts of data, making it well-suited for use in a range of projects that require the ability to store and manage large amounts of data.\n\nOverall, AWS Lake Formation is a fully managed service that makes it easy to build, secure, and manage a data lake. It is designed to be used in a variety of applications, and provides tools for data storage, data management, and data security.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Lake-Formation_64@5x.png",
+        "youtube_id": "",
+        "id": 123
+    },
+    {
+        "name": "Lambda",
+        "longName": "AWS Lambda",
+        "shortDesctiption": "Amazon Web Services (AWS) Lambda is a fully managed service that allows you to run code in response to specific events or triggers, such as changes to data in an Amazon S3 bucket or a modification to a table in an Amazon DynamoDB database. It is designed to be used in a variety of applications, including those that require the ability to run code in response to specific events or triggers, and provides tools for code execution, scaling, and management.\n\nWith AWS Lambda, you can:\n\n- Run code in response to specific events or triggers: Lambda allows you to run code in response to specific events or triggers, such as changes to data in an Amazon S3 bucket or a modification to a table in an Amazon DynamoDB database. This makes it easy to build and deploy applications that can automatically respond to specific events or triggers.\n- Use a fully managed service: Lambda is a fully managed service, providing a simple and reliable way to run code in response to specific events or triggers without the need to manage infrastructure or software.\n- Use in a variety of applications: Lambda is designed to be used in a variety of applications, including those that require the ability to run code in response to specific events or triggers, making it well-suited for use in a range of projects that require the ability to automatically respond to specific events or triggers.\n\nOverall, AWS Lambda is a fully managed service that allows you to run code in response to specific events or triggers. It is designed to be used in a variety of applications, and provides tools for code execution, scaling, and management.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64@5x.png",
+        "youtube_id": "",
+        "id": 124
+    },
+    {
+        "name": "Launch Wizard",
+        "longName": "AWS Launch Wizard",
+        "shortDesctiption": "AWS Launch Wizard is a fully managed service that allows you to easily deploy and configure a new application or migrate an existing application to the AWS cloud. It is designed to be used in a variety of applications, including those that require the deployment and configuration of new applications or the migration of existing applications to the AWS cloud, and provides tools for deployment, configuration, and migration.\n\nWith AWS Launch Wizard, you can:\n\n- Easily deploy and configure a new application or migrate an existing application to the AWS cloud: Launch Wizard allows you to easily deploy and configure a new application or migrate an existing application to the AWS cloud, making it easy to build and deploy applications in the AWS cloud.\n- Use a fully managed service: Launch Wizard is a fully managed service, providing a simple and reliable way to deploy and configure a new application or migrate an existing application to the AWS cloud without the need to manage infrastructure or software.\n- Use in a variety of applications: Launch Wizard is designed to be used in a variety of applications, including those that require the deployment and configuration of new applications or the migration of existing applications to the AWS cloud, making it well-suited for use in a range of projects that require the deployment and configuration of new applications or the migration of existing applications to the AWS cloud.\n\nOverall, AWS Launch Wizard is a fully managed service that allows you to easily deploy and configure a new application or migrate an existing application to the AWS cloud. It is designed to be used in a variety of applications, and provides tools for deployment, configuration, and migration.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Launch-Wizard_64@5x.png",
+        "youtube_id": "",
+        "id": 125
+    },
+    {
+        "name": "License Manager",
+        "longName": "AWS License Manager",
+        "shortDesctiption": "AWS License Manager is a fully managed service that allows you to track, manage, and optimize your software licenses. It is designed to be used in a variety of applications, including those that require the tracking, management, and optimization of software licenses, and provides tools for license tracking, license management, and license optimization.\n\nWith AWS License Manager, you can:\n\n- Track, manage, and optimize your software licenses: License Manager allows you to track, manage, and optimize your software licenses, making it easy to build and deploy applications that use software licenses effectively.\n- Use a fully managed service: License Manager is a fully managed service, providing a simple and reliable way to track, manage, and optimize your software licenses without the need to manage infrastructure or software.\n- Use in a variety of applications: License Manager is designed to be used in a variety of applications, including those that require the tracking, management, and optimization of software licenses, making it well-suited for use in a range of projects that require the effective use of software licenses.\n\nOverall, AWS License Manager is a fully managed service that allows you to track, manage, and optimize your software licenses. It is designed to be used in a variety of applications, and provides tools for license tracking, license management, and license optimization.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-License-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 126
+    },
+    {
+        "name": "Athena",
+        "longName": "Amazon Athena",
+        "shortDesctiption": "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+        "youtube_id": "",
+        "id": 192
+    },
+    {
+        "name": "Aurora",
+        "longName": "Amazon Aurora",
+        "shortDesctiption": "AWS Aurora is a fully managed MySQL-compatible (or PostgresSQL) relational database, on top of RDS, with high speed and availability (sometimes 5x faster than traditional MySQL). You can chose provisioned Aurora that manages the server's instances sizes, or serverless (with a min and max resources) that can be scaled down to zero, allowing you to not pay 24/7 for that backend app that is only used once a month. The first query (cold start) can take a few seconds but then it will adapt to your needs.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Aurora_64@5x.png",
+        "youtube_id": "",
+        "id": 194
+    },
+    {
+        "name": "DynamoDB",
+        "longName": "Amazon DynamoDB",
+        "shortDesctiption": "AWS DynamoDB is a serverless NoSQL database, in reality, it is a key-valued or wide column database with a single-digit millisecond response that scales to the moon. Some say it is the KingDB because it's truly created to scale to Terabytes of data, but each record can only store a max of 400kb. There are some limitations on the way you create its schema and how you query data, but when you unleash its true power you understand why it exists.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-DynamoDB_64@5x.png",
+        "youtube_id": "",
+        "id": 212
+    },
+    {
+        "name": "EC2",
+        "longName": "Amazon EC2",
+        "shortDesctiption": "AWS EC2 it's a web service (APIs) to launch and manage Linux or Windows Servers on AWS Data centers, with a lot of flavors in terms of CPUs architectures and sizes, different amounts of RAM, GPU, Storage, and Networking. It's the heart of AWS but could be seen as VPS on steroids. Users need to patch and maintain APP software and OS on these machines.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EC2_64@5x.png",
+        "youtube_id": "d_u1GKWm2f0",
+        "id": 213
+    },
+    {
+        "name": "ElastiCache",
+        "longName": "Amazon ElastiCache",
+        "shortDesctiption": "AWS ElastiCache offers managed caching service for Redis and Memcached, allowing you to unlock microseconds latency and scale with in-memory caching without focusing on servers. Accelerate applications performance, reduce backend database load.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-ElastiCache_64@5x.png",
+        "youtube_id": "",
+        "id": 222
+    },
+    {
+        "name": "Elastic Container Service (ECS)",
+        "longName": "Amazon Elastic Container Service",
+        "shortDesctiption": "AWS ECS is a fully managed container orchestration service built by Amazon. It makes it easy to deploy, manage and scale containerized applications. It supports Docker containers and you can run your containers on EC2 machines, Fargate (see below), or on-premises with (ECS Anywhere installed on your machines). You just need to create a Cluster, Tasks-definitions and run them either as Tasks (short-lived / batch containers) or as Services (24/7 workloads like webservers). You can choose x86 or arm64 processors and Linux or windows runtimes.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Container-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 225
+    },
+    {
+        "name": "Elastic Kubernetes Service (EKS)",
+        "longName": "Amazon Elastic Kubernetes Service",
+        "shortDesctiption": "WS EKS is a managed and certified Kubernetes service, allowing you to run Kubernetes on AWS or on-premises with some abstraction from the clusters configuration and host machine maintenance, letting you focus on conquering the world with your fleed of Pods.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Kubernetes-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 227
+    },
+    {
+        "name": "Kinesis",
+        "longName": "Amazon Kinesis",
+        "shortDesctiption": "AWS Kinesis is a serverless service that allows you to collect, process, analyze video or data streams in real-time. For example, you can stream video from a security camera and do face detection or machine learning. You can also stream stock market data and act on it with real-time buy and sell actions. Have in mind that there could be a delay in data up to 1 second.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis_64@5x.png",
+        "youtube_id": "",
+        "id": 252
+    },
+    {
+        "name": "Lightsail",
+        "longName": "Amazon Lightsail",
+        "shortDesctiption": "AWS Lightsail is a simplified version of AWS EC2, it is a VPS that is in direct competition with DigitalOcean or Linode, offering you a simple payment system with integrated backup solutions, Security Group management, Server status, Bandwith, and much more, on a user-friendly Graphical Web Interface. Probably a way to welcome VPS clients from other providers to the AWS ecosystem.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lightsail_64@5x.png",
+        "youtube_id": "",
+        "id": 254
+    },
+    {
+        "name": "QuickSight",
+        "longName": "Amazon QuickSight",
+        "shortDesctiption": "AWS QuickSight is a serverless Business Intelligence service, it allows everyone in your organization to understand your data by asking questions in natural language, exploring dashboards, and finding patterns and outliers, using machine learning.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-QuickSight_64@5x.png",
+        "youtube_id": "",
+        "id": 277
+    },
+    {
+        "name": "RDS",
+        "longName": "Amazon RDS",
+        "shortDesctiption": "AWS RDS allows you easily set up and operate relational databases in the cloud. Run Databases without focusing on administrative tasks like hardware provisioning, database setup, patching, and backups. It supports Aurora, MySQL, MariaDB, PostgreSQL, Oracle, and Microsoft SQL Server.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-RDS_64@5x.png",
+        "youtube_id": "",
+        "id": 279
+    },
+    {
+        "name": "Redshift",
+        "longName": "Amazon Redshift",
+        "shortDesctiption": "AWS Redshift is a fully managed data warehouse service at petabyte-scale. It uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes. It leverages AWS custom-designed hardware and machine learning to deliver the best performance at any scale.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Redshift_64@5x.png",
+        "youtube_id": "",
+        "id": 280
+    },
+    {
+        "name": "Simple Notification Service (SNS)",
+        "longName": "Amazon Simple Notification Service",
+        "shortDesctiption": "AWS SNS is a serverless service that allows you to notify one or multiple services in a Publisher-Subscriber architecture (1-to-N). It can be used to send events from one server to multiple services (ex.: Lambda) or even to people (via e-mail or SMS). Messages are sent as arrive and if destinations are offline they don't have a mechanism to recover past messages (there's no guarantee of the event to arrive at all destinations)",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Notification-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 288
+    },
+    {
+        "name": "Simple Queue Service (SQS)",
+        "longName": "Amazon Simple Queue Service",
+        "shortDesctiption": "AWS SQS is a serverless system that allows you to decouple systems on your architecture, by enabling one system to send events to another even if they are offline. It implements a Producer-Consumer architecture (1-to-1) and it buffers the information if not consumed immediately or if there are a big burst of events produced. It's normally used to make services very scalable and reliable, and to protect slow backends from a big burst of requests. Information can be consumed at a different rate than it's produced. Each event has a max size of 256Kb, so you will need to combine with another mechanism (ex.: S3) to send larger payloads.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Queue-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 289
+    },
+    {
+        "name": "WorkSpaces",
+        "longName": "Amazon WorkSpaces",
+        "shortDesctiption": "AWS WorkSpaces is a fully managed desktop virtualization service that enables you to access data or applications remotely. Great to offer scalability or better performance machines to your organization's colleagues. It Facilitates remote work or onboard contingent workers or even creates powerful AutoCad machines that can be accessed from cheap low speck laptops.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkSpaces_64@5x.png",
+        "youtube_id": "",
+        "id": 302
+    },
+    {
+        "name": "VMware Cloud on AWS",
+        "longName": "VMware Cloud on AWS",
+        "shortDesctiption": "This is the long description of the service VMware-Cloud-on-AWS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_VMware-Cloud-on-AWS_64@5x.png",
+        "youtube_id": "",
+        "id": 317
+    }
+]

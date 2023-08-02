@@ -28,12 +28,23 @@ module "cloudfront" {
     }
   }
 
+  # logging_config = {
+  #   bucket = "logs-awsary-cdn.s3.amazonaws.com"
+  # }
+
   origin = {
     s3_oac = {
       domain_name           = module.s3_bucket.s3_bucket_bucket_regional_domain_name
       origin_access_control = "s3_oac"
     }
   }
+
+  # origin_group = {
+  #   group_one = {
+  #     failover_status_codes    = [403, 404, 500, 502]
+  #     primary_member_origin_id = "s3_one"
+  #   }
+  # }
 
   default_cache_behavior = {
     target_origin_id       = "s3_oac"
@@ -47,7 +58,7 @@ module "cloudfront" {
     # This is id for SecurityHeadersPolicy copied from https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-response-headers-policies.html
     response_headers_policy_id = "67f7725c-6f97-4210-82d7-5512b31e9d03"
     cache_policy_id            = "658327ea-f89d-4fab-a63d-7e88639e58f6"
-    use_forwarded_values = false
+    use_forwarded_values       = false
   }
 
 
@@ -62,7 +73,7 @@ module "cloudfront" {
       compress        = true
       query_string    = true
 
-      cache_policy_id            = "658327ea-f89d-4fab-a63d-7e88639e58f6"
+      cache_policy_id      = "658327ea-f89d-4fab-a63d-7e88639e58f6"
       use_forwarded_values = false
     }
   ]

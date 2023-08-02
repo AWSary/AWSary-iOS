@@ -1,0 +1,9 @@
+{
+    "name": "License Manager",
+    "longName": "AWS License Manager",
+    "todayDescription": "AWS License Manager helps you manage software licenses and ensure compliance with vendors' terms and conditions.",
+    "shortDesctiption": "AWS License Manager is a fully managed service that allows you to track, manage, and optimize your software licenses. It is designed to be used in a variety of applications, including those that require the tracking, management, and optimization of software licenses, and provides tools for license tracking, license management, and license optimization.\n\nWith AWS License Manager, you can:\n\n- Track, manage, and optimize your software licenses: License Manager allows you to track, manage, and optimize your software licenses, making it easy to build and deploy applications that use software licenses effectively.\n- Use a fully managed service: License Manager is a fully managed service, providing a simple and reliable way to track, manage, and optimize your software licenses without the need to manage infrastructure or software.\n- Use in a variety of applications: License Manager is designed to be used in a variety of applications, including those that require the tracking, management, and optimization of software licenses, making it well-suited for use in a range of projects that require the effective use of software licenses.\n\nOverall, AWS License Manager is a fully managed service that allows you to track, manage, and optimize your software licenses. It is designed to be used in a variety of applications, and provides tools for license tracking, license management, and license optimization.",
+    "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-License-Manager_64@5x.png",
+    "youtube_id": "",
+    "id": 126
+}

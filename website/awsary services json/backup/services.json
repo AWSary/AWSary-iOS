@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "S3 - Simple Storage Service with a huge name that do not fit in one line",
+    "shortDesctiption": "Simple Storage Service, store objects at scale",
+    "imageURL": "Arch_Amazon-Simple-Storage-Service_64.png"
+  },
+  {
+    "id": 2,
+    "name": "EC2",
+    "shortDesctiption": "Elastic Cloud Compute, flexible computation solution",
+    "imageURL": "Arch_Amazon-EC2_64.png"
+  },
+  {
+    "id": 3,
+    "name": "Athena",
+    "shortDesctiption": "Query text files with SQL at lightning speed",
+    "imageURL": "Arch_Amazon-Athena_64.png"
+  },
+  {
+    "id": 4,
+    "name": "ECS",
+    "shortDesctiption": "Elastic Compute System, where you can run containers",
+    "imageURL": "Arch_Amazon-Elastic-Container-Service_64.png"
+  },
+  {
+    "id": 5,
+    "name": "EKS",
+    "shortDesctiption": "Elastic Kubernetes Service, so you don't need to manage Kubernetes yourself",
+    "imageURL": "Arch_Amazon-Elastic-Kubernetes-Service_64.png"
+  },
+  {
+    "id": 6,
+    "name": "ECR",
+    "shortDesctiption": "Elastic Container Regestry, to store your container images",
+    "imageURL": "Arch_Amazon-Elastic-Container-Registry_64.png"
+  },
+  {
+    "id": 7,
+    "name": "EBS",
+    "shortDesctiption": "Elastic Block Storage, create and attach storage disks to EC2",
+    "imageURL": "Arch_Amazon-Elastic-Block-Store_64.png"
+  },
+  {
+    "id": 8,
+    "name": "EFS",
+    "shortDesctiption": "When you need your storage solution to scale with you",
+    "imageURL": "Arch_Amazon-EFS_64.png"
+  },
+  {
+    "id": 9,
+    "name": "Lambda",
+    "shortDesctiption": "Run your code without thinking about servers",
+    "imageURL": "Arch_AWS-Lambda_64.png"
+  },
+  {
+    "id": 10,
+    "name": "FSx",
+    "shortDesctiption": "Storage system for windows",
+    "imageURL": "Arch_Amazon-FSx_64.png"
+  },
+  {
+    "id": 11,
+    "name": "DynamoDB",
+    "shortDesctiption": "key-value storage that scales to the moon",
+    "imageURL": "Arch_Amazon-DynamoDB_64.png"
+  },
+  {
+    "id": 12,
+    "name": "RDS",
+    "shortDesctiption": "MySQL or Postgest DB without the problems of running it",
+    "imageURL": "Arch_Amazon-RDS_64.png"
+  }
+]

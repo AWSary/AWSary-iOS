@@ -1,0 +1,2330 @@
+[
+    {
+        "name": "Activate",
+        "longName": "AWS Activate",
+        "shortDesctiption": "This is the long description of the service AWS-Activate",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Activate_64@5x.png",
+        "youtube_id": "",
+        "id": 27
+    },
+    {
+        "name": "Amplify",
+        "longName": "AWS Amplify",
+        "shortDesctiption": "This is the long description of the service AWS-Amplify",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Amplify_64@5x.png",
+        "youtube_id": "",
+        "id": 28
+    },
+    {
+        "name": "App Mesh",
+        "longName": "AWS App Mesh",
+        "shortDesctiption": "This is the long description of the service AWS-App-Mesh",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-App-Mesh_64@5x.png",
+        "youtube_id": "",
+        "id": 29
+    },
+    {
+        "name": "App Runner",
+        "longName": "AWS App Runner",
+        "shortDesctiption": "This is the long description of the service AWS-App-Runner",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-App-Runner_64@5x.png",
+        "youtube_id": "",
+        "id": 30
+    },
+    {
+        "name": "AppConfig",
+        "longName": "AWS AppConfig",
+        "shortDesctiption": "This is the long description of the service AWS-AppConfig",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-AppConfig_64@5x.png",
+        "youtube_id": "",
+        "id": 31
+    },
+    {
+        "name": "AppSync",
+        "longName": "AWS AppSync",
+        "shortDesctiption": "This is the long description of the service AWS-AppSync",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-AppSync_64@5x.png",
+        "youtube_id": "",
+        "id": 32
+    },
+    {
+        "name": "Application Auto Scaling",
+        "longName": "AWS Application Auto Scaling",
+        "shortDesctiption": "This is the long description of the service AWS-Application-Auto-Scaling",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 33
+    },
+    {
+        "name": "Application Cost Profiler",
+        "longName": "AWS Application Cost Profiler",
+        "shortDesctiption": "This is the long description of the service AWS-Application-Cost-Profiler",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Cost-Profiler_64@5x.png",
+        "youtube_id": "",
+        "id": 34
+    },
+    {
+        "name": "Application Discovery Service",
+        "longName": "AWS Application Discovery Service",
+        "shortDesctiption": "This is the long description of the service AWS-Application-Discovery-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Discovery-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 35
+    },
+    {
+        "name": "Application Migration Service",
+        "longName": "AWS Application Migration Service",
+        "shortDesctiption": "This is the long description of the service AWS-Application-Migration-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Application-Migration-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 36
+    },
+    {
+        "name": "Artifact",
+        "longName": "AWS Artifact",
+        "shortDesctiption": "This is the long description of the service AWS-Artifact",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Artifact_64@5x.png",
+        "youtube_id": "",
+        "id": 37
+    },
+    {
+        "name": "Audit Manager",
+        "longName": "AWS Audit Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Audit-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Audit-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 38
+    },
+    {
+        "name": "Auto Scaling",
+        "longName": "AWS Auto Scaling",
+        "shortDesctiption": "This is the long description of the service AWS-Auto-Scaling",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 39
+    },
+    {
+        "name": "Backint Agent",
+        "longName": "AWS Backint Agent",
+        "shortDesctiption": "This is the long description of the service AWS-Backint-Agent",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Backint-Agent_64@5x.png",
+        "youtube_id": "",
+        "id": 40
+    },
+    {
+        "name": "Backup",
+        "longName": "AWS Backup",
+        "shortDesctiption": "This is the long description of the service AWS-Backup",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Backup_64@5x.png",
+        "youtube_id": "",
+        "id": 41
+    },
+    {
+        "name": "Batch",
+        "longName": "AWS Batch",
+        "shortDesctiption": "This is the long description of the service AWS-Batch",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Batch_64@5x.png",
+        "youtube_id": "",
+        "id": 42
+    },
+    {
+        "name": "Billing Conductor",
+        "longName": "AWS Billing Conductor",
+        "shortDesctiption": "This is the long description of the service AWS-Billing-Conductor",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Billing-Conductor_64@5x.png",
+        "youtube_id": "",
+        "id": 43
+    },
+    {
+        "name": "Budgets",
+        "longName": "AWS Budgets",
+        "shortDesctiption": "This is the long description of the service AWS-Budgets",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Budgets_64@5x.png",
+        "youtube_id": "",
+        "id": 44
+    },
+    {
+        "name": "Certificate Manager",
+        "longName": "AWS Certificate Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Certificate-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Certificate-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 45
+    },
+    {
+        "name": "Chatbot",
+        "longName": "AWS Chatbot",
+        "shortDesctiption": "This is the long description of the service AWS-Chatbot",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Chatbot_64@5x.png",
+        "youtube_id": "",
+        "id": 46
+    },
+    {
+        "name": "Client VPN",
+        "longName": "AWS Client VPN",
+        "shortDesctiption": "This is the long description of the service AWS-Client-VPN",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Client-VPN_64@5x.png",
+        "youtube_id": "",
+        "id": 47
+    },
+    {
+        "name": "Cloud Control API",
+        "longName": "AWS Cloud Control API",
+        "shortDesctiption": "This is the long description of the service AWS-Cloud-Control-API",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Control-API_64@5x.png",
+        "youtube_id": "",
+        "id": 48
+    },
+    {
+        "name": "Cloud Development Kit",
+        "longName": "AWS Cloud Development Kit",
+        "shortDesctiption": "This is the long description of the service AWS-Cloud-Development-Kit",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Development-Kit_64@5x.png",
+        "youtube_id": "",
+        "id": 49
+    },
+    {
+        "name": "Cloud Map",
+        "longName": "AWS Cloud Map",
+        "shortDesctiption": "This is the long description of the service AWS-Cloud-Map",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-Map_64@5x.png",
+        "youtube_id": "",
+        "id": 50
+    },
+    {
+        "name": "Cloud WAN",
+        "longName": "AWS Cloud WAN",
+        "shortDesctiption": "This is the long description of the service AWS-Cloud-WAN",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud-WAN_64@5x.png",
+        "youtube_id": "",
+        "id": 51
+    },
+    {
+        "name": "Cloud9",
+        "longName": "AWS Cloud9",
+        "shortDesctiption": "This is the long description of the service AWS-Cloud9",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cloud9_64@5x.png",
+        "youtube_id": "",
+        "id": 52
+    },
+    {
+        "name": "CloudFormation",
+        "longName": "AWS CloudFormation",
+        "shortDesctiption": "This is the long description of the service AWS-CloudFormation",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudFormation_64@5x.png",
+        "youtube_id": "",
+        "id": 53
+    },
+    {
+        "name": "CloudHSM",
+        "longName": "AWS CloudHSM",
+        "shortDesctiption": "This is the long description of the service AWS-CloudHSM",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudHSM_64@5x.png",
+        "youtube_id": "",
+        "id": 54
+    },
+    {
+        "name": "CloudShell",
+        "longName": "AWS CloudShell",
+        "shortDesctiption": "This is the long description of the service AWS-CloudShell",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudShell_64@5x.png",
+        "youtube_id": "",
+        "id": 55
+    },
+    {
+        "name": "CloudTrail",
+        "longName": "AWS CloudTrail",
+        "shortDesctiption": "This is the long description of the service AWS-CloudTrail",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CloudTrail_64@5x.png",
+        "youtube_id": "",
+        "id": 56
+    },
+    {
+        "name": "CodeArtifact",
+        "longName": "AWS CodeArtifact",
+        "shortDesctiption": "This is the long description of the service AWS-CodeArtifact",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeArtifact_64@5x.png",
+        "youtube_id": "",
+        "id": 57
+    },
+    {
+        "name": "CodeBuild",
+        "longName": "AWS CodeBuild",
+        "shortDesctiption": "This is the long description of the service AWS-CodeBuild",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeBuild_64@5x.png",
+        "youtube_id": "",
+        "id": 58
+    },
+    {
+        "name": "CodeCommit",
+        "longName": "AWS CodeCommit",
+        "shortDesctiption": "This is the long description of the service AWS-CodeCommit",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeCommit_64@5x.png",
+        "youtube_id": "",
+        "id": 59
+    },
+    {
+        "name": "CodeDeploy",
+        "longName": "AWS CodeDeploy",
+        "shortDesctiption": "This is the long description of the service AWS-CodeDeploy",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeDeploy_64@5x.png",
+        "youtube_id": "",
+        "id": 60
+    },
+    {
+        "name": "CodePipeline",
+        "longName": "AWS CodePipeline",
+        "shortDesctiption": "This is the long description of the service AWS-CodePipeline",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodePipeline_64@5x.png",
+        "youtube_id": "",
+        "id": 61
+    },
+    {
+        "name": "CodeStar",
+        "longName": "AWS CodeStar",
+        "shortDesctiption": "This is the long description of the service AWS-CodeStar",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-CodeStar_64@5x.png",
+        "youtube_id": "",
+        "id": 62
+    },
+    {
+        "name": "Command Line Interface",
+        "longName": "AWS Command Line Interface",
+        "shortDesctiption": "This is the long description of the service AWS-Command-Line-Interface",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Command-Line-Interface_64@5x.png",
+        "youtube_id": "",
+        "id": 63
+    },
+    {
+        "name": "Compute Optimizer",
+        "longName": "AWS Compute Optimizer",
+        "shortDesctiption": "This is the long description of the service AWS-Compute-Optimizer",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Compute-Optimizer_64@5x.png",
+        "youtube_id": "",
+        "id": 64
+    },
+    {
+        "name": "Config",
+        "longName": "AWS Config",
+        "shortDesctiption": "This is the long description of the service AWS-Config",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Config_64@5x.png",
+        "youtube_id": "",
+        "id": 65
+    },
+    {
+        "name": "Console Mobile Application",
+        "longName": "AWS Console Mobile Application",
+        "shortDesctiption": "This is the long description of the service AWS-Console-Mobile-Application",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Console-Mobile-Application_64@5x.png",
+        "youtube_id": "",
+        "id": 66
+    },
+    {
+        "name": "Control Tower",
+        "longName": "AWS Control Tower",
+        "shortDesctiption": "This is the long description of the service AWS-Control-Tower",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Control-Tower_64@5x.png",
+        "youtube_id": "",
+        "id": 67
+    },
+    {
+        "name": "Cost Explorer",
+        "longName": "AWS Cost Explorer",
+        "shortDesctiption": "This is the long description of the service AWS-Cost-Explorer",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cost-Explorer_64@5x.png",
+        "youtube_id": "",
+        "id": 68
+    },
+    {
+        "name": "Cost and Usage Report",
+        "longName": "AWS Cost and Usage Report",
+        "shortDesctiption": "This is the long description of the service AWS-Cost-and-Usage-Report",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Cost-and-Usage-Report_64@5x.png",
+        "youtube_id": "",
+        "id": 69
+    },
+    {
+        "name": "Data Exchange",
+        "longName": "AWS Data Exchange",
+        "shortDesctiption": "This is the long description of the service AWS-Data-Exchange",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Data-Exchange_64@5x.png",
+        "youtube_id": "",
+        "id": 70
+    },
+    {
+        "name": "Data Pipeline",
+        "longName": "AWS Data Pipeline",
+        "shortDesctiption": "This is the long description of the service AWS-Data-Pipeline",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Data-Pipeline_64@5x.png",
+        "youtube_id": "",
+        "id": 71
+    },
+    {
+        "name": "DataSync",
+        "longName": "AWS DataSync",
+        "shortDesctiption": "This is the long description of the service AWS-DataSync",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DataSync_64@5x.png",
+        "youtube_id": "",
+        "id": 72
+    },
+    {
+        "name": "Database Migration Service",
+        "longName": "AWS Database Migration Service",
+        "shortDesctiption": "This is the long description of the service AWS-Database-Migration-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Database-Migration-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 73
+    },
+    {
+        "name": "Deep Learning AMIs",
+        "longName": "AWS Deep Learning AMIs",
+        "shortDesctiption": "This is the long description of the service AWS-Deep-Learning-AMIs",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Deep-Learning-AMIs_64@5x.png",
+        "youtube_id": "",
+        "id": 74
+    },
+    {
+        "name": "Deep Learning Containers",
+        "longName": "AWS Deep Learning Containers",
+        "shortDesctiption": "This is the long description of the service AWS-Deep-Learning-Containers",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Deep-Learning-Containers_64@5x.png",
+        "youtube_id": "",
+        "id": 75
+    },
+    {
+        "name": "DeepComposer",
+        "longName": "AWS DeepComposer",
+        "shortDesctiption": "This is the long description of the service AWS-DeepComposer",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepComposer_64@5x.png",
+        "youtube_id": "",
+        "id": 76
+    },
+    {
+        "name": "DeepLens",
+        "longName": "AWS DeepLens",
+        "shortDesctiption": "This is the long description of the service AWS-DeepLens",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepLens_64@5x.png",
+        "youtube_id": "",
+        "id": 77
+    },
+    {
+        "name": "DeepRacer",
+        "longName": "AWS DeepRacer",
+        "shortDesctiption": "This is the long description of the service AWS-DeepRacer",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-DeepRacer_64@5x.png",
+        "youtube_id": "",
+        "id": 78
+    },
+    {
+        "name": "Device Farm",
+        "longName": "AWS Device Farm",
+        "shortDesctiption": "This is the long description of the service AWS-Device-Farm",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Device-Farm_64@5x.png",
+        "youtube_id": "",
+        "id": 79
+    },
+    {
+        "name": "Direct Connect",
+        "longName": "AWS Direct Connect",
+        "shortDesctiption": "This is the long description of the service AWS-Direct-Connect",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Direct-Connect_64@5x.png",
+        "youtube_id": "",
+        "id": 80
+    },
+    {
+        "name": "Directory Service",
+        "longName": "AWS Directory Service",
+        "shortDesctiption": "This is the long description of the service AWS-Directory-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Directory-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 81
+    },
+    {
+        "name": "Distro for OpenTelemetry",
+        "longName": "AWS Distro for OpenTelemetry",
+        "shortDesctiption": "This is the long description of the service AWS-Distro-for-OpenTelemetry",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Distro-for-OpenTelemetry_64@5x.png",
+        "youtube_id": "",
+        "id": 82
+    },
+    {
+        "name": "Elastic Beanstalk",
+        "longName": "AWS Elastic Beanstalk",
+        "shortDesctiption": "This is the long description of the service AWS-Elastic-Beanstalk",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elastic-Beanstalk_64@5x.png",
+        "youtube_id": "",
+        "id": 83
+    },
+    {
+        "name": "Elemental Appliances & Software",
+        "longName": "AWS Elemental Appliances & Software",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Appliances-&-Software",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Appliances-&-Software_64@5x.png",
+        "youtube_id": "",
+        "id": 84
+    },
+    {
+        "name": "Elemental Conductor",
+        "longName": "AWS Elemental Conductor",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Conductor",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Conductor_64@5x.png",
+        "youtube_id": "",
+        "id": 85
+    },
+    {
+        "name": "Elemental Delta",
+        "longName": "AWS Elemental Delta",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Delta",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Delta_64@5x.png",
+        "youtube_id": "",
+        "id": 86
+    },
+    {
+        "name": "Elemental Link",
+        "longName": "AWS Elemental Link",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Link",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Link_64@5x.png",
+        "youtube_id": "",
+        "id": 87
+    },
+    {
+        "name": "Elemental Live",
+        "longName": "AWS Elemental Live",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Live",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Live_64@5x.png",
+        "youtube_id": "",
+        "id": 88
+    },
+    {
+        "name": "Elemental MediaConnect",
+        "longName": "AWS Elemental MediaConnect",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaConnect",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaConnect_64@5x.png",
+        "youtube_id": "",
+        "id": 89
+    },
+    {
+        "name": "Elemental MediaConvert",
+        "longName": "AWS Elemental MediaConvert",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaConvert",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaConvert_64@5x.png",
+        "youtube_id": "",
+        "id": 90
+    },
+    {
+        "name": "Elemental MediaLive",
+        "longName": "AWS Elemental MediaLive",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaLive",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaLive_64@5x.png",
+        "youtube_id": "",
+        "id": 91
+    },
+    {
+        "name": "Elemental MediaPackage",
+        "longName": "AWS Elemental MediaPackage",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaPackage",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaPackage_64@5x.png",
+        "youtube_id": "",
+        "id": 92
+    },
+    {
+        "name": "Elemental MediaStore",
+        "longName": "AWS Elemental MediaStore",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaStore",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaStore_64@5x.png",
+        "youtube_id": "",
+        "id": 93
+    },
+    {
+        "name": "Elemental MediaTailor",
+        "longName": "AWS Elemental MediaTailor",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-MediaTailor",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-MediaTailor_64@5x.png",
+        "youtube_id": "",
+        "id": 94
+    },
+    {
+        "name": "Elemental Server",
+        "longName": "AWS Elemental Server",
+        "shortDesctiption": "This is the long description of the service AWS-Elemental-Server",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Elemental-Server_64@5x.png",
+        "youtube_id": "",
+        "id": 95
+    },
+    {
+        "name": "Express Workflows",
+        "longName": "AWS Express Workflows",
+        "shortDesctiption": "This is the long description of the service AWS-Express-Workflows",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Express-Workflows_64@5x.png",
+        "youtube_id": "",
+        "id": 96
+    },
+    {
+        "name": "Fargate",
+        "longName": "AWS Fargate",
+        "shortDesctiption": "This is the long description of the service AWS-Fargate",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Fargate_64@5x.png",
+        "youtube_id": "",
+        "id": 97
+    },
+    {
+        "name": "Fault Injection Simulator",
+        "longName": "AWS Fault Injection Simulator",
+        "shortDesctiption": "This is the long description of the service AWS-Fault-Injection-Simulator",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Fault-Injection-Simulator_64@5x.png",
+        "youtube_id": "",
+        "id": 98
+    },
+    {
+        "name": "Firewall Manager",
+        "longName": "AWS Firewall Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Firewall-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Firewall-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 99
+    },
+    {
+        "name": "GameKit",
+        "longName": "AWS GameKit",
+        "shortDesctiption": "This is the long description of the service AWS-GameKit",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-GameKit_64@5x.png",
+        "youtube_id": "",
+        "id": 100
+    },
+    {
+        "name": "Global Accelerator",
+        "longName": "AWS Global Accelerator",
+        "shortDesctiption": "This is the long description of the service AWS-Global-Accelerator",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Global-Accelerator_64@5x.png",
+        "youtube_id": "",
+        "id": 101
+    },
+    {
+        "name": "Glue DataBrew",
+        "longName": "AWS Glue DataBrew",
+        "shortDesctiption": "This is the long description of the service AWS-Glue-DataBrew",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue-DataBrew_64@5x.png",
+        "youtube_id": "",
+        "id": 102
+    },
+    {
+        "name": "Glue Elastic Views",
+        "longName": "AWS Glue Elastic Views",
+        "shortDesctiption": "This is the long description of the service AWS-Glue-Elastic-Views",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue-Elastic-Views_64@5x.png",
+        "youtube_id": "",
+        "id": 103
+    },
+    {
+        "name": "Glue",
+        "longName": "AWS Glue",
+        "shortDesctiption": "This is the long description of the service AWS-Glue",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Glue_64@5x.png",
+        "youtube_id": "",
+        "id": 104
+    },
+    {
+        "name": "Ground Station",
+        "longName": "AWS Ground Station",
+        "shortDesctiption": "This is the long description of the service AWS-Ground-Station",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Ground-Station_64@5x.png",
+        "youtube_id": "",
+        "id": 105
+    },
+    {
+        "name": "IQ",
+        "longName": "AWS IQ",
+        "shortDesctiption": "This is the long description of the service AWS-IQ",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IQ_64@5x.png",
+        "youtube_id": "",
+        "id": 106
+    },
+    {
+        "name": "Identity and Access Management",
+        "longName": "AWS Identity and Access Management",
+        "shortDesctiption": "This is the long description of the service AWS-Identity-and-Access-Management",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+        "youtube_id": "",
+        "id": 107
+    },
+    {
+        "name": "IoT 1 Click",
+        "longName": "AWS IoT 1 Click",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-1-Click",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-1-Click_64@5x.png",
+        "youtube_id": "",
+        "id": 108
+    },
+    {
+        "name": "IoT Analytics",
+        "longName": "AWS IoT Analytics",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Analytics",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Analytics_64@5x.png",
+        "youtube_id": "",
+        "id": 109
+    },
+    {
+        "name": "IoT Button",
+        "longName": "AWS IoT Button",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Button",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Button_64@5x.png",
+        "youtube_id": "",
+        "id": 110
+    },
+    {
+        "name": "IoT Core",
+        "longName": "AWS IoT Core",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Core",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Core_64@5x.png",
+        "youtube_id": "",
+        "id": 111
+    },
+    {
+        "name": "IoT Device Defender",
+        "longName": "AWS IoT Device Defender",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Device-Defender",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Device-Defender_64@5x.png",
+        "youtube_id": "",
+        "id": 112
+    },
+    {
+        "name": "IoT Device Management",
+        "longName": "AWS IoT Device Management",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Device-Management",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Device-Management_64@5x.png",
+        "youtube_id": "",
+        "id": 113
+    },
+    {
+        "name": "IoT Events",
+        "longName": "AWS IoT Events",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Events",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Events_64@5x.png",
+        "youtube_id": "",
+        "id": 114
+    },
+    {
+        "name": "IoT ExpressLink",
+        "longName": "AWS IoT ExpressLink",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-ExpressLink",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-ExpressLink_64@5x.png",
+        "youtube_id": "",
+        "id": 115
+    },
+    {
+        "name": "IoT FleetWise",
+        "longName": "AWS IoT FleetWise",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-FleetWise",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-FleetWise_64@5x.png",
+        "youtube_id": "",
+        "id": 116
+    },
+    {
+        "name": "IoT Greengrass",
+        "longName": "AWS IoT Greengrass",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Greengrass",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Greengrass_64@5x.png",
+        "youtube_id": "",
+        "id": 117
+    },
+    {
+        "name": "IoT RoboRunner",
+        "longName": "AWS IoT RoboRunner",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-RoboRunner",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-RoboRunner_64@5x.png",
+        "youtube_id": "",
+        "id": 118
+    },
+    {
+        "name": "IoT SiteWise",
+        "longName": "AWS IoT SiteWise",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-SiteWise",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-SiteWise_64@5x.png",
+        "youtube_id": "",
+        "id": 119
+    },
+    {
+        "name": "IoT Things Graph",
+        "longName": "AWS IoT Things Graph",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-Things-Graph",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-Things-Graph_64@5x.png",
+        "youtube_id": "",
+        "id": 120
+    },
+    {
+        "name": "IoT TwinMaker",
+        "longName": "AWS IoT TwinMaker",
+        "shortDesctiption": "This is the long description of the service AWS-IoT-TwinMaker",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-IoT-TwinMaker_64@5x.png",
+        "youtube_id": "",
+        "id": 121
+    },
+    {
+        "name": "Key Management Service",
+        "longName": "AWS Key Management Service",
+        "shortDesctiption": "This is the long description of the service AWS-Key-Management-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Key-Management-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 122
+    },
+    {
+        "name": "Lake Formation",
+        "longName": "AWS Lake Formation",
+        "shortDesctiption": "This is the long description of the service AWS-Lake-Formation",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Lake-Formation_64@5x.png",
+        "youtube_id": "",
+        "id": 123
+    },
+    {
+        "name": "Lambda",
+        "longName": "AWS Lambda",
+        "shortDesctiption": "This is the long description of the service AWS-Lambda",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Lambda_64@5x.png",
+        "youtube_id": "",
+        "id": 124
+    },
+    {
+        "name": "Launch Wizard",
+        "longName": "AWS Launch Wizard",
+        "shortDesctiption": "This is the long description of the service AWS-Launch-Wizard",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Launch-Wizard_64@5x.png",
+        "youtube_id": "",
+        "id": 125
+    },
+    {
+        "name": "License Manager",
+        "longName": "AWS License Manager",
+        "shortDesctiption": "This is the long description of the service AWS-License-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-License-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 126
+    },
+    {
+        "name": "Local Zones",
+        "longName": "AWS Local Zones",
+        "shortDesctiption": "This is the long description of the service AWS-Local-Zones",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Local-Zones_64@5x.png",
+        "youtube_id": "",
+        "id": 127
+    },
+    {
+        "name": "Mainframe Modernization",
+        "longName": "AWS Mainframe Modernization",
+        "shortDesctiption": "This is the long description of the service AWS-Mainframe-Modernization",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Mainframe-Modernization_64@5x.png",
+        "youtube_id": "",
+        "id": 128
+    },
+    {
+        "name": "Managed Services",
+        "longName": "AWS Managed Services",
+        "shortDesctiption": "This is the long description of the service AWS-Managed-Services",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Managed-Services_64@5x.png",
+        "youtube_id": "",
+        "id": 129
+    },
+    {
+        "name": "Management Console",
+        "longName": "AWS Management Console",
+        "shortDesctiption": "This is the long description of the service AWS-Management-Console",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Management-Console_64@5x.png",
+        "youtube_id": "",
+        "id": 130
+    },
+    {
+        "name": "Dark",
+        "longName": "Dark",
+        "shortDesctiption": "This is the long description of the service Dark",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Marketplace_Dark_64@5x.png",
+        "youtube_id": "",
+        "id": 131
+    },
+    {
+        "name": "Light",
+        "longName": "Light",
+        "shortDesctiption": "This is the long description of the service Light",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Marketplace_Light_64@5x.png",
+        "youtube_id": "",
+        "id": 132
+    },
+    {
+        "name": "Migration Evaluator",
+        "longName": "AWS Migration Evaluator",
+        "shortDesctiption": "This is the long description of the service AWS-Migration-Evaluator",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Migration-Evaluator_64@5x.png",
+        "youtube_id": "",
+        "id": 133
+    },
+    {
+        "name": "Migration Hub",
+        "longName": "AWS Migration Hub",
+        "shortDesctiption": "This is the long description of the service AWS-Migration-Hub",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Migration-Hub_64@5x.png",
+        "youtube_id": "",
+        "id": 134
+    },
+    {
+        "name": "Network Firewall",
+        "longName": "AWS Network Firewall",
+        "shortDesctiption": "This is the long description of the service AWS-Network-Firewall",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Network-Firewall_64@5x.png",
+        "youtube_id": "",
+        "id": 135
+    },
+    {
+        "name": "Neuron",
+        "longName": "AWS Neuron",
+        "shortDesctiption": "This is the long description of the service AWS-Neuron",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Neuron_64@5x.png",
+        "youtube_id": "",
+        "id": 136
+    },
+    {
+        "name": "Nitro Enclaves",
+        "longName": "AWS Nitro Enclaves",
+        "shortDesctiption": "This is the long description of the service AWS-Nitro-Enclaves",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Nitro-Enclaves_64@5x.png",
+        "youtube_id": "",
+        "id": 137
+    },
+    {
+        "name": "OpsWorks",
+        "longName": "AWS OpsWorks",
+        "shortDesctiption": "This is the long description of the service AWS-OpsWorks",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-OpsWorks_64@5x.png",
+        "youtube_id": "",
+        "id": 138
+    },
+    {
+        "name": "Organizations",
+        "longName": "AWS Organizations",
+        "shortDesctiption": "This is the long description of the service AWS-Organizations",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Organizations_64@5x.png",
+        "youtube_id": "",
+        "id": 139
+    },
+    {
+        "name": "Outposts family",
+        "longName": "AWS Outposts family",
+        "shortDesctiption": "This is the long description of the service AWS-Outposts-family",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Outposts-family_64@5x.png",
+        "youtube_id": "",
+        "id": 140
+    },
+    {
+        "name": "Outposts rack",
+        "longName": "AWS Outposts rack",
+        "shortDesctiption": "This is the long description of the service AWS-Outposts-rack",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Outposts-rack_64@5x.png",
+        "youtube_id": "",
+        "id": 141
+    },
+    {
+        "name": "Outposts servers",
+        "longName": "AWS Outposts servers",
+        "shortDesctiption": "This is the long description of the service AWS-Outposts-servers",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Outposts-servers_64@5x.png",
+        "youtube_id": "",
+        "id": 142
+    },
+    {
+        "name": "Panorama",
+        "longName": "AWS Panorama",
+        "shortDesctiption": "This is the long description of the service AWS-Panorama",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Panorama_64@5x.png",
+        "youtube_id": "",
+        "id": 143
+    },
+    {
+        "name": "ParallelCluster",
+        "longName": "AWS ParallelCluster",
+        "shortDesctiption": "This is the long description of the service AWS-ParallelCluster",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ParallelCluster_64@5x.png",
+        "youtube_id": "",
+        "id": 144
+    },
+    {
+        "name": "Personal Health Dashboard",
+        "longName": "AWS Personal Health Dashboard",
+        "shortDesctiption": "This is the long description of the service AWS-Personal-Health-Dashboard",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Personal-Health-Dashboard_64@5x.png",
+        "youtube_id": "",
+        "id": 145
+    },
+    {
+        "name": "Private 5G",
+        "longName": "AWS Private 5G",
+        "shortDesctiption": "This is the long description of the service AWS-Private-5G",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Private-5G_64@5x.png",
+        "youtube_id": "",
+        "id": 146
+    },
+    {
+        "name": "PrivateLink",
+        "longName": "AWS PrivateLink",
+        "shortDesctiption": "This is the long description of the service AWS-PrivateLink",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-PrivateLink_64@5x.png",
+        "youtube_id": "",
+        "id": 147
+    },
+    {
+        "name": "Professional Services",
+        "longName": "AWS Professional Services",
+        "shortDesctiption": "This is the long description of the service AWS-Professional-Services",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Professional-Services_64@5x.png",
+        "youtube_id": "",
+        "id": 148
+    },
+    {
+        "name": "Proton",
+        "longName": "AWS Proton",
+        "shortDesctiption": "This is the long description of the service AWS-Proton",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Proton_64@5x.png",
+        "youtube_id": "",
+        "id": 149
+    },
+    {
+        "name": "Resilience Hub",
+        "longName": "AWS Resilience Hub",
+        "shortDesctiption": "This is the long description of the service AWS-Resilience-Hub",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Resilience-Hub_64@5x.png",
+        "youtube_id": "",
+        "id": 150
+    },
+    {
+        "name": "Resource Access Manager",
+        "longName": "AWS Resource Access Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Resource-Access-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Resource-Access-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 151
+    },
+    {
+        "name": "RoboMaker",
+        "longName": "AWS RoboMaker",
+        "shortDesctiption": "This is the long description of the service AWS-RoboMaker",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-RoboMaker_64@5x.png",
+        "youtube_id": "",
+        "id": 152
+    },
+    {
+        "name": "Secrets Manager",
+        "longName": "AWS Secrets Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Secrets-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Secrets-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 153
+    },
+    {
+        "name": "Security Hub",
+        "longName": "AWS Security Hub",
+        "shortDesctiption": "This is the long description of the service AWS-Security-Hub",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Security-Hub_64@5x.png",
+        "youtube_id": "",
+        "id": 154
+    },
+    {
+        "name": "Server Migration Service",
+        "longName": "AWS Server Migration Service",
+        "shortDesctiption": "This is the long description of the service AWS-Server-Migration-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Server-Migration-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 155
+    },
+    {
+        "name": "Serverless Application Repository",
+        "longName": "AWS Serverless Application Repository",
+        "shortDesctiption": "This is the long description of the service AWS-Serverless-Application-Repository",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Serverless-Application-Repository_64@5x.png",
+        "youtube_id": "",
+        "id": 156
+    },
+    {
+        "name": "Service Catalog",
+        "longName": "AWS Service Catalog",
+        "shortDesctiption": "This is the long description of the service AWS-Service-Catalog",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Service-Catalog_64@5x.png",
+        "youtube_id": "",
+        "id": 157
+    },
+    {
+        "name": "Shield",
+        "longName": "AWS Shield",
+        "shortDesctiption": "This is the long description of the service AWS-Shield",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Shield_64@5x.png",
+        "youtube_id": "",
+        "id": 158
+    },
+    {
+        "name": "Signer",
+        "longName": "AWS Signer",
+        "shortDesctiption": "This is the long description of the service AWS-Signer",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Signer_64@5x.png",
+        "youtube_id": "",
+        "id": 159
+    },
+    {
+        "name": "Single Sign On",
+        "longName": "AWS Single Sign On",
+        "shortDesctiption": "This is the long description of the service AWS-Single-Sign-On",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Single-Sign-On_64@5x.png",
+        "youtube_id": "",
+        "id": 160
+    },
+    {
+        "name": "Site to Site VPN",
+        "longName": "AWS Site to Site VPN",
+        "shortDesctiption": "This is the long description of the service AWS-Site-to-Site-VPN",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Site-to-Site-VPN_64@5x.png",
+        "youtube_id": "",
+        "id": 161
+    },
+    {
+        "name": "Snowball Edge",
+        "longName": "AWS Snowball Edge",
+        "shortDesctiption": "This is the long description of the service AWS-Snowball-Edge",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Snowball-Edge_64@5x.png",
+        "youtube_id": "",
+        "id": 162
+    },
+    {
+        "name": "Snowball",
+        "longName": "AWS Snowball",
+        "shortDesctiption": "This is the long description of the service AWS-Snowball",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Snowball_64@5x.png",
+        "youtube_id": "",
+        "id": 163
+    },
+    {
+        "name": "Snowcone",
+        "longName": "AWS Snowcone",
+        "shortDesctiption": "This is the long description of the service AWS-Snowcone",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Snowcone_64@5x.png",
+        "youtube_id": "",
+        "id": 164
+    },
+    {
+        "name": "Snowmobile",
+        "longName": "AWS Snowmobile",
+        "shortDesctiption": "This is the long description of the service AWS-Snowmobile",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Snowmobile_64@5x.png",
+        "youtube_id": "",
+        "id": 165
+    },
+    {
+        "name": "Step Functions",
+        "longName": "AWS Step Functions",
+        "shortDesctiption": "This is the long description of the service AWS-Step-Functions",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Step-Functions_64@5x.png",
+        "youtube_id": "",
+        "id": 166
+    },
+    {
+        "name": "Storage Gateway",
+        "longName": "AWS Storage Gateway",
+        "shortDesctiption": "This is the long description of the service AWS-Storage-Gateway",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Storage-Gateway_64@5x.png",
+        "youtube_id": "",
+        "id": 167
+    },
+    {
+        "name": "Support",
+        "longName": "AWS Support",
+        "shortDesctiption": "This is the long description of the service AWS-Support",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Support_64@5x.png",
+        "youtube_id": "",
+        "id": 168
+    },
+    {
+        "name": "Systems Manager Incident Manager",
+        "longName": "AWS Systems Manager Incident Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Systems-Manager-Incident-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Systems-Manager-Incident-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 169
+    },
+    {
+        "name": "Systems Manager",
+        "longName": "AWS Systems Manager",
+        "shortDesctiption": "This is the long description of the service AWS-Systems-Manager",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Systems-Manager_64@5x.png",
+        "youtube_id": "",
+        "id": 170
+    },
+    {
+        "name": "ThinkBox Deadline",
+        "longName": "AWS ThinkBox Deadline",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-Deadline",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-Deadline_64@5x.png",
+        "youtube_id": "",
+        "id": 171
+    },
+    {
+        "name": "ThinkBox Frost",
+        "longName": "AWS ThinkBox Frost",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-Frost",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-Frost_64@5x.png",
+        "youtube_id": "",
+        "id": 172
+    },
+    {
+        "name": "ThinkBox Krakatoa",
+        "longName": "AWS ThinkBox Krakatoa",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-Krakatoa",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-Krakatoa_64@5x.png",
+        "youtube_id": "",
+        "id": 173
+    },
+    {
+        "name": "ThinkBox Sequoia",
+        "longName": "AWS ThinkBox Sequoia",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-Sequoia",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-Sequoia_64@5x.png",
+        "youtube_id": "",
+        "id": 174
+    },
+    {
+        "name": "ThinkBox Stoke",
+        "longName": "AWS ThinkBox Stoke",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-Stoke",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-Stoke_64@5x.png",
+        "youtube_id": "",
+        "id": 175
+    },
+    {
+        "name": "ThinkBox XMesh",
+        "longName": "AWS ThinkBox XMesh",
+        "shortDesctiption": "This is the long description of the service AWS-ThinkBox-XMesh",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-ThinkBox-XMesh_64@5x.png",
+        "youtube_id": "",
+        "id": 176
+    },
+    {
+        "name": "Tools and SDKs",
+        "longName": "AWS Tools and SDKs",
+        "shortDesctiption": "This is the long description of the service AWS-Tools-and-SDKs",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Tools-and-SDKs_64@5x.png",
+        "youtube_id": "",
+        "id": 177
+    },
+    {
+        "name": "Training Certification",
+        "longName": "AWS Training Certification",
+        "shortDesctiption": "This is the long description of the service AWS-Training-Certification",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Training-Certification_64@5x.png",
+        "youtube_id": "",
+        "id": 178
+    },
+    {
+        "name": "Transfer Family",
+        "longName": "AWS Transfer Family",
+        "shortDesctiption": "This is the long description of the service AWS-Transfer-Family",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Transfer-Family_64@5x.png",
+        "youtube_id": "",
+        "id": 179
+    },
+    {
+        "name": "Transit Gateway",
+        "longName": "AWS Transit Gateway",
+        "shortDesctiption": "This is the long description of the service AWS-Transit-Gateway",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Transit-Gateway_64@5x.png",
+        "youtube_id": "",
+        "id": 180
+    },
+    {
+        "name": "Trusted Advisor",
+        "longName": "AWS Trusted Advisor",
+        "shortDesctiption": "This is the long description of the service AWS-Trusted-Advisor",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Trusted-Advisor_64@5x.png",
+        "youtube_id": "",
+        "id": 181
+    },
+    {
+        "name": "WAF",
+        "longName": "AWS WAF",
+        "shortDesctiption": "This is the long description of the service AWS-WAF",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-WAF_64@5x.png",
+        "youtube_id": "",
+        "id": 182
+    },
+    {
+        "name": "Wavelength",
+        "longName": "AWS Wavelength",
+        "shortDesctiption": "This is the long description of the service AWS-Wavelength",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Wavelength_64@5x.png",
+        "youtube_id": "",
+        "id": 183
+    },
+    {
+        "name": "Well Architected Tool",
+        "longName": "AWS Well Architected Tool",
+        "shortDesctiption": "This is the long description of the service AWS-Well-Architected-Tool",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-Well-Architected-Tool_64@5x.png",
+        "youtube_id": "",
+        "id": 184
+    },
+    {
+        "name": "X Ray",
+        "longName": "AWS X Ray",
+        "shortDesctiption": "This is the long description of the service AWS-X-Ray",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-X-Ray_64@5x.png",
+        "youtube_id": "",
+        "id": 185
+    },
+    {
+        "name": "rePost",
+        "longName": "AWS rePost",
+        "shortDesctiption": "This is the long description of the service AWS-rePost",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_AWS-rePost_64@5x.png",
+        "youtube_id": "",
+        "id": 186
+    },
+    {
+        "name": "Alexa For Business",
+        "longName": "Alexa For Business",
+        "shortDesctiption": "This is the long description of the service Alexa-For-Business",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Alexa-For-Business_64@5x.png",
+        "youtube_id": "",
+        "id": 187
+    },
+    {
+        "name": "API Gateway",
+        "longName": "Amazon API Gateway",
+        "shortDesctiption": "This is the long description of the service Amazon-API-Gateway",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-API-Gateway_64@5x.png",
+        "youtube_id": "",
+        "id": 188
+    },
+    {
+        "name": "AppFlow",
+        "longName": "Amazon AppFlow",
+        "shortDesctiption": "This is the long description of the service Amazon-AppFlow",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-AppFlow_64@5x.png",
+        "youtube_id": "",
+        "id": 189
+    },
+    {
+        "name": "AppStream",
+        "longName": "Amazon AppStream",
+        "shortDesctiption": "This is the long description of the service Amazon-AppStream",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-AppStream_64@5x.png",
+        "youtube_id": "",
+        "id": 190
+    },
+    {
+        "name": "Application Auto Scaling",
+        "longName": "Amazon Application Auto Scaling",
+        "shortDesctiption": "This is the long description of the service Amazon-Application-Auto-Scaling",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Application-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 191
+    },
+    {
+        "name": "Athena",
+        "longName": "Amazon Athena",
+        "shortDesctiption": "This is the long description of the service Amazon-Athena",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+        "youtube_id": "",
+        "id": 192
+    },
+    {
+        "name": "Augmented AI A2I",
+        "longName": "Amazon Augmented AI A2I",
+        "shortDesctiption": "This is the long description of the service Amazon-Augmented-AI-A2I",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Augmented-AI-A2I_64@5x.png",
+        "youtube_id": "",
+        "id": 193
+    },
+    {
+        "name": "Aurora",
+        "longName": "Amazon Aurora",
+        "shortDesctiption": "This is the long description of the service Amazon-Aurora",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Aurora_64@5x.png",
+        "youtube_id": "",
+        "id": 194
+    },
+    {
+        "name": "Braket",
+        "longName": "Amazon Braket",
+        "shortDesctiption": "This is the long description of the service Amazon-Braket",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Braket_64@5x.png",
+        "youtube_id": "",
+        "id": 195
+    },
+    {
+        "name": "Chime SDK",
+        "longName": "Amazon Chime SDK",
+        "shortDesctiption": "This is the long description of the service Amazon-Chime-SDK",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Chime-SDK_64@5x.png",
+        "youtube_id": "",
+        "id": 196
+    },
+    {
+        "name": "Chime Voice Connector",
+        "longName": "Amazon Chime Voice Connector",
+        "shortDesctiption": "This is the long description of the service Amazon-Chime-Voice-Connector",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Chime-Voice-Connector_64@5x.png",
+        "youtube_id": "",
+        "id": 197
+    },
+    {
+        "name": "Chime",
+        "longName": "Amazon Chime",
+        "shortDesctiption": "This is the long description of the service Amazon-Chime",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Chime_64@5x.png",
+        "youtube_id": "",
+        "id": 198
+    },
+    {
+        "name": "Cloud Directory",
+        "longName": "Amazon Cloud Directory",
+        "shortDesctiption": "This is the long description of the service Amazon-Cloud-Directory",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Cloud-Directory_64@5x.png",
+        "youtube_id": "",
+        "id": 199
+    },
+    {
+        "name": "CloudFront",
+        "longName": "Amazon CloudFront",
+        "shortDesctiption": "This is the long description of the service Amazon-CloudFront",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-CloudFront_64@5x.png",
+        "youtube_id": "",
+        "id": 200
+    },
+    {
+        "name": "CloudSearch",
+        "longName": "Amazon CloudSearch",
+        "shortDesctiption": "This is the long description of the service Amazon-CloudSearch",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-CloudSearch_64@5x.png",
+        "youtube_id": "",
+        "id": 201
+    },
+    {
+        "name": "CloudWatch",
+        "longName": "Amazon CloudWatch",
+        "shortDesctiption": "This is the long description of the service Amazon-CloudWatch",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-CloudWatch_64@5x.png",
+        "youtube_id": "",
+        "id": 202
+    },
+    {
+        "name": "CodeGuru",
+        "longName": "Amazon CodeGuru",
+        "shortDesctiption": "This is the long description of the service Amazon-CodeGuru",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-CodeGuru_64@5x.png",
+        "youtube_id": "",
+        "id": 203
+    },
+    {
+        "name": "Cognito",
+        "longName": "Amazon Cognito",
+        "shortDesctiption": "This is the long description of the service Amazon-Cognito",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Cognito_64@5x.png",
+        "youtube_id": "",
+        "id": 204
+    },
+    {
+        "name": "Comprehend Medical",
+        "longName": "Amazon Comprehend Medical",
+        "shortDesctiption": "This is the long description of the service Amazon-Comprehend-Medical",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Comprehend-Medical_64@5x.png",
+        "youtube_id": "",
+        "id": 205
+    },
+    {
+        "name": "Comprehend",
+        "longName": "Amazon Comprehend",
+        "shortDesctiption": "This is the long description of the service Amazon-Comprehend",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Comprehend_64@5x.png",
+        "youtube_id": "",
+        "id": 206
+    },
+    {
+        "name": "Connect",
+        "longName": "Amazon Connect",
+        "shortDesctiption": "This is the long description of the service Amazon-Connect",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Connect_64@5x.png",
+        "youtube_id": "",
+        "id": 207
+    },
+    {
+        "name": "Corretto",
+        "longName": "Amazon Corretto",
+        "shortDesctiption": "This is the long description of the service Amazon-Corretto",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Corretto_64@5x.png",
+        "youtube_id": "",
+        "id": 208
+    },
+    {
+        "name": "Detective",
+        "longName": "Amazon Detective",
+        "shortDesctiption": "This is the long description of the service Amazon-Detective",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Detective_64@5x.png",
+        "youtube_id": "",
+        "id": 209
+    },
+    {
+        "name": "DevOps Guru",
+        "longName": "Amazon DevOps Guru",
+        "shortDesctiption": "This is the long description of the service Amazon-DevOps-Guru",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-DevOps-Guru_64@5x.png",
+        "youtube_id": "",
+        "id": 210
+    },
+    {
+        "name": "DocumentDB",
+        "longName": "Amazon DocumentDB",
+        "shortDesctiption": "This is the long description of the service Amazon-DocumentDB",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-DocumentDB_64@5x.png",
+        "youtube_id": "",
+        "id": 211
+    },
+    {
+        "name": "DynamoDB",
+        "longName": "Amazon DynamoDB",
+        "shortDesctiption": "This is the long description of the service Amazon-DynamoDB",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-DynamoDB_64@5x.png",
+        "youtube_id": "",
+        "id": 212
+    },
+    {
+        "name": "EC2",
+        "longName": "Amazon EC2",
+        "shortDesctiption": "Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EC2_64@5x.png",
+        "youtube_id": "d_u1GKWm2f0",
+        "id": 213
+    },
+    {
+        "name": "EC2 Auto Scaling",
+        "longName": "Amazon EC2 Auto Scaling",
+        "shortDesctiption": "This is the long description of the service Amazon-EC2-Auto-Scaling",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EC2-Auto-Scaling_64@5x.png",
+        "youtube_id": "",
+        "id": 214
+    },
+    {
+        "name": "EC2 Image Builder",
+        "longName": "Amazon EC2 Image Builder",
+        "shortDesctiption": "This is the long description of the service Amazon-EC2-Image-Builder",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EC2-Image-Builder_64@5x.png",
+        "youtube_id": "",
+        "id": 215
+    },
+    {
+        "name": "ECS Anywhere",
+        "longName": "Amazon ECS Anywhere",
+        "shortDesctiption": "This is the long description of the service Amazon-ECS-Anywhere",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-ECS-Anywhere_64@5x.png",
+        "youtube_id": "",
+        "id": 216
+    },
+    {
+        "name": "EFS",
+        "longName": "Amazon EFS",
+        "shortDesctiption": "This is the long description of the service Amazon-EFS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EFS_64@5x.png",
+        "youtube_id": "",
+        "id": 217
+    },
+    {
+        "name": "EKS Anywhere",
+        "longName": "Amazon EKS Anywhere",
+        "shortDesctiption": "This is the long description of the service Amazon-EKS-Anywhere",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EKS-Anywhere_64@5x.png",
+        "youtube_id": "",
+        "id": 218
+    },
+    {
+        "name": "EKS Cloud",
+        "longName": "Amazon EKS Cloud",
+        "shortDesctiption": "This is the long description of the service Amazon-EKS-Cloud",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EKS-Cloud_64@5x.png",
+        "youtube_id": "",
+        "id": 219
+    },
+    {
+        "name": "EKS Distro",
+        "longName": "Amazon EKS Distro",
+        "shortDesctiption": "This is the long description of the service Amazon-EKS-Distro",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EKS-Distro_64@5x.png",
+        "youtube_id": "",
+        "id": 220
+    },
+    {
+        "name": "EMR",
+        "longName": "Amazon EMR",
+        "shortDesctiption": "This is the long description of the service Amazon-EMR",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EMR_64@5x.png",
+        "youtube_id": "",
+        "id": 221
+    },
+    {
+        "name": "ElastiCache",
+        "longName": "Amazon ElastiCache",
+        "shortDesctiption": "This is the long description of the service Amazon-ElastiCache",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-ElastiCache_64@5x.png",
+        "youtube_id": "",
+        "id": 222
+    },
+    {
+        "name": "Elastic Block Store",
+        "longName": "Amazon Elastic Block Store",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Block-Store",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Block-Store_64@5x.png",
+        "youtube_id": "",
+        "id": 223
+    },
+    {
+        "name": "Elastic Container Registry",
+        "longName": "Amazon Elastic Container Registry",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Container-Registry",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Container-Registry_64@5x.png",
+        "youtube_id": "",
+        "id": 224
+    },
+    {
+        "name": "Elastic Container Service",
+        "longName": "Amazon Elastic Container Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Container-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Container-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 225
+    },
+    {
+        "name": "Elastic Inference",
+        "longName": "Amazon Elastic Inference",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Inference",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Inference_64@5x.png",
+        "youtube_id": "",
+        "id": 226
+    },
+    {
+        "name": "Elastic Kubernetes Service",
+        "longName": "Amazon Elastic Kubernetes Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Kubernetes-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Kubernetes-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 227
+    },
+    {
+        "name": "Elastic Transcoder",
+        "longName": "Amazon Elastic Transcoder",
+        "shortDesctiption": "This is the long description of the service Amazon-Elastic-Transcoder",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Elastic-Transcoder_64@5x.png",
+        "youtube_id": "",
+        "id": 228
+    },
+    {
+        "name": "EventBridge",
+        "longName": "Amazon EventBridge",
+        "shortDesctiption": "This is the long description of the service Amazon-EventBridge",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-EventBridge_64@5x.png",
+        "youtube_id": "",
+        "id": 229
+    },
+    {
+        "name": "FSx for Lustre",
+        "longName": "Amazon FSx for Lustre",
+        "shortDesctiption": "This is the long description of the service Amazon-FSx-for-Lustre",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FSx-for-Lustre_64@5x.png",
+        "youtube_id": "",
+        "id": 230
+    },
+    {
+        "name": "FSx for NetApp ONTAP",
+        "longName": "Amazon FSx for NetApp ONTAP",
+        "shortDesctiption": "This is the long description of the service Amazon-FSx-for-NetApp-ONTAP",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FSx-for-NetApp-ONTAP_64@5x.png",
+        "youtube_id": "",
+        "id": 231
+    },
+    {
+        "name": "FSx for OpenZFS",
+        "longName": "Amazon FSx for OpenZFS",
+        "shortDesctiption": "This is the long description of the service Amazon-FSx-for-OpenZFS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FSx-for-OpenZFS_64@5x.png",
+        "youtube_id": "",
+        "id": 232
+    },
+    {
+        "name": "FSx for WFS",
+        "longName": "Amazon FSx for WFS",
+        "shortDesctiption": "This is the long description of the service Amazon-FSx-for-WFS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FSx-for-WFS_64@5x.png",
+        "youtube_id": "",
+        "id": 233
+    },
+    {
+        "name": "FSx",
+        "longName": "Amazon FSx",
+        "shortDesctiption": "This is the long description of the service Amazon-FSx",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FSx_64@5x.png",
+        "youtube_id": "",
+        "id": 234
+    },
+    {
+        "name": "FinSpace",
+        "longName": "Amazon FinSpace",
+        "shortDesctiption": "This is the long description of the service Amazon-FinSpace",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-FinSpace_64@5x.png",
+        "youtube_id": "",
+        "id": 235
+    },
+    {
+        "name": "Forecast",
+        "longName": "Amazon Forecast",
+        "shortDesctiption": "This is the long description of the service Amazon-Forecast",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Forecast_64@5x.png",
+        "youtube_id": "",
+        "id": 236
+    },
+    {
+        "name": "Fraud Detector",
+        "longName": "Amazon Fraud Detector",
+        "shortDesctiption": "This is the long description of the service Amazon-Fraud-Detector",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Fraud-Detector_64@5x.png",
+        "youtube_id": "",
+        "id": 237
+    },
+    {
+        "name": "GameLift",
+        "longName": "Amazon GameLift",
+        "shortDesctiption": "This is the long description of the service Amazon-GameLift",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-GameLift_64@5x.png",
+        "youtube_id": "",
+        "id": 238
+    },
+    {
+        "name": "GameSparks",
+        "longName": "Amazon GameSparks",
+        "shortDesctiption": "This is the long description of the service Amazon-GameSparks",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-GameSparks_64@5x.png",
+        "youtube_id": "",
+        "id": 239
+    },
+    {
+        "name": "Genomics CLI",
+        "longName": "Amazon Genomics CLI",
+        "shortDesctiption": "This is the long description of the service Amazon-Genomics-CLI",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Genomics-CLI_64@5x.png",
+        "youtube_id": "",
+        "id": 240
+    },
+    {
+        "name": "GuardDuty",
+        "longName": "Amazon GuardDuty",
+        "shortDesctiption": "This is the long description of the service Amazon-GuardDuty",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-GuardDuty_64@5x.png",
+        "youtube_id": "",
+        "id": 241
+    },
+    {
+        "name": "HealthLake",
+        "longName": "Amazon HealthLake",
+        "shortDesctiption": "This is the long description of the service Amazon-HealthLake",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-HealthLake_64@5x.png",
+        "youtube_id": "",
+        "id": 242
+    },
+    {
+        "name": "Honeycode",
+        "longName": "Amazon Honeycode",
+        "shortDesctiption": "This is the long description of the service Amazon-Honeycode",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Honeycode_64@5x.png",
+        "youtube_id": "",
+        "id": 243
+    },
+    {
+        "name": "Inspector",
+        "longName": "Amazon Inspector",
+        "shortDesctiption": "This is the long description of the service Amazon-Inspector",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Inspector_64@5x.png",
+        "youtube_id": "",
+        "id": 244
+    },
+    {
+        "name": "Interactive Video Service",
+        "longName": "Amazon Interactive Video Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Interactive-Video-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Interactive-Video-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 245
+    },
+    {
+        "name": "Kendra",
+        "longName": "Amazon Kendra",
+        "shortDesctiption": "This is the long description of the service Amazon-Kendra",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kendra_64@5x.png",
+        "youtube_id": "",
+        "id": 246
+    },
+    {
+        "name": "Keyspaces",
+        "longName": "Amazon Keyspaces",
+        "shortDesctiption": "This is the long description of the service Amazon-Keyspaces",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Keyspaces_64@5x.png",
+        "youtube_id": "",
+        "id": 247
+    },
+    {
+        "name": "Kinesis Data Analytics",
+        "longName": "Amazon Kinesis Data Analytics",
+        "shortDesctiption": "This is the long description of the service Amazon-Kinesis-Data-Analytics",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis-Data-Analytics_64@5x.png",
+        "youtube_id": "",
+        "id": 248
+    },
+    {
+        "name": "Kinesis Data Streams",
+        "longName": "Amazon Kinesis Data Streams",
+        "shortDesctiption": "This is the long description of the service Amazon-Kinesis-Data-Streams",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis-Data-Streams_64@5x.png",
+        "youtube_id": "",
+        "id": 249
+    },
+    {
+        "name": "Kinesis Firehose",
+        "longName": "Amazon Kinesis Firehose",
+        "shortDesctiption": "This is the long description of the service Amazon-Kinesis-Firehose",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis-Firehose_64@5x.png",
+        "youtube_id": "",
+        "id": 250
+    },
+    {
+        "name": "Kinesis Video Streams",
+        "longName": "Amazon Kinesis Video Streams",
+        "shortDesctiption": "This is the long description of the service Amazon-Kinesis-Video-Streams",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis-Video-Streams_64@5x.png",
+        "youtube_id": "",
+        "id": 251
+    },
+    {
+        "name": "Kinesis",
+        "longName": "Amazon Kinesis",
+        "shortDesctiption": "This is the long description of the service Amazon-Kinesis",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Kinesis_64@5x.png",
+        "youtube_id": "",
+        "id": 252
+    },
+    {
+        "name": "Lex",
+        "longName": "Amazon Lex",
+        "shortDesctiption": "This is the long description of the service Amazon-Lex",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lex_64@5x.png",
+        "youtube_id": "",
+        "id": 253
+    },
+    {
+        "name": "Lightsail",
+        "longName": "Amazon Lightsail",
+        "shortDesctiption": "This is the long description of the service Amazon-Lightsail",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lightsail_64@5x.png",
+        "youtube_id": "",
+        "id": 254
+    },
+    {
+        "name": "Location Service",
+        "longName": "Amazon Location Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Location-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Location-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 255
+    },
+    {
+        "name": "Lookout for Equipment",
+        "longName": "Amazon Lookout for Equipment",
+        "shortDesctiption": "This is the long description of the service Amazon-Lookout-for-Equipment",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lookout-for-Equipment_64@5x.png",
+        "youtube_id": "",
+        "id": 256
+    },
+    {
+        "name": "Lookout for Metrics",
+        "longName": "Amazon Lookout for Metrics",
+        "shortDesctiption": "This is the long description of the service Amazon-Lookout-for-Metrics",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lookout-for-Metrics_64@5x.png",
+        "youtube_id": "",
+        "id": 257
+    },
+    {
+        "name": "Lookout for Vision",
+        "longName": "Amazon Lookout for Vision",
+        "shortDesctiption": "This is the long description of the service Amazon-Lookout-for-Vision",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lookout-for-Vision_64@5x.png",
+        "youtube_id": "",
+        "id": 258
+    },
+    {
+        "name": "Lumberyard",
+        "longName": "Amazon Lumberyard",
+        "shortDesctiption": "This is the long description of the service Amazon-Lumberyard",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Lumberyard_64@5x.png",
+        "youtube_id": "",
+        "id": 259
+    },
+    {
+        "name": "MQ",
+        "longName": "Amazon MQ",
+        "shortDesctiption": "This is the long description of the service Amazon-MQ",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-MQ_64@5x.png",
+        "youtube_id": "",
+        "id": 260
+    },
+    {
+        "name": "Macie",
+        "longName": "Amazon Macie",
+        "shortDesctiption": "This is the long description of the service Amazon-Macie",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Macie_64@5x.png",
+        "youtube_id": "",
+        "id": 261
+    },
+    {
+        "name": "Managed Blockchain",
+        "longName": "Amazon Managed Blockchain",
+        "shortDesctiption": "This is the long description of the service Amazon-Managed-Blockchain",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Managed-Blockchain_64@5x.png",
+        "youtube_id": "",
+        "id": 262
+    },
+    {
+        "name": "Managed Service for Grafana",
+        "longName": "Amazon Managed Service for Grafana",
+        "shortDesctiption": "This is the long description of the service Amazon-Managed-Service-for-Grafana",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Managed-Service-for-Grafana_64@5x.png",
+        "youtube_id": "",
+        "id": 263
+    },
+    {
+        "name": "Managed Service for Prometheus",
+        "longName": "Amazon Managed Service for Prometheus",
+        "shortDesctiption": "This is the long description of the service Amazon-Managed-Service-for-Prometheus",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Managed-Service-for-Prometheus_64@5x.png",
+        "youtube_id": "",
+        "id": 264
+    },
+    {
+        "name": "Managed Streaming for Apache Kafka",
+        "longName": "Amazon Managed Streaming for Apache Kafka",
+        "shortDesctiption": "This is the long description of the service Amazon-Managed-Streaming-for-Apache-Kafka",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Managed-Streaming-for-Apache-Kafka_64@5x.png",
+        "youtube_id": "",
+        "id": 265
+    },
+    {
+        "name": "Managed Workflows for Apache Airflow",
+        "longName": "Amazon Managed Workflows for Apache Airflow",
+        "shortDesctiption": "This is the long description of the service Amazon-Managed-Workflows-for-Apache-Airflow",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Managed-Workflows-for-Apache-Airflow_64@5x.png",
+        "youtube_id": "",
+        "id": 266
+    },
+    {
+        "name": "MemoryDB for Redis",
+        "longName": "Amazon MemoryDB for Redis",
+        "shortDesctiption": "This is the long description of the service Amazon-MemoryDB-for-Redis",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-MemoryDB-for-Redis_64@5x.png",
+        "youtube_id": "",
+        "id": 267
+    },
+    {
+        "name": "Monitron",
+        "longName": "Amazon Monitron",
+        "shortDesctiption": "This is the long description of the service Amazon-Monitron",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Monitron_64@5x.png",
+        "youtube_id": "",
+        "id": 268
+    },
+    {
+        "name": "Neptune",
+        "longName": "Amazon Neptune",
+        "shortDesctiption": "This is the long description of the service Amazon-Neptune",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Neptune_64@5x.png",
+        "youtube_id": "",
+        "id": 269
+    },
+    {
+        "name": "Nimble Studio",
+        "longName": "Amazon Nimble Studio",
+        "shortDesctiption": "This is the long description of the service Amazon-Nimble-Studio",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Nimble-Studio_64@5x.png",
+        "youtube_id": "",
+        "id": 270
+    },
+    {
+        "name": "OpenSearch Service",
+        "longName": "Amazon OpenSearch Service",
+        "shortDesctiption": "This is the long description of the service Amazon-OpenSearch-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-OpenSearch-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 271
+    },
+    {
+        "name": "Personalize",
+        "longName": "Amazon Personalize",
+        "shortDesctiption": "This is the long description of the service Amazon-Personalize",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Personalize_64@5x.png",
+        "youtube_id": "",
+        "id": 272
+    },
+    {
+        "name": "Pinpoint APIs",
+        "longName": "Amazon Pinpoint APIs",
+        "shortDesctiption": "This is the long description of the service Amazon-Pinpoint-APIs",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Pinpoint-APIs_64@5x.png",
+        "youtube_id": "",
+        "id": 273
+    },
+    {
+        "name": "Pinpoint",
+        "longName": "Amazon Pinpoint",
+        "shortDesctiption": "This is the long description of the service Amazon-Pinpoint",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Pinpoint_64@5x.png",
+        "youtube_id": "",
+        "id": 274
+    },
+    {
+        "name": "Polly",
+        "longName": "Amazon Polly",
+        "shortDesctiption": "This is the long description of the service Amazon-Polly",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Polly_64@5x.png",
+        "youtube_id": "",
+        "id": 275
+    },
+    {
+        "name": "Quantum Ledger Database",
+        "longName": "Amazon Quantum Ledger Database",
+        "shortDesctiption": "This is the long description of the service Amazon-Quantum-Ledger-Database",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Quantum-Ledger-Database_64@5x.png",
+        "youtube_id": "",
+        "id": 276
+    },
+    {
+        "name": "QuickSight",
+        "longName": "Amazon QuickSight",
+        "shortDesctiption": "This is the long description of the service Amazon-QuickSight",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-QuickSight_64@5x.png",
+        "youtube_id": "",
+        "id": 277
+    },
+    {
+        "name": "RDS on VMware",
+        "longName": "Amazon RDS on VMware",
+        "shortDesctiption": "This is the long description of the service Amazon-RDS-on-VMware",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-RDS-on-VMware_64@5x.png",
+        "youtube_id": "",
+        "id": 278
+    },
+    {
+        "name": "RDS",
+        "longName": "Amazon RDS",
+        "shortDesctiption": "This is the long description of the service Amazon-RDS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-RDS_64@5x.png",
+        "youtube_id": "",
+        "id": 279
+    },
+    {
+        "name": "Redshift",
+        "longName": "Amazon Redshift",
+        "shortDesctiption": "This is the long description of the service Amazon-Redshift",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Redshift_64@5x.png",
+        "youtube_id": "",
+        "id": 280
+    },
+    {
+        "name": "Rekognition",
+        "longName": "Amazon Rekognition",
+        "shortDesctiption": "This is the long description of the service Amazon-Rekognition",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Rekognition_64@5x.png",
+        "youtube_id": "",
+        "id": 281
+    },
+    {
+        "name": "Route 53",
+        "longName": "Amazon Route 53",
+        "shortDesctiption": "This is the long description of the service Amazon-Route-53",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Route-53_64@5x.png",
+        "youtube_id": "",
+        "id": 282
+    },
+    {
+        "name": "S3 on Outposts",
+        "longName": "Amazon S3 on Outposts",
+        "shortDesctiption": "This is the long description of the service Amazon-S3-on-Outposts",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-S3-on-Outposts_64@5x.png",
+        "youtube_id": "",
+        "id": 283
+    },
+    {
+        "name": "SageMaker Ground Truth",
+        "longName": "Amazon SageMaker Ground Truth",
+        "shortDesctiption": "This is the long description of the service Amazon-SageMaker-Ground-Truth",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-SageMaker-Ground-Truth_64@5x.png",
+        "youtube_id": "",
+        "id": 284
+    },
+    {
+        "name": "SageMaker Studio Lab",
+        "longName": "Amazon SageMaker Studio Lab",
+        "shortDesctiption": "This is the long description of the service Amazon-SageMaker-Studio-Lab",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-SageMaker-Studio-Lab_64@5x.png",
+        "youtube_id": "",
+        "id": 285
+    },
+    {
+        "name": "SageMaker",
+        "longName": "Amazon SageMaker",
+        "shortDesctiption": "This is the long description of the service Amazon-SageMaker",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-SageMaker_64@5x.png",
+        "youtube_id": "",
+        "id": 286
+    },
+    {
+        "name": "Simple Email Service",
+        "longName": "Amazon Simple Email Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Simple-Email-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Email-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 287
+    },
+    {
+        "name": "Simple Notification Service",
+        "longName": "Amazon Simple Notification Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Simple-Notification-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Notification-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 288
+    },
+    {
+        "name": "Simple Queue Service",
+        "longName": "Amazon Simple Queue Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Simple-Queue-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Queue-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 289
+    },
+    {
+        "name": "Simple Storage Service Glacier",
+        "longName": "Amazon Simple Storage Service Glacier",
+        "shortDesctiption": "This is the long description of the service Amazon-Simple-Storage-Service-Glacier",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Storage-Service-Glacier_64@5x.png",
+        "youtube_id": "",
+        "id": 290
+    },
+    {
+        "name": "Simple Storage Service",
+        "longName": "Amazon Simple Storage Service",
+        "shortDesctiption": "This is the long description of the service Amazon-Simple-Storage-Service",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Simple-Storage-Service_64@5x.png",
+        "youtube_id": "",
+        "id": 291
+    },
+    {
+        "name": "Sumerian",
+        "longName": "Amazon Sumerian",
+        "shortDesctiption": "This is the long description of the service Amazon-Sumerian",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Sumerian_64@5x.png",
+        "youtube_id": "",
+        "id": 292
+    },
+    {
+        "name": "Textract",
+        "longName": "Amazon Textract",
+        "shortDesctiption": "This is the long description of the service Amazon-Textract",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Textract_64@5x.png",
+        "youtube_id": "",
+        "id": 293
+    },
+    {
+        "name": "Timestream",
+        "longName": "Amazon Timestream",
+        "shortDesctiption": "This is the long description of the service Amazon-Timestream",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Timestream_64@5x.png",
+        "youtube_id": "",
+        "id": 294
+    },
+    {
+        "name": "Transcribe",
+        "longName": "Amazon Transcribe",
+        "shortDesctiption": "This is the long description of the service Amazon-Transcribe",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Transcribe_64@5x.png",
+        "youtube_id": "",
+        "id": 295
+    },
+    {
+        "name": "Translate",
+        "longName": "Amazon Translate",
+        "shortDesctiption": "This is the long description of the service Amazon-Translate",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Translate_64@5x.png",
+        "youtube_id": "",
+        "id": 296
+    },
+    {
+        "name": "Virtual Private Cloud",
+        "longName": "Amazon Virtual Private Cloud",
+        "shortDesctiption": "This is the long description of the service Amazon-Virtual-Private-Cloud",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-Virtual-Private-Cloud_64@5x.png",
+        "youtube_id": "",
+        "id": 297
+    },
+    {
+        "name": "WorkDocs SDK",
+        "longName": "Amazon WorkDocs SDK",
+        "shortDesctiption": "This is the long description of the service Amazon-WorkDocs-SDK",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkDocs-SDK_64@5x.png",
+        "youtube_id": "",
+        "id": 298
+    },
+    {
+        "name": "WorkDocs",
+        "longName": "Amazon WorkDocs",
+        "shortDesctiption": "This is the long description of the service Amazon-WorkDocs",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkDocs_64@5x.png",
+        "youtube_id": "",
+        "id": 299
+    },
+    {
+        "name": "WorkLink",
+        "longName": "Amazon WorkLink",
+        "shortDesctiption": "This is the long description of the service Amazon-WorkLink",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkLink_64@5x.png",
+        "youtube_id": "",
+        "id": 300
+    },
+    {
+        "name": "WorkMail",
+        "longName": "Amazon WorkMail",
+        "shortDesctiption": "This is the long description of the service Amazon-WorkMail",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkMail_64@5x.png",
+        "youtube_id": "",
+        "id": 301
+    },
+    {
+        "name": "WorkSpaces",
+        "longName": "Amazon WorkSpaces",
+        "shortDesctiption": "This is the long description of the service Amazon-WorkSpaces",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Amazon-WorkSpaces_64@5x.png",
+        "youtube_id": "",
+        "id": 302
+    },
+    {
+        "name": "Apache MXNet on AWS",
+        "longName": "Apache MXNet on AWS",
+        "shortDesctiption": "This is the long description of the service Apache-MXNet-on-AWS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Apache-MXNet-on-AWS_64@5x.png",
+        "youtube_id": "",
+        "id": 303
+    },
+    {
+        "name": "Bottlerocket",
+        "longName": "Bottlerocket",
+        "shortDesctiption": "This is the long description of the service Bottlerocket",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Bottlerocket_64@5x.png",
+        "youtube_id": "",
+        "id": 304
+    },
+    {
+        "name": "CloudEndure Disaster Recovery",
+        "longName": "CloudEndure Disaster Recovery",
+        "shortDesctiption": "This is the long description of the service CloudEndure-Disaster-Recovery",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_CloudEndure-Disaster-Recovery_64@5x.png",
+        "youtube_id": "",
+        "id": 305
+    },
+    {
+        "name": "Elastic Fabric Adapter",
+        "longName": "Elastic Fabric Adapter",
+        "shortDesctiption": "This is the long description of the service Elastic-Fabric-Adapter",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Elastic-Fabric-Adapter_64@5x.png",
+        "youtube_id": "",
+        "id": 306
+    },
+    {
+        "name": "Elastic Load Balancing",
+        "longName": "Elastic Load Balancing",
+        "shortDesctiption": "This is the long description of the service Elastic-Load-Balancing",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Elastic-Load-Balancing_64@5x.png",
+        "youtube_id": "",
+        "id": 307
+    },
+    {
+        "name": "FreeRTOS",
+        "longName": "FreeRTOS",
+        "shortDesctiption": "This is the long description of the service FreeRTOS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_FreeRTOS_64@5x.png",
+        "youtube_id": "",
+        "id": 308
+    },
+    {
+        "name": "NICE DCV",
+        "longName": "NICE DCV",
+        "shortDesctiption": "This is the long description of the service NICE-DCV",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_NICE-DCV_64@5x.png",
+        "youtube_id": "",
+        "id": 309
+    },
+    {
+        "name": "NICE EnginFrame",
+        "longName": "NICE EnginFrame",
+        "shortDesctiption": "This is the long description of the service NICE-EnginFrame",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_NICE-EnginFrame_64@5x.png",
+        "youtube_id": "",
+        "id": 310
+    },
+    {
+        "name": "Open 3D Engine",
+        "longName": "Open 3D Engine",
+        "shortDesctiption": "This is the long description of the service Open-3D-Engine",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Open-3D-Engine_64@5x.png",
+        "youtube_id": "",
+        "id": 311
+    },
+    {
+        "name": "Red Hat OpenShift",
+        "longName": "Red Hat OpenShift",
+        "shortDesctiption": "This is the long description of the service Red-Hat-OpenShift",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Red-Hat-OpenShift_64@5x.png",
+        "youtube_id": "",
+        "id": 312
+    },
+    {
+        "name": "Reserved Instance Reporting",
+        "longName": "Reserved Instance Reporting",
+        "shortDesctiption": "This is the long description of the service Reserved-Instance-Reporting",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Reserved-Instance-Reporting_64@5x.png",
+        "youtube_id": "",
+        "id": 313
+    },
+    {
+        "name": "Savings Plans",
+        "longName": "Savings Plans",
+        "shortDesctiption": "This is the long description of the service Savings-Plans",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_Savings-Plans_64@5x.png",
+        "youtube_id": "",
+        "id": 314
+    },
+    {
+        "name": "TensorFlow on AWS",
+        "longName": "TensorFlow on AWS",
+        "shortDesctiption": "This is the long description of the service TensorFlow-on-AWS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_TensorFlow-on-AWS_64@5x.png",
+        "youtube_id": "",
+        "id": 315
+    },
+    {
+        "name": "TorchServe",
+        "longName": "TorchServe",
+        "shortDesctiption": "This is the long description of the service TorchServe",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_TorchServe_64@5x.png",
+        "youtube_id": "",
+        "id": 316
+    },
+    {
+        "name": "VMware Cloud on AWS",
+        "longName": "VMware Cloud on AWS",
+        "shortDesctiption": "This is the long description of the service VMware-Cloud-on-AWS",
+        "imageURL": "https://static.tig.pt/awsary/logos/Arch_VMware-Cloud-on-AWS_64@5x.png",
+        "youtube_id": "",
+        "id": 317
+    }
+]
