@@ -12,6 +12,7 @@ import RevenueCat
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
+   @ObservedObject var userModel = UserViewModel.shared
    
    var body: some View {
       NavigationView{
@@ -23,12 +24,18 @@ struct AboutView: View {
 //               Label("App Icon", systemImage: "square")
 //            }
             Section(header: Text("AWSary Premium")){
-               NavigationLink(destination: PaywallView(isPresented: .constant(true))){
-                  Label("Purchase Subscription", systemImage: "creditcard")
-               }
-               Label("Restore Purchase", systemImage: "arrow.triangle.2.circlepath").onTapGesture {
-                  Purchases.shared.restorePurchases { customerInfo, error in
-                      //... check customerInfo to see if entitlement is now active
+               if self.userModel.subscriptionActive{
+                  NavigationLink(destination: PaywallView(isPresented: .constant(true))){
+                     Label("You Purchased Subscription", systemImage: "heart.fill")
+                  }
+               } else {
+                  NavigationLink(destination: PaywallView(isPresented: .constant(true))){
+                     Label("Purchase Subscription", systemImage: "creditcard")
+                  }
+                  Label("Restore Purchase", systemImage: "arrow.triangle.2.circlepath").onTapGesture {
+                     Purchases.shared.restorePurchases { customerInfo, error in
+                        //... check customerInfo to see if entitlement is now active
+                     }
                   }
                }
             }

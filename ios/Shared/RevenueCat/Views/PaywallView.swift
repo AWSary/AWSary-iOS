@@ -31,13 +31,18 @@ private struct PaywallContent: View {
     @State private var isPurchasing: Bool = false
     @State private var error: NSError?
     @State private var displayError: Bool = false
+   @ObservedObject var userModel = UserViewModel.shared
 
     var body: some View {
             ZStack {
                 /// - The paywall view list displaying each package
                 List {
                    Section(header: Text("\nAWSary Premium")){
-                      Text("Currently AWSary Premium don't unlock you anything.\n\nIf you like this Application and want to pay a coffee to keep this app beeing developed, consider subscribing.")
+                      if self.userModel.subscriptionActive{
+                         Text("❤️ Thanks for supporting AWSary ❤️\n\nCurrently AWSary Premium don't unlock you anything.\n\nIf you like this Application and want to pay a coffee to keep this app beeing developed, consider subscribing.")
+                      } else {
+                         Text("Currently AWSary Premium don't unlock you anything.\n\nIf you like this Application and want to pay a coffee to keep this app beeing developed, consider subscribing.")
+                      }
                    }
                     Section(header: Text("\nChose your Premium subscription"), footer: Text("Thanks for supporting AWSary ❤️")) {
                         ForEach(offering?.availablePackages ?? []) { package in
