@@ -7,6 +7,8 @@
 
 import SwiftUI
 import AppReview
+import StoreKit
+import RevenueCat
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
@@ -14,6 +16,29 @@ struct AboutView: View {
    var body: some View {
       NavigationView{
          List{
+//            Section(){
+//               Toggle(isOn: .constant(false), label: {
+//                  Label("Label services on Drag", systemImage: "tag")
+//               })
+//               Label("App Icon", systemImage: "square")
+//            }
+            Section(header: Text("AWSary Premium")){
+               NavigationLink(destination: PaywallView(isPresented: .constant(true))){
+                  Label("Purchase Subscription", systemImage: "creditcard")
+               }
+               Label("Restore Purchase", systemImage: "arrow.triangle.2.circlepath").onTapGesture {
+                  Purchases.shared.restorePurchases { customerInfo, error in
+                      //... check customerInfo to see if entitlement is now active
+                  }
+               }
+            }
+            Section(header: Text("Feedback")){
+//              Label("Send Feedback", systemImage: "envelope")
+               Label("Rate this version of AWSary", systemImage: "star.fill").onTapGesture {
+                  SKStoreReviewController.requestReview()
+               }
+              
+            }
             Section(header: Text("Why AWSary")){
                Text("I'm an AWS Cloud Consultant and Trainer.\n\nNew AWS Services are released all the time, and sometimes you junt want a quick dictionary definition.\n\nI also draw AWS Cloud Architecture diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so on top of this dictionary I enabled the drag and drop of the logos to 3rd party drawing tools.\n\n This App is a great AWS Cloud Consultant companion tool.\n\nHelp develop this app at [GitHub](https://github.com/tigpt/AWSary/).")
             }
@@ -41,12 +66,12 @@ struct AboutView: View {
 //               Text("Icon 3")
 //            }
          }
-         .navigationTitle("About AWSary")
+         .navigationTitle("Settings")
+         .navigationBarTitleDisplayMode(.inline)
          .toolbar {
             ToolbarItem(placement: .confirmationAction){
                Button("Done", action: {
                   dismiss()
-                  AppReview.requestIf(launches: 3, days: 5)
                })
             }
          }
