@@ -35,6 +35,8 @@
 		EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E8C2A6F28BB005A803F /* AppReview in Frameworks */ = {isa = PBXBuildFile; productRef = EE7C5E8B2A6F28BB005A803F /* AppReview */; };
 		EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EE7C5E8E2A701DC1005A803F /* RevenueCat */; };
+		EEB93EC32A7AFCB900373D29 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB93EC22A7AFCB900373D29 /* StoreKit.framework */; };
+		EEB93EC52A7AFCC300373D29 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB93EC42A7AFCC300373D29 /* StoreKit.framework */; };
 		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
@@ -61,6 +63,10 @@
 		EE7AE2C02A72559300DEEBBE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		EE7C5E872A6BC5B9005A803F /* aws_services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aws_services.json; path = ../../website/aws_services.json; sourceTree = "<group>"; };
+		EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		EEB93EBE2A7AFA3200373D29 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
+		EEB93EC22A7AFCB900373D29 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		EEB93EC42A7AFCC300373D29 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EECFBC8F28883E6A00FFDB49 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		EEE8414128820E3B0062238E /* awsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsService.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 				EE7C5E8C2A6F28BB005A803F /* AppReview in Frameworks */,
 				EE661C7429B24B830058220E /* SDWebImageSwiftUI in Frameworks */,
 				EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */,
+				EEB93EC32A7AFCB900373D29 /* StoreKit.framework in Frameworks */,
 				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
 			);
@@ -83,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB93EC52A7AFCC300373D29 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,10 +100,13 @@
 		EE00841D28820C8B003BA190 = {
 			isa = PBXGroup;
 			children = (
+				EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */,
+				EEB93EBE2A7AFA3200373D29 /* StoreKitTestCertificate.cer */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE00843128820C8C003BA190 /* macOS */,
 				EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */,
 				EE00842B28820C8C003BA190 /* Products */,
+				EEB93EBF2A7AFCA000373D29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +211,15 @@
 				EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EEB93EBF2A7AFCA000373D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB93EC42A7AFCC300373D29 /* StoreKit.framework */,
+				EEB93EC22A7AFCB900373D29 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

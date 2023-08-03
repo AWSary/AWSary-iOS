@@ -53,6 +53,10 @@ struct AboutView: View {
                Text("Search for the name of an AWS service, you can open and look for the definition of it. You can also drag and drop the service logo to your favorite drawing application. (Check video below)")
                MyYoutubePlayer(youtube_id: "Jvq6nEtm9LY")
             }
+            Section(){
+               Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!)
+               Link("Privacy Policy", destination: URL(string: "https://tig.pt/awsary-privacy")!)
+            }
 //            Section(header: Text("AWSary.com")){
 //               Text("This is a hobby project from Tiago Rodrigues to help more people learn about Cloud, specialy AWS. Special tanks to tecRacer for supporting the backend.").lineLimit(100)
 //            }
