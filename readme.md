@@ -3,7 +3,7 @@
 
 ![AWSary Logo](https://raw.githubusercontent.com/tigpt/AWSary/main/ios/logo/icon-logo_152_color.png)
 
-You can find the app on [AppStore](https://apps.apple.com/us/app/awsary-aws-dictionary/id1634871091?uo=2)
+You can find the app on [AppStore](https://apps.apple.com/app/apple-store/id1634871091?pt=125248130&ct=GitHub&mt=8)
 
 I've registered `AWSary.com` that don't have any content yet but will eventually be the backend for this app on AWS.
 
