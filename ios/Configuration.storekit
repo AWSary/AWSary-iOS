@@ -1,0 +1,54 @@
+{
+  "identifier" : "5618ED67",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1634871091",
+    "_developerTeamID" : "67Z34DP7CK",
+    "_lastSynchronizedDate" : 712702402.05868304
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21366846",
+      "localizations" : [
+
+      ],
+      "name" : "premium_awsary_1",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "6453332664",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Anual subscription to Premium",
+              "displayName" : "Anual Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "awsary_premium_anual_2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Anual Premium",
+          "subscriptionGroupID" : "21366846",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
