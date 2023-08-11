@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import AppReview
 import StoreKit
 import RevenueCat
 
