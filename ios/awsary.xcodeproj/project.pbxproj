@@ -97,7 +97,6 @@
 		EE00841D28820C8B003BA190 = {
 			isa = PBXGroup;
 			children = (
-				EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE00843128820C8C003BA190 /* macOS */,
 				EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */,
@@ -168,6 +167,7 @@
 		EE7AE2B62A71CD7700DEEBBE /* RevenueCat */ = {
 			isa = PBXGroup;
 			children = (
+				EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */,
 				EE7AE2B32A7072ED00DEEBBE /* Constants.swift */,
 				EE7AE2BF2A72558300DEEBBE /* Lifecycle */,
 				EE7AE2C32A7258A400DEEBBE /* Views */,
