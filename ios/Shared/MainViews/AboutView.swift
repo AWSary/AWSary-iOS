@@ -41,7 +41,16 @@ struct AboutView: View {
             Section(header: Text("Feedback")){
 //              Label("Send Feedback", systemImage: "envelope")
                Label("Rate this version of AWSary", systemImage: "star.fill").onTapGesture {
-                  SKStoreReviewController.requestReview()
+                  let appId = "1634871091"
+                  let url_string = "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review"
+                  guard let url = URL(string: url_string) else {
+                     return
+                 }
+                  if #available(iOS 10, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                  } else {
+                    UIApplication.shared.openURL(url)
+                  }
                }
               
             }
