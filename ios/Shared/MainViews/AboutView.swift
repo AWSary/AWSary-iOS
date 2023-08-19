@@ -40,7 +40,14 @@ struct AboutView: View {
             }
             Section(header: Text("Feedback")){
 //              Label("Send Feedback", systemImage: "envelope")
-               Label("Rate this version of AWSary", systemImage: "star.fill").onTapGesture {
+               Label {
+                  VStack(alignment: .leading){
+                     Text("Rate this version of AWSary")
+                     Text("Be like the 37 other beautiful people that have rated this version.").font(.footnote).opacity(0.8)
+                  }
+               } icon:{
+                  Image(systemName: "star.fill")
+               }.onTapGesture {
                   let appId = "1634871091"
                   let url_string = "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review"
                   guard let url = URL(string: url_string) else {
