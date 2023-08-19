@@ -151,7 +151,7 @@ struct PaywallView_Previews: PreviewProvider {
     private static let product2 = TestStoreProduct(
         localizedTitle: "Anual Premium",
         price: 34.99,
-        localizedPriceString: "€3,99",
+        localizedPriceString: "€7,99",
         productIdentifier: "pt.tig.awsary",
         productType: .autoRenewableSubscription,
         localizedDescription: "Description",
