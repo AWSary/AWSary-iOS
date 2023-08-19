@@ -28,7 +28,7 @@ struct ContentView: View {
                     NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .leading, spacing: 4, content: {
                           AwsServiceImageView(service: service)
-                          Text("\(service.name)").font(.subheadline).lineLimit(2)
+                          Text("\(service.name)").font(.subheadline).lineLimit(2).foregroundColor(.black)
                           Spacer()
                        })
                     }
