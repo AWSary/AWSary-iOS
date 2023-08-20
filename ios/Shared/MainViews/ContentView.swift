@@ -11,6 +11,7 @@ struct ContentView: View {
    @State private var showingSheet = false
    @ObservedObject var awsServices = AwsServices()
    @State private var searchQuery = ""
+   @Environment(\.colorScheme) var colorScheme
    
    var filteredAwsServices: [awsService] {
       if searchQuery.isEmpty {
@@ -28,12 +29,13 @@ struct ContentView: View {
                     NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .leading, spacing: 4, content: {
                           AwsServiceImageView(service: service)
-                          Text("\(service.name)").font(.subheadline).lineLimit(2).foregroundColor(.black)
+                          Text("\(service.name)").font(.subheadline).lineLimit(2)
                           Spacer()
                        })
                     }
                  }
              }).padding(.horizontal, 12)
+               .accentColor(Color(colorScheme == .dark ? .white : .black))
          }
          .refreshable {
             AwsServices().refresh()
