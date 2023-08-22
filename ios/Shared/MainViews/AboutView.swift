@@ -43,10 +43,13 @@ struct AboutView: View {
                Label {
                   VStack(alignment: .leading){
                      Text("Rate this version of AWSary")
-                     Text("Be like the 37 other beautiful people that have rated this version.").font(.footnote).opacity(0.8)
+                     Text("Be like the 37 other beautiful people that have rated this version.").font(.footnote).opacity(0.6)
                   }
                } icon:{
-                  Image(systemName: "star.fill")
+                  Image(systemName: "star.fill")                  //                     .frame(width: 40, height: 40)
+                  //                     .foregroundColor(Color.white)
+                  //                     .background(Color.orange)
+                  //                     .cornerRadius(7)
                }.onTapGesture {
                   let appId = "1634871091"
                   let url_string = "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review"
@@ -59,7 +62,39 @@ struct AboutView: View {
                     UIApplication.shared.openURL(url)
                   }
                }
-              
+               
+               Label {
+                  VStack(alignment: .leading){
+                     Text("Send Feedback")
+                     Text("Feedback emails are lovely to read!").font(.footnote).opacity(0.6)
+                  }
+               } icon:{
+                  Image(systemName: "envelope")
+               }.onTapGesture {
+                  let address = "mail@tig.pt"
+                  let subject = "Feedback on AWSary"
+
+                  // Example email body with useful info for bug reports
+                  let body = "\n\n--\nAWSary Version: 1.2.2"
+
+                  // Build the URL from its components
+                  var components = URLComponents()
+                  components.scheme = "mailto"
+                  components.path = address
+                  components.queryItems = [
+                        URLQueryItem(name: "subject", value: subject),
+                        URLQueryItem(name: "body", value: body)
+                  ]
+
+                  guard let email_url = components.url else {
+                      NSLog("Failed to create mailto URL")
+                      return
+                  }
+                  UIApplication.shared.open(email_url) { success in
+                    // handle success or failure
+                  }
+               }
+               
             }
             Section(header: Text("Why AWSary")){
                Text("I'm an AWS Cloud Consultant and Trainer.\n\nNew AWS Services are released all the time, and sometimes you junt want a quick dictionary definition.\n\nI also draw AWS Cloud Architecture diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so on top of this dictionary I enabled the drag and drop of the logos to 3rd party drawing tools.\n\n This App is a great AWS Cloud Consultant companion tool.\n\nHelp develop this app at [GitHub](https://github.com/tigpt/AWSary/).")
