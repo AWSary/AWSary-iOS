@@ -17,7 +17,7 @@ struct DetailsView: View {
       ScrollView{
          VStack{
             HStack{
-               AwsServiceImageView(service: service).frame(maxWidth: 100, maxHeight: 100)
+               AWSserviceImagePlaceHolderView(service: service, showLabel: true)
                Text(service.longName).font(Font.title)
             }
             Spacer()

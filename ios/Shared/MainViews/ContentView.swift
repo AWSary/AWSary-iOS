@@ -24,12 +24,16 @@ struct ContentView: View {
    var body: some View {
       NavigationView{
          ScrollView{
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 10, content: {
+            LazyVGrid(
+               columns: [GridItem(.adaptive(minimum: 100))], content: {
                  ForEach(filteredAwsServices, id: \.self){ service in
                     NavigationLink(destination: DetailsView(service: service)){
-                       VStack(alignment: .leading, spacing: 4, content: {
-                          AwsServiceImageView(service: service)
-                          Text("\(service.name)").font(.subheadline).lineLimit(2)
+                       VStack(alignment: .center, spacing: 4, content: {
+                          AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                             .frame(minHeight: 140)
+                          Text(service.name)
+                             .font(.subheadline)
+                             .lineLimit(3)
                           Spacer()
                        })
                     }

@@ -6,25 +6,40 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct AwsServiceImageView: View {
-    let service: awsService
-    var body: some View{
-       Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: ".png", with: ""))
-                   .resizable()
-                   .scaledToFit()
-                   .overlay(ImageOverlay(serviceName: service.name),alignment: .bottom)
-                   .onDrag({
-                      print("Dragging name:\(service.name) id:\(service.id)")
-                      var dragImage: UIImage
-                      dragImage = self.asUIImage()
-                      let itemProvider = NSItemProvider(object: dragImage as UIImage)
-                      return itemProvider
-                   })
-                   .frame(width: 100, height: 100, alignment: .center)
-                   .cornerRadius(8)
-    }
+   let service: awsService
+   let showLabel: Bool
+   var body: some View{
+       VStack{
+          Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: ".png", with: ""))
+             .resizable()
+             .scaledToFit()
+             .frame(width: 100, height: 100)
+             .cornerRadius(8.0)
+          if showLabel {
+             Text(service.name)
+                .lineLimit(2)
+                .multilineTextAlignment(.center)
+                .font(.caption.bold())
+                .foregroundColor(.white)
+                .minimumScaleFactor(0.85)
+                .padding(.bottom,2)
+                .padding(.horizontal, 5)
+                .padding(.top, -6)
+                .frame(width: 100)
+          }
+       }
+       .background(Color.black)
+       .cornerRadius(8.0)
+//       .onDrag({
+//          print("Dragging name:\(service.name) id:\(service.id)")
+//          var dragImage: UIImage
+//          dragImage = self.asUIImage()
+//          let itemProvider = NSItemProvider(object: dragImage as UIImage)
+//          return itemProvider
+//       })
+   }
 }
 
 struct ImageOverlay: View {
@@ -89,4 +104,43 @@ extension UIView {
             layer.render(in: rendererContext.cgContext)
         }
     }
+}
+
+struct AwsServiceImageView_Previews: PreviewProvider {
+   static var previews: some View {
+      NavigationView{
+         HStack{
+            AwsServiceImageView(service:
+                                 awsService(
+                                    id: 1,
+                                    name: "Alexa for Business",
+                                    longName: "Amazon Athena",
+                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    youtube_id: "d_u1GKWm2f0"
+                                 ),showLabel: false
+            )
+            AwsServiceImageView(service:
+                                 awsService(
+                                    id: 1,
+                                    name: "Athena",
+                                    longName: "Amazon Athena",
+                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    youtube_id: "d_u1GKWm2f0"
+                                 ),showLabel: true
+            )
+            AwsServiceImageView(service:
+                                 awsService(
+                                    id: 1,
+                                    name: "Application Discovery Service",
+                                    longName: "Application Discovery Service",
+                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    youtube_id: "d_u1GKWm2f0"
+                                 ),showLabel: true
+            )
+         }
+      }
+   }
 }
