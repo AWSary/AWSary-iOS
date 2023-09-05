@@ -32,13 +32,13 @@ struct AwsServiceImageView: View {
        }
        .background(Color.black)
        .cornerRadius(8.0)
-//       .onDrag({
-//          print("Dragging name:\(service.name) id:\(service.id)")
-//          var dragImage: UIImage
-//          dragImage = self.asUIImage()
-//          let itemProvider = NSItemProvider(object: dragImage as UIImage)
-//          return itemProvider
-//       })
+       .onDrag({
+          print("Dragging name:\(service.name) id:\(service.id)")
+          var dragImage: UIImage
+          dragImage = self.asUIImage()
+          let itemProvider = NSItemProvider(object: dragImage as UIImage)
+          return itemProvider
+       })
    }
 }
 
