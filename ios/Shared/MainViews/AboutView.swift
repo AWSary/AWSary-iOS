@@ -12,16 +12,35 @@ import RevenueCat
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
+   @ObservedObject var awsServices = AwsServices()
+   @State private var showLabel = false
+   @State private var randomAWSservice:awsService
    
    var body: some View {
+      
       NavigationView{
          List{
-//            Section(){
-//               Toggle(isOn: .constant(false), label: {
-//                  Label("Label services on Drag", systemImage: "tag")
-//               })
-//               Label("App Icon", systemImage: "square")
-//            }
+            VStack{
+               Toggle(isOn: $showLabel){
+                  Text("Show name on service logo\n")
+               }.disabled(!self.userModel.subscriptionActive)
+               Text("")
+               Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
+               LazyVGrid(
+                  columns: [GridItem(.adaptive(minimum: 100))], content: {
+                     AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
+                     AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                  }
+               ).frame(minHeight: 150)
+               Button("Random service") {
+                   print("Button tapped!")
+                  randomAWSservice = awsServices.getRandomElement()
+               }
+            }
+            Button("Random service") {
+                print("Button tapped!")
+               randomAWSservice = awsServices.getRandomElement()
+            }
             Section(header: Text("AWSary Premium")){
                if self.userModel.subscriptionActive{
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){

@@ -14,6 +14,10 @@ var mainUrl: URL? = Bundle.main.url(forResource: "aws_services", withExtension: 
 class AwsServices: ObservableObject {
     @Published var services = [awsService]()
     
+   
+   func getRandomElement() -> awsService{
+      return services.randomElement()!
+   }
     init() {
        refresh()
     }
