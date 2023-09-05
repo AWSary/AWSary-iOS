@@ -106,9 +106,10 @@ extension UIView {
     }
 }
 
+@available(iOS 16.0, *)
 struct AwsServiceImageView_Previews: PreviewProvider {
    static var previews: some View {
-      NavigationView{
+      NavigationStack{
          HStack{
             AwsServiceImageView(service:
                                  awsService(

@@ -68,9 +68,10 @@ struct DetailsView: View {
    }
 }
 
+@available(iOS 16.0, *)
 struct DetailsView_Previews: PreviewProvider {
    static var previews: some View {
-      NavigationView{
+      NavigationStack{
          DetailsView(service:
             awsService(
                id: 1,

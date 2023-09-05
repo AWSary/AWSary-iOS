@@ -8,6 +8,7 @@
 import SwiftUI
 import RevenueCat
 
+@available(iOS 16.0, *)
 @main
 struct awsaryApp: App {
    

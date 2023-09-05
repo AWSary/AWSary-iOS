@@ -9,6 +9,7 @@ import SwiftUI
 import StoreKit
 import RevenueCat
 
+@available(iOS 16.0, *)
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
@@ -18,24 +19,26 @@ struct AboutView: View {
    var body: some View {
       var randomAWSservice = awsServices.getRandomElement()
       
-      NavigationView{
+      NavigationStack{
          List{
-            VStack{
-               Toggle(isOn: $showLabel){
-                  Text("Show name on service logo\n")
-               }.disabled(!self.userModel.subscriptionActive)
-               Text("")
-               Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
-               LazyVGrid(
-                  columns: [GridItem(.adaptive(minimum: 100))], content: {
-                     AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                     AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
-                  }
-               ).frame(minHeight: 150)
-            }
-            Button("Random service") {
-                print("Button tapped!")
-               randomAWSservice = awsServices.getRandomElement()
+            Section(header: Text("Configure service logos")){
+               VStack{
+                  Toggle(isOn: $showLabel){
+                     Text("Show name on service logo\n")
+                  }.disabled(!self.userModel.subscriptionActive)
+                  Text("")
+                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
+                  LazyVGrid(
+                     columns: [GridItem(.adaptive(minimum: 100))], content: {
+                        AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
+                        AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                     }
+                  ).frame(minHeight: 150)
+               }
+               Button("Random service") {
+                  print("Button tapped!")
+                  randomAWSservice = awsServices.getRandomElement()
+               }
             }
             Section(header: Text("AWSary Premium")){
                if self.userModel.subscriptionActive{
@@ -71,11 +74,7 @@ struct AboutView: View {
                   guard let url = URL(string: url_string) else {
                      return
                  }
-                  if #available(iOS 10, *) {
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                  } else {
-                    UIApplication.shared.openURL(url)
-                  }
+                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
                }
                
                Label {
@@ -154,7 +153,7 @@ struct AboutView: View {
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
    }
    //   var body: some View {
-   //      NavigationView{
+   //      NavigationStack{
    ////         VStack{
    ////            HStack{
    ////               Spacer()
@@ -182,6 +181,7 @@ struct AboutView: View {
    //   }
 }
 
+@available(iOS 16.0, *)
 struct AboutView_Previews: PreviewProvider {
    static var previews: some View {
       AboutView()
