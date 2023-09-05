@@ -14,9 +14,9 @@ struct AboutView: View {
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
    @State private var showLabel = false
-   @State private var randomAWSservice:awsService
    
    var body: some View {
+      var randomAWSservice = awsServices.getRandomElement()
       
       NavigationView{
          List{
@@ -32,10 +32,6 @@ struct AboutView: View {
                      AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
                   }
                ).frame(minHeight: 150)
-               Button("Random service") {
-                   print("Button tapped!")
-                  randomAWSservice = awsServices.getRandomElement()
-               }
             }
             Button("Random service") {
                 print("Button tapped!")
