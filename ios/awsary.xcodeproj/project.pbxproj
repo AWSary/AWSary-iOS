@@ -20,7 +20,7 @@
 		EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE29922E29A3CB4E0071030A /* MarkdownUI */; };
-		EE661C7429B24B830058220E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE661C7329B24B830058220E /* SDWebImageSwiftUI */; };
+		EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */; };
 		EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
 		EE7AE2B52A7072ED00DEEBBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
 		EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B72A71CDA100DEEBBE /* PurchasesDelegateHandler.swift */; };
@@ -56,6 +56,7 @@
 		EE00CBB8296300C800FE3DCB /* AwsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsServices.swift; sourceTree = "<group>"; };
 		EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYoutubePlayer.swift; sourceTree = "<group>"; };
 		EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "awsary--iOS--Info.plist"; sourceTree = "<group>"; };
+		EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSserviceImagePlaceHolderView.swift; sourceTree = "<group>"; };
 		EE7AE2B32A7072ED00DEEBBE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE7AE2B72A71CDA100DEEBBE /* PurchasesDelegateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDelegateHandler.swift; sourceTree = "<group>"; };
 		EE7AE2BA2A72547F00DEEBBE /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE661C7429B24B830058220E /* SDWebImageSwiftUI in Frameworks */,
 				EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */,
 				EEB93EC32A7AFCB900373D29 /* StoreKit.framework in Frameworks */,
 				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
@@ -159,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */,
+				EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */,
 				EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */,
 			);
 			path = AuxiliarViews;
@@ -237,7 +238,6 @@
 			packageProductDependencies = (
 				EEE7348E2889A72000718ACC /* YouTubePlayerKit */,
 				EE29922E29A3CB4E0071030A /* MarkdownUI */,
-				EE661C7329B24B830058220E /* SDWebImageSwiftUI */,
 				EE7C5E8E2A701DC1005A803F /* RevenueCat */,
 			);
 			productName = "awsary (iOS)";
@@ -291,7 +291,6 @@
 			packageReferences = (
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 				EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
-				EE661C7229B24B820058220E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
@@ -338,6 +337,7 @@
 				EE00843328820C8C003BA190 /* awsaryApp.swift in Sources */,
 				EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */,
+				EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
 				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
@@ -652,14 +652,6 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		EE661C7229B24B820058220E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
 		EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
@@ -683,11 +675,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
 			productName = MarkdownUI;
-		};
-		EE661C7329B24B830058220E /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EE661C7229B24B820058220E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
 		};
 		EE7C5E8E2A701DC1005A803F /* RevenueCat */ = {
 			isa = XCSwiftPackageProductDependency;
