@@ -12,12 +12,13 @@ struct DetailsView: View {
    @State private var favoriteColor = 0
    @State private var showingVideo = true
    var service:awsService
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
    
    var body: some View {
       ScrollView{
          VStack{
             HStack{
-               AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+               AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
                Text(service.longName).font(Font.title)
             }
             Spacer()

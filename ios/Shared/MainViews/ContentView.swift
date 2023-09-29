@@ -13,6 +13,7 @@ struct ContentView: View {
    @ObservedObject var awsServices = AwsServices()
    @State private var searchQuery = ""
    @Environment(\.colorScheme) var colorScheme
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
    
    var filteredAwsServices: [awsService] {
       if searchQuery.isEmpty {
@@ -30,11 +31,13 @@ struct ContentView: View {
                  ForEach(filteredAwsServices, id: \.self){ service in
                     NavigationLink(destination: DetailsView(service: service)){
                        VStack(alignment: .center, spacing: 4, content: {
-                          AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                          AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
                              .frame(minHeight: 140)
-                          Text(service.name)
-                             .font(.subheadline)
-                             .lineLimit(3)
+                          if (!awsServiceLogoWithLabel){
+                             Text(service.name)
+                                .font(.subheadline)
+                                .lineLimit(3)
+                          }
                           Spacer()
                        })
                     }

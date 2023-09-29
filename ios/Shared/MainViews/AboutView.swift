@@ -14,7 +14,7 @@ struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
-   @State private var showLabel = false
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
    
    var body: some View {
       var randomAWSservice = awsServices.getRandomElement()
@@ -23,21 +23,36 @@ struct AboutView: View {
          List{
             Section(header: Text("Configure service logos")){
                VStack{
-                  Toggle(isOn: $showLabel){
-                     Text("Show name on service logo\n")
-                  }.disabled(!self.userModel.subscriptionActive)
-                  Text("")
-                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
+                  Toggle(isOn: $awsServiceLogoWithLabel){
+                     Text("Show name on service logo")
+                  }
+//                  .disabled(!self.userModel.subscriptionActive)
+//                  Text("")
+//                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
                   LazyVGrid(
                      columns: [GridItem(.adaptive(minimum: 100))], content: {
-                        AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                        AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                        
+                        if (awsServiceLogoWithLabel){
+                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
+                              .padding(8)
+                              .background()
+                              .cornerRadius(8.0)
+                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                              .padding(8)
+                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                              .cornerRadius(8.0)
+                        }else{
+                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
+                              .padding(8)
+                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                              .cornerRadius(8.0)
+                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                              .padding(8)
+                              .background()
+                              .cornerRadius(8.0)
+                        }
                      }
-                  ).frame(minHeight: 150)
-               }
-               Button("Random service") {
-                  print("Button tapped!")
-                  randomAWSservice = awsServices.getRandomElement()
+                  ).frame(minHeight: 160)
                }
             }
             Section(header: Text("AWSary Premium")){
