@@ -17,7 +17,7 @@ struct AboutView: View {
    @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
    
    var body: some View {
-      var randomAWSservice = awsServices.getRandomElement()
+      let randomAWSservice = awsServices.getRandomElement()
       
       NavigationStack{
          List{
