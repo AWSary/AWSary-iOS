@@ -30,7 +30,7 @@ struct AboutView: View {
 //                  Text("")
 //                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
                   LazyVGrid(
-                     columns: [GridItem(.adaptive(minimum: 100))], content: {
+                     columns: [GridItem(.adaptive(minimum: 110))], content: {
                         
                         if (awsServiceLogoWithLabel){
                            AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
