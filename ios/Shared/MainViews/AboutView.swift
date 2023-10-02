@@ -34,9 +34,6 @@ struct AboutView: View {
                         
                         if (awsServiceLogoWithLabel){
                            AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                              .padding(8)
-                              .background()
-                              .cornerRadius(8.0)
                            AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
                               .padding(8)
                               .background(Color(red:1.0, green: 0.5, blue: 0.0))
@@ -47,9 +44,6 @@ struct AboutView: View {
                               .background(Color(red:1.0, green: 0.5, blue: 0.0))
                               .cornerRadius(8.0)
                            AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
-                              .padding(8)
-                              .background()
-                              .cornerRadius(8.0)
                         }
                      }
                   ).frame(minHeight: 160)
