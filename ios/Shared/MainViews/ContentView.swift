@@ -28,21 +28,21 @@ struct ContentView: View {
          ScrollView{
             LazyVGrid(
                columns: [GridItem(.adaptive(minimum: 100))], content: {
-                 ForEach(filteredAwsServices, id: \.self){ service in
-                    NavigationLink(destination: DetailsView(service: service)){
-                       VStack(alignment: .center, spacing: 4, content: {
-                          AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
-                             .frame(minHeight: 140)
-                          if (!awsServiceLogoWithLabel){
-                             Text(service.name)
-                                .font(.subheadline)
-                                .lineLimit(3)
-                          }
-                          Spacer()
-                       })
-                    }
-                 }
-             }).padding(.horizontal, 12)
+                  ForEach(filteredAwsServices, id: \.self){ service in
+                     NavigationLink(destination: DetailsView(service: service)){
+                        VStack(alignment: .center, spacing: 4, content: {
+                           AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
+                              .frame(minHeight: 140)
+                           if (!awsServiceLogoWithLabel){
+                              Text(service.name)
+                                 .font(.subheadline)
+                                 .lineLimit(3)
+                           }
+                           Spacer()
+                        })
+                     }
+                  }
+               }).padding(.horizontal, 12)
                .accentColor(Color(colorScheme == .dark ? .white : .black))
          }
          .refreshable {
