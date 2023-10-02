@@ -34,7 +34,6 @@
 		EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EE7C5E8E2A701DC1005A803F /* RevenueCat */; };
-		EEB93EC32A7AFCB900373D29 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB93EC22A7AFCB900373D29 /* StoreKit.framework */; };
 		EEB93EC52A7AFCC300373D29 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB93EC42A7AFCC300373D29 /* StoreKit.framework */; };
 		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
@@ -64,7 +63,6 @@
 		EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		EE7C5E872A6BC5B9005A803F /* aws_services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aws_services.json; path = ../../website/aws_services.json; sourceTree = "<group>"; };
 		EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
-		EEB93EC22A7AFCB900373D29 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		EEB93EC42A7AFCC300373D29 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EECFBC8F28883E6A00FFDB49 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */,
-				EEB93EC32A7AFCB900373D29 /* StoreKit.framework in Frameworks */,
 				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
 			);
@@ -214,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				EEB93EC42A7AFCC300373D29 /* StoreKit.framework */,
-				EEB93EC22A7AFCB900373D29 /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

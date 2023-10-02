@@ -7,19 +7,41 @@
 
 import SwiftUI
 import MarkdownUI
+import AVFoundation
 
 struct DetailsView: View {
    @State private var favoriteColor = 0
    @State private var showingVideo = true
    var service:awsService
    @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
+   let player = AVPlayer()
+   
+   func playServiceName(url: String) {
+      print(url)
+      let url = URL.init(string: url)
+      let playerItem:AVPlayerItem = AVPlayerItem(url: url!)
+      player.replaceCurrentItem(with: playerItem)
+      player.play()
+    }
    
    var body: some View {
       ScrollView{
          VStack{
             HStack{
                AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
-               Text(service.longName).font(Font.title)
+               VStack{
+                  Text(service.longName).font(Font.title)
+                  HStack{
+                        Image("Arch_Amazon-Polly_64@5x")
+                           .resizable()
+                           .scaledToFit()
+                           .frame(width: 40)
+                           .cornerRadius(8.0)
+                        Text("Pronunciation by Amazon Polly").lineLimit(2).font(.caption2)
+                  }.onTapGesture {
+                     playServiceName(url: "https://cdn.awsary.com/audio/\(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "").replacingOccurrences(of: "_64@5x.png", with: "").replacingOccurrences(of: "Amazon-", with: "").replacingOccurrences(of: "AWS-", with: ""))-Joanna-en-US.mp3")
+                  }
+               }
             }
             Spacer()
             Markdown(service.shortDesctiption).padding()
