@@ -9,7 +9,6 @@ import SwiftUI
 import StoreKit
 import RevenueCat
 
-@available(iOS 16.0, *)
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
@@ -192,9 +191,6 @@ struct AboutView: View {
    //   }
 }
 
-@available(iOS 16.0, *)
-struct AboutView_Previews: PreviewProvider {
-   static var previews: some View {
-      AboutView()
-   }
+#Preview {
+   AboutView()
 }
