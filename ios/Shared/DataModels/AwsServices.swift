@@ -10,13 +10,22 @@ import Foundation
 var fm = FileManager.default
 var subUrl: URL?
 var mainUrl: URL? = Bundle.main.url(forResource: "aws_services", withExtension: "json")
+var lastRandom: awsService = awsService(id: 10, name: "DeepRacer", longName: "AWS DeepRacer", shortDesctiption: "DeepRacer", imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-DeepRacer_64@5x.png", youtube_id: "")
 
 class AwsServices: ObservableObject {
     @Published var services = [awsService]()
-    
+   
+   func getNameOfLastRandom() -> String {
+      return lastRandom.longName
+   }
+   
+   func getLastRandom() -> awsService {
+      return lastRandom
+   }
    
    func getRandomElement() -> awsService{
-      return services.randomElement()!
+      lastRandom = services.randomElement()!
+      return lastRandom
    }
     init() {
        refresh()
