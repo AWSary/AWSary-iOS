@@ -19,6 +19,8 @@
 		EE00CBBA296300C800FE3DCB /* AwsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB8296300C800FE3DCB /* AwsServices.swift */; };
 		EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
+		EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04F9C92B6E48A400B8AA78 /* Game.swift */; };
+		EE04F9CB2B6E48A400B8AA78 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04F9C92B6E48A400B8AA78 /* Game.swift */; };
 		EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE29922E29A3CB4E0071030A /* MarkdownUI */; };
 		EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */; };
 		EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
@@ -54,6 +56,7 @@
 		EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsServiceImageView.swift; sourceTree = "<group>"; };
 		EE00CBB8296300C800FE3DCB /* AwsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwsServices.swift; sourceTree = "<group>"; };
 		EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYoutubePlayer.swift; sourceTree = "<group>"; };
+		EE04F9C92B6E48A400B8AA78 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EE2F01E529643CAF003EEB21 /* awsary--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "awsary--iOS--Info.plist"; sourceTree = "<group>"; };
 		EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSserviceImagePlaceHolderView.swift; sourceTree = "<group>"; };
 		EE7AE2B32A7072ED00DEEBBE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00842428820C8B003BA190 /* ContentView.swift */,
+				EE04F9C92B6E48A400B8AA78 /* Game.swift */,
 				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EECFBC8F28883E6A00FFDB49 /* AboutView.swift */,
 			);
@@ -339,6 +343,7 @@
 				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */,
+				EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7AE2C62A7258B400DEEBBE /* PaywallView.swift in Sources */,
+				EE04F9CB2B6E48A400B8AA78 /* Game.swift in Sources */,
 				EE00843628820C8C003BA190 /* ContentView.swift in Sources */,
 				EE7AE2BC2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
@@ -419,8 +425,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -477,8 +483,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -498,16 +504,17 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "awsary--iOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -529,16 +536,17 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "awsary--iOS--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -570,8 +578,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
 				SDKROOT = macosx;
@@ -601,8 +609,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
 				SDKROOT = macosx;

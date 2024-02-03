@@ -91,7 +91,6 @@ struct DetailsView: View {
    }
 }
 
-@available(iOS 16.0, *)
 struct DetailsView_Previews: PreviewProvider {
    static var previews: some View {
       NavigationStack{
