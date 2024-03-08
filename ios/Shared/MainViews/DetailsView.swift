@@ -32,7 +32,7 @@ struct DetailsView: View {
                VStack{
                   Text(service.longName).font(Font.title)
                   HStack{
-                        Image("Arch_Amazon-Polly_64@5x")
+                        Image("Arch_Amazon-Polly_64")
                            .resizable()
                            .scaledToFit()
                            .frame(width: 40)
