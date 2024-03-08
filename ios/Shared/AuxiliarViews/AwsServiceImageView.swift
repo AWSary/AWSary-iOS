@@ -12,7 +12,7 @@ struct AwsServiceImageView: View {
    let showLabel: Bool
    var body: some View{
        VStack{
-          Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: ".png", with: ""))
+          Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: "@5x.png", with: ""))
              .resizable()
              .scaledToFit()
              .frame(width: 100, height: 100)
