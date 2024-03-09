@@ -12,7 +12,7 @@ struct AwsServiceImageView: View {
    let showLabel: Bool
    var body: some View{
        VStack{
-          Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: "@5x.png", with: ""))
+          Image(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/", with: "").replacingOccurrences(of: ".svg", with: ""))
              .resizable()
              .scaledToFit()
              .frame(width: 100, height: 100)
@@ -116,7 +116,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     name: "Alexa for Business",
                                     longName: "Amazon Athena",
                                     shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
-                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: false
             )
@@ -126,7 +126,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     name: "Athena",
                                     longName: "Amazon Athena",
                                     shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
-                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: true
             )
@@ -136,7 +136,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     name: "Application Discovery Service",
                                     longName: "Application Discovery Service",
                                     shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
-                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+                                    imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: true
             )

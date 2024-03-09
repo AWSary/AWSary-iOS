@@ -39,7 +39,7 @@ struct DetailsView: View {
                            .cornerRadius(8.0)
                         Text("Pronunciation by Amazon Polly").lineLimit(2).font(.caption2)
                   }.onTapGesture {
-                     playServiceName(url: "https://cdn.awsary.com/audio/\(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "").replacingOccurrences(of: "_64@5x.png", with: "").replacingOccurrences(of: "Amazon-", with: "").replacingOccurrences(of: "AWS-", with: ""))-Joanna-en-US.mp3")
+                     playServiceName(url: "https://cdn.awsary.com/audio/\(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "").replacingOccurrences(of: "_64.svg", with: "").replacingOccurrences(of: "Amazon-", with: "").replacingOccurrences(of: "AWS-", with: ""))-Joanna-en-US.mp3")
                   }
                }
             }
@@ -100,7 +100,7 @@ struct DetailsView_Previews: PreviewProvider {
                name: "Athena",
                longName: "Amazon Athena",
                shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
-               imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64@5x.png",
+               imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                youtube_id: "d_u1GKWm2f0"
             )
          )
