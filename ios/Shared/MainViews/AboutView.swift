@@ -70,8 +70,8 @@ struct AboutView: View {
 //              Label("Send Feedback", systemImage: "envelope")
                Label {
                   VStack(alignment: .leading){
-                     Text("Rate this version of AWSary")
-                     Text("Be like the 37 other beautiful people that have rated this version.").font(.footnote).opacity(0.6)
+                     Text("Rate version \(Bundle.main.appVersionLong) of AWSary")
+                     Text("Be like the 19 other beautiful people that have rated this version.").font(.footnote).opacity(0.6)
                   }
                } icon:{
                   Image(systemName: "star.fill")                  //                     .frame(width: 40, height: 40)
@@ -99,7 +99,7 @@ struct AboutView: View {
                   let subject = "Feedback on AWSary"
 
                   // Example email body with useful info for bug reports
-                  let body = "\n\n--\nAWSary Version: 1.3.0"
+                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))"
 
                   // Build the URL from its components
                   var components = URLComponents()
@@ -193,4 +193,18 @@ struct AboutView: View {
 
 #Preview {
    AboutView()
+}
+
+extension Bundle {
+    public var appName: String           { getInfo("CFBundleName") }
+    public var displayName: String       { getInfo("CFBundleDisplayName") }
+    public var language: String          { getInfo("CFBundleDevelopmentRegion") }
+    public var identifier: String        { getInfo("CFBundleIdentifier") }
+    public var copyright: String         { getInfo("NSHumanReadableCopyright").replacingOccurrences(of: "\\\\n", with: "\n") }
+    
+    public var appBuild: String          { getInfo("CFBundleVersion") }
+    public var appVersionLong: String    { getInfo("CFBundleShortVersionString") }
+    //public var appVersionShort: String { getInfo("CFBundleShortVersion") }
+    
+    fileprivate func getInfo(_ str: String) -> String { infoDictionary?[str] as? String ?? "⚠️" }
 }
