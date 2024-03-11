@@ -13,7 +13,7 @@ struct DetailsView: View {
    @State private var favoriteColor = 0
    @State private var showingVideo = true
    var service:awsService
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
    let player = AVPlayer()
    
    func playServiceName(url: String) {

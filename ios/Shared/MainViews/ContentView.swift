@@ -12,7 +12,7 @@ struct ContentView: View {
    @ObservedObject var awsServices = AwsServices()
    @State private var searchQuery = ""
    @Environment(\.colorScheme) var colorScheme
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
    
    var filteredAwsServices: [awsService] {
       if searchQuery.isEmpty {

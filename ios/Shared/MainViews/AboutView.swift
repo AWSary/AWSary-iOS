@@ -13,7 +13,7 @@ struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = false
+   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
    
    var body: some View {
       let randomAWSservice = awsServices.getRandomElement()
