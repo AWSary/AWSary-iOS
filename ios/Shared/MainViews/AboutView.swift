@@ -9,7 +9,7 @@ import SwiftUI
 import StoreKit
 import RevenueCat
 
-@available(iOS 16.0, *)
+//@available(iOS 16.0, *)
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @ObservedObject var userModel = UserViewModel.shared
@@ -19,7 +19,8 @@ struct AboutView: View {
    var body: some View {
       let randomAWSservice = awsServices.getRandomElement()
       
-      NavigationStack{
+      //NavigationStack{
+      NavigationView{
          List{
             Section(header: Text("Configure service logos")){
                VStack{

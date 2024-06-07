@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(iOS 16.0, *)
+
 struct ContentView: View {
    @State private var showingSheet = false
    @ObservedObject var awsServices = AwsServices()
@@ -24,7 +24,8 @@ struct ContentView: View {
    }
    
    var body: some View {
-      NavigationStack{
+      //NavigationStack{
+      NavigationView{
          ScrollView{
             LazyVGrid(
                columns: [GridItem(.adaptive(minimum: 100))], content: {
