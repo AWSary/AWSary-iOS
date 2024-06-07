@@ -51,9 +51,16 @@ struct AboutView: View {
                }
             }
             Section(header: Text("AWSary Premium")){
-               Link("AWSary Merch Store", destination: URL(string: "https://bit.ly/awsary-merch")!)
+               Label("AWSary Merch Store", systemImage: "storefront").onTapGesture {
+                  guard let url = URL(string: "https://bit.ly/awsary-merch") else {
+                     return
+                  }
+                  UIApplication.shared.open(url, options: [:], completionHandler: nil)
+               }
                if self.userModel.subscriptionActive{
-                  Text("Store Discount Code: ")
+                  Label("Discount Code: ", systemImage: "doc.on.doc").onTapGesture {
+                     UIPasteboard.general.string = ""
+                  }
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){
                      Label("Manage Subscription", systemImage: "heart.fill")
                   }
@@ -85,8 +92,8 @@ struct AboutView: View {
                   let url_string = "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review"
                   guard let url = URL(string: url_string) else {
                      return
-                 }
-                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                  }
+                  UIApplication.shared.open(url, options: [:], completionHandler: nil)
                }
                
                Label {
