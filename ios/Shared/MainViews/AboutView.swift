@@ -52,7 +52,7 @@ struct AboutView: View {
             }
             Section(header: Text("AWSary Premium")){
                Label("AWSary Merch Store", systemImage: "storefront").onTapGesture {
-                  guard let url = URL(string: "https://bit.ly/4aT6CYx") else {
+                  guard let url = URL(string: "https://bit.ly/awsary-merch") else {
                      return
                   }
                   UIApplication.shared.open(url, options: [:], completionHandler: nil)
