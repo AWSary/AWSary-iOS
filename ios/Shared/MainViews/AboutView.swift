@@ -51,6 +51,7 @@ struct AboutView: View {
                }
             }
             Section(header: Text("AWSary Premium")){
+               Link("AWSary Merch Store", destination: URL(string: "https://bit.ly/awsary-merch")!)
                if self.userModel.subscriptionActive{
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){
                      Label("Manage Subscription", systemImage: "heart.fill")
