@@ -52,14 +52,14 @@ struct AboutView: View {
             }
             Section(header: Text("AWSary Premium")){
                Label("AWSary Merch Store", systemImage: "storefront").onTapGesture {
-                  guard let url = URL(string: "https://bit.ly/awsary-merch") else {
+                  guard let url = URL(string: "https://bit.ly/4aT6CYx") else {
                      return
                   }
                   UIApplication.shared.open(url, options: [:], completionHandler: nil)
                }
                if self.userModel.subscriptionActive{
-                  Label("Discount Code: ", systemImage: "doc.on.doc").onTapGesture {
-                     UIPasteboard.general.string = ""
+                  Label("Discount Code: GSC293ZEQD", systemImage: "doc.on.doc").onTapGesture {
+                     UIPasteboard.general.string = "GSC293ZEQD"
                   }
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){
                      Label("Manage Subscription", systemImage: "heart.fill")
