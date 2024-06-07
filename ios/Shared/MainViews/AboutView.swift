@@ -53,7 +53,7 @@ struct AboutView: View {
             Section(header: Text("AWSary Premium")){
                if self.userModel.subscriptionActive{
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){
-                     Label("You Purchased Subscription", systemImage: "heart.fill")
+                     Label("Manage Subscription", systemImage: "heart.fill")
                   }
                } else {
                   NavigationLink(destination: PaywallView(isPresented: .constant(true))){
