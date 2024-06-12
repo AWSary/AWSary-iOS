@@ -25,14 +25,18 @@ class CalendarViewModel: ObservableObject {
             ekEvent.calendar = eventStore.defaultCalendarForNewEvents
             ekEvent.timeZone = timeZone
             
-            do {
-                try eventStore.save(ekEvent, span: .thisEvent)
-            } catch {
-                print("Error saving event: \(error.localizedDescription)")
-            }
-            
-            // Move to the next event start date
-            currentStartDate = eventEndDate
+           // If event is called skip, don't save it, used just to jump to the next day
+           if event.name == "nextDay"{
+              currentStartDate = convert(date: startDate.addingTimeInterval(86400), to: timeZone)
+           }else{
+              do {
+                 try eventStore.save(ekEvent, span: .thisEvent)
+              } catch {
+                 print("Error saving event: \(error.localizedDescription)")
+              }
+              // Move to the next event start date
+              currentStartDate = eventEndDate
+           }
         }
     }
     
