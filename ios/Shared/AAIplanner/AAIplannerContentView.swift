@@ -7,6 +7,7 @@ struct AAIplannerContentView: View {
     @State private var startDate = Date()
     @State private var selectedTimeZone = TimeZone.current.identifier
     @State private var accessGranted = false
+   @State private var showAlert = false
     
     let eventNames = AAIEventData.eventNames
     let eventSequences = AAIEventData.eventSequences
@@ -14,10 +15,12 @@ struct AAIplannerContentView: View {
     
     var body: some View {
         VStack {
+           Spacer()
             Text("AAI Planner")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.top)
+                .padding(.bottom)
             
             Text("If you are an AWS Authorized Instructor (AAI), you can easily add to your calendar the plans for your training deliverability. Select the training, the start time, and the time zone, and press Add Events.\n\nRecommended Modules plans and breaks will be added to your calendar.")
                 .font(.body)
@@ -46,12 +49,21 @@ struct AAIplannerContentView: View {
             
                 if selectedEventName == "Architecting on AWS" || selectedEventName == "Developing on AWS" {
                     Button("Add Events") {
+                    Button("Add Events to Calendar") {
                         if let sequence = eventSequences[selectedEventName] {
                             if let timeZone = TimeZone(identifier: selectedTimeZone) {
                                 viewModel.addEvents(sequence: sequence, startDate: startDate, timeZone: timeZone)
+                               showAlert = true
                             }
                         }
                     }.padding()
+                      .alert(isPresented: $showAlert) {
+                           Alert(
+                               title: Text("Events Added"),
+                               message: Text("All your events added scucessfully. 🥳" +
+                                               "Enjoy your training day")
+                           )
+                       }
                 } else {
                     Button("Unlock Premium to Add Event") {
                         print("User pressed unlock premium button")
@@ -100,13 +112,12 @@ struct AAIplannerContentView: View {
                Spacer()
             }
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AAIplannerContentView()
     }
 }
 
