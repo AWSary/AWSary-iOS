@@ -39,8 +39,10 @@ private struct PaywallContent: View {
                 List {
                    Section(header: Text("\nAWSary Premium")){
                       if self.userModel.subscriptionActive{
+                         //TODO fix text "On If you like"
                          Text("❤️ Thanks for supporting AWSary ❤️\n\nPremium users get a 10% Discount code on our awesome merch.\n\nYour Code: GSC293ZEQD\n\n[Open the AWSary Merch Store](https://bit.ly/awsary-merch)\n\nOn If you like this Application and want to pay a coffee to keep this app beeing developed, consider subscribing.")
                       } else {
+                         //TODO fix text "On If you like"
                          Text("Premium users get a 10% Discount code on our awesome merch.\n\n[Open the AWSary Merch Store](https://bit.ly/awsary-merch)\n\nOn If you like this Application and want to pay a coffee to keep this app beeing developed, consider subscribing.")
                       }
                    }
