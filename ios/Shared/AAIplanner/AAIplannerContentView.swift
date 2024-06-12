@@ -31,8 +31,7 @@ struct AAIplannerContentView: View {
                 .multilineTextAlignment(.center)
                 .padding([.leading, .trailing, .bottom])
             
-           //TODO invert this if before deploy
-            if !accessGranted {
+            if accessGranted {
                 Picker("Event Name", selection: $selectedEventName) {
                     ForEach(eventNames, id: \.self) {
                         Text($0)
