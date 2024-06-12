@@ -108,7 +108,7 @@ struct AboutView: View {
                   let subject = "Feedback on AWSary"
 
                   // Example email body with useful info for bug reports
-                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))"
+                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About"
 
                   // Build the URL from its components
                   var components = URLComponents()

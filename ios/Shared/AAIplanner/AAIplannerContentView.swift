@@ -57,6 +57,38 @@ struct AAIplannerContentView: View {
                         print("User pressed unlock premium button")
                     }.padding()
                 }
+               Spacer()
+               Label {
+                  VStack(alignment: .leading){
+                     Text("Send Feedback")
+                     Text("Feedback emails are lovely to read!").font(.footnote).opacity(0.6)
+                  }
+               } icon:{
+                  Image(systemName: "envelope")
+               }.onTapGesture {
+                  let address = "mail@tig.pt"
+                  let subject = "Feedback on AWSary"
+
+                  // Example email body with useful info for bug reports
+                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: AAI Planner"
+
+                  // Build the URL from its components
+                  var components = URLComponents()
+                  components.scheme = "mailto"
+                  components.path = address
+                  components.queryItems = [
+                        URLQueryItem(name: "subject", value: subject),
+                        URLQueryItem(name: "body", value: body)
+                  ]
+
+                  guard let email_url = components.url else {
+                      NSLog("Failed to create mailto URL")
+                      return
+                  }
+                  UIApplication.shared.open(email_url) { success in
+                    // handle success or failure
+                  }
+               }
             } else {
                Spacer()
                 Text("Requesting Calendar Access...")
