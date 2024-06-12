@@ -27,7 +27,7 @@ class CalendarViewModel: ObservableObject {
             
            // If event is called skip, don't save it, used just to jump to the next day
            if event.name == "nextDay"{
-              currentStartDate = convert(date: startDate.addingTimeInterval(86400), to: timeZone)
+              currentStartDate = convert(date: startDate.addingTimeInterval(TimeInterval(86400 * event.duration)), to: timeZone)
            }else{
               do {
                  try eventStore.save(ekEvent, span: .thisEvent)
