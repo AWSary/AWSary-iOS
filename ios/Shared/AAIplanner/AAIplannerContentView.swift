@@ -56,7 +56,8 @@ struct AAIplannerContentView: View {
                 .pickerStyle(MenuPickerStyle())
                 .padding()
                
-                if self.userModel.subscriptionActive || selectedEventName == "Architecting on AWS" || selectedEventName == "Developing on AWS" {
+               let isFree = try! selectedEventName.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)"))
+                if self.userModel.subscriptionActive || isFree {
                     Button("Add Events to Calendar") {
                         if let sequence = eventSequences[selectedEventName] {
                             if let timeZone = TimeZone(identifier: selectedTimeZone) {
