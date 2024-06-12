@@ -11,7 +11,6 @@ struct AAIplannerContentView: View {
     @State private var accessGranted = false
    @ObservedObject var userModel = UserViewModel.shared
    @State private var showAlert = false
-   // TODO fix paywall
    @State var displayPaywall: Bool = false
     
     let eventNames = AAIEventData.eventNames
@@ -70,10 +69,7 @@ struct AAIplannerContentView: View {
                            )
                        }
                 } else {
-                   //TODO invoque paywall is user is not subscribed
                    Button("Unlock Premium to Add Event") {
-                      //TODO remove the print
-                      print("User pressed unlock premium button")
                       self.displayPaywall.toggle()
                    }.padding()
                 }
