@@ -11,8 +11,6 @@ struct AAIplannerContentView: View {
     @State private var accessGranted = false
    @ObservedObject var userModel = UserViewModel.shared
    @State private var showAlert = false
-   // TODO fix paywall
-   @State var displayPaywall: Bool = false
     
     let eventNames = AAIEventData.eventNames
     let eventSequences = AAIEventData.eventSequences
@@ -31,9 +29,8 @@ struct AAIplannerContentView: View {
                 .font(.body)
                 .multilineTextAlignment(.center)
                 .padding([.leading, .trailing, .bottom])
-            
-           //TODO invert this if before deploy
-            if !accessGranted {
+
+            if accessGranted {
                 Picker("Event Name", selection: $selectedEventName) {
                     ForEach(eventNames, id: \.self) {
                         Text($0)
@@ -53,7 +50,7 @@ struct AAIplannerContentView: View {
                 .pickerStyle(MenuPickerStyle())
                 .padding()
                
-                if self.userModel.subscriptionActive || selectedEventName == "Architecting on AWS" || selectedEventName == "Developing on AWS" {
+                if selectedEventName == "Architecting on AWS" || selectedEventName == "Developing on AWS" {
                     Button("Add Events to Calendar") {
                         if let sequence = eventSequences[selectedEventName] {
                             if let timeZone = TimeZone(identifier: selectedTimeZone) {
@@ -70,12 +67,7 @@ struct AAIplannerContentView: View {
                            )
                        }
                 } else {
-                   //TODO invoque paywall is user is not subscribed
-                   Button("Unlock Premium to Add Event") {
-                      //TODO remove the print
-                      print("User pressed unlock premium button")
-                      self.displayPaywall.toggle()
-                   }.padding()
+                   Text("Please install App for full access").padding()
                 }
                Spacer()
                Label {
@@ -119,9 +111,6 @@ struct AAIplannerContentView: View {
                     }
                Spacer()
             }
-        }
-        .sheet(isPresented: $displayPaywall) {
-           PaywallView(isPresented: .constant(true))
         }
     }
 }
