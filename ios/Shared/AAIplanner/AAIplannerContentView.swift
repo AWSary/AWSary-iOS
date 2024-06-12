@@ -33,8 +33,13 @@ struct AAIplannerContentView: View {
             
             if accessGranted {
                 Picker("Event Name", selection: $selectedEventName) {
-                    ForEach(eventNames, id: \.self) {
-                        Text($0)
+                   ForEach(eventNames, id: \.self) {
+                      if self.userModel.subscriptionActive {
+                         Text($0)
+                      }else{
+                         Text((try! $0.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)") ) )
+                              ? "✅ Free - \($0)" : "🔒 Premium - \($0)")
+                      }
                     }
                 }
                 .pickerStyle(MenuPickerStyle())
