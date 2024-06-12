@@ -76,7 +76,7 @@ struct AAIplannerContentView: View {
                Label {
                   VStack(alignment: .leading){
                      Text("Send Feedback")
-                     Text("Feedback emails are lovely to read!").font(.footnote).opacity(0.6)
+                     Text("Feedback emails are lovely to read!\nMissing a training? Email me and I will prioritize it.").font(.footnote).opacity(0.6)
                   }
                } icon:{
                   Image(systemName: "envelope")
