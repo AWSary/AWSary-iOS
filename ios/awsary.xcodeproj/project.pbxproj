@@ -46,16 +46,12 @@
 		EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */; };
 		EE6EE5B22C19F6DF00F452E5 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
 		EE6EE5B32C19F6DF00F452E5 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
-		EE6EE5B42C19F6DF00F452E5 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
 		EE6EE5B62C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
 		EE6EE5B72C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
-		EE6EE5B82C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
 		EE6EE5BA2C19F74100F452E5 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
 		EE6EE5BB2C19F74100F452E5 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
-		EE6EE5BC2C19F74100F452E5 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
 		EE6EE5BE2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5BD2C19F7D600F452E5 /* AAIplannerContentView.swift */; };
 		EE6EE5BF2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5BD2C19F7D600F452E5 /* AAIplannerContentView.swift */; };
-		EE6EE5C02C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5BD2C19F7D600F452E5 /* AAIplannerContentView.swift */; };
 		EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
 		EE7AE2B52A7072ED00DEEBBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
 		EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B72A71CDA100DEEBBE /* PurchasesDelegateHandler.swift */; };
@@ -69,6 +65,10 @@
 		EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EE7C5E8E2A701DC1005A803F /* RevenueCat */; };
+		EE99982F2C1A176000DD3A30 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
+		EE9998302C1A176000DD3A30 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
+		EE9998312C1A176000DD3A30 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
+		EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9998322C1A177200DD3A30 /* AAIplannerContentView.swift */; };
 		EEB93EC52A7AFCC300373D29 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB93EC42A7AFCC300373D29 /* StoreKit.framework */; };
 		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
@@ -134,6 +134,7 @@
 		EE7AE2C02A72559300DEEBBE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		EE7C5E872A6BC5B9005A803F /* aws_services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aws_services.json; path = ../../website/aws_services.json; sourceTree = "<group>"; };
+		EE9998322C1A177200DD3A30 /* AAIplannerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAIplannerContentView.swift; sourceTree = "<group>"; };
 		EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		EEB93EC42A7AFCC300373D29 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EECFBC8F28883E6A00FFDB49 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
@@ -252,6 +253,7 @@
 		EE4D8D912B9C5BC600A96E5C /* AWSaryAppClip */ = {
 			isa = PBXGroup;
 			children = (
+				EE9998322C1A177200DD3A30 /* AAIplannerContentView.swift */,
 				EE4D8DBC2B9E639500A96E5C /* AboutViewClipApp.swift */,
 				EE4D8D922B9C5BC600A96E5C /* AWSaryAppClipApp.swift */,
 				EE4D8D962B9C5BC800A96E5C /* Assets.xcassets */,
@@ -536,18 +538,18 @@
 			files = (
 				EE4D8DBD2B9E639500A96E5C /* AboutViewClipApp.swift in Sources */,
 				EE4D8DBF2B9E64C200A96E5C /* UserViewModel.swift in Sources */,
-				EE6EE5B42C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
+				EE99982F2C1A176000DD3A30 /* CalendarViewModel.swift in Sources */,
+				EE9998302C1A176000DD3A30 /* AAIEventData.swift in Sources */,
+				EE9998312C1A176000DD3A30 /* TimeZoneInfo.swift in Sources */,
 				EE4D8DBE2B9E64B500A96E5C /* Constants.swift in Sources */,
 				EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */,
 				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
-				EE6EE5BC2C19F74100F452E5 /* CalendarViewModel.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
-				EE6EE5B82C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
 				EE4D8DAE2B9C5CD100A96E5C /* Game.swift in Sources */,
-				EE6EE5C02C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
+				EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */,
 				EE4D8DAF2B9C5CD100A96E5C /* DetailsView.swift in Sources */,
 				EE4D8D932B9C5BC600A96E5C /* AWSaryAppClipApp.swift in Sources */,
 				EE4D8DA42B9C5C7800A96E5C /* ContentView.swift in Sources */,
@@ -779,7 +781,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
 				SDKROOT = macosx;
@@ -810,7 +812,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = awsary;
 				SDKROOT = macosx;
@@ -847,7 +849,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -886,10 +888,11 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
