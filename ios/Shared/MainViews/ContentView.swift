@@ -93,6 +93,10 @@ struct ContentView: View {
             .tabItem {
                Label("Game", systemImage: "gamecontroller")
             }
+         AAIplannerContentView()
+            .tabItem {
+               Label("AAI Planner", systemImage: "calendar.badge.clock")
+            }
       }
    }
 }
