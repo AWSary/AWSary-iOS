@@ -44,7 +44,6 @@ struct AAIEventData {
 //      "Authoring Visual Analytics Using Amazon QuickSight",
     ]
     
-   // TODO add real data to the trainings
     static let eventSequences: [String: [(name: String, duration: Int)]] = [
       "Debug": [("Debug - Module 0", 20), ("Debug - Module 1", 45)],
       "AWS Cloud Practitioner Essentials": [
