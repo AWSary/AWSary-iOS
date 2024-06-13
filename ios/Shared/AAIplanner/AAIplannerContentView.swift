@@ -38,7 +38,7 @@ struct AAIplannerContentView: View {
                          Text($0)
                       }else{
                          Text((try! $0.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)") ) )
-                              ? "✅ Free - \($0)" : "🔒 Premium - \($0)")
+                              ? $0 : "🔒 Premium - \($0)")
                       }
                     }
                 }
