@@ -177,11 +177,12 @@
 		EE00841D28820C8B003BA190 = {
 			isa = PBXGroup;
 			children = (
-				EE6ABDBD2C5B97D10025B74B /* sources */,
+				EE6ABDC12C5B9A7C0025B74B /* AWSary */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE4D8D912B9C5BC600A96E5C /* AWSaryAppClip */,
 				EE00842B28820C8C003BA190 /* Products */,
 				EEB93EBF2A7AFCA000373D29 /* Frameworks */,
+				EE00843228820C8C003BA190 /* macOS.entitlements */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,7 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
-				EE6ABDBE2C5B97E50025B74B /* resources */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -276,7 +276,6 @@
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
 				EE4D8DC12B9E730500A96E5C /* awsary+iOS.entitlements */,
-				EE00843228820C8C003BA190 /* macOS.entitlements */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -286,6 +285,15 @@
 			children = (
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		EE6ABDC12C5B9A7C0025B74B /* AWSary */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ABDBD2C5B97D10025B74B /* sources */,
+				EE6ABDBE2C5B97E50025B74B /* resources */,
+			);
+			path = AWSary;
 			sourceTree = "<group>";
 		};
 		EE6EE5B02C19F6AC00F452E5 /* AAIplanner */ = {
@@ -710,13 +718,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "sources/resources/awsary+iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = sources/resources/Info.plist;
+				INFOPLIST_FILE = AWSary/resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app requires access to calendar to create your trainings plans.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -745,13 +753,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "sources/resources/awsary+iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = sources/resources/Info.plist;
+				INFOPLIST_FILE = AWSary/resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app requires access to calendar to create your trainings plans.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
