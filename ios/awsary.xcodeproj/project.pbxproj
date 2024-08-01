@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
-		EE00843528820C8C003BA190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* ContentView.swift */; };
-		EE00843628820C8C003BA190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* ContentView.swift */; };
+		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
+		EE00843628820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
 		EE00843728820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
 		EE00843828820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
 		EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */; };
@@ -26,7 +26,7 @@
 		EE4D8D972B9C5BC800A96E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4D8D962B9C5BC800A96E5C /* Assets.xcassets */; };
 		EE4D8D9A2B9C5BC800A96E5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4D8D992B9C5BC800A96E5C /* Preview Assets.xcassets */; };
 		EE4D8D9F2B9C5BC800A96E5C /* AWSaryAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EE4D8DA42B9C5C7800A96E5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* ContentView.swift */; };
+		EE4D8DA42B9C5C7800A96E5C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
 		EE4D8DAA2B9C5CC700A96E5C /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB8296300C800FE3DCB /* AwsServices.swift */; };
 		EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
@@ -105,7 +105,7 @@
 
 /* Begin PBXFileReference section */
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
-		EE00842428820C8B003BA190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE00842A28820C8C003BA190 /* AWSary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00843028820C8C003BA190 /* awsary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awsary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,7 +211,7 @@
 		EE00CBBE29630BB300FE3DCB /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
-				EE00842428820C8B003BA190 /* ContentView.swift */,
+				EE00842428820C8B003BA190 /* OnboardingView.swift */,
 				EE04F9C92B6E48A400B8AA78 /* Game.swift */,
 				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EECFBC8F28883E6A00FFDB49 /* AboutView.swift */,
@@ -510,7 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7AE2C52A7258B400DEEBBE /* PaywallView.swift in Sources */,
-				EE00843528820C8C003BA190 /* ContentView.swift in Sources */,
+				EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BB2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE6EE5B22C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
@@ -537,7 +537,7 @@
 			files = (
 				EE7AE2C62A7258B400DEEBBE /* PaywallView.swift in Sources */,
 				EE04F9CB2B6E48A400B8AA78 /* Game.swift in Sources */,
-				EE00843628820C8C003BA190 /* ContentView.swift in Sources */,
+				EE00843628820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BC2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EE6EE5B72C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
@@ -576,7 +576,7 @@
 				EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */,
 				EE4D8DAF2B9C5CD100A96E5C /* DetailsView.swift in Sources */,
 				EE4D8D932B9C5BC600A96E5C /* AWSaryAppClipApp.swift in Sources */,
-				EE4D8DA42B9C5C7800A96E5C /* ContentView.swift in Sources */,
+				EE4D8DA42B9C5C7800A96E5C /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

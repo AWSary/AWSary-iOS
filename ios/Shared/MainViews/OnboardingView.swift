@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  OnboardingView.swift
 //  Shared
 //
 //  Created by Tiago Rodrigues on 15/07/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct OnboardingView: View {
    @State private var showingSheet = false
    @ObservedObject var awsServices = AwsServices()
    @State private var searchQuery = ""
@@ -77,5 +77,5 @@ struct ContentView: View {
 }
 
 #Preview{
-   ContentView()
+   OnboardingView()
 }

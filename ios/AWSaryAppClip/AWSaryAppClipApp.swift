@@ -26,7 +26,7 @@ struct AWSaryAppClipApp: App {
    
    var body: some Scene {
       WindowGroup {
-         ContentView()
+         OnboardingView()
             .task {
                 do {
                     // Fetch the available offerings
