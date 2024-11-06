@@ -971,7 +971,7 @@
 			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 2.4.0;
 			};
 		};
 		EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
@@ -987,7 +987,7 @@
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
+				minimumVersion = 1.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
