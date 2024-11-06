@@ -1,4 +1,14 @@
 {
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
   "identifier" : "5618ED67",
   "nonRenewingSubscriptions" : [
 
@@ -92,13 +102,16 @@
           "recurringSubscriptionPeriod" : "P1Y",
           "referenceName" : "Anual Premium",
           "subscriptionGroupID" : "21366846",
-          "type" : "RecurringSubscription"
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
         }
       ]
     }
   ],
   "version" : {
-    "major" : 3,
+    "major" : 4,
     "minor" : 0
   }
 }
