@@ -5,7 +5,7 @@ class CalendarViewModel: ObservableObject {
     private var eventStore = EKEventStore()
     
     func requestAccess(completion: @escaping (Bool) -> Void) {
-        eventStore.requestAccess(to: .event) { granted, error in
+        eventStore.requestWriteOnlyAccessToEvents { granted, error in
             DispatchQueue.main.async {
                 completion(granted)
             }
