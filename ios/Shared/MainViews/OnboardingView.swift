@@ -24,54 +24,51 @@ struct OnboardingView: View {
    
    var body: some View {
       TabView {
-         NavigationStack{
-            ScrollView{
-               LazyVGrid(
-                  columns: [GridItem(.adaptive(minimum: 100))], content: {
-                     ForEach(filteredAwsServices, id: \.self){ service in
-                        NavigationLink(destination: DetailsView(service: service)){
-                           VStack(alignment: .center, spacing: 4, content: {
-                              AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
-                                 .frame(minHeight: 140)
-                              if (!awsServiceLogoWithLabel){
-                                 Text(service.name)
-                                    .font(.subheadline)
-                                    .lineLimit(3)
-                              }
-                              Spacer()
-                           })
-                        }
-                     }
-                  }).padding(.horizontal, 12)
-                  .accentColor(Color(colorScheme == .dark ? .white : .black))
-            }
-            .refreshable {
-               AwsServices().refresh()
-            }
-            .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
-            .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
-            .navigationTitle("AWSary")
-            .toolbar {
-               Button(action: {
-                  showingSheet.toggle()
-               }) {
-                  Image(systemName: "gear")
-               }
-            }
-         }.sheet(isPresented: $showingSheet) {
-            AboutView()
+          Tab("Dictionary", systemImage: "books.vertical"){
+              NavigationStack{
+                  ScrollView{
+                   LazyVGrid(
+                      columns: [GridItem(.adaptive(minimum: 100))], content: {
+                         ForEach(filteredAwsServices, id: \.self){ service in
+                            NavigationLink(destination: DetailsView(service: service)){
+                               VStack(alignment: .center, spacing: 4, content: {
+                                  AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
+                                     .frame(minHeight: 140)
+                                  if (!awsServiceLogoWithLabel){
+                                     Text(service.name)
+                                        .font(.subheadline)
+                                        .lineLimit(3)
+                                  }
+                                  Spacer()
+                               })
+                            }
+                         }
+                      }).padding(.horizontal, 12)
+                      .accentColor(Color(colorScheme == .dark ? .white : .black))
+                }
+                .refreshable {
+                   AwsServices().refresh()
+                }
+                .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
+                .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
+                .navigationTitle("AWSary")
+                .toolbar {
+                   Button(action: {
+                      showingSheet.toggle()
+                   }) {
+                      Image(systemName: "gear")
+                   }
+                }
+             }.sheet(isPresented: $showingSheet) {
+                AboutView()
+             }
          }
-         .tabItem {
-            Label("Dictionary", systemImage: "books.vertical")
-         }
-         Game()
-            .tabItem {
-               Label("Game", systemImage: "gamecontroller")
-            }
-         AAIplannerContentView()
-            .tabItem {
-               Label("AAI Planner", systemImage: "calendar.badge.clock")
-            }
+          Tab("Game", systemImage: "gamecontroller"){
+              Game()
+          }
+          Tab("AAI Planner", systemImage: "calendar.badge.clock"){
+              AAIplannerContentView()
+          }
       }
    }
 }
