@@ -26,7 +26,7 @@ struct awsaryApp: App {
    
    var body: some Scene {
       WindowGroup {
-         OnboardingView()
+          AppTabsView()
             .task {
                 do {
                     // Fetch the available offerings

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CBFB922CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
+		34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
+		34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
@@ -104,6 +109,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
+		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -212,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00842428820C8B003BA190 /* OnboardingView.swift */,
+				34CBFB9B2CE143B7004CFADD /* Glossary.swift */,
 				EE04F9C92B6E48A400B8AA78 /* Game.swift */,
 				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EECFBC8F28883E6A00FFDB49 /* AboutView.swift */,
@@ -264,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
+				34CBFB912CE0BA25004CFADD /* AppTabsView.swift */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -271,20 +280,12 @@
 		EE6ABDBE2C5B97E50025B74B /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				EE6ABDBF2C5B98340025B74B /* iOS */,
 				EE7C5E872A6BC5B9005A803F /* aws_services.json */,
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
 				EE4D8DC12B9E730500A96E5C /* awsary+iOS.entitlements */,
 			);
 			path = resources;
-			sourceTree = "<group>";
-		};
-		EE6ABDBF2C5B98340025B74B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		EE6ABDC12C5B9A7C0025B74B /* AWSary */ = {
@@ -521,12 +522,14 @@
 				EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */,
+				34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
 				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */,
 				EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */,
+				34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE6EE5BE2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,11 +547,13 @@
 				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
 				EE6EE5B32C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
 				EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */,
+				34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE6EE5BB2C19F74100F452E5 /* CalendarViewModel.swift in Sources */,
 				EE00CBBA296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EE7AE2C22A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414328820E3B0062238E /* awsService.swift in Sources */,
+				34CBFB922CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE00CBB72963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B92A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B52A7072ED00DEEBBE /* Constants.swift in Sources */,
@@ -569,6 +574,7 @@
 				EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */,
 				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
+				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
@@ -736,7 +742,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -770,7 +776,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -872,7 +878,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -912,7 +918,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
