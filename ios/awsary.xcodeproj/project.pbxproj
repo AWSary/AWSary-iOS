@@ -271,7 +271,6 @@
 		EE6ABDBD2C5B97D10025B74B /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
 				34CBFB912CE0BA25004CFADD /* AppTabsView.swift */,
 			);
 			path = sources;
@@ -291,6 +290,7 @@
 		EE6ABDC12C5B9A7C0025B74B /* AWSary */ = {
 			isa = PBXGroup;
 			children = (
+				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
 				EE6ABDBD2C5B97D10025B74B /* sources */,
 				EE6ABDBE2C5B97E50025B74B /* resources */,
 			);
