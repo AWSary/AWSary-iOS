@@ -140,7 +140,7 @@ private struct PackageCellView: View {
     }
 }
 
-extension NSError: LocalizedError {
+extension NSError: @retroactive LocalizedError {
     public var errorDescription: String? {
         return self.localizedDescription
     }
