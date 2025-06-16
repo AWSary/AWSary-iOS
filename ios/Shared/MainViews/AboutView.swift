@@ -17,6 +17,9 @@ struct AboutView: View {
    @ObservedObject var awsServices = AwsServices()
    @Query var settings: [SystemSetting]
    
+   // Add state variable to store the random service
+   @State private var randomAWSservice: awsService?
+   
    // Computed property for awsServiceLogoWithLabel setting
    private var awsServiceLogoWithLabel: Bool {
       get {
@@ -45,8 +48,6 @@ struct AboutView: View {
    }
    
    var body: some View {
-      let randomAWSservice = awsServices.getRandomElement()
-      
       NavigationStack{
          List{
             Section(header: Text("Configure service logos")){
@@ -60,26 +61,28 @@ struct AboutView: View {
 //                  .disabled(!self.userModel.subscriptionActive)
 //                  Text("")
 //                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
-                  LazyVGrid(
-                     columns: [GridItem(.adaptive(minimum: 110))], content: {
-                        
-                        if (awsServiceLogoWithLabel){
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
-                              .padding(.horizontal, 8)
-                              .padding(.vertical, 6)
-                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                              .cornerRadius(8.0)
-                        }else{
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                              .padding(.horizontal, 8)
-                              .padding(.vertical, 6)
-                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                              .cornerRadius(8.0)
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                  if let service = randomAWSservice {
+                     LazyVGrid(
+                        columns: [GridItem(.adaptive(minimum: 110))], content: {
+                           
+                           if (awsServiceLogoWithLabel){
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                                 .padding(.horizontal, 8)
+                                 .padding(.vertical, 6)
+                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                                 .cornerRadius(8.0)
+                           }else{
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
+                                 .padding(.horizontal, 8)
+                                 .padding(.vertical, 6)
+                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                                 .cornerRadius(8.0)
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                           }
                         }
-                     }
-                  ).frame(minHeight: 160)
+                     ).frame(minHeight: 160)
+                  }
                }
             }
             Section(header: Text("AWSary Premium")){
@@ -199,6 +202,12 @@ struct AboutView: View {
                Button("Done", action: {
                   dismiss()
                })
+            }
+         }
+         .onAppear {
+            // Initialize the random service only once when the view appears
+            if randomAWSservice == nil {
+               randomAWSservice = awsServices.getRandomElement()
             }
          }
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
