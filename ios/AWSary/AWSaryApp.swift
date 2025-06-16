@@ -38,6 +38,6 @@ struct awsaryApp: App {
             }
             .accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
       }
-      .modelContainer(for: [SystemSetting.self])
+      .modelContainer(for: [SystemSetting.self, CachedAppStats.self])
    }
 }

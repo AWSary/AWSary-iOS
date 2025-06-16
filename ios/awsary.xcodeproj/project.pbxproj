@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
+		34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
+		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34CBFB922CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
 		34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
 		34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
@@ -112,6 +115,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAppStats.swift; sourceTree = "<group>"; };
 		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
 		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
 		34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSetting.swift; sourceTree = "<group>"; };
@@ -234,6 +238,7 @@
 		EE00CBBF29630BC800FE3DCB /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
+				34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */,
 				EEE8414128820E3B0062238E /* awsService.swift */,
 				EE00CBB8296300C800FE3DCB /* AwsServices.swift */,
 			);
@@ -528,6 +533,7 @@
 				EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */,
+				34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
@@ -553,6 +559,7 @@
 				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
 				34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE6EE5B32C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
+				34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */,
 				34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE6EE5BB2C19F74100F452E5 /* CalendarViewModel.swift in Sources */,
@@ -583,6 +590,7 @@
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
 				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
 				34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */,
+				34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
