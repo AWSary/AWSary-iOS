@@ -6,13 +6,20 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct OnboardingView: View {
    @State private var showingSheet = false
    @ObservedObject var awsServices = AwsServices()
    @State private var searchQuery = ""
    @Environment(\.colorScheme) var colorScheme
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
+   @Environment(\.modelContext) private var modelContext
+   @Query var settings: [SystemSetting]
+   
+   // Computed property for awsServiceLogoWithLabel setting
+   private var awsServiceLogoWithLabel: Bool {
+      return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
+   }
    
    var filteredAwsServices: [awsService] {
       if searchQuery.isEmpty {

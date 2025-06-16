@@ -6,14 +6,43 @@
 //
 
 import SwiftUI
+import SwiftData
 import StoreKit
 import RevenueCat
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
+   @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
+   @Query var settings: [SystemSetting]
+   
+   // Computed property for awsServiceLogoWithLabel setting
+   private var awsServiceLogoWithLabel: Bool {
+      get {
+         return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
+      }
+      set {
+         updateSetting(key: "awsServiceLogoWithLabel", boolValue: newValue)
+      }
+   }
+   
+   // Helper method to update or create a setting
+   private func updateSetting(key: String, boolValue: Bool) {
+      if let existingSetting = settings.first(where: { $0.key == key }) {
+         existingSetting.boolValue = boolValue
+         existingSetting.updatedAt = Date()
+      } else {
+         let newSetting = SystemSetting(key: key, value: boolValue)
+         modelContext.insert(newSetting)
+      }
+      
+      do {
+         try modelContext.save()
+      } catch {
+         print("Failed to save setting: \(error)")
+      }
+   }
    
    var body: some View {
       let randomAWSservice = awsServices.getRandomElement()
@@ -22,7 +51,10 @@ struct AboutView: View {
          List{
             Section(header: Text("Configure service logos")){
                VStack{
-                  Toggle(isOn: $awsServiceLogoWithLabel){
+                  Toggle(isOn: Binding(
+                     get: { awsServiceLogoWithLabel },
+                     set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
+                  )){
                      Text("Show name on service logo")
                   }
 //                  .disabled(!self.userModel.subscriptionActive)

@@ -12,6 +12,9 @@
 		34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
 		34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
 		34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
@@ -111,6 +114,7 @@
 /* Begin PBXFileReference section */
 		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
 		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSetting.swift; sourceTree = "<group>"; };
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -271,6 +275,7 @@
 		EE6ABDBD2C5B97D10025B74B /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */,
 				34CBFB912CE0BA25004CFADD /* AppTabsView.swift */,
 			);
 			path = sources;
@@ -511,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7AE2C52A7258B400DEEBBE /* PaywallView.swift in Sources */,
+				34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BB2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
@@ -545,6 +551,7 @@
 				EE6EE5B72C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
+				34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE6EE5B32C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
 				EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */,
 				34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */,
@@ -575,6 +582,7 @@
 				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
 				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
+				34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,

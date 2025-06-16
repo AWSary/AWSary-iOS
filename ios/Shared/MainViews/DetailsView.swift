@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 import MarkdownUI
 import AVFoundation
 
@@ -13,8 +14,14 @@ struct DetailsView: View {
    @State private var favoriteColor = 0
    @State private var showingVideo = true
    var service:awsService
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
+   @Environment(\.modelContext) private var modelContext
+   @Query var settings: [SystemSetting]
    let player = AVPlayer()
+   
+   // Computed property for awsServiceLogoWithLabel setting
+   private var awsServiceLogoWithLabel: Bool {
+      return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
+   }
    
    func playServiceName(url: String) {
       print(url)
