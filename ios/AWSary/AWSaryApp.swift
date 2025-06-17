@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 import RevenueCat
 
 @main
@@ -26,7 +27,7 @@ struct awsaryApp: App {
    
    var body: some Scene {
       WindowGroup {
-         OnboardingView()
+          AppTabsView()
             .task {
                 do {
                     // Fetch the available offerings
@@ -37,5 +38,6 @@ struct awsaryApp: App {
             }
             .accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
       }
+      .modelContainer(for: [SystemSetting.self, CachedAppStats.self])
    }
 }

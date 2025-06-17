@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
+		34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
+		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
+		34CBFB922CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
+		34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
+		34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
+		34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
@@ -104,6 +115,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAppStats.swift; sourceTree = "<group>"; };
+		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
+		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSetting.swift; sourceTree = "<group>"; };
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -212,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00842428820C8B003BA190 /* OnboardingView.swift */,
+				34CBFB9B2CE143B7004CFADD /* Glossary.swift */,
 				EE04F9C92B6E48A400B8AA78 /* Game.swift */,
 				EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */,
 				EECFBC8F28883E6A00FFDB49 /* AboutView.swift */,
@@ -222,6 +238,7 @@
 		EE00CBBF29630BC800FE3DCB /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
+				34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */,
 				EEE8414128820E3B0062238E /* awsService.swift */,
 				EE00CBB8296300C800FE3DCB /* AwsServices.swift */,
 			);
@@ -263,7 +280,8 @@
 		EE6ABDBD2C5B97D10025B74B /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
+				34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */,
+				34CBFB912CE0BA25004CFADD /* AppTabsView.swift */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -271,7 +289,6 @@
 		EE6ABDBE2C5B97E50025B74B /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				EE6ABDBF2C5B98340025B74B /* iOS */,
 				EE7C5E872A6BC5B9005A803F /* aws_services.json */,
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
@@ -280,16 +297,10 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
-		EE6ABDBF2C5B98340025B74B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
 		EE6ABDC12C5B9A7C0025B74B /* AWSary */ = {
 			isa = PBXGroup;
 			children = (
+				EE00842328820C8B003BA190 /* AWSaryApp.swift */,
 				EE6ABDBD2C5B97D10025B74B /* sources */,
 				EE6ABDBE2C5B97E50025B74B /* resources */,
 			);
@@ -434,7 +445,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					EE00842928820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -510,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7AE2C52A7258B400DEEBBE /* PaywallView.swift in Sources */,
+				34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BB2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
@@ -521,12 +533,15 @@
 				EE00CBB9296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */,
+				34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
+				34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
 				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */,
 				EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */,
+				34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE6EE5BE2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,13 +557,17 @@
 				EE6EE5B72C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
+				34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE6EE5B32C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
+				34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */,
+				34CBFB9C2CE143B7004CFADD /* Glossary.swift in Sources */,
 				EE6EE5BB2C19F74100F452E5 /* CalendarViewModel.swift in Sources */,
 				EE00CBBA296300C800FE3DCB /* AwsServices.swift in Sources */,
 				EECFBC9128883E6A00FFDB49 /* AboutView.swift in Sources */,
 				EE7AE2C22A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414328820E3B0062238E /* awsService.swift in Sources */,
+				34CBFB922CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE00CBB72963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B92A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B52A7072ED00DEEBBE /* Constants.swift in Sources */,
@@ -569,6 +588,9 @@
 				EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */,
 				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
+				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
+				34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */,
+				34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
@@ -627,6 +649,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -691,6 +714,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -720,7 +744,6 @@
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSary/resources/Info.plist;
@@ -736,7 +759,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -754,7 +777,6 @@
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSary/resources/Info.plist;
@@ -770,7 +792,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -792,7 +814,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -823,7 +844,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -853,7 +873,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AWSaryAppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -872,7 +891,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -893,7 +912,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AWSaryAppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = 67Z34DP7CK;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -912,7 +930,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.9.0;
+				MARKETING_VERSION = 1.10;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;

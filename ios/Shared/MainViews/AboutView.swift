@@ -6,48 +6,170 @@
 //
 
 import SwiftUI
+import SwiftData
 import StoreKit
 import RevenueCat
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
+   @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
-   @AppStorage("awsServiceLogoWithLabel") var awsServiceLogoWithLabel: Bool = true
+   @Query var settings: [SystemSetting]
+   @Query var cachedStats: [CachedAppStats]
+   
+   // Add state variable to store the random service
+   @State private var randomAWSservice: awsService?
+   
+   // State variables for app statistics
+   @State private var appStats: AppStats?
+   @State private var isLoadingStats = false
+   
+   // Computed property for awsServiceLogoWithLabel setting
+   private var awsServiceLogoWithLabel: Bool {
+      get {
+         return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
+      }
+      set {
+         updateSetting(key: "awsServiceLogoWithLabel", boolValue: newValue)
+      }
+   }
+   
+   // Helper method to update or create a setting
+   private func updateSetting(key: String, boolValue: Bool) {
+      if let existingSetting = settings.first(where: { $0.key == key }) {
+         existingSetting.boolValue = boolValue
+         existingSetting.updatedAt = Date()
+      } else {
+         let newSetting = SystemSetting(key: key, value: boolValue)
+         modelContext.insert(newSetting)
+      }
+      
+      do {
+         try modelContext.save()
+      } catch {
+         print("Failed to save setting: \(error)")
+      }
+   }
+   
+   // Function to load cached stats and fetch fresh data if needed
+   private func loadAppStats() {
+      // First, load from cache
+      loadFromCache()
+      
+      // Then check if we need to fetch fresh data
+      if shouldFetchFreshData() {
+         fetchAppStatsFromAPI()
+      }
+   }
+   
+   private func loadFromCache() {
+      if let cached = cachedStats.first {
+         // Convert cached data to display format
+         appStats = AppStats(
+            currentVersion: cached.currentVersion,
+            ratings: RatingInfo(
+               version: cached.ratingVersion,
+               ratingCount: cached.ratingCount,
+               customMessage: cached.customMessage,
+               lastUpdated: cached.lastUpdated
+            ),
+            featuredMessage: cached.featuredMessage,
+            updateAvailable: cached.updateAvailable
+         )
+      }
+   }
+   
+   private func shouldFetchFreshData() -> Bool {
+      guard let cached = cachedStats.first else {
+         return true // No cache, need to fetch
+      }
+      
+      // Cache is stale if older than 1 hour
+      let cacheAge = Date().timeIntervalSince(cached.cachedAt)
+      return cacheAge > 3600 // 1 hour in seconds
+   }
+   
+   private func fetchAppStatsFromAPI() {
+      guard !isLoadingStats else { return }
+      
+      isLoadingStats = true
+      
+      guard let url = URL(string: "https://0gbyxcbo3d.execute-api.eu-west-1.amazonaws.com/prod/app-stats") else {
+         isLoadingStats = false
+         return
+      }
+      
+      URLSession.shared.dataTask(with: url) { data, response, error in
+         DispatchQueue.main.async {
+            isLoadingStats = false
+            
+            if let data = data {
+               do {
+                  let stats = try JSONDecoder().decode(AppStats.self, from: data)
+                  self.appStats = stats
+                  self.saveToCacheAndUpdate(stats)
+               } catch {
+                  print("Failed to decode app stats: \(error)")
+               }
+            }
+         }
+      }.resume()
+   }
+   
+   private func saveToCacheAndUpdate(_ stats: AppStats) {
+      // Remove old cached data
+      for oldStats in cachedStats {
+         modelContext.delete(oldStats)
+      }
+      
+      // Save new data
+      let newCachedStats = CachedAppStats(from: stats)
+      modelContext.insert(newCachedStats)
+      
+      do {
+         try modelContext.save()
+      } catch {
+         print("Failed to save app stats to cache: \(error)")
+      }
+   }
    
    var body: some View {
-      let randomAWSservice = awsServices.getRandomElement()
-      
       NavigationStack{
          List{
             Section(header: Text("Configure service logos")){
                VStack{
-                  Toggle(isOn: $awsServiceLogoWithLabel){
+                  Toggle(isOn: Binding(
+                     get: { awsServiceLogoWithLabel },
+                     set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
+                  )){
                      Text("Show name on service logo")
                   }
 //                  .disabled(!self.userModel.subscriptionActive)
 //                  Text("")
 //                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
-                  LazyVGrid(
-                     columns: [GridItem(.adaptive(minimum: 110))], content: {
-                        
-                        if (awsServiceLogoWithLabel){
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
-                              .padding(.horizontal, 8)
-                              .padding(.vertical, 6)
-                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                              .cornerRadius(8.0)
-                        }else{
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: false)
-                              .padding(.horizontal, 8)
-                              .padding(.vertical, 6)
-                              .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                              .cornerRadius(8.0)
-                           AWSserviceImagePlaceHolderView(service: randomAWSservice, showLabel: true)
+                  if let service = randomAWSservice {
+                     LazyVGrid(
+                        columns: [GridItem(.adaptive(minimum: 110))], content: {
+                           
+                           if (awsServiceLogoWithLabel){
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                                 .padding(.horizontal, 8)
+                                 .padding(.vertical, 6)
+                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                                 .cornerRadius(8.0)
+                           }else{
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
+                                 .padding(.horizontal, 8)
+                                 .padding(.vertical, 6)
+                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
+                                 .cornerRadius(8.0)
+                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
+                           }
                         }
-                     }
-                  ).frame(minHeight: 160)
+                     ).frame(minHeight: 160)
+                  }
                }
             }
             Section(header: Text("AWSary Premium")){
@@ -80,7 +202,13 @@ struct AboutView: View {
                Label {
                   VStack(alignment: .leading){
                      Text("Rate version \(Bundle.main.appVersionLong) of AWSary")
-                     Text("Be like the 19 other beautiful people that have rated this version.").font(.footnote).opacity(0.6)
+                     if let stats = appStats {
+                        Text("Join the \(stats.ratings.ratingCount) wonderful people who have already rated this version!").font(.footnote).opacity(0.6)
+                     } else if isLoadingStats {
+                        Text("Loading rating info...").font(.footnote).opacity(0.6)
+                     } else {
+                        Text("Be one of the first to rate this version!").font(.footnote).opacity(0.6)
+                     }
                   }
                } icon:{
                   Image(systemName: "star.fill")                  //                     .frame(width: 40, height: 40)
@@ -169,6 +297,14 @@ struct AboutView: View {
                })
             }
          }
+         .onAppear {
+            // Initialize the random service only once when the view appears
+            if randomAWSservice == nil {
+               randomAWSservice = awsServices.getRandomElement()
+            }
+            // Load app statistics (from cache first, then API if needed)
+            loadAppStats()
+         }
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
    }
    //   var body: some View {
@@ -199,6 +335,8 @@ struct AboutView: View {
    //         }
    //   }
 }
+
+
 
 #Preview {
    AboutView()
