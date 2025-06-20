@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5D2E05BA83008B8BC2 /* RevenueCat */; };
+		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
+		34571B622E062761008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B612E062761008B8BC2 /* RevenueCat */; };
+		34571B642E062761008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B632E062761008B8BC2 /* RevenueCatUI */; };
 		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
@@ -49,7 +53,6 @@
 		EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE4D8DB72B9C5E7B00A96E5C /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE4D8DB62B9C5E7B00A96E5C /* YouTubePlayerKit */; };
 		EE4D8DB92B9C5E7B00A96E5C /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE4D8DB82B9C5E7B00A96E5C /* MarkdownUI */; };
-		EE4D8DBB2B9C5E7B00A96E5C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EE4D8DBA2B9C5E7B00A96E5C /* RevenueCat */; };
 		EE4D8DBD2B9E639500A96E5C /* AboutViewClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D8DBC2B9E639500A96E5C /* AboutViewClipApp.swift */; };
 		EE4D8DBE2B9E64B500A96E5C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
 		EE4D8DBF2B9E64C200A96E5C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2BA2A72547F00DEEBBE /* UserViewModel.swift */; };
@@ -71,11 +74,10 @@
 		EE7AE2BC2A72547F00DEEBBE /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2BA2A72547F00DEEBBE /* UserViewModel.swift */; };
 		EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C02A72559300DEEBBE /* Extensions.swift */; };
 		EE7AE2C22A72559300DEEBBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C02A72559300DEEBBE /* Extensions.swift */; };
-		EE7AE2C52A7258B400DEEBBE /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */; };
-		EE7AE2C62A7258B400DEEBBE /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */; };
+		EE7AE2C52A7258B400DEEBBE /* MyPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C42A7258B400DEEBBE /* MyPaywallView.swift */; };
+		EE7AE2C62A7258B400DEEBBE /* MyPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C42A7258B400DEEBBE /* MyPaywallView.swift */; };
 		EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
 		EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
-		EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EE7C5E8E2A701DC1005A803F /* RevenueCat */; };
 		EE99982F2C1A176000DD3A30 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
 		EE9998302C1A176000DD3A30 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
 		EE9998312C1A176000DD3A30 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
@@ -147,7 +149,7 @@
 		EE7AE2B72A71CDA100DEEBBE /* PurchasesDelegateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDelegateHandler.swift; sourceTree = "<group>"; };
 		EE7AE2BA2A72547F00DEEBBE /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		EE7AE2C02A72559300DEEBBE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		EE7AE2C42A7258B400DEEBBE /* MyPaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPaywallView.swift; sourceTree = "<group>"; };
 		EE7C5E872A6BC5B9005A803F /* aws_services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aws_services.json; sourceTree = "<group>"; };
 		EE9998322C1A177200DD3A30 /* AAIplannerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAIplannerContentView.swift; sourceTree = "<group>"; };
 		EEB93EBD2A7AF9BE00373D29 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
@@ -162,9 +164,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7C5E8F2A701DC1005A803F /* RevenueCat in Frameworks */,
+				34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */,
 				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
+				34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,9 +183,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34571B642E062761008B8BC2 /* RevenueCatUI in Frameworks */,
 				EE4D8DB72B9C5E7B00A96E5C /* YouTubePlayerKit in Frameworks */,
 				EE4D8DB92B9C5E7B00A96E5C /* MarkdownUI in Frameworks */,
-				EE4D8DBB2B9C5E7B00A96E5C /* RevenueCat in Frameworks */,
+				34571B622E062761008B8BC2 /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +362,7 @@
 		EE7AE2C32A7258A400DEEBBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EE7AE2C42A7258B400DEEBBE /* PaywallView.swift */,
+				EE7AE2C42A7258B400DEEBBE /* MyPaywallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -392,7 +396,8 @@
 			packageProductDependencies = (
 				EEE7348E2889A72000718ACC /* YouTubePlayerKit */,
 				EE29922E29A3CB4E0071030A /* MarkdownUI */,
-				EE7C5E8E2A701DC1005A803F /* RevenueCat */,
+				34571B5D2E05BA83008B8BC2 /* RevenueCat */,
+				34571B5F2E05BA83008B8BC2 /* RevenueCatUI */,
 			);
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
@@ -431,7 +436,8 @@
 			packageProductDependencies = (
 				EE4D8DB62B9C5E7B00A96E5C /* YouTubePlayerKit */,
 				EE4D8DB82B9C5E7B00A96E5C /* MarkdownUI */,
-				EE4D8DBA2B9C5E7B00A96E5C /* RevenueCat */,
+				34571B612E062761008B8BC2 /* RevenueCat */,
+				34571B632E062761008B8BC2 /* RevenueCatUI */,
 			);
 			productName = AWSaryAppClip;
 			productReference = EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */;
@@ -470,7 +476,7 @@
 			packageReferences = (
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 				EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
-				EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
 			projectDirPath = "";
@@ -520,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7AE2C52A7258B400DEEBBE /* PaywallView.swift in Sources */,
+				EE7AE2C52A7258B400DEEBBE /* MyPaywallView.swift in Sources */,
 				34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */,
 				EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BB2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
@@ -550,7 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7AE2C62A7258B400DEEBBE /* PaywallView.swift in Sources */,
+				EE7AE2C62A7258B400DEEBBE /* MyPaywallView.swift in Sources */,
 				EE04F9CB2B6E48A400B8AA78 /* Game.swift in Sources */,
 				EE00843628820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BC2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
@@ -984,20 +990,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.29.0;
+			};
+		};
 		EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.4.0;
-			};
-		};
-		EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
 			};
 		};
 		EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
@@ -1011,6 +1017,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		34571B5D2E05BA83008B8BC2 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		34571B5F2E05BA83008B8BC2 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		34571B612E062761008B8BC2 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		34571B632E062761008B8BC2 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
 		EE29922E29A3CB4E0071030A /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
@@ -1025,16 +1051,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
 			productName = MarkdownUI;
-		};
-		EE4D8DBA2B9C5E7B00A96E5C /* RevenueCat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */;
-			productName = RevenueCat;
-		};
-		EE7C5E8E2A701DC1005A803F /* RevenueCat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EE7C5E8D2A701DC1005A803F /* XCRemoteSwiftPackageReference "purchases-ios" */;
-			productName = RevenueCat;
 		};
 		EEE7348E2889A72000718ACC /* YouTubePlayerKit */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -12,17 +12,10 @@ import RevenueCat
 @main
 struct awsaryApp: App {
    
-   init(){
-      /* Enable debug logs before calling `configure`. */
-      Purchases.logLevel = .debug
-      /* Initialize the RevenueCat Purchases SDK. */
-      Purchases.configure(
-          with: Configuration.Builder(withAPIKey: Constants.apiKey)
-              .build()
-      )
-      /* Set the delegate to our shared instance of PurchasesDelegateHandler */
-      Purchases.shared.delegate = PurchasesDelegateHandler.shared
-   }
+    init() {
+        Purchases.logLevel = .debug
+        Purchases.configure(withAPIKey: Constants.apiKey)
+    }
 
    
    var body: some Scene {

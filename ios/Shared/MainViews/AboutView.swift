@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 import StoreKit
 import RevenueCat
+import RevenueCatUI
 
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
@@ -183,13 +184,13 @@ struct AboutView: View {
                   Label("Discount Code: GSC293ZEQD", systemImage: "doc.on.doc").onTapGesture {
                      UIPasteboard.general.string = "GSC293ZEQD"
                   }
-                  NavigationLink(destination: PaywallView(isPresented: .constant(true))){
-                     Label("Manage Subscription", systemImage: "heart.fill")
-                  }
+                   NavigationLink(destination:PaywallView(displayCloseButton: true)){
+                       Label("Manage Subscription", systemImage: "heart.fill")
+                   }
                } else {
-                  NavigationLink(destination: PaywallView(isPresented: .constant(true))){
-                     Label("Purchase Subscription", systemImage: "creditcard")
-                  }
+                   NavigationLink(destination:PaywallView(displayCloseButton: true)){
+                       Label("Purchase Subscription", systemImage: "creditcard")
+                   }
                   Label("Restore Purchase", systemImage: "arrow.triangle.2.circlepath").onTapGesture {
                      Purchases.shared.restorePurchases { customerInfo, error in
                         //... check customerInfo to see if entitlement is now active
