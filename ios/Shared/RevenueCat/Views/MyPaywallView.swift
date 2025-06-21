@@ -5,10 +5,11 @@
 //  Created by Cody Kerns on 1/19/21.
 //
 
+/*
 import SwiftUI
 import RevenueCat
 
-struct PaywallView: View {
+struct MyPaywallView: View {
     /// - This binding is passed from ContentView: `paywallPresented`
     @Binding var isPresented: Bool
     /// - This can change during the lifetime of the PaywallView (e.g. if poor network conditions mean that loading offerings is slow)
@@ -147,7 +148,7 @@ extension NSError: @retroactive LocalizedError {
 
 }
 
-struct PaywallView_Previews: PreviewProvider {
+struct MyPaywallView_Previews: PreviewProvider {
     private static let product2 = TestStoreProduct(
         localizedTitle: "Anual Premium",
         price: 34.99,
@@ -179,3 +180,4 @@ struct PaywallView_Previews: PreviewProvider {
     }
 
 }
+*/

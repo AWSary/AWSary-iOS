@@ -1,4 +1,5 @@
 import SwiftUI
+import RevenueCatUI
 import EventKit
 import StoreKit
 import RevenueCat
@@ -122,7 +123,7 @@ struct AAIplannerContentView: View {
             }
         }
         .sheet(isPresented: $displayPaywall) {
-           PaywallView(isPresented: .constant(true))
+            PaywallView(displayCloseButton: true)
         }
     }
 }
