@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AppTabsView: View {
+    @State private var searchText = ""
+    
     var body: some View {
        TabView {
 //           Tab("Today", systemImage: "newspaper.fill"){
@@ -15,19 +17,28 @@ struct AppTabsView: View {
            Tab("Glossary", systemImage: "books.vertical"){
                Glossary()
            }
-           Tab("Game", systemImage: "gamecontroller"){
-               Game()
-           }
+//           Tab("Game", systemImage: "gamecontroller"){
+//               Game()
+//           }
 //           Tab("Tools", systemImage: "wrench.and.screwdriver.fill"){
 //           }
-           Tab("AAI Planner", systemImage: "calendar.badge.clock"){
-               AAIplannerContentView()
-           }
-//           Tab("Community", systemImage: "person.3.sequence.fill"){
+//           Tab("AAI Planner", systemImage: "calendar.badge.clock"){
+//               AAIplannerContentView()
 //           }
+           Tab("Community", systemImage: "person.3.sequence.fill"){
+               Text("Community")
+           }
 //           Tab(role:.search){
 //           }
+           Tab(role: .search) {
+               NavigationStack {
+                   Text("Search")
+               }
+           }
        }
+       .tabViewStyle(.sidebarAdaptable)
+       .searchable(text: $searchText)
+
     }
  }
 
