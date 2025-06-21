@@ -15,6 +15,8 @@ struct awsaryApp: App {
     init() {
         Purchases.logLevel = .debug
         Purchases.configure(withAPIKey: Constants.apiKey)
+        
+        Purchases.shared.delegate = PurchasesDelegateHandler.shared
     }
 
    

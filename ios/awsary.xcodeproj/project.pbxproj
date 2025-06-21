@@ -11,6 +11,9 @@
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
 		34571B622E062761008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B612E062761008B8BC2 /* RevenueCat */; };
 		34571B642E062761008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B632E062761008B8BC2 /* RevenueCatUI */; };
+		34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
+		34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
+		34571B682E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
@@ -117,6 +120,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAppStats.swift; sourceTree = "<group>"; };
 		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
 		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
@@ -295,6 +299,7 @@
 			children = (
 				EE7C5E872A6BC5B9005A803F /* aws_services.json */,
 				EE00842528820C8C003BA190 /* Assets.xcassets */,
+				34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */,
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
 				EE4D8DC12B9E730500A96E5C /* awsary+iOS.entitlements */,
 			);
@@ -494,6 +499,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE00843728820C8C003BA190 /* Assets.xcassets in Resources */,
 				EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */,
 			);
@@ -503,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34571B682E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE00843828820C8C003BA190 /* Assets.xcassets in Resources */,
 				EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */,
 			);
@@ -515,6 +522,7 @@
 				EE4D8D9A2B9C5BC800A96E5C /* Preview Assets.xcassets in Resources */,
 				EE4D8D972B9C5BC800A96E5C /* Assets.xcassets in Resources */,
 				EE4D8DB02B9C5CD800A96E5C /* Assets.xcassets in Resources */,
+				34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE4D8DAA2B9C5CC700A96E5C /* aws_services.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
