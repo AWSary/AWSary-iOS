@@ -17,7 +17,11 @@ extension Package {
             if intro.price == 0 {
                 return "\(intro.subscriptionPeriod.periodTitle) free trial"
             } else {
-                return "\(self.localizedIntroductoryPriceString!) for \(intro.subscriptionPeriod.periodTitle)"
+                if let localizedPrice = self.localizedIntroductoryPriceString {
+                    return "\(localizedPrice) for \(intro.subscriptionPeriod.periodTitle)"
+                } else {
+                    return "Introductory price for \(intro.subscriptionPeriod.periodTitle)"
+                }
             }
         } else {
             return "Unlocks Premium"

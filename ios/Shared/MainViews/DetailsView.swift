@@ -25,8 +25,11 @@ struct DetailsView: View {
    
    func playServiceName(url: String) {
       print(url)
-      let url = URL.init(string: url)
-      let playerItem:AVPlayerItem = AVPlayerItem(url: url!)
+      guard let url = URL(string: url) else {
+         print("Error: Invalid URL string")
+         return
+      }
+      let playerItem:AVPlayerItem = AVPlayerItem(url: url)
       player.replaceCurrentItem(with: playerItem)
       player.play()
     }
@@ -51,7 +54,7 @@ struct DetailsView: View {
                }
             }
             Spacer()
-            Markdown(service.shortDesctiption).padding()
+            Markdown(service.shortDescription).padding()
             Spacer()
             HStack{
 //            VStack(alignment: .leading){
@@ -106,7 +109,7 @@ struct DetailsView_Previews: PreviewProvider {
                id: 1,
                name: "Athena",
                longName: "Amazon Athena",
-               shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+               shortDescription: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
                imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                youtube_id: "d_u1GKWm2f0"
             )

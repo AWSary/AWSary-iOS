@@ -7,7 +7,18 @@ struct TimeZoneInfo: Identifiable {
     let gmtOffset: String
     
     init(identifier: String) {
-        let timeZone = TimeZone(identifier: identifier)!
+        guard let timeZone = TimeZone(identifier: identifier) else {
+            // Fallback to current timezone if invalid identifier
+            let fallbackTimeZone = TimeZone.current
+            self.id = fallbackTimeZone.identifier
+            self.name = fallbackTimeZone.identifier
+            let seconds = fallbackTimeZone.secondsFromGMT()
+            let hours = seconds / 3600
+            let minutes = abs(seconds / 60) % 60
+            self.gmtOffset = String(format: "GMT%+02d:%02d", hours, minutes)
+            return
+        }
+        
         self.id = identifier
         self.name = timeZone.identifier
         let seconds = timeZone.secondsFromGMT()

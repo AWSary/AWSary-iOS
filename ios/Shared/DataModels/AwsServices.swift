@@ -10,7 +10,7 @@ import Foundation
 var fm = FileManager.default
 var subUrl: URL?
 var mainUrl: URL? = Bundle.main.url(forResource: "aws_services", withExtension: "json")
-var lastRandom: awsService = awsService(id: 10, name: "DeepRacer", longName: "AWS DeepRacer", shortDesctiption: "DeepRacer", imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-DeepRacer_64.svg", youtube_id: "")
+var lastRandom: awsService = awsService(id: 10, name: "DeepRacer", longName: "AWS DeepRacer", shortDescription: "DeepRacer", imageURL: "https://static.tig.pt/awsary/logos/Arch_AWS-DeepRacer_64.svg", youtube_id: "")
 
 class AwsServices: ObservableObject {
     @Published var services = [awsService]()
@@ -24,8 +24,13 @@ class AwsServices: ObservableObject {
    }
    
    func getRandomElement() -> awsService{
-      lastRandom = services.randomElement()!
-      return lastRandom
+      if let randomService = services.randomElement() {
+         lastRandom = randomService
+         return lastRandom
+      } else {
+         // Return a default service if the array is empty
+         return lastRandom
+      }
    }
     init() {
        refresh()
@@ -35,7 +40,13 @@ class AwsServices: ObservableObject {
            do {
                let documentDirectory = try fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
                subUrl = documentDirectory.appendingPathComponent("aws_services.json")
-               loadFile(mainPath: mainUrl!, subPath: subUrl!)
+               
+               guard let mainUrl = mainUrl else {
+                   print("Error: Could not find aws_services.json in bundle")
+                   return
+               }
+               
+               loadFile(mainPath: mainUrl, subPath: subUrl!)
            } catch {
                print(error)
            }
@@ -59,7 +70,9 @@ class AwsServices: ObservableObject {
                let jsonData = try Data(contentsOf: pathName)
                let decoder = JSONDecoder()
               services = try decoder.decode([awsService].self, from: jsonData)
-           } catch {}
+           } catch {
+               print("Error decoding data from \(pathName): \(error)")
+           }
        }
    
     func refresh(){
