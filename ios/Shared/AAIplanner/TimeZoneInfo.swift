@@ -6,8 +6,10 @@ struct TimeZoneInfo: Identifiable {
     let name: String
     let gmtOffset: String
     
-    init(identifier: String) {
-        let timeZone = TimeZone(identifier: identifier)!
+    init?(identifier: String) {
+        guard let timeZone = TimeZone(identifier: identifier) else {
+            return nil
+        }
         self.id = identifier
         self.name = timeZone.identifier
         let seconds = timeZone.secondsFromGMT()

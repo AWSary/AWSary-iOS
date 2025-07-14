@@ -47,7 +47,7 @@ struct ImageOverlay: View {
    
     var body: some View {
         ZStack {
-            Text(serviceName!)
+            Text(serviceName ?? "Unknown Service")
               .font(.caption2)
               .padding(.vertical, 2)
               .padding(.horizontal, 5)

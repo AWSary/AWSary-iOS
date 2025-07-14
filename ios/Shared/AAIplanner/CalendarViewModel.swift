@@ -16,7 +16,10 @@ class CalendarViewModel: ObservableObject {
         var currentStartDate = convert(date: startDate, to: timeZone)
         
         for event in sequence {
-            let eventEndDate = Calendar.current.date(byAdding: .minute, value: event.duration, to: currentStartDate)!
+            guard let eventEndDate = Calendar.current.date(byAdding: .minute, value: event.duration, to: currentStartDate) else {
+                print("Error: Could not calculate event end date")
+                continue
+            }
             
             let ekEvent = EKEvent(eventStore: eventStore)
             ekEvent.title = event.name

@@ -141,8 +141,8 @@ struct AboutView: View {
                MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
             }
             Section(){
-               Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!)
-               Link("Privacy Policy", destination: URL(string: "https://tig.pt/awsary-privacy")!)
+               Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula") ?? URL(string: "https://www.apple.com/")!)
+               Link("Privacy Policy", destination: URL(string: "https://tig.pt/awsary-privacy") ?? URL(string: "https://tig.pt/")!)
             }
 //            Section(header: Text("AWSary.com")){
 //               Text("This is a hobby project from Tiago Rodrigues to help more people learn about Cloud, specialy AWS. Special tanks to tecRacer for supporting the backend.").lineLimit(100)

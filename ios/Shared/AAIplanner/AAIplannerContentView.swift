@@ -38,8 +38,12 @@ struct AAIplannerContentView: View {
                       if self.userModel.subscriptionActive {
                          Text($0)
                       }else{
-                         Text((try! $0.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)") ) )
-                              ? $0 : "🔒 Premium - \($0)")
+                         do {
+                            let isFreeEvent = try $0.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)"))
+                            Text(isFreeEvent ? $0 : "🔒 Premium - \($0)")
+                         } catch {
+                            Text("🔒 Premium - \($0)")
+                         }
                       }
                     }
                 }
@@ -57,7 +61,13 @@ struct AAIplannerContentView: View {
                .pickerStyle(MenuPickerStyle())
                .padding()
                 
-               let isFree = try! selectedEventName.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)"))
+               let isFree: Bool = {
+                  do {
+                     return try selectedEventName.contains(Regex("(^Architecting on AWS$)|(^.*Essentials$)"))
+                  } catch {
+                     return false
+                  }
+               }()
                 if self.userModel.subscriptionActive || isFree {
                     Button("Add Events to Calendar") {
                         if let sequence = eventSequences[selectedEventName] {

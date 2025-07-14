@@ -25,8 +25,11 @@ struct DetailsView: View {
    
    func playServiceName(url: String) {
       print(url)
-      let url = URL.init(string: url)
-      let playerItem:AVPlayerItem = AVPlayerItem(url: url!)
+      guard let url = URL.init(string: url) else {
+         print("Error: Invalid URL string - \(url)")
+         return
+      }
+      let playerItem:AVPlayerItem = AVPlayerItem(url: url)
       player.replaceCurrentItem(with: playerItem)
       player.play()
     }

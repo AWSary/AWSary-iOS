@@ -611,5 +611,5 @@ struct AAIEventData {
 //      "Advanced Developing on AWS": [("ADoA - Module 0", 20), ("ADoA - Module 1", 10), ("ADoA - Module 2", 120)]
     ]
     
-    static let timeZones: [TimeZoneInfo] = TimeZone.knownTimeZoneIdentifiers.sorted().map { TimeZoneInfo(identifier: $0) }
+    static let timeZones: [TimeZoneInfo] = TimeZone.knownTimeZoneIdentifiers.sorted().compactMap { TimeZoneInfo(identifier: $0) }
 }
