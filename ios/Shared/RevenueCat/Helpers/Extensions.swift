@@ -17,7 +17,7 @@ extension Package {
             if intro.price == 0 {
                 return "\(intro.subscriptionPeriod.periodTitle) free trial"
             } else {
-                return "\(self.localizedIntroductoryPriceString!) for \(intro.subscriptionPeriod.periodTitle)"
+                return "\(self.localizedIntroductoryPriceString ?? "Unknown price") for \(intro.subscriptionPeriod.periodTitle)"
             }
         } else {
             return "Unlocks Premium"

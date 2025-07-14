@@ -47,7 +47,7 @@ struct ImageOverlay: View {
    
     var body: some View {
         ZStack {
-            Text(serviceName!)
+            Text(serviceName ?? "Unknown Service")
               .font(.caption2)
               .padding(.vertical, 2)
               .padding(.horizontal, 5)
@@ -86,16 +86,23 @@ extension View {
         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
            let window = windowScene.windows.first {
             window.rootViewController?.view.addSubview(controller.view)
+            
+            let size = controller.sizeThatFits(in: UIScreen.main.bounds.size)
+            controller.view.bounds = CGRect(origin: .zero, size: size)
+            controller.view.sizeToFit()
+            
+            // here is the call to the function that converts UIView to UIImage: `.asUIImage()`
+            let image = controller.view.asUIImage()
+            controller.view.removeFromSuperview()
+            return image
+        } else {
+            // Fallback if no window is available
+            let size = CGSize(width: 100, height: 100)
+            let renderer = UIGraphicsImageRenderer(size: size)
+            return renderer.image { _ in
+                // Draw a placeholder or empty image
+            }
         }
-        
-        let size = controller.sizeThatFits(in: UIScreen.main.bounds.size)
-        controller.view.bounds = CGRect(origin: .zero, size: size)
-        controller.view.sizeToFit()
-        
-// here is the call to the function that converts UIView to UIImage: `.asUIImage()`
-        let image = controller.view.asUIImage()
-        controller.view.removeFromSuperview()
-        return image
     }
 }
 
@@ -118,7 +125,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     id: 1,
                                     name: "Alexa for Business",
                                     longName: "Amazon Athena",
-                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    shortDescription: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
                                     imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: false
@@ -128,7 +135,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     id: 1,
                                     name: "Athena",
                                     longName: "Amazon Athena",
-                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    shortDescription: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
                                     imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: true
@@ -138,7 +145,7 @@ struct AwsServiceImageView_Previews: PreviewProvider {
                                     id: 1,
                                     name: "Application Discovery Service",
                                     longName: "Application Discovery Service",
-                                    shortDesctiption: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
+                                    shortDescription: "AWS Athena is a serverless service that allows you to make queries using ANSI SQL in data stored on Amazon S3. It supports a wide variety of data formats like CSV, TSV, JSON, or Textfiles. You pay for reading data and you can read compressed data like Zip or Gzip, so if you have 10GB CSV but it is only 20Mb Zipped, you can just upload a zipped version and query it while zipped, you will pay for 20Mb of reading instead of 10Gb or read. Nothing to maintain, and super-duper fast, querying multiple GB of data in seconds.",
                                     imageURL: "https://static.tig.pt/awsary/logos/Arch_Amazon-Athena_64.svg",
                                     youtube_id: "d_u1GKWm2f0"
                                  ),showLabel: true
