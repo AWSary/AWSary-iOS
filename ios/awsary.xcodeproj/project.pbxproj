@@ -124,6 +124,7 @@
 				EE00842B28820C8C003BA190 /* Products */,
 				EEB93EBF2A7AFCA000373D29 /* Frameworks */,
 				EE00843228820C8C003BA190 /* macOS.entitlements */,
+				EE00842528820C8C003BA190 /* Assets.xcassets */,
 				34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */,
 			);
 			sourceTree = "<group>";
@@ -217,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				EE7C5E872A6BC5B9005A803F /* aws_services.json */,
-				EE00842528820C8C003BA190 /* Assets.xcassets */,
 				34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */,
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
 				EE4D8DC12B9E730500A96E5C /* awsary+iOS.entitlements */,
@@ -334,7 +334,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					EE00842928820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -474,6 +474,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -532,6 +533,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
