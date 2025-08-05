@@ -176,13 +176,27 @@
           "hidden" : false,
           "image-name" : "01-Background.svg",
           "name" : "01-Background",
-          "position" : {
-            "scale" : 1.05,
-            "translation-in-points" : [
-              -2.6819522404700447,
-              36.63189166850019
-            ]
-          }
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1.05,
+                "translation-in-points" : [
+                  -2.6819522404700447,
+                  36.63189166850019
+                ]
+              }
+            },
+            {
+              "idiom" : "watchOS",
+              "value" : {
+                "scale" : 1.15,
+                "translation-in-points" : [
+                  -2.6819522404700447,
+                  36.63189166850019
+                ]
+              }
+            }
+          ]
         }
       ],
       "name" : "01-Background",
