@@ -14,6 +14,12 @@
 		34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		34571B682E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
+		3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
+		3489D56F2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
+		3489D5702E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
+		34A0B6C02E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
+		34A0B6C12E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
+		34A0B6C22E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
 		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A42E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
@@ -25,6 +31,9 @@
 		34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		34DE6A3E2E18362D0022AECF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE6A3D2E18362A0022AECF /* SearchView.swift */; };
+		34DE6A3F2E18362D0022AECF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE6A3D2E18362A0022AECF /* SearchView.swift */; };
+		34DE6A402E18362D0022AECF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE6A3D2E18362A0022AECF /* SearchView.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
@@ -121,10 +130,13 @@
 
 /* Begin PBXFileReference section */
 		34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3489D56D2E076DD8001F2AE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; name = AWSaryAppIcon.icon; path = logo/iOS26/AWSaryAppIcon.icon; sourceTree = "<group>"; };
 		34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAppStats.swift; sourceTree = "<group>"; };
 		34CBFB912CE0BA25004CFADD /* AppTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsView.swift; sourceTree = "<group>"; };
 		34CBFB9B2CE143B7004CFADD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
 		34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSetting.swift; sourceTree = "<group>"; };
+		34DE6A3D2E18362A0022AECF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -206,6 +218,7 @@
 				EE00842B28820C8C003BA190 /* Products */,
 				EEB93EBF2A7AFCA000373D29 /* Frameworks */,
 				EE00843228820C8C003BA190 /* macOS.entitlements */,
+				34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,8 +301,10 @@
 		EE6ABDBD2C5B97D10025B74B /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				3489D56D2E076DD8001F2AE5 /* HomeView.swift */,
 				34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */,
 				34CBFB912CE0BA25004CFADD /* AppTabsView.swift */,
+				34DE6A3D2E18362A0022AECF /* SearchView.swift */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -499,6 +514,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A0B6C22E4245F700033444 /* AWSaryAppIcon.icon in Resources */,
 				34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE00843728820C8C003BA190 /* Assets.xcassets in Resources */,
 				EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */,
@@ -509,6 +525,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A0B6C02E4245F700033444 /* AWSaryAppIcon.icon in Resources */,
 				34571B682E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE00843828820C8C003BA190 /* Assets.xcassets in Resources */,
 				EE7C5E892A6BC5B9005A803F /* aws_services.json in Resources */,
@@ -521,6 +538,7 @@
 			files = (
 				EE4D8D9A2B9C5BC800A96E5C /* Preview Assets.xcassets in Resources */,
 				EE4D8D972B9C5BC800A96E5C /* Assets.xcassets in Resources */,
+				34A0B6C12E4245F700033444 /* AWSaryAppIcon.icon in Resources */,
 				EE4D8DB02B9C5CD800A96E5C /* Assets.xcassets in Resources */,
 				34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE4D8DAA2B9C5CC700A96E5C /* aws_services.json in Resources */,
@@ -549,12 +567,14 @@
 				EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */,
+				34DE6A3E2E18362D0022AECF /* SearchView.swift in Sources */,
 				EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */,
 				EEE8414228820E3B0062238E /* awsService.swift in Sources */,
 				EE00CBB62963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B82A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B42A7072ED00DEEBBE /* Constants.swift in Sources */,
 				EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */,
+				3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */,
 				34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE6EE5BE2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
 			);
@@ -568,6 +588,7 @@
 				EE04F9CB2B6E48A400B8AA78 /* Game.swift in Sources */,
 				EE00843628820C8C003BA190 /* OnboardingView.swift in Sources */,
 				EE7AE2BC2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
+				34DE6A3F2E18362D0022AECF /* SearchView.swift in Sources */,
 				EE6EE5B72C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */,
 				EEE080512885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				EE00CBBD29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
@@ -585,6 +606,7 @@
 				EE00CBB72963003200FE3DCB /* AwsServiceImageView.swift in Sources */,
 				EE7AE2B92A71CDA100DEEBBE /* PurchasesDelegateHandler.swift in Sources */,
 				EE7AE2B52A7072ED00DEEBBE /* Constants.swift in Sources */,
+				3489D56F2E076DD8001F2AE5 /* HomeView.swift in Sources */,
 				EE6EE5BF2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,11 +625,13 @@
 				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
 				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
 				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
+				34DE6A402E18362D0022AECF /* SearchView.swift in Sources */,
 				34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */,
 				34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
 				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
 				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
+				3489D5702E076DD8001F2AE5 /* HomeView.swift in Sources */,
 				EE4D8DAE2B9C5CD100A96E5C /* Game.swift in Sources */,
 				EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */,
 				EE4D8DAF2B9C5CD100A96E5C /* DetailsView.swift in Sources */,
@@ -753,8 +777,9 @@
 		EE00843C28820C8C003BA190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -768,7 +793,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -786,8 +811,9 @@
 		EE00843D28820C8C003BA190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -801,7 +827,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -880,8 +906,9 @@
 		EE4D8DA12B9C5BC800A96E5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = AWSaryAppClip/AWSaryAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -899,7 +926,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -919,8 +946,9 @@
 		EE4D8DA22B9C5BC800A96E5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = AWSaryAppClip/AWSaryAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -938,7 +966,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
