@@ -9,23 +9,14 @@
 /* Begin PBXBuildFile section */
 		34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5D2E05BA83008B8BC2 /* RevenueCat */; };
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
-		34571B622E062761008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B612E062761008B8BC2 /* RevenueCat */; };
-		34571B642E062761008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B632E062761008B8BC2 /* RevenueCatUI */; };
-		34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
-		3489D5702E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
-		34A0B6C12E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
 		34A0B6C22E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
-		34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
 		34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB912CE0BA25004CFADD /* AppTabsView.swift */; };
-		34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
 		34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBFB9B2CE143B7004CFADD /* Glossary.swift */; };
 		34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
-		34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		34DE6A3E2E18362D0022AECF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE6A3D2E18362A0022AECF /* SearchView.swift */; };
-		34DE6A402E18362D0022AECF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE6A3D2E18362A0022AECF /* SearchView.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
 		EE00843728820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
@@ -34,26 +25,6 @@
 		EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
 		EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04F9C92B6E48A400B8AA78 /* Game.swift */; };
 		EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE29922E29A3CB4E0071030A /* MarkdownUI */; };
-		EE4D8D932B9C5BC600A96E5C /* AWSaryAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D8D922B9C5BC600A96E5C /* AWSaryAppClipApp.swift */; };
-		EE4D8D972B9C5BC800A96E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4D8D962B9C5BC800A96E5C /* Assets.xcassets */; };
-		EE4D8D9A2B9C5BC800A96E5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4D8D992B9C5BC800A96E5C /* Preview Assets.xcassets */; };
-		EE4D8D9F2B9C5BC800A96E5C /* AWSaryAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EE4D8DA42B9C5C7800A96E5C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
-		EE4D8DAA2B9C5CC700A96E5C /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
-		EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB8296300C800FE3DCB /* AwsServices.swift */; };
-		EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
-		EE4D8DAE2B9C5CD100A96E5C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04F9C92B6E48A400B8AA78 /* Game.swift */; };
-		EE4D8DAF2B9C5CD100A96E5C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
-		EE4D8DB02B9C5CD800A96E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
-		EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */; };
-		EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBB52963003200FE3DCB /* AwsServiceImageView.swift */; };
-		EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */; };
-		EE4D8DB72B9C5E7B00A96E5C /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE4D8DB62B9C5E7B00A96E5C /* YouTubePlayerKit */; };
-		EE4D8DB92B9C5E7B00A96E5C /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = EE4D8DB82B9C5E7B00A96E5C /* MarkdownUI */; };
-		EE4D8DBD2B9E639500A96E5C /* AboutViewClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D8DBC2B9E639500A96E5C /* AboutViewClipApp.swift */; };
-		EE4D8DBE2B9E64B500A96E5C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B32A7072ED00DEEBBE /* Constants.swift */; };
-		EE4D8DBF2B9E64C200A96E5C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2BA2A72547F00DEEBBE /* UserViewModel.swift */; };
-		EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2B72A71CDA100DEEBBE /* PurchasesDelegateHandler.swift */; };
 		EE6A4ED32AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6A4ED22AA678EA009C1EB4 /* AWSserviceImagePlaceHolderView.swift */; };
 		EE6EE5B22C19F6DF00F452E5 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
 		EE6EE5B62C19F6F900F452E5 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
@@ -65,25 +36,11 @@
 		EE7AE2C12A72559300DEEBBE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C02A72559300DEEBBE /* Extensions.swift */; };
 		EE7AE2C52A7258B400DEEBBE /* MyPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AE2C42A7258B400DEEBBE /* MyPaywallView.swift */; };
 		EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */ = {isa = PBXBuildFile; fileRef = EE7C5E872A6BC5B9005A803F /* aws_services.json */; };
-		EE99982F2C1A176000DD3A30 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B92C19F74100F452E5 /* CalendarViewModel.swift */; };
-		EE9998302C1A176000DD3A30 /* AAIEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B12C19F6DF00F452E5 /* AAIEventData.swift */; };
-		EE9998312C1A176000DD3A30 /* TimeZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6EE5B52C19F6F900F452E5 /* TimeZoneInfo.swift */; };
-		EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9998322C1A177200DD3A30 /* AAIplannerContentView.swift */; };
 		EECFBC9028883E6A00FFDB49 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFBC8F28883E6A00FFDB49 /* AboutView.swift */; };
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7348E2889A72000718ACC /* YouTubePlayerKit */; };
 		EEE8414228820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EE4D8D9D2B9C5BC800A96E5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE00841E28820C8B003BA190 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE4D8D8F2B9C5BC600A96E5C;
-			remoteInfo = AWSaryAppClip;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EE4D8DA02B9C5BC800A96E5C /* Embed App Clips */ = {
@@ -92,7 +49,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				EE4D8D9F2B9C5BC800A96E5C /* AWSaryAppClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +74,6 @@
 		EE00CBBB29630AAF00FE3DCB /* MyYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYoutubePlayer.swift; sourceTree = "<group>"; };
 		EE04F9C92B6E48A400B8AA78 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EE2F01E529643CAF003EEB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSaryAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4D8D922B9C5BC600A96E5C /* AWSaryAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryAppClipApp.swift; sourceTree = "<group>"; };
 		EE4D8D962B9C5BC800A96E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4D8D992B9C5BC800A96E5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -157,17 +112,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE4D8D8D2B9C5BC600A96E5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34571B642E062761008B8BC2 /* RevenueCatUI in Frameworks */,
-				EE4D8DB72B9C5E7B00A96E5C /* YouTubePlayerKit in Frameworks */,
-				EE4D8DB92B9C5E7B00A96E5C /* MarkdownUI in Frameworks */,
-				34571B622E062761008B8BC2 /* RevenueCat in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -200,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				EE00842A28820C8C003BA190 /* AWSary.app */,
-				EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -371,7 +314,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE4D8D9E2B9C5BC800A96E5C /* PBXTargetDependency */,
 			);
 			name = "awsary (iOS)";
 			packageProductDependencies = (
@@ -383,29 +325,6 @@
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
 			productType = "com.apple.product-type.application";
-		};
-		EE4D8D8F2B9C5BC600A96E5C /* AWSaryAppClip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE4D8DA32B9C5BC800A96E5C /* Build configuration list for PBXNativeTarget "AWSaryAppClip" */;
-			buildPhases = (
-				EE4D8D8C2B9C5BC600A96E5C /* Sources */,
-				EE4D8D8D2B9C5BC600A96E5C /* Frameworks */,
-				EE4D8D8E2B9C5BC600A96E5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AWSaryAppClip;
-			packageProductDependencies = (
-				EE4D8DB62B9C5E7B00A96E5C /* YouTubePlayerKit */,
-				EE4D8DB82B9C5E7B00A96E5C /* MarkdownUI */,
-				34571B612E062761008B8BC2 /* RevenueCat */,
-				34571B632E062761008B8BC2 /* RevenueCatUI */,
-			);
-			productName = AWSaryAppClip;
-			productReference = EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */;
-			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -419,9 +338,6 @@
 				TargetAttributes = {
 					EE00842928820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					EE4D8D8F2B9C5BC600A96E5C = {
-						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
@@ -444,7 +360,6 @@
 			projectRoot = "";
 			targets = (
 				EE00842928820C8C003BA190 /* awsary (iOS) */,
-				EE4D8D8F2B9C5BC600A96E5C /* AWSaryAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -458,19 +373,6 @@
 				34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
 				EE00843728820C8C003BA190 /* Assets.xcassets in Resources */,
 				EE7C5E882A6BC5B9005A803F /* aws_services.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE4D8D8E2B9C5BC600A96E5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE4D8D9A2B9C5BC800A96E5C /* Preview Assets.xcassets in Resources */,
-				EE4D8D972B9C5BC800A96E5C /* Assets.xcassets in Resources */,
-				34A0B6C12E4245F700033444 /* AWSaryAppIcon.icon in Resources */,
-				EE4D8DB02B9C5CD800A96E5C /* Assets.xcassets in Resources */,
-				34571B662E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */,
-				EE4D8DAA2B9C5CC700A96E5C /* aws_services.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,44 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE4D8D8C2B9C5BC600A96E5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE4D8DBD2B9E639500A96E5C /* AboutViewClipApp.swift in Sources */,
-				EE4D8DBF2B9E64C200A96E5C /* UserViewModel.swift in Sources */,
-				EE99982F2C1A176000DD3A30 /* CalendarViewModel.swift in Sources */,
-				EE9998302C1A176000DD3A30 /* AAIEventData.swift in Sources */,
-				EE9998312C1A176000DD3A30 /* TimeZoneInfo.swift in Sources */,
-				EE4D8DBE2B9E64B500A96E5C /* Constants.swift in Sources */,
-				EE4D8DAB2B9C5CCD00A96E5C /* AwsServices.swift in Sources */,
-				EE4D8DAC2B9C5CCD00A96E5C /* awsService.swift in Sources */,
-				EE4D8DC02B9E64CC00A96E5C /* PurchasesDelegateHandler.swift in Sources */,
-				34CBFB9D2CE143B7004CFADD /* Glossary.swift in Sources */,
-				34DE6A402E18362D0022AECF /* SearchView.swift in Sources */,
-				34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */,
-				34A535A32E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
-				EE4D8DB22B9C5CD800A96E5C /* AWSserviceImagePlaceHolderView.swift in Sources */,
-				EE4D8DB32B9C5CD800A96E5C /* AwsServiceImageView.swift in Sources */,
-				EE4D8DB42B9C5CD800A96E5C /* MyYoutubePlayer.swift in Sources */,
-				3489D5702E076DD8001F2AE5 /* HomeView.swift in Sources */,
-				EE4D8DAE2B9C5CD100A96E5C /* Game.swift in Sources */,
-				EE9998332C1A177200DD3A30 /* AAIplannerContentView.swift in Sources */,
-				EE4D8DAF2B9C5CD100A96E5C /* DetailsView.swift in Sources */,
-				EE4D8D932B9C5BC600A96E5C /* AWSaryAppClipApp.swift in Sources */,
-				EE4D8DA42B9C5C7800A96E5C /* OnboardingView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EE4D8D9E2B9C5BC800A96E5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE4D8D8F2B9C5BC600A96E5C /* AWSaryAppClip */;
-			targetProxy = EE4D8D9D2B9C5BC800A96E5C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EE00843928820C8C003BA190 /* Debug */ = {
@@ -743,87 +608,6 @@
 			};
 			name = Release;
 		};
-		EE4D8DA12B9C5BC800A96E5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = AWSaryAppClip/AWSaryAppClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AWSaryAppClip/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AWSaryAppClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AWSary;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app requires access to calendar to create your trainings plans.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EE4D8DA22B9C5BC800A96E5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AWSaryAppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CODE_SIGN_ENTITLEMENTS = AWSaryAppClip/AWSaryAppClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AWSaryAppClip/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AWSaryAppClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AWSary;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app requires access to calendar to create your trainings plans.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -841,15 +625,6 @@
 			buildConfigurations = (
 				EE00843C28820C8C003BA190 /* Debug */,
 				EE00843D28820C8C003BA190 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE4D8DA32B9C5BC800A96E5C /* Build configuration list for PBXNativeTarget "AWSaryAppClip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE4D8DA12B9C5BC800A96E5C /* Debug */,
-				EE4D8DA22B9C5BC800A96E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -894,27 +669,7 @@
 			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCatUI;
 		};
-		34571B612E062761008B8BC2 /* RevenueCat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
-			productName = RevenueCat;
-		};
-		34571B632E062761008B8BC2 /* RevenueCatUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
-			productName = RevenueCatUI;
-		};
 		EE29922E29A3CB4E0071030A /* MarkdownUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
-			productName = MarkdownUI;
-		};
-		EE4D8DB62B9C5E7B00A96E5C /* YouTubePlayerKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
-			productName = YouTubePlayerKit;
-		};
-		EE4D8DB82B9C5E7B00A96E5C /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
 			productName = MarkdownUI;
