@@ -96,7 +96,7 @@ struct AboutView: View {
       
       isLoadingStats = true
       
-      guard let url = URL(string: "https://0gbyxcbo3d.execute-api.eu-west-1.amazonaws.com/prod/app-stats") else {
+      guard let url = URL(string: "https://api.awsary.com/app-stats") else {
          isLoadingStats = false
          return
       }
