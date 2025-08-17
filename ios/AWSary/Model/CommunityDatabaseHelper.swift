@@ -10,7 +10,7 @@ import Foundation
 struct CommunityDatabaseHelper {
     
     func getUserGroups() async throws -> [AwsCloudClubElement] {
-        guard let url = URL(string:"https://0gbyxcbo3d.execute-api.eu-west-1.amazonaws.com/prod/community-all") else {
+        guard let url = URL(string:"https://api.awsary.com/community-all") else {
             throw URLError(.badURL)
         }
             
@@ -20,7 +20,7 @@ struct CommunityDatabaseHelper {
     }
     
     func getCloudClubs() async throws -> [AwsCloudClubElement] {
-        guard let url = URL(string:"https://0gbyxcbo3d.execute-api.eu-west-1.amazonaws.com/prod/community-all") else {
+        guard let url = URL(string:"https://api.awsary.com/community-all") else {
             throw URLError(.badURL)
         }
             
