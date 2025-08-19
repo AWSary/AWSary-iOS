@@ -40,7 +40,7 @@ struct awsaryApp: App {
             options.experimental.enableLogs = true
         }
         // Remove the next line after confirming that your Sentry integration is working.
-        SentrySDK.capture(message: "This app uses Sentry! :)")
+//        SentrySDK.capture(message: "This app uses Sentry! :)")
         
         // RevenueCat
         Purchases.logLevel = .debug
