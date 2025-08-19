@@ -12,8 +12,8 @@ for item in items:
     service_name = item['longName']
     response = polly_client.synthesize_speech(VoiceId='Brian', OutputFormat='mp3', Text=service_name)
 
-    file = open('speech/' + item['name'].replace(' ','_') + '_Brian_' + 'en-GB' + '.mp3', 'wb')
-    file.write(response['AudioStream'].read())
-    file.close()
+    filename = 'speech/' + item['name'].replace(' ','_') + '_Brian_' + 'en-GB' + '.mp3'
+    with open(filename, 'wb') as file:
+        file.write(response['AudioStream'].read())
     print("Done with: " + item['name'])
     
