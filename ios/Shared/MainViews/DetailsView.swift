@@ -38,16 +38,33 @@ struct DetailsView: View {
                AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
                VStack{
                   Text(service.longName).font(Font.title)
-                  HStack{
-                        Image("Arch_Amazon-Polly_64")
-                           .resizable()
-                           .scaledToFit()
-                           .frame(width: 40)
-                           .cornerRadius(8.0)
-                        Text("Pronunciation by Amazon Polly").lineLimit(2).font(.caption2)
-                  }.onTapGesture {
-                     playServiceName(url: "https://cdn.awsary.com/audio/\(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "").replacingOccurrences(of: "_64.svg", with: "").replacingOccurrences(of: "Amazon-", with: "").replacingOccurrences(of: "AWS-", with: ""))-Joanna-en-US.mp3")
-                  }
+                   HStack{
+                       ZStack{
+                           RoundedRectangle(cornerRadius: 8)
+                               .foregroundStyle(Color.green)
+                               .frame(width: 40, height: 40)
+                           Image(systemName: "document.on.document")
+                       }
+                       .onTapGesture {
+                           UIPasteboard.general.string = service.shortDesctiption
+                       }
+                       .onDrag({
+                           let itemProvider = NSItemProvider(object: service.shortDesctiption as NSString)
+                           return itemProvider
+                       })
+                       
+                       HStack{
+                           Image("Arch_Amazon-Polly_64")
+                               .resizable()
+                               .scaledToFit()
+                               .frame(width: 40)
+                               .cornerRadius(8.0)
+                           Text("Pronunciation by Polly").lineLimit(2).font(.caption2)
+                       }.onTapGesture {
+                           playServiceName(url: "https://cdn.awsary.com/audio/\(service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "").replacingOccurrences(of: "_64.svg", with: "").replacingOccurrences(of: "Amazon-", with: "").replacingOccurrences(of: "AWS-", with: ""))-Joanna-en-US.mp3")
+                       }
+                   }
+                   .padding(.leading, 10)
                }
             }
             Spacer()
