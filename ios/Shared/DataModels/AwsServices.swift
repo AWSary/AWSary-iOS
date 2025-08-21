@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 var fm = FileManager.default
 var subUrl: URL?
@@ -14,6 +15,10 @@ var lastRandom: awsService = awsService(id: 10, name: "DeepRacer", longName: "AW
 
 class AwsServices: ObservableObject {
     @Published var services = [awsService]()
+    @Published var isLoading = true
+    
+    // Static cache to avoid reloading data multiple times
+    private static var cachedServices: [awsService]?
    
    func getNameOfLastRandom() -> String {
       return lastRandom.longName
@@ -28,42 +33,64 @@ class AwsServices: ObservableObject {
       return lastRandom
    }
     init() {
-       refresh()
+       // Check if we have cached data first
+       if let cached = AwsServices.cachedServices {
+           self.services = cached
+           self.isLoading = false
+       } else {
+           // Load asynchronously
+           Task {
+               await refresh()
+           }
+       }
     }
     
-   func getData() {
+   func getData() async {
            do {
                let documentDirectory = try fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
                subUrl = documentDirectory.appendingPathComponent("aws_services.json")
-               loadFile(mainPath: mainUrl!, subPath: subUrl!)
+               await loadFile(mainPath: mainUrl!, subPath: subUrl!)
            } catch {
                print(error)
            }
        }
    
-   func loadFile(mainPath: URL, subPath: URL){
+   func loadFile(mainPath: URL, subPath: URL) async {
            if fm.fileExists(atPath: subPath.path){
-               decodeData(pathName: subPath)
+               await decodeData(pathName: subPath)
                
                if services.isEmpty{
-                   decodeData(pathName: mainPath)
+                   await decodeData(pathName: mainPath)
                }
                
            }else{
-               decodeData(pathName: mainPath)
+               await decodeData(pathName: mainPath)
            }
        }
    
-   func decodeData(pathName: URL){
+   func decodeData(pathName: URL) async {
            do{
                let jsonData = try Data(contentsOf: pathName)
                let decoder = JSONDecoder()
-              services = try decoder.decode([awsService].self, from: jsonData)
-           } catch {}
+               let decodedServices = try decoder.decode([awsService].self, from: jsonData)
+               
+               await MainActor.run {
+                   self.services = decodedServices
+                   // Cache the services for future use
+                   AwsServices.cachedServices = decodedServices
+                   self.isLoading = false
+               }
+           } catch {
+               await MainActor.run {
+                   self.isLoading = false
+               }
+           }
        }
    
-    func refresh(){
-       getData()
-       services.sort {$0.name < $1.name}
+    func refresh() async {
+       await getData()
+       await MainActor.run {
+           self.services.sort {$0.name < $1.name}
+       }
     }
 }
