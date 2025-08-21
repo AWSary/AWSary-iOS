@@ -10,7 +10,7 @@ import SwiftData
 
 struct Glossary: View {
     @State private var showingSheet = false
-    @ObservedObject var awsServices = AwsServices()
+    @EnvironmentObject var awsServices: AwsServices
     @State private var searchQuery = ""
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.modelContext) private var modelContext
@@ -52,7 +52,7 @@ struct Glossary: View {
                        .accentColor(Color(colorScheme == .dark ? .white : .black))
                  }
                  .refreshable {
-                    AwsServices().refresh()
+                    awsServices.refresh()
                  }
                  .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
                  .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16

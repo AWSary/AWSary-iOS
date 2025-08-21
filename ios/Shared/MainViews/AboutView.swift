@@ -15,7 +15,7 @@ struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
-   @ObservedObject var awsServices = AwsServices()
+   @EnvironmentObject var awsServices: AwsServices
    @Query var settings: [SystemSetting]
    @Query var cachedStats: [CachedAppStats]
    
@@ -102,18 +102,20 @@ struct AboutView: View {
       }
       
       URLSession.shared.dataTask(with: url) { data, response, error in
-         DispatchQueue.main.async {
-            isLoadingStats = false
-            
-            if let data = data {
-               do {
-                  let stats = try JSONDecoder().decode(AppStats.self, from: data)
+         if let data = data {
+            // Decode off the main thread
+            let decoded: AppStats? = {
+               do { return try JSONDecoder().decode(AppStats.self, from: data) } catch { return nil }
+            }()
+            DispatchQueue.main.async {
+               isLoadingStats = false
+               if let stats = decoded {
                   self.appStats = stats
                   self.saveToCacheAndUpdate(stats)
-               } catch {
-                  print("Failed to decode app stats: \(error)")
                }
             }
+         } else {
+            DispatchQueue.main.async { isLoadingStats = false }
          }
       }.resume()
    }

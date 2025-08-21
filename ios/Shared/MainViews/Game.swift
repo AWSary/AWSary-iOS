@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Game: View {
-   @ObservedObject var awsServices = AwsServices()
+   @EnvironmentObject var awsServices: AwsServices
    @State private var showServiceName = false
    
    var body: some View {
