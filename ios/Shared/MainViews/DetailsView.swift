@@ -68,7 +68,9 @@ struct DetailsView: View {
                }
             }
             Spacer()
-            Markdown(service.shortDesctiption).padding()
+             Markdown(service.shortDesctiption)
+                 .textSelection(.enabled)
+                 .padding()
             Spacer()
             HStack{
 //            VStack(alignment: .leading){
