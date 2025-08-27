@@ -16,7 +16,14 @@ struct awsaryApp: App {
     init() {
         SentrySDK.start { options in
             options.dsn = "https://477881ef4da534dc2a5d623681bb8ff1@o4509860037001216.ingest.de.sentry.io/4509860041982032"
+            
+            // for DEV
             options.debug = true // Enabled debug when first installing is always helpful
+            options.environment = "dev"
+            
+            // for PROD
+            //options.debug = false
+            //options.environment = "production"
 
             // Adds IP for users.
             // For more information, visit: https://docs.sentry.io/platforms/apple/data-management/data-collected/
