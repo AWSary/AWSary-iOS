@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28F5A5D7C8254512AC93B9B7 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = DA82C2C785F24B70B50477D8 /* Sentry */; };
 		342A01662E465B1D0093C6E7 /* BuildersContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A01652E465B100093C6E7 /* BuildersContent.swift */; };
 		34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5D2E05BA83008B8BC2 /* RevenueCat */; };
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
@@ -54,7 +55,6 @@
 		EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */; };
 		EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7348E2889A72000718ACC /* YouTubePlayerKit */; };
 		EEE8414228820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
-		28F5A5D7C8254512AC93B9B7 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = DA82C2C785F24B70B50477D8 /* Sentry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -465,6 +465,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F68DC7C5B1784B2CBCB3C6F8 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script is responsible for uploading debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\n  export SENTRY_ORG=tigpt\n  export SENTRY_PROJECT=apple-ios\n  ERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\n  if [ ! $? -eq 0 ]; then\n    echo \"warning: sentry-cli - $ERROR\"\n  fi\nelse\n  echo \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE00842628820C8C003BA190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -647,7 +665,9 @@
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSary/resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AWSary;
@@ -663,15 +683,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.11;
+				MARKETING_VERSION = 1.26;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_USER_SCRIPT_SANDBOXING = "NO";
 			};
 			name = Debug;
 		};
@@ -684,7 +702,9 @@
 				CODE_SIGN_ENTITLEMENTS = "AWSary/resources/awsary+iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSary/resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AWSary;
@@ -700,7 +720,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.11;
+				MARKETING_VERSION = 1.26;
 				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary;
 				PRODUCT_NAME = AWSary;
 				SDKROOT = iphoneos;
@@ -708,8 +728,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_USER_SCRIPT_SANDBOXING = "NO";
 			};
 			name = Release;
 		};
@@ -753,6 +771,14 @@
 				minimumVersion = 3.1.3;
 			};
 		};
+		E8E4EC5F11DD4F8C929EBE09 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 		EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
@@ -767,14 +793,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
-			};
-		};
-		E8E4EC5F11DD4F8C929EBE09 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/getsentry/sentry-cocoa/";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -795,6 +813,11 @@
 			package = 34B8ABDF2E4CDB0B0074B5C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
+		DA82C2C785F24B70B50477D8 /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8E4EC5F11DD4F8C929EBE09 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
 		EE29922E29A3CB4E0071030A /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
@@ -805,41 +828,7 @@
 			package = EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
 			productName = YouTubePlayerKit;
 		};
-		DA82C2C785F24B70B50477D8 /* Sentry */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E8E4EC5F11DD4F8C929EBE09 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
-			productName = Sentry;
-		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F68DC7C5B1784B2CBCB3C6F8 /* Upload Debug Symbols to Sentry */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script is responsible for uploading debug symbols and source context for Sentry.
-if which sentry-cli >/dev/null; then
-  export SENTRY_ORG=tigpt
-  export SENTRY_PROJECT=apple-ios
-  ERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)
-  if [ ! $? -eq 0 ]; then
-    echo \"warning: sentry-cli - $ERROR\"
-  fi
-else
-  echo \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"
-fi
-";
-			name = "Upload Debug Symbols to Sentry";
-		};
-/* End PBXShellScriptBuildPhase section */
 	};
 	rootObject = EE00841E28820C8B003BA190 /* Project object */;
 }
