@@ -13,27 +13,27 @@ struct AppTabsView: View {
     
     var body: some View {
        TabView {
-            Tab("AWSary", systemImage: "house"){
-                HomeView()
-            }
-            Tab("Community", systemImage: "person.3.sequence"){
-                Community()
-            } 
+//            Tab("AWSary", systemImage: "house"){
+//                HomeView()
+//            }
+//            Tab("Community", systemImage: "person.3.sequence"){
+//                Community()
+//            } 
            Tab("Glossary", systemImage: "books.vertical"){
                Glossary()
            }
-//           Tab("Game", systemImage: "gamecontroller"){
-//               Game()
-//           }
+           Tab("Game", systemImage: "gamecontroller"){
+               Game()
+           }
 //           Tab("Tools", systemImage: "wrench.and.screwdriver.fill"){
 //           }
-//           Tab("AAI Planner", systemImage: "calendar.badge.clock"){
-//               AAIplannerContentView()
-//           }
-
-           Tab(role: .search) {
-               SearchView()
+           Tab("AAI Planner", systemImage: "calendar.badge.clock"){
+               AAIplannerContentView()
            }
+
+//           Tab(role: .search) {
+//               SearchView()
+//           }
        }
        .tabViewStyle(.sidebarAdaptable)
     }
