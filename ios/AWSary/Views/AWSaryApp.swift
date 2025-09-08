@@ -17,13 +17,13 @@ struct awsaryApp: App {
         SentrySDK.start { options in
             options.dsn = "https://477881ef4da534dc2a5d623681bb8ff1@o4509860037001216.ingest.de.sentry.io/4509860041982032"
             
-            // for DEV
-            options.debug = true // Enabled debug when first installing is always helpful
-            options.environment = "dev"
-
+//            // for DEV
+//            options.debug = true // Enabled debug when first installing is always helpful
+//            options.environment = "dev"
+            
             // for PROD
-            //options.debug = false
-            //options.environment = "production"
+            options.debug = false
+            options.environment = "production"
         
             
             // Adds IP for users.
@@ -69,7 +69,7 @@ struct awsaryApp: App {
                     print("Error fetching offerings: \(error)")
                 }
             }
-            //.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
+            .accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
       }
       .modelContainer(for: [SystemSetting.self, CachedAppStats.self])
    }

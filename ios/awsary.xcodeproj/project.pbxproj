@@ -796,8 +796,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = "feature/xcode-26";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
