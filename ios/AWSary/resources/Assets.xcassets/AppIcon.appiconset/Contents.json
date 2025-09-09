@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Exported PNG image 6.png",
+      "filename" : "AWSaryAppIcon-iOS-Default-1024x1024@1x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Exported PNG image 1.png",
+      "filename" : "AWSaryAppIcon-iOS-Dark-1024x1024@1x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +25,7 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "Exported PNG image 2.png",
+      "filename" : "AWSaryAppIcon-iOS-TintedLight-1024x1024@1x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
