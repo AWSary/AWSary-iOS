@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5D2E05BA83008B8BC2 /* RevenueCat */; };
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
 		34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
+		346885762E70CB7B00BED2B9 /* awsary.watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3468856C2E70CB7900BED2B9 /* awsary.watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3468857B2E70CBAE00BED2B9 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
 		3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
 		349500BC2E43D38C004133FF /* CommunityDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */; };
 		349500C02E43F4D6004133FF /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BF2E43F4D2004133FF /* Community.swift */; };
@@ -57,7 +59,28 @@
 		EEE8414228820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		346885742E70CB7B00BED2B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE00841E28820C8B003BA190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3468856B2E70CB7900BED2B9;
+			remoteInfo = "awsary.watchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		3468857A2E70CB7B00BED2B9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				346885762E70CB7B00BED2B9 /* awsary.watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE4D8DA02B9C5BC800A96E5C /* Embed App Clips */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +96,7 @@
 /* Begin PBXFileReference section */
 		342A01652E465B100093C6E7 /* BuildersContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildersContent.swift; sourceTree = "<group>"; };
 		34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3468856C2E70CB7900BED2B9 /* awsary.watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "awsary.watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3489D56D2E076DD8001F2AE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDatabaseHelper.swift; sourceTree = "<group>"; };
 		349500BF2E43F4D2004133FF /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
@@ -127,7 +151,18 @@
 		EEE8414128820E3B0062238E /* awsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3468856D2E70CB7900BED2B9 /* awsary.watchOS Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "awsary.watchOS Watch App"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		346885692E70CB7900BED2B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE00842728820C8C003BA190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +236,7 @@
 				EE6ABDC12C5B9A7C0025B74B /* AWSary */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE4D8D912B9C5BC600A96E5C /* AWSaryAppClip */,
+				3468856D2E70CB7900BED2B9 /* awsary.watchOS Watch App */,
 				EE00842B28820C8C003BA190 /* Products */,
 				EEB93EBF2A7AFCA000373D29 /* Frameworks */,
 				EE00843228820C8C003BA190 /* macOS.entitlements */,
@@ -223,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				EE00842A28820C8C003BA190 /* AWSary.app */,
+				3468856C2E70CB7900BED2B9 /* awsary.watchOS Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -383,6 +420,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3468856B2E70CB7900BED2B9 /* awsary.watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346885772E70CB7B00BED2B9 /* Build configuration list for PBXNativeTarget "awsary.watchOS Watch App" */;
+			buildPhases = (
+				346885682E70CB7900BED2B9 /* Sources */,
+				346885692E70CB7900BED2B9 /* Frameworks */,
+				3468856A2E70CB7900BED2B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3468856D2E70CB7900BED2B9 /* awsary.watchOS Watch App */,
+			);
+			name = "awsary.watchOS Watch App";
+			packageProductDependencies = (
+			);
+			productName = "awsary.watchOS Watch App";
+			productReference = 3468856C2E70CB7900BED2B9 /* awsary.watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		EE00842928820C8C003BA190 /* awsary (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE00843B28820C8C003BA190 /* Build configuration list for PBXNativeTarget "awsary (iOS)" */;
@@ -392,10 +451,12 @@
 				EE00842828820C8C003BA190 /* Resources */,
 				EE4D8DA02B9C5BC800A96E5C /* Embed App Clips */,
 				F68DC7C5B1784B2CBCB3C6F8 /* Upload Debug Symbols to Sentry */,
+				3468857A2E70CB7B00BED2B9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				346885752E70CB7B00BED2B9 /* PBXTargetDependency */,
 			);
 			name = "awsary (iOS)";
 			packageProductDependencies = (
@@ -417,9 +478,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					3468856B2E70CB7900BED2B9 = {
+						CreatedOnToolsVersion = 26.0;
+					};
 					EE00842928820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -446,11 +510,20 @@
 			projectRoot = "";
 			targets = (
 				EE00842928820C8C003BA190 /* awsary (iOS) */,
+				3468856B2E70CB7900BED2B9 /* awsary.watchOS Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3468856A2E70CB7900BED2B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3468857B2E70CBAE00BED2B9 /* AWSaryAppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE00842828820C8C003BA190 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,6 +562,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		346885682E70CB7900BED2B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE00842628820C8C003BA190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,7 +615,87 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		346885752E70CB7B00BED2B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3468856B2E70CB7900BED2B9 /* awsary.watchOS Watch App */;
+			targetProxy = 346885742E70CB7B00BED2B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		346885782E70CB7B00BED2B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = awsary.watchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = pt.tig.awsary;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		346885792E70CB7B00BED2B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = awsary.watchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = pt.tig.awsary;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 		EE00843928820C8C003BA190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,6 +899,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		346885772E70CB7B00BED2B9 /* Build configuration list for PBXNativeTarget "awsary.watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346885782E70CB7B00BED2B9 /* Debug */,
+				346885792E70CB7B00BED2B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE00842128820C8B003BA190 /* Build configuration list for PBXProject "awsary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
