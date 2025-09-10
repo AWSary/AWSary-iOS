@@ -11,45 +11,40 @@ struct ContentView: View {
     @State private var buildersContent:[FeedContent] = []
     
     var body: some View {
-        NavigationStack{
-            ScrollView {
-                ScrollView {
-                    LazyVStack(spacing: 24, pinnedViews: []) {
-                        Text("Treding Articles")
+        // Loading articles
+        if buildersContent.isEmpty{
+            Text("Loading Articles...")
+            ProgressView()
+                .task {
+                    await getData()
+                }
+        }else{
+            // Articles are ready
+            NavigationStack{
+                ScrollView(.vertical) {
+                    LazyVStack(spacing: 0) {
                         ForEach(buildersContent.sorted() { $0.createdAt > $1.createdAt }, id:\.id) { article in
-                            VStack{
-                                AsyncImage(url: URL(string: article.contentTypeSpecificResponse.article.heroImageURL))
-                                    .frame(width: 50, height: 50)
-                                    .clipShape(RoundedRectangle(cornerRadius: 12))
-                                Text(article.title)
+                            ZStack {
+                                LinearGradient(colors: [.purple, .blue], startPoint: .top, endPoint: .bottom)
+//                                AsyncImage(url: URL(string: article.contentTypeSpecificResponse.article.heroImageURL))
+                                VStack{
+                                    Spacer()
+                                    Text(article.title).fontWeight(.medium)
+                                    Text("Read More").font(.footnote) // TODO make the text stand out less, dark grey
+        
+                                }.padding()
                             }
-                            
-//     - move from webview to bcArticleDetails
-//                            NavigationLink(destination: WebView(url: URL(string: "https://builder.aws.com\(article.contentID)")!)
-//                                .navigationTitle(article.title)
-//                                .navigationBarTitleDisplayMode(.inline)
-//                            ){
-//                                CardView(article: article)
-//                            }
-//                            .buttonStyle(PressableButtonStyle())
-//                            .padding(.horizontal)
-//     - move from webview to bcArticleDetails
+                            .id(article.id)
+                            .containerRelativeFrame(.vertical)
+                            .frame(maxWidth: .infinity)
                         }
                     }
-                    .padding(.vertical)
-                    .task {
-                        await getData()
-                    }
+                    .scrollTargetLayout()
                 }
+                .ignoresSafeArea()
+                .scrollTargetBehavior(.paging)
             }
         }
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
     }
     
     private func getData() async{
