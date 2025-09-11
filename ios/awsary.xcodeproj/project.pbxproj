@@ -15,6 +15,7 @@
 		346885762E70CB7B00BED2B9 /* AWSary Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3468856C2E70CB7900BED2B9 /* AWSary Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3468857B2E70CBAE00BED2B9 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
 		3468857D2E70D2E900BED2B9 /* BuildersContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A01652E465B100093C6E7 /* BuildersContent.swift */; };
+		346885802E7219D300BED2B9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3468857F2E7219D300BED2B9 /* SDWebImageSwiftUI */; };
 		3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
 		349500BC2E43D38C004133FF /* CommunityDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */; };
 		349500C02E43F4D6004133FF /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BF2E43F4D2004133FF /* Community.swift */; };
@@ -162,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346885802E7219D300BED2B9 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +442,7 @@
 			);
 			name = "AWSary Watch App";
 			packageProductDependencies = (
+				3468857F2E7219D300BED2B9 /* SDWebImageSwiftUI */,
 			);
 			productName = "awsary.watchOS Watch App";
 			productReference = 3468856C2E70CB7900BED2B9 /* AWSary Watch App.app */;
@@ -991,6 +994,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCatUI;
+		};
+		3468857F2E7219D300BED2B9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34B8ABDF2E4CDB0B0074B5C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 		34B8ABE02E4CDB0B0074B5C5 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
