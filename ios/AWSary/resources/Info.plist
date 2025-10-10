@@ -4,7 +4,7 @@
 <dict>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
-	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
-	<string></string>
+        <key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+        <string>Calendar access is only used to add the classroom schedules you request.</string>
 </dict>
 </plist>
