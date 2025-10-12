@@ -42,6 +42,7 @@ struct AAIEventData {
 //      "Architecting on AWS - Accelerator",
 //      "Amazon SageMaker Studio for Data Scientists",
 //      "Authoring Visual Analytics Using Amazon QuickSight",
+      "Machine Learning Engineering on AWS",
     ]
     
     static let eventSequences: [String: [(name: String, duration: Int)]] = [
@@ -602,6 +603,47 @@ struct AAIEventData {
           ("RCoAEKS - ☕️🍎 Break", 15),
           ("RCoAEKS - 🔬🛠️ Lab 6: Capstone Exercise", 120),
           ("RCoAEKS - Module 10: Course Review", 30),
+      ],
+      
+      "Machine Learning Engineering on AWS": [
+          ("ML Eng - Module 00: Course Introduction", 30),
+          ("ML Eng - Module 01: Introduction to Machine Learning (ML) on AWS", 90),
+          ("ML Eng - ☕️🍎 Break", 15),
+          ("ML Eng - Module 02: Analyzing ML Challenges", 60),
+          ("    Activity 1: Analyzing ML challenges (20 min.)", 0),
+          ("ML Eng - 🍴🍲🥝 Lunch", 60),
+          ("ML Eng - Module 03: Data Processing for ML", 55),
+          ("ML Eng - Module 04: Data Transformation and Feature Engineering", 85),
+          ("ML Eng - ☕️🍎 Break", 15),
+          ("    Activity 2: Data processing and feature engineering (15 min.)", 0),
+          ("ML Eng - 🔬🛠️ Lab 1: Analyze and Prepare Data with Amazon SageMaker Data Wrangler and Amazon EMR", 65),
+          ("ML Eng - 🔬🛠️ Lab 2: Data Processing Using Amazon SageMaker Processing and the Amazon SageMaker Python SDK", 30),
+          ("nextDay",1),
+
+          ("ML Eng - Recap of Day 1", 30),
+          ("ML Eng - Module 05: Choosing a Modeling Approach", 65),
+          ("ML Eng - ☕️🍎 Break", 15),
+          ("    Activity 3: Choosing an algorithm (10 min.)", 0),
+          ("ML Eng - Module 06: Training ML Models", 45),
+          ("ML Eng - 🔬🛠️ Lab 3: Training a Model with Amazon SageMaker AI", 35),
+          ("ML Eng - 🍴🍲🥝 Lunch", 60),
+          ("ML Eng - Module 07: Evaluating and Tuning ML Models", 60),
+          ("ML Eng - 🔬🛠️ Lab 4: Model Tuning and Hyperparameter Optimization with Amazon SageMaker AI", 40),
+          ("ML Eng - ☕️🍎 Break", 15),
+          ("ML Eng - Module 08: Model Deployment Strategies", 55),
+          ("ML Eng - 🔬🛠️ Lab 5: Shifting Traffic", 45),
+          ("nextDay",2),
+
+          ("ML Eng - Day 2 Review", 30),
+          ("ML Eng - Module 09: Securing AWS ML Resources", 35),
+          ("ML Eng - Module 10: Machine Learning Operations (MLOps) and Automated Deployment", 50),
+          ("ML Eng - ☕️🍎 Break", 15),
+          ("    Activity 4: Training and refining a model (20 min.)", 0),
+          ("ML Eng - 🔬🛠️ Lab 6: Using Amazon SageMaker Pipelines and the Amazon SageMaker Model Registry with Amazon SageMaker Studio", 90),
+          ("ML Eng - 🍴🍲🥝 Lunch", 60),
+          ("ML Eng - Module 11: Monitoring Model Performance and Data Quality", 55),
+          ("ML Eng - 🔬🛠️ Lab 7: Monitoring a Model for Data Drift", 45),
+          ("ML Eng - Module 12: Course Wrap-up", 30),
       ]
       
 
