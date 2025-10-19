@@ -43,6 +43,7 @@ struct AAIEventData {
 //      "Amazon SageMaker Studio for Data Scientists",
 //      "Authoring Visual Analytics Using Amazon QuickSight",
       "Machine Learning Engineering on AWS",
+      "Developing Generative AI Applications on AWS",
     ]
     
     static let eventSequences: [String: [(name: String, duration: Int)]] = [
@@ -644,6 +645,37 @@ struct AAIEventData {
           ("ML Eng - Module 11: Monitoring Model Performance and Data Quality", 55),
           ("ML Eng - 🔬🛠️ Lab 7: Monitoring a Model for Data Drift", 45),
           ("ML Eng - Module 12: Course Wrap-up", 30),
+      ],
+      
+      "Developing Generative AI Applications on AWS": [
+          ("DevGenAI - Module 0: Course Overview and Introductions", 20),
+          ("DevGenAI - Module 1: Introduction to Generative AI – Art of the Possible", 70),
+          ("DoA - ☕️🍎 Break", 15),
+          ("DevGenAI - Module 2: Planning a Generative AI Project", 60),
+          ("DevGenAI - 🍴🍲🥝 Lunch", 60),
+          ("DevGenAI - Module 3: Getting Started with Amazon Bedrock", 60),
+          ("DevGenAI - 🔬🛠️ Demo: Setting Up Bedrock Access and Using Playgrounds", 30),
+          ("DoA - ☕️🍎 Break", 15),
+          ("DevGenAI - Module 4: Foundations of Prompt Engineering", 65),
+          ("DevGenAI - 🔬🛠️ Demo: Image Bias-Mitigation", 5),
+          ("nextDay", 1),
+
+          ("DevGenAI - Module 5: Amazon Bedrock Application Components", 70),
+          ("DevGenAI - Module 6: Amazon Bedrock Foundation Models", 40),
+          ("DoA - ☕️🍎 Break", 15),
+          ("DevGenAI - 🔬🛠️ Lab 1a: Invoke Bedrock Model for Text Generation Using Zero-Shot Prompt", 5),
+          ("DevGenAI - Module 7: LangChain", 60),
+          ("DevGenAI - 🍴🍲🥝 Lunch", 60),
+          ("DevGenAI - 🔬🛠️ Lab 1b: Bedrock with LangChain Using a Prompt that Includes Context", 5),
+          ("DevGenAI - Module 8: Architecture Patterns", 25),
+          ("DevGenAI - 🔬🛠️ Lab 2a: Text Summarization of Small Files with Anthropic Claude", 5),
+          ("DevGenAI - 🔬🛠️ Lab 2b: Abstractive Text Summarization with Amazon Titan Using LangChain", 10),
+          ("DevGenAI - 🔬🛠️ Lab 3: Using Amazon Bedrock for Question Answering", 5),
+          ("DoA - ☕️🍎 Break", 15),
+          ("DevGenAI - 🔬🛠️ Lab 4: Conversational Interface – Chatbot with AI21 LLM", 15),
+          ("DevGenAI - 🔬🛠️ Lab 5: Using Amazon Bedrock Models for Code Generation", 5),
+          ("DevGenAI - 🔬🛠️ Lab 6: Integrating Amazon Bedrock Models with LangChain Agents", 15),
+          ("DevGenAI - Module 9: Wrap-up", 5),
       ]
       
 
