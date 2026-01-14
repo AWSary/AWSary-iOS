@@ -15,6 +15,7 @@ This repository contains multiple components (e.g., iOS app, website, Terraform,
 - Prefer clear, descriptive names consistent with surrounding code.
 - Keep formatting consistent with existing files in each subproject.
 - Avoid introducing new dependencies without justification.
+- Prefer native Swift and SwiftUI with Apple public APIs. Only suggest third-party code when necessary or with significant advantages, and ask a human before adding any external SDK or codebase.
 
 ## iOS (Swift/Xcode)
 - Follow existing Swift style and naming conventions.
