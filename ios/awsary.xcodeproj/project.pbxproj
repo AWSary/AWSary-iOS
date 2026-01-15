@@ -95,8 +95,6 @@
 		EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = EEE7348E2889A72000718ACC /* YouTubePlayerKit */; };
 		EEE8414228820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
 		EEE8414328820E3B0062238E /* awsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE8414128820E3B0062238E /* awsService.swift */; };
-		EEA1A1002E5F000100AAA001 /* AWSaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA1A1032E5F000100AAA001 /* AWSaryTests.swift */; };
-		EEA1A1012E5F000100AAA001 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA1A1052E5F000100AAA001 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,13 +104,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = EE4D8D8F2B9C5BC600A96E5C;
 			remoteInfo = AWSaryAppClip;
-		};
-		EEA1A1022E5F000100AAA001 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE00841E28820C8B003BA190 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE00842928820C8C003BA190;
-			remoteInfo = "awsary (iOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -172,9 +163,6 @@
 		EECFBC8F28883E6A00FFDB49 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		EEE0804F2885A4C000F8F7A4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		EEE8414128820E3B0062238E /* awsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = awsService.swift; sourceTree = "<group>"; };
-		EEA1A1032E5F000100AAA001 /* AWSaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryTests.swift; sourceTree = "<group>"; };
-		EEA1A1042E5F000100AAA001 /* AWSaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA1A1052E5F000100AAA001 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,14 +198,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEA1A1062E5F000100AAA001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEA1A1012E5F000100AAA001 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -225,7 +205,6 @@
 			isa = PBXGroup;
 			children = (
 				EE6ABDC12C5B9A7C0025B74B /* AWSary */,
-				EEA1A1072E5F000100AAA001 /* AWSaryTests */,
 				EE00842228820C8B003BA190 /* Shared */,
 				EE4D8D912B9C5BC600A96E5C /* AWSaryAppClip */,
 				EE00842B28820C8C003BA190 /* Products */,
@@ -252,17 +231,8 @@
 				EE00842A28820C8C003BA190 /* AWSary.app */,
 				EE00843028820C8C003BA190 /* awsary.app */,
 				EE4D8D902B9C5BC600A96E5C /* AWSaryAppClip.app */,
-				EEA1A1042E5F000100AAA001 /* AWSaryTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EEA1A1072E5F000100AAA001 /* AWSaryTests */ = {
-			isa = PBXGroup;
-			children = (
-				EEA1A1032E5F000100AAA001 /* AWSaryTests.swift */,
-			);
-			path = AWSaryTests;
 			sourceTree = "<group>";
 		};
 		EE00CBBE29630BB300FE3DCB /* MainViews */ = {
@@ -410,7 +380,6 @@
 			isa = PBXGroup;
 			children = (
 				EEB93EC42A7AFCC300373D29 /* StoreKit.framework */,
-				EEA1A1052E5F000100AAA001 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -442,24 +411,6 @@
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
 			productType = "com.apple.product-type.application";
-		};
-		EEA1A1082E5F000100AAA001 /* AWSaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EEA1A10E2E5F000100AAA001 /* Build configuration list for PBXNativeTarget "AWSaryTests" */;
-			buildPhases = (
-				EEA1A10A2E5F000100AAA001 /* Sources */,
-				EEA1A1062E5F000100AAA001 /* Frameworks */,
-				EEA1A1092E5F000100AAA001 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EEA1A10B2E5F000100AAA001 /* PBXTargetDependency */,
-			);
-			name = AWSaryTests;
-			productName = AWSaryTests;
-			productReference = EEA1A1042E5F000100AAA001 /* AWSaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EE00842F28820C8C003BA190 /* awsary (macOS) */ = {
 			isa = PBXNativeTarget;
@@ -514,9 +465,6 @@
 					EE00842928820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					EEA1A1082E5F000100AAA001 = {
-						CreatedOnToolsVersion = 16.4;
-					};
 					EE00842F28820C8C003BA190 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -544,7 +492,6 @@
 			projectRoot = "";
 			targets = (
 				EE00842928820C8C003BA190 /* awsary (iOS) */,
-				EEA1A1082E5F000100AAA001 /* AWSaryTests */,
 				EE00842F28820C8C003BA190 /* awsary (macOS) */,
 				EE4D8D8F2B9C5BC600A96E5C /* AWSaryAppClip */,
 			);
@@ -584,13 +531,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEA1A1092E5F000100AAA001 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 
@@ -622,14 +562,6 @@
 				EE04F9CA2B6E48A400B8AA78 /* Game.swift in Sources */,
 				34CBFB932CE0BA25004CFADD /* AppTabsView.swift in Sources */,
 				EE6EE5BE2C19F7D600F452E5 /* AAIplannerContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEA1A10A2E5F000100AAA001 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEA1A1002E5F000100AAA001 /* AWSaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,11 +628,6 @@
 			isa = PBXTargetDependency;
 			target = EE4D8D8F2B9C5BC600A96E5C /* AWSaryAppClip */;
 			targetProxy = EE4D8D9D2B9C5BC800A96E5C /* PBXContainerItemProxy */;
-		};
-		EEA1A10B2E5F000100AAA001 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE00842928820C8C003BA190 /* awsary (iOS) */;
-			targetProxy = EEA1A1022E5F000100AAA001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -899,50 +826,6 @@
 			};
 			name = Release;
 		};
-		EEA1A10C2E5F000100AAA001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AWSaryTests;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSary.app/AWSary";
-			};
-			name = Debug;
-		};
-		EEA1A10D2E5F000100AAA001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AWSaryTests;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pt.tig.awsary.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSary.app/AWSary";
-			};
-			name = Release;
-		};
 		EE00843F28820C8C003BA190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1099,15 +982,6 @@
 			buildConfigurations = (
 				EE00843C28820C8C003BA190 /* Debug */,
 				EE00843D28820C8C003BA190 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EEA1A10E2E5F000100AAA001 /* Build configuration list for PBXNativeTarget "AWSaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EEA1A10C2E5F000100AAA001 /* Debug */,
-				EEA1A10D2E5F000100AAA001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

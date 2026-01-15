@@ -20,20 +20,6 @@
                ReferencedContainer = "container:awsary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEA1A1082E5F000100AAA001"
-               BuildableName = "AWSaryTests.xctest"
-               BlueprintName = "AWSaryTests"
-               ReferencedContainer = "container:awsary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,27 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEA1A1082E5F000100AAA001"
-               BuildableName = "AWSaryTests.xctest"
-               BlueprintName = "AWSaryTests"
-               ReferencedContainer = "container:awsary.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE00842928820C8C003BA190"
-            BuildableName = "AWSary.app"
-            BlueprintName = "awsary (iOS)"
-            ReferencedContainer = "container:awsary.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
