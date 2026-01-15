@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		341195612E55196E00EEF821 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		341195622E55196E00EEF821 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6A20744D284CAE9275952C /* Sentry */; };
 		341195632E55196E00EEF821 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		34571B5E2E05BA83008B8BC2 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5D2E05BA83008B8BC2 /* RevenueCat */; };
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
@@ -27,6 +28,7 @@
 		34DDF78C2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		34DDF78D2E00BDFD00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
 		34DDF78E2E00BE3D00CDD25C /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDF78B2E00BDFD00CDD25C /* SystemSetting.swift */; };
+		CEA15FC538DF40739D0F32EE /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6A20744D284CAE9275952C /* Sentry */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843428820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
@@ -170,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341195622E55196E00EEF821 /* Sentry in Frameworks */,
 				34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */,
 				EE29922F29A3CB4E0071030A /* MarkdownUI in Frameworks */,
 				EEE7348F2889A72000718ACC /* YouTubePlayerKit in Frameworks */,
@@ -195,6 +198,7 @@
 				EE4D8DB72B9C5E7B00A96E5C /* YouTubePlayerKit in Frameworks */,
 				EE4D8DB92B9C5E7B00A96E5C /* MarkdownUI in Frameworks */,
 				34571B622E062761008B8BC2 /* RevenueCat in Frameworks */,
+				CEA15FC538DF40739D0F32EE /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				EE00842728820C8C003BA190 /* Frameworks */,
 				EE00842828820C8C003BA190 /* Resources */,
 				EE4D8DA02B9C5BC800A96E5C /* Embed App Clips */,
+				422720F8868246E1A43E2959 /* Upload Debug Symbols to Sentry */,
 			);
 			buildRules = (
 			);
@@ -407,6 +412,7 @@
 				EE29922E29A3CB4E0071030A /* MarkdownUI */,
 				34571B5D2E05BA83008B8BC2 /* RevenueCat */,
 				34571B5F2E05BA83008B8BC2 /* RevenueCatUI */,
+				5A6A20744D284CAE9275952C /* Sentry */,
 			);
 			productName = "awsary (iOS)";
 			productReference = EE00842A28820C8C003BA190 /* AWSary.app */;
@@ -486,6 +492,7 @@
 				EEE7348D2889A72000718ACC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 				EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
 				34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				563142E007D54F51B3CE99D7 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 			);
 			productRefGroup = EE00842B28820C8C003BA190 /* Products */;
 			projectDirPath = "";
@@ -533,6 +540,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		422720F8868246E1A43E2959 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script is responsible for uploading debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\n  export SENTRY_ORG=tigpt\n  export SENTRY_PROJECT=apple-ios\n  ERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\n  if [ ! $? -eq 0 ]; then\n    echo \"warning: sentry-cli - $ERROR\"\n  fi\nelse\n  echo \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE00842628820C8C003BA190 /* Sources */ = {
@@ -1015,6 +1039,14 @@
 				minimumVersion = 5.29.0;
 			};
 		};
+		563142E007D54F51B3CE99D7 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 		EE29922D29A3CB4E0071030A /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
@@ -1053,6 +1085,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 34571B5C2E05BA83008B8BC2 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCatUI;
+		};
+		5A6A20744D284CAE9275952C /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 563142E007D54F51B3CE99D7 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
 		};
 		EE29922E29A3CB4E0071030A /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
