@@ -83,12 +83,16 @@ extension View {
         controller.view.backgroundColor = .clear
         
         controller.view.frame = CGRect(x: 0, y: CGFloat(Int.max), width: 1, height: 1)
+        let fittingSize: CGSize
         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
            let window = windowScene.windows.first {
             window.rootViewController?.view.addSubview(controller.view)
+            fittingSize = windowScene.screen.bounds.size
+        } else {
+            fittingSize = UIView.layoutFittingExpandedSize
         }
         
-        let size = controller.sizeThatFits(in: UIScreen.main.bounds.size)
+        let size = controller.sizeThatFits(in: fittingSize)
         controller.view.bounds = CGRect(origin: .zero, size: size)
         controller.view.sizeToFit()
         
