@@ -1,0 +1,65 @@
+name: Small Increment
+description: Track a bug, polish item, feature slice, or investigation that has outgrown TASKS.md.
+title: "[area/type] "
+labels: []
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - ios
+        - website
+        - terraform
+        - utils
+        - docs
+        - repo
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - bug
+        - polish
+        - feature
+        - refactor
+        - test
+        - docs
+        - research
+        - infra
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done?
+      placeholder: Describe the smallest useful outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add reproduction steps, screenshots, affected files, constraints, or links.
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Which command, manual check, or review should prove this is done?
+      placeholder: "Example: xcodebuild ..., npm run lint, terraform fmt, or manual check."
+    validations:
+      required: false
