@@ -8,7 +8,7 @@ on:
         required: true
         default: "main"
       runner_labels:
-        description: 'JSON runner labels, for example ["macos-26"] or ["self-hosted","macOS","ARM64","aws-mac"]'
+        description: 'JSON runner labels. Use ["macos-26"] for the standard GitHub-hosted macOS runner.'
         required: true
         default: '["macos-26"]'
       testflight_groups:

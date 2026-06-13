@@ -9,11 +9,23 @@ Run the `TestFlight` workflow manually from GitHub Actions.
 Inputs:
 
 - `ref`: the branch, tag, SHA, or PR ref to build. For a pull request, use `pull/123/head`.
-- `runner_labels`: JSON runner labels. Use `["macos-26"]` for a GitHub-hosted runner with the iOS 26 SDK, or labels for an AWS Mac self-hosted runner such as `["self-hosted","macOS","ARM64","aws-mac"]`.
+- `runner_labels`: JSON runner labels. Use the default `["macos-26"]` for the standard GitHub-hosted macOS runner.
 - `testflight_groups`: optional comma-separated TestFlight group names.
 - `release_notes`: optional notes shown in TestFlight.
 
 The workflow uses the `testflight` GitHub Environment so releases can be gated with required reviewers.
+
+## Runner Strategy
+
+Use standard GitHub-hosted macOS runners first. GitHub Actions usage is free for public repositories that use standard GitHub-hosted runners, and this repository is already public. Larger runners are still billed, so avoid them unless build times justify the cost.
+
+The current app deployment target is iOS 26.0, so the selected runner must have an Xcode version with the iOS 26 SDK. The default `runner_labels` value is:
+
+```json
+["macos-26"]
+```
+
+If GitHub changes runner labels or the image does not contain the required SDK, update this input to the current standard macOS image that has the needed Xcode version.
 
 ## Required Secrets
 
@@ -36,11 +48,17 @@ base64 -i AWSary_AppStore.mobileprovision | pbcopy
 base64 -i AuthKey_ABC123DEFG.p8 | pbcopy
 ```
 
-## AWS Mac Runner Notes
+## Later Self-Hosted Runner Notes
 
-Register the Mac as a self-hosted GitHub Actions runner and give it stable labels, for example `aws-mac`, `macOS`, and `ARM64`. Install the required Xcode version before assigning jobs. The current app deployment target is iOS 26.0, so the runner must have an Xcode version with the iOS 26 SDK.
+If hosted runners become too slow or there are many builds, a local Mac mini can be registered as a self-hosted GitHub Actions runner. Give it stable labels, for example `garage-mac`, `macOS`, and `ARM64`, then pass labels like:
 
-Keep signing assets in GitHub secrets, not on the runner image. That keeps the same workflow usable on GitHub-hosted runners and AWS Mac runners.
+```json
+["self-hosted","macOS","ARM64","garage-mac"]
+```
+
+Install the required Xcode version before assigning jobs.
+
+Keep signing assets in GitHub secrets, not on the runner image. That keeps the same workflow usable on GitHub-hosted runners and future self-hosted runners.
 
 ## TestFlight Build Limit
 
