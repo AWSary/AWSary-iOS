@@ -57,7 +57,7 @@
          </EnvironmentVariable>
       </EnvironmentVariables>
       <StoreKitConfigurationFileReference
-         identifier = "../../Shared/RevenueCat/Configuration.storekit">
+         identifier = "../../../../../Library/Developer/Xcode/DerivedData/awsary-anovxdcynscufecdogtsdwmqmrva/SourcePackages/checkouts/purchases-ios-spm/Examples/rc-maestro/rc-maestro/Resources/StoreKit/StoreKitConfiguration.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

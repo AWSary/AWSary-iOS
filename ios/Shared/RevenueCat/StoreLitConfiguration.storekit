@@ -1,0 +1,70 @@
+{
+  "appPolicies": {
+    "eula": "",
+    "policies": [
+      {
+        "locale": "en_US",
+        "policyText": "",
+        "policyURL": ""
+      }
+    ]
+  },
+  "identifier": "7B2CBF3F",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "subscriptionGroups": [
+    {
+      "id": "8CAC899E",
+      "localizations": [],
+      "name": "Premium access to all features",
+      "subscriptions": [
+        {
+          "displayPrice": "9.99",
+          "familyShareable": false,
+          "internalID": "F785A542",
+          "localizations": [
+            {
+              "description": "",
+              "displayName": "",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "awsary_premium_monthyl_2",
+          "referenceName": "Monthly Premium",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 1,
+          "recurringSubscriptionPeriod": "P1M",
+          "subscriptionGroupID": "8CAC899E",
+          "winbackOffers": []
+        },
+        {
+          "displayPrice": "79.99",
+          "familyShareable": false,
+          "internalID": "6999FF7B",
+          "localizations": [
+            {
+              "description": "",
+              "displayName": "",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "awsary_premium_anual_2",
+          "referenceName": "Anual Premium",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 1,
+          "recurringSubscriptionPeriod": "P1Y",
+          "subscriptionGroupID": "8CAC899E",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}
