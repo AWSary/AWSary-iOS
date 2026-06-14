@@ -9,16 +9,16 @@ import SwiftUI
 
 struct AppTabsView: View {
     @State private var searchString = ""
-    
-    
+
+
     var body: some View {
        TabView {
 //            Tab("AWSary", systemImage: "house"){
 //                HomeView()
 //            }
-//            Tab("Community", systemImage: "person.3.sequence"){
-//                Community()
-//            } 
+           Tab("Community", systemImage: "person.3.sequence"){
+               Community()
+           }
            Tab("Glossary", systemImage: "books.vertical"){
                Glossary()
            }

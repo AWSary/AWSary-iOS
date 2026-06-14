@@ -59,7 +59,9 @@ private struct Measurer: View {
                 GeometryReader { geo in
                     Color.clear
                         .onAppear { height = geo.size.height }
-                        .onChange(of: geo.size.height) { height = $0 }
+                        .onChange(of: geo.size.height) { _, newHeight in
+                            height = newHeight
+                        }
                 }
             )
             .opacity(0)          // invisible

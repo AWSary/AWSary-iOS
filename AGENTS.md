@@ -7,6 +7,7 @@ This guidance applies to the entire repository unless a nested `AGENTS.md` overr
 This repository contains multiple components (e.g., iOS app, website, Terraform, utilities). Verify which directory you are working in before making changes.
 
 ## General workflow
+- Before creating a new feature branch, switch to `main` and make sure the branch is based on `main` unless a human explicitly asks for a different base.
 - Favor small, targeted changes that align with existing patterns.
 - Run relevant tests or linters for the area you changed when feasible.
 - Document any skipped tests and the reason.

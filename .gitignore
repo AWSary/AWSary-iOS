@@ -33,6 +33,17 @@ build/
 
 xcuserdata
 
+############
+# fastlane
+############
+fastlane/build/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+.bundle/
+vendor/bundle/
+
 
 # Local .terraform directories
 **/.terraform/*
