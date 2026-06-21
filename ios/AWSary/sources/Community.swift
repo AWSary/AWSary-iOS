@@ -223,7 +223,7 @@ private struct CommunityMemberRow: View {
     }
 }
 
-private struct CommunityMemberDetailView: View {
+struct CommunityMemberDetailView: View {
     let member: CommunityMember
 
     var body: some View {
