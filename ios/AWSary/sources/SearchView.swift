@@ -8,10 +8,13 @@ import SwiftUI
 
 struct SearchView: View {
     @Binding var searchString: String
+    let focusRequest: Int
+    let isActive: Bool
     @StateObject private var awsServices = AwsServices()
     @StateObject private var communityStore = CommunityMemberStore()
     @State private var showingAllServices = false
     @State private var showingAllMembers = false
+    @State private var isSearchPresented = false
 
     private let visibleResultLimit = 4
 
@@ -105,10 +108,25 @@ struct SearchView: View {
                 }
             }
             .navigationTitle("Search")
+            .searchable(
+                text: $searchString,
+                isPresented: $isSearchPresented,
+                placement: .navigationBarDrawer(displayMode: .always),
+                prompt: "Services and community members"
+            )
+            .autocorrectionDisabled()
         }
         .onChange(of: query) {
             showingAllServices = false
             showingAllMembers = false
+        }
+        .onChange(of: focusRequest) {
+            isSearchPresented = true
+        }
+        .onChange(of: isActive) {
+            if !isActive {
+                isSearchPresented = false
+            }
         }
     }
 
@@ -246,5 +264,9 @@ private struct CommunitySearchResultRow: View {
 }
 
 #Preview {
-    SearchView(searchString: .constant("Lambda"))
+    SearchView(
+        searchString: .constant("Lambda"),
+        focusRequest: 0,
+        isActive: true
+    )
 }
