@@ -306,7 +306,7 @@
 				EE2F01E529643CAF003EEB21 /* Info.plist */,
 				EE4D8DC12B9E730500A96E5C /* awsary+iOS.entitlements */,
 			);
-			path = Resources;
+			path = resources;
 			sourceTree = "<group>";
 		};
 		EE6ABDC12C5B9A7C0025B74B /* AWSary */ = {
