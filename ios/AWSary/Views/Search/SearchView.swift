@@ -418,6 +418,8 @@ private struct SearchFacetBar: View {
                         .buttonBorderShape(.capsule)
                     }
                 }
+                .controlSize(.small)
+                .fontWeight(.bold)
             }
             .padding(.horizontal)
             .padding(.vertical, 10)
