@@ -5,6 +5,7 @@
 //  Created by Tiago Rodrigues on 04/07/2025.
 //
 import SwiftUI
+import UIKit
 
 struct SearchView: View {
     @Binding var searchString: String
@@ -27,22 +28,24 @@ struct SearchView: View {
         submittedQuery.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
+    private var usesCompactNavigation: Bool {
+        isSearchPresented || !submittedTerm.isEmpty
+    }
+
     var body: some View {
         let liveResults = rankedResults(for: query)
         let committedResults = rankedResults(for: submittedTerm)
 
         NavigationStack {
             Group {
-                if isSearchPresented {
-                    if query.isEmpty {
-                        SearchDiscoveryView(onNavigate: onNavigate)
-                    } else {
-                        SearchSuggestionsView(
-                            suggestions: autocompleteSuggestions(from: liveResults),
-                            topMatches: Array(liveResults.prefix(visibleResultLimit)),
-                            onSelectSuggestion: submitSearch
-                        )
-                    }
+                if query.isEmpty {
+                    SearchDiscoveryView(onNavigate: onNavigate)
+                } else if isSearchPresented && query != submittedTerm {
+                    SearchSuggestionsView(
+                        suggestions: autocompleteSuggestions(from: liveResults),
+                        topMatches: Array(liveResults.prefix(visibleResultLimit)),
+                        onSelectSuggestion: submitSearch
+                    )
                 } else if submittedTerm.isEmpty {
                     SearchDiscoveryView(onNavigate: onNavigate)
                 } else if committedResults.isEmpty {
@@ -55,7 +58,8 @@ struct SearchView: View {
                     )
                 }
             }
-            .navigationTitle("Search")
+            .navigationTitle(usesCompactNavigation ? "" : "Search")
+            .navigationBarTitleDisplayMode(usesCompactNavigation ? .inline : .large)
             .searchable(
                 text: $searchString,
                 isPresented: $isSearchPresented,
@@ -68,7 +72,7 @@ struct SearchView: View {
             }
         }
         .onChange(of: focusRequest) {
-            isSearchPresented = true
+            focusSearchField()
         }
         .onChange(of: query) {
             if query.isEmpty {
@@ -136,7 +140,29 @@ struct SearchView: View {
         searchString = submittedValue
         submittedQuery = submittedValue
         selectedFacet = .topResults
-        isSearchPresented = false
+        isSearchPresented = true
+        dismissKeyboard()
+    }
+
+    private func focusSearchField() {
+        if isSearchPresented {
+            isSearchPresented = false
+            Task { @MainActor in
+                await Task.yield()
+                isSearchPresented = true
+            }
+        } else {
+            isSearchPresented = true
+        }
+    }
+
+    private func dismissKeyboard() {
+        UIApplication.shared.sendAction(
+            #selector(UIResponder.resignFirstResponder),
+            to: nil,
+            from: nil,
+            for: nil
+        )
     }
 
     private func hasLocalizedPrefix(_ value: String, prefix: String) -> Bool {
