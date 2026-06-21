@@ -47,7 +47,8 @@ struct AppTabsView: View {
                SearchView(
                    searchString: $searchString,
                    focusRequest: searchFocusRequest,
-                   isActive: selectedTab == .search
+                   isActive: selectedTab == .search,
+                   onNavigate: { selectedTab = $0 }
                )
            }
        }
@@ -55,7 +56,7 @@ struct AppTabsView: View {
     }
  }
 
-private enum AppTab: Hashable {
+enum AppTab: Hashable {
     case community
     case glossary
     case game
