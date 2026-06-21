@@ -70,6 +70,14 @@ Second, fetch every full profile with `POST /ums/getProfileByAlias` using the al
 
 The group index currently includes trimmed card data. The per-alias call supplies the complete biography, headline, Builder Center avatar, AWS program memberships, location, and public social links. Profiles without a public alias are reported in `omittedWithoutAlias` because `getProfileByAlias` cannot retrieve them.
 
+For a local end-to-end test bundle, merge the authoritative Builder Center roster and profiles into the existing iOS resource. The legacy AWS Heroes export is used only to fill missing presentation fields and profiles that Builder Center cannot retrieve by alias:
+
+```sh
+.venv/bin/python scripts/community/build_ios_community_resource.py --include-drafts
+```
+
+This replaces only `ios/AWSary/resources/community_members.json`; the current Swift model and views do not need to change. Omit `--include-drafts` once release exports should contain only reviewed, published profiles.
+
 For targeted inspection, use one URL or alias directly:
 
 Use one URL directly:

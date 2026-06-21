@@ -14,6 +14,7 @@ sys.path.insert(0, str(SCRIPT_DIR))
 
 from build_people_index import build_index  # noqa: E402
 from build_builder_center_index import build_heroes_alias_index  # noqa: E402
+from build_ios_community_resource import build_ios_resource  # noqa: E402
 from harvest_builder_center import _builder_alias_from_url, read_builder_index  # noqa: E402
 from parse_builder_center import parse_document  # noqa: E402
 from utils.json_extractors import (  # noqa: E402
@@ -166,6 +167,63 @@ class ParserTests(unittest.TestCase):
 
 
 class IndexTests(unittest.TestCase):
+    def test_builds_ios_resource_with_builder_precedence_and_legacy_fallback(self) -> None:
+        builder_index = {
+            "people": [{"alias": "ada", "displayName": "Ada Example"}],
+            "omittedWithoutAlias": ["No Alias"],
+        }
+        canonical = [
+            {
+                "id": "person_ada_example",
+                "displayName": "Ada Example",
+                "summary": "Builder bio",
+                "location": {"city": None, "country": "PT", "region": None},
+                "avatar": {"url": "https://avatars.builderprofile.aws.dev/ada.webp"},
+                "programs": [{"name": "AWS Hero", "category": "Community Hero"}],
+                "topics": ["Serverless"],
+                "links": [
+                    {"type": "builder_center", "label": "AWS Builder Center", "url": "https://builder.aws.com/community/@ada"},
+                    {"type": "github", "label": "Github", "url": "https://github.com/new-ada"},
+                ],
+                "profileStatus": "draft",
+            }
+        ]
+        legacy = [
+            {
+                "id": "legacy_ada",
+                "name": "Ada Example",
+                "description": "Legacy bio",
+                "heroLocation": "Lisbon, Portugal",
+                "heroCategory": "AWS Community Hero",
+                "hero_links": [
+                    {"text": "GitHub", "url": "https://github.com/old-ada"},
+                    {"text": "Meetup", "url": "https://meetup.com/ada"},
+                ],
+            },
+            {
+                "id": "legacy_no_alias",
+                "name": "No Alias",
+                "description": "Legacy-only bio",
+                "heroLocation": "London, United Kingdom",
+                "heroCategory": "AWS Serverless Hero",
+                "heroBioURL": "https://aws.amazon.com/no-alias",
+                "heroImageURL": "https://aws.amazon.com/no-alias.png",
+                "hero_links": [],
+            },
+        ]
+
+        members = build_ios_resource(builder_index, canonical, legacy, include_drafts=True)
+        ada = next(member for member in members if member["name"] == "Ada Example")
+        self.assertEqual(ada["bio"], "Builder bio")
+        self.assertEqual(ada["location"], "Lisbon, Portugal")
+        self.assertEqual(ada["profileURL"], "https://builder.aws.com/community/@ada")
+        self.assertEqual(ada["specialties"], ["Community", "Serverless"])
+        self.assertEqual(
+            [link["url"] for link in ada["links"]],
+            ["https://github.com/new-ada", "https://meetup.com/ada"],
+        )
+        self.assertEqual(next(member for member in members if member["name"] == "No Alias")["bio"], "Legacy-only bio")
+
     def test_builds_builder_alias_index_and_omits_unfetchable_profiles(self) -> None:
         class FakeCache:
             def fetch(self, url: str, **_: object) -> SimpleNamespace:
