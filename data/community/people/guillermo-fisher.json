@@ -1,0 +1,63 @@
+{
+  "id": "person_guillermo_fisher",
+  "slug": "guillermo-fisher",
+  "displayName": "Guillermo Fisher",
+  "headline": "AWS Data Hero",
+  "summary": "<p>Guillermo Fisher is the Director of Engineering at Untapped—a diversity recruiting platform that helps...</p><p><a href=\"https://aws.amazon.com/developer/community/heroes/guillermo-fisher/?did=dh_card-body&trk=dh_card-body\" target=\"_blank\" rel=\"noopener\">Learn more »</a></p>",
+  "location": {
+    "city": "Norfolk",
+    "country": "USA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/guillermo-fisher-circular-headshot.a94f588b3b21c5006f4f94cd5bb741d925f82ca6.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Data Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/guillermo-fisher/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/guillermo-fisher/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

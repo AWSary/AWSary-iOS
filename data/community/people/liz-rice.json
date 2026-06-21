@@ -1,0 +1,107 @@
+{
+  "id": "person_liz_rice",
+  "slug": "liz-rice",
+  "displayName": "Liz Rice",
+  "headline": "",
+  "summary": "Liz Rice is Chief Open Source Officer at eBPF specialists Isovalent, creators of the Cilium project, and now part of Cisco. She is an award-winning speaker, and the author of O'Reilly books on \"Container Security\" and \"Learning eBPF\". She has held many roles with the Cloud Native Computing Foundation, including as a governing board member, chair of the Technical Oversight Committee, and Co-Chair of KubeCon + CloudNativeCon. She was also previously on the board of OpenUK. She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not writing code, or talking about it, Liz loves riding bikes in places with better weather than her native London, and making music under the pseudonym Insider Nine.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/30HXEO06Wu2thcNxD8XR9kFKlrC.webp",
+    "sourceUrl": "https://builder.aws.com/community/@lizrice",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@lizrice",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.lizrice.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@lizrice",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/lizrice",
+      "handle": "lizrice",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/lizrice",
+      "handle": "lizrice",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/lizrice",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://bsky.app/profile/lizrice.com",
+      "handle": "lizrice.com",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/@ebpfcilium",
+      "handle": "@ebpfcilium",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lizrice"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@lizrice",
+      "retrievedAt": "2026-06-21T18:17:49Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:49Z"
+}

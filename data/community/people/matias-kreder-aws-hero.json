@@ -1,0 +1,135 @@
+{
+  "id": "person_matias_kreder_aws_hero",
+  "slug": "matias-kreder-aws-hero",
+  "displayName": "Matias Kreder [AWS Hero]",
+  "headline": "",
+  "summary": "AWS AI Engineering Community Builder | Buenos Aires AWS User Group Leader | AWS Certification SME",
+  "location": {
+    "city": null,
+    "country": "AR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3E55k3bEBBF7FvZaKGEZXRa1MZy.webp",
+    "sourceUrl": "https://builder.aws.com/community/@mkreder",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Ai Engineering",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mkreder",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mkreder",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mkreder",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mkreder",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://mkreder.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@mkreder",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/mkreder",
+      "handle": "mkreder",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/mkreder/",
+      "handle": "mkreder",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/mkreder",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://repost.aws/community/users/USkdc-1gLXRQK18Gw9uX6TzA",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/mkreder",
+      "handle": "mkreder",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mkreder"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@mkreder",
+      "retrievedAt": "2026-06-21T18:17:59Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:59Z"
+}

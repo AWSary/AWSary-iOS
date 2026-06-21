@@ -1,0 +1,100 @@
+{
+  "id": "person_avi_keinan",
+  "slug": "avi-keinan",
+  "displayName": "Avi Keinan",
+  "headline": "Senior Cloud Architect @ DoiT | AWS Community Hero",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "IL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/30EbqL7Pj3g4ZufsCrG4qYmHTXa.webp",
+    "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://medium.com/@avi-k",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@avikeinan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/burekasim/",
+      "handle": "burekasim",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/avi-keinan-14828738/",
+      "handle": "avi-keinan-14828738",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/Avi_Keinan",
+      "handle": "Avi_Keinan",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/playlist?list=PLiIZ1i25re8C73VC8cXGZjonctV9iHy9a",
+      "handle": "playlist",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+      "retrievedAt": "2026-06-21T18:16:55Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:55Z"
+}

@@ -155,8 +155,17 @@ def _normalize_builder_profile(
         profile_url = f"https://builder.aws.com/community/@{alias}"
 
     location_data = record.get("location") if isinstance(record.get("location"), dict) else {}
-    display_location = _clean_text(location_data.get("displayLocation"))
-    location = _split_location(display_location)
+    display_location_value = location_data.get("displayLocation")
+    if isinstance(display_location_value, dict):
+        location = {
+            "city": _clean_text(display_location_value.get("city")) or None,
+            "country": _clean_text(display_location_value.get("countryRegion")) or None,
+            "region": _clean_text(display_location_value.get("stateProvince")) or None,
+        }
+        display_location = ", ".join(value for value in location.values() if value)
+    else:
+        display_location = _clean_text(display_location_value)
+        location = _split_location(display_location)
     interests = record.get("interests") if isinstance(record.get("interests"), list) else []
     programs = record.get("awsPrograms") if isinstance(record.get("awsPrograms"), list) else []
     active_programs = [item for item in programs if isinstance(item, dict) and item.get("memberStatus", "ACTIVE") == "ACTIVE"]
@@ -180,7 +189,7 @@ def _normalize_builder_profile(
     if display_location:
         evidence.append("location")
 
-    return _person(
+    person = _person(
         name=name,
         headline=headline,
         summary=summary,
@@ -195,6 +204,38 @@ def _normalize_builder_profile(
         retrieved_at=retrieved_at,
         evidence_fields=evidence,
     )
+    normalized_programs = _normalize_builder_programs(active_programs, profile_url, retrieved_at)
+    if normalized_programs:
+        person["programs"] = normalized_programs
+    return person
+
+
+def _normalize_builder_programs(
+    programs: list[dict[str, Any]], source_url: str, retrieved_at: str
+) -> list[dict[str, Any]]:
+    names = {
+        "HERO": "AWS Hero",
+        "COMMUNITY_BUILDER": "AWS Community Builder",
+        "USER_GROUP_LEADER": "AWS User Group Leader",
+        "AWS_AUTHORIZED_INSTRUCTOR": "AWS Authorized Instructor",
+    }
+    normalized = []
+    for program in programs:
+        raw_name = _clean_text(program.get("programName"))
+        if not raw_name:
+            continue
+        normalized.append(
+            {
+                "name": names.get(raw_name, _humanize(raw_name)),
+                "category": _humanize(program.get("category")) or None,
+                "startYear": _extract_year(program.get("joinedAt")),
+                "endYear": None,
+                "verificationStatus": "aws_source_verified",
+                "sourceUrl": source_url,
+                "lastCheckedAt": retrieved_at[:10],
+            }
+        )
+    return normalized
 
 
 def _normalize_schema_person(

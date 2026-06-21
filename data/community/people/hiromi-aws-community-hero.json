@@ -1,0 +1,125 @@
+{
+  "id": "person_hiromi_aws_community_hero",
+  "slug": "hiromi-aws-community-hero",
+  "displayName": "Hiromi｜AWS Community Hero",
+  "headline": "Head of COE, COLLABO STYLE INC.",
+  "summary": "I began as an AWS community leader in 2014. Since then, I’ve been actively involved both in Japan and globally. I’m actively leading a women’s group, a DEI-focused group, and a global community, continuing to foster an inclusive space for new participants and speakers. Feel free to reach out anytime—via DM or on social media, whether you have something in mind or not! Communities I founded and lead as a User Group leader: Global-focused ・AWS Global Commyunity | https://www.meetup.com/ja-JP/awsglobalcommunitygatherings/ Japan-focused ・JAWS-UG DE&I | https://jawsugdei.connpass.com/ ・JAWS-UG Osaka | https://jawsugosaka.connpass.com/ ・Serverless Meetup | https://serverless.connpass.com/",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2olvtwqXeBYylhDEGLtVH4r7Wpi.webp",
+    "sourceUrl": "https://builder.aws.com/community/@hiromi",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hiromi",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hiromi",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://hiroramos.uno",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@hiromi",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/4hiroramos",
+      "handle": "4hiroramos",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/hiromi-ito-8917a6b7/",
+      "handle": "hiromi-ito-8917a6b7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/hirobailaora",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.instagram.com/hiroramos/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/hiro_baila",
+      "handle": "hiro_baila",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@AWSGlobalCommunityGatherings",
+      "handle": "@AWSGlobalCommunityGatherings",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hiromi"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@hiromi",
+      "retrievedAt": "2026-06-21T18:17:32Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:32Z"
+}

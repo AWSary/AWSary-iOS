@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from types import SimpleNamespace
 import sys
 import unittest
 
@@ -12,7 +13,8 @@ SCRIPT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from build_people_index import build_index  # noqa: E402
-from harvest_builder_center import _builder_alias_from_url  # noqa: E402
+from build_builder_center_index import build_heroes_alias_index  # noqa: E402
+from harvest_builder_center import _builder_alias_from_url, read_builder_index  # noqa: E402
 from parse_builder_center import parse_document  # noqa: E402
 from utils.json_extractors import (  # noqa: E402
     discover_public_javascript_links,
@@ -130,12 +132,63 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(people[0]["sourceEvidence"][0]["sourceType"], "aws_builder_center")
         self.assertEqual(people[0]["links"][0]["url"], "https://builder.aws.com/community/@ada")
 
+    def test_normalizes_real_builder_location_and_all_programs(self) -> None:
+        payload = {
+            "profile": {
+                "basicInfo": {"name": "Ada Example", "alias": "ada"},
+                "location": {"displayLocation": {"countryRegion": "PT", "stateProvince": "Lisbon"}},
+                "awsPrograms": [
+                    {"programName": "HERO", "category": "Community Hero", "memberStatus": "ACTIVE", "joinedAt": 2024.0},
+                    {"programName": "USER_GROUP_LEADER", "joinedAt": 2021.0},
+                ],
+            }
+        }
+        person = parse_document(
+            json.dumps(payload),
+            source_url="https://api.builder.aws.com/ums/getProfileByAlias",
+            retrieved_at="2026-06-21T10:00:00Z",
+            content_type="application/json",
+        )[0]
+        self.assertEqual(person["location"], {"city": None, "country": "PT", "region": "Lisbon"})
+        self.assertEqual([program["name"] for program in person["programs"]], ["AWS Hero", "AWS User Group Leader"])
+
+    def test_reads_aliases_from_builder_index(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "heroes.json"
+            path.write_text(json.dumps({"people": [{"alias": "ada"}, {"alias": "grace"}, {"alias": "ada"}]}))
+            self.assertEqual(read_builder_index(path), ["ada", "grace"])
+
     def test_extracts_alias_from_public_profile_url(self) -> None:
         self.assertEqual(_builder_alias_from_url("https://builder.aws.com/community/@ada"), "ada")
         self.assertIsNone(_builder_alias_from_url("https://builder.aws.com/community/heroes/AdaExample"))
 
 
 class IndexTests(unittest.TestCase):
+    def test_builds_builder_alias_index_and_omits_unfetchable_profiles(self) -> None:
+        class FakeCache:
+            def fetch(self, url: str, **_: object) -> SimpleNamespace:
+                if url.endswith("/camp/groups"):
+                    payload = {"groupOverviewList": [{"groupId": "heroes-1", "groupType": "HERO"}]}
+                else:
+                    payload = {
+                        "userProfiles": [
+                            {"basicInfo": {"alias": "grace", "builderProfileId": "2", "name": "Grace"}},
+                            {"basicInfo": {"builderProfileId": "3", "name": "No Alias"}},
+                            {"basicInfo": {"alias": "ada", "builderProfileId": "1", "name": "Ada"}},
+                        ]
+                    }
+                return SimpleNamespace(
+                    body=json.dumps(payload).encode(),
+                    retrieved_at="2026-06-21T10:00:00Z",
+                )
+
+        index = build_heroes_alias_index(FakeCache(), page_size=500)  # type: ignore[arg-type]
+        self.assertEqual([person["alias"] for person in index["people"]], ["ada", "grace"])
+        self.assertEqual(index["omittedWithoutAlias"], ["No Alias"])
+        self.assertEqual(index["groupId"], "heroes-1")
+
     def test_excludes_drafts_and_sorts_names(self) -> None:
         base = {
             "id": "person_zed",

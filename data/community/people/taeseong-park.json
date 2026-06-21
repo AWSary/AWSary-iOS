@@ -1,0 +1,84 @@
+{
+  "id": "person_taeseong_park",
+  "slug": "taeseong-park",
+  "displayName": "TaeSeong Park",
+  "headline": "",
+  "summary": "🤗 Open to networking 🎬 Joined AWS Community since 2017 🙋🏻 Ex AWS Community Builder 🎤 Organizer of frontend(https://github.com/public-frontend-group/meetup), gametech(https://github.com/awskrug/gametech-group), gudi(area of Seoul - https://github.com/awskrug/gudi-group) meetup in South Korea 🕹️ Current Unity 2D Developer 🤖 Building Apps with AI tools 📱 Ex React & React-Native Developer (also Node.js, serverless framework, Amplify framework) 🧑🏻‍💻 Trying to build whatever I want",
+  "location": {
+    "city": null,
+    "country": "KR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zwRySRYYBOazzw5DGRGho4rFXD.webp",
+    "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@taeseongpark",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/geoseong",
+      "handle": "geoseong",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/tae-seong-park/",
+      "handle": "tae-seong-park",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/taeseong_park",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+      "retrievedAt": "2026-06-21T18:18:34Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:34Z"
+}

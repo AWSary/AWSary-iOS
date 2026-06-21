@@ -1,0 +1,136 @@
+{
+  "id": "person_sheyla_leacock",
+  "slug": "sheyla-leacock",
+  "displayName": "Sheyla Leacock",
+  "headline": "Application Security Associate Manager | AWS Security Hero | AWS User Group Leader Panama",
+  "summary": "Security Hero Sheyla Leacock is an IT security professional, mentor, technical author, and international speaker contributing to the global cloud and cybersecurity community. She has spoken at AWS Summit Mexico, AWS Summit LATAM in Peru, and led PeerTalk sessions at AWS re:Invent, while also leading the AWS User Group in Panama and regularly participating in AWS Community Days and regional meetups. Beyond AWS-focused events, she has delivered talks at more than 20 international conferences and publishes technical articles and educational content on AWS cloud computing and cybersecurity. She collaborates with universities as a guest lecturer, supporting the development of emerging technology and cybersecurity talent. Through community leadership, knowledge sharing, and education, she contributes to strengthening the AWS and cybersecurity ecosystem.",
+  "location": {
+    "city": null,
+    "country": "PA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3CswBQWcJ12ojiXSEfo3EOzKGTq.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sheyla",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Security",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sheyla",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sheyla",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sheyla",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sheyla",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://linktr.ee/TechWithSheyla",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sheyla",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/TechWithSheyla",
+      "handle": "TechWithSheyla",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/sheyla-leacock/",
+      "handle": "sheyla-leacock",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/techwithsheyla",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.instagram.com/techwithsheyla/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@TechWithSheyla",
+      "handle": "@TechWithSheyla",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheyla"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sheyla",
+      "retrievedAt": "2026-06-21T18:18:26Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:26Z"
+}

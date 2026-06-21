@@ -1,0 +1,75 @@
+{
+  "id": "person_aidan_steele",
+  "slug": "aidan-steele",
+  "displayName": "Aidan Steele",
+  "headline": "",
+  "summary": "AWS Hero based in Melbourne, Australia. I've been using AWS in some form or another since 2008, and full time for the last 5-10 years. My interests are security, containers and serverless - in no particular order.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zxLq9NAml4sVtngc4r7MMsCl8a.webp",
+    "sourceUrl": "https://builder.aws.com/community/@awsteele",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@awsteele",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://awsteele.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsteele"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@awsteele",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@awsteele"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/aidansteele/",
+      "handle": "aidansteele",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsteele"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@awsteele",
+      "retrievedAt": "2026-06-21T18:16:56Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:56Z"
+}

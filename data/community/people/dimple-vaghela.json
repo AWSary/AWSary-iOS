@@ -1,0 +1,103 @@
+{
+  "id": "person_dimple_vaghela",
+  "slug": "dimple-vaghela",
+  "displayName": "Dimple Vaghela",
+  "headline": "AWS Community Hero, Dir.-CFO at Electromech Cloudtech Pvt Ltd, AWS UG & Women-in-tech Leader",
+  "summary": "Active in AWS Community since 2014. Leader of AWS User Groups Ahmedabad & Vadodara. AWS Re:Invent 2024 Awardee AWS APJC Leadership Award in Ownership category. Speaker, mentor, Women-in-Tech India leader, and 2x AWS Certified professional.",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": "Gujarat"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2jC0CxrLU3X5NdECCHRIETVJz04.webp",
+    "sourceUrl": "https://builder.aws.com/community/@dimplevaghela",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Cloud Operations",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@dimplevaghela",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/dimplevaghela-electromech",
+      "handle": "dimplevaghela-electromech",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/dimple-vaghela-ba45447b/",
+      "handle": "dimple-vaghela-ba45447b",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://medium.com/@dimved",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@dimplevaghela",
+      "retrievedAt": "2026-06-21T18:17:16Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:16Z"
+}

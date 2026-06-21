@@ -1,0 +1,85 @@
+{
+  "id": "person_renato_losio",
+  "slug": "renato-losio",
+  "displayName": "Renato Losio",
+  "headline": "Cloud Architect, AWS Data Hero, InfoQ Editor, Speaker, Remote",
+  "summary": "Renato has extensive experience as a cloud architect, tech lead, and cloud services specialist. Currently, he lives in Berlin and works remotely as a principal cloud architect. His primary areas of interest include cloud services and relational databases. He is an editor at InfoQ and a recognized AWS Data Hero. You can connect with him on LinkedIn.",
+  "location": {
+    "city": null,
+    "country": "DE",
+    "region": "Berlin"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/32uGM2kD1tEjporW3Zq2R6IPnW9.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://cloudiamo.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cloudiamo",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/rlosio/",
+      "handle": "rlosio",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/cloudiamo/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+      "retrievedAt": "2026-06-21T18:17:05Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:05Z"
+}

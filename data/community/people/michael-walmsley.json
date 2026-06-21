@@ -1,0 +1,117 @@
+{
+  "id": "person_michael_walmsley",
+  "slug": "michael-walmsley",
+  "displayName": "Michael Walmsley",
+  "headline": "AWS Serverless Hero | Cloud Leader at Accenture",
+  "summary": "After 30 years of building software, I'm still on the tools - putting bugs in and taking them out, just like everyone else. I co-organize the Melbourne AWS Programming meetup, contribute to AWS Lambda Powertools (Python/TypeScript), and build open-source tooling including MCP servers for AWS documentation, CDK constructs, and serverless patterns published at ServerlessDNA.com. Focus Areas: * Serverless architecture patterns * Infrastructure as code with CDK * AI agent orchestration and MCP I share practical patterns and tooling to make serverless development more accessible to the community. As an innovator and out-of-the-box thinker - it's software, anything is possible.",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "VIC"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/38QA46THCbzradbqPPXYRrRBwpM.webp",
+    "sourceUrl": "https://builder.aws.com/community/@walmsles",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@walmsles",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://serverlessdna.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@walmsles",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/walmsles",
+      "handle": "walmsles",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/walmsles/",
+      "handle": "walmsles",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/walmsles",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://walmsles.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/walmsles",
+      "handle": "walmsles",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@walmsles",
+      "handle": "@walmsles",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@walmsles"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@walmsles",
+      "retrievedAt": "2026-06-21T18:18:46Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:46Z"
+}

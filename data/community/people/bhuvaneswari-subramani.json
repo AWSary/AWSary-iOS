@@ -1,0 +1,133 @@
+{
+  "id": "person_bhuvaneswari_subramani",
+  "slug": "bhuvaneswari-subramani",
+  "displayName": "Bhuvaneswari Subramani",
+  "headline": "",
+  "summary": "Bhuvaneswari Subramani, Chief Cloud Evangelist at Intuitive.ai, is a passionate technophile and strategic leader in multi-cloud migration, application modernization, and end-to-end development. She specializes in cloud service delivery, strategic alliances, and sales enablement, with deep expertise in Infrastructure-as-Code, DevOps, CI/CD, Agentic AI and AI-DLC. She also drives global outreach, mentors leaders, and bridges the gap between industry and academia. A self-made woman in tech, she has been recognized globally: - AWS re:Invent 2018 Diversity Scholar (https://aws.amazon.com/blogs/publicsector/meet-the-women-building-aws-technical-communities-around-the-world/) - AWS Community Hero (2019–2020), AWS DevTools Hero (from 2020 onwards) and featured in AWS Developer Story (https://www.youtube.com/watch?v=fOURKkUdtv0) - Honoured as AWS Hero of the Year 2022 at APJ Summit, Bangkok - Dr. Werner Vogel's Now Go Build Award 2022 Awardee - Spotlight in AWS Global Summits Video 2025 & early contributor to #AIDLC - Led the Navy Blue team in Road to ReInvent 2025 Hackathon, winning the title with $100K - She co-leads the AWS User Group Bengaluru (https://awsugblr.in/) and AWS WomenInTech India (https://www.meetup.com/aws-user-group-women-in-tech-india/), speaks at TEDx, global tech conferences, and universities, and blogs at https://bhuvana.saryoo.com Connect to collaborate on cloud innovation, leadership, and inclusive tech communities.",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": "Karnataka"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/313RMAfKSMMsye5jT8OnybwA2ES.webp",
+    "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://installjournal.blogspot.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@bhuvaneswari",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/bhuvana-s",
+      "handle": "bhuvana-s",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/bhuvanas/",
+      "handle": "bhuvanas",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://bhuvana.saryoo.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/bhuvanas",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/bhuvaneswari.subramani/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/installjournal",
+      "handle": "installjournal",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@bhuvaneswarisubramani3038://",
+      "handle": "@bhuvaneswarisubramani3038:",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@bhuvaneswari",
+      "retrievedAt": "2026-06-21T18:16:59Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:59Z"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "person_toshal_khawale",
+  "slug": "toshal-khawale",
+  "displayName": "Toshal Khawale",
+  "headline": "",
+  "summary": "Seasoned Tech Leader with 22+ years in engineering leadership, specializing in AWS, Azure, and cloud-native technologies. Passionate about emerging technologies, particularly AI/ML, My expertise extends beyond the corporate sphere as AWS UG Pune Leader",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/30vHay789Jp1wY48DWZ2ObfvS8U.webp",
+    "sourceUrl": "https://builder.aws.com/community/@toshal",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Cloud Operations",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@toshal",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@toshal",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@toshal",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@toshal",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@toshal"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/toshal-khawale/",
+      "handle": "toshal-khawale",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@toshal"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/toshalk",
+      "handle": "toshalk",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@toshal"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@toshal",
+      "retrievedAt": "2026-06-21T18:18:39Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:39Z"
+}

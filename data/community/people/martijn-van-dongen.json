@@ -1,0 +1,68 @@
+{
+  "id": "person_martijn_van_dongen",
+  "slug": "martijn-van-dongen",
+  "displayName": "Martijn van Dongen",
+  "headline": "",
+  "summary": "I'm Martijn, I'm passionate about AWS since the early rise of cloud technology. I work for Schuberg Philis as Cloud Evangelist, and I'm a very proud AWS Hero organizing meetups and events for awsug.nl and awscommunityday.nl.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/33F1mpPKBvt0DWk8GRL20DWA8T6.webp",
+    "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@mvandongen",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@mvandongen"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+      "retrievedAt": "2026-06-21T18:18:01Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:01Z"
+}

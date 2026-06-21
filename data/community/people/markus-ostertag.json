@@ -1,0 +1,87 @@
+{
+  "id": "person_markus_ostertag",
+  "slug": "markus-ostertag",
+  "displayName": "Markus Ostertag",
+  "headline": "Chief AWS Technologist @ adesso | AWS Hero | Organizer AWS Usergroup Munich",
+  "summary": "Markus is Chief AWS Technologist at adesso SE, the leading German IT service provider, and helps customers of all sizes to realize their full business potential through the use of cloud technologies. He loves to leverage the cloud, finding new ways to solve problems and work with cutting-edge technologies. His first contact with AWS was in 2008 while he ran a big German movie review site that specialized in video content. At the same time, he finished his degree in computer science at the Technical University of Munich and had different positions (including CEO, CTO etc.) at companies in the AdTech, MarTech and other areas. He is always eager to work with new AWS innovations and share his knowledge with other companies and users. Markus co-founded and organizes the AWS User Group in Munich as well as the German AWS Community Days events, and he loves to talk about tech (especially cloud, performance, and agility) at meetups, universities, and conferences like AWS re:Invent. Markus is a frequent AWS speaker for more than a decade and has presented multiple times at AWS Summits and AWS re:Invent in Las Vegas. But his most favorite settings are fireside chats with a group of people just discussing tech topics over some food and drinks.",
+  "location": {
+    "city": null,
+    "country": "DE",
+    "region": "Bavaria"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3AD5pB3iUj5TI6zwo7wKlpyTN06.webp",
+    "sourceUrl": "https://builder.aws.com/community/@osterjour",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@osterjour",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@osterjour",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2016,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@osterjour",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@osterjour",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@osterjour"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ostertag",
+      "handle": "ostertag",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@osterjour"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@osterjour",
+      "retrievedAt": "2026-06-21T18:18:07Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:07Z"
+}

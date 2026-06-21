@@ -1,0 +1,59 @@
+{
+  "id": "person_zainab",
+  "slug": "zainab",
+  "displayName": "Zainab",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/35m4yQUWdNJx8VM3BxyJhE7AKKI.webp",
+    "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@zmaleki",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@zmaleki"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+      "retrievedAt": "2026-06-21T18:18:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:50Z"
+}

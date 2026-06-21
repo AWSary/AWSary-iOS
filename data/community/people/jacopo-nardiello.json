@@ -1,0 +1,83 @@
+{
+  "id": "person_jacopo_nardiello",
+  "slug": "jacopo-nardiello",
+  "displayName": "Jacopo Nardiello",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "IT",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/360oLndurHJHcubm6RWtJB2ARVe.webp",
+    "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@jnardiello",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/jnardiello",
+      "handle": "jnardiello",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jnardiello/",
+      "handle": "jnardiello",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/jnardiello",
+      "handle": "jnardiello",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+      "retrievedAt": "2026-06-21T18:17:39Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:39Z"
+}

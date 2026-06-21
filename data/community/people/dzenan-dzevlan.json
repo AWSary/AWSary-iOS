@@ -1,0 +1,109 @@
+{
+  "id": "person_dzenan_dzevlan",
+  "slug": "dzenan-dzevlan",
+  "displayName": "Dzenan Dzevlan",
+  "headline": "",
+  "summary": "Dzenan runs AWS and DevOps consulting company allOps Solutions specializing in high-impact AWS projects, including large-scale migrations, government initiatives, and HIPAA-compliant infrastructure implementations. With over a decade of AWS experience dating back to 2011, Dzenan has managed AWS environments globally, including as a Production Engineering team lead at Yahoo Inc., where he supported the Yahoo Ad Tech platform’s AWS infrastructure, serving millions of users worldwide. Since founding the AWS User Group Bosnia in 2016, Dzenan has significantly expanded the community to over 1,000 members across three user groups. His contributions include organizing online meetups, maintaining an educational YouTube channel, and hosting a free DevOps Mentorship Program aimed at supporting individuals from the Balkans in launching careers in cloud and DevOps. Dzenan also works closely with his sister, Dzenana, in helping South-Eastern Europe community members establish and grow AWS user groups in their regions. His interests focus on AWS, database technologies, and security, holding various AWS, security, and database certifications. He often speaks at various technical meetups and conferences.",
+  "location": {
+    "city": null,
+    "country": "BA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2omwFicAuiRduEvc5mhtUjDQdsA.webp",
+    "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://devops.awsbosnia.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@dzenandzevlan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/sqlheisenberg",
+      "handle": "sqlheisenberg",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/sqlheisenberg/",
+      "handle": "sqlheisenberg",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/sqlheisenberg",
+      "handle": "sqlheisenberg",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCFad2d7jXJdeNLdOOllG61A",
+      "handle": "UCFad2d7jXJdeNLdOOllG61A",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@dzenandzevlan",
+      "retrievedAt": "2026-06-21T18:17:19Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:19Z"
+}

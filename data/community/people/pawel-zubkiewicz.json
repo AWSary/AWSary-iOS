@@ -1,0 +1,69 @@
+{
+  "id": "person_pawel_zubkiewicz",
+  "slug": "pawel-zubkiewicz",
+  "displayName": "Pawel Zubkiewicz",
+  "headline": "",
+  "summary": "Since his first encounters with AWS cloud in 2016, Paweł has been fascinated by serverless solutions. Quickly he realized that the cloud-native approach was the future of IT and decided to change his career path to pursue that direction. In 2018 Paweł started Serverless Polska, an online community for serverless enthusiasts, where he shares his technical knowledge and introduces serverless to a broader audience. Shortly after, he began publishing a newsletter about serverless and AWS cloud. He continuously shares his expertise and insights with the Polish-speaking community to this day, both online and as a conference speaker. In 2020 he was chosen for the prestigious AWS Community Builders program and started sharing serverless tutorials. Apart from serverless architecture, Paweł also specializes in AWS cost optimization. Paweł works as a Cloud Architect and Cost Optimization Consultant, helping companies build products on AWS in a cost-effective manner. He lives in Wroclaw, Poland, with his wife and a dog called Pixel. He's an avid mountain biker and a traveler.",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2kPjrEUNvtXa6udERO9eYrAUZhy.webp",
+    "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@pawelzubkiewicz",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+      "retrievedAt": "2026-06-21T18:18:09Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:09Z"
+}

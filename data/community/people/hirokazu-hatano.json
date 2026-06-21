@@ -1,0 +1,67 @@
+{
+  "id": "person_hirokazu_hatano",
+  "slug": "hirokazu-hatano",
+  "displayName": "Hirokazu Hatano",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xmwoRzH9sAdk4dcPTJm5uNalg9.webp",
+    "sourceUrl": "https://builder.aws.com/community/@hatano",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hatano",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hatano",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@hatano",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@hatano"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@hatano",
+      "retrievedAt": "2026-06-21T18:17:30Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:30Z"
+}

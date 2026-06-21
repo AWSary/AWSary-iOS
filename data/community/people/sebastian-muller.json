@@ -1,0 +1,63 @@
+{
+  "id": "person_sebastian_muller",
+  "slug": "sebastian-muller",
+  "displayName": "Sebastian Müller",
+  "headline": "AWS Serverless Hero",
+  "summary": "<p>On&nbsp;<a href=\"https://sbstjn.com/\" target=\"_blank\">sbstjn.com</a>, Sebastian (pronouns: he/him) writes about all things Serverless, CDK, Generative AI,&nbsp;...</p> <p><a href=\"https://aws.amazon.com/developer/community/heroes/sebastian-mueller/?did=dh_card-body&amp;trk=dh_card-body\" rel=\"noopener\" target=\"_blank\">Learn more &raquo;</a></p>",
+  "location": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Sebastian%20M%c3%bcller%20100.2e3a14dea24e38400e12b8e8f5b47eda8a049ce8.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Serverless Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/sebastian-mueller/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/sebastian-mueller/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

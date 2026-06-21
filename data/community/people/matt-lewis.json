@@ -1,0 +1,101 @@
+{
+  "id": "person_matt_lewis",
+  "slug": "matt-lewis",
+  "displayName": "Matt Lewis",
+  "headline": "AWS Chief Architect @ IBM | AWS Data Hero | AWS Ambassador",
+  "summary": "Matt is both an AWS Data Hero and AWS Ambassador, after having worked with AWS in production since 2016. Matt founded and runs the AWS South Wales User Group and is part of the ServerlessDays Cardiff organising team. With a background as a software engineer, he regularly builds out working prototypes of innovative AWS solutions. He has spent significant time growing cloud skills across teams and establishing cloud operating models including Centre of Excellence and FinOps. He is a regular speaker at events including AWS re:Invent and Summits. Most recently this has included talks on agentic AI and how this is impacting on developer experience and application modernisation",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/35ylv8w4H2QMnx5LnWGgHdfcKcY.webp",
+    "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@mattlewis",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/mlewis7127",
+      "handle": "mlewis7127",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/mattelewis/",
+      "handle": "mattelewis",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/mlewis7127",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/m_lewis",
+      "handle": "m_lewis",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+      "retrievedAt": "2026-06-21T18:17:54Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:54Z"
+}

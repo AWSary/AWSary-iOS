@@ -1,0 +1,76 @@
+{
+  "id": "person_ant_stanley",
+  "slug": "ant-stanley",
+  "displayName": "Ant Stanley",
+  "headline": "",
+  "summary": "My first paying tech job was in 1999 doing Y2K upgrades on desktops for a bank in South Africa. Done almost every role in tech, with a career split between London and South Africa. Founder, architect, developer, operator. Early Serverless adopter, now riding the wave of AI powered development.",
+  "location": {
+    "city": null,
+    "country": "ZA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xwXCBonyS0Bnjps3Ono24ol4IK.webp",
+    "sourceUrl": "https://builder.aws.com/community/@antstanley",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@antstanley",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@antstanley",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@antstanley"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/antstanley",
+      "handle": "antstanley",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antstanley"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/antstanley/",
+      "handle": "antstanley",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antstanley"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@antstanley",
+      "retrievedAt": "2026-06-21T18:16:52Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:52Z"
+}

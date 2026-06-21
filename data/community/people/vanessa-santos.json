@@ -1,0 +1,78 @@
+{
+  "id": "person_vanessa_santos",
+  "slug": "vanessa-santos",
+  "displayName": "Vanessa Santos",
+  "headline": "Global Value Advisor",
+  "summary": "Driven by the belief that technology should empower growth for people, communitites and business.",
+  "location": {
+    "city": null,
+    "country": "BR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/327prQNWfg2lE3s4Wvfq8B5lJd0.webp",
+    "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@colors4ideas",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@colors4ideas"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/vanessa-alves-dos-santos/",
+      "handle": "vanessa-alves-dos-santos",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@colors4ideas"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+      "retrievedAt": "2026-06-21T18:17:06Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:06Z"
+}

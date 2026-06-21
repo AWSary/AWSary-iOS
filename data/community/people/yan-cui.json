@@ -1,0 +1,100 @@
+{
+  "id": "person_yan_cui",
+  "slug": "yan-cui",
+  "displayName": "Yan Cui",
+  "headline": "",
+  "summary": "Yan is an AWS Serverless Hero and independent consultant. Yan has run production workloads at scale on AWS since 2010 and has a track record of improving businesses with technology. He has been an architect and principal engineer in a variety of industries ranging from banking, e-commerce, streaming to mobile gaming. Yan is the author of Production-Ready Serverless and co-author of Serverless Architectures on AWS, 2nd Edition. He has delivered over 200 talks at user groups and conferences around the world and is often seen rushing through Schiphol airport to feed his cat on time.",
+  "location": {
+    "city": null,
+    "country": "NL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36cXExJgf07OFfYQvCJLt9QARr6.webp",
+    "sourceUrl": "https://builder.aws.com/community/@theburningmonk",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://theburningmonk.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@theburningmonk",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/theburningmonk",
+      "handle": "theburningmonk",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/theburningmonk",
+      "handle": "theburningmonk",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/theburningmonk",
+      "handle": "theburningmonk",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@theburningmonk",
+      "handle": "@theburningmonk",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@theburningmonk",
+      "retrievedAt": "2026-06-21T18:18:37Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:37Z"
+}

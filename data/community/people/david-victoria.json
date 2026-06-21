@@ -1,0 +1,94 @@
+{
+  "id": "person_david_victoria",
+  "slug": "david-victoria",
+  "displayName": "David Victoria",
+  "headline": "AWS Hero | Senior Cloud Architect @ Caylent",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "MX",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2pbQ3rIjDzGqGMDdk7vnGJfrK8O.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vikomex",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Serverless",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vikomex",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vikomex",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vikomex",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vikomex",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vikomex"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/vikomex",
+      "handle": "vikomex",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vikomex"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://davidvictoria.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vikomex"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vikomex",
+      "retrievedAt": "2026-06-21T18:18:42Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:42Z"
+}

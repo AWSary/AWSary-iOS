@@ -1,0 +1,86 @@
+{
+  "id": "person_dominik_grzywaczewski",
+  "slug": "dominik-grzywaczewski",
+  "displayName": "Dominik Grzywaczewski",
+  "headline": "",
+  "summary": "Community Hero Dominik Grzywaczewski is a Senior Cloud Site Reliability Engineer at Chaos Gears with more than 15 years of experience in IT. His primary objective is to assist companies in gaining a deeper understanding of Cloud Computing technologies, and effectively leveraging them to drive faster and more secure innovation. Dominik shares his passion by organizing technical meetups and workshops, and consistently collaborates with AWS community members. He also founded the AWS User Group in Lublin (Poland) and co-organizes the AWS Community Day conference in Warsaw (Poland).",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2dgl9lE3Xda58B3H6xdbp9F3VNA.webp",
+    "sourceUrl": "https://builder.aws.com/community/@kinimod",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kinimod",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kinimod",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kinimod",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@kinimod",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@kinimod"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/dominik-grzywaczewski/",
+      "handle": "dominik-grzywaczewski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kinimod"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@kinimod",
+      "retrievedAt": "2026-06-21T18:17:45Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:45Z"
+}

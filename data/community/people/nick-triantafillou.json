@@ -1,0 +1,109 @@
+{
+  "id": "person_nick_triantafillou",
+  "slug": "nick-triantafillou",
+  "displayName": "Nick Triantafillou",
+  "headline": "Senior MLOps / Cloud Engineer",
+  "summary": "Nick is a Cloud Engineer, Educator, User Group founder, and Christmas Light enthusiast. Having worked as a Linux System Administrator for over 20 years, he discovered AWS in 2009 and hasn't looked back. He was one of the original course instructors at cloud education startup A Cloud Guru, having taught over 1 million students the fundamentals of AWS, and also produced the world's first AWS Certified DevOps Engineer course. He's the founder of his local Wollongong AWS User Group, co-founder of the Sydney Serverless Meetup and has assisted in the planning and operation of both the ServerlessConf and ServerlessDays ANZ conferences. He runs @NickExplainsAWS, where he is attempting to make a video about every single AWS service on Tiktok and YouTube. Each December Nick brings traffic to a stand still by installing over 75,000 LEDs on his house for his serverless, AWS powered light show spectacular: https://twitter.com/AWSCloudANZ/status/1599629849798316035 You can keep up to date with Nick's latest projects via his blog or LinkedIn",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "NSW"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2rK0s8ugcxVWMm5TqyuD2QnkLWv.webp",
+    "sourceUrl": "https://builder.aws.com/community/@nickt",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@nickt",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@nickt",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/xelfer/",
+      "handle": "xelfer",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/nicktriantafillou/",
+      "handle": "nicktriantafillou",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/xelfer",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://nickt.com.au",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://bsky.app/profile/nickt.com.au",
+      "handle": "nickt.com.au",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@nickexplainsaws/",
+      "handle": "@nickexplainsaws",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nickt"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@nickt",
+      "retrievedAt": "2026-06-21T18:18:04Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:04Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "person_brian_leroux",
+  "slug": "brian-leroux",
+  "displayName": "Brian LeRoux",
+  "headline": "",
+  "summary": "Maintaining https://arc.codes since '16. Still the fastest and most stable way to build serverlessly !",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zutA3NzzefvvMsk6aPnhssZYa1.webp",
+    "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://webdev.rip",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@brianleroux",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/brianleroux",
+      "handle": "brianleroux",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/brianleroux/",
+      "handle": "brianleroux",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+      "retrievedAt": "2026-06-21T18:17:01Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:01Z"
+}

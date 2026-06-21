@@ -1,0 +1,94 @@
+{
+  "id": "person_rolf_koski",
+  "slug": "rolf-koski",
+  "displayName": "Rolf Koski",
+  "headline": "CTO & Co-founder at Elexive",
+  "summary": "Rolf is Co-founder and CTO of Elexive, an AI-native leadership services company helping good leadership turn into Great Leadership. He is focused on building AI-assisted workflows that democratize access to best business leadership practices and data. He has a track record as one of the leading cloud transformation experts in the Nordics and has 18+ years of actual concrete AI experience. He sees community contributions as a valuable asset and founded AWS Community Day Nordics and leads AWS User Group Finland, one of the largest IT communities in the Nordics. Rolf is known for his pragmatic approach to making complex technical concepts actionable, bridging business leadership, company boards, developers, and makers. As \"The Pragmatist Futurist,\" he champions practical approaches that make advanced technology accessible and actionable.",
+  "location": {
+    "city": null,
+    "country": "FI",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/35nNj8ifjw0rQzmlx57jVUtx7su.webp",
+    "sourceUrl": "https://builder.aws.com/community/@rolle",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rolle",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rolle",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://therolle.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rolle"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@rolle",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@rolle"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/therolle",
+      "handle": "therolle",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rolle"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/rolle",
+      "handle": "rolle",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rolle"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@rolle",
+      "retrievedAt": "2026-06-21T18:18:16Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:16Z"
+}

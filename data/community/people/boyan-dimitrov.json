@@ -1,0 +1,63 @@
+{
+  "id": "person_boyan_dimitrov",
+  "slug": "boyan-dimitrov",
+  "displayName": "Boyan Dimitrov",
+  "headline": "AWS Community Hero",
+  "summary": "<p>Boyan is the Chief Technology Officer of SIXT, responsible for the company&rsquo;s tech vision and strategy. Prior to joining SIXT in 2015, Boyan...</p> <p><a href=\"https://aws.amazon.com/developer/community/heroes/boyan-dimitrov/?did=dh_card-body&amp;trk=dh_card-body\" rel=\"noopener\" target=\"_blank\">Learn more &raquo;</a></p>",
+  "location": {
+    "city": "Munich",
+    "country": "Germany",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/boyan-headshotcircle-100px.ab75a96438a16c21351609ff05ddffc3d4b70a6d.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2015,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Community Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/boyan-dimitrov/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/boyan-dimitrov/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

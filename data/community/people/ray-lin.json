@@ -1,0 +1,94 @@
+{
+  "id": "person_ray_lin",
+  "slug": "ray-lin",
+  "displayName": "Ray Lin",
+  "headline": "PMI/ISC2/AWS Authorized Instructor, CISSP/CCSP/CSSLP/SSCP/CISA/CISM/OSWP/CEH Master/AWS x12/PfMP/PMP",
+  "summary": "Ray has been working in the software industry for nearly two decades, specializing in building teams and developing new products from the ground up. His core expertise includes information security and auditing, DevSecOps, AI, AWS cloud architecture design, BA and SA, software project management, and agile SaaS product development. Ray is a recipient of the Taiwan Inventor Creativity Award and has also been recognized with the Rising Star Professional Award and as a Cybersecurity Career Mentor by EC-Council. He has held cross-functional executive roles across a diverse range of organizations, including companies in the United States, Japan, and Taiwan, as well as startups, publicly listed enterprises, and multinational corporations. In addition to holding more than 50 international professional certifications in cybersecurity, cloud, AI, project management, and agile, Ray is also the first AWS Security Hero in GCR and among the world's first cohort. He currently serves as President of DevSecOps Taiwan and CEO of the PMI Taiwan Awards Office, where he is responsible for organizing the Project Management Grand Award, widely regarded by the media as the \"Oscars\" of project management in the Chinese-speaking world. To date, he has also translated and published seven well-known books on agile methodologies.",
+  "location": {
+    "city": null,
+    "country": "TW",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2oyzWDERwI3S7mQLpXqxzm7Ub2A.webp",
+    "sourceUrl": "https://builder.aws.com/community/@threeforwyy",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Authorized Instructor",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@threeforwyy",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/raylin-meta-pm/",
+      "handle": "raylin-meta-pm",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/raylin.meta.pm",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@ifustw",
+      "handle": "@ifustw",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@threeforwyy",
+      "retrievedAt": "2026-06-21T18:18:37Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:37Z"
+}

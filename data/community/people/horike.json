@@ -1,0 +1,58 @@
+{
+  "id": "person_horike",
+  "slug": "horike",
+  "displayName": "horike",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y27WtyykwSXpvM5eAVlbkAxISG.webp",
+    "sourceUrl": "https://builder.aws.com/community/@horike",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@horike",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@horike",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@horike"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@horike",
+      "retrievedAt": "2026-06-21T18:17:33Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:33Z"
+}

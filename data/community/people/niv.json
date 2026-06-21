@@ -1,0 +1,100 @@
+{
+  "id": "person_niv",
+  "slug": "niv",
+  "displayName": "Niv",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "IL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/31EVDDmOF4mnsD0Kzz9PjDVvoHQ.webp",
+    "sourceUrl": "https://builder.aws.com/community/@niv",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@niv",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@niv",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@niv",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@niv"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/nivyungelson/",
+      "handle": "nivyungelson",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@niv"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/nivyung",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@niv"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/nivctl",
+      "handle": "nivctl",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@niv"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@nivyungelson",
+      "handle": "@nivyungelson",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@niv"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@niv",
+      "retrievedAt": "2026-06-21T18:18:05Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:05Z"
+}

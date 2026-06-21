@@ -1,0 +1,93 @@
+{
+  "id": "person_vlad_ionescu_he_him",
+  "slug": "vlad-ionescu-he-him",
+  "displayName": "Vlad Ionescu (he/him)",
+  "headline": "Sugarbaby Tech Consultant",
+  "summary": "Vlad Ionescu (he/him) jokingly describes himself as a “Professional mistake avoider”, which he argues is a better way of saying “Independent Consultant”. His work is devoted to getting companies to high-performing levels. Vlad swings wildly on the engineer/manager pendulum, and he is always full of energy. As an Individual Contributor, he focuses on architecting resilient applications and on growing engineers. As a Manager, he focuses on empowering people to do their best work and on building sustainable companies. In parallel to his tech career, Vlad is a foodie and very much into cocktails, whiskey, and wine — finding him at a tasting or food pairing event is a sure bet. He cherishes mental health and is an avid proponent of any effort in the area.",
+  "location": {
+    "city": null,
+    "country": "RO",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2tpY13mtbdTSchAQ7yPzXt06FZH.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.vladionescu.me",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vlaaaaaaad",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/Vlaaaaaaad",
+      "handle": "Vlaaaaaaad",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/vlaaaaaaad",
+      "handle": "vlaaaaaaad",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/iamvlaaaaaaad",
+      "handle": "iamvlaaaaaaad",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+      "retrievedAt": "2026-06-21T18:18:46Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:46Z"
+}

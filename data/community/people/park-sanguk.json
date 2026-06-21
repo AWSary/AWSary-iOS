@@ -1,0 +1,83 @@
+{
+  "id": "person_park_sanguk",
+  "slug": "park-sanguk",
+  "displayName": "Park SangUk",
+  "headline": "Head of Cloud Technology",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36Y7otKTWd9XSIc1lo3Fg4kOHTI.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sanguk",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2016,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sanguk",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sanguk",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sanguk"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/polo149278",
+      "handle": "polo149278",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sanguk"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/sanguk-park-b3288721",
+      "handle": "sanguk-park-b3288721",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sanguk"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/polo149278",
+      "handle": "polo149278",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sanguk"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sanguk",
+      "retrievedAt": "2026-06-21T18:18:20Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:20Z"
+}

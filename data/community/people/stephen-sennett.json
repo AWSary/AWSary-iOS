@@ -1,0 +1,109 @@
+{
+  "id": "person_stephen_sennett",
+  "slug": "stephen-sennett",
+  "displayName": "Stephen Sennett",
+  "headline": "",
+  "summary": "Stephen is an experienced cloud technologist, working with AWS for over a decade as an architect, consultant, engineer, and educator. Stephen was a member of the AWS Community Builders program between 2021 and 2024, acting as a mentor to others in the AWS community, and serving as a public speaking coach for upcoming thought leaders through the AWS New Voices program. He is an experienced keynote speaker, delivering sessions at AWS Community Days, AWS Summits, and other tech conferences around the world. As a Content Architect with A Cloud Guru and Pluralsight, he has directly supported the teaching of hundreds of thousands of students around the world on their cloud journey. He currently works as a Lead at V2 AI in Australia, specialising in cloud strategy and architecture. Outside of his professional role, he is an active volunteer emergency management officer, and non-profit board director.",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "VIC"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2olzia0plSviKsjKo5ANTpy4vfl.webp",
+    "sourceUrl": "https://builder.aws.com/community/@ssennettau",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@ssennettau",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/ssennettau",
+      "handle": "ssennettau",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/ssennettau",
+      "handle": "ssennettau",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/ssennettau",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://ssennett.net/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@ssennettau",
+      "handle": "@ssennettau",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@ssennettau",
+      "retrievedAt": "2026-06-21T18:18:32Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:32Z"
+}

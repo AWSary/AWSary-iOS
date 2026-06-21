@@ -1,0 +1,68 @@
+{
+  "id": "person_daniel_rankov",
+  "slug": "daniel-rankov",
+  "displayName": "Daniel Rankov",
+  "headline": "",
+  "summary": "Daniel Rankov is building and leading Several Clouds to become a premier Cloud and DevOps consulting company. Daniel is in a player-coach role; he has multiple certifications on AWS, including Solution Architect and DevOps professional levels and Security and Networking specialties. Before that, Daniel Rankov built and led the Cloud Center of Excellence (CCOE) team and guided the overall Cloud and DevOps strategy at MentorMate. Daniel's cloud journey began as one of the first people at HeleCloud, now an AWS Premier Partner. There, he became very passionate about AWS and all the benefits that the public cloud brings to businesses. This passion led him to become a co-organizer of the AWS Bulgaria User Group and Sofia HashiCorp User Group. In addition, he now actively speaks at conferences and performs training and workshops on AWS and DevOps. Daniel spent 10 years as a leader of the operations team for Trading212 - a global real-time trading platform building distributed, scalable, and secure low-latency solutions. He worked closely with the development teams and built a holistic view of the Software Development Life Cycle (SDLC). As a result, Daniel embraces the DevOps culture and practices of collaboration towards a shared goal. Daniel believes, \"A bad system will beat a good person every time.\" So, he invests in improving the system.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2p1zseGqooQHTb6ZvsDWzSd8XxC.webp",
+    "sourceUrl": "https://builder.aws.com/community/@danielrankov",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@danielrankov",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@danielrankov",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@danielrankov",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@danielrankov"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@danielrankov",
+      "retrievedAt": "2026-06-21T18:17:11Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:11Z"
+}

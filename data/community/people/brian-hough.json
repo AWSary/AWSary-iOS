@@ -1,0 +1,63 @@
+{
+  "id": "person_brian_hough",
+  "slug": "brian-hough",
+  "displayName": "Brian Hough",
+  "headline": "AWS DevTools Hero",
+  "summary": "<p>Brian H. Hough is the founder of the Tech Stack Playbook&reg;, a software ...</p> <p><a href=\"https://aws.amazon.com/developer/community/heroes/brian-hough/?did=dh_card-body&amp;trk=dh_card-body\" rel=\"noopener\" target=\"_blank\">Learn more &raquo;</a></p>",
+  "location": {
+    "city": "Boston",
+    "country": "USA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Brian%20Hough_100.ad6bf866a512b5d990a9cc470ea3c8ca8f653ff6.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "DevTools Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Devtools Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/brian-hough/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/brian-hough/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

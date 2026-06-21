@@ -1,0 +1,59 @@
+{
+  "id": "person_kohei_max_matsushita",
+  "slug": "kohei-max-matsushita",
+  "displayName": "Kohei \"Max\" MATSUSHITA",
+  "headline": "",
+  "summary": "IoT Evangelist at Soracom, Inc. My role is to bring IoT to the world through IoT application cases and demonstrations, and I have given over 800 talks since 2017.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2dL8blFigoEdzefVuywkDFSnS3R.webp",
+    "sourceUrl": "https://builder.aws.com/community/@maxjp",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@maxjp",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@maxjp",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@maxjp"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@maxjp",
+      "retrievedAt": "2026-06-21T18:17:55Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:55Z"
+}

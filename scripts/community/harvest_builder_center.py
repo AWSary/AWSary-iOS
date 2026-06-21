@@ -45,6 +45,22 @@ def read_seed_file(path: Path) -> list[str]:
     ]
 
 
+def read_builder_index(path: Path) -> list[str]:
+    """Read aliases produced by build_builder_center_index.py."""
+
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    people = payload.get("people")
+    if not isinstance(people, list):
+        raise ValueError(f"Builder index has no people array: {path}")
+    if any(not isinstance(person, dict) for person in people):
+        raise ValueError(f"Builder index contains an invalid person entry: {path}")
+    aliases = [person.get("alias") for person in people]
+    invalid = [alias for alias in aliases if not isinstance(alias, str) or not alias]
+    if invalid:
+        raise ValueError(f"Builder index contains invalid aliases: {path}")
+    return list(dict.fromkeys(aliases))
+
+
 def harvest_url(
     url: str,
     cache: HttpCache,
@@ -242,6 +258,13 @@ def main() -> int:
         default=[],
         help="Public Builder Center alias; may be repeated and does not require a page fetch",
     )
+    parser.add_argument(
+        "--builder-index",
+        type=Path,
+        action="append",
+        default=[],
+        help="Alias index from build_builder_center_index.py; may be repeated",
+    )
     parser.add_argument("--seed-file", type=Path, action="append", default=[], help="File containing one URL per line")
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR)
     parser.add_argument("--people-dir", type=Path, default=DEFAULT_PEOPLE_DIR)
@@ -256,8 +279,12 @@ def main() -> int:
     for seed_file in args.seed_file:
         urls.extend(read_seed_file(seed_file))
     urls = list(dict.fromkeys(urls))
-    if not urls and not args.builder_alias:
-        parser.error("provide at least one --seed-url, --seed-file, or --builder-alias")
+    builder_aliases = list(args.builder_alias)
+    for builder_index in args.builder_index:
+        builder_aliases.extend(read_builder_index(builder_index))
+    builder_aliases = list(dict.fromkeys(builder_aliases))
+    if not urls and not builder_aliases:
+        parser.error("provide at least one --seed-url, --seed-file, --builder-alias, or --builder-index")
 
     cache = HttpCache(args.raw_dir, timeout=args.timeout, retries=args.retries, delay=args.delay)
     all_people: dict[str, dict[str, Any]] = {}
@@ -285,7 +312,7 @@ def main() -> int:
             failures += 1
             print(f"Failed: {url}: {exc}", file=sys.stderr)
 
-    for alias in dict.fromkeys(args.builder_alias):
+    for alias in builder_aliases:
         try:
             people, details = harvest_builder_alias(alias, cache, refresh=args.refresh)
             inspection_url = f"https://builder.aws.com/community/@{alias.removeprefix('@')}"

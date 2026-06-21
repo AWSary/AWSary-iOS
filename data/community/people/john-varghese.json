@@ -1,0 +1,85 @@
+{
+  "id": "person_john_varghese",
+  "slug": "john-varghese",
+  "displayName": "John Varghese",
+  "headline": "",
+  "summary": "John Varghese is an AWS Hero and the AWS Community Lead for the San Francisco Bay Area. A true Renaissance Developer with a career spanning three decades of technological shifts, John specializes in Platform Engineering, IaC, and building for Architectural Resilience. Having navigated the evolution from monoliths to modern cloud-native systems, John brings a deep level of Systems Thinking to every project—understanding the complex feedback loops that define modern distributed environments. As the lead organizer for the AWS Community Day - Security Edition, he champions a Red Team mindset, moving beyond 'vibe coding' to ensure precision and ownership in the age of AI. John is a lifelong Polymath who thrives in high-energy, collaborative environments where the focus is on verification over generation. He is dedicated to mentoring the next generation of builders, proving that the most valuable asset in tech is the human judgment required to design, lead, and evolve.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2oluhJGFx8Mki5Zrmn0584aZD2S.webp",
+    "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@johnvarghese",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jvaws/",
+      "handle": "jvaws",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@awscommunityday1202/videos",
+      "handle": "videos",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+      "retrievedAt": "2026-06-21T18:17:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:40Z"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "person_jayesh_bapu_ahire",
+  "slug": "jayesh-bapu-ahire",
+  "displayName": "Jayesh Bapu Ahire",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": null,
+    "sourceUrl": null,
+    "sourceType": "aws_builder_center",
+    "verified": false
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@jbahire",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@jbahire",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@jbahire",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@jbahire"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@jbahire",
+      "retrievedAt": "2026-06-21T18:17:38Z",
+      "fields": [
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:38Z"
+}

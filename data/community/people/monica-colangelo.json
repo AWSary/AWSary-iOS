@@ -1,0 +1,102 @@
+{
+  "id": "person_monica_colangelo",
+  "slug": "monica-colangelo",
+  "displayName": "Monica Colangelo",
+  "headline": "AWS Hero | Head of Hyperscaler Operations",
+  "summary": "I am a technology leader, cloud expert, and AWS DevTools Hero with a strong technical foundation built over two decades in IT. Now Head of Hyperscaler Operations, I bring experience from a career path that started as a system administrator and progressed through DevOps engineering and cloud architecture. As a committed community builder, I lead several technical communities in Italy, organizing the AWS Community Day Italy and managing various AWS User Groups. I also founded The Cloud House, a non-profit organization dedicated to supporting and growing the tech community. As a passionate advocate for diversity in tech, I am dedicated to breaking barriers and creating pathways for women in technology. I speak at international conferences, sharing both technical insights and my experiences as a woman in tech leadership. Through mentoring, writing technical articles, and active community engagement, I work to inspire the next generation of women in technology and promote inclusive tech environments.",
+  "location": {
+    "city": null,
+    "country": "IT",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2vdQJRRGEwZjk9TmqN4tVvS5dPE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@monica",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@monica",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@monica",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://monicacolangelo.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@monica"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@monica",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@monica"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/theonlymonica",
+      "handle": "theonlymonica",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@monica"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/monicacolangelo/",
+      "handle": "monicacolangelo",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@monica"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://sessionize.com/monicacolangelo",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@monica"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@monica",
+      "retrievedAt": "2026-06-21T18:18:00Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:00Z"
+}

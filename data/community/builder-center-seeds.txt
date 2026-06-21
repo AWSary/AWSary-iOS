@@ -1,2 +1,2 @@
 # One public AWS URL per line. The directory API is the currently tested bulk seed.
-https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=1000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero
+https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero

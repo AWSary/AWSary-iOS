@@ -1,0 +1,100 @@
+{
+  "id": "person_sandip_das",
+  "slug": "sandip-das",
+  "displayName": "Sandip Das",
+  "headline": "",
+  "summary": "Senior Cloud & DevOps Engineer | Kubernetes Expert | SRE, Platform Engineering, MLOps & AIOps Practioner | AWS Container Hero | Teacher | Mentor",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2oq1gBSg0t70N9Ld9j9tJMjreYs.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sandipdasawshero",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/sd031",
+      "handle": "sd031",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/sandip-das-developer/",
+      "handle": "sandip-das-developer",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    },
+    {
+      "type": "linkedin",
+      "label": "Blog",
+      "url": "https://www.linkedin.com/newsletters/learn-cloud-devops-coding-6864183524740620288/",
+      "handle": "learn-cloud-devops-coding-6864183524740620288",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/sd031",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@learnTechWithSandip",
+      "handle": "@learnTechWithSandip",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+      "retrievedAt": "2026-06-21T18:18:19Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:19Z"
+}

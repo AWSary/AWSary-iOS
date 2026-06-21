@@ -1,0 +1,59 @@
+{
+  "id": "person_linghui_gong",
+  "slug": "linghui-gong",
+  "displayName": "Linghui Gong",
+  "headline": "",
+  "summary": "VP of Engineering in Strikingly.com",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xnNC01uWaWmLvMyp1t2wJxEAbL.webp",
+    "sourceUrl": "https://builder.aws.com/community/@danielglh",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@danielglh",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@danielglh",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@danielglh"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@danielglh",
+      "retrievedAt": "2026-06-21T18:17:11Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:11Z"
+}

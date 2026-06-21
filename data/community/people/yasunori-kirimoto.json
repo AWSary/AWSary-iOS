@@ -1,0 +1,134 @@
+{
+  "id": "person_yasunori_kirimoto",
+  "slug": "yasunori-kirimoto",
+  "displayName": "Yasunori Kirimoto",
+  "headline": "Co-Founder and CEO of MIERUNE",
+  "summary": "Yasunori Kirimoto (dayjournal.dev) is the Co-Founder and CEO of MIERUNE (mierune.co.jp), a geospatial solutions company. He has been an AWS Hero since 2022 and brings over 20 years of experience in geospatial data and applications, specializing in GIS (Geographic Information Systems) and FOSS4G (Free and Open Source Software for Geospatial). A passionate advocate for geospatial technologies, Yasunori regularly shares insights on Amazon Location Service through blog posts and community presentations. His expertise led to a collaboration with the Amazon Location Service team, and he was invited to provide early feedback on upcoming features. He also contributed to the official AWS Blog with the article “New features and developer experience with enhanced Amazon Location Service.” He has developed several geospatial tools, including the “AWS Heroes Map (heroes.dayjournal.dev) ,” an interactive way to explore AWS Heroes worldwide. This project was featured in Werner Vogels’ final keynote slides and in the event newspaper at AWS re:Invent. He also created the “AWS re:Invent Map (reinvent.dayjournal.dev) ” to help attendees navigate event venues. Yasunori actively contributes to open-source projects on GitHub. More recently, he has contributed to projects in AWS Geospatial and AWS Amplify. Geospatial Architect｜AWS DevTools Hero｜OSGeo Charter Member｜MapLibre Voting Member Co-Founder and CEO of MIERUNE｜Community - MapLibre, Amplify, Notion",
+  "location": {
+    "city": null,
+    "country": "JP",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2wXHB6DyT8MpGCOXMbVgwI2KUvN.webp",
+    "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://dayjournal.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@dayjournal",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/dayjournal",
+      "handle": "dayjournal",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/yasunori-kirimoto",
+      "handle": "yasunori-kirimoto",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/dayjournal",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://spotify.link/Hz9CHCuXAXb",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/yasunorikirimoto",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/dayjournal_nori",
+      "handle": "dayjournal_nori",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/@norivlog_ch",
+      "handle": "@norivlog_ch",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+      "retrievedAt": "2026-06-21T18:17:12Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:12Z"
+}

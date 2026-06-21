@@ -1,0 +1,85 @@
+{
+  "id": "person_anders_bjrnestad_aws_hero",
+  "slug": "anders-bjrnestad-aws-hero",
+  "displayName": "Anders Bjørnestad [AWS Hero]",
+  "headline": "",
+  "summary": "AWS Community Hero [Oslo, Norway]",
+  "location": {
+    "city": null,
+    "country": "NO",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/34W0FdzwPxae7RV3uRaYjVz6j99.webp",
+    "sourceUrl": "https://builder.aws.com/community/@andersb",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@andersb",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@andersb",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@andersb",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@andersb"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/abjoerne/",
+      "handle": "abjoerne",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@andersb"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/abjoerne",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@andersb"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@andersb",
+      "retrievedAt": "2026-06-21T18:16:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:50Z"
+}

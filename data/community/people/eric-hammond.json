@@ -1,0 +1,83 @@
+{
+  "id": "person_eric_hammond",
+  "slug": "eric-hammond",
+  "displayName": "Eric Hammond",
+  "headline": "",
+  "summary": "AWS Hero since 2014. AWS enthusiast since 2007. Startup builder since 1996. Code crafter since 1980. Disclosure: Long $AMZN",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/33vCwXSpdxwSBdTJ8TUDXJ6fAhd.webp",
+    "sourceUrl": "https://builder.aws.com/community/@esh",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2014,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@esh",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://alestic.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@esh"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@esh",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@esh"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/alestic",
+      "handle": "alestic",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@esh"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ehammond/",
+      "handle": "ehammond",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@esh"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@esh",
+      "retrievedAt": "2026-06-21T18:17:22Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:22Z"
+}

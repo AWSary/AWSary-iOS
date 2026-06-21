@@ -1,0 +1,77 @@
+{
+  "id": "person_jaroslaw_zielinski",
+  "slug": "jaroslaw-zielinski",
+  "displayName": "Jaroslaw Zielinski",
+  "headline": "",
+  "summary": "One of Poland's leading experts in cloud computing and an independent IT consultant with over 25 years of experience. For over a decade, he has specialized in AWS and VMware solutions and is recognized by international brands such as AWS and VMware for his contribution to education in the field of cloud computing. He holds numerous certifications and is one of the few people in Poland to hold the titles of AWS Community Hero and VMware vExpert. He has worked on dozens of projects related to networks, private and public clouds, cloud migration, and IT infrastructure monitoring. He is the CEO and co-founder of Welastic, a technology company that creates and maintains cloud environments. In his daily work, he focuses on managing large-scale and highly complex cloud projects. In addition, he is actively involved as a trainer, conducting workshops for advanced engineers and companies. He also works as an IT architect and academic lecturer, and is a speaker at industry conferences and author of expert articles. Outside of his business activities, he is involved in promoting the cloud and is the leader of AWS User Group Poland in nine cities. He sits on the program councils of the renowned PLNOG and Cloudyna conferences, and co-creates one of Poland's top events for IT enthusiasts, Cloud & Data Center Day. He is involved in mentoring hackathons and creating conference programs. Privately, he is an enthusiast of IoT, smart homes, and good coffee.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y5eSwwzE1sjabxjmCuSGEL6sHr.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Authorized Instructor",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vjzielinski",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vjzielinski"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+      "retrievedAt": "2026-06-21T18:18:45Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:45Z"
+}

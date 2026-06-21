@@ -1,0 +1,59 @@
+{
+  "id": "person_sena_yakut",
+  "slug": "sena-yakut",
+  "displayName": "Sena Yakut",
+  "headline": "",
+  "summary": "Sena has experience in understanding and applying security concepts for cloud platforms. She defines security needs for cloud designs, provides security services on AWS, and manages risks for cloud solutions. Sena is recognized as an AWS Security Hero for her expertise and is also one of the organizers for AWS Community Day Turkiye, demonstrating her commitment to building and supporting the cloud community. She is skilled in creating secure cloud architectures, implementing best practices, and ensuring compliance with security standards. She has a strong background in incident response, threat analysis, and vulnerability management. Sena is also proficient in automating security processes and integrating security tools to enhance the overall security posture of cloud systems.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xoYFKQHGTNPXTBemBnXXU6nXP6.webp",
+    "sourceUrl": "https://builder.aws.com/community/@senayakut",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@senayakut",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@senayakut",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@senayakut"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@senayakut",
+      "retrievedAt": "2026-06-21T18:18:22Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:22Z"
+}

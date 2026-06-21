@@ -1,0 +1,102 @@
+{
+  "id": "person_lukasz_luke_dorosz",
+  "slug": "lukasz-luke-dorosz",
+  "displayName": "Lukasz 'Luke' Dorosz",
+  "headline": "AWS Architect & Authorized Instructor",
+  "summary": "New tech geek, traveller, and golf freak. AWS Community HERO, AWS Architect & Instructor",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xnzKrZvNcqPtnE5RT6yiYQdbQ9.webp",
+    "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Authorized Instructor",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@mrdoro",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/mrdoro",
+      "handle": "mrdoro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "http://linkedin.com/in/lukaszdorosz/",
+      "handle": "lukaszdorosz",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/mrdoro",
+      "handle": "mrdoro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "http://youtube.com/@cloudheroes",
+      "handle": "@cloudheroes",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+      "retrievedAt": "2026-06-21T18:18:00Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:00Z"
+}

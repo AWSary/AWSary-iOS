@@ -1,0 +1,57 @@
+{
+  "id": "person_alvaro_hernandez",
+  "slug": "alvaro-hernandez",
+  "displayName": "Alvaro Hernandez",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": null,
+    "sourceUrl": null,
+    "sourceType": "aws_builder_center",
+    "verified": false
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@aht",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@aht",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@aht"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@aht",
+      "retrievedAt": "2026-06-21T18:16:46Z",
+      "fields": [
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:46Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "person_julia_morgado",
+  "slug": "julia-morgado",
+  "displayName": "Julia Morgado",
+  "headline": "",
+  "summary": "Julia is passionate about helping teams build reliable, observable, and scalable systems. At Dash0, she focuses on bridging the gap between technology and people, enabling organizations to understand their systems better and make data-driven decisions with confidence. Beyond her work, Julia is a CNCF Ambassador, AWS Container Hero, Docker Captain, Google Women Techmakers Ambassador, and Girl Code Ambassador. She’s an active community leader who helps organize Kubernetes Community Days New York, AWS Community Day New York, and the CNCF Midtown Meetup NYC, creating spaces where technologists can connect, learn, and grow together.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2dVfObFTDQY7wSNnHmb8gncv07e.webp",
+    "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.juliafmorgado.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@juliafmorgado"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@juliafmorgado",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@juliafmorgado"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+      "retrievedAt": "2026-06-21T18:17:41Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:41Z"
+}

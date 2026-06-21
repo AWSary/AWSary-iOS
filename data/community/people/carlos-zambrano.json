@@ -1,0 +1,68 @@
+{
+  "id": "person_carlos_zambrano",
+  "slug": "carlos-zambrano",
+  "displayName": "Carlos Zambrano",
+  "headline": "",
+  "summary": "I am a game-changing technology leader with a track record of repeated success at the helm of innovative strategies, tech transformation, and radical problem-solving, propelling growing companies to scale and gain a competitive advantage",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y5lQ1SqtIBF1mUliZe5beqy7IF.webp",
+    "sourceUrl": "https://builder.aws.com/community/@czam",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@czam",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@czam",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@czam",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@czam"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@czam",
+      "retrievedAt": "2026-06-21T18:17:09Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:09Z"
+}

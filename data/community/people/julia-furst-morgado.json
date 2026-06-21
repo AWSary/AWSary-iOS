@@ -1,0 +1,63 @@
+{
+  "id": "person_julia_furst_morgado",
+  "slug": "julia-furst-morgado",
+  "displayName": "Julia Furst Morgado",
+  "headline": "AWS Container Hero",
+  "summary": "<p>Julia is a Global Technologist on the Product Strategy team in the Office of the &hellip;</p> <p><a href=\"https://aws.amazon.com/developer/community/heroes/julia-morgado/?did=dh_card-body&amp;trk=dh_card-body\" rel=\"noopener\" target=\"_blank\">Learn more &raquo;</a></p>",
+  "location": {
+    "city": "New York City",
+    "country": "USA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Julia-100.5b0b4d9c265272245b5345dc09a13ccb9b878b54.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Container Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/julia-morgado/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/julia-morgado/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "person_chaocai",
+  "slug": "chaocai",
+  "displayName": "chaocai",
+  "headline": "",
+  "summary": "20+ years of world-class experience in software development, including more than 10 years as a software architect. Currently the VP and Chief Architect at Mobvista Inc. My WeChat public account is: chao-and-software",
+  "location": {
+    "city": null,
+    "country": "CN",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zlGOaii4PbpaF1pUV6jQa87xxE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@chaocai",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@chaocai",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@chaocai",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@chaocai"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@chaocai",
+      "retrievedAt": "2026-06-21T18:17:03Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:03Z"
+}

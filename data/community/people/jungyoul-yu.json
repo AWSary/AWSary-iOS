@@ -1,0 +1,117 @@
+{
+  "id": "person_jungyoul_yu",
+  "slug": "jungyoul-yu",
+  "displayName": "Jungyoul Yu",
+  "headline": "",
+  "summary": "🥕 SRE / 🚀 DevOps / 🦸🏻‍♂️ AWS AI Hero",
+  "location": {
+    "city": null,
+    "country": "KR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36OB4ouQT2xpQS4Sa3c66Ypr61M.webp",
+    "sourceUrl": "https://builder.aws.com/community/@nalbam",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@nalbam",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@nalbam",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@nalbam",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/nalbam/nalbam",
+      "handle": "nalbam",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/nalbam/",
+      "handle": "nalbam",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/nalbam",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/nalbam",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/nalbam",
+      "handle": "nalbam",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/user/nalbam",
+      "handle": "nalbam",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@nalbam"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@nalbam",
+      "retrievedAt": "2026-06-21T18:18:03Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:03Z"
+}

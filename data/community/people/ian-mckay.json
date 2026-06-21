@@ -1,0 +1,61 @@
+{
+  "id": "person_ian_mckay",
+  "slug": "ian-mckay",
+  "displayName": "Ian Mckay",
+  "headline": "Sydney, Australia 🇦🇺 | IaC & security enthusiast | Breaks basically everything",
+  "summary": "Ian is an AWS Community Hero working in Sydney as the Cloud Principal at Kablamo. He is usually focused on cloud architecture, CI/CD and security, but is always trying out the latest AWS services.",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "NSW"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xn2sEyQKIeKCpXvHgvsDR2G5ME.webp",
+    "sourceUrl": "https://builder.aws.com/community/@ianmckay",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ianmckay",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@ianmckay",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@ianmckay"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@ianmckay",
+      "retrievedAt": "2026-06-21T18:17:35Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:35Z"
+}

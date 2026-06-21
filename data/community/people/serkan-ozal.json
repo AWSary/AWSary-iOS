@@ -1,0 +1,57 @@
+{
+  "id": "person_serkan_ozal",
+  "slug": "serkan-ozal",
+  "displayName": "Serkan Özal",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": null,
+    "sourceUrl": null,
+    "sourceType": "aws_builder_center",
+    "verified": false
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sozal",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sozal",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sozal"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sozal",
+      "retrievedAt": "2026-06-21T18:18:31Z",
+      "fields": [
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:31Z"
+}

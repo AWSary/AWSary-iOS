@@ -1,0 +1,76 @@
+{
+  "id": "person_rosius_ndimofor",
+  "slug": "rosius-ndimofor",
+  "displayName": "Rosius Ndimofor",
+  "headline": "",
+  "summary": "Software Engineer with over 10yrs of Mobile and Web Developers. Created a learning platform to Master Cloud and AI through hands-on workshops.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xnyEcRl05uzWVorWIXmUR0ePFu.webp",
+    "sourceUrl": "https://builder.aws.com/community/@rosius",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "Now Go Builder Cto",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rosius",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rosius",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://educloud.academy",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rosius"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@rosius",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@rosius"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@rosius",
+      "retrievedAt": "2026-06-21T18:18:16Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:16Z"
+}

@@ -10,6 +10,7 @@ The first supported source is public AWS Heroes data. The model is program-neutr
 - `schemas/person.schema.json`: JSON Schema 2020-12 contract for canonical records.
 - `schemas/people-index.schema.json`: contract for the compact client index.
 - `indexes/people.index.json`: generated list/search payload. Drafts are excluded by default.
+- `indexes/builder-center-heroes.index.json`: generated Builder Center alias index used for detail harvesting.
 - `indexes/topics.index.json` and `indexes/programs.index.json`: initial seed vocabularies for later normalization work.
 - `builder-center-seeds.txt`: tested public seed URLs.
 - `raw/builder-center/`: ignored local HTTP and candidate cache. Only `.gitkeep` is committed.
@@ -51,6 +52,26 @@ python3 -m venv .venv
 
 ## Harvest public data
 
+Builder Center exposes Hero discovery and full profile details through separate public APIs. Run the pipeline in two steps.
+
+First, build the current Hero alias index. This discovers the `HERO` group through `/camp/groups`, then reads its members from `/camp/groups/{groupId}/members`:
+
+```sh
+.venv/bin/python scripts/community/build_builder_center_index.py --refresh
+```
+
+Second, fetch every full profile with `POST /ums/getProfileByAlias` using the aliases from that index:
+
+```sh
+.venv/bin/python scripts/community/harvest_builder_center.py \
+  --builder-index data/community/indexes/builder-center-heroes.index.json \
+  --refresh
+```
+
+The group index currently includes trimmed card data. The per-alias call supplies the complete biography, headline, Builder Center avatar, AWS program memberships, location, and public social links. Profiles without a public alias are reported in `omittedWithoutAlias` because `getProfileByAlias` cannot retrieve them.
+
+For targeted inspection, use one URL or alias directly:
+
 Use one URL directly:
 
 ```sh
@@ -65,14 +86,14 @@ For a normal Builder Center profile, the public alias is the most direct seed:
   --builder-alias "misskecupbung"
 ```
 
-Or use the tested bulk seed file:
+The legacy AWS Heroes directory can still be harvested as a comparison source:
 
 ```sh
 .venv/bin/python scripts/community/harvest_builder_center.py \
   --seed-file data/community/builder-center-seeds.txt
 ```
 
-The current bulk seed is AWS's unauthenticated `aws.amazon.com/api/dirs/items/search` community-heroes directory endpoint. It exposes structured Hero card data and is more useful for bulk seeding than the current Builder Center HTML shell.
+The legacy bulk seed is AWS's unauthenticated `aws.amazon.com/api/dirs/items/search` community-heroes directory endpoint. It exposes abbreviated Hero card data, not complete Builder Center profiles.
 
 The harvester:
 
@@ -89,9 +110,9 @@ Use `--refresh` to bypass the local cache. Run `--help` for timeout, retry, dela
 
 ### Current Builder Center behavior
 
-As tested on 2026-06-21, `builder.aws.com/community/heroes/...` returns a small client-rendered HTML shell. It contains site-level JSON-LD but no person payload. The data access contract and static public session header are defined in the downloaded production JavaScript. This project inspects and caches those public assets without executing them, and uses the same public profile call for known aliases.
+As tested on 2026-06-21, the Heroes page builds its index from the public `camp` group endpoints and loads full records from `https://api.builder.aws.com/ums/getProfileByAlias`. The data access contract and static public session header are defined in the production JavaScript. The scripts use the same public calls with no browser cookies or private credentials.
 
-Hero vanity URLs use a display-name path rather than necessarily exposing the Builder alias. The bulk AWS Heroes directory remains the reliable discovery seed; known Builder aliases can be supplied directly. The parser also remains ready for schema.org `Person`, Next.js data, or other supported public JSON shapes as the frontend changes.
+Hero vanity URLs use a display-name path rather than the Builder alias. For example, `/community/heroes/TiagoRodrigues` resolves through the Hero group entry whose API alias is `tigpt`; posting `TiagoRodrigues` to `getProfileByAlias` is invalid. This is why the index step must precede full-profile harvesting.
 
 ## Validate canonical data
 

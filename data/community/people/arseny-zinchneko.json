@@ -1,0 +1,85 @@
+{
+  "id": "person_arseny_zinchneko",
+  "slug": "arseny-zinchneko",
+  "displayName": "Arseny Zinchneko",
+  "headline": "RTFM! DevOps[at]UA",
+  "summary": "DevOps, cloud and infrastructure engineer. Love Linux, OpenSource, and AWS. Tech. blog writer at https://rtfm.co.ua/en",
+  "location": {
+    "city": null,
+    "country": "UA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/34rguAWArYk9aVNsfP8bPbOxrlt.webp",
+    "sourceUrl": "https://builder.aws.com/community/@setevoy",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@setevoy",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://rtfm.co.ua/en",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@setevoy"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@setevoy",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@setevoy"
+    },
+    {
+      "type": "linkedin",
+      "label": "Github",
+      "url": "https://www.linkedin.com/in/setevoy/",
+      "handle": "setevoy",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@setevoy"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/setevoy",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@setevoy"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@setevoy",
+      "retrievedAt": "2026-06-21T18:18:24Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:24Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "person_austen_collins",
+  "slug": "austen-collins",
+  "displayName": "Austen Collins",
+  "headline": "Creator Serverless Framework, Founder serverless.com",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": null,
+    "sourceUrl": null,
+    "sourceType": "aws_builder_center",
+    "verified": false
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2016,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@austen",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@austen",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@austen"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/austencollins",
+      "handle": "austencollins",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@austen"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/austen-collins-80427a69/",
+      "handle": "austen-collins-80427a69",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@austen"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/austencollins",
+      "handle": "austencollins",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@austen"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@austen",
+      "retrievedAt": "2026-06-21T18:16:54Z",
+      "fields": [
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:54Z"
+}

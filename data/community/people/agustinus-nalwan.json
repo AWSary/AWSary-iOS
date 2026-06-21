@@ -1,0 +1,93 @@
+{
+  "id": "person_agustinus_nalwan",
+  "slug": "agustinus-nalwan",
+  "displayName": "Agustinus Nalwan",
+  "headline": "AWS ML Hero",
+  "summary": "Living to innovate to make people’s lives easier and with over 30 years of experience in software development, Gus has worked in various industries from 3D/Animation, Games Development, Desktop Software, Native Apps, Computer Vision, AI, and Generative AI",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xwixOnfyAINWryCQK74WIYaEcI.webp",
+    "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://medium.com/@agustinus-nalwan",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@gusnalwan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/msubzero2000",
+      "handle": "msubzero2000",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/agustinus-nalwan/",
+      "handle": "agustinus-nalwan",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@agustinusnalwan2200",
+      "handle": "@agustinusnalwan2200",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+      "retrievedAt": "2026-06-21T18:17:29Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:29Z"
+}

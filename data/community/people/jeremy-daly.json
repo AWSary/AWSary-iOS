@@ -1,0 +1,92 @@
+{
+  "id": "person_jeremy_daly",
+  "slug": "jeremy-daly",
+  "displayName": "Jeremy Daly",
+  "headline": "",
+  "summary": "Seasoned technology and product leader with 25+ years of experience transforming complex, multi-source data into intelligent, cloud-scale products. Proven record of building and leading cross-functional teams of engineers, data scientists, and product managers to deliver AI-, data-, and cloud-driven innovation at scale. A recognized AWS Serverless Hero, keynote speaker, and developer advocate, trusted for translating cutting-edge research into clear, accessible narratives that align teams and inspire customers. Deep expertise in AWS, semantic data architectures, and large-scale machine-learning systems that drive measurable business outcomes.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/35lL7PkpNF1NFmbgKQHUSf9IFUU.webp",
+    "sourceUrl": "https://builder.aws.com/community/@jeremydaly",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.jeremydaly.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@jeremydaly",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/jeremydaly",
+      "handle": "jeremydaly",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jeremydaly/",
+      "handle": "jeremydaly",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/jeremy_daly",
+      "handle": "jeremy_daly",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@jeremydaly",
+      "retrievedAt": "2026-06-21T18:17:38Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:38Z"
+}

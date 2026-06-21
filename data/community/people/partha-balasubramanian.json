@@ -1,0 +1,63 @@
+{
+  "id": "person_partha_balasubramanian",
+  "slug": "partha-balasubramanian",
+  "displayName": "Partha Balasubramanian",
+  "headline": "AWS Community Hero",
+  "summary": "<p>Partha Balasubramanian is a Cloud Solution Architect at 8K Miles, helping large Fortune 500...</p><p><a href=\"https://aws.amazon.com/developer/community/heroes/parthasarathi-balasubramanian/?did=dh_card-body&trk=dh_card-body\" target=\"_blank\" rel=\"noopener\">Learn more »</a></p>",
+  "location": {
+    "city": "Chennai",
+    "country": "India",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/partha-balasubramanian.9a99f6e256cfa26276ed9bb11aee843e52cf0ad7.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Community Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/parthasarathi-balasubramanian/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/parthasarathi-balasubramanian/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

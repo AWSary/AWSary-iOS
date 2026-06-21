@@ -1,0 +1,75 @@
+{
+  "id": "person_virginie_mathivet",
+  "slug": "virginie-mathivet",
+  "displayName": "Virginie Mathivet",
+  "headline": "",
+  "summary": "22 ans d'expérience dans l'IA, Dr en IA. Aujourd'hui fondatrice et dirigeante d'Hemelopse, qui accompagne les entreprises dans leur roadmap stratégique autour de l'IA. Aussi conférencière et auteure",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2yMqvfJbsDWVCJhOoK6FTPMwM1X.webp",
+    "sourceUrl": "https://builder.aws.com/community/@virginie",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@virginie",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@virginie",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@virginie"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/VirginieMathivet",
+      "handle": "VirginieMathivet",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@virginie"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/virginie-mathivet/",
+      "handle": "virginie-mathivet",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@virginie"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@virginie",
+      "retrievedAt": "2026-06-21T18:18:43Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:43Z"
+}

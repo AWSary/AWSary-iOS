@@ -1,0 +1,102 @@
+{
+  "id": "person_shaoyi_li",
+  "slug": "shaoyi-li",
+  "displayName": "Shaoyi Li",
+  "headline": "AWS Community Hero, AWS UG China Leader, help global developers upskill in AWS.",
+  "summary": "Shaoyi Li is a Lead Cloud Engineer focusing on cybersecurity and GenAI, advocating for cloud GenAI security and governance solutions to help the community build secure, compliant, and responsible GenAI applications. He partners with the security community to reinforce the mindset that \"security is job zero.\" He has obtained 15x AWS Certifications and 88x AWS Badges, demonstrating his enthusiasm and professional expertise in AWS. Shaoyi Li is a regular speaker at AWS events, such as AWS re:Invent, AWS re:Inforce, AWS Summits, AWS media events, AWS Community Days, and AWS User Group Meetups. He shares his insights in AWS case studies, AWS blogs and social media. His impactful content has attracted over 145k followers, 20 million views, and 1.5 million likes across his channels. He received the 2023 & 2024 Annual Best Blogger and Best Certification Ambassador from AWS T&C, was recognized as the best AWS Hero of the Year in China 2024 and selected by Jefferson Frank as one of the “Top 20 Global AWS Influencers to Follow.” As an AWS User Group China committee member, Shaoyi Li supports the members by helping them deepen their AWS expertise to deliver more high-quality events to the community. His cloud journey never ends, much like his commitment to the AWS community. His dedication, hard work, and persistence in his AWS cloud journey have inspired many developers from underrepresented regions to launch their cloud journeys and contribute their knowledge back to the community.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "FL"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/344FBfVPjuinZdqOwir5wktXs28.webp",
+    "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.csdn.net/m0_66628975?spm=1000.2115.3001.10640",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@shaoyi",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/szl0144",
+      "handle": "szl0144",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/shaoyi-li-cloud",
+      "handle": "shaoyi-li-cloud",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.instagram.com/shaoyi_cloudsec/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+      "retrievedAt": "2026-06-21T18:18:24Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:24Z"
+}

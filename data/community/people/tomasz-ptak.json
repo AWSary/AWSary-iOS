@@ -1,0 +1,85 @@
+{
+  "id": "person_tomasz_ptak",
+  "slug": "tomasz-ptak",
+  "displayName": "Tomasz Ptak",
+  "headline": "Software engineer with love for building strong teams and communities",
+  "summary": "I am a boring java dev with an interest in developer experience, learning, organisation development and communities. I have joined the AWS Communities world through AWS DeepRacer and am on the lookout for opportunities to support engineers, students, communities and growth-mindset organisations",
+  "location": {
+    "city": null,
+    "country": "GB",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3175TKyuZUzxZgPJBxTIZMkQWd8.webp",
+    "sourceUrl": "https://builder.aws.com/community/@tptak",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@tptak",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://codelikeamother.uk",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@tptak"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@tptak",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@tptak"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/breadcentric",
+      "handle": "breadcentric",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@tptak"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/tomasz-ptak/",
+      "handle": "tomasz-ptak",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@tptak"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@tptak",
+      "retrievedAt": "2026-06-21T18:18:39Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:39Z"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "person_pascal_martin",
+  "slug": "pascal-martin",
+  "displayName": "Pascal MARTIN",
+  "headline": "Principal Engineer, working on performance, resiliency, scalability and costs.",
+  "summary": "Principal Engineer, 🌩️ DevOps. 🎤 Speaker. 📚 Author of “Votre Première Conférence”, “The Copenhagen Initiative”. AWS Container Hero. 🖋️ Currently writing “Découvrez AWS, en un mois” 📖. Messages+opinions are my own. FR/EN.",
+  "location": {
+    "city": null,
+    "country": "FR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ucGKS0RnlbISDDT4vpJYzxX7RF.webp",
+    "sourceUrl": "https://builder.aws.com/community/@pmartin",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@pmartin",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.pascal-martin.fr/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@pmartin"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@pmartin",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@pmartin"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/martinpascal/",
+      "handle": "martinpascal",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@pmartin"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://pascal-martin.fr",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@pmartin"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://bsky.app/profile/pascal-martin.fr",
+      "handle": "pascal-martin.fr",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@pmartin"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@pmartin",
+      "retrievedAt": "2026-06-21T18:18:10Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:10Z"
+}

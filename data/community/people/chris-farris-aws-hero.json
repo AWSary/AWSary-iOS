@@ -1,0 +1,85 @@
+{
+  "id": "person_chris_farris_aws_hero",
+  "slug": "chris-farris-aws-hero",
+  "displayName": "Chris Farris [AWS Hero]",
+  "headline": "Cloud Security Consultant and Evangelist / AWS Security Hero / IANS Faculty",
+  "summary": "Chris Farris has been in the IT field since 1994 primarily focused on Linux, networking, and security. For the last 8 years, he has focused on public-cloud and public-cloud security. He has built and evolved multiple cloud security programs for major media companies, focusing on enabling the broader security team’s objectives of secure design, incident response and vulnerability management. He has developed cloud security standards and baselines to provide risk-based guidance to development and operations teams. As a practitioner, he’s architected and implemented multiple serverless and traditional cloud applications focused on deployment, security, operations, and financial modeling. He is one of the organizers of the fwd:cloudsec conference (https://fwdcloudsec.org) and has given multiple presentations at AWS conferences and BSides events. He was named one of the inaugural AWS Security Heroes. He is available for cloud security advisory services though his consulting firm PrimeHarbor. When not building things with AWS’s building blocks, he enjoys building Legos with his kid and figuring out what interesting part of the globe to travel to next. He opines on security and technology on Mastodon, Twitter and his website https://www.chrisfarris.com",
+  "location": {
+    "city": null,
+    "country": "PT",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y66GIw69vq84IdjGVlC0h3zKEm.webp",
+    "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.chrisfarris.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@chrisatroom17",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/jchrisfarris",
+      "handle": "jchrisfarris",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jcfarris/",
+      "handle": "jcfarris",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+      "retrievedAt": "2026-06-21T18:17:04Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:04Z"
+}

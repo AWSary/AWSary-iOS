@@ -1,0 +1,59 @@
+{
+  "id": "person_luc_van_donkersgoed",
+  "slug": "luc-van-donkersgoed",
+  "displayName": "Luc van Donkersgoed",
+  "headline": "",
+  "summary": "Luc is an AWS Serverless Hero and Principal Engineer at PostNL, where he designs and builds enterprise-scale serverless architectures. He is well known for his articles, presentations, videos, and podcasts about AWS.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y0GLM77zCjWq3TAVsNlDNa7653.webp",
+    "sourceUrl": "https://builder.aws.com/community/@donkersgoed",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@donkersgoed",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@donkersgoed",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@donkersgoed"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@donkersgoed",
+      "retrievedAt": "2026-06-21T18:17:18Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:18Z"
+}

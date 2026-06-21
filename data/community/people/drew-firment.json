@@ -1,0 +1,59 @@
+{
+  "id": "person_drew_firment",
+  "slug": "drew-firment",
+  "displayName": "Drew Firment",
+  "headline": "",
+  "summary": "Drew Firment is Chief Cloud Strategist at Pluralsight (acquired A Cloud Guru), where he accelerates customer outcomes through skills development. He is an AWS Hero for his dedication to building large-scale learning communities that drive business transformations, and his passion for teaching the world to cloud. Drew was previously Director of Cloud Engineering at Capital One. He led enterprise cloud operations within their Cloud Center of Excellence focusing on migrating the early adopters of Amazon Web Services (AWS). He founded Capital One's cloud engineering college that drove a large-scale talent transformation, and earned a patent for measuring cloud adoption and maturity.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xn20LKAAFnP7AQYWIBgYPzya5C.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2017,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cloudfather",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cloudfather"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+      "retrievedAt": "2026-06-21T18:17:04Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:04Z"
+}

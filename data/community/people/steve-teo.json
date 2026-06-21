@@ -1,0 +1,84 @@
+{
+  "id": "person_steve_teo",
+  "slug": "steve-teo",
+  "displayName": "Steve Teo",
+  "headline": "",
+  "summary": "AWS Community Hero since 2020 AWS User Group Singapore Leader I specialize in Cloud Architecture and Security",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2omF42CTAVY7WPOgXj1Hsq0XEcJ.webp",
+    "sourceUrl": "https://builder.aws.com/community/@stevepotayteo",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@stevepotayteo",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/steveteo/",
+      "handle": "steveteo",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/stevepotayteo",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@stevepotayteo",
+      "retrievedAt": "2026-06-21T18:18:33Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:33Z"
+}

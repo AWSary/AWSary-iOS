@@ -1,0 +1,100 @@
+{
+  "id": "person_sheen_brisals",
+  "slug": "sheen-brisals",
+  "displayName": "Sheen Brisals",
+  "headline": "",
+  "summary": "Sheen is a technologist, speaker, and co-author of 'Serverless Development on AWS: Building Enterprise-Scale Serverless Solutions' (O'Reilly, 2024), and author of 'Speak Effectively At Conferences.' As an experienced engineering leader, Sheen guides enterprise teams in cloud adoption.",
+  "location": {
+    "city": null,
+    "country": "GB",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xxXmjHABabGrgaXbhlONmEc3eC.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sheenbrisals",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://sbrisals.medium.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sheenbrisals",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/sheen-brisals/",
+      "handle": "sheen-brisals",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.sheenbrisals.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/sheenbrisals",
+      "handle": "sheenbrisals",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@sheenbrisals6427",
+      "handle": "@sheenbrisals6427",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sheenbrisals",
+      "retrievedAt": "2026-06-21T18:18:25Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:25Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "person_sathyajith_bhat",
+  "slug": "sathyajith-bhat",
+  "displayName": "Sathyajith Bhat",
+  "headline": "",
+  "summary": "Sathyajith Bhat is an experienced Cloud Architect & SRE with over 17 years of experience in Cloud Architecture, DevOps, Site Reliability Engineering. His expertise includes AWS, Azure, Kubernetes, Docker, Chef, Python, TypeScript, Linux, Bash, Docker, Terraform, Prometheus and more. He is not fanatic about specific tools or services and believes in making the most available out of the tools he gets to work with. He is the author of [Practical Docker with Python](https://amzn.to/3B9pQaz), a co-author of [The CDK Book](https://www.thecdkbook.com/) and is recognized as an [AWS Container Hero](https://builder.aws.com/community/@sathyabhat)",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xo5SV4JfrgltfOlEN4Lx3PBitg.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://sathyasays.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sathyabhat",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/sathyabhat",
+      "handle": "sathyabhat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/sathyabhat",
+      "handle": "sathyabhat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/sathyabhat",
+      "handle": "sathyabhat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@sathyabhat",
+      "handle": "@sathyabhat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+      "retrievedAt": "2026-06-21T18:18:20Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:20Z"
+}

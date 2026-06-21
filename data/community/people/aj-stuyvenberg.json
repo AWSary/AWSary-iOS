@@ -1,0 +1,91 @@
+{
+  "id": "person_aj_stuyvenberg",
+  "slug": "aj-stuyvenberg",
+  "displayName": "AJ Stuyvenberg",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/30h6v8e3V6W44ZhY9cXkEKwytIa.webp",
+    "sourceUrl": "https://builder.aws.com/community/@astuyve",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@astuyve",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://aaronstuyvenberg.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@astuyve"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@astuyve",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@astuyve"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/astuyve",
+      "handle": "astuyve",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@astuyve"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/aaron-stuyvenberg/",
+      "handle": "aaron-stuyvenberg",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@astuyve"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@astuyve",
+      "handle": "@astuyve",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@astuyve"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@astuyve",
+      "retrievedAt": "2026-06-21T18:16:54Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:54Z"
+}

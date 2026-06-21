@@ -1,0 +1,68 @@
+{
+  "id": "person_albert_suwandhi",
+  "slug": "albert-suwandhi",
+  "displayName": "Albert Suwandhi",
+  "headline": "",
+  "summary": "Albert Suwandhi is an academic and a Cloud Infrastructure Engineer from Medan, Indonesia. He is an IT Lecturer at Universitas IBBI and Universitas Pelita Harapan where he promotes and lectures cloud computing related courses using AWS.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xueFDPqeAvQ3oYB0pBnH4SLAJV.webp",
+    "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@albertsuwandhi",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+      "retrievedAt": "2026-06-21T18:16:47Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:47Z"
+}

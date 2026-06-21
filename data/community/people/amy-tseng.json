@@ -1,0 +1,84 @@
+{
+  "id": "person_amy_tseng",
+  "slug": "amy-tseng",
+  "displayName": "Amy Tseng",
+  "headline": "",
+  "summary": "I love building modern data and AI solutions that actually deliver value. Over the years—in the financial industry and across large, complex organizations—I’ve led major data modernization programs, rethought enterprise architecture, and built platforms that scale. Whether it’s driving cloud transformation, shaping data strategy, or coaching teams, I bring curiosity, clarity, and energy to the work. I’m passionate about using data and AI to unlock new possibilities and help organizations move faster, smarter, and with more confidence.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "VA"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xn4xnWHKZn3KA7fGfNijlTu646.webp",
+    "sourceUrl": "https://builder.aws.com/community/@amyt",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@amyt",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://aws.amazon.com/blogs/big-data/how-bmo-improved-data-security-with-amazon-redshift-and-aws-lake-formation/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@amyt"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@amyt",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@amyt"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/amy-p-tseng",
+      "handle": "amy-p-tseng",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@amyt"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/watch?v=YnUteI6XSTs",
+      "handle": "watch",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@amyt"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@amyt",
+      "retrievedAt": "2026-06-21T18:16:49Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:49Z"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "person_becky_zhang",
+  "slug": "becky-zhang",
+  "displayName": "Becky Zhang",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2yGZxjX82FC4CaVtdfolfVnrAK4.webp",
+    "sourceUrl": "https://builder.aws.com/community/@beckyame",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2017,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@beckyame",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@beckyame",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@beckyame"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/beckyame_0412?s=21&t=RGqQ8EH-IluYMjdLMHHVpw",
+      "handle": "beckyame_0412",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@beckyame"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@beckyame",
+      "retrievedAt": "2026-06-21T18:16:57Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:57Z"
+}

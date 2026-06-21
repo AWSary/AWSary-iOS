@@ -1,0 +1,102 @@
+{
+  "id": "person_ewere_diagboya",
+  "slug": "ewere-diagboya",
+  "displayName": "Ewere Diagboya",
+  "headline": "DevOps Engineer, Published Author, Blogger @ www.ewere.tech, AI Enthusiast",
+  "summary": "Ewere started his career in tech in 2003. He started as a Software Developer in PHP, Visual Basic, HTML, and CSS. He later switched to DevOps and Cloud in 2015. He is the first AWS Community Hero in Africa and a multi-published author. Keynote speaker and Panel speaker at numerous events. He is an AWS Community leader in Nigeria. He speaks about Cloud Computing, DevOps, and innovations around efficient software delivery technologies and processes. He has also been a judge for the Cybersafe Cybergirls Fellowship, PipeOps Hackathon, and Payaza Hackathon. He is the chief editor at EDT (www.ewere.tech), where he writes about AI, AWS, DevOps, and Cloud Computing from the latest announcements in the fields to technical guides and articles about concepts that drive those technologies. EDT is also an open community that allows contributions from other authors. He recently started delving into the tenets of Artificial Intelligence and continues to find ways to implement AI systems in software delivery and efficiency.",
+  "location": {
+    "city": null,
+    "country": "NG",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2osFjgqSJQN5jIBP8IN201RJelc.webp",
+    "sourceUrl": "https://builder.aws.com/community/@ewere",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ewere",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ewere",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.ewere.tech",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ewere"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@ewere",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@ewere"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/nimboya",
+      "handle": "nimboya",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ewere"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/ewere",
+      "handle": "ewere",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ewere"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/nimboya",
+      "handle": "nimboya",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ewere"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@ewere",
+      "retrievedAt": "2026-06-21T18:17:23Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:23Z"
+}
