@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://awsary.example/schemas/community/people-index.schema.json",
+  "title": "AWSary Community People Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["generatedAt", "count", "people"],
+  "properties": {
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "count": { "type": "integer", "minimum": 0 },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "slug",
+          "displayName",
+          "headline",
+          "country",
+          "avatarUrl",
+          "primaryProgram",
+          "topics",
+          "profileStatus"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^person_[a-z0-9]+(?:_[a-z0-9]+)*$" },
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "displayName": { "type": "string", "minLength": 1 },
+          "headline": { "type": ["string", "null"] },
+          "country": { "type": ["string", "null"] },
+          "avatarUrl": {
+            "oneOf": [{ "type": "null" }, { "type": "string", "format": "uri" }]
+          },
+          "primaryProgram": { "type": ["string", "null"] },
+          "topics": {
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "profileStatus": {
+            "enum": ["draft", "published", "hidden", "needs_review"]
+          }
+        }
+      }
+    }
+  }
+}

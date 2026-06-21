@@ -22,6 +22,8 @@ xcuserdata/
 MANIFEST
 dist/
 build/
+__pycache__/
+.venv/
 
 # Backup files
 *~.nib
@@ -83,3 +85,8 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Community data harvester caches (keep directory placeholders only)
+data/community/raw/**
+!data/community/raw/**/
+!data/community/raw/**/.gitkeep
