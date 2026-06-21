@@ -31,11 +31,15 @@ struct AppTabsView: View {
                AAIplannerContentView()
            }
 
-//           Tab(role: .search) {
-//               SearchView()
-//           }
+           Tab(role: .search) {
+               SearchView(searchString: $searchString)
+           }
        }
        .tabViewStyle(.sidebarAdaptable)
+       .searchable(
+           text: $searchString,
+           prompt: "Search services and community"
+       )
     }
  }
 
