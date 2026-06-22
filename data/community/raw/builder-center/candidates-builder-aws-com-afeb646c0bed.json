@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "hoegertn",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5551b77fa0ee.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+        "url": "https://avatars.builderprofile.aws.dev/2olpcJQ5BWl4sNP92ihfAMU1Xen.webp",
+        "verified": true
+      },
+      "displayName": "Thorsten Höger",
+      "featuredContent": [],
+      "headline": "Cloud Automation Evangelist",
+      "id": "person_thorsten_hoger",
+      "lastHarvestedAt": "2026-06-21T18:17:33Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "type": "blog",
+          "url": "https://taimos.de/blog",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hoegertn",
+          "verified": true
+        },
+        {
+          "handle": "hoegertn",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "type": "github",
+          "url": "https://github.com/hoegertn",
+          "verified": false
+        },
+        {
+          "handle": "hoegertn",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/hoegertn/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "type": "website",
+          "url": "https://dev.to/hoegertn",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "Baden-Wuerttemberg"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn",
+          "startYear": 2017,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "thorsten-hoger",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:33Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hoegertn"
+        }
+      ],
+      "summary": "Thorsten is a Cloud Automation Evangelist at Taimos, where he advises customers on using AWS. As a developer, he focuses on improving development processes and automating everything to build efficient deployment pipelines for customers of all sizes. As a supporter of open-source software, Thorsten maintains or contributes to several projects, mainly developer tools for AWS. He is the president of the Open Construct Foundation and maintainer of the Community-Driven CDK Construct Library. He is also a board member of the support association for the AWS community in the DACH region. Before becoming self-employed, Thorsten was a developer and CTO of Germany’s first private bank running on AWS. He and his colleagues migrated the core banking system to the AWS platform in 2013. Since then, he has frequently spoken at conferences, meetups, barcamps, and other community events.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:33Z",
+  "seedUrl": "https://builder.aws.com/community/@hoegertn"
+}

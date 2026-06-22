@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "rolle",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6720924aa551.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@rolle",
+        "url": "https://avatars.builderprofile.aws.dev/35nNj8ifjw0rQzmlx57jVUtx7su.webp",
+        "verified": true
+      },
+      "displayName": "Rolf Koski",
+      "featuredContent": [],
+      "headline": "CTO & Co-founder at Elexive",
+      "id": "person_rolf_koski",
+      "lastHarvestedAt": "2026-06-21T18:18:16Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "type": "blog",
+          "url": "https://therolle.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@rolle",
+          "verified": true
+        },
+        {
+          "handle": "therolle",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "type": "github",
+          "url": "https://github.com/therolle",
+          "verified": false
+        },
+        {
+          "handle": "rolle",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/rolle",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "FI",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@rolle",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "rolf-koski",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:16Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@rolle"
+        }
+      ],
+      "summary": "Rolf is Co-founder and CTO of Elexive, an AI-native leadership services company helping good leadership turn into Great Leadership. He is focused on building AI-assisted workflows that democratize access to best business leadership practices and data. He has a track record as one of the leading cloud transformation experts in the Nordics and has 18+ years of actual concrete AI experience. He sees community contributions as a valuable asset and founded AWS Community Day Nordics and leads AWS User Group Finland, one of the largest IT communities in the Nordics. Rolf is known for his pragmatic approach to making complex technical concepts actionable, bridging business leadership, company boards, developers, and makers. As \"The Pragmatist Futurist,\" he champions practical approaches that make advanced technology accessible and actionable.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:16Z",
+  "seedUrl": "https://builder.aws.com/community/@rolle"
+}

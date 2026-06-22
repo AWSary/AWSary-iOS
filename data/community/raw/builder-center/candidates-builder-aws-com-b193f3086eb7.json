@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "trista0zero",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-80b3fe56f225.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@trista0zero",
+        "url": "https://avatars.builderprofile.aws.dev/2yGMrIfsfxfvntsANMhnQL4xsgL.webp",
+        "verified": true
+      },
+      "displayName": "Trista Pan",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_trista_pan",
+      "lastHarvestedAt": "2026-06-21T18:18:40Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@trista0zero",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@trista0zero",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@trista0zero",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "trista-pan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:40Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@trista0zero"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:40Z",
+  "seedUrl": "https://builder.aws.com/community/@trista0zero"
+}

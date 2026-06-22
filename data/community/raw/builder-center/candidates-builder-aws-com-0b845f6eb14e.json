@@ -1,0 +1,107 @@
+{
+  "builderApi": {
+    "alias": "pmartin",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-39753351d890.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@pmartin",
+        "url": "https://avatars.builderprofile.aws.dev/2ucGKS0RnlbISDDT4vpJYzxX7RF.webp",
+        "verified": true
+      },
+      "displayName": "Pascal MARTIN",
+      "featuredContent": [],
+      "headline": "Principal Engineer, working on performance, resiliency, scalability and costs.",
+      "id": "person_pascal_martin",
+      "lastHarvestedAt": "2026-06-21T18:18:10Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "type": "blog",
+          "url": "https://blog.pascal-martin.fr/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@pmartin",
+          "verified": true
+        },
+        {
+          "handle": "martinpascal",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/martinpascal/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "type": "website",
+          "url": "https://pascal-martin.fr",
+          "verified": false
+        },
+        {
+          "handle": "pascal-martin.fr",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "type": "x",
+          "url": "https://bsky.app/profile/pascal-martin.fr",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "FR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "pascal-martin",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:10Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@pmartin"
+        }
+      ],
+      "summary": "Principal Engineer, 🌩️ DevOps. 🎤 Speaker. 📚 Author of “Votre Première Conférence”, “The Copenhagen Initiative”. AWS Container Hero. 🖋️ Currently writing “Découvrez AWS, en un mois” 📖. Messages+opinions are my own. FR/EN.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:10Z",
+  "seedUrl": "https://builder.aws.com/community/@pmartin"
+}

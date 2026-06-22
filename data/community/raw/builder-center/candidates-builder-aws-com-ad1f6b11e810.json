@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "benbridts",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3f6fb97d40b8.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@benbridts",
+        "url": "https://avatars.builderprofile.aws.dev/2ucZJwStjteh8Eqq5go1kp80nRX.webp",
+        "verified": true
+      },
+      "displayName": "Ben Bridts",
+      "featuredContent": [],
+      "headline": "AWS Technologist @ Cloudar",
+      "id": "person_ben_bridts",
+      "lastHarvestedAt": "2026-06-21T18:16:58Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@benbridts",
+          "verified": true
+        },
+        {
+          "handle": "benbridts",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "type": "github",
+          "url": "https://github.com/benbridts",
+          "verified": false
+        },
+        {
+          "handle": "benbridts",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/benbridts/",
+          "verified": false
+        },
+        {
+          "handle": "benbridts.be",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "type": "x",
+          "url": "https://bsky.app/profile/benbridts.be",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "BE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ben-bridts",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:58Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@benbridts"
+        }
+      ],
+      "summary": "Ben is an AWS Technologist at Cloudar and has been using AWS for over ten years. He works with businesses ranging from start-ups to enterprises. He provides architectural and operational support and shares his experiences along the way.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:58Z",
+  "seedUrl": "https://builder.aws.com/community/@benbridts"
+}

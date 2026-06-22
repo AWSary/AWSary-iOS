@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "kentagoto",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-0d7fa084595e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+        "url": "https://avatars.builderprofile.aws.dev/2btK3dDjbOe9yfOIua1go1c26h2.webp",
+        "verified": true
+      },
+      "displayName": "Kenta Goto",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kenta_goto",
+      "lastHarvestedAt": "2026-06-21T18:17:44Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "blog",
+          "url": "https://go-to-k.hatenablog.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kentagoto",
+          "verified": true
+        },
+        {
+          "handle": "go-to-k",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "github",
+          "url": "https://github.com/go-to-k",
+          "verified": false
+        },
+        {
+          "handle": "kenta-goto",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/kenta-goto/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "website",
+          "url": "https://dev.to/k_goto",
+          "verified": false
+        },
+        {
+          "handle": "365_step_tech",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "type": "x",
+          "url": "https://x.com/365_step_tech",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "JP",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kenta-goto",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:44Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+        }
+      ],
+      "summary": "- AWS DevTools Hero - AWS CDK Top Contributor & Community Reviewer - Maintainer of Open Constructs Library - OSS Creator: cls3, delstack, lamver, and some CDK Construct libraries",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:44Z",
+  "seedUrl": "https://builder.aws.com/community/@kentagoto"
+}

@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "nafia1212",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-2e3ab3be0ad7.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@nafia1212",
+        "url": "https://avatars.builderprofile.aws.dev/30tBrn7YD7S04xOw4s3CJyZA733.webp",
+        "verified": true
+      },
+      "displayName": "Nadia(Ronak) Reyhani",
+      "featuredContent": [],
+      "headline": "AI Product Engineer",
+      "id": "person_nadia_ronak_reyhani",
+      "lastHarvestedAt": "2026-06-21T18:18:02Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@nafia1212",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@nafia1212",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": "WA"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Machine Learning",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@nafia1212",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@nafia1212",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "nadia-ronak-reyhani",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:02Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@nafia1212"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:02Z",
+  "seedUrl": "https://builder.aws.com/community/@nafia1212"
+}

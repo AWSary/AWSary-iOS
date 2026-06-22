@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "zmaleki",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5583786e98ce.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+        "url": "https://avatars.builderprofile.aws.dev/35m4yQUWdNJx8VM3BxyJhE7AKKI.webp",
+        "verified": true
+      },
+      "displayName": "Zainab",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_zainab",
+      "lastHarvestedAt": "2026-06-21T18:18:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@zmaleki",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@zmaleki",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "zainab",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@zmaleki"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:50Z",
+  "seedUrl": "https://builder.aws.com/community/@zmaleki"
+}

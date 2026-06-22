@@ -1,0 +1,97 @@
+{
+  "builderApi": {
+    "alias": "benkehoe",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c0b130a3ff09.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+        "url": "https://avatars.builderprofile.aws.dev/2zqvzB4goAMPJ9mfrYvOQIqyYJe.webp",
+        "verified": true
+      },
+      "displayName": "Ben Kehoe",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ben_kehoe",
+      "lastHarvestedAt": "2026-06-21T18:16:58Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+          "type": "blog",
+          "url": "https://ben11kehoe.medium.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@benkehoe",
+          "verified": true
+        },
+        {
+          "handle": "benkehoe",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+          "type": "github",
+          "url": "https://github.com/benkehoe",
+          "verified": false
+        },
+        {
+          "handle": "ben11kehoe",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ben11kehoe/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe",
+          "startYear": 2017,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ben-kehoe",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:58Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@benkehoe"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:58Z",
+  "seedUrl": "https://builder.aws.com/community/@benkehoe"
+}

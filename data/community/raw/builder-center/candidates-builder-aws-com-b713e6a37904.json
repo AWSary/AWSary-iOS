@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "maxjp",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-8f372def040b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@maxjp",
+        "url": "https://avatars.builderprofile.aws.dev/2dL8blFigoEdzefVuywkDFSnS3R.webp",
+        "verified": true
+      },
+      "displayName": "Kohei \"Max\" MATSUSHITA",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kohei_max_matsushita",
+      "lastHarvestedAt": "2026-06-21T18:17:55Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@maxjp",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@maxjp",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@maxjp",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kohei-max-matsushita",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:55Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@maxjp"
+        }
+      ],
+      "summary": "IoT Evangelist at Soracom, Inc. My role is to bring IoT to the world through IoT application cases and demonstrations, and I have given over 800 talks since 2017.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:55Z",
+  "seedUrl": "https://builder.aws.com/community/@maxjp"
+}

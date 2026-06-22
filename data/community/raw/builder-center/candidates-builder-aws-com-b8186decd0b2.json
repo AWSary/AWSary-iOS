@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "abebars",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d508b5012c58.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@abebars",
+        "url": "https://avatars.builderprofile.aws.dev/2txHZkGOcPLHIJePpB9WYeBQm0A.webp",
+        "verified": true
+      },
+      "displayName": "Ahmed Bebars",
+      "featuredContent": [],
+      "headline": "Principal Engineer @ The New York Times | AWS Container Hero | Cloud Native Ambassador",
+      "id": "person_ahmed_bebars",
+      "lastHarvestedAt": "2026-06-21T18:16:43Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@abebars",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@abebars",
+          "verified": true
+        },
+        {
+          "handle": "abebars",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@abebars",
+          "type": "github",
+          "url": "https://github.com/abebars",
+          "verified": false
+        },
+        {
+          "handle": "ahmedbebars",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@abebars",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ahmedbebars",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "NY"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@abebars",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ahmed-bebars",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:43Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@abebars"
+        }
+      ],
+      "summary": "I am deeply passionate about technology and highly motivated to help people be more productive, at a faster pace. My focus is on leading teams in delivering resilient infrastructure and building platforms that improve enterprise productivity. I have a strong belief in the power of scalability and bring this sense of purpose to my mission in creating platforms that help shape everyone’s experience for the better. In my role as Principal Engineer on the Developer Platforms mission at The New York Times, I lead the implementation and delivery of robust and scalable Kubernetes-based solutions. I leverage deep technical leadership experience and engineering expertise to architect and deliver a scalable infrastructure platform and enhanced user experience to meet the organization’s business goals. As a leader, I build collaborative teams, which help to break down siloed efforts that duplicate work, impede innovation, and create chokepoints in knowledge sharing. I strive to strike the right balance of removing the friction of obstacles, while championing clear standards of excellence, so that people have the ability to use a platform and build on top it, ultimately making them more productive.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:43Z",
+  "seedUrl": "https://builder.aws.com/community/@abebars"
+}

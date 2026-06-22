@@ -1,0 +1,89 @@
+{
+  "builderApi": {
+    "alias": "awsteele",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-37bac03ef1f0.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@awsteele",
+        "url": "https://avatars.builderprofile.aws.dev/2zxLq9NAml4sVtngc4r7MMsCl8a.webp",
+        "verified": true
+      },
+      "displayName": "Aidan Steele",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_aidan_steele",
+      "lastHarvestedAt": "2026-06-21T18:16:56Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@awsteele",
+          "type": "blog",
+          "url": "https://awsteele.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@awsteele",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@awsteele",
+          "verified": true
+        },
+        {
+          "handle": "aidansteele",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@awsteele",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/aidansteele/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@awsteele",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "aidan-steele",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:56Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@awsteele"
+        }
+      ],
+      "summary": "AWS Hero based in Melbourne, Australia. I've been using AWS in some form or another since 2008, and full time for the last 5-10 years. My interests are security, containers and serverless - in no particular order.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:56Z",
+  "seedUrl": "https://builder.aws.com/community/@awsteele"
+}

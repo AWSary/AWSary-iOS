@@ -1,0 +1,89 @@
+{
+  "builderApi": {
+    "alias": "gillian",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-adc9b6625e8f.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@gillian",
+        "url": "https://avatars.builderprofile.aws.dev/31voLlfzy0o3HsY2lcs5yY4UgzA.webp",
+        "verified": true
+      },
+      "displayName": "Gillian McCann",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_gillian_mccann",
+      "lastHarvestedAt": "2026-06-21T18:17:27Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@gillian",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@gillian",
+          "verified": true
+        },
+        {
+          "handle": "gillian-mccann-6a743149",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@gillian",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/gillian-mccann-6a743149/",
+          "verified": false
+        },
+        {
+          "handle": "othergill",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@gillian",
+          "type": "x",
+          "url": "https://x.com/othergill",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "GB",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@gillian",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "gillian-mccann",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:27Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@gillian"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:27Z",
+  "seedUrl": "https://builder.aws.com/community/@gillian"
+}

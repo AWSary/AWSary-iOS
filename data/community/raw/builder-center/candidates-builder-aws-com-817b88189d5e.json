@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "vinicarida",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ff253169221f.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+        "url": "https://avatars.builderprofile.aws.dev/31KRQaAUFgHCbyK5fRPicvQGupX.webp",
+        "verified": true
+      },
+      "displayName": "Vinicius Caridá",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_vinicius_carida",
+      "lastHarvestedAt": "2026-06-21T18:18:42Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vinicarida",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vinicius-carida",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:42Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vinicarida"
+        }
+      ],
+      "summary": "With over 15 years of experience in IT and artificial intelligence, I hold both a Master's and a PhD in Computer Science, specializing in AI. I currently hold the position of Executive Specialist in Data and AI at Itaú Unibanco, while also teaching MBA programs in machine learning, data science, and business intelligence at FIAP and ESPM. My technical expertise spans generative AI, natural language processing, virtual assistants, chatbots, recommendation engines, control systems, and the entire MLOps lifecycle. I am honored to be recognized as an AWS Machine Learning Hero, Google Developer Expert in machine learning, and Google Champion Innovator. Additionally, I contribute as an advisor and mentor for Google Startups. I have contributed to the AI community as a Microsoft MVP in AI (2021-2022), and I currently lead AWS and Machine Learning/TensorFlow user groups in São Paulo. As Co-Chair of the LatinX in AI (LXAI) workshops at prestigious international conferences like AAAI, ICML, and NeurIPS, I remain committed to fostering diversity in AI research. As a TEDx speaker and presenter at national and international events, I am passionate about sharing my knowledge and driving discussions on AI's role in creating fairer and more innovative global solutions. My work is grounded in the belief that AI and data have the power to transform industries and improve lives.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:42Z",
+  "seedUrl": "https://builder.aws.com/community/@vinicarida"
+}

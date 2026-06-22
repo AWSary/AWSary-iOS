@@ -1,0 +1,123 @@
+{
+  "builderApi": {
+    "alias": "nickt",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-1bc943df588a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@nickt",
+        "url": "https://avatars.builderprofile.aws.dev/2rK0s8ugcxVWMm5TqyuD2QnkLWv.webp",
+        "verified": true
+      },
+      "displayName": "Nick Triantafillou",
+      "featuredContent": [],
+      "headline": "Senior MLOps / Cloud Engineer",
+      "id": "person_nick_triantafillou",
+      "lastHarvestedAt": "2026-06-21T18:18:04Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@nickt",
+          "verified": true
+        },
+        {
+          "handle": "xelfer",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "github",
+          "url": "https://github.com/xelfer/",
+          "verified": false
+        },
+        {
+          "handle": "nicktriantafillou",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/nicktriantafillou/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "website",
+          "url": "https://dev.to/xelfer",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "website",
+          "url": "https://nickt.com.au",
+          "verified": false
+        },
+        {
+          "handle": "nickt.com.au",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "x",
+          "url": "https://bsky.app/profile/nickt.com.au",
+          "verified": false
+        },
+        {
+          "handle": "@nickexplainsaws",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@nickexplainsaws/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": "NSW"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@nickt",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "nick-triantafillou",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:04Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@nickt"
+        }
+      ],
+      "summary": "Nick is a Cloud Engineer, Educator, User Group founder, and Christmas Light enthusiast. Having worked as a Linux System Administrator for over 20 years, he discovered AWS in 2009 and hasn't looked back. He was one of the original course instructors at cloud education startup A Cloud Guru, having taught over 1 million students the fundamentals of AWS, and also produced the world's first AWS Certified DevOps Engineer course. He's the founder of his local Wollongong AWS User Group, co-founder of the Sydney Serverless Meetup and has assisted in the planning and operation of both the ServerlessConf and ServerlessDays ANZ conferences. He runs @NickExplainsAWS, where he is attempting to make a video about every single AWS service on Tiktok and YouTube. Each December Nick brings traffic to a stand still by installing over 75,000 LEDs on his house for his serverless, AWS powered light show spectacular: https://twitter.com/AWSCloudANZ/status/1599629849798316035 You can keep up to date with Nick's latest projects via his blog or LinkedIn",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:04Z",
+  "seedUrl": "https://builder.aws.com/community/@nickt"
+}

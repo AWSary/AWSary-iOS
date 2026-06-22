@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "ilan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c04d6710a69b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ilan",
+        "url": "https://avatars.builderprofile.aws.dev/2ozAobl8GlBoOn4fZyWFBj63S35.webp",
+        "verified": true
+      },
+      "displayName": "Ilanchezhian Ganesamurthy",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ilanchezhian_ganesamurthy",
+      "lastHarvestedAt": "2026-06-21T18:17:36Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ilan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ilan",
+          "verified": true
+        },
+        {
+          "handle": "ilanchezhian",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ilan",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ilanchezhian/",
+          "verified": false
+        },
+        {
+          "handle": "ilan_g",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ilan",
+          "type": "x",
+          "url": "https://twitter.com/ilan_g",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ilan",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ilan",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ilanchezhian-ganesamurthy",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:36Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ilan"
+        }
+      ],
+      "summary": "Ilan is currently serving as the Director at Tietoevry, a leading (#1) Nordic Financial and IT service provider in the Nordic region. Ilan AWS UG - Chennai Co-organizer. He is working from AI since 2017. He is AIML & GenAI expert.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:36Z",
+  "seedUrl": "https://builder.aws.com/community/@ilan"
+}

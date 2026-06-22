@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "toshal",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-a8a24de43ee2.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@toshal",
+        "url": "https://avatars.builderprofile.aws.dev/30vHay789Jp1wY48DWZ2ObfvS8U.webp",
+        "verified": true
+      },
+      "displayName": "Toshal Khawale",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_toshal_khawale",
+      "lastHarvestedAt": "2026-06-21T18:18:39Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@toshal",
+          "verified": true
+        },
+        {
+          "handle": "toshal-khawale",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/toshal-khawale/",
+          "verified": false
+        },
+        {
+          "handle": "toshalk",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "type": "x",
+          "url": "https://x.com/toshalk",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Cloud Operations",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@toshal",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "toshal-khawale",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:39Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@toshal"
+        }
+      ],
+      "summary": "Seasoned Tech Leader with 22+ years in engineering leadership, specializing in AWS, Azure, and cloud-native technologies. Passionate about emerging technologies, particularly AI/ML, My expertise extends beyond the corporate sphere as AWS UG Pune Leader",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:39Z",
+  "seedUrl": "https://builder.aws.com/community/@toshal"
+}

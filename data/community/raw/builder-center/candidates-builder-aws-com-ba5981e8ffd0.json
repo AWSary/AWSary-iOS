@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "shimon",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7a4596739cc2.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@shimon",
+        "url": "https://avatars.builderprofile.aws.dev/2hxItWI6wha9W93Ish1KdnMlicB.webp",
+        "verified": true
+      },
+      "displayName": "Shimon Tolts",
+      "featuredContent": [],
+      "headline": "CEO & Co-Founder at Copperhelm",
+      "id": "person_shimon_tolts",
+      "lastHarvestedAt": "2026-06-21T18:18:27Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@shimon",
+          "verified": true
+        },
+        {
+          "handle": "shimont",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "type": "github",
+          "url": "https://github.com/shimont/",
+          "verified": false
+        },
+        {
+          "handle": "tolts",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/tolts/",
+          "verified": false
+        },
+        {
+          "handle": "@ShimOnOps",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@ShimOnOps",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@shimon",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "shimon-tolts",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:27Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@shimon"
+        }
+      ],
+      "summary": "Co-Founder and CEO of Copperhelm Previously as the CEO and Co-Founder of Datree, a Y Combinator-backed startup, I lead a team of engineers and developers who are on a mission to prevent misconfigurations in Kubernetes, the most popular cloud-native platform. With over five years of experience in building and scaling Datree, I have developed a deep expertise in Kubernetes security, cloud-native technologies, and AWS services. I am also passionate about sharing my knowledge and insights with the global cloud community. I am a CNCF Ambassador, a co-organizer of the Israeli chapter and KCD events, and an AWS Community Hero, leading the Israeli community with 8,000 members. I co-organize UpWards PLG, a founder group for product-led growth startups. I enjoy writing and speaking about cloud-native best practices, AWS optimization, and Kubernetes challenges.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:27Z",
+  "seedUrl": "https://builder.aws.com/community/@shimon"
+}

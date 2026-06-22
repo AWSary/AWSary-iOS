@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "loige",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-17b98eee6d94.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@loige",
+        "url": "https://avatars.builderprofile.aws.dev/2xos8giy08ZPvxLibiortpbF6uk.webp",
+        "verified": true
+      },
+      "displayName": "Luciano Mammino",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_luciano_mammino",
+      "lastHarvestedAt": "2026-06-21T18:17:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@loige",
+          "type": "blog",
+          "url": "https://loige.co",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@loige",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@loige",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@loige",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "luciano-mammino",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@loige"
+        }
+      ],
+      "summary": "Full-stack developer turned cloud architect, Luciano Mammino is an AWS Serverless Hero, author of Node.js Design Patterns (https://nodejsdesignpatterns.com/), and co-author of the e-book Crafting Lambda Functions in Rust (https://rust-lambda.com/). He is also the original author of Middy (https://middy.js.org/), the Node.js middleware engine for AWS Lambda. At fourTheorem (https://fourtheorem.com/), he helps companies be successful with AWS through pragmatic, scalable serverless architectures. He loves building with JavaScript/TypeScript, Rust, and modern cloud systems.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:50Z",
+  "seedUrl": "https://builder.aws.com/community/@loige"
+}

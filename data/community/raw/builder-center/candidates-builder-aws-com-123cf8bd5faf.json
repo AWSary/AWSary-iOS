@@ -1,0 +1,148 @@
+{
+  "builderApi": {
+    "alias": "dayjournal",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-db958b71337b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+        "url": "https://avatars.builderprofile.aws.dev/2wXHB6DyT8MpGCOXMbVgwI2KUvN.webp",
+        "verified": true
+      },
+      "displayName": "Yasunori Kirimoto",
+      "featuredContent": [],
+      "headline": "Co-Founder and CEO of MIERUNE",
+      "id": "person_yasunori_kirimoto",
+      "lastHarvestedAt": "2026-06-21T18:17:12Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "blog",
+          "url": "https://dayjournal.dev",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dayjournal",
+          "verified": true
+        },
+        {
+          "handle": "dayjournal",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "github",
+          "url": "https://github.com/dayjournal",
+          "verified": false
+        },
+        {
+          "handle": "yasunori-kirimoto",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/yasunori-kirimoto",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "website",
+          "url": "https://dev.to/dayjournal",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "website",
+          "url": "https://spotify.link/Hz9CHCuXAXb",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "website",
+          "url": "https://www.facebook.com/yasunorikirimoto",
+          "verified": false
+        },
+        {
+          "handle": "dayjournal_nori",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "x",
+          "url": "https://twitter.com/dayjournal_nori",
+          "verified": false
+        },
+        {
+          "handle": "@norivlog_ch",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "type": "youtube",
+          "url": "https://youtube.com/@norivlog_ch",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "JP",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "yasunori-kirimoto",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:12Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dayjournal"
+        }
+      ],
+      "summary": "Yasunori Kirimoto (dayjournal.dev) is the Co-Founder and CEO of MIERUNE (mierune.co.jp), a geospatial solutions company. He has been an AWS Hero since 2022 and brings over 20 years of experience in geospatial data and applications, specializing in GIS (Geographic Information Systems) and FOSS4G (Free and Open Source Software for Geospatial). A passionate advocate for geospatial technologies, Yasunori regularly shares insights on Amazon Location Service through blog posts and community presentations. His expertise led to a collaboration with the Amazon Location Service team, and he was invited to provide early feedback on upcoming features. He also contributed to the official AWS Blog with the article “New features and developer experience with enhanced Amazon Location Service.” He has developed several geospatial tools, including the “AWS Heroes Map (heroes.dayjournal.dev) ,” an interactive way to explore AWS Heroes worldwide. This project was featured in Werner Vogels’ final keynote slides and in the event newspaper at AWS re:Invent. He also created the “AWS re:Invent Map (reinvent.dayjournal.dev) ” to help attendees navigate event venues. Yasunori actively contributes to open-source projects on GitHub. More recently, he has contributed to projects in AWS Geospatial and AWS Amplify. Geospatial Architect｜AWS DevTools Hero｜OSGeo Charter Member｜MapLibre Voting Member Co-Founder and CEO of MIERUNE｜Community - MapLibre, Amplify, Notion",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:12Z",
+  "seedUrl": "https://builder.aws.com/community/@dayjournal"
+}

@@ -1,0 +1,131 @@
+{
+  "builderApi": {
+    "alias": "walmsles",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-0a90fadbd0bf.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@walmsles",
+        "url": "https://avatars.builderprofile.aws.dev/38QA46THCbzradbqPPXYRrRBwpM.webp",
+        "verified": true
+      },
+      "displayName": "Michael Walmsley",
+      "featuredContent": [],
+      "headline": "AWS Serverless Hero | Cloud Leader at Accenture",
+      "id": "person_michael_walmsley",
+      "lastHarvestedAt": "2026-06-21T18:18:46Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "blog",
+          "url": "https://serverlessdna.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@walmsles",
+          "verified": true
+        },
+        {
+          "handle": "walmsles",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "github",
+          "url": "https://github.com/walmsles",
+          "verified": false
+        },
+        {
+          "handle": "walmsles",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/walmsles/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "website",
+          "url": "https://dev.to/walmsles",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "website",
+          "url": "https://walmsles.dev",
+          "verified": false
+        },
+        {
+          "handle": "walmsles",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "x",
+          "url": "https://x.com/walmsles",
+          "verified": false
+        },
+        {
+          "handle": "@walmsles",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@walmsles",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": "VIC"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "michael-walmsley",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:46Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@walmsles"
+        }
+      ],
+      "summary": "After 30 years of building software, I'm still on the tools - putting bugs in and taking them out, just like everyone else. I co-organize the Melbourne AWS Programming meetup, contribute to AWS Lambda Powertools (Python/TypeScript), and build open-source tooling including MCP servers for AWS documentation, CDK constructs, and serverless patterns published at ServerlessDNA.com. Focus Areas: * Serverless architecture patterns * Infrastructure as code with CDK * AI agent orchestration and MCP I share practical patterns and tooling to make serverless development more accessible to the community. As an innovator and out-of-the-box thinker - it's software, anything is possible.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:46Z",
+  "seedUrl": "https://builder.aws.com/community/@walmsles"
+}

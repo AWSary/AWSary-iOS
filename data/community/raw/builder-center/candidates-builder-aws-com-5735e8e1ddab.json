@@ -1,0 +1,123 @@
+{
+  "builderApi": {
+    "alias": "mnapoli",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-99362d45459b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+        "url": "https://avatars.builderprofile.aws.dev/2zfx2P0jquPrp5tp9HnGNEejwEq.webp",
+        "verified": true
+      },
+      "displayName": "Matthieu Napoli",
+      "featuredContent": [],
+      "headline": "Building Bref, the serverless framework for PHP",
+      "id": "person_matthieu_napoli",
+      "lastHarvestedAt": "2026-06-21T18:17:59Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "blog",
+          "url": "https://mnapoli.fr",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mnapoli",
+          "verified": true
+        },
+        {
+          "handle": "mnapoli",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "github",
+          "url": "https://github.com/mnapoli",
+          "verified": false
+        },
+        {
+          "handle": "matthieunapoli",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/matthieunapoli",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "website",
+          "url": "https://bref.sh",
+          "verified": false
+        },
+        {
+          "handle": "matthieunapoli",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "x",
+          "url": "https://x.com/matthieunapoli",
+          "verified": false
+        },
+        {
+          "handle": "@mnapoli_",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@mnapoli_",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "FR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "matthieu-napoli",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:59Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+        }
+      ],
+      "summary": "Hi! I’m Matthieu, open-source developer and consultant. I build Bref, the serverless framework for PHP, and am the author of the Serverless Visually Explained course. I believe running modern applications should be simpler, and I’m trying to do my part!",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:59Z",
+  "seedUrl": "https://builder.aws.com/community/@mnapoli"
+}

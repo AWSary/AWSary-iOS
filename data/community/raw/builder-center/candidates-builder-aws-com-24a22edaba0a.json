@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "miucrescent",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ad0c2c6f1bf1.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+        "url": "https://avatars.builderprofile.aws.dev/2pMs2XNiqfbzNv9Wd87YlcoCJz3.webp",
+        "verified": true
+      },
+      "displayName": "Kazuki Miura",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kazuki_miura",
+      "lastHarvestedAt": "2026-06-21T18:17:58Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@miucrescent",
+          "verified": true
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+          "type": "website",
+          "url": "https://www.facebook.com/kazuki.miura.75/",
+          "verified": false
+        },
+        {
+          "handle": "miu_crescent",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+          "type": "x",
+          "url": "https://x.com/miu_crescent",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kazuki-miura",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:58Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@miucrescent"
+        }
+      ],
+      "summary": "aws community hero since 2023",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:58Z",
+  "seedUrl": "https://builder.aws.com/community/@miucrescent"
+}

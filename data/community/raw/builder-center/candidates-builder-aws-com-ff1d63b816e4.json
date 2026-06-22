@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "shingo",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ff7064906f0b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@shingo",
+        "url": "https://avatars.builderprofile.aws.dev/2pfVXjjMKX2cA8hgvKbbXrjZEjs.webp",
+        "verified": true
+      },
+      "displayName": "Shingo Yoshida",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_shingo_yoshida",
+      "lastHarvestedAt": "2026-06-21T18:18:27Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@shingo",
+          "type": "blog",
+          "url": "https://yoshidashingo.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@shingo",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@shingo",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@shingo",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "shingo-yoshida",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:27Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@shingo"
+        }
+      ],
+      "summary": "AWS Serverless Hero / CEO @ Section-9 / Co-Founder COO @ Generative Agents / A Founder of (Serverless | ChatGPT | LangChain) Community(JP)",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:27Z",
+  "seedUrl": "https://builder.aws.com/community/@shingo"
+}

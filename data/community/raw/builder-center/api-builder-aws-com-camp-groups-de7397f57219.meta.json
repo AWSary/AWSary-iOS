@@ -1,0 +1,8 @@
+{
+  "contentType": "application/json",
+  "method": "GET",
+  "requestedUrl": "https://api.builder.aws.com/camp/groups",
+  "retrievedAt": "2026-06-21T18:14:02Z",
+  "sha256": "9258bb708f55d90126df625823800ed981bb24d316f87a785f03621c78c831c9",
+  "url": "https://api.builder.aws.com/camp/groups"
+}

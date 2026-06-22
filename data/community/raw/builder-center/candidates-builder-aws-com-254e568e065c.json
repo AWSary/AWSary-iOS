@@ -1,0 +1,74 @@
+{
+  "builderApi": {
+    "alias": "tlakomy",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e19c9c01d616.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+        "url": "https://avatars.builderprofile.aws.dev/38O3QW8FkAiq9Nm9Ub0XLdKnMjU.webp",
+        "verified": true
+      },
+      "displayName": "Tomasz Lakomy",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_tomasz_lakomy",
+      "lastHarvestedAt": "2026-06-21T18:18:38Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@tlakomy",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "tomasz-lakomy",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:38Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@tlakomy"
+        }
+      ],
+      "summary": "Tomasz Łakomy AWS Hero | Staff Software Engineer Tomasz Łakomy is a Staff Software Engineer at Runway with over a decade of experience in frontend and cloud development. Based in Poland, he focuses on building maintainable applications using TypeScript, AWS CDK, and serverless technologies. Tomasz is a proponent of \"learning in public,\" regularly sharing his journey to help other developers navigate the complexities of cloud infrastructure. Throughout his career at companies like Stedi and OLX, Tomasz has focused on bridging the gap between product engineering and infrastructure. As a co-founder of Cloudash, he helped develop a tool designed to make monitoring serverless applications more accessible. He advocates for using the AWS Cloud Development Kit (CDK) to treat infrastructure as a natural extension of the application code. Tomasz enjoys breaking down technical topics into practical, easy-to-digest content. His contributions to the community include: Educational Content: Creating over 200 concise lessons for egghead.io on AWS Lambda, AppSync, and the CDK. Writing: Sharing technical walkthroughs and lessons learned on tlakomy.com and the DEV Community. Speaking: Presenting at various community events and conferences to discuss the practicalities of cloud-native development.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:38Z",
+  "seedUrl": "https://builder.aws.com/community/@tlakomy"
+}

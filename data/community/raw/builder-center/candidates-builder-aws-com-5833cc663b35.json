@@ -1,0 +1,121 @@
+{
+  "builderApi": {
+    "alias": "gunnargrosch",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-571260987d8a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+        "url": "https://avatars.builderprofile.aws.dev/3ALzHUgbnxi13edD9RSaDUyflIu.webp",
+        "verified": true
+      },
+      "displayName": "Gunnar Grosch",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_gunnar_grosch",
+      "lastHarvestedAt": "2026-06-21T18:17:29Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@gunnargrosch",
+          "verified": true
+        },
+        {
+          "handle": "gunnargrosch",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "github",
+          "url": "https://github.com/gunnargrosch",
+          "verified": false
+        },
+        {
+          "handle": "gunnargrosch",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/gunnargrosch/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "website",
+          "url": "https://dev.to/gunnargrosch",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "website",
+          "url": "https://gunnargrosch.com",
+          "verified": false
+        },
+        {
+          "handle": "gunnargrosch",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "x",
+          "url": "https://twitter.com/gunnargrosch",
+          "verified": false
+        },
+        {
+          "handle": "@gunnargrosch",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@gunnargrosch",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "gunnar-grosch",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:29Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@gunnargrosch"
+        }
+      ],
+      "summary": "Developer Advocate at Sinch | ex-AWS | AWS Serverless Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:29Z",
+  "seedUrl": "https://builder.aws.com/community/@gunnargrosch"
+}

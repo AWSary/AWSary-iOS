@@ -1,0 +1,130 @@
+{
+  "builderApi": {
+    "alias": "richardfan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5080f3bd4581.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@richardfan",
+        "url": "https://avatars.builderprofile.aws.dev/2ZUJk1nHjpIp75f35KboL1RizJC.webp",
+        "verified": true
+      },
+      "displayName": "Richard Fan",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_richard_fan",
+      "lastHarvestedAt": "2026-06-21T18:18:15Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "blog",
+          "url": "https://blog.richardfan.xyz",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@richardfan",
+          "verified": true
+        },
+        {
+          "handle": "richardfan1126",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "github",
+          "url": "https://github.com/richardfan1126",
+          "verified": false
+        },
+        {
+          "handle": "richardfan1126",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/richardfan1126/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "website",
+          "url": "https://dev.to/richardfan1126",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "website",
+          "url": "https://repost.aws/community/users/USO5y9scJEQV6mC5pjzBZPJw",
+          "verified": false
+        },
+        {
+          "handle": "richardfan1126",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "type": "x",
+          "url": "https://twitter.com/richardfan1126",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "richard-fan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:15Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@richardfan"
+        }
+      ],
+      "summary": "Richard is a Security Engineer at ExpressVPN. He is dedicated to helping people easily adopt AWS, and supports them with moving workloads to AWS, promotes best practices, and streamlines cloud governance. The experience Richard has gained over the years has allowed him to focus more on making security on the cloud easy. Richard has developed different tools to simplify the experience with AWS security services for users. He has contributed to the AWS Nitro Enclaves community since its early stage. The nitro-enclave-python-demo project has helped many builders get started on AWS Nitro Enclaves, and it has also been adopted by some AWS workshops. Furthermore, Richard promotes the concept and use cases of enclave technology by partnering with multiple companies to review their AWS Nitro Enclaves offering.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:15Z",
+  "seedUrl": "https://builder.aws.com/community/@richardfan"
+}

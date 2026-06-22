@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "dolguin",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-8b27e618dd4d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dolguin",
+        "url": "https://avatars.builderprofile.aws.dev/2dL1y4MpE6VS3mnKsOlKAF4XVYn.webp",
+        "verified": true
+      },
+      "displayName": "Damian Olguin",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_damian_olguin",
+      "lastHarvestedAt": "2026-06-21T18:17:17Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dolguin",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dolguin",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@dolguin",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dolguin",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "damian-olguin",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:17Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dolguin"
+        }
+      ],
+      "summary": "AWS Community Hero AWS User Group Leader - UG Cordoba Argentina Co-Founter of Teracloud",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:17Z",
+  "seedUrl": "https://builder.aws.com/community/@dolguin"
+}

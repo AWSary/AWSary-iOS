@@ -1,0 +1,140 @@
+{
+  "builderApi": {
+    "alias": "kristinearmiyants",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-76ee6f7b3790.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+        "url": "https://avatars.builderprofile.aws.dev/336Eb2wgBn2b5ejs7N4zLmFK7c6.webp",
+        "verified": true
+      },
+      "displayName": "Kristine Armiyants",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kristine_armiyants",
+      "lastHarvestedAt": "2026-06-21T18:17:47Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "blog",
+          "url": "https://medium.com/@christine.armiyants",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kristinearmiyants",
+          "verified": true
+        },
+        {
+          "handle": "Armiyants",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "github",
+          "url": "https://github.com/Armiyants",
+          "verified": false
+        },
+        {
+          "handle": "kristine-armiyants-42b69b12b",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/kristine-armiyants-42b69b12b/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "website",
+          "url": "https://dev.to/armiyants",
+          "verified": false
+        },
+        {
+          "handle": "Christi85769907",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "x",
+          "url": "https://x.com/Christi85769907",
+          "verified": false
+        },
+        {
+          "handle": "@armiyants",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@armiyants",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AM",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Networking And Content Delivery",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kristine-armiyants",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:47Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kristinearmiyants"
+        }
+      ],
+      "summary": "Leader AWS UG Armenia 3Y, Community Builder x3",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:47Z",
+  "seedUrl": "https://builder.aws.com/community/@kristinearmiyants"
+}

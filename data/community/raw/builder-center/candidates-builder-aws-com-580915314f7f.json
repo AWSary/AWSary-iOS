@@ -1,0 +1,26 @@
+{
+  "builderApi": null,
+  "contentType": "text/html",
+  "embeddedCandidateCount": 1,
+  "fromCache": false,
+  "linkedJavascript": [
+    {
+      "jsonCandidateCount": 1,
+      "personCount": 0,
+      "rawCachePath": "builder-aws-com-__runtime-env-js-caec16d2f21a.body",
+      "url": "https://builder.aws.com/__runtime-env.js"
+    },
+    {
+      "jsonCandidateCount": 416,
+      "personCount": 0,
+      "rawCachePath": "builder-aws-com-assets-index-BklVMN---js-6f9f3ebbd77e.body",
+      "url": "https://builder.aws.com/assets/index-BklVMN--.js"
+    }
+  ],
+  "linkedJson": [],
+  "people": [],
+  "rawCachePath": "builder-aws-com-community-heroes-RaphaelQuisumbing-1d08e2a5ae72.body",
+  "resolvedUrl": "https://builder.aws.com/community/heroes/RaphaelQuisumbing",
+  "retrievedAt": "2026-06-21T17:50:11Z",
+  "seedUrl": "https://builder.aws.com/community/heroes/RaphaelQuisumbing"
+}

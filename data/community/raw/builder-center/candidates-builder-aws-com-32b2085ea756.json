@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "siakon",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-794798ee4d50.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@siakon",
+        "url": "https://avatars.builderprofile.aws.dev/2xmi8Dtb96WYo24shyJpxfE4m8L.webp",
+        "verified": true
+      },
+      "displayName": "Konstantinos Siaterlis",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_konstantinos_siaterlis",
+      "lastHarvestedAt": "2026-06-21T18:18:28Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@siakon",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@siakon",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@siakon",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@siakon",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "konstantinos-siaterlis",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:28Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@siakon"
+        }
+      ],
+      "summary": "Cloud Engineer, AWS Hero, AWS User Group Athens co-organizer, and blogger at thelastdev.com. Passionate about Data and DevOps, with extensive experience in architecting and implementing robust data platforms.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:28Z",
+  "seedUrl": "https://builder.aws.com/community/@siakon"
+}

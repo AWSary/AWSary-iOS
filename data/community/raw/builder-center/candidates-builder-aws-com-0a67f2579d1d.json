@@ -1,0 +1,92 @@
+{
+  "builderApi": {
+    "alias": "serverless",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-fb454dc6090a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@serverless",
+        "url": "https://avatars.builderprofile.aws.dev/2ojyRC6Rv6syevFHLQKT4fqKc9Z.webp",
+        "verified": true
+      },
+      "displayName": "Sang Chris Park [AWS Hero]",
+      "featuredContent": [],
+      "headline": "Serverless enthusiast | AWS Serverless Hero | Dev Team Lead",
+      "id": "person_sang_chris_park_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:18:23Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@serverless",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@serverless",
+          "verified": true
+        },
+        {
+          "handle": "spark323",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@serverless",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/spark323/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@serverless",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@serverless",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sang-chris-park-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:23Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@serverless"
+        }
+      ],
+      "summary": "I’m a developer deeply focused on serverless technologies, handling backend/frontend development, AWS infrastructure design, and DevOps. As a Dev Lead, I guide my team to build high-quality products through scalable and efficient serverless solutions.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:23Z",
+  "seedUrl": "https://builder.aws.com/community/@serverless"
+}

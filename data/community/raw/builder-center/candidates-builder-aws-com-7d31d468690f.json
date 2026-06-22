@@ -1,0 +1,97 @@
+{
+  "builderApi": {
+    "alias": "yanso",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ea94030ff87e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@yanso",
+        "url": "https://avatars.builderprofile.aws.dev/2yJrNuEUCAjqp6yYGe4XwHvgqCH.webp",
+        "verified": true
+      },
+      "displayName": "Yan So",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_yan_so",
+      "lastHarvestedAt": "2026-06-21T18:18:49Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@yanso",
+          "type": "blog",
+          "url": "https://yanlog.yanbert.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@yanso",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@yanso",
+          "verified": true
+        },
+        {
+          "handle": "yanso",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@yanso",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/yanso",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@yanso",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@yanso",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "yan-so",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:49Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@yanso"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:49Z",
+  "seedUrl": "https://builder.aws.com/community/@yanso"
+}

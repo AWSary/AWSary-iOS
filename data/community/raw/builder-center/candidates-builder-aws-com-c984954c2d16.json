@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "adeline",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-fbe73dcd3b65.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@adeline",
+        "url": "https://avatars.builderprofile.aws.dev/2wgFP8OQQF2IVoiQjgp9sXvvA5u.webp",
+        "verified": true
+      },
+      "displayName": "Adeline Makokha",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_adeline_makokha",
+      "lastHarvestedAt": "2026-06-21T18:16:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@adeline",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@adeline",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Security",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@adeline",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@adeline",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@adeline",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "adeline-makokha",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@adeline"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:45Z",
+  "seedUrl": "https://builder.aws.com/community/@adeline"
+}

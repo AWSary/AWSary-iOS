@@ -1,0 +1,96 @@
+{
+  "builderApi": {
+    "alias": "ranrib",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-bb2244474512.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ranrib",
+        "url": "https://avatars.builderprofile.aws.dev/2xzpv4hvGKZITghapFkY3QHtrdw.webp",
+        "verified": true
+      },
+      "displayName": "Ran Ribenzaft",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ran_ribenzaft",
+      "lastHarvestedAt": "2026-06-21T18:18:12Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ranrib",
+          "verified": true
+        },
+        {
+          "handle": "ranrib",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib",
+          "type": "github",
+          "url": "https://github.com/ranrib",
+          "verified": false
+        },
+        {
+          "handle": "ran-ribenzaft",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ran-ribenzaft/",
+          "verified": false
+        },
+        {
+          "handle": "ranrib",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib",
+          "type": "x",
+          "url": "https://x.com/ranrib",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ran-ribenzaft",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:12Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ranrib"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:12Z",
+  "seedUrl": "https://builder.aws.com/community/@ranrib"
+}

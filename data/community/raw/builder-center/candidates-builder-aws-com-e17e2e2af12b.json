@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "keisukeusuda",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ae6e64aec07b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@keisukeusuda",
+        "url": "https://avatars.builderprofile.aws.dev/2xpCgKnAcnSAMZejPrAIVwvXKw9.webp",
+        "verified": true
+      },
+      "displayName": "Keisuke Usuda",
+      "featuredContent": [],
+      "headline": "AWS Security Hero",
+      "id": "person_keisuke_usuda",
+      "lastHarvestedAt": "2026-06-21T18:17:43Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@keisukeusuda",
+          "type": "blog",
+          "url": "https://dev.classmethod.jp/author/usuda-keisuke/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@keisukeusuda",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@keisukeusuda",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "JP",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@keisukeusuda",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "keisuke-usuda",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:43Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@keisukeusuda"
+        }
+      ],
+      "summary": "I'm a Senior Solution Architect at Classmethod with CISSP certification, specializing in security consulting and AWS security services, especially advocating for the enablement of Amazon GuardDuty across all AWS accounts worldwide.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:43Z",
+  "seedUrl": "https://builder.aws.com/community/@keisukeusuda"
+}

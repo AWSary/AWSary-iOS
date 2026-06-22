@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "anahit",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-addc959fd75a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@anahit",
+        "url": "https://avatars.builderprofile.aws.dev/32xltDsyWX45iotxXhbJfUmwiNE.webp",
+        "verified": true
+      },
+      "displayName": "Anahit Pogosova",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_anahit_pogosova",
+      "lastHarvestedAt": "2026-06-21T18:16:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@anahit",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@anahit",
+          "verified": true
+        },
+        {
+          "handle": "anahit-pogosova",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@anahit",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/anahit-pogosova",
+          "verified": false
+        },
+        {
+          "handle": "anahit_fi",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@anahit",
+          "type": "x",
+          "url": "https://twitter.com/anahit_fi",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "FI",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@anahit",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "anahit-pogosova",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@anahit"
+        }
+      ],
+      "summary": "Anahit is a Cloud Architecture & Engineering Lead at F-Secure, where she leads the Cloud Center of Excellence: a team focused on AWS governance, security, and cloud best practices. With over 16 years of experience across full-stack and data engineering, her career has evolved from building monolithic on-premises systems to architecting modern, resilient, and scalable cloud solutions. Anahit is also an active voice in the tech community. She speaks at conferences and meetups, appears on podcasts and YouTube channels, and teaches online courses.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:50Z",
+  "seedUrl": "https://builder.aws.com/community/@anahit"
+}

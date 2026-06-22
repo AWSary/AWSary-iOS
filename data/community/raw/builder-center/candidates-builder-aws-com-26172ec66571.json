@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "ivlo11",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c0f3d5ad7a9e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ivlo11",
+        "url": "https://avatars.builderprofile.aws.dev/31pXalI1QjibAYe0INUtvUC6GaM.webp",
+        "verified": true
+      },
+      "displayName": "Ivonne Roberts",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ivonne_roberts",
+      "lastHarvestedAt": "2026-06-21T18:17:37Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ivlo11",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ivlo11",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ivlo11",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ivonne-roberts",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:37Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ivlo11"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:37Z",
+  "seedUrl": "https://builder.aws.com/community/@ivlo11"
+}

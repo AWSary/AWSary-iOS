@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "eminalemdar",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e1daf75c0124.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+        "url": "https://avatars.builderprofile.aws.dev/2tr8IhP31nGxOFUo7vlR1xeweOZ.webp",
+        "verified": true
+      },
+      "displayName": "Emin Alemdar",
+      "featuredContent": [],
+      "headline": "Solutions Architect",
+      "id": "person_emin_alemdar",
+      "lastHarvestedAt": "2026-06-21T18:17:20Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "blog",
+          "url": "https://medium.com/@eminalemdar",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@eminalemdar",
+          "verified": true
+        },
+        {
+          "handle": "eminalemdar",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "github",
+          "url": "https://github.com/eminalemdar",
+          "verified": false
+        },
+        {
+          "handle": "emin-alemdar",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/emin-alemdar/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "website",
+          "url": "https://bsky.app/profile/eminalemdar.dev",
+          "verified": false
+        },
+        {
+          "handle": "alemdar_emin",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "type": "x",
+          "url": "https://x.com/alemdar_emin",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "TR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "emin-alemdar",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:20Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@eminalemdar"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:20Z",
+  "seedUrl": "https://builder.aws.com/community/@eminalemdar"
+}

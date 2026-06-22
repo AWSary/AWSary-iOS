@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "fluxtechie",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-296e91e2809e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+        "url": "https://avatars.builderprofile.aws.dev/2tqXgVGRwOCWPMGVaKyTuREB39k.webp",
+        "verified": true
+      },
+      "displayName": "Faizal Khan",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_faizal_khan",
+      "lastHarvestedAt": "2026-06-21T18:17:25Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@fluxtechie",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "faizal-khan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:25Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@fluxtechie"
+        }
+      ],
+      "summary": "A tech entrepreneur, currently Founder & CEO at Ecomm.in, XiteLogic.com, and CTO at AIProjectPartners.com. I am an ardent contributor to the community through leading the AWS User Group in Hyderabad and talking on AWS services.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:25Z",
+  "seedUrl": "https://builder.aws.com/community/@fluxtechie"
+}

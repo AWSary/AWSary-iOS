@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "cloudiamo",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-29467034e14c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+        "url": "https://avatars.builderprofile.aws.dev/32uGM2kD1tEjporW3Zq2R6IPnW9.webp",
+        "verified": true
+      },
+      "displayName": "Renato Losio",
+      "featuredContent": [],
+      "headline": "Cloud Architect, AWS Data Hero, InfoQ Editor, Speaker, Remote",
+      "id": "person_renato_losio",
+      "lastHarvestedAt": "2026-06-21T18:17:05Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+          "type": "blog",
+          "url": "https://cloudiamo.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@cloudiamo",
+          "verified": true
+        },
+        {
+          "handle": "rlosio",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/rlosio/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+          "type": "website",
+          "url": "https://dev.to/cloudiamo/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "Berlin"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "renato-losio",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:05Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudiamo"
+        }
+      ],
+      "summary": "Renato has extensive experience as a cloud architect, tech lead, and cloud services specialist. Currently, he lives in Berlin and works remotely as a principal cloud architect. His primary areas of interest include cloud services and relational databases. He is an editor at InfoQ and a recognized AWS Data Hero. You can connect with him on LinkedIn.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:05Z",
+  "seedUrl": "https://builder.aws.com/community/@cloudiamo"
+}

@@ -1,0 +1,71 @@
+{
+  "builderApi": {
+    "alias": "kittaya",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-78c1a9fb446e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Kittaya Niennattrakul",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kittaya_niennattrakul",
+      "lastHarvestedAt": "2026-06-21T18:17:46Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kittaya",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kittaya",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kittaya",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kittaya-niennattrakul",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:46Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kittaya"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:46Z",
+  "seedUrl": "https://builder.aws.com/community/@kittaya"
+}

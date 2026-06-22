@@ -1,0 +1,124 @@
+{
+  "builderApi": {
+    "alias": "antonbabenko",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7f841c2a7293.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+        "url": "https://avatars.builderprofile.aws.dev/3DdkVXzqcvfhbEF48P8g2hG4IoR.webp",
+        "verified": true
+      },
+      "displayName": "Anton Babenko",
+      "featuredContent": [],
+      "headline": "Terraform AWS fanatic",
+      "id": "person_anton_babenko",
+      "lastHarvestedAt": "2026-06-21T18:16:52Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@antonbabenko",
+          "verified": true
+        },
+        {
+          "handle": "antonbabenko",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "github",
+          "url": "https://github.com/antonbabenko",
+          "verified": false
+        },
+        {
+          "handle": "antonbabenko",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/antonbabenko",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "website",
+          "url": "https://compliance.tf",
+          "verified": false
+        },
+        {
+          "handle": "antonbabenko",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "x",
+          "url": "https://twitter.com/antonbabenko",
+          "verified": false
+        },
+        {
+          "handle": "UCGH0yYPvlCN1VjSFMGVmFgQ",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCGH0yYPvlCN1VjSFMGVmFgQ",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "NO",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "anton-babenko",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:52Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+        }
+      ],
+      "summary": "Anton is a long-time developer and CTO. He runs a consulting company Betajob in Norway and has helped companies around the globe build solutions using AWS and specializing in Infrastructure-as-Code, DevOps, and reusable infrastructure components since 2015. Through his consulting and ongoing experimentation with new technologies, Anton also created compliance.tf, a product that helps companies in regulated industries simplify and automate compliance when using Terraform. He spends much of his time as an open-source contributor on various Terraform & AWS projects. Such as Terraform AWS modules (provisioned more than 2 billion times), Terraform best practices ebook (https://www.terraform-best-practices.com/), Serverless Terraform framework (https://serverless.tf), Terraform Weekly newsletter (https://weekly.tf), Your Weekly Dose of Terraform live streams (https://www.youtube.com/AntonBabenkoLive), and more (https://github.com/antonbabenko/terraform-aws-devops). Anton enjoys solving current cloud architecture tasks, figuring out generic solutions by getting to the core, and making them available as open-source to benefit the AWS community. Anton co-founded and co-organizes AWS, DevOps, and HashiCorp User Groups in Oslo (Norway) and often speaks at technical meetups and conferences.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:52Z",
+  "seedUrl": "https://builder.aws.com/community/@antonbabenko"
+}

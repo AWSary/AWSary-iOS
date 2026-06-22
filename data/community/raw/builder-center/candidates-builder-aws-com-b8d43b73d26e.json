@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "pigius",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d1b225682562.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@pigius",
+        "url": "https://avatars.builderprofile.aws.dev/2yUt3Wo6smfx2uO7kMdHDRxzUQO.webp",
+        "verified": true
+      },
+      "displayName": "Daniel Aniszkiewicz",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_daniel_aniszkiewicz",
+      "lastHarvestedAt": "2026-06-21T18:18:10Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@pigius",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@pigius",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@pigius",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@pigius",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "daniel-aniszkiewicz",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:10Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@pigius"
+        }
+      ],
+      "summary": "Daniel Aniszkiewicz – Wrocław, Poland Security Hero Daniel Aniszkiewicz is a software engineer with over 10 years of experience in building, architecting, and securing production-grade systems on AWS. His focus spans cloud security architecture, fine-grained authorization, serverless and event-driven systems, and agentic AI systems on AWS - combining hands-on engineering with architectural problem solving. Daniel co-organizes the AWS User Group Wrocław, contributing to the growth and engagement of the local AWS community for years. He is a seasoned conference speaker with multiple appearances at AWS re:Invent in Las Vegas, AWS re:Inforce (including a joint session with the Amazon Verified Permissions service team), AWS Summits in the Netherlands and Dubai, and AWS Community Days in Poland and Prague. His technical work focuses on Amazon Verified Permissions, Cedar policy language, automated reasoning, fine-grained authorization, Amazon Bedrock and AgentCore, serverless and event-driven architecture, OpenTelemetry-based observability, and the security architecture of agentic AI systems on AWS. Daniel shares his work through workshops, blog posts, IaC templates, and open source projects.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:10Z",
+  "seedUrl": "https://builder.aws.com/community/@pigius"
+}

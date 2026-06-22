@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "adamsmolnik",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e410eedf987e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+        "url": "https://avatars.builderprofile.aws.dev/2xuxshCUNtx3VbBR7KsMSeJmY0k.webp",
+        "verified": true
+      },
+      "displayName": "Adam Smolnik",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_adam_smolnik",
+      "lastHarvestedAt": "2026-06-21T18:16:44Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+          "type": "blog",
+          "url": "https://adamsmolnik.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@adamsmolnik",
+          "verified": true
+        },
+        {
+          "handle": "adam-smolnik",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/adam-smolnik/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik",
+          "startYear": 2015,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "adam-smolnik",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:44Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@adamsmolnik"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:44Z",
+  "seedUrl": "https://builder.aws.com/community/@adamsmolnik"
+}

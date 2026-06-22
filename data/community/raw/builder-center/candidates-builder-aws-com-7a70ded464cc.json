@@ -1,0 +1,150 @@
+{
+  "builderApi": {
+    "alias": "ricardoceci",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-9e8a0afa853a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+        "url": "https://avatars.builderprofile.aws.dev/3EMaVdESOtJIMWDZsOYNqIq2twa.webp",
+        "verified": true
+      },
+      "displayName": "Ricardo Ceci",
+      "featuredContent": [],
+      "headline": "Founder & CTO @ VNStudios",
+      "id": "person_ricardo_ceci",
+      "lastHarvestedAt": "2026-06-21T18:18:15Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "blog",
+          "url": "https://www.ricardoceci.dev",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ricardoceci",
+          "verified": true
+        },
+        {
+          "handle": "ricardoceci",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "github",
+          "url": "https://www.github.com/ricardoceci",
+          "verified": false
+        },
+        {
+          "handle": "ricardoceci",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ricardoceci",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "website",
+          "url": "https://dev.to/ricardoceci",
+          "verified": false
+        },
+        {
+          "handle": "ricardoceci",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "x",
+          "url": "https://www.x.com/ricardoceci",
+          "verified": false
+        },
+        {
+          "handle": "@ricardoceci-dev",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@ricardoceci-dev",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Engineering",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ricardo-ceci",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:15Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+        }
+      ],
+      "summary": "Apasionado por cloud computing y desarrollador web con más de 15 años de experiencia. Disfruto emprender, crear cosas y hacer que los equipos funcionen. Mi encanta definir procesos y encontrar soluciones",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:15Z",
+  "seedUrl": "https://builder.aws.com/community/@ricardoceci"
+}

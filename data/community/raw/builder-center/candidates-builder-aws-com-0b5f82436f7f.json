@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "lizthegrey",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-a6dd8721e2ce.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+        "url": "https://avatars.builderprofile.aws.dev/39xs1lYqV5cWdjjZsy0pkekHVUH.webp",
+        "verified": true
+      },
+      "displayName": "Liz Fong-Jones",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_liz_fong_jones",
+      "lastHarvestedAt": "2026-06-21T18:17:49Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@lizthegrey",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "liz-fong-jones",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:49Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@lizthegrey"
+        }
+      ],
+      "summary": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with over two decades of experience. She is currently a Technical Fellow at Honeycomb, and previously was an SRE working on products ranging from GCLB to Flights.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:49Z",
+  "seedUrl": "https://builder.aws.com/community/@lizthegrey"
+}

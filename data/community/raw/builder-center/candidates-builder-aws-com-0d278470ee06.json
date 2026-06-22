@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "allenheltondev",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-4aa7311e362a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+        "url": "https://avatars.builderprofile.aws.dev/32WXy3F6yVBpRwjTdu0TCJ0AEP2.webp",
+        "verified": true
+      },
+      "displayName": "Allen Helton",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_allen_helton",
+      "lastHarvestedAt": "2026-06-21T18:16:49Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@allenheltondev",
+          "verified": true
+        },
+        {
+          "handle": "allenheltondev",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+          "type": "github",
+          "url": "https://github.com/allenheltondev",
+          "verified": false
+        },
+        {
+          "handle": "allenheltondev",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/allenheltondev",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "TX"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "allen-helton",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:49Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@allenheltondev"
+        }
+      ],
+      "summary": "I’m an Ecosystem Engineer at Momento with a background in building scalable, event-driven systems. These days, I spend a lot of time exploring how AI agents can actually work at enterprise scale. I focus on challenges like determinism, orchestration, and fault tolerance. I enjoy sharing what I learn. I write, livestream, and host podcasts to help developers understand complex systems in a way that feels approachable and practical. Community is at the core of everything I do. From the Believe in Serverless community to conference talks and one-on-one mentoring, I try to make space where people can learn and build together. I believe good humans build good technology, and I do my best to live that out in everything I do. Happy coding!",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:49Z",
+  "seedUrl": "https://builder.aws.com/community/@allenheltondev"
+}

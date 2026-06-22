@@ -1,0 +1,100 @@
+{
+  "builderApi": {
+    "alias": "emrahsamdan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3d70a08f847b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+        "url": "https://avatars.builderprofile.aws.dev/2xpRLE2mWKawMydOd8UGMTkjSlY.webp",
+        "verified": true
+      },
+      "displayName": "Emrah Samdan",
+      "featuredContent": [],
+      "headline": "AWS Serverless Hero, Senior Product Manager at Edge Delta",
+      "id": "person_emrah_samdan",
+      "lastHarvestedAt": "2026-06-21T18:17:21Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@emrahsamdan",
+          "verified": true
+        },
+        {
+          "handle": "emrahsamdan",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/emrahsamdan/",
+          "verified": false
+        },
+        {
+          "handle": "emrahsamdan",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+          "type": "x",
+          "url": "https://x.com/emrahsamdan",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "WA"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "emrah-samdan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:21Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@emrahsamdan"
+        }
+      ],
+      "summary": "AWS Serverless Hero since 2020, Emrah Samdan co-founded AWS Community Day Türkiye and speaks at events like re:Invent and ServerlessDays. He builds developer tools and leads product at Edge Delta, focusing on observability and AI-driven operations.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:21Z",
+  "seedUrl": "https://builder.aws.com/community/@emrahsamdan"
+}

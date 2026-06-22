@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "tptak",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ec437136d69b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@tptak",
+        "url": "https://avatars.builderprofile.aws.dev/3175TKyuZUzxZgPJBxTIZMkQWd8.webp",
+        "verified": true
+      },
+      "displayName": "Tomasz Ptak",
+      "featuredContent": [],
+      "headline": "Software engineer with love for building strong teams and communities",
+      "id": "person_tomasz_ptak",
+      "lastHarvestedAt": "2026-06-21T18:18:39Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@tptak",
+          "type": "blog",
+          "url": "https://codelikeamother.uk",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@tptak",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@tptak",
+          "verified": true
+        },
+        {
+          "handle": "breadcentric",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@tptak",
+          "type": "github",
+          "url": "https://github.com/breadcentric",
+          "verified": false
+        },
+        {
+          "handle": "tomasz-ptak",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@tptak",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/tomasz-ptak/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "GB",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@tptak",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "tomasz-ptak",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:39Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@tptak"
+        }
+      ],
+      "summary": "I am a boring java dev with an interest in developer experience, learning, organisation development and communities. I have joined the AWS Communities world through AWS DeepRacer and am on the lookout for opportunities to support engineers, students, communities and growth-mindset organisations",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:39Z",
+  "seedUrl": "https://builder.aws.com/community/@tptak"
+}

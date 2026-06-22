@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "ianuragkale",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-47f052a00a3b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+        "url": "https://avatars.builderprofile.aws.dev/2zfvN4oNsNIydFcZUjpfgkj9yhq.webp",
+        "verified": true
+      },
+      "displayName": "Anurag Kale",
+      "featuredContent": [],
+      "headline": "Cloud and Data Architect @Horse Powertrain, Aurobay Technologies Division",
+      "id": "person_anurag_kale",
+      "lastHarvestedAt": "2026-06-21T18:17:35Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "type": "blog",
+          "url": "https://www.anuragkale.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ianuragkale",
+          "verified": true
+        },
+        {
+          "handle": "anuragkale",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/anuragkale/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "type": "website",
+          "url": "https://bsky.app/profile/ianuragkale.bsky.social",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "SE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "anurag-kale",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:35Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ianuragkale"
+        }
+      ],
+      "summary": "AWS Data Hero. Technical being busy creating a concoction of Analytics, Platforms, Serverless and Software. Some of the things I build break, most work. Iterative approach to work and life.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:35Z",
+  "seedUrl": "https://builder.aws.com/community/@ianuragkale"
+}

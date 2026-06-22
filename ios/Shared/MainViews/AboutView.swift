@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 import StoreKit
+import AuthenticationServices
 import RevenueCat
 import RevenueCatUI
 
@@ -16,6 +17,7 @@ struct AboutView: View {
    @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
+   @StateObject private var appleProfile = AppleProfileStore()
    @Query var settings: [SystemSetting]
    @Query var cachedStats: [CachedAppStats]
    
@@ -134,10 +136,112 @@ struct AboutView: View {
          print("Failed to save app stats to cache: \(error)")
       }
    }
+
+   private func openAppReview() {
+      let appId = "1634871091"
+      guard let url = URL(string: "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review") else {
+         return
+      }
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
+   }
+
+   private func sendFeedback() {
+      var components = URLComponents()
+      components.scheme = "mailto"
+      components.path = "mail@tig.pt"
+      components.queryItems = [
+         URLQueryItem(name: "subject", value: "Feedback on AWSary"),
+         URLQueryItem(
+            name: "body",
+            value: "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About"
+         )
+      ]
+
+      guard let url = components.url else {
+         NSLog("Failed to create mailto URL")
+         return
+      }
+      UIApplication.shared.open(url)
+   }
    
    var body: some View {
       NavigationStack{
          List{
+            Section {
+               AboutProfileHeader(profile: appleProfile)
+                  .listRowInsets(EdgeInsets(top: 24, leading: 20, bottom: 20, trailing: 20))
+                  .listRowBackground(Color.clear)
+                  .listRowSeparator(.hidden)
+            }
+
+            Section("Explore") {
+               NavigationLink {
+                  AboutAWSaryDetailsView()
+               } label: {
+                  AboutNavigationRow(
+                     title: "About AWSary",
+                     subtitle: "The story and the person behind the app",
+                     systemImage: "person.crop.circle"
+                  )
+               }
+
+               NavigationLink {
+                  AboutSettingsDetailsView(
+                     showServiceLogoName: Binding(
+                        get: { awsServiceLogoWithLabel },
+                        set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
+                     ),
+                     subscriptionActive: userModel.subscriptionActive
+                  )
+               } label: {
+                  AboutNavigationRow(
+                     title: "Settings & Premium",
+                     subtitle: "Personalize AWSary and manage access",
+                     systemImage: "gearshape.fill"
+                  )
+               }
+
+               NavigationLink {
+                  AboutContactDetailsView(
+                     ratingCount: appStats?.ratings.ratingCount,
+                     isLoadingStats: isLoadingStats,
+                     openReview: openAppReview,
+                     sendFeedback: sendFeedback
+                  )
+               } label: {
+                  AboutNavigationRow(
+                     title: "Contact & Feedback",
+                     subtitle: "Get help or share what you think",
+                     systemImage: "envelope.fill"
+                  )
+               }
+
+               NavigationLink {
+                  AboutLegalDetailsView()
+               } label: {
+                  AboutNavigationRow(
+                     title: "Legal",
+                     subtitle: "Terms of use and privacy policy",
+                     systemImage: "checkmark.shield.fill"
+                  )
+               }
+            }
+
+            Section {
+               HStack(spacing: 12) {
+                  Image(systemName: "shippingbox.fill")
+                     .foregroundStyle(.orange)
+                  VStack(alignment: .leading, spacing: 3) {
+                     Text("Current settings")
+                        .font(.headline)
+                     Text("The existing screen remains below while the new experience reaches feature parity.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                  }
+               }
+               .padding(.vertical, 6)
+            }
+
             Section(header: Text("Configure service logos")){
                VStack{
                   Toggle(isOn: Binding(
@@ -217,12 +321,7 @@ struct AboutView: View {
                   //                     .background(Color.orange)
                   //                     .cornerRadius(7)
                }.onTapGesture {
-                  let appId = "1634871091"
-                  let url_string = "itms-apps://itunes.apple.com/app/id\(appId)?mt=8&action=write-review"
-                  guard let url = URL(string: url_string) else {
-                     return
-                  }
-                  UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                  openAppReview()
                }
                
                Label {
@@ -233,28 +332,7 @@ struct AboutView: View {
                } icon:{
                   Image(systemName: "envelope")
                }.onTapGesture {
-                  let address = "mail@tig.pt"
-                  let subject = "Feedback on AWSary"
-
-                  // Example email body with useful info for bug reports
-                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About"
-
-                  // Build the URL from its components
-                  var components = URLComponents()
-                  components.scheme = "mailto"
-                  components.path = address
-                  components.queryItems = [
-                        URLQueryItem(name: "subject", value: subject),
-                        URLQueryItem(name: "body", value: body)
-                  ]
-
-                  guard let email_url = components.url else {
-                      NSLog("Failed to create mailto URL")
-                      return
-                  }
-                  UIApplication.shared.open(email_url) { success in
-                    // handle success or failure
-                  }
+                  sendFeedback()
                }
                
             }
@@ -289,7 +367,7 @@ struct AboutView: View {
 //               Text("Icon 3")
 //            }
          }
-         .navigationTitle("Settings")
+         .navigationTitle("About")
          .navigationBarTitleDisplayMode(.inline)
          .toolbar {
             ToolbarItem(placement: .confirmationAction){
@@ -305,6 +383,7 @@ struct AboutView: View {
             }
             // Load app statistics (from cache first, then API if needed)
             loadAppStats()
+            appleProfile.refreshCredentialState()
          }
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
    }
@@ -335,6 +414,326 @@ struct AboutView: View {
    //            })
    //         }
    //   }
+}
+
+private struct AboutProfileHeader: View {
+   @ObservedObject var profile: AppleProfileStore
+   @Environment(\.colorScheme) private var colorScheme
+
+   var body: some View {
+      VStack(spacing: 14) {
+         ZStack {
+            Circle()
+               .fill(
+                  LinearGradient(
+                     colors: [.orange, Color(red: 1.0, green: 0.36, blue: 0.12)],
+                     startPoint: .topLeading,
+                     endPoint: .bottomTrailing
+                  )
+               )
+
+            if let initials = profile.initials {
+               Text(initials)
+                  .font(.system(size: 36, weight: .bold, design: .rounded))
+                  .foregroundStyle(.white)
+            } else {
+               Image(systemName: "person.crop.circle.fill")
+                  .resizable()
+                  .scaledToFit()
+                  .foregroundStyle(.white.opacity(0.95))
+                  .padding(13)
+            }
+         }
+         .frame(width: 108, height: 108)
+         .accessibilityHidden(true)
+
+         VStack(spacing: 5) {
+            Text(profile.displayName ?? "Welcome to AWSary")
+               .font(.title2.bold())
+            Text(profile.isSignedIn ? "Signed in with Apple" : "Your AWS learning companion")
+               .font(.subheadline)
+               .foregroundStyle(.secondary)
+         }
+
+         Text(profile.isSignedIn
+              ? "Your profile is stored on this device and personalizes your AWSary experience."
+              : "Create an optional profile to make AWSary feel more personal.")
+            .font(.subheadline)
+            .multilineTextAlignment(.center)
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+
+         if profile.isSignedIn {
+            Button("Disconnect Apple profile", role: .destructive) {
+               profile.disconnect()
+            }
+            .font(.footnote.weight(.medium))
+         } else {
+            SignInWithAppleButton(.signUp) { request in
+               request.requestedScopes = [.fullName]
+            } onCompletion: { result in
+               profile.handleAuthorization(result)
+            }
+            .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+            .frame(height: 48)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+         }
+
+         if let errorMessage = profile.errorMessage {
+            Text(errorMessage)
+               .font(.caption)
+               .foregroundStyle(.red)
+               .multilineTextAlignment(.center)
+         }
+      }
+      .frame(maxWidth: .infinity)
+   }
+}
+
+@MainActor
+private final class AppleProfileStore: ObservableObject {
+   private enum Key {
+      static let userIdentifier = "appleProfile.userIdentifier"
+      static let displayName = "appleProfile.displayName"
+   }
+
+   @Published private(set) var userIdentifier: String?
+   @Published private(set) var displayName: String?
+   @Published private(set) var errorMessage: String?
+
+   private let defaults: UserDefaults
+
+   init(defaults: UserDefaults = .standard) {
+      self.defaults = defaults
+      userIdentifier = defaults.string(forKey: Key.userIdentifier)
+      displayName = defaults.string(forKey: Key.displayName)
+   }
+
+   var isSignedIn: Bool {
+      userIdentifier != nil
+   }
+
+   var initials: String? {
+      guard let displayName else { return nil }
+      let words = displayName.split(separator: " ")
+      let letters = words.prefix(2).compactMap(\.first)
+      guard !letters.isEmpty else { return nil }
+      return String(letters).uppercased()
+   }
+
+   func handleAuthorization(_ result: Result<ASAuthorization, Error>) {
+      switch result {
+      case .success(let authorization):
+         guard let credential = authorization.credential as? ASAuthorizationAppleIDCredential else {
+            errorMessage = "AWSary could not read the Apple credential."
+            return
+         }
+
+         userIdentifier = credential.user
+         defaults.set(credential.user, forKey: Key.userIdentifier)
+
+         if let fullName = credential.fullName {
+            let formattedName = PersonNameComponentsFormatter.localizedString(
+               from: fullName,
+               style: .default,
+               options: []
+            ).trimmingCharacters(in: .whitespacesAndNewlines)
+
+            if !formattedName.isEmpty {
+               displayName = formattedName
+               defaults.set(formattedName, forKey: Key.displayName)
+            }
+         }
+         errorMessage = nil
+
+      case .failure(let error):
+         if let authorizationError = error as? ASAuthorizationError,
+            authorizationError.code == .canceled {
+            return
+         }
+         errorMessage = "Sign in with Apple could not be completed. Please try again."
+      }
+   }
+
+   func refreshCredentialState() {
+      guard let userIdentifier else { return }
+
+      ASAuthorizationAppleIDProvider().getCredentialState(forUserID: userIdentifier) { [weak self] state, _ in
+         Task { @MainActor in
+            guard let self else { return }
+            switch state {
+            case .authorized, .transferred:
+               break
+            case .revoked, .notFound:
+               self.disconnect()
+            @unknown default:
+               break
+            }
+         }
+      }
+   }
+
+   func disconnect() {
+      defaults.removeObject(forKey: Key.userIdentifier)
+      defaults.removeObject(forKey: Key.displayName)
+      userIdentifier = nil
+      displayName = nil
+      errorMessage = nil
+   }
+}
+
+private struct AboutNavigationRow: View {
+   let title: String
+   let subtitle: String
+   let systemImage: String
+
+   var body: some View {
+      HStack(spacing: 14) {
+         Image(systemName: systemImage)
+            .font(.headline)
+            .foregroundStyle(.white)
+            .frame(width: 34, height: 34)
+            .background(Color.orange.gradient, in: RoundedRectangle(cornerRadius: 9))
+
+         VStack(alignment: .leading, spacing: 3) {
+            Text(title)
+               .font(.body.weight(.medium))
+            Text(subtitle)
+               .font(.caption)
+               .foregroundStyle(.secondary)
+               .lineLimit(2)
+         }
+      }
+      .padding(.vertical, 4)
+   }
+}
+
+private struct AboutAWSaryDetailsView: View {
+   var body: some View {
+      List {
+         Section("Why AWSary") {
+            Text("I'm an AWS Cloud Consultant and Trainer. New AWS services are released all the time, and sometimes you just want a quick dictionary definition.")
+            Text("I also draw AWS Cloud Architecture diagrams daily on iPad. AWSary combines a practical dictionary with service logos you can drag into third-party drawing tools.")
+         }
+
+         Section("How to use AWSary") {
+            Text("Search for an AWS service to read its definition. You can also drag its logo into your favorite drawing application.")
+            MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
+         }
+
+         Section("Open source") {
+            Link(destination: URL(string: "https://github.com/tigpt/AWSary/")!) {
+               Label("Help develop AWSary on GitHub", systemImage: "chevron.left.forwardslash.chevron.right")
+            }
+         }
+      }
+      .navigationTitle("About AWSary")
+      .navigationBarTitleDisplayMode(.inline)
+   }
+}
+
+private struct AboutSettingsDetailsView: View {
+   @Binding var showServiceLogoName: Bool
+   let subscriptionActive: Bool
+
+   var body: some View {
+      List {
+         Section("Service logos") {
+            Toggle("Show name on service logo", isOn: $showServiceLogoName)
+         }
+
+         Section("AWSary Premium") {
+            Link(destination: URL(string: "https://bit.ly/awsary-merch")!) {
+               Label("AWSary Merch Store", systemImage: "storefront")
+            }
+
+            NavigationLink {
+               PaywallView(displayCloseButton: true)
+            } label: {
+               Label(
+                  subscriptionActive ? "Manage Subscription" : "Purchase Subscription",
+                  systemImage: subscriptionActive ? "heart.fill" : "creditcard"
+               )
+            }
+         }
+      }
+      .navigationTitle("Settings & Premium")
+      .navigationBarTitleDisplayMode(.inline)
+   }
+}
+
+private struct AboutContactDetailsView: View {
+   let ratingCount: Int?
+   let isLoadingStats: Bool
+   let openReview: () -> Void
+   let sendFeedback: () -> Void
+
+   var body: some View {
+      List {
+         Section("Feedback") {
+            Button(action: openReview) {
+               Label {
+                  VStack(alignment: .leading, spacing: 3) {
+                     Text("Rate AWSary")
+                     ratingMessage
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                  }
+               } icon: {
+                  Image(systemName: "star.fill")
+               }
+            }
+
+            Button(action: sendFeedback) {
+               Label {
+                  VStack(alignment: .leading, spacing: 3) {
+                     Text("Send Feedback")
+                     Text("Feedback emails are lovely to read!")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                  }
+               } icon: {
+                  Image(systemName: "envelope.fill")
+               }
+            }
+         }
+      }
+      .navigationTitle("Contact & Feedback")
+      .navigationBarTitleDisplayMode(.inline)
+   }
+
+   @ViewBuilder
+   private var ratingMessage: some View {
+      if let ratingCount {
+         Text("Join the \(ratingCount) people who have rated this version.")
+      } else if isLoadingStats {
+         Text("Loading rating info…")
+      } else {
+         Text("Be one of the first to rate this version.")
+      }
+   }
+}
+
+private struct AboutLegalDetailsView: View {
+   var body: some View {
+      List {
+         Section {
+            Link(destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!) {
+               Label("Terms of Use (EULA)", systemImage: "doc.text")
+            }
+            Link(destination: URL(string: "https://tig.pt/awsary-privacy")!) {
+               Label("Privacy Policy", systemImage: "hand.raised.fill")
+            }
+         }
+
+         Section("App information") {
+            LabeledContent("Version", value: Bundle.main.appVersionLong)
+            LabeledContent("Build", value: Bundle.main.appBuild)
+         }
+      }
+      .navigationTitle("Legal")
+      .navigationBarTitleDisplayMode(.inline)
+   }
 }
 
 

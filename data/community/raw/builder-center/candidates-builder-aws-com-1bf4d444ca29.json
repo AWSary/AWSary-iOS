@@ -1,0 +1,125 @@
+{
+  "builderApi": {
+    "alias": "tigpt",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c5d8c929e78c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@tigpt",
+        "url": "https://avatars.builderprofile.aws.dev/2rvv0itg6o9Z2UCfWqmQvVN68Fu.webp",
+        "verified": true
+      },
+      "displayName": "Tiago Rodrigues",
+      "featuredContent": [],
+      "headline": "Head of tecRacer Portugal",
+      "id": "person_tiago_rodrigues",
+      "lastHarvestedAt": "2026-06-21T18:18:37Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "type": "blog",
+          "url": "https://tig.pt",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@tigpt",
+          "verified": true
+        },
+        {
+          "handle": "tigpt",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "type": "github",
+          "url": "https://github.com/tigpt",
+          "verified": false
+        },
+        {
+          "handle": "tigpt",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/tigpt/",
+          "verified": false
+        },
+        {
+          "handle": "@tigrodpt",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@tigrodpt",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Authorized Instructor",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "tiago-rodrigues",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:37Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@tigpt"
+        }
+      ],
+      "summary": "Tiago is the Head for tecRacer.com Portugal, and a Senior Cloud Consultant, an AWS Premier Tier Services Partner and AWS Advanced Tier Training Partner, operating for over a decade with offices across Germany, Switzerland, Austria, and Portugal. With diverse experience ranging from Startups to Enterprise projects, Tiago specializes in migrations from on-premises environments to the cloud, but also in modernizing architectures or implementing serverless solutions from idea to production. Beyond his professional role, Tiago is deeply committed to knowledge sharing. He actively contributes to the AWS community, e.g. through the AWS User Group Lisbon, educational workshops, and guest lectures at universities to promote a culture of learning and exploring the potential that AWS offers. Proof of his passion for education and innovation is AWSary, an open source mobile app he developed. AWSary serves as a playful yet informative AWS dictionary that helps draw diagrams for Solution Architects and provides quick insights into AWS services. Catch Tiago sharing his insights and AWS adventures on his personal blog and at events both locally in Portugal and globally online.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:37Z",
+  "seedUrl": "https://builder.aws.com/community/@tigpt"
+}

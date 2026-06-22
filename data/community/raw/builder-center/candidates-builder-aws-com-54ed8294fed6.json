@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "alexlau811",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-fc3a7da815ed.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+        "url": "https://avatars.builderprofile.aws.dev/2ycwh8R6BNPlLxmGuc7ySX7O9JE.webp",
+        "verified": true
+      },
+      "displayName": "Alex Lau",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_alex_lau",
+      "lastHarvestedAt": "2026-06-21T18:16:48Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@alexlau811",
+          "verified": true
+        },
+        {
+          "handle": "alexlau811",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+          "type": "github",
+          "url": "https://github.com/alexlau811/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "HK",
+        "region": "Hong Kong Island"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "alex-lau",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:48Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@alexlau811"
+        }
+      ],
+      "summary": "Alex Lau is a Lead Instructor of Tecky Academy with a focus on Full Stack, Mobile App, and AWS technologies. Enthusiastic about teaching and sharing, Alex has been an active leader in the Hong Kong developer community since 2015.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:48Z",
+  "seedUrl": "https://builder.aws.com/community/@alexlau811"
+}

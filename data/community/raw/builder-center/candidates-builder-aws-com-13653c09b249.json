@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "manojf",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-04ea6bc14951.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@manojf",
+        "url": "https://avatars.builderprofile.aws.dev/2xuL494fUQRUZHHb7losYjx51CF.webp",
+        "verified": true
+      },
+      "displayName": "Manoj Fernando",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_manoj_fernando",
+      "lastHarvestedAt": "2026-06-21T18:17:52Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@manojf",
+          "type": "blog",
+          "url": "https://manojf.medium.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@manojf",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@manojf",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@manojf",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@manojf",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "manoj-fernando",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:52Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@manojf"
+        }
+      ],
+      "summary": "Manoj is an online teacher and a serverless consultant. He teaches AWS cloud computing on his YouTube channel and on Udemy. In addition to creating videos, he writes technical articles on medium. He is also the leader in AWS User Group Colombo, Sri Lanka",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:52Z",
+  "seedUrl": "https://builder.aws.com/community/@manojf"
+}

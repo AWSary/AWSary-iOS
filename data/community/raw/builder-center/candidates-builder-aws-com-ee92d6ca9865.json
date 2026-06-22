@@ -1,0 +1,113 @@
+{
+  "builderApi": {
+    "alias": "sathyabhat",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-eb0b3ef173da.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+        "url": "https://avatars.builderprofile.aws.dev/2xo5SV4JfrgltfOlEN4Lx3PBitg.webp",
+        "verified": true
+      },
+      "displayName": "Sathyajith Bhat",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sathyajith_bhat",
+      "lastHarvestedAt": "2026-06-21T18:18:20Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "blog",
+          "url": "https://sathyasays.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sathyabhat",
+          "verified": true
+        },
+        {
+          "handle": "sathyabhat",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "github",
+          "url": "https://github.com/sathyabhat",
+          "verified": false
+        },
+        {
+          "handle": "sathyabhat",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/sathyabhat",
+          "verified": false
+        },
+        {
+          "handle": "sathyabhat",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "x",
+          "url": "https://twitter.com/sathyabhat",
+          "verified": false
+        },
+        {
+          "handle": "@sathyabhat",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@sathyabhat",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sathyajith-bhat",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:20Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sathyabhat"
+        }
+      ],
+      "summary": "Sathyajith Bhat is an experienced Cloud Architect & SRE with over 17 years of experience in Cloud Architecture, DevOps, Site Reliability Engineering. His expertise includes AWS, Azure, Kubernetes, Docker, Chef, Python, TypeScript, Linux, Bash, Docker, Terraform, Prometheus and more. He is not fanatic about specific tools or services and believes in making the most available out of the tools he gets to work with. He is the author of [Practical Docker with Python](https://amzn.to/3B9pQaz), a co-author of [The CDK Book](https://www.thecdkbook.com/) and is recognized as an [AWS Container Hero](https://builder.aws.com/community/@sathyabhat)",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:20Z",
+  "seedUrl": "https://builder.aws.com/community/@sathyabhat"
+}

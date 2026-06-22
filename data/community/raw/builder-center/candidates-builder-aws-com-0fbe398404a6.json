@@ -1,0 +1,84 @@
+{
+  "builderApi": {
+    "alias": "rayg",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-2701d5daf674.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@rayg",
+        "url": "https://avatars.builderprofile.aws.dev/3B1cnWhJIQVs8E1nK5YpGUbMpks.webp",
+        "verified": true
+      },
+      "displayName": "Ray Goh",
+      "featuredContent": [],
+      "headline": "\"If it's worth doing, it's worth over-doing!\"",
+      "id": "person_ray_goh",
+      "lastHarvestedAt": "2026-06-21T18:18:13Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@rayg",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@rayg",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "SG",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Engineering",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@rayg",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@rayg",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ray-goh",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:13Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@rayg"
+        }
+      ],
+      "summary": "Building on AWS since 2017. Past AWS DeepRacer and AWS AI League winner. AI/ML community leader (\"The Gen-C\") in Singapore.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:13Z",
+  "seedUrl": "https://builder.aws.com/community/@rayg"
+}

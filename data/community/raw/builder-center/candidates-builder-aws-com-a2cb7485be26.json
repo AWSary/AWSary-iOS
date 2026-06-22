@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "avikeinan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d4bd7c4df401.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+        "url": "https://avatars.builderprofile.aws.dev/30EbqL7Pj3g4ZufsCrG4qYmHTXa.webp",
+        "verified": true
+      },
+      "displayName": "Avi Keinan",
+      "featuredContent": [],
+      "headline": "Senior Cloud Architect @ DoiT | AWS Community Hero",
+      "id": "person_avi_keinan",
+      "lastHarvestedAt": "2026-06-21T18:16:55Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "blog",
+          "url": "https://medium.com/@avi-k",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@avikeinan",
+          "verified": true
+        },
+        {
+          "handle": "burekasim",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "github",
+          "url": "https://github.com/burekasim/",
+          "verified": false
+        },
+        {
+          "handle": "avi-keinan-14828738",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/avi-keinan-14828738/",
+          "verified": false
+        },
+        {
+          "handle": "Avi_Keinan",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "x",
+          "url": "https://x.com/Avi_Keinan",
+          "verified": false
+        },
+        {
+          "handle": "playlist",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "type": "youtube",
+          "url": "https://www.youtube.com/playlist?list=PLiIZ1i25re8C73VC8cXGZjonctV9iHy9a",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "avi-keinan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:55Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@avikeinan"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:55Z",
+  "seedUrl": "https://builder.aws.com/community/@avikeinan"
+}

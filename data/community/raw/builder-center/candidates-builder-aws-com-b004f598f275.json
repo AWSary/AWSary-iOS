@@ -1,0 +1,71 @@
+{
+  "builderApi": {
+    "alias": "serhatcan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d0c669ce2b31.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Serhat Can",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_serhat_can",
+      "lastHarvestedAt": "2026-06-21T18:18:22Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@serhatcan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@serhatcan",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@serhatcan",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "serhat-can",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:22Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@serhatcan"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:22Z",
+  "seedUrl": "https://builder.aws.com/community/@serhatcan"
+}

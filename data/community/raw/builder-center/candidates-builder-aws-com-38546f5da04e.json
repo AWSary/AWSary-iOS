@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "advit",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-39bd365fa6e9.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@advit",
+        "url": "https://avatars.builderprofile.aws.dev/32yHAaiIoIAWxPpTFEuIvwLzCYv.webp",
+        "verified": true
+      },
+      "displayName": "Denis Astahov",
+      "featuredContent": [],
+      "headline": "Owner of YouTube ▶️ ADV-IT",
+      "id": "person_denis_astahov",
+      "lastHarvestedAt": "2026-06-21T18:16:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@advit",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@advit",
+          "verified": true
+        },
+        {
+          "handle": "adv4000",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@advit",
+          "type": "github",
+          "url": "https://github.com/adv4000",
+          "verified": false
+        },
+        {
+          "handle": "denis-astahov",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@advit",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/denis-astahov/",
+          "verified": false
+        },
+        {
+          "handle": "@ADV-IT",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@advit",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@ADV-IT",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CA",
+        "region": "BC"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@advit",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "denis-astahov",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@advit"
+        }
+      ],
+      "summary": "Denis is a Solutions Architect at OpsGuru, where he automates and develops various cloud solutions with Infrastructure as Code using Terraform. Previously Denis worked for Intel Corporation in Israel as an Automation Engineer from 2007-2017. Denis owns the YouTube channel ADV-IT, where he teaches people about a variety of IT and especially DevOps topics, including AWS, Terraform, Kubernetes, Ansible, Jenkins, Git, Linux, Python, and many others. His channel has more than 140,000 subscribers and over 18,000,000 views, making it one of the most popular free sources for AWS and DevOps knowledge in the Russian speaking community. In addition to his industry work, Denis is a Professor at the British Columbia Institute of Technology (BCIT), where he teaches AWS Security. He is also a frequent speaker at international IT conferences, including AWS Community Days and CloudSummits. Denis has more than 16 cloud certifications, including 13 AWS Certifications. He also holds an Master of Science in Technology Management from New York University - Polytechnic School of Engineering.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:45Z",
+  "seedUrl": "https://builder.aws.com/community/@advit"
+}

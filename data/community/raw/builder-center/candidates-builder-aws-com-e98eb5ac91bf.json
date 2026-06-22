@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "deeheber",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-904fac5c1722.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@deeheber",
+        "url": "https://avatars.builderprofile.aws.dev/2uuNhE6BP2QPyoPg4bZeHAQ0wr1.webp",
+        "verified": true
+      },
+      "displayName": "Danielle Heberling",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_danielle_heberling",
+      "lastHarvestedAt": "2026-06-21T18:17:13Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@deeheber",
+          "verified": true
+        },
+        {
+          "handle": "deeheber",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "type": "github",
+          "url": "https://github.com/deeheber",
+          "verified": false
+        },
+        {
+          "handle": "deeheber",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/deeheber/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "type": "website",
+          "url": "https://danielleheberling.xyz",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "type": "website",
+          "url": "https://dev.to/deeheber",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "OR"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "danielle-heberling",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:13Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@deeheber"
+        }
+      ],
+      "summary": "Danielle was an early AWS serverless adopter who joined Stackery, a startup building modern cloud development tools. AWS acquired the company, and the work evolved into Infrastructure Composer in the AWS Console. She's passionate about making cloud development more accessible. She gives talks, writes about her experiences, mentors engineers, and builds products people can depend on and love to use. Danielle co-organizes Believe in Serverless, a Discord community for engineers to learn about serverless and cloud architecture: https://believeinserverless.com/community",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:13Z",
+  "seedUrl": "https://builder.aws.com/community/@deeheber"
+}

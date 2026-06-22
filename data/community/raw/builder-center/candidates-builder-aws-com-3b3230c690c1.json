@@ -1,0 +1,122 @@
+{
+  "builderApi": {
+    "alias": "darrylr",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-cb766d194cef.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@darrylr",
+        "url": "https://avatars.builderprofile.aws.dev/32xvtRCXz0BUNb5YZMIdzX1KHT8.webp",
+        "verified": true
+      },
+      "displayName": "Darryl Ruggles",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_darryl_ruggles",
+      "lastHarvestedAt": "2026-06-21T18:17:12Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "blog",
+          "url": "https://darryl-ruggles.cloud/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@darrylr",
+          "verified": true
+        },
+        {
+          "handle": "RDarrylR",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "github",
+          "url": "https://github.com/RDarrylR",
+          "verified": false
+        },
+        {
+          "handle": "darryl-ruggles",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/darryl-ruggles/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "website",
+          "url": "https://dev.to/rdarrylr",
+          "verified": false
+        },
+        {
+          "handle": "RDarrylR",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "type": "x",
+          "url": "https://twitter.com/RDarrylR",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "darryl-ruggles",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:12Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@darrylr"
+        }
+      ],
+      "summary": "Principal Cloud Solutions Architect @ Ciena. With a 25+ year career spanning C/C++ embedded systems, Java application development, ReactJS frontends, microservices, containers, serverless architectures, traditional AI/ML and MLOps, observability, DevOps, SRE, FinOps, and GenAI, I bring a broad perspective to every project. I'm passionate about event-driven architecture, observability, and building solutions with serverless and managed services. I'm a continuous learner who enjoys exploring new tools and techniques. Serverless, AWS, Full Stack, Kubernetes, Rust, Go, Terraform, Security, React, MLOps, Forecasting, Maker, Electronics.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:12Z",
+  "seedUrl": "https://builder.aws.com/community/@darrylr"
+}

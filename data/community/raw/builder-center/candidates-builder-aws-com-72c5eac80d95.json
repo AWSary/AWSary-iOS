@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "glover",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-8aca6a444a01.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@glover",
+        "url": "https://avatars.builderprofile.aws.dev/2xqEAAzWZ1qeK15uNHybdoPVtGh.webp",
+        "verified": true
+      },
+      "displayName": "Nathan Glover",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_nathan_glover",
+      "lastHarvestedAt": "2026-06-21T18:17:27Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@glover",
+          "type": "blog",
+          "url": "https://devopstar.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@glover",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@glover",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@glover",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "nathan-glover",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:27Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@glover"
+        }
+      ],
+      "summary": "Nathan is a Senior Data Engineer at GovConnex in Perth, Western Australia.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:27Z",
+  "seedUrl": "https://builder.aws.com/community/@glover"
+}

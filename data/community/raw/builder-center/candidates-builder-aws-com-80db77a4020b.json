@@ -1,0 +1,113 @@
+{
+  "builderApi": {
+    "alias": "metaskills",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-71e0f8110d41.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@metaskills",
+        "url": "https://avatars.builderprofile.aws.dev/2olrJUzuc5IcikhgBnOQ0xAQMhZ.webp",
+        "verified": true
+      },
+      "displayName": "Ken Collins",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ken_collins",
+      "lastHarvestedAt": "2026-06-21T18:17:55Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "blog",
+          "url": "https://www.unremarkable.ai",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@metaskills",
+          "verified": true
+        },
+        {
+          "handle": "metaskills",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "github",
+          "url": "https://github.com/metaskills",
+          "verified": false
+        },
+        {
+          "handle": "metaskills",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/metaskills/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "website",
+          "url": "https://dev.to/metaskills",
+          "verified": false
+        },
+        {
+          "handle": "metaskills",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "type": "x",
+          "url": "https://x.com/metaskills",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ken-collins",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:55Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@metaskills"
+        }
+      ],
+      "summary": "Empathy and strategy are my superpowers that connect \"hello world\" to hello revenue using years of experience in Architecture, E-commerce, Engineering, Infrastructure, Marketing, & Sales. All in on AI and emerging real-world cognitive architectures.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:55Z",
+  "seedUrl": "https://builder.aws.com/community/@metaskills"
+}

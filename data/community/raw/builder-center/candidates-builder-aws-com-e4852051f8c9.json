@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "setevoy",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-9cc97d02aba2.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@setevoy",
+        "url": "https://avatars.builderprofile.aws.dev/34rguAWArYk9aVNsfP8bPbOxrlt.webp",
+        "verified": true
+      },
+      "displayName": "Arseny Zinchneko",
+      "featuredContent": [],
+      "headline": "RTFM! DevOps[at]UA",
+      "id": "person_arseny_zinchneko",
+      "lastHarvestedAt": "2026-06-21T18:18:24Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy",
+          "type": "blog",
+          "url": "https://rtfm.co.ua/en",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@setevoy",
+          "verified": true
+        },
+        {
+          "handle": "setevoy",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/setevoy/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy",
+          "type": "website",
+          "url": "https://dev.to/setevoy",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "UA",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "arseny-zinchneko",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:24Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@setevoy"
+        }
+      ],
+      "summary": "DevOps, cloud and infrastructure engineer. Love Linux, OpenSource, and AWS. Tech. blog writer at https://rtfm.co.ua/en",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:24Z",
+  "seedUrl": "https://builder.aws.com/community/@setevoy"
+}

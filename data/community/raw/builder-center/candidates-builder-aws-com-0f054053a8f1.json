@@ -1,0 +1,79 @@
+{
+  "builderApi": {
+    "alias": "filipebarretto",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7fd68950e9ca.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Filipe Barretto",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_filipe_barretto",
+      "lastHarvestedAt": "2026-06-21T18:17:24Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@filipebarretto",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@filipebarretto",
+          "verified": true
+        },
+        {
+          "handle": "filipebarretto",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@filipebarretto",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/filipebarretto",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@filipebarretto",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "filipe-barretto",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:24Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@filipebarretto"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:24Z",
+  "seedUrl": "https://builder.aws.com/community/@filipebarretto"
+}

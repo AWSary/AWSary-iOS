@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "czam",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6d7d9138598b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@czam",
+        "url": "https://avatars.builderprofile.aws.dev/2y5lQ1SqtIBF1mUliZe5beqy7IF.webp",
+        "verified": true
+      },
+      "displayName": "Carlos Zambrano",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_carlos_zambrano",
+      "lastHarvestedAt": "2026-06-21T18:17:09Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@czam",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@czam",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@czam",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@czam",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "carlos-zambrano",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:09Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@czam"
+        }
+      ],
+      "summary": "I am a game-changing technology leader with a track record of repeated success at the helm of innovative strategies, tech transformation, and radical problem-solving, propelling growing companies to scale and gain a competitive advantage",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:09Z",
+  "seedUrl": "https://builder.aws.com/community/@czam"
+}

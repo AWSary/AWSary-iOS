@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "damiano",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-16489edf012b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@damiano",
+        "url": "https://avatars.builderprofile.aws.dev/2f8JrBzb7bdpxxFpuhEyZuMuONq.webp",
+        "verified": true
+      },
+      "displayName": "Damiano Giorgi",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_damiano_giorgi",
+      "lastHarvestedAt": "2026-06-21T18:17:09Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "type": "blog",
+          "url": "https://damianogiorgi.it",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@damiano",
+          "verified": true
+        },
+        {
+          "handle": "damiano-giorgi",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/damiano-giorgi",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Cloud Operations",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@damiano",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "damiano-giorgi",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:09Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@damiano"
+        }
+      ],
+      "summary": "Former on-prem systems engineer, I always tend to automate tedious tasks and seek tech innovations. I love Cloud Computing! My only hardware focus now is my bass. If not in the office or band room, check the pub or airport!",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:09Z",
+  "seedUrl": "https://builder.aws.com/community/@damiano"
+}

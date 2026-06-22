@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "angelatimofte",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-2d5c249080bc.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@angelatimofte",
+        "url": "https://avatars.builderprofile.aws.dev/31vLMTV67Sqn3729MyETixnKQKE.webp",
+        "verified": true
+      },
+      "displayName": "Angela",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_angela",
+      "lastHarvestedAt": "2026-06-21T18:16:51Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@angelatimofte",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@angelatimofte",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DK",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@angelatimofte",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@angelatimofte",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "angela",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:51Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@angelatimofte"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:51Z",
+  "seedUrl": "https://builder.aws.com/community/@angelatimofte"
+}

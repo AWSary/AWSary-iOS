@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "vikomex",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b32727f58ca4.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vikomex",
+        "url": "https://avatars.builderprofile.aws.dev/2pbQ3rIjDzGqGMDdk7vnGJfrK8O.webp",
+        "verified": true
+      },
+      "displayName": "David Victoria",
+      "featuredContent": [],
+      "headline": "AWS Hero | Senior Cloud Architect @ Caylent",
+      "id": "person_david_victoria",
+      "lastHarvestedAt": "2026-06-21T18:18:42Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vikomex",
+          "verified": true
+        },
+        {
+          "handle": "vikomex",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/vikomex",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "type": "website",
+          "url": "https://davidvictoria.com",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "MX",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "david-victoria",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:42Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vikomex"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:42Z",
+  "seedUrl": "https://builder.aws.com/community/@vikomex"
+}

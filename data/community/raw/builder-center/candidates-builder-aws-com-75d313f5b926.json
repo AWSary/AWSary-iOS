@@ -1,0 +1,74 @@
+{
+  "builderApi": {
+    "alias": "adambien",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-87cb7aa11bb3.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@adambien",
+        "url": "https://avatars.builderprofile.aws.dev/2etUyZKADPoTd4MbUxaCup9Vbfy.webp",
+        "verified": true
+      },
+      "displayName": "adam bien",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_adam_bien",
+      "lastHarvestedAt": "2026-06-21T18:16:44Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@adambien",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@adambien",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@adambien",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "adam-bien",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:44Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@adambien"
+        }
+      ],
+      "summary": "Developer (Architect), Consultant, Trainer (https://airhacks.live), Podcaster (https://airhacks.fm), AWS Hero and Java (Champion) enthusiast Adam Bien (https://adambien.blog) has been using Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing code. Adam regularly organises Java / Web / Cloud / Architectures online live workshops https://airhacks.live and a monthly Q&A live streaming show: https://airhacks.tv.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:44Z",
+  "seedUrl": "https://builder.aws.com/community/@adambien"
+}

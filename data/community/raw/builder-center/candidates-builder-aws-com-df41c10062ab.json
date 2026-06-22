@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "asamir",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d1fa146f94cc.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@asamir",
+        "url": "https://avatars.builderprofile.aws.dev/3AqKXU4wNbHRlBhRODIVsRube6O.webp",
+        "verified": true
+      },
+      "displayName": "Ahmed Samir",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ahmed_samir",
+      "lastHarvestedAt": "2026-06-21T18:16:53Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@asamir",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@asamir",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@asamir",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ahmed-samir",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:53Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@asamir"
+        }
+      ],
+      "summary": "AWS Community Hero and Solution Architect at Alinma Bank with 17+ years of experience in IT and digital transformation. Ahmed specializes in cloud-native architecture for financial services, driving digital banking initiatives . I am leading three Arabic-language meetups in Riyadh — AWS, Amazon SageMaker, and Kubernetes — and has organized 45+ community events for AWS to grow and empower the cloud community across the MENA region. I am AWS and Kubernetes certified and passionate about making cloud knowledge accessible in Arabic.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:53Z",
+  "seedUrl": "https://builder.aws.com/community/@asamir"
+}

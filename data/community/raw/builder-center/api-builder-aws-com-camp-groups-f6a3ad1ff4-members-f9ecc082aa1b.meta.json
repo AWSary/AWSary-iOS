@@ -1,0 +1,8 @@
+{
+  "contentType": "application/json",
+  "method": "GET",
+  "requestedUrl": "https://api.builder.aws.com/camp/groups/f6a3ad1ff4/members?pageSize=500",
+  "retrievedAt": "2026-06-21T18:14:02Z",
+  "sha256": "cc624fb142f0812c8fb98e5e6d099272f6bd1e7e4077ed4fe5d6cfe5d0dc4361",
+  "url": "https://api.builder.aws.com/camp/groups/f6a3ad1ff4/members?pageSize=500"
+}

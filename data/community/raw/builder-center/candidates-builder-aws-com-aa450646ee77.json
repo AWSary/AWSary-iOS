@@ -1,0 +1,146 @@
+{
+  "builderApi": {
+    "alias": "vkazulkin",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-bc5894b2c1e6.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+        "url": "https://avatars.builderprofile.aws.dev/2zjtTF67hF84Cbi1luRKqMr3Wgp.webp",
+        "verified": true
+      },
+      "displayName": "Vadym Kazulkin",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_vadym_kazulkin",
+      "lastHarvestedAt": "2026-06-21T18:18:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "blog",
+          "url": "https://de.slideshare.net/VadymKazulkin/presentations",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vkazulkin",
+          "verified": true
+        },
+        {
+          "handle": "Vadym79",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "github",
+          "url": "https://github.com/Vadym79/",
+          "verified": false
+        },
+        {
+          "handle": "vadymkazulkin",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/vadymkazulkin",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "website",
+          "url": "https://dev.to/vkazulkin",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "website",
+          "url": "https://sessionize.com/vadym-kazulkin",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "website",
+          "url": "https://vkazulkin.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "website",
+          "url": "https://www.facebook.com/vadym.ka.3",
+          "verified": false
+        },
+        {
+          "handle": "VKazulkin",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "x",
+          "url": "https://x.com/VKazulkin",
+          "verified": false
+        },
+        {
+          "handle": "watch",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=CnksMV9yNX8&list=PLE2b2mkXhNUVvcTc2nt0Mu8UnCY5WrdQA",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "North Rhine-Westphalia"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vadym-kazulkin",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+        }
+      ],
+      "summary": "Vadym Kazulkin is ukrainian-native AWS Serverless Hero and Head of Development at ip.labs based in Bonn. Vadym has been involved with the Java ecosystem for over 25 years. His focus and interests currently include the design and implementation of highly scalable and available applications in AWS Cloud with the special passion for Serverless, Generative AI and optimization of Java applications (also using SpringBoot, Micronaut and Quarkus frameworks) on AWS Lambda. Vadym is also the co-organizer of the Java User Group Bonn meetup, a frequent speaker at various meetups and conferences and a regular author of the articles in the different published magazines and on his online blog.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:45Z",
+  "seedUrl": "https://builder.aws.com/community/@vkazulkin"
+}

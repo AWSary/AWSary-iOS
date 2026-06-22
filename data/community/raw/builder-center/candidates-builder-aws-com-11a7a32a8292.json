@@ -1,0 +1,84 @@
+{
+  "builderApi": {
+    "alias": "maciejlelusz",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-4d458ce2c417.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+        "url": "https://avatars.builderprofile.aws.dev/2zgkVoRHlhlufp2HwWYD8Pf7Kjq.webp",
+        "verified": true
+      },
+      "displayName": "Maciek Lelusz",
+      "featuredContent": [],
+      "headline": "Mostly techie, sometimes manager",
+      "id": "person_maciek_lelusz",
+      "lastHarvestedAt": "2026-06-21T18:17:51Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@maciejlelusz",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "maciek-lelusz",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:51Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@maciejlelusz"
+        }
+      ],
+      "summary": "Hi, I’m Maciej Lelusz - consultant, architect, and occasional tech therapist. I spend my time wrangling cloud and datacenter infrastructure, convincing organizations that IT transformation isn’t just a buzzword, and reminding people that \"lift and shift\" is not a strategy. As an AWS Community Hero, I balance hands-on architecture work with community mischief: running meetups, speaking at events, writing blog posts that call it like it is, and podcasting about the good, the bad, and the absurd parts of enterprise tech. I care deeply about creating better experiences with technology - though I may roll my eyes while doing it. Whether it’s storage design or culture change, I’m here to make IT a little smarter, a little more human, and way less boring. Want more insight, or a war story or two? Stay connected: https://lelusz.com",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:51Z",
+  "seedUrl": "https://builder.aws.com/community/@maciejlelusz"
+}

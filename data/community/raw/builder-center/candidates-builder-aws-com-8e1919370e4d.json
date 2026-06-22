@@ -1,0 +1,115 @@
+{
+  "builderApi": {
+    "alias": "wongcyrus",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-a43e2603cd50.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+        "url": "https://avatars.builderprofile.aws.dev/36ddCTPbJWIsu5rYPgFLUjzxIR8.webp",
+        "verified": true
+      },
+      "displayName": "Cyrus Wong",
+      "featuredContent": [],
+      "headline": "AWS AI Hero + Microsoft MVP + Google Developer Experts - GCP(AI)",
+      "id": "person_cyrus_wong",
+      "lastHarvestedAt": "2026-06-21T18:18:48Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@wongcyrus",
+          "verified": true
+        },
+        {
+          "handle": "wongcyrus",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "github",
+          "url": "https://github.com/wongcyrus",
+          "verified": false
+        },
+        {
+          "handle": "cyruswong",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/cyruswong/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "website",
+          "url": "https://www.facebook.com/cywong.vtc",
+          "verified": false
+        },
+        {
+          "handle": "wongcyrus",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "x",
+          "url": "https://x.com/wongcyrus",
+          "verified": false
+        },
+        {
+          "handle": "@cyruswong",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@cyruswong",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "HK",
+        "region": "New Territories"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "cyrus-wong",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:48Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+        }
+      ],
+      "summary": "Cyrus Wong is an accomplished senior lecturer who oversees the Higher Diploma program in Cloud and Data Centre Administration at the Hong Kong Institute of Information Technology (HKIIT) at IVE(Lee Wai Lee) in Hong Kong. He is a passionate advocate for the adoption of cloud technology across various media and events. With his extensive knowledge and expertise, he has earned prestigious recognitions such as AWS AI Hero, Microsoft MVP - Microsoft Foundry, and Google Developer Expert for Google Cloud Platform (AI) Microsoft Azure AI MVP https://mvp.microsoft.com/en-US/MVP/profile/86da86ff-8786-ed11-aad1-000d3a197333 Google Developer Expert in Google Cloud Platform & AI/ML (GenAI) https://developers.google.com/profile/u/cyruswong Higher Diploma in Cloud and Data Centre Administration https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:48Z",
+  "seedUrl": "https://builder.aws.com/community/@wongcyrus"
+}

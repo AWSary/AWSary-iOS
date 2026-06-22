@@ -1,0 +1,139 @@
+{
+  "builderApi": {
+    "alias": "hiromi",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c94ce7fdf31e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hiromi",
+        "url": "https://avatars.builderprofile.aws.dev/2olvtwqXeBYylhDEGLtVH4r7Wpi.webp",
+        "verified": true
+      },
+      "displayName": "Hiromi｜AWS Community Hero",
+      "featuredContent": [],
+      "headline": "Head of COE, COLLABO STYLE INC.",
+      "id": "person_hiromi_aws_community_hero",
+      "lastHarvestedAt": "2026-06-21T18:17:32Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "blog",
+          "url": "https://hiroramos.uno",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hiromi",
+          "verified": true
+        },
+        {
+          "handle": "4hiroramos",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "github",
+          "url": "https://github.com/4hiroramos",
+          "verified": false
+        },
+        {
+          "handle": "hiromi-ito-8917a6b7",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/hiromi-ito-8917a6b7/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "website",
+          "url": "https://www.facebook.com/hirobailaora",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "website",
+          "url": "https://www.instagram.com/hiroramos/",
+          "verified": false
+        },
+        {
+          "handle": "hiro_baila",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "x",
+          "url": "https://x.com/hiro_baila",
+          "verified": false
+        },
+        {
+          "handle": "@AWSGlobalCommunityGatherings",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@AWSGlobalCommunityGatherings",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "hiromi-aws-community-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:32Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hiromi"
+        }
+      ],
+      "summary": "I began as an AWS community leader in 2014. Since then, I’ve been actively involved both in Japan and globally. I’m actively leading a women’s group, a DEI-focused group, and a global community, continuing to foster an inclusive space for new participants and speakers. Feel free to reach out anytime—via DM or on social media, whether you have something in mind or not! Communities I founded and lead as a User Group leader: Global-focused ・AWS Global Commyunity | https://www.meetup.com/ja-JP/awsglobalcommunitygatherings/ Japan-focused ・JAWS-UG DE&I | https://jawsugdei.connpass.com/ ・JAWS-UG Osaka | https://jawsugosaka.connpass.com/ ・Serverless Meetup | https://serverless.connpass.com/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:32Z",
+  "seedUrl": "https://builder.aws.com/community/@hiromi"
+}

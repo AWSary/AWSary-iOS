@@ -1,0 +1,89 @@
+{
+  "builderApi": {
+    "alias": "virginie",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5e58c09eae56.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@virginie",
+        "url": "https://avatars.builderprofile.aws.dev/2yMqvfJbsDWVCJhOoK6FTPMwM1X.webp",
+        "verified": true
+      },
+      "displayName": "Virginie Mathivet",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_virginie_mathivet",
+      "lastHarvestedAt": "2026-06-21T18:18:43Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@virginie",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@virginie",
+          "verified": true
+        },
+        {
+          "handle": "VirginieMathivet",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@virginie",
+          "type": "github",
+          "url": "https://github.com/VirginieMathivet",
+          "verified": false
+        },
+        {
+          "handle": "virginie-mathivet",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@virginie",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/virginie-mathivet/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@virginie",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "virginie-mathivet",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:43Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@virginie"
+        }
+      ],
+      "summary": "22 ans d'expérience dans l'IA, Dr en IA. Aujourd'hui fondatrice et dirigeante d'Hemelopse, qui accompagne les entreprises dans leur roadmap stratégique autour de l'IA. Aussi conférencière et auteure",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:43Z",
+  "seedUrl": "https://builder.aws.com/community/@virginie"
+}

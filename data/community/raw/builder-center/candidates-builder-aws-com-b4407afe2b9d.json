@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "antstanley",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-bb269276af50.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@antstanley",
+        "url": "https://avatars.builderprofile.aws.dev/2xwXCBonyS0Bnjps3Ono24ol4IK.webp",
+        "verified": true
+      },
+      "displayName": "Ant Stanley",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ant_stanley",
+      "lastHarvestedAt": "2026-06-21T18:16:52Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@antstanley",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@antstanley",
+          "verified": true
+        },
+        {
+          "handle": "antstanley",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@antstanley",
+          "type": "github",
+          "url": "https://github.com/antstanley",
+          "verified": false
+        },
+        {
+          "handle": "antstanley",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@antstanley",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/antstanley/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "ZA",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@antstanley",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ant-stanley",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:52Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@antstanley"
+        }
+      ],
+      "summary": "My first paying tech job was in 1999 doing Y2K upgrades on desktops for a bank in South Africa. Done almost every role in tech, with a career split between London and South Africa. Founder, architect, developer, operator. Early Serverless adopter, now riding the wave of AI powered development.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:52Z",
+  "seedUrl": "https://builder.aws.com/community/@antstanley"
+}

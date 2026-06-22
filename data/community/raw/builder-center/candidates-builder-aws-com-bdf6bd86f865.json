@@ -1,0 +1,115 @@
+{
+  "builderApi": {
+    "alias": "rehanvdm",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-4ae4c64e2747.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+        "url": "https://avatars.builderprofile.aws.dev/2zfv81dh4KAOTGyDZ2gs3VVBjik.webp",
+        "verified": true
+      },
+      "displayName": "Rehan van der Merwe",
+      "featuredContent": [],
+      "headline": "DevOps @ Resend",
+      "id": "person_rehan_van_der_merwe",
+      "lastHarvestedAt": "2026-06-21T18:18:14Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "type": "blog",
+          "url": "https://rehanvdm.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@rehanvdm",
+          "verified": true
+        },
+        {
+          "handle": "rehanvdm",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "type": "github",
+          "url": "https://github.com/rehanvdm",
+          "verified": false
+        },
+        {
+          "handle": "rehan-van-der-merwe-600b40172",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/rehan-van-der-merwe-600b40172",
+          "verified": false
+        },
+        {
+          "handle": "der_rehan",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "type": "x",
+          "url": "https://twitter.com/der_rehan",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "ZA",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "rehan-van-der-merwe",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:14Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@rehanvdm"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:14Z",
+  "seedUrl": "https://builder.aws.com/community/@rehanvdm"
+}

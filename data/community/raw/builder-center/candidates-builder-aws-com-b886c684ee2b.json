@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "vjzielinski",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6eba80bd7b0d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+        "url": "https://avatars.builderprofile.aws.dev/2y5eSwwzE1sjabxjmCuSGEL6sHr.webp",
+        "verified": true
+      },
+      "displayName": "Jaroslaw Zielinski",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_jaroslaw_zielinski",
+      "lastHarvestedAt": "2026-06-21T18:18:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vjzielinski",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Authorized Instructor",
+          "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vjzielinski",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jaroslaw-zielinski",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vjzielinski"
+        }
+      ],
+      "summary": "One of Poland's leading experts in cloud computing and an independent IT consultant with over 25 years of experience. For over a decade, he has specialized in AWS and VMware solutions and is recognized by international brands such as AWS and VMware for his contribution to education in the field of cloud computing. He holds numerous certifications and is one of the few people in Poland to hold the titles of AWS Community Hero and VMware vExpert. He has worked on dozens of projects related to networks, private and public clouds, cloud migration, and IT infrastructure monitoring. He is the CEO and co-founder of Welastic, a technology company that creates and maintains cloud environments. In his daily work, he focuses on managing large-scale and highly complex cloud projects. In addition, he is actively involved as a trainer, conducting workshops for advanced engineers and companies. He also works as an IT architect and academic lecturer, and is a speaker at industry conferences and author of expert articles. Outside of his business activities, he is involved in promoting the cloud and is the leader of AWS User Group Poland in nine cities. He sits on the program councils of the renowned PLNOG and Cloudyna conferences, and co-creates one of Poland's top events for IT enthusiasts, Cloud & Data Center Day. He is involved in mentoring hackathons and creating conference programs. Privately, he is an enthusiast of IoT, smart homes, and good coffee.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:45Z",
+  "seedUrl": "https://builder.aws.com/community/@vjzielinski"
+}

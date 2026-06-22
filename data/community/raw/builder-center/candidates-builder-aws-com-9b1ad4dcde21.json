@@ -1,0 +1,84 @@
+{
+  "builderApi": {
+    "alias": "misskecupbung",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-43121f315237.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@misskecupbung",
+        "url": "https://avatars.builderprofile.aws.dev/32GRbc0JTOTRKuCfLgCdqei6uWO.webp",
+        "verified": true
+      },
+      "displayName": "Ananda Dwi Rahmawati",
+      "featuredContent": [],
+      "headline": "AWS Container Hero",
+      "id": "person_ananda_dwi_rahmawati",
+      "lastHarvestedAt": "2026-06-21T18:17:57Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@misskecupbung",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@misskecupbung",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "SG",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@misskecupbung",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@misskecupbung",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ananda-dwi-rahmawati",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:57Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@misskecupbung"
+        }
+      ],
+      "summary": "AWS Container Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:57Z",
+  "seedUrl": "https://builder.aws.com/community/@misskecupbung"
+}

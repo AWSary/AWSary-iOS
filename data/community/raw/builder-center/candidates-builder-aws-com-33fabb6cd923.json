@@ -1,0 +1,80 @@
+{
+  "builderApi": {
+    "alias": "skorfmann",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7a2abb303e1d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Sebastian Korfmann",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sebastian_korfmann",
+      "lastHarvestedAt": "2026-06-21T18:18:30Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@skorfmann",
+          "type": "blog",
+          "url": "https://skorfmann.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@skorfmann",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@skorfmann",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@skorfmann",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sebastian-korfmann",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:30Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@skorfmann"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:30Z",
+  "seedUrl": "https://builder.aws.com/community/@skorfmann"
+}

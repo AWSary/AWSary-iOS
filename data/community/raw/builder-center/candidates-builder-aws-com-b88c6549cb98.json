@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "shaoyi",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-131229127466.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+        "url": "https://avatars.builderprofile.aws.dev/344FBfVPjuinZdqOwir5wktXs28.webp",
+        "verified": true
+      },
+      "displayName": "Shaoyi Li",
+      "featuredContent": [],
+      "headline": "AWS Community Hero, AWS UG China Leader, help global developers upskill in AWS.",
+      "id": "person_shaoyi_li",
+      "lastHarvestedAt": "2026-06-21T18:18:24Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "type": "blog",
+          "url": "https://blog.csdn.net/m0_66628975?spm=1000.2115.3001.10640",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@shaoyi",
+          "verified": true
+        },
+        {
+          "handle": "szl0144",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "type": "github",
+          "url": "https://github.com/szl0144",
+          "verified": false
+        },
+        {
+          "handle": "shaoyi-li-cloud",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/shaoyi-li-cloud",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "type": "website",
+          "url": "https://www.instagram.com/shaoyi_cloudsec/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "FL"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "shaoyi-li",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:24Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@shaoyi"
+        }
+      ],
+      "summary": "Shaoyi Li is a Lead Cloud Engineer focusing on cybersecurity and GenAI, advocating for cloud GenAI security and governance solutions to help the community build secure, compliant, and responsible GenAI applications. He partners with the security community to reinforce the mindset that \"security is job zero.\" He has obtained 15x AWS Certifications and 88x AWS Badges, demonstrating his enthusiasm and professional expertise in AWS. Shaoyi Li is a regular speaker at AWS events, such as AWS re:Invent, AWS re:Inforce, AWS Summits, AWS media events, AWS Community Days, and AWS User Group Meetups. He shares his insights in AWS case studies, AWS blogs and social media. His impactful content has attracted over 145k followers, 20 million views, and 1.5 million likes across his channels. He received the 2023 & 2024 Annual Best Blogger and Best Certification Ambassador from AWS T&C, was recognized as the best AWS Hero of the Year in China 2024 and selected by Jefferson Frank as one of the “Top 20 Global AWS Influencers to Follow.” As an AWS User Group China committee member, Shaoyi Li supports the members by helping them deepen their AWS expertise to deliver more high-quality events to the community. His cloud journey never ends, much like his commitment to the AWS community. His dedication, hard work, and persistence in his AWS cloud journey have inspired many developers from underrepresented regions to launch their cloud journeys and contribute their knowledge back to the community.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:24Z",
+  "seedUrl": "https://builder.aws.com/community/@shaoyi"
+}

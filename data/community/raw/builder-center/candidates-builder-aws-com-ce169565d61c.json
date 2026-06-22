@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "minorun365",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b0f0a9f8f27b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@minorun365",
+        "url": "https://avatars.builderprofile.aws.dev/34PDPnqNIodQfH9VV7IHFKPyHLC.webp",
+        "verified": true
+      },
+      "displayName": "Minoru Onda",
+      "featuredContent": [],
+      "headline": "Technology Evangelist / KDDI Agile",
+      "id": "person_minoru_onda",
+      "lastHarvestedAt": "2026-06-21T18:17:57Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "type": "blog",
+          "url": "https://qiita.com/minorun365",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@minorun365",
+          "verified": true
+        },
+        {
+          "handle": "minorun365",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/minorun365",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "type": "website",
+          "url": "https://speakerdeck.com/minorun365",
+          "verified": false
+        },
+        {
+          "handle": "minorun365",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "type": "x",
+          "url": "https://x.com/minorun365",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "JP",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "minoru-onda",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:57Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@minorun365"
+        }
+      ],
+      "summary": "KDDIアジャイル開発センター株式会社 テックエバンジェリスト。 AWSとAIの分野を中心に、お客さま企業へのプリセールスや技術コンサルティングを行ったり、エンジニア向けの教育サービスを提供しています。 年間数十件の社外講演、カンファレンス登壇を実施。技術ブログや寄稿記事も多数執筆。 2025年12月には、東京にエンジニア600名を集める大型カンファレンス「JAWS-UG AI Builders Day」のオーガナイザーとしてイベントを成功に収めました。 AWS AI Hero、AWS Samurai 2023/2024、2025 Japan AWS Top Engineer & All Certs, Qiita 2025 Top Contributor認定。 著書 - Amazon Bedrock 生成AIアプリ開発入門（2024, SBクリエイティブ） - やさしいMCP入門（2025, 秀和システム） - AIエージェント開発/運用入門（2025, SBクリエイティブ） amazon.co.jp/stores/author/B0D4VSWS9P",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:57Z",
+  "seedUrl": "https://builder.aws.com/community/@minorun365"
+}

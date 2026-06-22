@@ -1,0 +1,123 @@
+{
+  "builderApi": {
+    "alias": "vivekv",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-fa087a86ee68.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vivekv",
+        "url": "https://avatars.builderprofile.aws.dev/34DwFQJnDUppt3Mj3KMm28HvMGK.webp",
+        "verified": true
+      },
+      "displayName": "Vivek V [AWS Hero]",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_vivek_v_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:18:44Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "blog",
+          "url": "https://vivek-aws.medium.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vivekv",
+          "verified": true
+        },
+        {
+          "handle": "awsdataarchitect",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "github",
+          "url": "https://github.com/awsdataarchitect",
+          "verified": false
+        },
+        {
+          "handle": "sagemaker",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/sagemaker/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "website",
+          "url": "https://dev.to/vivek-aws",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "type": "website",
+          "url": "https://repost.aws/community/users/USZxVT0iwwQwG-Mk6O-D8xag",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CA",
+        "region": "ON"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Engineering",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vivek-v-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:44Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vivekv"
+        }
+      ],
+      "summary": "AWS AI Hero | Field CTO | Former AWS Community Builder (AI Engineering) AWS Ambassador | 16x AWS (All-Star Award, AWS Gold Jacket) | CNCF Kubestronaut (5x Kubernetes) | 5x Azure | 4x AWS Certification Subject Matter Expert (SME) | AWS re:Invent Speaker I design and build intelligent systems that help teams move faster and make better decisions. With close to three decades of experience across banking and large-scale enterprises, I’ve worked on everything from massive cloud migrations to modern AI platforms running in highly regulated environments. My focus today is on AI architecture and engineering, turning ideas into reliable systems that can reason, integrate with real workloads, and operate safely at scale. I enjoy working close to the technology, shaping patterns, mentoring engineers, and helping organizations turn complexity into something practical and usable. As an AWS AI Hero, I’m passionate about sharing what truly works in the real world, focusing on practical architectures and approaches teams can confidently build on. Now, lets go build!",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:44Z",
+  "seedUrl": "https://builder.aws.com/community/@vivekv"
+}

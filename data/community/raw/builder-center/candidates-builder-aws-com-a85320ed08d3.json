@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "pawelzubkiewicz",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-10c4f974f435.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+        "url": "https://avatars.builderprofile.aws.dev/2kPjrEUNvtXa6udERO9eYrAUZhy.webp",
+        "verified": true
+      },
+      "displayName": "Pawel Zubkiewicz",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_pawel_zubkiewicz",
+      "lastHarvestedAt": "2026-06-21T18:18:09Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@pawelzubkiewicz",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "pawel-zubkiewicz",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:09Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@pawelzubkiewicz"
+        }
+      ],
+      "summary": "Since his first encounters with AWS cloud in 2016, Paweł has been fascinated by serverless solutions. Quickly he realized that the cloud-native approach was the future of IT and decided to change his career path to pursue that direction. In 2018 Paweł started Serverless Polska, an online community for serverless enthusiasts, where he shares his technical knowledge and introduces serverless to a broader audience. Shortly after, he began publishing a newsletter about serverless and AWS cloud. He continuously shares his expertise and insights with the Polish-speaking community to this day, both online and as a conference speaker. In 2020 he was chosen for the prestigious AWS Community Builders program and started sharing serverless tutorials. Apart from serverless architecture, Paweł also specializes in AWS cost optimization. Paweł works as a Cloud Architect and Cost Optimization Consultant, helping companies build products on AWS in a cost-effective manner. He lives in Wroclaw, Poland, with his wife and a dog called Pixel. He's an avid mountain biker and a traveler.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:09Z",
+  "seedUrl": "https://builder.aws.com/community/@pawelzubkiewicz"
+}

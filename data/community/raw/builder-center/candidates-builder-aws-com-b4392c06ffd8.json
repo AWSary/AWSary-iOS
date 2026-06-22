@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "dipalik",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-14a96ccc2d0e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dipalik",
+        "url": "https://avatars.builderprofile.aws.dev/39n1U3W43zctDeTi8Ki3CLFiSjZ.webp",
+        "verified": true
+      },
+      "displayName": "Dipali Kulshrestha",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dipali_kulshrestha",
+      "lastHarvestedAt": "2026-06-21T18:17:17Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dipalik",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dipalik",
+          "verified": true
+        },
+        {
+          "handle": "dipalik",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@dipalik",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/dipalik/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@dipalik",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dipalik",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dipali-kulshrestha",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:17Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dipalik"
+        }
+      ],
+      "summary": "I am a Cloud & AI leader passionate about building scalable, secure, and intelligent systems on Amazon Web Services. With deep experience in cloud architecture, governance, and enterprise transformation, I focus on translating business problems into production-ready AWS solutions. My current work spans AI, Generative AI, and Agentic systems — designing real-world applications using services such as Amazon Bedrock, serverless architectures, and data platforms. I actively work at the intersection of: Enterprise cloud governance (multi-account strategy, landing zones, security guardrails) AI & Generative AI enablement Agentic AI system design and orchestration Scalable data and platform engineering I enjoy mentoring teams, driving cloud adoption journeys, and building communities that make emerging technologies practical and accessible. My mission: Turn AI ambition into secure, scalable, real-world impact.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:17Z",
+  "seedUrl": "https://builder.aws.com/community/@dipalik"
+}

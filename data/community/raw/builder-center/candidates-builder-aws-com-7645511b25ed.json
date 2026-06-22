@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "ewere",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7a1363136d62.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ewere",
+        "url": "https://avatars.builderprofile.aws.dev/2osFjgqSJQN5jIBP8IN201RJelc.webp",
+        "verified": true
+      },
+      "displayName": "Ewere Diagboya",
+      "featuredContent": [],
+      "headline": "DevOps Engineer, Published Author, Blogger @ www.ewere.tech, AI Enthusiast",
+      "id": "person_ewere_diagboya",
+      "lastHarvestedAt": "2026-06-21T18:17:23Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "type": "blog",
+          "url": "https://www.ewere.tech",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ewere",
+          "verified": true
+        },
+        {
+          "handle": "nimboya",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "type": "github",
+          "url": "https://github.com/nimboya",
+          "verified": false
+        },
+        {
+          "handle": "ewere",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/ewere",
+          "verified": false
+        },
+        {
+          "handle": "nimboya",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "type": "x",
+          "url": "https://x.com/nimboya",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "NG",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ewere",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ewere-diagboya",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:23Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ewere"
+        }
+      ],
+      "summary": "Ewere started his career in tech in 2003. He started as a Software Developer in PHP, Visual Basic, HTML, and CSS. He later switched to DevOps and Cloud in 2015. He is the first AWS Community Hero in Africa and a multi-published author. Keynote speaker and Panel speaker at numerous events. He is an AWS Community leader in Nigeria. He speaks about Cloud Computing, DevOps, and innovations around efficient software delivery technologies and processes. He has also been a judge for the Cybersafe Cybergirls Fellowship, PipeOps Hackathon, and Payaza Hackathon. He is the chief editor at EDT (www.ewere.tech), where he writes about AI, AWS, DevOps, and Cloud Computing from the latest announcements in the fields to technical guides and articles about concepts that drive those technologies. EDT is also an open community that allows contributions from other authors. He recently started delving into the tenets of Artificial Intelligence and continues to find ways to implement AI systems in software delivery and efficiency.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:23Z",
+  "seedUrl": "https://builder.aws.com/community/@ewere"
+}

@@ -1,0 +1,113 @@
+{
+  "builderApi": {
+    "alias": "partha",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b4880615f933.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@partha",
+        "url": "https://avatars.builderprofile.aws.dev/2oopvJmcPhh11rHWVxyjsGZ9BER.webp",
+        "verified": true
+      },
+      "displayName": "Parthasarathi Balasubramanian",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_parthasarathi_balasubramanian",
+      "lastHarvestedAt": "2026-06-21T18:18:08Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@partha",
+          "verified": true
+        },
+        {
+          "handle": "parthasarathi-b",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/parthasarathi-b/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "type": "website",
+          "url": "https://dev.to/parthabalasubramanian",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "type": "website",
+          "url": "https://repost.aws/community/users/USkvAntakCTZCaaU3vXJ9_Hw",
+          "verified": false
+        },
+        {
+          "handle": "bs_partha",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "type": "x",
+          "url": "https://x.com/bs_partha",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@partha",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "parthasarathi-balasubramanian",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:08Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@partha"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:08Z",
+  "seedUrl": "https://builder.aws.com/community/@partha"
+}

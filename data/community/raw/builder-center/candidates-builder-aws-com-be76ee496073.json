@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "albertsuwandhi",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b5090121c6f8.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+        "url": "https://avatars.builderprofile.aws.dev/2xueFDPqeAvQ3oYB0pBnH4SLAJV.webp",
+        "verified": true
+      },
+      "displayName": "Albert Suwandhi",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_albert_suwandhi",
+      "lastHarvestedAt": "2026-06-21T18:16:47Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@albertsuwandhi",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "albert-suwandhi",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:47Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@albertsuwandhi"
+        }
+      ],
+      "summary": "Albert Suwandhi is an academic and a Cloud Infrastructure Engineer from Medan, Indonesia. He is an IT Lecturer at Universitas IBBI and Universitas Pelita Harapan where he promotes and lectures cloud computing related courses using AWS.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:47Z",
+  "seedUrl": "https://builder.aws.com/community/@albertsuwandhi"
+}

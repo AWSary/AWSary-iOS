@@ -1,0 +1,105 @@
+{
+  "builderApi": {
+    "alias": "astuyve",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-54e327ac6cc2.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@astuyve",
+        "url": "https://avatars.builderprofile.aws.dev/30h6v8e3V6W44ZhY9cXkEKwytIa.webp",
+        "verified": true
+      },
+      "displayName": "AJ Stuyvenberg",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_aj_stuyvenberg",
+      "lastHarvestedAt": "2026-06-21T18:16:54Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "type": "blog",
+          "url": "https://aaronstuyvenberg.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@astuyve",
+          "verified": true
+        },
+        {
+          "handle": "astuyve",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "type": "github",
+          "url": "https://github.com/astuyve",
+          "verified": false
+        },
+        {
+          "handle": "aaron-stuyvenberg",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/aaron-stuyvenberg/",
+          "verified": false
+        },
+        {
+          "handle": "@astuyve",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@astuyve",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "aj-stuyvenberg",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:54Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@astuyve"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:54Z",
+  "seedUrl": "https://builder.aws.com/community/@astuyve"
+}

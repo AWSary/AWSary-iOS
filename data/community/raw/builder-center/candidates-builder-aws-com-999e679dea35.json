@@ -1,0 +1,97 @@
+{
+  "builderApi": {
+    "alias": "esh",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-f53253bc68d5.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@esh",
+        "url": "https://avatars.builderprofile.aws.dev/33vCwXSpdxwSBdTJ8TUDXJ6fAhd.webp",
+        "verified": true
+      },
+      "displayName": "Eric Hammond",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_eric_hammond",
+      "lastHarvestedAt": "2026-06-21T18:17:22Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@esh",
+          "type": "blog",
+          "url": "https://alestic.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@esh",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@esh",
+          "verified": true
+        },
+        {
+          "handle": "alestic",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@esh",
+          "type": "github",
+          "url": "https://github.com/alestic",
+          "verified": false
+        },
+        {
+          "handle": "ehammond",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@esh",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ehammond/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@esh",
+          "startYear": 2014,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "eric-hammond",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:22Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@esh"
+        }
+      ],
+      "summary": "AWS Hero since 2014. AWS enthusiast since 2007. Startup builder since 1996. Code crafter since 1980. Disclosure: Long $AMZN",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:22Z",
+  "seedUrl": "https://builder.aws.com/community/@esh"
+}

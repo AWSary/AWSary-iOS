@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "teriradichel",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c2e8c21d3085.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@teriradichel",
+        "url": "https://avatars.builderprofile.aws.dev/36DY54TGLrTfQFPQynxl2yxRotH.webp",
+        "verified": true
+      },
+      "displayName": "Teri Radichel",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_teri_radichel",
+      "lastHarvestedAt": "2026-06-21T18:18:36Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@teriradichel",
+          "type": "blog",
+          "url": "https://medium.com/cloud-security",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@teriradichel",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@teriradichel",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@teriradichel",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "teri-radichel",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:36Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@teriradichel"
+        }
+      ],
+      "summary": "Teri Radichel is the founder of 2nd Sight Lab, AI assisted pentesting and security research. AWS Security Hero since 2016, Author on Amazon and blog, Former IANS & SANS faculty, SANS Difference Makers Award, 30+ years experience in security, software architecture, and software development at companies of all sizes. Security certifications: GSE + 12 more, 2 masters degrees in security engineering and software engineering, BA in business, and has a cute dog. Security, AI, and Technology research blog: https://teriradichel.substack.com Linkedin: https://linkedin.com/in/teriradichel BlueSky, X, Mastodon, Threads, Instragram: @teriradichel",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:36Z",
+  "seedUrl": "https://builder.aws.com/community/@teriradichel"
+}

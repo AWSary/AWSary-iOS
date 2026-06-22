@@ -1,0 +1,115 @@
+{
+  "builderApi": {
+    "alias": "filippyrek",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-773eb9c6bc72.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+        "url": "https://avatars.builderprofile.aws.dev/329DGd9MDUnPIXnCjQTtujVxqeH.webp",
+        "verified": true
+      },
+      "displayName": "Filip Pyrek",
+      "featuredContent": [],
+      "headline": "AWS Serverless Hero",
+      "id": "person_filip_pyrek",
+      "lastHarvestedAt": "2026-06-21T18:17:24Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@filippyrek",
+          "verified": true
+        },
+        {
+          "handle": "FilipPyrek",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "github",
+          "url": "http://github.com/FilipPyrek",
+          "verified": false
+        },
+        {
+          "handle": "filippyrek",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/filippyrek/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "website",
+          "url": "https://dev.to/filippyrek",
+          "verified": false
+        },
+        {
+          "handle": "FilipPyrek",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "x",
+          "url": "https://x.com/FilipPyrek",
+          "verified": false
+        },
+        {
+          "handle": "@FilipPyrek",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@FilipPyrek",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CZ",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "filip-pyrek",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:24Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@filippyrek"
+        }
+      ],
+      "summary": "AWS Serverless Hero / Serverless Meetup Co-Organizer",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:24Z",
+  "seedUrl": "https://builder.aws.com/community/@filippyrek"
+}

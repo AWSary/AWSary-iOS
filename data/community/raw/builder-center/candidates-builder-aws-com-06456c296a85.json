@@ -1,0 +1,141 @@
+{
+  "builderApi": {
+    "alias": "zachjonesnoel",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-0673804d26c5.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+        "url": "https://avatars.builderprofile.aws.dev/36szxFBRMykn1NT4w7OFIi5Aq3q.webp",
+        "verified": true
+      },
+      "displayName": "Jones Zachariah Noel N",
+      "featuredContent": [],
+      "headline": "DevRel @ New Relic | AWS Serverless Hero | AWS User Group Bengaluru leader",
+      "id": "person_jones_zachariah_noel_n",
+      "lastHarvestedAt": "2026-06-21T18:18:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "blog",
+          "url": "https://blog.theserverlessterminal.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@zachjonesnoel",
+          "verified": true
+        },
+        {
+          "handle": "zachjonesnoel",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "github",
+          "url": "https://github.com/zachjonesnoel",
+          "verified": false
+        },
+        {
+          "handle": "jones-zachariah-noel-n",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/jones-zachariah-noel-n",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "website",
+          "url": "https://www.theserverlessterminal.com",
+          "verified": false
+        },
+        {
+          "handle": "zachjonesnoel",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "x",
+          "url": "https://twitter.com/zachjonesnoel",
+          "verified": false
+        },
+        {
+          "handle": "@thezacsshowtalkingaws",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@thezacsshowtalkingaws",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": "Karnataka"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jones-zachariah-noel-n",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+        }
+      ],
+      "summary": "Jones Zachariah Noel aka Zach Jones is an AWS Serverless Hero and AWS UG Bengaluru leader and at his day job an observability focused Developer Advocate at New Relic. Jones has been an advocate for Serverless first and also best monitoring strategies for applications and infrastructures. Coming from a full-stack developer background has always been a curious on building and breaking things! Jones writes his Serverless stories (blog and newsletter) on The Serverless Terminal and runs a podcast called The Zacs Show Talking AWS with another Hero Zack from NZ. Apart from this, Jones loves to explore the mountains and driving around the country side. And burns money on LEGOs and action figures.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:50Z",
+  "seedUrl": "https://builder.aws.com/community/@zachjonesnoel"
+}

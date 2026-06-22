@@ -1,0 +1,8 @@
+{
+  "contentType": "application/json",
+  "method": "GET",
+  "requestedUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=1000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+  "retrievedAt": "2026-06-21T17:51:06Z",
+  "sha256": "0433485e6d647d26118030270fb048a78e196887ddef44be356607e65b06dea8",
+  "url": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=1000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero"
+}

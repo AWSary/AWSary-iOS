@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "learncloud",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-873c516e7b72.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@learncloud",
+        "url": "https://avatars.builderprofile.aws.dev/3ENtkcq3HF0U6eyV2eMlkxYPvnz.webp",
+        "verified": true
+      },
+      "displayName": "Mayank Pandey",
+      "featuredContent": [],
+      "headline": "trying to make Cloud easy for everyone!",
+      "id": "person_mayank_pandey",
+      "lastHarvestedAt": "2026-06-21T18:17:48Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@learncloud",
+          "verified": true
+        },
+        {
+          "handle": "mayankpandey20",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/mayankpandey20/",
+          "verified": false
+        },
+        {
+          "handle": "@knowledgeindia",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud",
+          "type": "youtube",
+          "url": "https://youtube.com/@knowledgeindia",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": "VIC"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Authorized Instructor",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "mayank-pandey",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:48Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@learncloud"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:48Z",
+  "seedUrl": "https://builder.aws.com/community/@learncloud"
+}

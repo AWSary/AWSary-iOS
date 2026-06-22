@@ -1,0 +1,105 @@
+{
+  "builderApi": {
+    "alias": "ernestchiang",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5a88cbf4b5de.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+        "url": "https://avatars.builderprofile.aws.dev/2id0MupSKXEF4PaBjket6vztwfR.webp",
+        "verified": true
+      },
+      "displayName": "Ernest Chiang",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ernest_chiang",
+      "lastHarvestedAt": "2026-06-21T18:17:22Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "type": "blog",
+          "url": "https://www.ernestchiang.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ernestchiang",
+          "verified": true
+        },
+        {
+          "handle": "dwchiang",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "type": "github",
+          "url": "https://github.com/dwchiang",
+          "verified": false
+        },
+        {
+          "handle": "dwchiang",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/dwchiang/",
+          "verified": false
+        },
+        {
+          "handle": "dwchiang",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "type": "x",
+          "url": "https://twitter.com/dwchiang",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ernest-chiang",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:22Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ernestchiang"
+        }
+      ],
+      "summary": "Ernest Chiang is currently the Director at PAFERS Tech, and a seasoned technical leader dedicated to knowledge management, information integration, and productivity enhancement. Since 2008, he started engaging with the AWS cloud ecosystem [1], during which he has continuously deconstructed and restructured various technological architectures. By integrating cloud solutions with business needs, commercial models, and knowledge application strategies, he helps clients enhance operational efficiency and productivity throughout their transformation journeys. Ernest has a solid background in product development and technical management, having worked in the Semiconductor Process Integration Engineering Department (PIE) at TSMC and participated in formulating international Bluetooth communication specifications (FTMS) for the fitness equipment industry, thereby accumulating extensive cross-disciplinary experience in deconstruction and integration. The Ernest PKM [2] personal knowledge system framework he founded fully demonstrates his unique insights in knowledge management and information integration. In 2020, Ernest became one of the mere 200-plus AWS Heroes worldwide, and he continues to refine his technical skills on his ongoing AWS learning journey, leveraging his cross-disciplinary integration abilities to develop productivity-enhancing solutions. [1] https://www.ernestchiang.com/en/awscategories/ [2] https://www.ernestchiang.com/en/posts/2023/ernest-pkm-workflow/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:22Z",
+  "seedUrl": "https://builder.aws.com/community/@ernestchiang"
+}

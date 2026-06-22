@@ -1,0 +1,149 @@
+{
+  "builderApi": {
+    "alias": "pas256",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-404b739843c1.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@pas256",
+        "url": "https://avatars.builderprofile.aws.dev/30EsfiyylIIQejBXKg8vplusTBG.webp",
+        "verified": true
+      },
+      "displayName": "Peter Sankauskas",
+      "featuredContent": [],
+      "headline": "Portfolio CTO @ Caylent",
+      "id": "person_peter_sankauskas",
+      "lastHarvestedAt": "2026-06-21T18:18:08Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "blog",
+          "url": "https://pas.ventures/blog/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@pas256",
+          "verified": true
+        },
+        {
+          "handle": "pas256",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "github",
+          "url": "https://github.com/pas256/",
+          "verified": false
+        },
+        {
+          "handle": "petersankauskas",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/petersankauskas/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "website",
+          "url": "https://bsky.app/profile/pas256.bsky.social",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "website",
+          "url": "https://dev.to/pas256",
+          "verified": false
+        },
+        {
+          "handle": "pas256",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "x",
+          "url": "https://x.com/pas256",
+          "verified": false
+        },
+        {
+          "handle": "@answersforaws9595",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@answersforaws9595",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "CA"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@pas256",
+          "startYear": 2014,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "peter-sankauskas",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:08Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@pas256"
+        }
+      ],
+      "summary": "Peter has been part of the AWS Community for over a decade, growing the Advanced AWS meetup (user group) in San Francisco, contributing to and created multiple open source projects, and spoke an many conferences across USA. As a day job, he is a Portfolio CTO at Caylent, looking after enterprise accounts. In his spare time, he runs the annual Answers for AWS community survey and provides strategic guidance to startups through PAS Ventures.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:08Z",
+  "seedUrl": "https://builder.aws.com/community/@pas256"
+}

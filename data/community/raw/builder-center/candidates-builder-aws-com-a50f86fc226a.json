@@ -1,0 +1,138 @@
+{
+  "builderApi": {
+    "alias": "brianhhough",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e2b7b18bb7e3.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+        "url": "https://avatars.builderprofile.aws.dev/30SX2ZT1Il7XDJgzSlXe5XzAIuH.webp",
+        "verified": true
+      },
+      "displayName": "Brian H. Hough [AWS Hero]",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_brian_h_hough_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:17:01Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "blog",
+          "url": "https://brianhhough.com/blog",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@brianhhough",
+          "verified": true
+        },
+        {
+          "handle": "BrianHHough",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "github",
+          "url": "https://github.com/BrianHHough",
+          "verified": false
+        },
+        {
+          "handle": "brianhhough",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/brianhhough",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "website",
+          "url": "https://dev.to/brianhhough",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "website",
+          "url": "https://instagram.com/brianhhough",
+          "verified": false
+        },
+        {
+          "handle": "brianhhough",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "x",
+          "url": "https://x.com/brianhhough",
+          "verified": false
+        },
+        {
+          "handle": "brianhhough",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "type": "youtube",
+          "url": "https://www.youtube.com/brianhhough",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "brian-h-hough-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:01Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+        }
+      ],
+      "summary": "Building epic tech & scaling the cloud at Tech Stack Playbook® AWS DevTools Hero 5x Hackathon Winner 50+ AI, Cloud & Software Clients (work with us ↓) https://techstackplaybook.com",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:01Z",
+  "seedUrl": "https://builder.aws.com/community/@brianhhough"
+}

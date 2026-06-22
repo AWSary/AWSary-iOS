@@ -1,0 +1,72 @@
+{
+  "builderApi": {
+    "alias": "tachibana",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-d67a1b189000.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@tachibana",
+        "url": "https://avatars.builderprofile.aws.dev/31V0T18Xpiv1UPypgTbaskU3B2J.webp",
+        "verified": true
+      },
+      "displayName": "Takuya Tachibana",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_takuya_tachibana",
+      "lastHarvestedAt": "2026-06-21T18:18:34Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@tachibana",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@tachibana",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@tachibana",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "takuya-tachibana",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:34Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@tachibana"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:34Z",
+  "seedUrl": "https://builder.aws.com/community/@tachibana"
+}

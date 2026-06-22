@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "simalexan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-8b2638c8a701.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@simalexan",
+        "url": "https://avatars.builderprofile.aws.dev/36GfXv1gngfgsikqmSUAs6Nu9eB.webp",
+        "verified": true
+      },
+      "displayName": "Aleksandar Simovic",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_aleksandar_simovic",
+      "lastHarvestedAt": "2026-06-21T18:18:28Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@simalexan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@simalexan",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "RS",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@simalexan",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "aleksandar-simovic",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:28Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@simalexan"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:28Z",
+  "seedUrl": "https://builder.aws.com/community/@simalexan"
+}

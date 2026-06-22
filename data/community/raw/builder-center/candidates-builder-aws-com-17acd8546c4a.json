@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "elliottcordo",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-67df7f0d5d4c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@elliottcordo",
+        "url": "https://avatars.builderprofile.aws.dev/2zeW8C1BLgRjl2NuAdtASs8VCnH.webp",
+        "verified": true
+      },
+      "displayName": "elliott cordo",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_elliott_cordo",
+      "lastHarvestedAt": "2026-06-21T18:17:20Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@elliottcordo",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@elliottcordo",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@elliottcordo",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "elliott-cordo",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:20Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@elliottcordo"
+        }
+      ],
+      "summary": "Elliott is an expert in cloud-native data engineering, strategy, and architecture, with a passion for helping organizations drive value from data. He has more than two decades of experience implementing cutting-edge, data-driven cloud-native applications.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:20Z",
+  "seedUrl": "https://builder.aws.com/community/@elliottcordo"
+}

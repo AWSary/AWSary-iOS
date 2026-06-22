@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "andersb",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-f3f1e219a78f.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@andersb",
+        "url": "https://avatars.builderprofile.aws.dev/34W0FdzwPxae7RV3uRaYjVz6j99.webp",
+        "verified": true
+      },
+      "displayName": "Anders Bjørnestad [AWS Hero]",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_anders_bjrnestad_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:16:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@andersb",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@andersb",
+          "verified": true
+        },
+        {
+          "handle": "abjoerne",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@andersb",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/abjoerne/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@andersb",
+          "type": "website",
+          "url": "https://dev.to/abjoerne",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "NO",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@andersb",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@andersb",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "anders-bjrnestad-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@andersb"
+        }
+      ],
+      "summary": "AWS Community Hero [Oslo, Norway]",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:50Z",
+  "seedUrl": "https://builder.aws.com/community/@andersb"
+}

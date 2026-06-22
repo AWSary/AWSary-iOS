@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "sandipdasawshero",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5aa9988367fb.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+        "url": "https://avatars.builderprofile.aws.dev/2oq1gBSg0t70N9Ld9j9tJMjreYs.webp",
+        "verified": true
+      },
+      "displayName": "Sandip Das",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sandip_das",
+      "lastHarvestedAt": "2026-06-21T18:18:19Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sandipdasawshero",
+          "verified": true
+        },
+        {
+          "handle": "sd031",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "github",
+          "url": "https://github.com/sd031",
+          "verified": false
+        },
+        {
+          "handle": "sandip-das-developer",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/sandip-das-developer/",
+          "verified": false
+        },
+        {
+          "handle": "learn-cloud-devops-coding-6864183524740620288",
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/newsletters/learn-cloud-devops-coding-6864183524740620288/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "website",
+          "url": "https://dev.to/sd031",
+          "verified": false
+        },
+        {
+          "handle": "@learnTechWithSandip",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@learnTechWithSandip",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sandip-das",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:19Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sandipdasawshero"
+        }
+      ],
+      "summary": "Senior Cloud & DevOps Engineer | Kubernetes Expert | SRE, Platform Engineering, MLOps & AIOps Practioner | AWS Container Hero | Teacher | Mentor",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:19Z",
+  "seedUrl": "https://builder.aws.com/community/@sandipdasawshero"
+}

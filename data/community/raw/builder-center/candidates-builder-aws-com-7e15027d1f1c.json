@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "wolkencode",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-78414e737857.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+        "url": "https://avatars.builderprofile.aws.dev/35dpkt966iQgvNDtUmfW2X9jzro.webp",
+        "verified": true
+      },
+      "displayName": "Nora Schoener (wolkencode)",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_nora_schoener_wolkencode",
+      "lastHarvestedAt": "2026-06-21T18:18:47Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+          "type": "blog",
+          "url": "https://wolkencode.de",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@wolkencode",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Dev Tools",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "nora-schoener-wolkencode",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:47Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@wolkencode"
+        }
+      ],
+      "summary": "Nora is a Senior Cloud Engineer with a long-standing career in the tech industry. Throughout her career, she has held various roles, from Software Developer to Architect and Tech Lead. She mainly focuses on Cloud Computing designing architecture and incorporating DevOps and Site Reliability Engineering principles to help development teams maintain healthy, reliable application environments. With a passion for Infrastructure as Code, Nora loves making backend systems visible and understandable for both developers and stakeholders alike. Nora speaks at international and local conferences and meetups. She is known for her fun, vibrant presentations and outgoing style that connects the dots for her audience. As a community lover, Nora has been active in AWS User Groups since 2016. Nora co-organizes the AWS User Group Nuremberg and contributes to the AWS Community DACH Support Association. She also founded She 'n IT Nuremberg, a meetup that connects women in tech. Nora blogs at wolkencode.de, where she combines cloud technology, her passion for manga art, and sharing glimpses of her everyday life. https://wolkencode.de/ https://www.meetup.com/nurnberg-aws-user-group https://sheandit.de/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:47Z",
+  "seedUrl": "https://builder.aws.com/community/@wolkencode"
+}

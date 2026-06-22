@@ -1,0 +1,96 @@
+{
+  "builderApi": {
+    "alias": "jshort",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-f22c6adc52e1.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@jshort",
+        "url": "https://avatars.builderprofile.aws.dev/2xmkgH6qEdtOLlZaWR55Bbew56E.webp",
+        "verified": true
+      },
+      "displayName": "Jared Short",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_jared_short",
+      "lastHarvestedAt": "2026-06-21T18:17:41Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@jshort",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@jshort",
+          "verified": true
+        },
+        {
+          "handle": "shortjared",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@jshort",
+          "type": "github",
+          "url": "http://github.com/shortjared",
+          "verified": false
+        },
+        {
+          "handle": "shortjared",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@jshort",
+          "type": "linkedin",
+          "url": "http://linkedin.com/in/shortjared/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@jshort",
+          "type": "website",
+          "url": "https://dev.to/shortjared",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@jshort",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jared-short",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:41Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@jshort"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:41Z",
+  "seedUrl": "https://builder.aws.com/community/@jshort"
+}

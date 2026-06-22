@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "serverlessadvocate",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-59847f15c133.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@serverlessadvocate",
+        "url": "https://avatars.builderprofile.aws.dev/2xwBlq1JoMa6RYvf0giNvUl6Kdg.webp",
+        "verified": true
+      },
+      "displayName": "Lee Gilmore (Serverless Hero)",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_lee_gilmore_serverless_hero",
+      "lastHarvestedAt": "2026-06-21T18:18:23Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@serverlessadvocate",
+          "type": "blog",
+          "url": "https://www.serverlessadvocate.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@serverlessadvocate",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@serverlessadvocate",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@serverlessadvocate",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "lee-gilmore-serverless-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:23Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@serverlessadvocate"
+        }
+      ],
+      "summary": "Lee Gilmore is an AWS Serverless Hero from the UK who specialises in event-driven architectures, the AWS CDK, domain-driven design, and clean code. Lee is also an international speaker, lead architect, writer, OSS contributor, and engineer, with a passion for building enterprise-grade scalable serverless architectures in the cloud, and building high-performing teams based on trust, vision, and empathy. Lee is also the owner of the Serverless Patterns registry with over 100 free open source solutions and detailed articles: https://www.serverlessadvocate.com/patterns and runs a weekly Serverless newsletter: https://serverlessadvocate.substack.com/ Lee also owns https://cloud-cards.com/ which allows users to do micro-learning in their own time, across the categories: software patterns, CICD, engineering, and domain-driven design.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:23Z",
+  "seedUrl": "https://builder.aws.com/community/@serverlessadvocate"
+}

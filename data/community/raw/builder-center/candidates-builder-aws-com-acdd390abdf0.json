@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "vitnien",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-0056295096ce.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vitnien",
+        "url": "https://avatars.builderprofile.aws.dev/2xs3MzER7BI6n1lRckC0K8NnXX8.webp",
+        "verified": true
+      },
+      "displayName": "Vit Niennattrakul",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_vit_niennattrakul",
+      "lastHarvestedAt": "2026-06-21T18:18:43Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vitnien",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vitnien",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@vitnien",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vitnien",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vit-niennattrakul",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:43Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vitnien"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:43Z",
+  "seedUrl": "https://builder.aws.com/community/@vitnien"
+}

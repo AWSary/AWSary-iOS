@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "sbarski",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-aa5bcc8f082b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@sbarski",
+        "url": "https://avatars.builderprofile.aws.dev/3683uy1NlM1Da5NNhCQpShuXRzX.webp",
+        "verified": true
+      },
+      "displayName": "Peter Sbarski",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_peter_sbarski",
+      "lastHarvestedAt": "2026-06-21T18:18:21Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sbarski",
+          "verified": true
+        },
+        {
+          "handle": "sbarski",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "type": "github",
+          "url": "http://github.com/sbarski",
+          "verified": false
+        },
+        {
+          "handle": "petersbarski",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/petersbarski/",
+          "verified": false
+        },
+        {
+          "handle": "sbarski",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "type": "x",
+          "url": "https://x.com/sbarski",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "peter-sbarski",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:21Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sbarski"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:21Z",
+  "seedUrl": "https://builder.aws.com/community/@sbarski"
+}

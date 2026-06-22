@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "pgarbe",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-eee514cedb05.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@pgarbe",
+        "url": "https://avatars.builderprofile.aws.dev/2xpdbFas1bD6DeGQrhmky1wv35r.webp",
+        "verified": true
+      },
+      "displayName": "Philipp Garbe",
+      "featuredContent": [],
+      "headline": "AWS Container Hero",
+      "id": "person_philipp_garbe",
+      "lastHarvestedAt": "2026-06-21T18:18:09Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@pgarbe",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@pgarbe",
+          "verified": true
+        },
+        {
+          "handle": "pgarbe",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@pgarbe",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/pgarbe",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "Bavaria"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@pgarbe",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "philipp-garbe",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:09Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@pgarbe"
+        }
+      ],
+      "summary": "Living in Bavaria. Working in the Cloud. AWS Container Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:09Z",
+  "seedUrl": "https://builder.aws.com/community/@pgarbe"
+}

@@ -1,0 +1,97 @@
+{
+  "builderApi": {
+    "alias": "austen",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-49ef51124b2a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Austen Collins",
+      "featuredContent": [],
+      "headline": "Creator Serverless Framework, Founder serverless.com",
+      "id": "person_austen_collins",
+      "lastHarvestedAt": "2026-06-21T18:16:54Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@austen",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@austen",
+          "verified": true
+        },
+        {
+          "handle": "austencollins",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@austen",
+          "type": "github",
+          "url": "https://github.com/austencollins",
+          "verified": false
+        },
+        {
+          "handle": "austen-collins-80427a69",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@austen",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/austen-collins-80427a69/",
+          "verified": false
+        },
+        {
+          "handle": "austencollins",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@austen",
+          "type": "x",
+          "url": "https://x.com/austencollins",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@austen",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "austen-collins",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:54Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@austen"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:54Z",
+  "seedUrl": "https://builder.aws.com/community/@austen"
+}

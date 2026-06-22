@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "senayakut",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3067052afad7.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@senayakut",
+        "url": "https://avatars.builderprofile.aws.dev/2xoYFKQHGTNPXTBemBnXXU6nXP6.webp",
+        "verified": true
+      },
+      "displayName": "Sena Yakut",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sena_yakut",
+      "lastHarvestedAt": "2026-06-21T18:18:22Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@senayakut",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@senayakut",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@senayakut",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sena-yakut",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:22Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@senayakut"
+        }
+      ],
+      "summary": "Sena has experience in understanding and applying security concepts for cloud platforms. She defines security needs for cloud designs, provides security services on AWS, and manages risks for cloud solutions. Sena is recognized as an AWS Security Hero for her expertise and is also one of the organizers for AWS Community Day Turkiye, demonstrating her commitment to building and supporting the cloud community. She is skilled in creating secure cloud architectures, implementing best practices, and ensuring compliance with security standards. She has a strong background in incident response, threat analysis, and vulnerability management. Sena is also proficient in automating security processes and integrating security tools to enhance the overall security posture of cloud systems.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:22Z",
+  "seedUrl": "https://builder.aws.com/community/@senayakut"
+}

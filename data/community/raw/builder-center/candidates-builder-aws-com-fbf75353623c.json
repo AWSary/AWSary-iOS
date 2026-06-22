@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "srushith",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c95891758af9.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@srushith",
+        "url": "https://avatars.builderprofile.aws.dev/33zroPyQLeNDZjYm0V8P7APg6x6.webp",
+        "verified": true
+      },
+      "displayName": "Srushith Repakula",
+      "featuredContent": [],
+      "headline": "Head of Engineering, KonfHub",
+      "id": "person_srushith_repakula",
+      "lastHarvestedAt": "2026-06-21T18:18:32Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@srushith",
+          "verified": true
+        },
+        {
+          "handle": "SrushithR",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "type": "github",
+          "url": "https://github.com/SrushithR",
+          "verified": false
+        },
+        {
+          "handle": "srushith",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/srushith/",
+          "verified": false
+        },
+        {
+          "handle": "SrushithR",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "type": "x",
+          "url": "https://x.com/SrushithR",
+          "verified": false
+        },
+        {
+          "handle": "@ServerlessSaturdays",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@ServerlessSaturdays",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": "Karnataka"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@srushith",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "srushith-repakula",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:32Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@srushith"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:32Z",
+  "seedUrl": "https://builder.aws.com/community/@srushith"
+}

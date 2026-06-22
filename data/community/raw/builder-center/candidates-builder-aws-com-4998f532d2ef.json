@@ -1,0 +1,131 @@
+{
+  "builderApi": {
+    "alias": "nalbam",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-2869904b5786.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@nalbam",
+        "url": "https://avatars.builderprofile.aws.dev/36OB4ouQT2xpQS4Sa3c66Ypr61M.webp",
+        "verified": true
+      },
+      "displayName": "Jungyoul Yu",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_jungyoul_yu",
+      "lastHarvestedAt": "2026-06-21T18:18:03Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@nalbam",
+          "verified": true
+        },
+        {
+          "handle": "nalbam",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "github",
+          "url": "https://github.com/nalbam/nalbam",
+          "verified": false
+        },
+        {
+          "handle": "nalbam",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/nalbam/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "website",
+          "url": "https://dev.to/nalbam",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "website",
+          "url": "https://www.facebook.com/nalbam",
+          "verified": false
+        },
+        {
+          "handle": "nalbam",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "x",
+          "url": "https://x.com/nalbam",
+          "verified": false
+        },
+        {
+          "handle": "nalbam",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "type": "youtube",
+          "url": "https://www.youtube.com/user/nalbam",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jungyoul-yu",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:03Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@nalbam"
+        }
+      ],
+      "summary": "🥕 SRE / 🚀 DevOps / 🦸🏻‍♂️ AWS AI Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:03Z",
+  "seedUrl": "https://builder.aws.com/community/@nalbam"
+}

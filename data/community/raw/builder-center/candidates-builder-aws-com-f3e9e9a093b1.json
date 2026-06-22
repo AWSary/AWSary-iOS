@@ -1,0 +1,89 @@
+{
+  "builderApi": {
+    "alias": "hyunmin",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-aae5228cc417.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+        "url": "https://avatars.builderprofile.aws.dev/2xnecf3zB4GGfskgpeqSWNfSlgd.webp",
+        "verified": true
+      },
+      "displayName": "Hyunmin Kim",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_hyunmin_kim",
+      "lastHarvestedAt": "2026-06-21T18:17:34Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hyunmin",
+          "verified": true
+        },
+        {
+          "handle": "hyunmin-kim-1356a260",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/hyunmin-kim-1356a260/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "hyunmin-kim",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:34Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hyunmin"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:34Z",
+  "seedUrl": "https://builder.aws.com/community/@hyunmin"
+}

@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "davebuildscloud",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-865c69b24138.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+        "url": "https://avatars.builderprofile.aws.dev/2yeZBVHGUXfeswzeXDEzrOyLDTV.webp",
+        "verified": true
+      },
+      "displayName": "Dave Stauffacher",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dave_stauffacher",
+      "lastHarvestedAt": "2026-06-21T18:17:12Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@davebuildscloud",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dave-stauffacher",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:12Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@davebuildscloud"
+        }
+      ],
+      "summary": "Dave Stauffacher is a Cloud Architect focused on helping organizations THRIVE in AWS. With deep knowledge in data storage and protection, Dave has helped organizations navigate data growth in excess of 30,000%.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:12Z",
+  "seedUrl": "https://builder.aws.com/community/@davebuildscloud"
+}

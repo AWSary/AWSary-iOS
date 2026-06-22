@@ -1,0 +1,141 @@
+{
+  "builderApi": {
+    "alias": "devopswithzack",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-4c2b86b64ba6.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+        "url": "https://avatars.builderprofile.aws.dev/33XGk3gn6pHcm6gkSe3NRD5uxIK.webp",
+        "verified": true
+      },
+      "displayName": "Arshad Zackeriya",
+      "featuredContent": [],
+      "headline": "Platform Engineer",
+      "id": "person_arshad_zackeriya",
+      "lastHarvestedAt": "2026-06-21T18:17:14Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@devopswithzack",
+          "verified": true
+        },
+        {
+          "handle": "awsfanboy",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "github",
+          "url": "https://github.com/awsfanboy",
+          "verified": false
+        },
+        {
+          "handle": "arshad-zackeriya-713b821b",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/arshad-zackeriya-713b821b/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "website",
+          "url": "https://awsfanboy.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "website",
+          "url": "https://sessionize.com/awsfanboy",
+          "verified": false
+        },
+        {
+          "handle": "@devopswithzack",
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@devopswithzack",
+          "verified": false
+        },
+        {
+          "handle": "streams",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@thezacsshowtalkingaws/streams",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "NZ",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "arshad-zackeriya",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:14Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@devopswithzack"
+        }
+      ],
+      "summary": "Arshad Zackeriya (Zack) is a Platform Engineer and an AWS Hero 🦸‍♂️ , based in Wellington, New Zealand 🇳🇿 🥝. As a voice in the AWS cloud community, he serves as the AWS User Group Leader for Wellington, New Zealand. Zack is specializes in AWS Cloud, Linux, and Kubernetes, sharing his expertise as a prolific blogger, podcaster, and mentor. When not architecting cloud solutions, he enjoys swimming, cooking, and collecting Lego Technics",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:14Z",
+  "seedUrl": "https://builder.aws.com/community/@devopswithzack"
+}

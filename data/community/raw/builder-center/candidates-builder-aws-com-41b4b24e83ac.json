@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "paolol",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e72a1c328ce0.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@paolol",
+        "url": "https://avatars.builderprofile.aws.dev/2dSS3lr28x30VWIjlVxuZ3qvXZj.webp",
+        "verified": true
+      },
+      "displayName": "Paolo Latella",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_paolo_latella",
+      "lastHarvestedAt": "2026-06-21T18:18:07Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@paolol",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@paolol",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@paolol",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Authorized Instructor",
+          "sourceUrl": "https://builder.aws.com/community/@paolol",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@paolol",
+          "startYear": 2015,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "paolo-latella",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:07Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@paolol"
+        }
+      ],
+      "summary": "Helping Organizations Unlock Value by Pushing Digital Innovation, from People to Edge Technologies | Cloud Strategy & Governance | Platform Engineering | Generative AI Explorer | AWS Hero | AWS Authorized Instructor",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:07Z",
+  "seedUrl": "https://builder.aws.com/community/@paolol"
+}

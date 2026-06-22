@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "cloudsimo",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-214f6f2ed7f4.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+        "url": "https://avatars.builderprofile.aws.dev/2yMN1cFd5JJU8RKIjXX4d0sct4X.webp",
+        "verified": true
+      },
+      "displayName": "Simone Merlini",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_simone_merlini",
+      "lastHarvestedAt": "2026-06-21T18:17:06Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@cloudsimo",
+          "verified": true
+        },
+        {
+          "handle": "simonemerlini",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/simonemerlini/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "simone-merlini",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:06Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudsimo"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:06Z",
+  "seedUrl": "https://builder.aws.com/community/@cloudsimo"
+}

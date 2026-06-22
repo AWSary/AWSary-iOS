@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "typhon666",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6e59f379181c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@typhon666",
+        "url": "https://avatars.builderprofile.aws.dev/2c1IThBhoVkgeXxT4mZOPebFXvE.webp",
+        "verified": true
+      },
+      "displayName": "Shun Yoshie",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_shun_yoshie",
+      "lastHarvestedAt": "2026-06-21T18:18:40Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@typhon666",
+          "type": "blog",
+          "url": "https://medium.com/@metal.preacher",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@typhon666",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@typhon666",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@typhon666",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@typhon666",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "shun-yoshie",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:40Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@typhon666"
+        }
+      ],
+      "summary": "Please feel free to follow and DM. # Work - Nomura Research Institute, Ltd # Job/Role - Security Consultant # Award - AWS Samurai 2018 - AWS Samurai 2019 - AWS Samurai 2020 - AWS Community Builder (Security) (2020) - AWS Community Hero (2021) - AWS Security Hero (2023) - APJ User Group of the Year (2023) - APJ Community Leader Award 2024 \"Think Big\" (2024) # Community Leader - Security-JAWS (2016 - now) | https://s-jaws.connpass.com/ - JAWS-UG Tokyo (2018 - 2023) | https://jawsug.connpass.com/ - X-Tech JAWS (2017 - 2022) | https://xtechjaws.doorkeeper.jp/ # Community / Event Chairman - JAWS DAYS 2019 Chairman (Onsight/2,300 Participants) - JAWS SONIC 2020 / MIDNIGHT JAWS 2020 Chairman (24-hours/Domestic Virtual Online) - JAWS PANKRATION 2021 Chairman (24hours/Global Virtual Online) - JAWS PANKRATION 2024 Chairman (24hours/Global Virtual Online) # Speaker - AWS Summit Tokyo 2015 - AWS Summit Tokyo 2020 - AWS Summit Tokyo 2021 - AWS Summit Tokyo 2022 - AWS APAC Community Summit 2022 - AWS Dev Day 2022 Day0 - AWS Summit Tokyo 2023 - AWS re:Inforce 2024 - AWS Summit Tokyo 2024 - AWS Community Day Taiwan 2024 - AWS Summit Tokyo 2025 # Interesting - CNAPP - Multi-Cloud - Security Observability - Threat Intelligence - Community Management # Book - 効果的な導入・運用のための Amazon Web Services活用入門 | https://book.mynavi.jp/ec/products/detail/id=54224 - ITロードマップ 2023年版 | https://str.toyokeizai.net/books/9784492581209/ - マルチクラウドセキュリティの教科書 | https://www.shoeisha.co.jp/book/detail/9784798190853",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:40Z",
+  "seedUrl": "https://builder.aws.com/community/@typhon666"
+}

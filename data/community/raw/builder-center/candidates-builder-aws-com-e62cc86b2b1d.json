@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "hovietanh",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-1eae881232df.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hovietanh",
+        "url": "https://avatars.builderprofile.aws.dev/32AksIiMkCiS7ZilxtvirA5TbOy.webp",
+        "verified": true
+      },
+      "displayName": "Anh Ho Viet",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_anh_ho_viet",
+      "lastHarvestedAt": "2026-06-21T18:17:34Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hovietanh",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hovietanh",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "VN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@hovietanh",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hovietanh",
+          "startYear": 2017,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "anh-ho-viet",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:34Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hovietanh"
+        }
+      ],
+      "summary": "I’m the Founder of the AWS Vietnam User Group and the Co-founder & CEO of OSAM, an AWS Consulting Partner in Vietnam. I’m also an AWS Certified Solutions Architect and a passionate advocate for the cloud. At OSAM, I lead an enthusiastic team that has helped many businesses — from SMEs to large enterprises — migrate to the cloud with AWS. We provide a comprehensive range of services, including cloud migration, architecture consulting, solution design on AWS, and Cloud FinOps. My vision for OSAM goes beyond being a cloud service provider; I want us to play a meaningful role in shaping Vietnam’s cloud computing ecosystem. In 2016, I founded the AWS Vietnam User Group to create a space for cloud practitioners to share knowledge and hands-on experience. Since then, the group has grown to over 15,000 members and continues to expand. We host quarterly meetups, connect SMEs with AWS experts, and offer real-time, free consultancy alongside AWS Activate Credits for startups. In 2017, I launched the “Cloud Computing Lectures for Universities” program, where we translate AWS documentation and news into Vietnamese. This initiative equips students with fundamental, up-to-date cloud knowledge and supports their career development. Since then, we’ve helped hundreds of tech students each year build critical cloud skills for the future.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:34Z",
+  "seedUrl": "https://builder.aws.com/community/@hovietanh"
+}

@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "kaushikmohanraj",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-56198a7fdc05.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+        "url": "https://avatars.builderprofile.aws.dev/2pNDKt1j1gRfFgbl3zIPsLRp0pG.webp",
+        "verified": true
+      },
+      "displayName": "Kaushik Mohanraj",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kaushik_mohanraj",
+      "lastHarvestedAt": "2026-06-21T18:17:43Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kaushikmohanraj",
+          "verified": true
+        },
+        {
+          "handle": "kaushikmohanraj",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/kaushikmohanraj/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "type": "website",
+          "url": "https://repost.aws/community/users/UShuFopwiET2m_L_ES7muaDw",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "type": "website",
+          "url": "https://www.facebook.com/kaushik.mohanraj/",
+          "verified": false
+        },
+        {
+          "handle": "kaushikmohanraj",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "type": "x",
+          "url": "https://x.com/kaushikmohanraj",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kaushik-mohanraj",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:43Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+        }
+      ],
+      "summary": "A Cloud Enthusiast with a career spanning roles of Cloud-Native Product Development, Solution Architecting, & Cloud Pre-sales, and now responsible for leading Enterprise Sales for Malaysia Region for a Born in the Cloud Company Blazeclan Technologies",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:43Z",
+  "seedUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+}

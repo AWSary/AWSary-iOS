@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "amyt",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-8f31f788705c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@amyt",
+        "url": "https://avatars.builderprofile.aws.dev/2xn4xnWHKZn3KA7fGfNijlTu646.webp",
+        "verified": true
+      },
+      "displayName": "Amy Tseng",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_amy_tseng",
+      "lastHarvestedAt": "2026-06-21T18:16:49Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@amyt",
+          "type": "blog",
+          "url": "https://aws.amazon.com/blogs/big-data/how-bmo-improved-data-security-with-amazon-redshift-and-aws-lake-formation/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@amyt",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@amyt",
+          "verified": true
+        },
+        {
+          "handle": "amy-p-tseng",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@amyt",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/amy-p-tseng",
+          "verified": false
+        },
+        {
+          "handle": "watch",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@amyt",
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=YnUteI6XSTs",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "VA"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@amyt",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "amy-tseng",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:49Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@amyt"
+        }
+      ],
+      "summary": "I love building modern data and AI solutions that actually deliver value. Over the years—in the financial industry and across large, complex organizations—I’ve led major data modernization programs, rethought enterprise architecture, and built platforms that scale. Whether it’s driving cloud transformation, shaping data strategy, or coaching teams, I bring curiosity, clarity, and energy to the work. I’m passionate about using data and AI to unlock new possibilities and help organizations move faster, smarter, and with more confidence.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:49Z",
+  "seedUrl": "https://builder.aws.com/community/@amyt"
+}

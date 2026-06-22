@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "mvandongen",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-eaf7e2ea92c7.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+        "url": "https://avatars.builderprofile.aws.dev/33F1mpPKBvt0DWk8GRL20DWA8T6.webp",
+        "verified": true
+      },
+      "displayName": "Martijn van Dongen",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_martijn_van_dongen",
+      "lastHarvestedAt": "2026-06-21T18:18:01Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mvandongen",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mvandongen",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "martijn-van-dongen",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:01Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mvandongen"
+        }
+      ],
+      "summary": "I'm Martijn, I'm passionate about AWS since the early rise of cloud technology. I work for Schuberg Philis as Cloud Evangelist, and I'm a very proud AWS Hero organizing meetups and events for awsug.nl and awscommunityday.nl.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:01Z",
+  "seedUrl": "https://builder.aws.com/community/@mvandongen"
+}

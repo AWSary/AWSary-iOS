@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "juliafmorgado",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6ad5d7775498.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+        "url": "https://avatars.builderprofile.aws.dev/2dVfObFTDQY7wSNnHmb8gncv07e.webp",
+        "verified": true
+      },
+      "displayName": "Julia Morgado",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_julia_morgado",
+      "lastHarvestedAt": "2026-06-21T18:17:41Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+          "type": "blog",
+          "url": "https://www.juliafmorgado.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@juliafmorgado",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@juliafmorgado",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "julia-morgado",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:41Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@juliafmorgado"
+        }
+      ],
+      "summary": "Julia is passionate about helping teams build reliable, observable, and scalable systems. At Dash0, she focuses on bridging the gap between technology and people, enabling organizations to understand their systems better and make data-driven decisions with confidence. Beyond her work, Julia is a CNCF Ambassador, AWS Container Hero, Docker Captain, Google Women Techmakers Ambassador, and Girl Code Ambassador. She’s an active community leader who helps organize Kubernetes Community Days New York, AWS Community Day New York, and the CNCF Midtown Meetup NYC, creating spaces where technologists can connect, learn, and grow together.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:41Z",
+  "seedUrl": "https://builder.aws.com/community/@juliafmorgado"
+}

@@ -1,0 +1,126 @@
+{
+  "builderApi": {
+    "alias": "rdali",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5fe5f9a5d17d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@rdali",
+        "url": "https://avatars.builderprofile.aws.dev/34sopcAbwb1htYkUg3JSboKWtzK.webp",
+        "verified": true
+      },
+      "displayName": "Rola Dali",
+      "featuredContent": [],
+      "headline": "Data/ML/AI expert",
+      "id": "person_rola_dali",
+      "lastHarvestedAt": "2026-06-21T18:18:13Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@rdali",
+          "verified": true
+        },
+        {
+          "handle": "rdali",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "type": "github",
+          "url": "https://github.com/rdali",
+          "verified": false
+        },
+        {
+          "handle": "roladali",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/roladali/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "type": "website",
+          "url": "https://dev.to/rdali",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CA",
+        "region": "QC"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@rdali",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "rola-dali",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:13Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@rdali"
+        }
+      ],
+      "summary": "I am a problem solver with tools optimized for data, ML and AI loads. I have a PhD is neuroscience and bioinformatics and have moved from academia to industry. I help architect and build complex systems that revolve around data.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:13Z",
+  "seedUrl": "https://builder.aws.com/community/@rdali"
+}

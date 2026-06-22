@@ -1,0 +1,124 @@
+{
+  "builderApi": {
+    "alias": "epiresdasilva",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-acc87e706769.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+        "url": "https://avatars.builderprofile.aws.dev/2rdAqmtWNzU4osBkrPD4YCeNXG5.webp",
+        "verified": true
+      },
+      "displayName": "Evandro Pires",
+      "featuredContent": [],
+      "headline": "Entrepreneur, CTO, sls.guru Ambassador, International Speaker, Podcaster",
+      "id": "person_evandro_pires",
+      "lastHarvestedAt": "2026-06-21T18:17:21Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@epiresdasilva",
+          "verified": true
+        },
+        {
+          "handle": "epiresdasilva",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "github",
+          "url": "https://github.com/epiresdasilva",
+          "verified": false
+        },
+        {
+          "handle": "epiresdasilva",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/epiresdasilva/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "website",
+          "url": "https://dev.to/epiresdasilva",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "website",
+          "url": "https://evandropires.com.br",
+          "verified": false
+        },
+        {
+          "handle": "epiresdasilva",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "type": "x",
+          "url": "https://x.com/epiresdasilva",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "BR",
+        "region": "SC"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "evandro-pires",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:21Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+        }
+      ],
+      "summary": "Evandro Pires is a entrepreneur, technology executive, and international speaker. His journey changed when he gained brutal clarity about the limits he was carrying himself, pushing him to overcome shyness, challenge restrictive beliefs, and develop new strengths in communication, perspective, and complex problem-solving. This transformation led him to become CTO of one of Brazil’s largest technology companies and the first AWS Serverless Hero in Latin America.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:21Z",
+  "seedUrl": "https://builder.aws.com/community/@epiresdasilva"
+}

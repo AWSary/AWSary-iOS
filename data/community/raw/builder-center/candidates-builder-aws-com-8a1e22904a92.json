@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "vickyseno",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b30114c6fc3b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+        "url": "https://avatars.builderprofile.aws.dev/35ox6Xvh1ZNgz19xNfalmzwRvI5.webp",
+        "verified": true
+      },
+      "displayName": "Vicky Seno",
+      "featuredContent": [],
+      "headline": "Comp Sci Professor @SMC Making Cloud Skills Available to Community College Students",
+      "id": "person_vicky_seno",
+      "lastHarvestedAt": "2026-06-21T18:18:41Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vickyseno",
+          "verified": true
+        },
+        {
+          "handle": "vtseno",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/vtseno/",
+          "verified": false
+        },
+        {
+          "handle": "sysadmgirl",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+          "type": "youtube",
+          "url": "https://www.youtube.com/sysadmgirl",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "CA"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vicky-seno",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:41Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vickyseno"
+        }
+      ],
+      "summary": "Vicky \"Tanya\" Seno is an AWS Container Hero, Computer Science Professor at Santa Monica College, and a involved in cloud computing education. With 20+ years of enterprise Linux and DevOps experience, she brings deep technical expertise to advancing AWS education across Southern California. As an AWS Educate Cloud Ambassador and AWS Academy Accredited Educator, Professor Seno has transformed cloud education by developing one of California's first community college Bachelor's degrees in Cloud Computing. Her AWS expertise is recognized through multiple certifications and having received the Outstanding Contribution to the AWS Ecosystem Award (Digital Revolution Awards 2020). She co-organizes AWS Cloud Day and TechUp conferences that draw 300+ attendees for hands on workshops and CTF competitions, significantly increasing student AWS certification rates. Beyond academia, Professor Seno creates AWS courses for LinkedIn Learning, including AWS Cloud Migration and Quantum Computing. Her YouTube channel (sysadmgirl) reaches 40,000+ subscribers with 100+ technical tutorials.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:41Z",
+  "seedUrl": "https://builder.aws.com/community/@vickyseno"
+}

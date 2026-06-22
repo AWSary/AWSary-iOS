@@ -1,0 +1,74 @@
+{
+  "builderApi": {
+    "alias": "dhavaln",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-f265e9532a95.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+        "url": "https://avatars.builderprofile.aws.dev/2zs3LIAApmE2DwUr1d3QUhKLRgi.webp",
+        "verified": true
+      },
+      "displayName": "Dhaval Nagar",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dhaval_nagar",
+      "lastHarvestedAt": "2026-06-21T18:17:14Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dhavaln",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dhaval-nagar",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:14Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dhavaln"
+        }
+      ],
+      "summary": "Dhaval Nagar is the Founder & Principal Architect at APPGAMBiT, an AWS-focused consultancy that helps startups and enterprises launch lean, event-driven products. With 19 years in the industry—progressing from developer to architect to AWS Hero—Dhaval has guided teams through every stage of cloud adoption, earning all AWS certifications and serving as both an AWS Certification SME and an AWS User Group Lead. He has spoken at AWS Summit Bengaluru 2024 and AWS re:Invent 2024, where he showcased real-world examples of blending generative AI with serverless workflows to achieve optimal result and scale at optimal cost. Dhaval is committed to democratizing serverless best practices, helping teams cut infrastructure overhead, accelerate delivery, and optimize cloud spend without sacrificing performance or security. When he isn’t sketching architecture diagrams or mentoring builder communities, you’ll find him experimenting with 3D printing or perfecting his barista skills. https://appgambit.com https://antigravityapps.dev/ https://stackadvisor.ai https://ipoiq.in/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:14Z",
+  "seedUrl": "https://builder.aws.com/community/@dhavaln"
+}

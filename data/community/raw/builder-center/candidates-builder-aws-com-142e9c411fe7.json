@@ -1,0 +1,114 @@
+{
+  "builderApi": {
+    "alias": "miketheman",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c32f73ca2401.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@miketheman",
+        "url": "https://avatars.builderprofile.aws.dev/30ruxTe9SzFqlOGp1XBFeLmTtNJ.webp",
+        "verified": true
+      },
+      "displayName": "Mike Fiedler",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_mike_fiedler",
+      "lastHarvestedAt": "2026-06-21T18:17:56Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "blog",
+          "url": "https://www.miketheman.net/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@miketheman",
+          "verified": true
+        },
+        {
+          "handle": "miketheman",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "github",
+          "url": "https://github.com/miketheman",
+          "verified": false
+        },
+        {
+          "handle": "miketheman",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/miketheman/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "website",
+          "url": "https://miketheman.dev",
+          "verified": false
+        },
+        {
+          "handle": "@miketheman",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "type": "x",
+          "url": "https://hachyderm.io/@miketheman",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "NY"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "mike-fiedler",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:56Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@miketheman"
+        }
+      ],
+      "summary": "With over three decades of experience as a professional engineer, Mike has amassed a wealth of knowledge and expertise in his field. Throughout his career, he has sought to learn from every colleague he's worked with, and in turn, has taught many others. He has held senior leadership roles at companies such as Datadog, MongoDB, LeafLink, Warby Parker, and Paribus (Capital One) to name a few. Mike has been a speaker at conferences since 2012, and has been recognized for his contributions to the tech community with awards such as the Awesome Community Chef Award in 2016 and an AWS Container Hero since 2018. Currently working as the PyPI Safety & Security Engineer at the Python Software Foundation, he devotes his free time to working on open source tools, learning new technologies, and volunteering as a roller derby referee. With a holistic view of systems and software and a passion for problem-solving, Mike helps others navigate the complexities of the tech world. He can be found on Mastodon https://hachyderm.io/@miketheman, GitHub https://github.com/miketheman, or wearing stripes at a roller derby game near you.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:56Z",
+  "seedUrl": "https://builder.aws.com/community/@miketheman"
+}

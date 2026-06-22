@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "breakinthecloud",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3c5d73c7eb00.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@breakinthecloud",
+        "url": "https://avatars.builderprofile.aws.dev/2zenWTW1TkkOGNDuvufm5IQmCys.webp",
+        "verified": true
+      },
+      "displayName": "Carlos Cortez Bazan",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_carlos_cortez_bazan",
+      "lastHarvestedAt": "2026-06-21T18:17:00Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@breakinthecloud",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@breakinthecloud",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@breakinthecloud",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@breakinthecloud",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "carlos-cortez-bazan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:00Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@breakinthecloud"
+        }
+      ],
+      "summary": "Hello Everyone, Generative AI Startup Founder, AWS Community Hero & AWS User Group Perú Founder. 10+ yrs AWS/Linux, 7+ yrs DevOps, 6+ yrs, +6yrs AI/ML. Specialize in cloud migration, serverless, ML. Content creator, event organizer, writer, podcaster (\"Al día con AWS\", Imperio Cloud), DeepFridays creator. UGConf Conference creator, hosting 2.5k+ attendees, 105+ speakers. AWS Hero: https://aws.amazon.com/es/developer/community/heroes/carlos-cortez/ Costing and optimization for IT cloud projects that will make you close the best deals. Specially with AWS. Also, great representation for sales management and close dealing with big clients commercial supporting in IT cloud services.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:00Z",
+  "seedUrl": "https://builder.aws.com/community/@breakinthecloud"
+}

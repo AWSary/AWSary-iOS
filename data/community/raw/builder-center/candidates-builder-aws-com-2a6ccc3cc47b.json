@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "mumoshu",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-10e5c1e70192.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mumoshu",
+        "url": "https://avatars.builderprofile.aws.dev/2xnIaiptlllqyC8tIkTMKEvu1Pe.webp",
+        "verified": true
+      },
+      "displayName": "Yusuke Kuoka",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_yusuke_kuoka",
+      "lastHarvestedAt": "2026-06-21T18:18:01Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mumoshu",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mumoshu",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mumoshu",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "yusuke-kuoka",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:01Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mumoshu"
+        }
+      ],
+      "summary": "Yusuke has been an AWS Container Hero since 2018, when he was working for freee K.K., a Japanese fintech company that provides a comprehensive web-based ERP suite. He introduced both self-hosted Kubernetes on AWS and an EKS-based internal platform that serves many production workloads across several companies. He also contributed to and continues to maintain various open-source projects related to Kubernetes and AWS, including actions-runner-controller (now part of GitHub), Helmfile (still widely used), and others. He is now part of SurrealDB, which builds a scalable and embeddable multi-model database, envisioning a database that is as general as it applies to many real-world workloads, like containers have been.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:01Z",
+  "seedUrl": "https://builder.aws.com/community/@mumoshu"
+}

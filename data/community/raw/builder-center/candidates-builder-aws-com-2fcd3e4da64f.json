@@ -1,0 +1,107 @@
+{
+  "builderApi": {
+    "alias": "arvs",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-12765a65bccc.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@arvs",
+        "url": "https://avatars.builderprofile.aws.dev/3A7NsaeeNR8mJUpTmC7jGRGCsdC.webp",
+        "verified": true
+      },
+      "displayName": "Joshua Arvin Lat (ARVS)",
+      "featuredContent": [],
+      "headline": "Chief Technology Officer | AWS AI Hero | Author of AI and Security books",
+      "id": "person_joshua_arvin_lat_arvs",
+      "lastHarvestedAt": "2026-06-21T18:16:53Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "type": "blog",
+          "url": "https://medium.com/@arvs.lat",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@arvs",
+          "verified": true
+        },
+        {
+          "handle": "joshualat",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "type": "github",
+          "url": "https://github.com/joshualat",
+          "verified": false
+        },
+        {
+          "handle": "joshualat",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "type": "linkedin",
+          "url": "https://ph.linkedin.com/in/joshualat",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "type": "website",
+          "url": "https://www.amazon.com/stores/Joshua-Arvin-Lat/author/B0947BKL8H",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PH",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@arvs",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "joshua-arvin-lat-arvs",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:53Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@arvs"
+        }
+      ],
+      "summary": "Joshua Arvin Lat is the Chief Technology Officer (CTO) of NuWorks Interactive Labs, Inc. He previously served as the CTO of three Australian-owned companies and as the Director for Software Development and Engineering for multiple ecommerce start-ups. Years ago, he and his team won first place in a global cybersecurity competition with their published research paper. He is an AWS AI Hero and has authored several technical books on AI and Security, including Machine Learning with Amazon SageMaker Cookbook, Machine Learning Engineering on AWS, Building and Automating Penetration Testing Labs in the Cloud, and Learning Serverless Security. Because of his proven track record in leading digital transformation within organizations, he has been recognized as one of the prestigious Orange Boomerang: Digital Leader of the Year 2023 award winners.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:53Z",
+  "seedUrl": "https://builder.aws.com/community/@arvs"
+}

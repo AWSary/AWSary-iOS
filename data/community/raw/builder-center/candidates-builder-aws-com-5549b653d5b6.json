@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "namratashah",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b3698ddab6ad.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@namratashah",
+        "url": "https://avatars.builderprofile.aws.dev/2oriG9Opclng85iYubjkfMZ1oYi.webp",
+        "verified": true
+      },
+      "displayName": "Namrata Shah",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_namrata_shah",
+      "lastHarvestedAt": "2026-06-21T18:18:03Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@namratashah",
+          "verified": true
+        },
+        {
+          "handle": "namratashah",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/namratashah/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "type": "website",
+          "url": "https://www.facebook.com/namratahshah",
+          "verified": false
+        },
+        {
+          "handle": "CNamratha",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "type": "x",
+          "url": "https://x.com/CNamratha",
+          "verified": false
+        },
+        {
+          "handle": "videos",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "type": "youtube",
+          "url": "https://youtube.com/namratahshah/videos",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "namrata-shah",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:03Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@namratashah"
+        }
+      ],
+      "summary": "Namrata Shah is an AWS Hero, technology leader, and lifelong learner with over 24 years of experience in the IT industry. Holding certifications such as AWS Certified Solutions Architect – Associate (CSAA), PMP, and Six Sigma, she brings a unique blend of deep technical expertise and strategic leadership. Namrata is passionate about making cloud technologies accessible and actionable. Through her popular YouTube channel, she shares hands-on tutorials and real-world insights across AWS, cloud computing, DevOps, AI, ML, and Generative AI. Her content includes deep dives into Amazon Bedrock, LLMs, serverless architectures, and complete cloud workflows—designed to support both beginners and experienced professionals. Dedicated to empowering architects, developers, and innovators, Namrata emphasizes practical learning, enterprise transformation, and staying ahead in today’s fast-evolving tech landscape. Her motto: Hands-on. Practical. No fluff. With weekly content, she continues to inspire a growing global community—one lab at a time.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:03Z",
+  "seedUrl": "https://builder.aws.com/community/@namratashah"
+}

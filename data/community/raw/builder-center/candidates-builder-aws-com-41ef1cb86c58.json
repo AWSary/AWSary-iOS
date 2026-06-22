@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "chrisatroom17",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e7a29769aacf.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+        "url": "https://avatars.builderprofile.aws.dev/2y66GIw69vq84IdjGVlC0h3zKEm.webp",
+        "verified": true
+      },
+      "displayName": "Chris Farris [AWS Hero]",
+      "featuredContent": [],
+      "headline": "Cloud Security Consultant and Evangelist / AWS Security Hero / IANS Faculty",
+      "id": "person_chris_farris_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:17:04Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+          "type": "blog",
+          "url": "https://www.chrisfarris.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@chrisatroom17",
+          "verified": true
+        },
+        {
+          "handle": "jchrisfarris",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+          "type": "github",
+          "url": "https://github.com/jchrisfarris",
+          "verified": false
+        },
+        {
+          "handle": "jcfarris",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/jcfarris/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "chris-farris-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:04Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@chrisatroom17"
+        }
+      ],
+      "summary": "Chris Farris has been in the IT field since 1994 primarily focused on Linux, networking, and security. For the last 8 years, he has focused on public-cloud and public-cloud security. He has built and evolved multiple cloud security programs for major media companies, focusing on enabling the broader security team’s objectives of secure design, incident response and vulnerability management. He has developed cloud security standards and baselines to provide risk-based guidance to development and operations teams. As a practitioner, he’s architected and implemented multiple serverless and traditional cloud applications focused on deployment, security, operations, and financial modeling. He is one of the organizers of the fwd:cloudsec conference (https://fwdcloudsec.org) and has given multiple presentations at AWS conferences and BSides events. He was named one of the inaugural AWS Security Heroes. He is available for cloud security advisory services though his consulting firm PrimeHarbor. When not building things with AWS’s building blocks, he enjoys building Legos with his kid and figuring out what interesting part of the globe to travel to next. He opines on security and technology on Mastodon, Twitter and his website https://www.chrisfarris.com",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:04Z",
+  "seedUrl": "https://builder.aws.com/community/@chrisatroom17"
+}

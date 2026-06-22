@@ -1,0 +1,92 @@
+{
+  "builderApi": {
+    "alias": "colors4ideas",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-34030fe76325.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+        "url": "https://avatars.builderprofile.aws.dev/327prQNWfg2lE3s4Wvfq8B5lJd0.webp",
+        "verified": true
+      },
+      "displayName": "Vanessa Santos",
+      "featuredContent": [],
+      "headline": "Global Value Advisor",
+      "id": "person_vanessa_santos",
+      "lastHarvestedAt": "2026-06-21T18:17:06Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@colors4ideas",
+          "verified": true
+        },
+        {
+          "handle": "vanessa-alves-dos-santos",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/vanessa-alves-dos-santos/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "BR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@colors4ideas",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vanessa-santos",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:06Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@colors4ideas"
+        }
+      ],
+      "summary": "Driven by the belief that technology should empower growth for people, communitites and business.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:06Z",
+  "seedUrl": "https://builder.aws.com/community/@colors4ideas"
+}

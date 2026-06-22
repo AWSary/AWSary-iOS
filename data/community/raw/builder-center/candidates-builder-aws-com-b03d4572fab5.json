@@ -1,0 +1,97 @@
+{
+  "builderApi": {
+    "alias": "jnardiello",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-778be0519d54.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+        "url": "https://avatars.builderprofile.aws.dev/360oLndurHJHcubm6RWtJB2ARVe.webp",
+        "verified": true
+      },
+      "displayName": "Jacopo Nardiello",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_jacopo_nardiello",
+      "lastHarvestedAt": "2026-06-21T18:17:39Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@jnardiello",
+          "verified": true
+        },
+        {
+          "handle": "jnardiello",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+          "type": "github",
+          "url": "https://github.com/jnardiello",
+          "verified": false
+        },
+        {
+          "handle": "jnardiello",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/jnardiello/",
+          "verified": false
+        },
+        {
+          "handle": "jnardiello",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+          "type": "x",
+          "url": "https://x.com/jnardiello",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jacopo-nardiello",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:39Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@jnardiello"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:39Z",
+  "seedUrl": "https://builder.aws.com/community/@jnardiello"
+}

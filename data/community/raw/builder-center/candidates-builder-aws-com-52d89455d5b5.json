@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "kattard",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-34f13e119471.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kattard",
+        "url": "https://avatars.builderprofile.aws.dev/2xzRgZ8PhQIAoYMZqNpFYZfT2Mf.webp",
+        "verified": true
+      },
+      "displayName": "Kenneth Attard",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kenneth_attard",
+      "lastHarvestedAt": "2026-06-21T18:17:42Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kattard",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kattard",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@kattard",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kattard",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kenneth-attard",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:42Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kattard"
+        }
+      ],
+      "summary": "Kenneth is an AWS Hero and an Enterprise Architect at Betsson Group in Malta with over 20 years of technical experience . I am also AWS Malta User Group Leader and the organizer of the Malta AWS Community day",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:42Z",
+  "seedUrl": "https://builder.aws.com/community/@kattard"
+}

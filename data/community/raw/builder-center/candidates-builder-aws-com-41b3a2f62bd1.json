@@ -1,0 +1,99 @@
+{
+  "builderApi": {
+    "alias": "johnvarghese",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-f4f0c38d3e24.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+        "url": "https://avatars.builderprofile.aws.dev/2oluhJGFx8Mki5Zrmn0584aZD2S.webp",
+        "verified": true
+      },
+      "displayName": "John Varghese",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_john_varghese",
+      "lastHarvestedAt": "2026-06-21T18:17:40Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@johnvarghese",
+          "verified": true
+        },
+        {
+          "handle": "jvaws",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/jvaws/",
+          "verified": false
+        },
+        {
+          "handle": "videos",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@awscommunityday1202/videos",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "john-varghese",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:40Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@johnvarghese"
+        }
+      ],
+      "summary": "John Varghese is an AWS Hero and the AWS Community Lead for the San Francisco Bay Area. A true Renaissance Developer with a career spanning three decades of technological shifts, John specializes in Platform Engineering, IaC, and building for Architectural Resilience. Having navigated the evolution from monoliths to modern cloud-native systems, John brings a deep level of Systems Thinking to every project—understanding the complex feedback loops that define modern distributed environments. As the lead organizer for the AWS Community Day - Security Edition, he champions a Red Team mindset, moving beyond 'vibe coding' to ensure precision and ownership in the age of AI. John is a lifelong Polymath who thrives in high-energy, collaborative environments where the focus is on verification over generation. He is dedicated to mentoring the next generation of builders, proving that the most valuable asset in tech is the human judgment required to design, lead, and evolve.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:40Z",
+  "seedUrl": "https://builder.aws.com/community/@johnvarghese"
+}

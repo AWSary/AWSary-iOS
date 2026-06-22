@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "dijeeshpnair",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e29bc3ded2d2.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+        "url": "https://avatars.builderprofile.aws.dev/2xopGRryrFlj8ffCDZENj0Z8mLv.webp",
+        "verified": true
+      },
+      "displayName": "Dijeesh Padinharethil",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dijeesh_padinharethil",
+      "lastHarvestedAt": "2026-06-21T18:17:16Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dijeeshpnair",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dijeesh-padinharethil",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:16Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair"
+        }
+      ],
+      "summary": "I am a dynamic and self-motivated IT professional with over 18 years of experience designing, building, and operating highly available, secure, and scalable cloud and on-premises infrastructure platforms. My expertise spans Kubernetes, AWS and cloud-native technologies, Linux, and open-source ecosystems, with a strong focus on reliability, security, and operational excellence. I am deeply passionate about continuous learning and solving complex infrastructure and platform challenges. My straightforward approach, strong work ethic, and collaborative mindset have enabled me to succeed in solution architecture roles while building trusted relationships across teams and communities. Beyond my professional work, I am strongly committed to giving back to the tech community. I actively organize the AWS User Group Kochi and the CNCF Kochi Chapter, fostering knowledge sharing, mentorship, and community-driven growth within the cloud-native ecosystem. Community Contributions Organizer, AWS User Group Kochi Organizer, CNCF Kochi Chapter Lead Organizer, AWS Community Day Kochi (2019, 2022, 2023, 2024, and 2025 – in-person events)",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:16Z",
+  "seedUrl": "https://builder.aws.com/community/@dijeeshpnair"
+}

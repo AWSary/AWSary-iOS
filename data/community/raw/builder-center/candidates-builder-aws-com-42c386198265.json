@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "mrdoro",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-ee73a187cc45.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+        "url": "https://avatars.builderprofile.aws.dev/2xnzKrZvNcqPtnE5RT6yiYQdbQ9.webp",
+        "verified": true
+      },
+      "displayName": "Lukasz 'Luke' Dorosz",
+      "featuredContent": [],
+      "headline": "AWS Architect & Authorized Instructor",
+      "id": "person_lukasz_luke_dorosz",
+      "lastHarvestedAt": "2026-06-21T18:18:00Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mrdoro",
+          "verified": true
+        },
+        {
+          "handle": "mrdoro",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "type": "github",
+          "url": "https://github.com/mrdoro",
+          "verified": false
+        },
+        {
+          "handle": "lukaszdorosz",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "type": "linkedin",
+          "url": "http://linkedin.com/in/lukaszdorosz/",
+          "verified": false
+        },
+        {
+          "handle": "mrdoro",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "type": "x",
+          "url": "https://x.com/mrdoro",
+          "verified": false
+        },
+        {
+          "handle": "@cloudheroes",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "type": "youtube",
+          "url": "http://youtube.com/@cloudheroes",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Authorized Instructor",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "lukasz-luke-dorosz",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:00Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mrdoro"
+        }
+      ],
+      "summary": "New tech geek, traveller, and golf freak. AWS Community HERO, AWS Architect & Instructor",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:00Z",
+  "seedUrl": "https://builder.aws.com/community/@mrdoro"
+}

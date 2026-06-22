@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "hidetoshimatsui",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-925a1406ffbe.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+        "url": "https://avatars.builderprofile.aws.dev/2xnThPjHM4GLBmmOqEJYR1u8JZ0.webp",
+        "verified": true
+      },
+      "displayName": "Hidetoshi Matsui",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_hidetoshi_matsui",
+      "lastHarvestedAt": "2026-06-21T18:17:30Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hidetoshimatsui",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "hidetoshi-matsui",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:30Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui"
+        }
+      ],
+      "summary": "Working at Generative Technology Inc. as a manager of engineering. AWS Serverless Hero since 2021. I like building web & broadcasting apps using AWS. I run several branches of JAWS-UG, the AWS community in Japan.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:30Z",
+  "seedUrl": "https://builder.aws.com/community/@hidetoshimatsui"
+}

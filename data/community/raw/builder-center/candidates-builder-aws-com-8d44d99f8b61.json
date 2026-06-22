@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "franciscoed",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-9bea01e1a729.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@franciscoed",
+        "url": "https://avatars.builderprofile.aws.dev/2xmhZcQNMs4KWOYDr0h8y8Ybe7o.webp",
+        "verified": true
+      },
+      "displayName": "Francisco Edilton",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_francisco_edilton",
+      "lastHarvestedAt": "2026-06-21T18:17:25Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@franciscoed",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@franciscoed",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@franciscoed",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@franciscoed",
+          "startYear": 2016,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "francisco-edilton",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:25Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@franciscoed"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:25Z",
+  "seedUrl": "https://builder.aws.com/community/@franciscoed"
+}

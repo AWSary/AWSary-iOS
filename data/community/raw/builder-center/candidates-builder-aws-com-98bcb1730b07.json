@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "hirokonishimura",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e955f050566d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+        "url": "https://avatars.builderprofile.aws.dev/2xoe68sWFQOR83rcbnxGadI5A4s.webp",
+        "verified": true
+      },
+      "displayName": "Hiroko Nishimura",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_hiroko_nishimura",
+      "lastHarvestedAt": "2026-06-21T18:17:31Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "type": "blog",
+          "url": "https://hiroko.io",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@hirokonishimura",
+          "verified": true
+        },
+        {
+          "handle": "hirokonishimura",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/hirokonishimura",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "type": "website",
+          "url": "https://hirokonishimura.com",
+          "verified": false
+        },
+        {
+          "handle": "hirokonishimura",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "type": "x",
+          "url": "https://x.com/hirokonishimura",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "hiroko-nishimura",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:31Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@hirokonishimura"
+        }
+      ],
+      "summary": "Technical Instructor at LinkedIn Learning for \"Introduction to AWS for Non-Engineers.\" Author of \"AWS for Non-Engineers.\" I love writing, photography, and food.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:31Z",
+  "seedUrl": "https://builder.aws.com/community/@hirokonishimura"
+}

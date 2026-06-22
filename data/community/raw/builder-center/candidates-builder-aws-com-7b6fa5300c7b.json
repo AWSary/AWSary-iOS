@@ -1,0 +1,96 @@
+{
+  "builderApi": {
+    "alias": "gojko",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b2a63ef2806e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@gojko",
+        "url": "https://avatars.builderprofile.aws.dev/2xo0yfLhRBQS3YGoAufszDsSBEB.webp",
+        "verified": true
+      },
+      "displayName": "Gojko Adzic",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_gojko_adzic",
+      "lastHarvestedAt": "2026-06-21T18:17:28Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@gojko",
+          "type": "blog",
+          "url": "https://gojko.net",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@gojko",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@gojko",
+          "verified": true
+        },
+        {
+          "handle": "gojko",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@gojko",
+          "type": "github",
+          "url": "https://github.com/gojko",
+          "verified": false
+        },
+        {
+          "handle": "gojko",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@gojko",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/gojko/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@gojko",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "gojko-adzic",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:28Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@gojko"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:28Z",
+  "seedUrl": "https://builder.aws.com/community/@gojko"
+}

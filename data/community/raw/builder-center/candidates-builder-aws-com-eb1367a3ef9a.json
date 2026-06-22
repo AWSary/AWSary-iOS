@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "ankitkumargupta",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-5263ece02a3a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ankitkumargupta",
+        "url": "https://avatars.builderprofile.aws.dev/30ZhrxgxhtHbfEdDPn4UBznvudZ.webp",
+        "verified": true
+      },
+      "displayName": "Ankit Kumar Gupta",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_ankit_kumar_gupta",
+      "lastHarvestedAt": "2026-06-21T18:16:51Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ankitkumargupta",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ankitkumargupta",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ankitkumargupta",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ankitkumargupta",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ankit-kumar-gupta",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:51Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ankitkumargupta"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:51Z",
+  "seedUrl": "https://builder.aws.com/community/@ankitkumargupta"
+}

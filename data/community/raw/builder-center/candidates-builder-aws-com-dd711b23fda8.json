@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "franckpachot",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-cebf3c866065.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+        "url": "https://avatars.builderprofile.aws.dev/2xpMDtNYWWZpBQjn3AOKQ7nESPc.webp",
+        "verified": true
+      },
+      "displayName": "Franck Pachot",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_franck_pachot",
+      "lastHarvestedAt": "2026-06-21T18:17:26Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@franckpachot",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "franck-pachot",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:26Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@franckpachot"
+        }
+      ],
+      "summary": "Developer Advocate at MongoDB, AWS Data Hero, PostgreSQL fan,YugabyteDB expert, Oracle Certified Master, and loving all databases",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:26Z",
+  "seedUrl": "https://builder.aws.com/community/@franckpachot"
+}

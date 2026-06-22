@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "calvinhp",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-9add18176858.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+        "url": "https://avatars.builderprofile.aws.dev/2erzF0llAucdApntZ4sPtMPPmCd.webp",
+        "verified": true
+      },
+      "displayName": "Calvin Hendryx-Parker",
+      "featuredContent": [],
+      "headline": "Python, AI, Orchestration & Containers | CTO and Founder | IndyPy & IndyAWS",
+      "id": "person_calvin_hendryx_parker",
+      "lastHarvestedAt": "2026-06-21T18:17:03Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "type": "blog",
+          "url": "https://sixfeetup.com/blog",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@calvinhp",
+          "verified": true
+        },
+        {
+          "handle": "calvinhp",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "type": "github",
+          "url": "https://github.com/calvinhp",
+          "verified": false
+        },
+        {
+          "handle": "calvinhp",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/calvinhp",
+          "verified": false
+        },
+        {
+          "handle": "calvinhp",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "type": "x",
+          "url": "https://x.com/calvinhp",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "IN"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "calvin-hendryx-parker",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:03Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+        }
+      ],
+      "summary": "Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, the premier AI and Python agency in the U.S. Calvin’s Massive Transformative Purpose (MTP) is to inspire and enable tech leaders to open minds and bring the world together for a sustainable future. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development. Calvin is passionate about the open-source community and specializes in app development, AI, big data and cloud technology. He is regularly sought after to share his expertise — both at international conferences and in the media. Six Feet Up, a top 10 United States Custom Software Development Company according to Clutch.co, was founded with Python at the forefront. In 2019, Calvin was named an AWS Hero — one of only 50 Heroes in North America. He is the co-founder of IndyPy, the largest Python meetup in Indiana with nearly 2,500 members. In 2023, he was named Tech Executive of the Year by the Indiana Business Journal.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:03Z",
+  "seedUrl": "https://builder.aws.com/community/@calvinhp"
+}

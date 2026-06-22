@@ -1,0 +1,100 @@
+{
+  "builderApi": {
+    "alias": "kinimod",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e956b7c13d33.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kinimod",
+        "url": "https://avatars.builderprofile.aws.dev/2dgl9lE3Xda58B3H6xdbp9F3VNA.webp",
+        "verified": true
+      },
+      "displayName": "Dominik Grzywaczewski",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dominik_grzywaczewski",
+      "lastHarvestedAt": "2026-06-21T18:17:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kinimod",
+          "verified": true
+        },
+        {
+          "handle": "dominik-grzywaczewski",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/dominik-grzywaczewski/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "PL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dominik-grzywaczewski",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kinimod"
+        }
+      ],
+      "summary": "Community Hero Dominik Grzywaczewski is a Senior Cloud Site Reliability Engineer at Chaos Gears with more than 15 years of experience in IT. His primary objective is to assist companies in gaining a deeper understanding of Cloud Computing technologies, and effectively leveraging them to drive faster and more secure innovation. Dominik shares his passion by organizing technical meetups and workshops, and consistently collaborates with AWS community members. He also founded the AWS User Group in Lublin (Poland) and co-organizes the AWS Community Day conference in Warsaw (Poland).",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:45Z",
+  "seedUrl": "https://builder.aws.com/community/@kinimod"
+}

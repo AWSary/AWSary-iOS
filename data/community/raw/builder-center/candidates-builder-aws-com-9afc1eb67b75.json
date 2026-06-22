@@ -1,0 +1,124 @@
+{
+  "builderApi": {
+    "alias": "jimmydqv",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-10e60026f68e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+        "url": "https://avatars.builderprofile.aws.dev/33YXDtrCHqMFPgUFVGF1yYlCE01.webp",
+        "verified": true
+      },
+      "displayName": "Jimmy Dahlqvist",
+      "featuredContent": [],
+      "headline": "Principal Cloud Architect @ Sambla Group",
+      "id": "person_jimmy_dahlqvist",
+      "lastHarvestedAt": "2026-06-21T18:17:39Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "blog",
+          "url": "https://jimmydqv.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@jimmydqv",
+          "verified": true
+        },
+        {
+          "handle": "JimmyDqv",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "github",
+          "url": "https://github.com/JimmyDqv/",
+          "verified": false
+        },
+        {
+          "handle": "dahlqvistjimmy",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/dahlqvistjimmy/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "website",
+          "url": "https://dev.to/jimmydqv",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "type": "website",
+          "url": "https://sessionize.com/jimmy-dahlqvist/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "SE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jimmy-dahlqvist",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:39Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@jimmydqv"
+        }
+      ],
+      "summary": "Jimmy has been working in tech since 2003 and transitioned into cloud and AWS in 2015. His passion lies in serverless technologies which enables him to solve business challenges and not manage servers. In 2024, he started serverless-handbook.com as the home base of all his serverless adventures. He is an AWS Lead Certification Subject Matter Expert and regularly participates in workshops ensuring AWS certifications are fair for everyone. Jimmy is a well-known voice in the AWS community in the Nordics and he is one of leaders of the AWS User Group Scania. When he’s not writing about serverless, you will find Jimmy talking about his other passions, IoT and BBQ. Leading him to connect his smoker to AWS, in a serverless way of course!",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:39Z",
+  "seedUrl": "https://builder.aws.com/community/@jimmydqv"
+}

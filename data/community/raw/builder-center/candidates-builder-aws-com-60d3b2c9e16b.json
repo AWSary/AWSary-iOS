@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "taeseongpark",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-92ccb7b9190b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+        "url": "https://avatars.builderprofile.aws.dev/2zwRySRYYBOazzw5DGRGho4rFXD.webp",
+        "verified": true
+      },
+      "displayName": "TaeSeong Park",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_taeseong_park",
+      "lastHarvestedAt": "2026-06-21T18:18:34Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@taeseongpark",
+          "verified": true
+        },
+        {
+          "handle": "geoseong",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+          "type": "github",
+          "url": "https://github.com/geoseong",
+          "verified": false
+        },
+        {
+          "handle": "tae-seong-park",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/tae-seong-park/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+          "type": "website",
+          "url": "https://dev.to/taeseong_park",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "taeseong-park",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:34Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@taeseongpark"
+        }
+      ],
+      "summary": "🤗 Open to networking 🎬 Joined AWS Community since 2017 🙋🏻 Ex AWS Community Builder 🎤 Organizer of frontend(https://github.com/public-frontend-group/meetup), gametech(https://github.com/awskrug/gametech-group), gudi(area of Seoul - https://github.com/awskrug/gudi-group) meetup in South Korea 🕹️ Current Unity 2D Developer 🤖 Building Apps with AI tools 📱 Ex React & React-Native Developer (also Node.js, serverless framework, Amplify framework) 🧑🏻‍💻 Trying to build whatever I want",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:34Z",
+  "seedUrl": "https://builder.aws.com/community/@taeseongpark"
+}

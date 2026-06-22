@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "mzzavaa",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-57966c8b4b90.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+        "url": "https://avatars.builderprofile.aws.dev/2zez0oeNyZLDSUocOeFWPtFdO8K.webp",
+        "verified": true
+      },
+      "displayName": "Linda Mohamed",
+      "featuredContent": [],
+      "headline": "AI & Cloud Consultant",
+      "id": "person_linda_mohamed",
+      "lastHarvestedAt": "2026-06-21T18:18:02Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "type": "blog",
+          "url": "https://www.lindamohamed.com/blog",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mzzavaa",
+          "verified": true
+        },
+        {
+          "handle": "mzzavaa",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "type": "github",
+          "url": "https://github.com/mzzavaa",
+          "verified": false
+        },
+        {
+          "handle": "linda-mohamed",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/linda-mohamed",
+          "verified": false
+        },
+        {
+          "handle": "@mrs_lee_g",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@mrs_lee_g",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AT",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "linda-mohamed",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:02Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mzzavaa"
+        }
+      ],
+      "summary": "I am a Public Speaker, AWS Hero and Consultant focusing on emerging technologies, product innovation and automation. I also run the mixed and Women’s AWS User Groups in Vienna.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:02Z",
+  "seedUrl": "https://builder.aws.com/community/@mzzavaa"
+}

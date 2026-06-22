@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "mistwire",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7160db659837.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mistwire",
+        "url": "https://avatars.builderprofile.aws.dev/2bJyPEjQFVYLWC4IxXS3FTYuFUq.webp",
+        "verified": true
+      },
+      "displayName": "Chris Williams",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_chris_williams",
+      "lastHarvestedAt": "2026-06-21T18:17:58Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mistwire",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mistwire",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@mistwire",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mistwire",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "chris-williams",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:58Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mistwire"
+        }
+      ],
+      "summary": "AWS Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:58Z",
+  "seedUrl": "https://builder.aws.com/community/@mistwire"
+}

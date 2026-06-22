@@ -1,0 +1,82 @@
+{
+  "builderApi": {
+    "alias": "sinsky",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-86528806ee63.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@sinsky",
+        "url": "https://avatars.builderprofile.aws.dev/36e8QTd7eF0BAxpzTQFa0ohizYI.webp",
+        "verified": true
+      },
+      "displayName": "JaeHyeon Shin",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_jaehyeon_shin",
+      "lastHarvestedAt": "2026-06-21T18:18:29Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sinsky",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sinsky",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@sinsky",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sinsky",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "jaehyeon-shin",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:29Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sinsky"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:29Z",
+  "seedUrl": "https://builder.aws.com/community/@sinsky"
+}

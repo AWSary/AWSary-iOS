@@ -1,0 +1,83 @@
+{
+  "builderApi": {
+    "alias": "lyndonleggate",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-354664370e6d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@lyndonleggate",
+        "url": "https://avatars.builderprofile.aws.dev/2tqXQ9cXpqSYbBpppKX4hFIaQG8.webp",
+        "verified": true
+      },
+      "displayName": "Lyndon Leggate",
+      "featuredContent": [],
+      "headline": "CTO @ Drive Inc",
+      "id": "person_lyndon_leggate",
+      "lastHarvestedAt": "2026-06-21T18:17:51Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@lyndonleggate",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@lyndonleggate",
+          "verified": true
+        },
+        {
+          "handle": "lyndonleggate",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@lyndonleggate",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/lyndonleggate/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IE",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@lyndonleggate",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "lyndon-leggate",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:51Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@lyndonleggate"
+        }
+      ],
+      "summary": "AWS AI Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:51Z",
+  "seedUrl": "https://builder.aws.com/community/@lyndonleggate"
+}

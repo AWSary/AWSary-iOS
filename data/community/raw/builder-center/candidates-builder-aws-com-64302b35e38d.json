@@ -1,0 +1,98 @@
+{
+  "builderApi": {
+    "alias": "brianleroux",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3867982dca48.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+        "url": "https://avatars.builderprofile.aws.dev/2zutA3NzzefvvMsk6aPnhssZYa1.webp",
+        "verified": true
+      },
+      "displayName": "Brian LeRoux",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_brian_leroux",
+      "lastHarvestedAt": "2026-06-21T18:17:01Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+          "type": "blog",
+          "url": "https://webdev.rip",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@brianleroux",
+          "verified": true
+        },
+        {
+          "handle": "brianleroux",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+          "type": "github",
+          "url": "https://github.com/brianleroux",
+          "verified": false
+        },
+        {
+          "handle": "brianleroux",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/brianleroux/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CA",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "brian-leroux",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:01Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@brianleroux"
+        }
+      ],
+      "summary": "Maintaining https://arc.codes since '16. Still the fastest and most stable way to build serverlessly !",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:01Z",
+  "seedUrl": "https://builder.aws.com/community/@brianleroux"
+}

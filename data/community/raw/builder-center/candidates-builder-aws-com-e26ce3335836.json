@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "sridevijms",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-bab5692d1441.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@sridevijms",
+        "url": "https://avatars.builderprofile.aws.dev/2peNdQGnlD90JlFWE4RFHmLEPew.webp",
+        "verified": true
+      },
+      "displayName": "Sridevi",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sridevi",
+      "lastHarvestedAt": "2026-06-21T18:18:31Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sridevijms",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sridevijms",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@sridevijms",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@sridevijms",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sridevijms",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sridevi",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:31Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sridevijms"
+        }
+      ],
+      "summary": "Experienced and Certified Cloud Professional with a more than 2 decades of demonstrated history of working in the IT industry building new solutions and solving Technical challenges for multiple global clients.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:31Z",
+  "seedUrl": "https://builder.aws.com/community/@sridevijms"
+}

@@ -1,0 +1,121 @@
+{
+  "builderApi": {
+    "alias": "ctodd",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-43f501601a88.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ctodd",
+        "url": "https://avatars.builderprofile.aws.dev/2zeem7XoSsy0ap4a1Fyyc1obEkn.webp",
+        "verified": true
+      },
+      "displayName": "Chris Miller",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_chris_miller",
+      "lastHarvestedAt": "2026-06-21T18:17:08Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "blog",
+          "url": "https://chrismiller.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ctodd",
+          "verified": true
+        },
+        {
+          "handle": "CloudBrigade",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "github",
+          "url": "https://github.com/ctodd, https://github.com/CloudBrigade",
+          "verified": false
+        },
+        {
+          "handle": "chris-t-miller",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/chris-t-miller/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "website",
+          "url": "https://dev.to/ctodd",
+          "verified": false
+        },
+        {
+          "handle": "@Building-Stuff-CTM",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@Building-Stuff-CTM",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "chris-miller",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:08Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ctodd"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:08Z",
+  "seedUrl": "https://builder.aws.com/community/@ctodd"
+}

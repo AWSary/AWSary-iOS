@@ -1,0 +1,73 @@
+{
+  "builderApi": {
+    "alias": "cloudfather",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e220fa247084.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+        "url": "https://avatars.builderprofile.aws.dev/2xn20LKAAFnP7AQYWIBgYPzya5C.webp",
+        "verified": true
+      },
+      "displayName": "Drew Firment",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_drew_firment",
+      "lastHarvestedAt": "2026-06-21T18:17:04Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@cloudfather",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@cloudfather",
+          "startYear": 2017,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "drew-firment",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:04Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@cloudfather"
+        }
+      ],
+      "summary": "Drew Firment is Chief Cloud Strategist at Pluralsight (acquired A Cloud Guru), where he accelerates customer outcomes through skills development. He is an AWS Hero for his dedication to building large-scale learning communities that drive business transformations, and his passion for teaching the world to cloud. Drew was previously Director of Cloud Engineering at Capital One. He led enterprise cloud operations within their Cloud Center of Excellence focusing on migrating the early adopters of Amazon Web Services (AWS). He founded Capital One's cloud engineering college that drove a large-scale talent transformation, and earned a patent for measuring cloud adoption and maturity.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:04Z",
+  "seedUrl": "https://builder.aws.com/community/@cloudfather"
+}

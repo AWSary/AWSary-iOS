@@ -1,0 +1,80 @@
+{
+  "builderApi": {
+    "alias": "cperciva",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-42e8d74f5158.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@cperciva",
+        "url": "https://avatars.builderprofile.aws.dev/2xmnTfsGwrZFo5KnmF0ASww9OAv.webp",
+        "verified": true
+      },
+      "displayName": "Colin Percival",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_colin_percival",
+      "lastHarvestedAt": "2026-06-21T18:17:07Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@cperciva",
+          "type": "blog",
+          "url": "http://www.daemonology.net/blog/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@cperciva",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@cperciva",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@cperciva",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "colin-percival",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:17:07Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@cperciva"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:07Z",
+  "seedUrl": "https://builder.aws.com/community/@cperciva"
+}

@@ -1,0 +1,107 @@
+{
+  "builderApi": {
+    "alias": "vlaaaaaaad",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-3d92821a0cd5.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+        "url": "https://avatars.builderprofile.aws.dev/2tpY13mtbdTSchAQ7yPzXt06FZH.webp",
+        "verified": true
+      },
+      "displayName": "Vlad Ionescu (he/him)",
+      "featuredContent": [],
+      "headline": "Sugarbaby Tech Consultant",
+      "id": "person_vlad_ionescu_he_him",
+      "lastHarvestedAt": "2026-06-21T18:18:46Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "type": "blog",
+          "url": "https://www.vladionescu.me",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@vlaaaaaaad",
+          "verified": true
+        },
+        {
+          "handle": "Vlaaaaaaad",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "type": "github",
+          "url": "https://github.com/Vlaaaaaaad",
+          "verified": false
+        },
+        {
+          "handle": "vlaaaaaaad",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/vlaaaaaaad",
+          "verified": false
+        },
+        {
+          "handle": "iamvlaaaaaaad",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "type": "x",
+          "url": "https://x.com/iamvlaaaaaaad",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "RO",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "vlad-ionescu-he-him",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:46Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+        }
+      ],
+      "summary": "Vlad Ionescu (he/him) jokingly describes himself as a “Professional mistake avoider”, which he argues is a better way of saying “Independent Consultant”. His work is devoted to getting companies to high-performing levels. Vlad swings wildly on the engineer/manager pendulum, and he is always full of energy. As an Individual Contributor, he focuses on architecting resilient applications and on growing engineers. As a Manager, he focuses on empowering people to do their best work and on building sustainable companies. In parallel to his tech career, Vlad is a foodie and very much into cocktails, whiskey, and wine — finding him at a tasting or food pairing event is a sure bet. He cherishes mental health and is an avid proponent of any effort in the area.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:46Z",
+  "seedUrl": "https://builder.aws.com/community/@vlaaaaaaad"
+}

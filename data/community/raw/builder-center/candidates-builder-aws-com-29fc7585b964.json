@@ -1,0 +1,108 @@
+{
+  "builderApi": {
+    "alias": "raphaelmanke",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-49770d37a179.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+        "url": "https://avatars.builderprofile.aws.dev/2wCyd1hlKn8IGBfSyWSE2CpD6v9.webp",
+        "verified": true
+      },
+      "displayName": "Raphael Manke",
+      "featuredContent": [],
+      "headline": "AWS Hero | Senior Product Engineer @ Dash0",
+      "id": "person_raphael_manke",
+      "lastHarvestedAt": "2026-06-21T18:18:12Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@raphaelmanke",
+          "verified": true
+        },
+        {
+          "handle": "RaphaelManke",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "type": "github",
+          "url": "https://github.com/RaphaelManke",
+          "verified": false
+        },
+        {
+          "handle": "raphael-manke",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/raphael-manke/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "Baden-Wuerttemberg"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "raphael-manke",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:12Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@raphaelmanke"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:12Z",
+  "seedUrl": "https://builder.aws.com/community/@raphaelmanke"
+}

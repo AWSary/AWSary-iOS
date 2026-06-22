@@ -1,0 +1,116 @@
+{
+  "builderApi": {
+    "alias": "cremich",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-0059ff85eb02.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@cremich",
+        "url": "https://avatars.builderprofile.aws.dev/3331kM2I9mYtPrWGr0gUuJTynEs.webp",
+        "verified": true
+      },
+      "displayName": "Christian Bonzelet",
+      "featuredContent": [],
+      "headline": "AWS DevTools Hero working as a Solutions Architect for Bundesliga. Founder of promptz.dev",
+      "id": "person_christian_bonzelet",
+      "lastHarvestedAt": "2026-06-21T18:17:07Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "type": "blog",
+          "url": "https://cremich.cloud",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@cremich",
+          "verified": true
+        },
+        {
+          "handle": "cremich",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "type": "github",
+          "url": "https://github.com/cremich",
+          "verified": false
+        },
+        {
+          "handle": "christian-bonzelet",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/christian-bonzelet",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "type": "website",
+          "url": "https://promptz.dev",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "North Rhine-Westphalia"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@cremich",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "christian-bonzelet",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:07Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@cremich"
+        }
+      ],
+      "summary": "👋 Hi my name is Christian. I am an AWS DevTools Hero working as a Solution Architect at DFL Digital Sports GmbH. Based in Cologne (Germany) with my beloved wife and two kids. I am interested in all things around ☁️ (cloud), 👨‍💻 (tech) and 🧠 (AI/ML).",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:07Z",
+  "seedUrl": "https://builder.aws.com/community/@cremich"
+}

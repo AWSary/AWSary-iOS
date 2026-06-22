@@ -1,0 +1,107 @@
+{
+  "builderApi": {
+    "alias": "gusnalwan",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-92d52d4e0e4b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+        "url": "https://avatars.builderprofile.aws.dev/2xwixOnfyAINWryCQK74WIYaEcI.webp",
+        "verified": true
+      },
+      "displayName": "Agustinus Nalwan",
+      "featuredContent": [],
+      "headline": "AWS ML Hero",
+      "id": "person_agustinus_nalwan",
+      "lastHarvestedAt": "2026-06-21T18:17:29Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "type": "blog",
+          "url": "https://medium.com/@agustinus-nalwan",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@gusnalwan",
+          "verified": true
+        },
+        {
+          "handle": "msubzero2000",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "type": "github",
+          "url": "https://github.com/msubzero2000",
+          "verified": false
+        },
+        {
+          "handle": "agustinus-nalwan",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/agustinus-nalwan/",
+          "verified": false
+        },
+        {
+          "handle": "@agustinusnalwan2200",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@agustinusnalwan2200",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "AU",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "agustinus-nalwan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:29Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@gusnalwan"
+        }
+      ],
+      "summary": "Living to innovate to make people’s lives easier and with over 30 years of experience in software development, Gus has worked in various industries from 3D/Animation, Games Development, Desktop Software, Native Apps, Computer Vision, AI, and Generative AI",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:29Z",
+  "seedUrl": "https://builder.aws.com/community/@gusnalwan"
+}

@@ -1,0 +1,139 @@
+{
+  "builderApi": {
+    "alias": "gerardokaztro",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-cf58189f6348.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+        "url": "https://avatars.builderprofile.aws.dev/3AUftb5EfAV7FxvC3B3NYN6ZKHV.webp",
+        "verified": true
+      },
+      "displayName": "Gerardo Castro Arica",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_gerardo_castro_arica",
+      "lastHarvestedAt": "2026-06-21T18:17:26Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "blog",
+          "url": "https://linktr.ee/gerardokaztro",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@gerardokaztro",
+          "verified": true
+        },
+        {
+          "handle": "gerardokaztro",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "github",
+          "url": "https://github.com/gerardokaztro",
+          "verified": false
+        },
+        {
+          "handle": "gerardokaztro",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/gerardokaztro/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "website",
+          "url": "https://dev.to/gerardokaztro",
+          "verified": false
+        },
+        {
+          "handle": "gerardokaztro",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "x",
+          "url": "https://x.com/gerardokaztro",
+          "verified": false
+        },
+        {
+          "handle": "@gerardokaztro",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@gerardokaztro",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Security Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "gerardo-castro-arica",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:26Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+        }
+      ],
+      "summary": "AWS Security Hero | Cloud Security Engineer | Founder & Lead Organizer of AWS Security Users Group LatAm I specialize in cloud security for AWS multi-account environments, with a focus on automating security visibility across AWS Organizations. My work sits at the intersection of hands-on engineering and practical security — building real tools that solve real problems in production environments across LATAM. I believe the best way to learn cloud security is by building, not memorizing. Every post I write comes from something I actually built, broke, or discovered in the field. Currently building iam-audit — an open source Python tool that audits IAM users, Access Keys, and root accounts across AWS Organizations, with an interactive HTML dashboard and Docker support. Available at github.com/gerardokaztro/iam-audit As Founder and Lead Organizer of the AWS Security Users Group LatAm, I work to grow the cloud security community across the region — connecting engineers, sharing knowledge, and raising the security baseline one organization at a time. Writing about all of this at Road to CloudSec LATAM → roadtocloudsec.hashnode.dev",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:26Z",
+  "seedUrl": "https://builder.aws.com/community/@gerardokaztro"
+}

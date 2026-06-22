@@ -1,0 +1,81 @@
+{
+  "builderApi": {
+    "alias": "dzenana",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-85a39058a21b.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dzenana",
+        "url": "https://avatars.builderprofile.aws.dev/2omxjLHYWkazJUdfCckDV3G4Mqt.webp",
+        "verified": true
+      },
+      "displayName": "Dzenana Dzevlan",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dzenana_dzevlan",
+      "lastHarvestedAt": "2026-06-21T18:17:18Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dzenana",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dzenana",
+          "verified": true
+        },
+        {
+          "handle": "dzenanadzevlan",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@dzenana",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/dzenanadzevlan/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dzenana",
+          "startYear": 2024,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dzenana-dzevlan",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:18Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dzenana"
+        }
+      ],
+      "summary": "AWS Community Hero",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:18Z",
+  "seedUrl": "https://builder.aws.com/community/@dzenana"
+}

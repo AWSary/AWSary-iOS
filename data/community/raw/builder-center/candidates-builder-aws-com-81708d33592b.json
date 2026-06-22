@@ -1,0 +1,123 @@
+{
+  "builderApi": {
+    "alias": "dheerajchoudhary",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-38f6c371ccbc.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+        "url": "https://avatars.builderprofile.aws.dev/2u6gCpSRqd6yuLgAdePo3j4oYla.webp",
+        "verified": true
+      },
+      "displayName": "Dheeraj Choudhary",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_dheeraj_choudhary",
+      "lastHarvestedAt": "2026-06-21T18:17:15Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "blog",
+          "url": "https://www.dheeraj3choudhary.com/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@dheerajchoudhary",
+          "verified": true
+        },
+        {
+          "handle": "dheeraj3choudhary",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "github",
+          "url": "https://github.com/dheeraj3choudhary",
+          "verified": false
+        },
+        {
+          "handle": "dheeraj-choudhary",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/dheeraj-choudhary",
+          "verified": false
+        },
+        {
+          "handle": "DheerajC30",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "x",
+          "url": "https://x.com/DheerajC30",
+          "verified": false
+        },
+        {
+          "handle": "@dheeraj-choudhary",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@dheeraj-choudhary",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "dheeraj-choudhary",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:15Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@dheerajchoudhary"
+        }
+      ],
+      "summary": "Senior Cloud, DevOps & AI Engineer with over 10+ years of experience in DevOps / Build and Release Engineering, Software configuration management in automating, build, deploy and release, cloud providers.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:15Z",
+  "seedUrl": "https://builder.aws.com/community/@dheerajchoudhary"
+}

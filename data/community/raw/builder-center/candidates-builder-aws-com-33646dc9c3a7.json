@@ -1,0 +1,100 @@
+{
+  "builderApi": {
+    "alias": "stav",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-6e4ac47f57a9.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@stav",
+        "url": "https://avatars.builderprofile.aws.dev/2jN4WQNsqsIvtOSRpEQyxQBbRHn.webp",
+        "verified": true
+      },
+      "displayName": "Stav Ochakovski",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_stav_ochakovski",
+      "lastHarvestedAt": "2026-06-21T18:18:33Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@stav",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@stav",
+          "verified": true
+        },
+        {
+          "handle": "stav-ochakovski",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@stav",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/stav-ochakovski/",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Containers",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Community Builder",
+          "sourceUrl": "https://builder.aws.com/community/@stav",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@stav",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@stav",
+          "startYear": 2025,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "stav-ochakovski",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:33Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@stav"
+        }
+      ],
+      "summary": "I'm Stav, a DevOps Engineer at Beacon where I manage highly scalable, multicloud environments with a focus on Kubernetes, CI/CD, and making sure logs actually tell you something useful. I'm also an AWS Containers Hero, with a strong interest in cloud-native identity and infrastructure security. I come from a background in DevOps engineering and instruction, and I try to bring that mix of hands-on experience and clear communication into everything I do. Outside of work, I'm a pastry-chef school graduate and a licensed skipper. Sessionnize profile: https://sessionize.com/stav-ochakovski/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:33Z",
+  "seedUrl": "https://builder.aws.com/community/@stav"
+}

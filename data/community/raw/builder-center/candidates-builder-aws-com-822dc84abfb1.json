@@ -1,0 +1,121 @@
+{
+  "builderApi": {
+    "alias": "lizrice",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-7fa24bf307d8.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@lizrice",
+        "url": "https://avatars.builderprofile.aws.dev/30HXEO06Wu2thcNxD8XR9kFKlrC.webp",
+        "verified": true
+      },
+      "displayName": "Liz Rice",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_liz_rice",
+      "lastHarvestedAt": "2026-06-21T18:17:49Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "blog",
+          "url": "https://www.lizrice.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@lizrice",
+          "verified": true
+        },
+        {
+          "handle": "lizrice",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "github",
+          "url": "https://github.com/lizrice",
+          "verified": false
+        },
+        {
+          "handle": "lizrice",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/lizrice",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "website",
+          "url": "https://dev.to/lizrice",
+          "verified": false
+        },
+        {
+          "handle": "lizrice.com",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "x",
+          "url": "https://bsky.app/profile/lizrice.com",
+          "verified": false
+        },
+        {
+          "handle": "@ebpfcilium",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "type": "youtube",
+          "url": "https://youtube.com/@ebpfcilium",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Container Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "liz-rice",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:49Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@lizrice"
+        }
+      ],
+      "summary": "Liz Rice is Chief Open Source Officer at eBPF specialists Isovalent, creators of the Cilium project, and now part of Cisco. She is an award-winning speaker, and the author of O'Reilly books on \"Container Security\" and \"Learning eBPF\". She has held many roles with the Cloud Native Computing Foundation, including as a governing board member, chair of the Technical Oversight Committee, and Co-Chair of KubeCon + CloudNativeCon. She was also previously on the board of OpenUK. She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not writing code, or talking about it, Liz loves riding bikes in places with better weather than her native London, and making music under the pseudonym Insider Nine.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:49Z",
+  "seedUrl": "https://builder.aws.com/community/@lizrice"
+}

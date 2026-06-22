@@ -1,0 +1,91 @@
+{
+  "builderApi": {
+    "alias": "briantarbox",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-b7ee9e936c0d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@briantarbox",
+        "url": "https://avatars.builderprofile.aws.dev/2eopyBOylwdEj1NX5sEYqNuGhNr.webp",
+        "verified": true
+      },
+      "displayName": "Brian Tarbox",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_brian_tarbox",
+      "lastHarvestedAt": "2026-06-21T18:17:02Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@briantarbox",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@briantarbox",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@briantarbox",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@briantarbox",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Ai Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@briantarbox",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "brian-tarbox",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:02Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@briantarbox"
+        }
+      ],
+      "summary": "AWS Hero, AWS Ambassador, Alexa Champion, bAWSton User Group leader, 10 US patents.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:02Z",
+  "seedUrl": "https://builder.aws.com/community/@briantarbox"
+}

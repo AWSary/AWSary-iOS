@@ -1,0 +1,115 @@
+{
+  "builderApi": {
+    "alias": "ranisenberg",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-da4376f3befd.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+        "url": "https://avatars.builderprofile.aws.dev/3ClYlBjTsqJ5wn1duKbyjPUsMmX.webp",
+        "verified": true
+      },
+      "displayName": "Ran Isenberg",
+      "featuredContent": [],
+      "headline": "Platform engineering, Serverless & Agentic AI | https://www.RanTheBuilder.cloud",
+      "id": "person_ran_isenberg",
+      "lastHarvestedAt": "2026-06-21T18:18:11Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "blog",
+          "url": "https://www.ranthebuilder.cloud/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@ranisenberg",
+          "verified": true
+        },
+        {
+          "handle": "ran-isenberg",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "github",
+          "url": "https://github.com/ran-isenberg",
+          "verified": false
+        },
+        {
+          "handle": "ranbuilder",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/ranbuilder/",
+          "verified": false
+        },
+        {
+          "handle": "RanBuilder",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "x",
+          "url": "https://x.com/RanBuilder",
+          "verified": false
+        },
+        {
+          "handle": "@ranthebuilder",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "type": "youtube",
+          "url": "https://www.youtube.com/@ranthebuilder",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "IL",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "ran-isenberg",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:18:11Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@ranisenberg"
+        }
+      ],
+      "summary": "Ran Isenberg is an AWS Serverless Hero, a Senior Principal Software Architect at Palo Alto Network, and a consultant specializing in AI adoption, Platform Engineering and Serverless. With 15+ years of experience in software development and security, Ran has spent the last 6+ years designing and building customer-facing SaaS Serverless services, ensuring the highest production readiness and security standards. Ran maintains a website - RanTheBuilder.cloud where he shares his knowledge and speaking sessions. Ran contributed several utilities to the Powertools for AWS Lambda open-source project and maintains numerous serverless relate open-source projects on his GitHub account. One of these projects is the AWS Lambda cookbook – a serverless service template that gets you started in the serverless world with all the best practices in seconds. Another project is the aws-lambda-env-modeler, a Python library designed to simplify the process of managing and validating environment variables in your AWS Lambda functions. On a personal note, Ran is a proud father of two boys, an amateur barista, and plays the electric guitar. Sessionnize profile: https://sessionize.com/ran-isenberg/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:11Z",
+  "seedUrl": "https://builder.aws.com/community/@ranisenberg"
+}

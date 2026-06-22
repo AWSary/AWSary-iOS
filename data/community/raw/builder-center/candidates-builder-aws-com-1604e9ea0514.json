@@ -1,0 +1,155 @@
+{
+  "builderApi": {
+    "alias": "lockhead",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-a38e50972aca.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@lockhead",
+        "url": "https://avatars.builderprofile.aws.dev/36KBlzxUDq2hYEnJ9XOXyZ95ksu.webp",
+        "verified": true
+      },
+      "displayName": "Johannes Koch [AWS Hero]",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_johannes_koch_aws_hero",
+      "lastHarvestedAt": "2026-06-21T18:17:50Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "blog",
+          "url": "https://www.lockhead.info",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@lockhead",
+          "verified": true
+        },
+        {
+          "handle": "Lock128",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "github",
+          "url": "https://github.com/Lock128",
+          "verified": false
+        },
+        {
+          "handle": "lockhead",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/lockhead",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "website",
+          "url": "https://bsky.app/profile/lockhead.dev",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "website",
+          "url": "https://cards.nexus-share.com/2364b802-20b1-7023-ab0a-46785deeddf5",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "website",
+          "url": "https://dev.to/lockhead",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Repost",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "website",
+          "url": "https://repost.aws/community/users/USoUX2KcRaSKGoQgtE5ZQBUw",
+          "verified": false
+        },
+        {
+          "handle": "lockhead",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "x",
+          "url": "https://twitter.com/lockhead",
+          "verified": false
+        },
+        {
+          "handle": "@cicdonaws",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "type": "youtube",
+          "url": "https://youtube.com/@cicdonaws",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "DE",
+        "region": "Hesse"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Devtools Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "johannes-koch-aws-hero",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:50Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@lockhead"
+        }
+      ],
+      "summary": "Johannes is a Principal Architect at FICO where he contributes to the FICO®️ Platform. He is a builder at heart and loves to solve problems in different flavors. He believes in full CI/CD automation and everything required to run the solution being written in code. Johannes was in the AWS Community Builders program from 2022 to 2023, he founded the AWS User Group Bergstrasse, helped to start the AWS Community DACH Förderverein, and is part of the team that organizes the AWS Community Day in the DACH region. He also writes about his experiences on his personal blog, and recently started a YouTube channel: @cicdonaws to share experiences and best practices related to Continuous Integration and Continuous Deployment (CI/CD). His mission: empower developers to start their new projects with a true CI/CD pipeline, which allows a quick value generation through automation. He enjoys sharing knowledge as a public speaker, but also helping and mentoring engineers who are starting their cloud journey. He believes in true collaboration within the AWS community to make the individuals successful. Johannes is a proud husband and father. He likes hiking, playing handball, and being outside. If you would like to engage with Johannes, feel free to reach out either in person at conferences like re:Invent, the AWS Community Day DACH, or online through social platforms or E-Mail.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:50Z",
+  "seedUrl": "https://builder.aws.com/community/@lockhead"
+}

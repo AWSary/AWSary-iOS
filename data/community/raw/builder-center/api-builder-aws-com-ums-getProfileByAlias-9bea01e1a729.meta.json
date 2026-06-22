@@ -1,0 +1,8 @@
+{
+  "contentType": "application/json",
+  "method": "POST",
+  "requestedUrl": "https://api.builder.aws.com/ums/getProfileByAlias",
+  "retrievedAt": "2026-06-21T18:17:25Z",
+  "sha256": "c99318385e1c0d66dea7b1ddcdb4d1006e832ff7d427f2db881c249d41d990d7",
+  "url": "https://api.builder.aws.com/ums/getProfileByAlias"
+}

@@ -1,0 +1,106 @@
+{
+  "builderApi": {
+    "alias": "bien",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-c61bf34c304e.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@bien",
+        "url": "https://avatars.builderprofile.aws.dev/2ubjP9EODRtHHGab418HWwkBoj9.webp",
+        "verified": true
+      },
+      "displayName": "Kyuhyun Byun",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_kyuhyun_byun",
+      "lastHarvestedAt": "2026-06-21T18:16:59Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@bien",
+          "verified": true
+        },
+        {
+          "handle": "novemberde",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "type": "github",
+          "url": "https://github.com/novemberde",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "type": "github",
+          "url": "https://novemberde.github.io/",
+          "verified": false
+        },
+        {
+          "handle": "novemberde",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/novemberde/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "type": "website",
+          "url": "https://dev.to/novemberde",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "KR",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Serverless Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@bien",
+          "startYear": 2020,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "kyuhyun-byun",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:16:59Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@bien"
+        }
+      ],
+      "summary": "From scaling chat platforms that connect 50+ million users to building ML pipelines that power intelligent systems—I specialize in creating infrastructure that grows with business needs at massive scale. As ML Data Platform Engineer, I'm currently architecting vector inference systems using Vertex AI and Google Dataflow, while continuously optimizing for performance and cost (recent wins: 80% Redis cost reduction, 20%+ server improvements). My journey as Lead of Chatting for a platform serving 50+ million users taught me that great engineering isn't just about code—it's about understanding user needs, collaborating across teams, and building systems that can evolve under extreme load. Whether migrating legacy platforms to Go microservices or implementing compliance frameworks, I focus on solutions that deliver lasting value at scale. Technical toolkit: ML/AI platforms • Distributed systems • Real-time analytics • Cloud architecture • Organization leadership",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:59Z",
+  "seedUrl": "https://builder.aws.com/community/@bien"
+}

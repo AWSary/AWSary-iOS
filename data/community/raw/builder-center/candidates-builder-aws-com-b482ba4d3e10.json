@@ -1,0 +1,140 @@
+{
+  "builderApi": {
+    "alias": "bryanchasko",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-fa5e2034597a.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+        "url": "https://avatars.builderprofile.aws.dev/2pBt75Hl5Kze3KoYvJXCh8fDel1.webp",
+        "verified": true
+      },
+      "displayName": "Bryan Chasko",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_bryan_chasko",
+      "lastHarvestedAt": "2026-06-21T18:17:02Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "blog",
+          "url": "https://bryanchasko.com",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@bryanchasko",
+          "verified": true
+        },
+        {
+          "handle": "bryanchasko",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "github",
+          "url": "https://github.com/bryanchasko",
+          "verified": false
+        },
+        {
+          "handle": "bryanchasko",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "linkedin",
+          "url": "https://linkedin.com/in/bryanchasko",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Personal",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "website",
+          "url": "https://clouddelnorte.org",
+          "verified": false
+        },
+        {
+          "handle": "bryanchasko",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "x",
+          "url": "https://x.com/bryanchasko",
+          "verified": false
+        },
+        {
+          "handle": "bryanChasko",
+          "label": "Youtube",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "type": "youtube",
+          "url": "https://twitch.tv/bryanChasko",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "US",
+        "region": "NM"
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "New Voices",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko",
+          "startYear": 2018,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "bryan-chasko",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:02Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@bryanchasko"
+        }
+      ],
+      "summary": "An inventor committed to modernization utilizing AWS cloud since 2008, Bryan has deployed over 100 AWS services into production, applying expertise in business systems integration, machine learning, industrial IoT, spatial computing, and serverless architectures. By leveraging advanced monitoring and visualization, he reduces costs, fosters growth, and drives improvements across defense, education, retail, agriculture, and space, all under well-architected practices. He has revitalized complex infrastructures; advanced patient care with edge devices, game technology, and augmented reality; and built rugged data pipelines for climate modeling on private satellite networks. Partnerships with Fortune companies, US National Laboratories, healthcare organizations, and universities have hallmarked his collaborative career. Through ambient assistants and AI-driven tools, Bryan furthers accessibility and design for chronic illness and disabilities. He has delivered 1000s of presentations on cloud computing, 3D design, and self-taught learning, and shares locally through AWS User Group Cloud Del Norte (El Paso, TX) & Blender UG NE3D (Boston, MA). Enthusiastic about GenAI, robotics, digital twins, and satellites, Bryan provides compliant solutions for NGOs, startups, enterprises, and underserved markets while navigating regulatory and security needs. His work has been featured in media interviews, product spotlights, AWS Summits, Community Days, re:Invent, and CES.",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:02Z",
+  "seedUrl": "https://builder.aws.com/community/@bryanchasko"
+}

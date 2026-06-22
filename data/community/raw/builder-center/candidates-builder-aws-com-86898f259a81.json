@@ -1,0 +1,115 @@
+{
+  "builderApi": {
+    "alias": "mattlewis",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-1b204c6ab39d.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+        "url": "https://avatars.builderprofile.aws.dev/35ylv8w4H2QMnx5LnWGgHdfcKcY.webp",
+        "verified": true
+      },
+      "displayName": "Matt Lewis",
+      "featuredContent": [],
+      "headline": "AWS Chief Architect @ IBM | AWS Data Hero | AWS Ambassador",
+      "id": "person_matt_lewis",
+      "lastHarvestedAt": "2026-06-21T18:17:54Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@mattlewis",
+          "verified": true
+        },
+        {
+          "handle": "mlewis7127",
+          "label": "Github",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "type": "github",
+          "url": "https://github.com/mlewis7127",
+          "verified": false
+        },
+        {
+          "handle": "mattelewis",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/mattelewis/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "type": "website",
+          "url": "https://dev.to/mlewis7127",
+          "verified": false
+        },
+        {
+          "handle": "m_lewis",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "type": "x",
+          "url": "https://x.com/m_lewis",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Data Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis",
+          "startYear": 2019,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "matt-lewis",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "headline",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:54Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@mattlewis"
+        }
+      ],
+      "summary": "Matt is both an AWS Data Hero and AWS Ambassador, after having worked with AWS in production since 2016. Matt founded and runs the AWS South Wales User Group and is part of the ServerlessDays Cardiff organising team. With a background as a software engineer, he regularly builds out working prototypes of innovative AWS solutions. He has spent significant time growing cloud skills across teams and establishing cloud operating models including Centre of Excellence and FinOps. He is a regular speaker at events including AWS re:Invent and Summits. Most recently this has included talks on agentic AI and how this is impacting on developer experience and application modernisation",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:54Z",
+  "seedUrl": "https://builder.aws.com/community/@mattlewis"
+}

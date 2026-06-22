@@ -1,0 +1,104 @@
+{
+  "builderApi": {
+    "alias": "sabihaali",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-394cb1f08475.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": null,
+        "url": null,
+        "verified": false
+      },
+      "displayName": "Sabiha",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_sabiha",
+      "lastHarvestedAt": "2026-06-21T18:18:18Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "Blog",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "type": "blog",
+          "url": "https://medium.com/@sabihaali1",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@sabihaali",
+          "verified": true
+        },
+        {
+          "handle": "sabiha-ashik",
+          "label": "Linkedin",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/sabiha-ashik/",
+          "verified": false
+        },
+        {
+          "handle": null,
+          "label": "Devto",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "type": "website",
+          "url": "https://dev.to/sabiha_ali",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali",
+          "startYear": 2023,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "sabiha",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:18:18Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@sabihaali"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:18:18Z",
+  "seedUrl": "https://builder.aws.com/community/@sabihaali"
+}

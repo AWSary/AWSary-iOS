@@ -1,0 +1,90 @@
+{
+  "builderApi": {
+    "alias": "kinunori",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e8043730045c.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@kinunori",
+        "url": "https://avatars.builderprofile.aws.dev/2pfSZLaWQI3uCxgPMbs4BcOml8h.webp",
+        "verified": true
+      },
+      "displayName": "Masanori Yamaguchi",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_masanori_yamaguchi",
+      "lastHarvestedAt": "2026-06-21T18:17:45Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@kinunori",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@kinunori",
+          "verified": true
+        },
+        {
+          "handle": null,
+          "label": "Facebook",
+          "sourceUrl": "https://builder.aws.com/community/@kinunori",
+          "type": "website",
+          "url": "https://www.facebook.com/kinunori",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": null,
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS User Group Leader",
+          "sourceUrl": "https://builder.aws.com/community/@kinunori",
+          "startYear": 2026,
+          "verificationStatus": "aws_source_verified"
+        },
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@kinunori",
+          "startYear": 2021,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "masanori-yamaguchi",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:45Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@kinunori"
+        }
+      ],
+      "summary": "https://aws.amazon.com/jp/developer/community/heroes/masanori-yamaguchi/",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:45Z",
+  "seedUrl": "https://builder.aws.com/community/@kinunori"
+}

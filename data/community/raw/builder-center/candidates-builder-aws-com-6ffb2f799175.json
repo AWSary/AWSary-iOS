@@ -1,0 +1,74 @@
+{
+  "builderApi": {
+    "alias": "chaocai",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-e93ac266f6fb.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@chaocai",
+        "url": "https://avatars.builderprofile.aws.dev/2zlGOaii4PbpaF1pUV6jQa87xxE.webp",
+        "verified": true
+      },
+      "displayName": "chaocai",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_chaocai",
+      "lastHarvestedAt": "2026-06-21T18:17:03Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@chaocai",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@chaocai",
+          "verified": true
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": "CN",
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@chaocai",
+          "startYear": 2022,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "chaocai",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "location",
+            "programs",
+            "summary"
+          ],
+          "retrievedAt": "2026-06-21T18:17:03Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@chaocai"
+        }
+      ],
+      "summary": "20+ years of world-class experience in software development, including more than 10 years as a software architect. Currently the VP and Chief Architect at Mobvista Inc. My WeChat public account is: chao-and-software",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:17:03Z",
+  "seedUrl": "https://builder.aws.com/community/@chaocai"
+}

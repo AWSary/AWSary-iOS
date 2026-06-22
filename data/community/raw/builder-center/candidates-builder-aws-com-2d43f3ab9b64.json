@@ -1,0 +1,80 @@
+{
+  "builderApi": {
+    "alias": "beckyame",
+    "endpoint": "https://api.builder.aws.com/ums/getProfileByAlias",
+    "fromCache": false,
+    "personCount": 1,
+    "publicHeader": "builder-session-token",
+    "rawCachePath": "api-builder-aws-com-ums-getProfileByAlias-afe50c84dcf9.body"
+  },
+  "people": [
+    {
+      "avatar": {
+        "sourceType": "aws_builder_center",
+        "sourceUrl": "https://builder.aws.com/community/@beckyame",
+        "url": "https://avatars.builderprofile.aws.dev/2yGZxjX82FC4CaVtdfolfVnrAK4.webp",
+        "verified": true
+      },
+      "displayName": "Becky Zhang",
+      "featuredContent": [],
+      "headline": "",
+      "id": "person_becky_zhang",
+      "lastHarvestedAt": "2026-06-21T18:16:57Z",
+      "lastReviewedAt": null,
+      "links": [
+        {
+          "handle": null,
+          "label": "AWS Builder Center",
+          "sourceUrl": "https://builder.aws.com/community/@beckyame",
+          "type": "builder_center",
+          "url": "https://builder.aws.com/community/@beckyame",
+          "verified": true
+        },
+        {
+          "handle": "beckyame_0412",
+          "label": "Twitter",
+          "sourceUrl": "https://builder.aws.com/community/@beckyame",
+          "type": "x",
+          "url": "https://x.com/beckyame_0412?s=21&t=RGqQ8EH-IluYMjdLMHHVpw",
+          "verified": false
+        }
+      ],
+      "location": {
+        "city": null,
+        "country": null,
+        "region": null
+      },
+      "ownershipStatus": "unclaimed",
+      "profileStatus": "draft",
+      "programs": [
+        {
+          "category": "Community Hero",
+          "endYear": null,
+          "lastCheckedAt": "2026-06-21",
+          "name": "AWS Hero",
+          "sourceUrl": "https://builder.aws.com/community/@beckyame",
+          "startYear": 2017,
+          "verificationStatus": "aws_source_verified"
+        }
+      ],
+      "slug": "becky-zhang",
+      "sourceEvidence": [
+        {
+          "fields": [
+            "avatar",
+            "displayName",
+            "links",
+            "programs"
+          ],
+          "retrievedAt": "2026-06-21T18:16:57Z",
+          "sourceType": "aws_builder_center",
+          "sourceUrl": "https://builder.aws.com/community/@beckyame"
+        }
+      ],
+      "summary": "",
+      "topics": []
+    }
+  ],
+  "retrievedAt": "2026-06-21T18:16:57Z",
+  "seedUrl": "https://builder.aws.com/community/@beckyame"
+}
