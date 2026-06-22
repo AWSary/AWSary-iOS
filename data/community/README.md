@@ -11,6 +11,8 @@ The first supported source is public AWS Heroes data. The model is program-neutr
 - `schemas/people-index.schema.json`: contract for the compact client index.
 - `indexes/people.index.json`: generated list/search payload. Drafts are excluded by default.
 - `indexes/builder-center-heroes.index.json`: generated Builder Center alias index used for detail harvesting.
+- `indexes/builder-center-user-groups.index.json`: generated local directory of official AWS User Groups.
+- `indexes/meetup-user-groups.index.json`: optional public Meetup metadata keyed back to the AWS User Group IDs.
 - `indexes/topics.index.json` and `indexes/programs.index.json`: initial seed vocabularies for later normalization work.
 - `builder-center-seeds.txt`: tested public seed URLs.
 - `raw/builder-center/`: ignored local HTTP and candidate cache. Only `.gitkeep` is committed.
@@ -121,6 +123,44 @@ Use `--refresh` to bypass the local cache. Run `--help` for timeout, retry, dela
 As tested on 2026-06-21, the Heroes page builds its index from the public `camp` group endpoints and loads full records from `https://api.builder.aws.com/ums/getProfileByAlias`. The data access contract and static public session header are defined in the production JavaScript. The scripts use the same public calls with no browser cookies or private credentials.
 
 Hero vanity URLs use a display-name path rather than the Builder alias. For example, `/community/heroes/TiagoRodrigues` resolves through the Hero group entry whose API alias is `tigpt`; posting `TiagoRodrigues` to `getProfileByAlias` is invalid. This is why the index step must precede full-profile harvesting.
+
+## Build the AWS User Groups index
+
+The User Groups page uses a different delivery mechanism from Heroes. The complete public directory is shipped as static data in a hashed Builder Center JavaScript module; there is no User Groups collection in the public `camp` group API. Build a deterministic local index with:
+
+```sh
+.venv/bin/python scripts/community/build_builder_user_groups_index.py --refresh
+```
+
+The script starts from the official `https://builder.aws.com/community/user-groups` page, discovers its current entry bundle and hashed module assets, then extracts the records without executing production JavaScript. It validates IDs, country codes, HTTPS join links, required fields, and duplicates before writing the index. Raw HTML and JavaScript responses remain in the ignored cache directory for inspection.
+
+The generated index preserves the official group ID, name, location, country, country code, and valid HTTPS join URL. AWS placeholder link values such as `TBD` are normalized to `null`. The index also includes country counts for client-side filtering. Because Builder Center changes asset hashes on deployment, consumers should run the discovery pipeline instead of pinning a bundle URL.
+
+### Enrich Meetup-backed User Groups
+
+The official index currently contains Meetup links for most, but not all, groups. Enrich those records from their anonymous public HTML pages with:
+
+```sh
+.venv/bin/python scripts/community/harvest_meetup_user_groups.py --refresh
+```
+
+For a targeted or low-cost verification run, use `--group-id Space-UG_...` or `--limit 3` and write to a temporary output path. Responses are cached under the ignored `data/community/raw/meetup/` directory; the default one-second delay keeps a full refresh polite.
+
+The parser prefers public JSON-LD and uses the page's embedded `__NEXT_DATA__` state for richer group-level fields. It does not call Meetup's internal GraphQL or `/_next/data` endpoints. Stable fields include the Meetup ID and slug, description, image, founding date, public location, topics, social links, and Pro network affiliation. Member totals, ratings, and event totals are isolated in `activitySnapshot` because they change frequently.
+
+Member lists, organizer profiles, attendee details, sponsor details, and full event descriptions are deliberately excluded. Meetup's official authenticated API remains a possible later replacement if a suitable Meetup Pro API license and data scope are available.
+
+Stale or unavailable Meetup links do not abort a full refresh. They are reported during the run and written to the generated index's `failures` array with a short machine-readable reason. Use `--fail-on-error` in automation when any skipped group should produce a non-zero exit status.
+
+### Build the iOS User Groups bundle
+
+Merge the authoritative AWS directory with optional Meetup enrichment into the app-facing resource:
+
+```sh
+.venv/bin/python scripts/community/build_ios_user_groups_resource.py
+```
+
+This writes `ios/AWSary/resources/community_user_groups.json`. All AWS-listed groups remain in the bundle, including non-Meetup groups and stale Meetup records. `metadataStatus` distinguishes `enriched`, `directory_only`, and `unavailable` records. The schema is defined in `schemas/ios-user-groups.schema.json`; the app-side `CommunityUserGroupStore` decodes the bundled resource without making a network request.
 
 ## Validate canonical data
 

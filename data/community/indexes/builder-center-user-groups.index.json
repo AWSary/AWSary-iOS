@@ -1,0 +1,5174 @@
+{
+  "generatedAt": "2026-06-22T09:04:10Z",
+  "sourceUrl": "https://builder.aws.com/community/user-groups",
+  "sourceAssetUrl": "https://builder.aws.com/assets/module-oeCrOGSa.js",
+  "count": 576,
+  "countryCount": 111,
+  "countries": [
+    {
+      "code": "AL",
+      "name": "Albania",
+      "count": 1
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "count": 1
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "count": 7
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "count": 1
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "count": 13
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "count": 2
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "count": 1
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "count": 1
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "count": 1
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "count": 1
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "count": 5
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "count": 1
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "count": 44
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "count": 1
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "count": 2
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "count": 10
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "count": 1
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "count": 21
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "count": 17
+    },
+    {
+      "code": "CG",
+      "name": "Congo",
+      "count": 1
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "count": 1
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "count": 2
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "count": 1
+    },
+    {
+      "code": "CZ",
+      "name": "Czech Republic",
+      "count": 2
+    },
+    {
+      "code": "CD",
+      "name": "Democratic Republic of Congo",
+      "count": 1
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "count": 2
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "count": 5
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "count": 2
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "count": 1
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "count": 1
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "count": 4
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "count": 13
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "count": 1
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "count": 23
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "count": 1
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "count": 2
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "count": 3
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "count": 1
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "count": 3
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "count": 1
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "count": 32
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "count": 6
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "count": 4
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "count": 1
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "count": 15
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "count": 58
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "count": 1
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "count": 2
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "count": 3
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "count": 1
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "count": 1
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "count": 1
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "count": 1
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "count": 1
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "count": 1
+    },
+    {
+      "code": "MK",
+      "name": "Macedonia",
+      "count": 1
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "count": 2
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "count": 1
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "count": 1
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "count": 27
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "count": 1
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "count": 1
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "count": 1
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "count": 1
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "count": 1
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "count": 1
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "count": 1
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "count": 2
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "count": 1
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "count": 5
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "count": 1
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "count": 4
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "count": 2
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "count": 5
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "count": 2
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "count": 1
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "count": 10
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "count": 6
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "count": 11
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "count": 3
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "count": 1
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "count": 4
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "count": 1
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "count": 2
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "count": 1
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "count": 3
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "count": 2
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "count": 3
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "count": 1
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "count": 3
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "count": 3
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "count": 12
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "count": 1
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "count": 5
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "count": 6
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "count": 2
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "count": 3
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "count": 1
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "count": 2
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "count": 3
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "count": 1
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "count": 4
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "count": 3
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "count": 18
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "count": 61
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "count": 2
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "count": 2
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "count": 1
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "count": 1
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "count": 1
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "count": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "Space-UG_534",
+      "name": "Advanced Amazon Web Services (AWS)",
+      "location": "San Mateo, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AdvancedAWS/"
+    },
+    {
+      "id": "Space-UG_610",
+      "name": "AI AWS UG Colombia",
+      "location": "Colombia",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/ai-aws-colombia"
+    },
+    {
+      "id": "Space-UG_279",
+      "name": "Aix-Marseille AWS User Group",
+      "location": "Marseille",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/marseille-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_568",
+      "name": "Amazon Web Services (AWS) User Group - PITTSBURGH",
+      "location": "Pittsburgh, Pennsylvania",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Pittsburgh-Amazon-Web-Services-AWS-Users/"
+    },
+    {
+      "id": "Space-UG_535",
+      "name": "Amazon Web Services - Bay Area",
+      "location": "San Mateo, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/awsgurus/"
+    },
+    {
+      "id": "Space-UG_554",
+      "name": "Amazon Web Services Kansas City User Group",
+      "location": "Kansas City, Missouri",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/awskcug/"
+    },
+    {
+      "id": "Space-UG_532",
+      "name": "Amazon Web Services San Diego | Official Events",
+      "location": "San Diego, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Amazon-Web-Services-San-Diego-User-Group/"
+    },
+    {
+      "id": "Space-UG_381",
+      "name": "Amazon Web Services User Group Edinburgh",
+      "location": "Edinburgh",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/amazon-web-services-user-group-scotland/"
+    },
+    {
+      "id": "Space-UG_382",
+      "name": "Amazon Web Services User Group Glasgow",
+      "location": "Glasgow",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/amazon-web-services-user-group-scotland-glasgow-scotland/"
+    },
+    {
+      "id": "Space-UG_015",
+      "name": "Auckland AWS Community Meetups",
+      "location": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "url": "https://www.meetup.com/AWS_NZ/"
+    },
+    {
+      "id": "Space-UG_019",
+      "name": "Auckland AWS Programming and Tools Meetup",
+      "location": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "url": "https://www.meetup.com/auckland-aws-tools-meetup/"
+    },
+    {
+      "id": "Space-UG_574",
+      "name": "Austin AWS Users",
+      "location": "Austin, Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Austin-AWS-Users/"
+    },
+    {
+      "id": "Space-UG_349",
+      "name": "AWS Accra User Group",
+      "location": "Accra",
+      "country": "Ghana",
+      "countryCode": "GH",
+      "url": "https://www.meetup.com/aws-accra/"
+    },
+    {
+      "id": "Space-UG_044",
+      "name": "AWS AI User Group Hong Kong",
+      "location": "Hong Kong",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://www.meetup.com/aws-ai-user-group-hong-kong"
+    },
+    {
+      "id": "Space-UG_101",
+      "name": "AWS Amplify Japan User Group",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://aws-amplify-jp.connpass.com/"
+    },
+    {
+      "id": "Space-UG_606",
+      "name": "AWS Atlanta User Group OTP North",
+      "location": "Alpharetta, GA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-user-group-otp-north/"
+    },
+    {
+      "id": "Space-UG_318",
+      "name": "AWS Barcelona User Group",
+      "location": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/barcelona-amazon-web-services-meetup/"
+    },
+    {
+      "id": "Space-UG_310",
+      "name": "AWS Bilbao User Group",
+      "location": "Bilbao",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-bilbao/"
+    },
+    {
+      "id": "Space-UG_384",
+      "name": "AWS Brighton User Group",
+      "location": "Brighton",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-brighton-user-group/"
+    },
+    {
+      "id": "Space-UG_014",
+      "name": "AWS Brisbane Well-architected User Group",
+      "location": "Brisbane",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/aws-brisbane-well-architected-user-group/"
+    },
+    {
+      "id": "Space-UG_167",
+      "name": "AWS Bulgaria User Group",
+      "location": "Sofia",
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "url": "https://www.meetup.com/aws-bulgaria/"
+    },
+    {
+      "id": "Space-UG_599",
+      "name": "AWS Central New Jersey User Group",
+      "location": "North Brunswick, NJ",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-central-new-jersey-user-group/"
+    },
+    {
+      "id": "Space-UG_556",
+      "name": "AWS Charlotte User Group",
+      "location": "Charlotte, North Carolina",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Charlotte-User-Group/"
+    },
+    {
+      "id": "Space-UG_598",
+      "name": "AWS Chicago Western Suburbs User Group",
+      "location": "Naperville, IL",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS_Chicago_Suburbs/"
+    },
+    {
+      "id": "Space-UG_604",
+      "name": "AWS Clarksville User Group",
+      "location": "Clarksville, TN",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-user-group-clarksville/"
+    },
+    {
+      "id": "Space-UG_565",
+      "name": "AWS Cleveland User Group",
+      "location": "Cleveland, Ohio",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/cleveland-aws-meetup/"
+    },
+    {
+      "id": "Space-UG_578",
+      "name": "AWS Cloud Security - NoVA",
+      "location": "Arlington, VA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-security-nova/"
+    },
+    {
+      "id": "Space-UG_361",
+      "name": "AWS Cloud Security User Group West Africa",
+      "location": "Lagos",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "url": "https://www.meetup.com/aws-cloud-security-user-group-west-africa/"
+    },
+    {
+      "id": "Space-UG_324",
+      "name": "AWS Community Jordan",
+      "location": "Amman",
+      "country": "Jordan",
+      "countryCode": "JO",
+      "url": "https://www.meetup.com/aws-jordan/"
+    },
+    {
+      "id": "Space-UG_547",
+      "name": "AWS Des Moines",
+      "location": "Des Moines, Iowa",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-User-Group-Des-Moines/"
+    },
+    {
+      "id": "Space-UG_575",
+      "name": "AWS DFW | Official Events",
+      "location": "Dallas, Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Dallas/"
+    },
+    {
+      "id": "Space-UG_607",
+      "name": "AWS DMV User Group",
+      "location": "Herndon, VA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/amazon-web-services-dmv/"
+    },
+    {
+      "id": "Space-UG_322",
+      "name": "AWS Egypt Meetup",
+      "location": "Cairo",
+      "country": "Egypt",
+      "countryCode": "EG",
+      "url": "https://www.meetup.com/awsegyptmeetup/"
+    },
+    {
+      "id": "Space-UG_600",
+      "name": "AWS Fredericton & NB User Group",
+      "location": "Fredericton, New Brunswick",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/aws-fredericton-user-group/"
+    },
+    {
+      "id": "Space-UG_523",
+      "name": "AWS Girls UG Uruguay",
+      "location": "Montevideo",
+      "country": "Uruguay",
+      "countryCode": "UY",
+      "url": "https://www.meetup.com/aws-girls-ug-uy"
+    },
+    {
+      "id": "Space-UG_538",
+      "name": "AWS Greater Denver",
+      "location": "Denver, Colorado, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-denver-area-user-group/"
+    },
+    {
+      "id": "Space-UG_159",
+      "name": "AWS Korea User Group (AWSKRUG)",
+      "location": "Seoul",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "url": "https://www.meetup.com/awskrug"
+    },
+    {
+      "id": "Space-UG_311",
+      "name": "AWS Las Palmas User Group",
+      "location": "Las Palmas de Gran Canarias",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-las-palmas-user-group/"
+    },
+    {
+      "id": "Space-UG_385",
+      "name": "AWS Leeds User Group",
+      "location": "Leeds",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-leeds-user-group/"
+    },
+    {
+      "id": "Space-UG_595",
+      "name": "AWS London ON User Group",
+      "location": "London, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/aws-london-on-user-group/"
+    },
+    {
+      "id": "Space-UG_399",
+      "name": "AWS London Well-Architected User Group",
+      "location": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-london-well-architected-user-group/"
+    },
+    {
+      "id": "Space-UG_564",
+      "name": "AWS Machine Learning Community: NYC",
+      "location": "New York City, New York, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Machine-Learning-Community-NYC/"
+    },
+    {
+      "id": "Space-UG_246",
+      "name": "AWS Meetup Aarhus",
+      "location": "Århus",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "url": "https://www.meetup.com/awsaarhus/"
+    },
+    {
+      "id": "Space-UG_249",
+      "name": "AWS Meetup JKL",
+      "location": "Jyväskylä",
+      "country": "Finland",
+      "countryCode": "FI",
+      "url": "https://www.meetup.com/aws-meetup-jkl/"
+    },
+    {
+      "id": "Space-UG_262",
+      "name": "AWS Meetup Stockholm",
+      "location": "Stockholm",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "url": "https://www.meetup.com/aws-stockholm/"
+    },
+    {
+      "id": "Space-UG_584",
+      "name": "AWS Milwaukee",
+      "location": "Milwaukee, WI",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/mkeaws/"
+    },
+    {
+      "id": "Space-UG_362",
+      "name": "AWS Nigeria User Group",
+      "location": "Lagos",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "url": "https://www.meetup.com/aws-nigeria-user-group/"
+    },
+    {
+      "id": "Space-UG_601",
+      "name": "AWS Northern Delaware User Group",
+      "location": "Wilmington, Delaware",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-northern-delaware-user-group/"
+    },
+    {
+      "id": "Space-UG_529",
+      "name": "AWS Phoenix | Official Events",
+      "location": "Phoenix, Arizona, ",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWSArizona/"
+    },
+    {
+      "id": "Space-UG_559",
+      "name": "AWS Portsmouth User Group",
+      "location": "Portsmouth, New Hampshire",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/awspug/"
+    },
+    {
+      "id": "Space-UG_329",
+      "name": "AWS Riyadh User Group",
+      "location": "Riyadh",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "url": "https://www.meetup.com/aws-saudi-user-group/"
+    },
+    {
+      "id": "Space-UG_531",
+      "name": "AWS Sacramento | Official Events",
+      "location": "Sacramento, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-SACRAMENTO/"
+    },
+    {
+      "id": "Space-UG_602",
+      "name": "AWS San Antonio Users",
+      "location": "San Antonio, TX",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/san-antonio-aws-users-group/"
+    },
+    {
+      "id": "Space-UG_036",
+      "name": "AWS Security User Group Singapore",
+      "location": "Singapore",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "url": "https://www.meetup.com/aws-security-users-group-singapore/"
+    },
+    {
+      "id": "Space-UG_039",
+      "name": "AWS Securty User Group Philippines",
+      "location": "Manila",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/aws-security-users-group-manila/"
+    },
+    {
+      "id": "Space-UG_198",
+      "name": "AWS Serverless Budapest",
+      "location": "Budapest",
+      "country": "Hungary",
+      "countryCode": "HU",
+      "url": "https://www.meetup.com/aws-serverless-budapest/"
+    },
+    {
+      "id": "Space-UG_605",
+      "name": "AWS Sioux Falls User Group",
+      "location": "Sioux Falls, SD",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/sfsd-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_386",
+      "name": "AWS South Wales User Group",
+      "location": "South Wales",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-south-wales-user-group/"
+    },
+    {
+      "id": "Space-UG_102",
+      "name": "AWS Startup Community",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://aws-startup-community.connpass.com/"
+    },
+    {
+      "id": "Space-UG_235",
+      "name": "AWS Swiss User Group- Zürich",
+      "location": "Zürich",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/awsugch/"
+    },
+    {
+      "id": "Space-UG_236",
+      "name": "AWS Swiss User Group-Basel",
+      "location": "Basel",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/meetup-group-cexgtxcm/"
+    },
+    {
+      "id": "Space-UG_231",
+      "name": "AWS Swiss User Group-Bern",
+      "location": "Bern",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/aws-swiss-user-group-bern/"
+    },
+    {
+      "id": "Space-UG_200",
+      "name": "AWS Swiss User Group-Geneva",
+      "location": "Geneva",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/aws-swiss-user-group-geneva"
+    },
+    {
+      "id": "Space-UG_233",
+      "name": "AWS Swiss User Group-Lausanne",
+      "location": "Lausanne",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/aws-swiss-user-group-lausanne/"
+    },
+    {
+      "id": "Space-UG_223",
+      "name": "AWS Transylvania Cloud",
+      "location": "Cluj-Napoca",
+      "country": "Romania",
+      "countryCode": "RO",
+      "url": "https://www.meetup.com/transylvaniacloud/"
+    },
+    {
+      "id": "Space-UG_336",
+      "name": "AWS UG Abu Dhabi",
+      "location": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "url": "https://www.meetup.com/abu-dhabi-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_166",
+      "name": "AWS UG Baku",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "url": "https://www.meetup.com/aws-baku/"
+    },
+    {
+      "id": "Space-UG_337",
+      "name": "AWS UG Dubai",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "url": "https://www.meetup.com/aws-dubai/"
+    },
+    {
+      "id": "Space-UG_448",
+      "name": "AWS UG Montes Claros",
+      "location": "Montes Claros",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-montes-claros/"
+    },
+    {
+      "id": "Space-UG_409",
+      "name": "AWS UG Rio Grande do Sul",
+      "location": "Rio Grande do Sul",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-porto-alegre/"
+    },
+    {
+      "id": "Space-UG_181",
+      "name": "AWS User Goup Heilbronn",
+      "location": "Heilbronn",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-heilbronn/"
+    },
+    {
+      "id": "Space-UG_579",
+      "name": "AWS User Group - Virginia & Metro DC",
+      "location": "Herndon, Virginia",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Amazon-Web-Services-Virginia "
+    },
+    {
+      "id": "Space-UG_210",
+      "name": "AWS User Group 3City",
+      "location": "Gdansk",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-3city/"
+    },
+    {
+      "id": "Space-UG_423",
+      "name": "AWS User Group ABC Paulista",
+      "location": "ABC Paulista",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-abc-paulista"
+    },
+    {
+      "id": "Space-UG_348",
+      "name": "AWS User Group Addis Ababa",
+      "location": "Addis Ababa",
+      "country": "Ethiopia",
+      "countryCode": "ET",
+      "url": "https://www.meetup.com/aws-user-group-addis-ababa/"
+    },
+    {
+      "id": "Space-UG_001",
+      "name": "AWS User Group Adelaide",
+      "location": "Adelaide",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/Amazon-Web-Services-User-Group-Adelaide/"
+    },
+    {
+      "id": "Space-UG_070",
+      "name": "AWS User Group Ahmedabad",
+      "location": "Ahmedabad",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/Ahmedabad-Amazon-AWS-Cloud-Meetup/"
+    },
+    {
+      "id": "Space-UG_352",
+      "name": "AWS User Group AI ML Kenya",
+      "location": "Méru",
+      "country": "Kenya",
+      "countryCode": "KE",
+      "url": "https://www.meetup.com/aws-user-group-ai-ml-kenya/"
+    },
+    {
+      "id": "Space-UG_026",
+      "name": "AWS User Group AI/ML Kuala Lumpur",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "url": "https://www.meetup.com/awsug-aiml-my/"
+    },
+    {
+      "id": "Space-UG_495",
+      "name": "AWS User Group Ajolotes en la Nube",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/ajolotesenlanube/"
+    },
+    {
+      "id": "Space-UG_641",
+      "name": "AWS User Group Aleppo",
+      "location": "Halab",
+      "country": "Syria",
+      "countryCode": "SY",
+      "url": "https://www.meetup.com/aws-user-group-aleppo/"
+    },
+    {
+      "id": "Space-UG_312",
+      "name": "AWS User Group Alicante",
+      "location": "Alicante",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-user-group-alicante/"
+    },
+    {
+      "id": "Space-UG_201",
+      "name": "AWS User Group Almaty",
+      "location": "Almaty",
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "url": "https://www.meetup.com/aws-user-group-almaty/"
+    },
+    {
+      "id": "Space-UG_621",
+      "name": "AWS User Group Anapolis",
+      "location": "Anapolis",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-user-group-anapolis/"
+    },
+    {
+      "id": "Space-UG_626",
+      "name": "AWS User Group Andorra",
+      "location": "Andorra la Vella",
+      "country": "Andorra",
+      "countryCode": "AD",
+      "url": "https://www.meetup.com/aws-ug-andorra/"
+    },
+    {
+      "id": "Space-UG_334",
+      "name": "AWS User Group Ankara",
+      "location": "Ankara",
+      "country": "Turkey",
+      "countryCode": "TR",
+      "url": "https://www.meetup.com/ankara-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_016",
+      "name": "AWS User Group Aotearoa (NZ) - Christchurch Chapter",
+      "location": "Christchurch",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "url": "https://www.meetup.com/Christchurch-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_017",
+      "name": "AWS User Group Aotearoa (NZ) - Wellington Chapter",
+      "location": "Wellington",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "url": "https://www.meetup.com/Amazon-Web-Services-Wellington-User-Group/"
+    },
+    {
+      "id": "Space-UG_518",
+      "name": "AWS User Group Arequipa",
+      "location": "Arequipa",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/es/aws-user-group-arequipa/"
+    },
+    {
+      "id": "Space-UG_162",
+      "name": "AWS User Group Armenia",
+      "location": "Yerevan",
+      "country": "Armenia",
+      "countryCode": "AM",
+      "url": "https://www.meetup.com/aws-user-group-armenia"
+    },
+    {
+      "id": "Space-UG_202",
+      "name": "AWS User Group Astana",
+      "location": "Astana",
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "url": "https://www.meetup.com/aws-user-group-astana/"
+    },
+    {
+      "id": "Space-UG_313",
+      "name": "AWS User Group Asturias",
+      "location": "Asturias",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-user-group-asturias/"
+    },
+    {
+      "id": "Space-UG_195",
+      "name": "AWS User Group Athens",
+      "location": "Athens",
+      "country": "Greece",
+      "countryCode": "GR",
+      "url": "https://www.meetup.com/aws-user-group-athens/"
+    },
+    {
+      "id": "Space-UG_071",
+      "name": "AWS User Group Aurangabad",
+      "location": "Aurangabad",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugaurangabad/"
+    },
+    {
+      "id": "Space-UG_640",
+      "name": "AWS User Group Bali",
+      "location": "Bali",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/aws-user-group-bali/"
+    },
+    {
+      "id": "Space-UG_024",
+      "name": "AWS User Group Bandung",
+      "location": "Bandung",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/aws-user-group-bandung/"
+    },
+    {
+      "id": "Space-UG_069",
+      "name": "AWS User Group Bangladesh",
+      "location": "Dhaka",
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "url": "https://www.meetup.com/awsugbd/"
+    },
+    {
+      "id": "Space-UG_472",
+      "name": "AWS User Group Barranquilla",
+      "location": "Baranquilla",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/aws-barranquilla/"
+    },
+    {
+      "id": "Space-UG_290",
+      "name": "AWS User Group Basilicata",
+      "location": "Potenza",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-basilicata/"
+    },
+    {
+      "id": "Space-UG_047",
+      "name": "AWS User Group Beijing",
+      "location": "Beijing",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/beijing/"
+    },
+    {
+      "id": "Space-UG_245",
+      "name": "AWS User Group Belgium",
+      "location": "Brussels",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "url": "https://www.meetup.com/aws-user-group-belgium/"
+    },
+    {
+      "id": "Space-UG_226",
+      "name": "AWS User Group Belgrade",
+      "location": "Belgrade",
+      "country": "Serbia",
+      "countryCode": "RS",
+      "url": "https://www.meetup.com/awsugbelgrade/"
+    },
+    {
+      "id": "Space-UG_424",
+      "name": "AWS User Group Belo Horizonte",
+      "location": "Minas Gerais",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/AWSUserGroupMG"
+    },
+    {
+      "id": "Space-UG_426",
+      "name": "AWS User Group Belém",
+      "location": "Belem",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/awsbelem"
+    },
+    {
+      "id": "Space-UG_072",
+      "name": "AWS User Group Bengaluru",
+      "location": "Bangalore",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugblr/"
+    },
+    {
+      "id": "Space-UG_179",
+      "name": "AWS User Group Bergstrasse",
+      "location": "Bergstrasse",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-bergstrasse/"
+    },
+    {
+      "id": "Space-UG_094",
+      "name": "AWS User Group Bhopal",
+      "location": "Bhopal",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-bhopal/"
+    },
+    {
+      "id": "Space-UG_211",
+      "name": "AWS User Group Bia?ystok",
+      "location": "Bia?ystok",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-bialystok/"
+    },
+    {
+      "id": "Space-UG_428",
+      "name": "AWS User Group Blumenau",
+      "location": "Blumenau",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-usergroup-blumenau/"
+    },
+    {
+      "id": "Space-UG_471",
+      "name": "AWS User Group Bogota",
+      "location": "Bogota",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/AWS-Colombia-bogota/"
+    },
+    {
+      "id": "Space-UG_528",
+      "name": "AWS User Group Boise",
+      "location": "Boise, Idaho",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-boise-user-group/"
+    },
+    {
+      "id": "Space-UG_288",
+      "name": "AWS User Group Bologna",
+      "location": "Bologna",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-bologna/"
+    },
+    {
+      "id": "Space-UG_173",
+      "name": "AWS User Group Bonn",
+      "location": "Bonn",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-bonn/"
+    },
+    {
+      "id": "Space-UG_243",
+      "name": "AWS User Group Bosnia (Mostar)",
+      "location": "Mostar",
+      "country": "Bosnia and Herzegovina",
+      "countryCode": "BA",
+      "url": "https://www.meetup.com/aws-user-group-bosnia/"
+    },
+    {
+      "id": "Space-UG_642",
+      "name": "AWS User Group Boyacá",
+      "location": "Duitama",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/awsugboyaca"
+    },
+    {
+      "id": "Space-UG_412",
+      "name": "AWS User Group Brasilia",
+      "location": "Brasilia",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-brasilia/"
+    },
+    {
+      "id": "Space-UG_227",
+      "name": "AWS User Group Bratislava",
+      "location": "Bratislava",
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "url": "https://www.meetup.com/aws-user-group-bratislava/"
+    },
+    {
+      "id": "Space-UG_180",
+      "name": "AWS User Group Braunschweig",
+      "location": "Braunschweig",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-braunschweig2/"
+    },
+    {
+      "id": "Space-UG_347",
+      "name": "AWS User Group Brazzaville",
+      "location": "Brazzaville",
+      "country": "Congo",
+      "countryCode": "CG",
+      "url": "https://www.meetup.com/aws-users-group-brazzaville/"
+    },
+    {
+      "id": "Space-UG_002",
+      "name": "AWS User Group Brisbane",
+      "location": "Brisbane",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/AWS-Brisbane/"
+    },
+    {
+      "id": "Space-UG_387",
+      "name": "AWS User Group Bristol",
+      "location": "Bristol",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-bristol/"
+    },
+    {
+      "id": "Space-UG_403",
+      "name": "AWS User Group Brno ",
+      "location": "Brno",
+      "country": "Czech Republic",
+      "countryCode": "CZ",
+      "url": "https://www.meetup.com/brno-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_475",
+      "name": "AWS User Group Bucaramanga",
+      "location": "Bucaramanga",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es/aws-user-group-bucaramanga/"
+    },
+    {
+      "id": "Space-UG_222",
+      "name": "AWS User Group Bucharest",
+      "location": "Bucharest",
+      "country": "Romania",
+      "countryCode": "RO",
+      "url": "https://www.meetup.com/bucharest-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_197",
+      "name": "AWS User Group Budapest CoP",
+      "location": "Budapest",
+      "country": "Hungary",
+      "countryCode": "HU",
+      "url": "https://www.meetup.com/aws-budapest-cop/"
+    },
+    {
+      "id": "Space-UG_454",
+      "name": "AWS User Group Buenos Aires",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/AWS-User-Group-Buenos-Aires/"
+    },
+    {
+      "id": "Space-UG_031",
+      "name": "AWS User Group BuildHers+",
+      "location": "Manila",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/AWS-Usergroup-PH-Women/"
+    },
+    {
+      "id": "Space-UG_321",
+      "name": "AWS User Group Cairo",
+      "location": "Cairo",
+      "country": "Egypt",
+      "countryCode": "EG",
+      "url": "https://www.meetup.com/aws-ug-giza/"
+    },
+    {
+      "id": "Space-UG_302",
+      "name": "AWS User Group Calabria",
+      "location": "Consenza",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/awsusergroupcalabria/"
+    },
+    {
+      "id": "Space-UG_410",
+      "name": "AWS User Group Campinas",
+      "location": "Campinas",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/awscampinas/"
+    },
+    {
+      "id": "Space-UG_003",
+      "name": "AWS User Group Canberra",
+      "location": "Canberra",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://luma.com/aws-cbr"
+    },
+    {
+      "id": "Space-UG_506",
+      "name": "AWS User Group Cancun",
+      "location": "Cancun",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/es/aws-user-group-cancun/"
+    },
+    {
+      "id": "Space-UG_369",
+      "name": "AWS User Group Cape Town",
+      "location": "Cape Town",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "url": "https://www.meetup.com/cape-town-aws/"
+    },
+    {
+      "id": "Space-UG_525",
+      "name": "AWS User Group Caracas",
+      "location": "Caracas",
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "url": "https://www.meetup.com/AWS-User-Group-Caracas/"
+    },
+    {
+      "id": "Space-UG_327",
+      "name": "AWS User Group Casablanca",
+      "location": "Casablanca",
+      "country": "Morocco",
+      "countryCode": "MA",
+      "url": "https://www.meetup.com/aws-user-group-morocco/"
+    },
+    {
+      "id": "Space-UG_449",
+      "name": "AWS User Group Cascavel – PR",
+      "location": "Cascavel",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-cascavel"
+    },
+    {
+      "id": "Space-UG_291",
+      "name": "AWS User Group Caserta",
+      "location": "Caserta",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-caserta/"
+    },
+    {
+      "id": "Space-UG_411",
+      "name": "AWS User Group Castanhal",
+      "location": "Castanhal",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-castanhal/"
+    },
+    {
+      "id": "Space-UG_306",
+      "name": "AWS User Group Castelo Branco & Beira Baixa",
+      "location": "Castelo Branco",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "url": "https://www.meetup.com/aws-user-group-castelo-branco/"
+    },
+    {
+      "id": "Space-UG_440",
+      "name": "AWS User Group Ceará",
+      "location": "Ceará",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/AWS-Users-Group-CE/"
+    },
+    {
+      "id": "Space-UG_032",
+      "name": "AWS User Group Cebu",
+      "location": "Cebu",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/AWS-Usergroup-PH-Central-Visayas/"
+    },
+    {
+      "id": "Space-UG_521",
+      "name": "AWS User Group Chaclacayo",
+      "location": "Lima",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/aws-user-group-chaclacayo/events/"
+    },
+    {
+      "id": "Space-UG_059",
+      "name": "AWS User Group Changji",
+      "location": "Changji",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/changji/"
+    },
+    {
+      "id": "Space-UG_632",
+      "name": "AWS User Group Chattisgarh",
+      "location": "Raipur",
+      "country": "India",
+      "countryCode": "IN",
+      "url": null
+    },
+    {
+      "id": "Space-UG_050",
+      "name": "AWS User Group Chengdu",
+      "location": "Chengdu",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/chengdu/"
+    },
+    {
+      "id": "Space-UG_073",
+      "name": "AWS User Group Chennai",
+      "location": "Chennai",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsusergroup-chennai/"
+    },
+    {
+      "id": "Space-UG_520",
+      "name": "AWS User Group Chiclayo",
+      "location": "Chiclayo",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/es-es/aws-user-group-chiclayo/"
+    },
+    {
+      "id": "Space-UG_488",
+      "name": "AWS User Group Chihuahua",
+      "location": "Chihuahua",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-chihuahua/"
+    },
+    {
+      "id": "Space-UG_484",
+      "name": "AWS User Group Chimaltemango",
+      "location": "Chimaltemango",
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "url": "https://www.meetup.com/aws-chimaltenango/"
+    },
+    {
+      "id": "Space-UG_510",
+      "name": "AWS User Group Chiriquí",
+      "location": "Chiriquí",
+      "country": "Panama",
+      "countryCode": "PA",
+      "url": "https://www.meetup.com/aws-user-group-chiriqui/"
+    },
+    {
+      "id": "Space-UG_634",
+      "name": "AWS User Group Chongqing",
+      "location": "Chongqing",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/chongqing/"
+    },
+    {
+      "id": "Space-UG_413",
+      "name": "AWS User Group Circuito das Aguas Paulistas",
+      "location": "Aguas Paulistas",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-circuito-das-aguas-paulista/"
+    },
+    {
+      "id": "Space-UG_457",
+      "name": "AWS User Group Cochabamba",
+      "location": "Cochabamba",
+      "country": "Bolivia",
+      "countryCode": "BO",
+      "url": "https://www.meetup.com/aws-user-group-cochabamba"
+    },
+    {
+      "id": "Space-UG_074",
+      "name": "AWS User Group Coimbatore",
+      "location": "Coimbatore",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugcoimbatore/"
+    },
+    {
+      "id": "Space-UG_526",
+      "name": "AWS User Group Colima",
+      "location": "Colima",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/es-es/aws-user-group-colima/"
+    },
+    {
+      "id": "Space-UG_174",
+      "name": "AWS User Group Cologne",
+      "location": "Köln",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-cologne/"
+    },
+    {
+      "id": "Space-UG_099",
+      "name": "AWS User Group Colombo",
+      "location": "Colombo, Sri Lanka",
+      "country": "Sri Lanka",
+      "countryCode": "LK",
+      "url": "https://www.meetup.com/awsugcmb/"
+    },
+    {
+      "id": "Space-UG_373",
+      "name": "AWS User Group Congo-Kinshasa",
+      "location": "Kinshasa",
+      "country": "Democratic Republic of Congo",
+      "countryCode": "CD",
+      "url": "https://www.meetup.com/aws-user-group-congo-kinshasa/"
+    },
+    {
+      "id": "Space-UG_247",
+      "name": "AWS User Group Copenhagen",
+      "location": "Copenhagen",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "url": "https://www.meetup.com/copenhagen-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_416",
+      "name": "AWS User Group Coração do Rio Grande",
+      "location": "Santa Maria",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-coracao-do-rio-grande/"
+    },
+    {
+      "id": "Space-UG_452",
+      "name": "AWS User Group Cordoba",
+      "location": "Cordoba",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/AWS-User-Group-Cordoba-Argentina/"
+    },
+    {
+      "id": "Space-UG_377",
+      "name": "AWS User Group Cork",
+      "location": "Cork",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "url": "https://www.meetup.com/aws-usergroup-cork/"
+    },
+    {
+      "id": "Space-UG_477",
+      "name": "AWS User Group Costa Rica Women",
+      "location": "Chiapa",
+      "country": "Costa Rica",
+      "countryCode": "CR",
+      "url": "https://www.meetup.com/chiapa-uk-aws-users-meetup-group/"
+    },
+    {
+      "id": "Space-UG_343",
+      "name": "AWS User Group Cotonou",
+      "location": "Cotonou",
+      "country": "Benin",
+      "countryCode": "BJ",
+      "url": "https://www.meetup.com/aws-user-group-cotonou/"
+    },
+    {
+      "id": "Space-UG_415",
+      "name": "AWS User Group Criciúma",
+      "location": "Criciúma",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/criciumaops/"
+    },
+    {
+      "id": "Space-UG_287",
+      "name": "AWS User Group Cuneo",
+      "location": "Cuneo",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-cuneo/"
+    },
+    {
+      "id": "Space-UG_439",
+      "name": "AWS User Group Curitiba",
+      "location": "Curitiba",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-curitiba-user-group/"
+    },
+    {
+      "id": "Space-UG_169",
+      "name": "AWS User Group Cyprus",
+      "location": "Nicosia",
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "url": "https://www.meetup.com/aws-users-cyprus/"
+    },
+    {
+      "id": "Space-UG_464",
+      "name": "AWS User Group Córdoba",
+      "location": "Cordoba",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/comunidad-aws-cordoba-col/"
+    },
+    {
+      "id": "Space-UG_473",
+      "name": "AWS User Group Cúcuta",
+      "location": "Cúcuta",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es/aws-user-group-cucuta/"
+    },
+    {
+      "id": "Space-UG_366",
+      "name": "AWS User Group Dakar",
+      "location": "Dakar",
+      "country": "Senegal",
+      "countryCode": "SN",
+      "url": "https://www.meetup.com/aws-user-group-dakar/"
+    },
+    {
+      "id": "Space-UG_331",
+      "name": "AWS User Group Damascus",
+      "location": "Damascus",
+      "country": "Syria",
+      "countryCode": "SY",
+      "url": "https://www.meetup.com/aws-user-group-syria/"
+    },
+    {
+      "id": "Space-UG_075",
+      "name": "AWS User Group Data Engineering India",
+      "location": "Mumbai",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-usergroup-data-india/"
+    },
+    {
+      "id": "Space-UG_034",
+      "name": "AWS User Group Davao",
+      "location": "Davao",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/AWS-Davao/"
+    },
+    {
+      "id": "Space-UG_076",
+      "name": "AWS User Group Dehradun",
+      "location": "Dehradun",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-dehradun/"
+    },
+    {
+      "id": "Space-UG_077",
+      "name": "AWS User Group Delhi",
+      "location": "Delhi",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/AmazonAWS-Delhi/"
+    },
+    {
+      "id": "Space-UG_045",
+      "name": "AWS User Group DevSecOps Taiwan",
+      "location": "Taipei",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "url": "https://www.accupass.com/organizer/detail/2601030811291108570778"
+    },
+    {
+      "id": "Space-UG_190",
+      "name": "AWS User Group Dortmund",
+      "location": "Dortmund",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/dortmund-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_346",
+      "name": "AWS User Group Douala",
+      "location": "Douala",
+      "country": "Cameroon",
+      "countryCode": "CM",
+      "url": "https://www.meetup.com/awsugdouala/"
+    },
+    {
+      "id": "Space-UG_376",
+      "name": "AWS User Group Dublin",
+      "location": "Dublin",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "url": "https://www.meetup.com/aws-ireland-usergroup/"
+    },
+    {
+      "id": "Space-UG_627",
+      "name": "AWS User Group Dusseldorf",
+      "location": "Dusseldorf",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-dusseldorf/"
+    },
+    {
+      "id": "Space-UG_480",
+      "name": "AWS User Group Ecuador",
+      "location": "Guayaquil",
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "url": "https://www.meetup.com/aws-ecuador/"
+    },
+    {
+      "id": "Space-UG_503",
+      "name": "AWS User Group Embajadoras Cloud",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/Embajadoras-Cloud"
+    },
+    {
+      "id": "Space-UG_491",
+      "name": "AWS User Group Ensenada",
+      "location": "Ensenada",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-ensenada"
+    },
+    {
+      "id": "Space-UG_252",
+      "name": "AWS User Group Finland",
+      "location": "Helsinki",
+      "country": "Finland",
+      "countryCode": "FI",
+      "url": "https://www.meetup.com/awsfin/"
+    },
+    {
+      "id": "Space-UG_422",
+      "name": "AWS User Group Florianópolis",
+      "location": "Florianópolis",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-BR/aws-user-group-floripa/"
+    },
+    {
+      "id": "Space-UG_437",
+      "name": "AWS User Group Foz de Iguaçu",
+      "location": "Foz do Iguaçu",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-usergroup-oeste-e-fronteiras/"
+    },
+    {
+      "id": "Space-UG_283",
+      "name": "AWS User Group France Rennes",
+      "location": "Rennes",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/rennes-amazon-web-services-user-group/"
+    },
+    {
+      "id": "Space-UG_271",
+      "name": "AWS User Group France- Nantes",
+      "location": "Nantes",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/aws-nantes/"
+    },
+    {
+      "id": "Space-UG_276",
+      "name": "AWS User Group France- Paris",
+      "location": "Paris",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/french-aws-ug/"
+    },
+    {
+      "id": "Space-UG_057",
+      "name": "AWS User Group Fuzhou",
+      "location": "Fuzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/fuzhou/"
+    },
+    {
+      "id": "Space-UG_320",
+      "name": "AWS User Group Galicia",
+      "location": "A Coruna",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-ug-galicia/"
+    },
+    {
+      "id": "Space-UG_294",
+      "name": "AWS User Group Genova",
+      "location": "Genova",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-genova/"
+    },
+    {
+      "id": "Space-UG_451",
+      "name": "AWS User Group Girls Argentina",
+      "location": "Cordoba",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/es/aws-girls-argentina/"
+    },
+    {
+      "id": "Space-UG_459",
+      "name": "AWS User Group Girls Bolivia",
+      "location": "La Paz",
+      "country": "Bolivia",
+      "countryCode": "BO",
+      "url": "https://www.meetup.com/aws-girls-bolivia/"
+    },
+    {
+      "id": "Space-UG_462",
+      "name": "AWS User Group Girls Chile",
+      "location": "Santiago",
+      "country": "Chile",
+      "countryCode": "CL",
+      "url": "https://www.meetup.com/es/aws-girls-chile-group/"
+    },
+    {
+      "id": "Space-UG_514",
+      "name": "AWS User Group Girls Peru",
+      "location": "Lima",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/aws-girls-peru/"
+    },
+    {
+      "id": "Space-UG_432",
+      "name": "AWS User Group Goiânia",
+      "location": "Goiânia",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/AWS-GO/"
+    },
+    {
+      "id": "Space-UG_004",
+      "name": "AWS User Group Gold Coast",
+      "location": "Gold Coast",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/awsgoldcoast/"
+    },
+    {
+      "id": "Space-UG_444",
+      "name": "AWS User Group Grande Tiêtê",
+      "location": "Grande Tiete",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-alto-tiete/"
+    },
+    {
+      "id": "Space-UG_049",
+      "name": "AWS User Group Guangzhou",
+      "location": "Guangzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/guangzhou/"
+    },
+    {
+      "id": "Space-UG_482",
+      "name": "AWS User Group Guastatoya",
+      "location": "El Progreso",
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "url": "https://www.meetup.com/aws-ug-el-progreso/"
+    },
+    {
+      "id": "Space-UG_485",
+      "name": "AWS User Group Guatemala",
+      "location": "Guatemala City",
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "url": "https://www.meetup.com/AWS-Guatemala/"
+    },
+    {
+      "id": "Space-UG_056",
+      "name": "AWS User Group Hangzhou",
+      "location": "Hangzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/hangzhou/"
+    },
+    {
+      "id": "Space-UG_184",
+      "name": "AWS User Group Hannover",
+      "location": "Hannover",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-usergroup-hannover/"
+    },
+    {
+      "id": "Space-UG_375",
+      "name": "AWS User Group Harare, Zimbabawe",
+      "location": "Harare",
+      "country": "Zimbabwe",
+      "countryCode": "ZW",
+      "url": "https://www.meetup.com/aws-user-group-harare-zimbabwe/"
+    },
+    {
+      "id": "Space-UG_054",
+      "name": "AWS User Group Hefei",
+      "location": "Hefei",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/hefei/"
+    },
+    {
+      "id": "Space-UG_499",
+      "name": "AWS User Group Hermosillo",
+      "location": "Hermosillo",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-hermosillo/"
+    },
+    {
+      "id": "Space-UG_046",
+      "name": "AWS User Group Hong Kong",
+      "location": "Hong Kong",
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "url": "https://www.meetup.com/hong-kong-amazon-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_519",
+      "name": "AWS User Group Huancayo",
+      "location": "Huancayo",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/aws-user-group-huancayo/"
+    },
+    {
+      "id": "Space-UG_199",
+      "name": "AWS User Group Hungary",
+      "location": "Budapest",
+      "country": "Hungary",
+      "countryCode": "HU",
+      "url": "https://www.meetup.com/aws-user-group-hungary/"
+    },
+    {
+      "id": "Space-UG_078",
+      "name": "AWS User Group Hyderabad",
+      "location": "Hyderabad",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsughyd/"
+    },
+    {
+      "id": "Space-UG_220",
+      "name": "AWS User Group Iasi ",
+      "location": "Iasi",
+      "country": "Romania",
+      "countryCode": "RO",
+      "url": "https://www.meetup.com/aws-ro/"
+    },
+    {
+      "id": "Space-UG_608",
+      "name": "AWS User Group Incheon",
+      "location": "Incheon",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "url": "https://www.meetup.com/awskrug/"
+    },
+    {
+      "id": "Space-UG_079",
+      "name": "AWS User Group Indore",
+      "location": "Indore",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-indore/"
+    },
+    {
+      "id": "Space-UG_258",
+      "name": "AWS User Group Innlandet",
+      "location": "Hamar",
+      "country": "Norway",
+      "countryCode": "NO",
+      "url": "https://www.meetup.com/aws-user-group-innlandet-norway/"
+    },
+    {
+      "id": "Space-UG_029",
+      "name": "AWS User Group Islamabad",
+      "location": "Islamabad",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "url": "https://www.linkedin.com/company/aws-ug-islamabad/posts/?feedView=all"
+    },
+    {
+      "id": "Space-UG_340",
+      "name": "AWS User Group Istanbul",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "countryCode": "TR",
+      "url": "https://www.meetup.com/meetup-group-qxmdkdal/"
+    },
+    {
+      "id": "Space-UG_239",
+      "name": "AWS User Group Ivano-Frankivsk Ukraine",
+      "location": "Ivano-Frankivsk",
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "url": "https://www.meetup.com/ivano-frankivsk-amazon-web-services-meetup-group/"
+    },
+    {
+      "id": "Space-UG_080",
+      "name": "AWS User Group Jaipur",
+      "location": "Jaipur",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugjaipur/"
+    },
+    {
+      "id": "Space-UG_021",
+      "name": "AWS User Group Jakarta",
+      "location": "Jakarta",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/AWS-User-Group-Indonesia/"
+    },
+    {
+      "id": "Space-UG_492",
+      "name": "AWS User Group Jalisco",
+      "location": "Guadalajara",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/Amazon-Web-Services-Jalisco/"
+    },
+    {
+      "id": "Space-UG_433",
+      "name": "AWS User Group Joinville",
+      "location": "Joinville",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-joinville/"
+    },
+    {
+      "id": "Space-UG_445",
+      "name": "AWS User Group João Pessoa",
+      "location": "João Pessoa",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-joao-pessoa"
+    },
+    {
+      "id": "Space-UG_263",
+      "name": "AWS User Group Jönköping",
+      "location": "Jönköping",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "url": "https://www.meetup.com/aws-user-group-jonkoping/"
+    },
+    {
+      "id": "Space-UG_093",
+      "name": "AWS User Group Kanpur",
+      "location": "Kanpur",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-kanpur/"
+    },
+    {
+      "id": "Space-UG_030",
+      "name": "AWS User Group Karachi",
+      "location": "Karachi",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "url": "https://www.linkedin.com/company/aws-ug-karachi/posts/?feedView=all"
+    },
+    {
+      "id": "Space-UG_177",
+      "name": "AWS User Group Karlsruhe",
+      "location": "Karlsruhe",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-meetup-karlsruhe/"
+    },
+    {
+      "id": "Space-UG_353",
+      "name": "AWS User Group Kenya",
+      "location": "Nairobi",
+      "country": "Kenya",
+      "countryCode": "KE",
+      "url": "https://www.meetup.com/aws-user-group-nairobi/"
+    },
+    {
+      "id": "Space-UG_237",
+      "name": "AWS User Group Kharkiv",
+      "location": "Kharkiv",
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "url": "https://www.meetup.com/aws-user-group-kharkiv/"
+    },
+    {
+      "id": "Space-UG_365",
+      "name": "AWS User Group Kigali",
+      "location": "Kigali",
+      "country": "Rwanda",
+      "countryCode": "RW",
+      "url": "https://www.meetup.com/aws-user-group-kigali/"
+    },
+    {
+      "id": "Space-UG_081",
+      "name": "AWS User Group Kochi",
+      "location": "Kochi",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugkochi/"
+    },
+    {
+      "id": "Space-UG_082",
+      "name": "AWS User Group Kolkata",
+      "location": "Kolkata",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugkol/"
+    },
+    {
+      "id": "Space-UG_228",
+      "name": "AWS User Group Kosice",
+      "location": "Kosice",
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "url": "https://www.meetup.com/aws-user-group-kosice/"
+    },
+    {
+      "id": "Space-UG_203",
+      "name": "AWS User Group Kosovo",
+      "location": "Prishtinë",
+      "country": "Kosovo",
+      "countryCode": "XK",
+      "url": "https://www.meetup.com/meetup-group-jsqcxaly/"
+    },
+    {
+      "id": "Space-UG_638",
+      "name": "AWS User Group Kozhikode",
+      "location": "Kozhikode",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-kozhikode/"
+    },
+    {
+      "id": "Space-UG_212",
+      "name": "AWS User Group Krakow",
+      "location": "Krakow",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-krakow/"
+    },
+    {
+      "id": "Space-UG_025",
+      "name": "AWS User Group Kuala Lumpur",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "url": "https://www.meetup.com/awsugmy/"
+    },
+    {
+      "id": "Space-UG_250",
+      "name": "AWS User Group Kuopio",
+      "location": "Kuopio",
+      "country": "Finland",
+      "countryCode": "FI",
+      "url": "https://www.meetup.com/aws-meetup-kuopio/"
+    },
+    {
+      "id": "Space-UG_238",
+      "name": "AWS User Group Kyiv",
+      "location": "Kyiv",
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "url": "https://www.meetup.com/aws-user-group-kyiv/"
+    },
+    {
+      "id": "Space-UG_458",
+      "name": "AWS User Group La Paz",
+      "location": "La Paz",
+      "country": "Bolivia",
+      "countryCode": "BO",
+      "url": "https://www.meetup.com/aws-user-group-la-paz/"
+    },
+    {
+      "id": "Space-UG_388",
+      "name": "AWS User Group Lancashire",
+      "location": "Burnley",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-lancashire/"
+    },
+    {
+      "id": "Space-UG_052",
+      "name": "AWS User Group Lanzhou",
+      "location": "Lanzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/lanzhou/"
+    },
+    {
+      "id": "Space-UG_041",
+      "name": "AWS User Group Laos",
+      "location": "Vietiane",
+      "country": "Laos",
+      "countryCode": "LA",
+      "url": "https://www.meetup.com/aws-user-group-laos/"
+    },
+    {
+      "id": "Space-UG_561",
+      "name": "AWS User Group Las Vegas",
+      "location": "Las Vegas, Nevada",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-lasvegas/"
+    },
+    {
+      "id": "Space-UG_325",
+      "name": "AWS User Group Lebanon",
+      "location": "Beirut",
+      "country": "Lebanon",
+      "countryCode": "LB",
+      "url": "https://www.meetup.com/aws-ug-lb/"
+    },
+    {
+      "id": "Space-UG_494",
+      "name": "AWS User Group León",
+      "location": "Leon",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-leon-gto/"
+    },
+    {
+      "id": "Space-UG_307",
+      "name": "AWS User Group Lisbon",
+      "location": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "url": "https://www.meetup.com/aws-user-group-lisbon/"
+    },
+    {
+      "id": "Space-UG_625",
+      "name": "AWS User Group Lithuania",
+      "location": "Vilnius",
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "url": "https://www.meetup.com/aws-user-group-lithuania/"
+    },
+    {
+      "id": "Space-UG_389",
+      "name": "AWS User Group Liverpool",
+      "location": "Liverpool",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-liverpool/"
+    },
+    {
+      "id": "Space-UG_230",
+      "name": "AWS User Group Ljubljana",
+      "location": "Ljubljana",
+      "country": "Slovenia",
+      "countryCode": "SI",
+      "url": "https://www.meetup.com/aws-user-group-ljubljana/"
+    },
+    {
+      "id": "Space-UG_530",
+      "name": "AWS User Group Los Angeles - AWS Builders LA",
+      "location": "Los Angeles, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-builders-los-angeles/"
+    },
+    {
+      "id": "Space-UG_193",
+      "name": "AWS User Group Lower Bavaria",
+      "location": "Passau",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/niederbayern-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_213",
+      "name": "AWS User Group Lublin",
+      "location": "Lublin",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-lublin/"
+    },
+    {
+      "id": "Space-UG_240",
+      "name": "AWS User Group Lviv Ukraine",
+      "location": "Lviv",
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "url": "https://www.meetup.com/official-aws-user-group-lviv-ukraine/"
+    },
+    {
+      "id": "Space-UG_404",
+      "name": "AWS User Group Macedonia",
+      "location": "Skopje",
+      "country": "Macedonia",
+      "countryCode": "MK",
+      "url": "https://www.meetup.com/awsugmkd/"
+    },
+    {
+      "id": "Space-UG_513",
+      "name": "AWS User Group Machine Learning LATAM",
+      "location": "Lima",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/aws-ug-machine-learning-latam/"
+    },
+    {
+      "id": "Space-UG_083",
+      "name": "AWS User Group Madurai",
+      "location": "Madurai",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-madurai/"
+    },
+    {
+      "id": "Space-UG_242",
+      "name": "AWS User Group Mainz",
+      "location": "Mainz",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-mainz/"
+    },
+    {
+      "id": "Space-UG_314",
+      "name": "AWS User Group Malaga",
+      "location": "Malaga",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-user-group-malaga/"
+    },
+    {
+      "id": "Space-UG_623",
+      "name": "AWS User Group Malang",
+      "location": "Malang",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/aws-user-group-malang/"
+    },
+    {
+      "id": "Space-UG_205",
+      "name": "AWS User Group Malta",
+      "location": "Valletta",
+      "country": "Malta",
+      "countryCode": "MT",
+      "url": "https://www.meetup.com/aws-user-group-malta/"
+    },
+    {
+      "id": "Space-UG_431",
+      "name": "AWS User Group Manaus",
+      "location": "Manaus",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-manaus/"
+    },
+    {
+      "id": "Space-UG_390",
+      "name": "AWS User Group Manchester",
+      "location": "Manchester",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-north/"
+    },
+    {
+      "id": "Space-UG_469",
+      "name": "AWS User Group Manizales",
+      "location": "Manizales",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/it-IT/aws-user-group-manizales/"
+    },
+    {
+      "id": "Space-UG_481",
+      "name": "AWS User Group Manta",
+      "location": "Manta",
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "url": "https://www.meetup.com/aws-user-group-manta/"
+    },
+    {
+      "id": "Space-UG_358",
+      "name": "AWS User Group Maputo",
+      "location": "Maputo",
+      "country": "Mozambique",
+      "countryCode": "MZ",
+      "url": "https://www.meetup.com/aws-maputo/"
+    },
+    {
+      "id": "Space-UG_443",
+      "name": "AWS User Group Maringá",
+      "location": "Maringa",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/meetup-group-hafctguq/"
+    },
+    {
+      "id": "Space-UG_023",
+      "name": "AWS User Group Medan",
+      "location": "Medan",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/AWS-User-Group-Medan/"
+    },
+    {
+      "id": "Space-UG_463",
+      "name": "AWS User Group Medellín",
+      "location": "Medellín",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/AWS-Medellin/"
+    },
+    {
+      "id": "Space-UG_033",
+      "name": "AWS User Group Mega Manila",
+      "location": "Mega Manila",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/AWS-User-Group-Philippines/ "
+    },
+    {
+      "id": "Space-UG_005",
+      "name": "AWS User Group Melbourne",
+      "location": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/AWS-AUS/"
+    },
+    {
+      "id": "Space-UG_303",
+      "name": "AWS User Group Milano",
+      "location": "Milano",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/awsusergroupitaly/"
+    },
+    {
+      "id": "Space-UG_508",
+      "name": "AWS User Group Minatitlán",
+      "location": "Minatitlán",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-users-group-minatitlan/"
+    },
+    {
+      "id": "Space-UG_597",
+      "name": "AWS User Group Mississauga",
+      "location": "Mississauga, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/mississauga-linux-meetup-group/"
+    },
+    {
+      "id": "Space-UG_505",
+      "name": "AWS User Group Mixtli Cholula",
+      "location": "Cholula",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/awsugmixtli"
+    },
+    {
+      "id": "Space-UG_206",
+      "name": "AWS User Group Moldova",
+      "location": "Chisinau",
+      "country": "Moldova",
+      "countryCode": "MD",
+      "url": "https://www.meetup.com/amazon-web-services-user-group-md/"
+    },
+    {
+      "id": "Space-UG_207",
+      "name": "AWS User Group Mongolia",
+      "location": "Ulaanbaatar",
+      "country": "Mongolia",
+      "countryCode": "MN",
+      "url": "https://www.facebook.com/groups/awsmongolia/"
+    },
+    {
+      "id": "Space-UG_208",
+      "name": "AWS User Group Montenegro",
+      "location": "Podgorica",
+      "country": "Montenegro",
+      "countryCode": "ME",
+      "url": "https://www.meetup.com/aws-ug-montenegro/"
+    },
+    {
+      "id": "Space-UG_487",
+      "name": "AWS User Group Monterrey",
+      "location": "Monterrey",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/AWS-User-Group-Monterrey/"
+    },
+    {
+      "id": "Space-UG_524",
+      "name": "AWS User Group Montevideo",
+      "location": "Montevideo",
+      "country": "Uruguay",
+      "countryCode": "UY",
+      "url": "https://www.meetup.com/aws-ug-montevideo/"
+    },
+    {
+      "id": "Space-UG_504",
+      "name": "AWS User Group Morelos",
+      "location": "Morelos",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-ug-morelos/"
+    },
+    {
+      "id": "Space-UG_466",
+      "name": "AWS User Group Mosquera",
+      "location": "Mosquera",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es-es/aws-user-group-tolima-y-cundinamrca/"
+    },
+    {
+      "id": "Space-UG_084",
+      "name": "AWS User Group Mumbai",
+      "location": "Mumbai",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugmum/"
+    },
+    {
+      "id": "Space-UG_178",
+      "name": "AWS User Group Munich",
+      "location": "München",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-munich/"
+    },
+    {
+      "id": "Space-UG_027",
+      "name": "AWS User Group Myanmar",
+      "location": "Yangon",
+      "country": "Myanmar",
+      "countryCode": "MM",
+      "url": "https://www.facebook.com/groups/AWSusergroupmyanmar/"
+    },
+    {
+      "id": "Space-UG_100",
+      "name": "AWS User Group Mysuru",
+      "location": "Mysuru",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugmys/"
+    },
+    {
+      "id": "Space-UG_490",
+      "name": "AWS User Group Mérida",
+      "location": "Merida",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/comunidad-aws-merida-yucatan/"
+    },
+    {
+      "id": "Space-UG_185",
+      "name": "AWS User Group Münsterland",
+      "location": "Münster",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-usergroup-munsterland/"
+    },
+    {
+      "id": "Space-UG_096",
+      "name": "AWS User Group Nagpur",
+      "location": "Nagpur",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/meetup-group-gcbkakvx/"
+    },
+    {
+      "id": "Space-UG_066",
+      "name": "AWS User Group Nanjing",
+      "location": "Nanjing",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/nanjing/"
+    },
+    {
+      "id": "Space-UG_295",
+      "name": "AWS User Group Napoli",
+      "location": "Napoli",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-napoli/"
+    },
+    {
+      "id": "Space-UG_085",
+      "name": "AWS User Group Nashik",
+      "location": "Nashik",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/awsugnsk/"
+    },
+    {
+      "id": "Space-UG_470",
+      "name": "AWS User Group Neiva",
+      "location": "Neiva",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/aws-users-group-neiva/"
+    },
+    {
+      "id": "Space-UG_097",
+      "name": "AWS User Group Nepal",
+      "location": "Kathmandu",
+      "country": "Nepal",
+      "countryCode": "NP",
+      "url": "https://www.meetup.com/Amazon-Web-Services-AWS-User-Group-Nepal/"
+    },
+    {
+      "id": "Space-UG_360",
+      "name": "AWS User Group Niger",
+      "location": "Niamey",
+      "country": "Niger",
+      "countryCode": "NE",
+      "url": "https://www.meetup.com/aws-user-goup-niger/"
+    },
+    {
+      "id": "Space-UG_392",
+      "name": "AWS User Group North East Scotland",
+      "location": "North East Scotland (Dundee)",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-north-east-scotland/"
+    },
+    {
+      "id": "Space-UG_225",
+      "name": "AWS User Group Novi Sad",
+      "location": "Novi Sad",
+      "country": "Serbia",
+      "countryCode": "RS",
+      "url": "https://www.meetup.com/awsnovisad/"
+    },
+    {
+      "id": "Space-UG_214",
+      "name": "AWS User Group Olsztyn",
+      "location": "Olsztyn",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-olsztyn/"
+    },
+    {
+      "id": "Space-UG_501",
+      "name": "AWS User Group Orizaba",
+      "location": "Orizaba",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-orizaba"
+    },
+    {
+      "id": "Space-UG_259",
+      "name": "AWS User Group Oslo (Norway)",
+      "location": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO",
+      "url": "https://www.meetup.com/aws-user-group-norway/"
+    },
+    {
+      "id": "Space-UG_296",
+      "name": "AWS User Group Padova",
+      "location": "Padova",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-padova/"
+    },
+    {
+      "id": "Space-UG_028",
+      "name": "AWS User Group Pakistan",
+      "location": "Lahore",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "url": "https://www.linkedin.com/company/aws-community-pakistan/"
+    },
+    {
+      "id": "Space-UG_309",
+      "name": "AWS User Group Palma",
+      "location": "Palma",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/amazon-web-services-user-group-palma-spain/"
+    },
+    {
+      "id": "Space-UG_509",
+      "name": "AWS User Group Panamá",
+      "location": "Panamá",
+      "country": "Panama",
+      "countryCode": "PA",
+      "url": "https://www.meetup.com/AWS-User-Group-Panama/"
+    },
+    {
+      "id": "Space-UG_043",
+      "name": "AWS User Group Pangasinan",
+      "location": "Pangasinan",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "url": "https://www.meetup.com/aws-user-group-pangasinan/"
+    },
+    {
+      "id": "Space-UG_511",
+      "name": "AWS User Group Paraguay",
+      "location": "Asunción",
+      "country": "Paraguay",
+      "countryCode": "PY",
+      "url": "https://www.meetup.com/aws-ug-paraguay"
+    },
+    {
+      "id": "Space-UG_430",
+      "name": "AWS User Group Passo Fundo",
+      "location": "Passo Fundo",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-passo-fundo/"
+    },
+    {
+      "id": "Space-UG_476",
+      "name": "AWS User Group Pasto",
+      "location": "Pasto",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/aws-user-group-pasto/"
+    },
+    {
+      "id": "Space-UG_453",
+      "name": "AWS User Group Patagonia",
+      "location": "Patagonia",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/patagonia-aws-cloud-user-group/"
+    },
+    {
+      "id": "Space-UG_304",
+      "name": "AWS User Group Pavia",
+      "location": "Pavia",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/awsusergrouppavia/"
+    },
+    {
+      "id": "Space-UG_468",
+      "name": "AWS User Group Pereira",
+      "location": "Pereira",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/aws-user-group-pereira/"
+    },
+    {
+      "id": "Space-UG_006",
+      "name": "AWS User Group Perth",
+      "location": "Perth",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/Amazon-Web-Services-User-Group/"
+    },
+    {
+      "id": "Space-UG_517",
+      "name": "AWS User Group Peru",
+      "location": "Lima",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/awsperu/"
+    },
+    {
+      "id": "Space-UG_042",
+      "name": "AWS User Group Peshawar",
+      "location": "Peshawar",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "url": "https://www.meetup.com/aws-user-group-peshawar/"
+    },
+    {
+      "id": "Space-UG_414",
+      "name": "AWS User Group Piaui",
+      "location": "Piauí",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-piaui/"
+    },
+    {
+      "id": "Space-UG_418",
+      "name": "AWS User Group Piracicaba",
+      "location": "Piracicaba",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-ug-regiao-metropolitana-de-piracicaba/"
+    },
+    {
+      "id": "Space-UG_614",
+      "name": "AWS User Group Playa Vicente",
+      "location": "Playa Vicente",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-playa-vicente"
+    },
+    {
+      "id": "Space-UG_219",
+      "name": "AWS User Group Poland",
+      "location": "Poznan",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/awsugpl/"
+    },
+    {
+      "id": "Space-UG_308",
+      "name": "AWS User Group Porto",
+      "location": "Porto",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "url": "https://www.meetup.com/aws-porto-user-group/"
+    },
+    {
+      "id": "Space-UG_441",
+      "name": "AWS User Group Porto Alegre",
+      "location": "Porto Alegre",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/AWS-Porto-Alegre/"
+    },
+    {
+      "id": "Space-UG_631",
+      "name": "AWS User Group Puducherry",
+      "location": "Puducherry",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-puducherry/"
+    },
+    {
+      "id": "Space-UG_498",
+      "name": "AWS User Group Puebla",
+      "location": "Puebla",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/awspuebla/"
+    },
+    {
+      "id": "Space-UG_522",
+      "name": "AWS User Group Puerto Rico",
+      "location": "Puerto Rico",
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "url": "https://www.meetup.com/amazon-web-services-puerto-rico-user-group/"
+    },
+    {
+      "id": "Space-UG_086",
+      "name": "AWS User Group Pune",
+      "location": "Pune",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-pune/"
+    },
+    {
+      "id": "Space-UG_087",
+      "name": "AWS User Group Punjab",
+      "location": "Punjab",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-punjab/"
+    },
+    {
+      "id": "Space-UG_354",
+      "name": "AWS User Group Pwani",
+      "location": "Mombasa",
+      "country": "Kenya",
+      "countryCode": "KE",
+      "url": "https://www.meetup.com/awsugpwani/"
+    },
+    {
+      "id": "Space-UG_489",
+      "name": "AWS User Group Queretaro",
+      "location": "Queretaro",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/Amazon-Web-Services-Queretaro/"
+    },
+    {
+      "id": "Space-UG_624",
+      "name": "AWS User Group Quito",
+      "location": "Quito",
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "url": "https://www.meetup.com/aws-user-group-quito/"
+    },
+    {
+      "id": "Space-UG_088",
+      "name": "AWS User Group Rajkot",
+      "location": "Rajkot",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://bit.ly/awscommunityrajkot"
+    },
+    {
+      "id": "Space-UG_253",
+      "name": "AWS User Group Reykjavik",
+      "location": "Reykjavik",
+      "country": "Iceland",
+      "countryCode": "IS",
+      "url": "https://www.meetup.com/aws-user-group-reykjavik/"
+    },
+    {
+      "id": "Space-UG_254",
+      "name": "AWS User Group Riga (Latvia)",
+      "location": "Riga",
+      "country": "Latvia",
+      "countryCode": "LV",
+      "url": "https://www.meetup.com/aws-latvia-user-group/"
+    },
+    {
+      "id": "Space-UG_435",
+      "name": "AWS User Group Rio de Janeiro",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/AWS-Meetup-Rio-de-Janeiro/"
+    },
+    {
+      "id": "Space-UG_286",
+      "name": "AWS User Group Roma",
+      "location": "Roma",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/amazon-web-services-rome/"
+    },
+    {
+      "id": "Space-UG_215",
+      "name": "AWS User Group Rzeszow",
+      "location": "Rzeszow",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-rzeszow/"
+    },
+    {
+      "id": "Space-UG_182",
+      "name": "AWS User Group Saarbrücken",
+      "location": "Saarbrücken",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-user-group-saarland/"
+    },
+    {
+      "id": "Space-UG_298",
+      "name": "AWS User Group Salerno",
+      "location": "Salerno",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-salerno/"
+    },
+    {
+      "id": "Space-UG_496",
+      "name": "AWS User Group Saltillo",
+      "location": "Saltillo",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-saltillo"
+    },
+    {
+      "id": "Space-UG_429",
+      "name": "AWS User Group Salvador",
+      "location": "Salvador",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-salvador"
+    },
+    {
+      "id": "Space-UG_609",
+      "name": "AWS User Group Samarkand",
+      "location": "Samarkand",
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "url": "https://www.meetup.com/en-AU/meetup-group-user-group-samarkand/"
+    },
+    {
+      "id": "Space-UG_493",
+      "name": "AWS User Group San Luis Potosí",
+      "location": "San Luis Potosí",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-slp/"
+    },
+    {
+      "id": "Space-UG_455",
+      "name": "AWS User Group San Rafael",
+      "location": "San Rafael",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/aws-user-group-san-rafael/"
+    },
+    {
+      "id": "Space-UG_461",
+      "name": "AWS User Group Santa Cruz de la Sierra",
+      "location": "Santa Cruz de la Sierra",
+      "country": "Bolivia",
+      "countryCode": "BO",
+      "url": "https://www.meetup.com/user-group-santa-cruz/"
+    },
+    {
+      "id": "Space-UG_419",
+      "name": "AWS User Group Santa Cruz do Sul",
+      "location": "",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/user-group-santa-cruz/"
+    },
+    {
+      "id": "Space-UG_622",
+      "name": "AWS User Group Santa Rita do Sapucai",
+      "location": "Santa Rita do Sapucai",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-user-group-santa-rita-do-sapucai/"
+    },
+    {
+      "id": "Space-UG_620",
+      "name": "AWS User Group Sao Roque",
+      "location": "Sao Roque",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-sao-roque/"
+    },
+    {
+      "id": "Space-UG_583",
+      "name": "AWS User Group Seattle | AWSUGSEA",
+      "location": "Seattle, Washington",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Seattle-OfficialEvents/"
+    },
+    {
+      "id": "Space-UG_450",
+      "name": "AWS User Group Security Argentina",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/aws-security-usergroup-argentina/"
+    },
+    {
+      "id": "Space-UG_613",
+      "name": "AWS User Group Security Colombia",
+      "location": "Bogota",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/aws-user-group-security-colombia"
+    },
+    {
+      "id": "Space-UG_612",
+      "name": "AWS User Group Security Ecuador",
+      "location": "Guayaquil",
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "url": "https://www.meetup.com/aws-user-group-security-ecuador"
+    },
+    {
+      "id": "Space-UG_512",
+      "name": "AWS User Group Security LATAM",
+      "location": "Lima",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/awssecuritylatam/"
+    },
+    {
+      "id": "Space-UG_438",
+      "name": "AWS User Group Sergipe",
+      "location": "Aracaju",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-sergipe"
+    },
+    {
+      "id": "Space-UG_417",
+      "name": "AWS User Group Seridó e Sabugy",
+      "location": "Seridó",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-serido-e-sabugy"
+    },
+    {
+      "id": "Space-UG_315",
+      "name": "AWS User Group Sevilla",
+      "location": "Sevilla",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-user-group-sevilla/"
+    },
+    {
+      "id": "Space-UG_048",
+      "name": "AWS User Group Shanghai",
+      "location": "Shanghai",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/shanghai/"
+    },
+    {
+      "id": "Space-UG_633",
+      "name": "AWS User Group Shenzhen",
+      "location": "Shenzhen",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/shenzhen/"
+    },
+    {
+      "id": "Space-UG_216",
+      "name": "AWS User Group Silesia",
+      "location": "Katowice",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-silesia/"
+    },
+    {
+      "id": "Space-UG_035",
+      "name": "AWS User Group Singapore",
+      "location": "Singapore",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "url": "https://www.meetup.com/AWS-SG/"
+    },
+    {
+      "id": "Space-UG_265",
+      "name": "AWS User Group Skåne",
+      "location": "Malmö",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "url": "https://www.meetup.com/aws-user-group-skane/"
+    },
+    {
+      "id": "Space-UG_420",
+      "name": "AWS User Group Sorocaba",
+      "location": "Sorocaba",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-user-group-sorocaba/"
+    },
+    {
+      "id": "Space-UG_617",
+      "name": "AWS User Group South Tamaulipas",
+      "location": "Tampico",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-south-tamaulipas-user-group"
+    },
+    {
+      "id": "Space-UG_186",
+      "name": "AWS User Group Stuttgart",
+      "location": "Stuttgart",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-usergroup-stuttgart/"
+    },
+    {
+      "id": "Space-UG_460",
+      "name": "AWS User Group Sucre",
+      "location": "Sucre",
+      "country": "Bolivia",
+      "countryCode": "BO",
+      "url": "https://www.meetup.com/aws-user_group-sucre/"
+    },
+    {
+      "id": "Space-UG_022",
+      "name": "AWS User Group Surabaya",
+      "location": "Surabaya",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "url": "https://www.meetup.com/AWS-User-Group-Surabaya/"
+    },
+    {
+      "id": "Space-UG_089",
+      "name": "AWS User Group Surat",
+      "location": "Surat",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/surat-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_007",
+      "name": "AWS User Group Sydney",
+      "location": "Sydney",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/AWS-Sydney/"
+    },
+    {
+      "id": "Space-UG_421",
+      "name": "AWS User Group São Lourenço",
+      "location": "São Lourenço",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-user-group-sao-lourenco/"
+    },
+    {
+      "id": "Space-UG_425",
+      "name": "AWS User Group São Paulo",
+      "location": "São Paulo",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/Sao-Paulo-Amazon-Web-Services-AWS-Meetup/"
+    },
+    {
+      "id": "Space-UG_436",
+      "name": "AWS User Group São Paulo Interior",
+      "location": "Interior SP: Ribeirão Preto, Sorocaba, São Carlos and other.",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-BR/aws-user-group-sp-interior/"
+    },
+    {
+      "id": "Space-UG_516",
+      "name": "AWS User Group Tacna",
+      "location": "Tacna",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/aws-user-group-tacna"
+    },
+    {
+      "id": "Space-UG_629",
+      "name": "AWS User Group Taichung",
+      "location": "Taichung",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "url": "https://www.facebook.com/awsugtw.taichung"
+    },
+    {
+      "id": "Space-UG_065",
+      "name": "AWS User Group Taiwan",
+      "location": "Taipei",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "url": "https://tw.events.awsug.net/"
+    },
+    {
+      "id": "Space-UG_248",
+      "name": "AWS User Group Tallinn",
+      "location": "Tallinn",
+      "country": "Estonia",
+      "countryCode": "EE",
+      "url": "https://www.meetup.com/aws-user-group-tallinn/"
+    },
+    {
+      "id": "Space-UG_251",
+      "name": "AWS User Group Tampere",
+      "location": "Tampere",
+      "country": "Finland",
+      "countryCode": "FI",
+      "url": "https://www.meetup.com/aws-user-group-tampere/"
+    },
+    {
+      "id": "Space-UG_241",
+      "name": "AWS User Group Tashkent",
+      "location": "Tashkent",
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "url": "https://www.meetup.com/aws-tashkent/"
+    },
+    {
+      "id": "Space-UG_170",
+      "name": "AWS User Group Tbilisi",
+      "location": "Tbilisi",
+      "country": "Georgia",
+      "countryCode": "GE",
+      "url": "https://www.meetup.com/aws-user-group-tbilisi/"
+    },
+    {
+      "id": "Space-UG_037",
+      "name": "AWS User Group Thailand",
+      "location": "Bangkok",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "url": "https://www.facebook.com/groups/696722700418928/"
+    },
+    {
+      "id": "Space-UG_256",
+      "name": "AWS User Group The Netherlands",
+      "location": "Amsterdam",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "url": "https://www.meetup.com/aws-ams/"
+    },
+    {
+      "id": "Space-UG_196",
+      "name": "AWS User Group Thessaloniki",
+      "location": "Thessaloniki",
+      "country": "Greece",
+      "countryCode": "GR",
+      "url": "https://www.meetup.com/aws-user-group-thessaloniki/"
+    },
+    {
+      "id": "Space-UG_234",
+      "name": "AWS User Group Ticino",
+      "location": "Lugano",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "url": "https://www.meetup.com/aws-user-group-ticino/"
+    },
+    {
+      "id": "Space-UG_502",
+      "name": "AWS User Group Tijuana",
+      "location": "Tijuana",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-ug-tijuana"
+    },
+    {
+      "id": "Space-UG_221",
+      "name": "AWS User Group Timisoara",
+      "location": "Timisoara",
+      "country": "Romania",
+      "countryCode": "RO",
+      "url": "https://www.meetup.com/aws-timisoara"
+    },
+    {
+      "id": "Space-UG_161",
+      "name": "AWS User Group Tirana",
+      "location": "Tirana",
+      "country": "Albania",
+      "countryCode": "AL",
+      "url": "https://www.meetup.com/aws-user-group-tirane/"
+    },
+    {
+      "id": "Space-UG_090",
+      "name": "AWS User Group Tirupati",
+      "location": "Tirupati",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-tirupati/"
+    },
+    {
+      "id": "Space-UG_507",
+      "name": "AWS User Group Tlaxcala",
+      "location": "Tlaxcala",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-tlaxcala/"
+    },
+    {
+      "id": "Space-UG_611",
+      "name": "AWS User Group Tlaxcala FireflyCloud",
+      "location": "Tlaxcala",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/fb83c392-728a-42dc-9a3f-7d351301e452"
+    },
+    {
+      "id": "Space-UG_636",
+      "name": "AWS User Group Tokyo Chinese",
+      "location": "Virtual",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://cnug.connpass.com/"
+    },
+    {
+      "id": "Space-UG_300",
+      "name": "AWS User Group Torino",
+      "location": "Torino",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-torino/"
+    },
+    {
+      "id": "Space-UG_434",
+      "name": "AWS User Group Triangulo Mineiro",
+      "location": "Triangulo Mineiro",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-BR/aws-user-group-triangulo-mineiro/"
+    },
+    {
+      "id": "Space-UG_639",
+      "name": "AWS User Group Trichy",
+      "location": "Trichy",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-trichy/"
+    },
+    {
+      "id": "Space-UG_326",
+      "name": "AWS User Group Tripoli",
+      "location": "Tripoli",
+      "country": "Libya",
+      "countryCode": "LY",
+      "url": "https://www.meetup.com/aws-user-group-community-bulder-libya"
+    },
+    {
+      "id": "Space-UG_515",
+      "name": "AWS User Group Trujillo",
+      "location": "Trujillo",
+      "country": "Peru",
+      "countryCode": "PE",
+      "url": "https://www.meetup.com/es/aws-ug-trujillo/"
+    },
+    {
+      "id": "Space-UG_427",
+      "name": "AWS User Group Tubarão",
+      "location": "Tubarao",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/tubaraoops/"
+    },
+    {
+      "id": "Space-UG_585",
+      "name": "AWS User Group Tulsa",
+      "location": "Tulsa, OK",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/tulsa-aws/"
+    },
+    {
+      "id": "Space-UG_332",
+      "name": "AWS User Group Tunisia",
+      "location": "Tunis",
+      "country": "Tunisia",
+      "countryCode": "TN",
+      "url": "https://www.meetup.com/aws-user-group-tunisia/"
+    },
+    {
+      "id": "Space-UG_619",
+      "name": "AWS User Group Tupaciguara",
+      "location": "Tupaciguara",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-user-group-tupaciguara/"
+    },
+    {
+      "id": "Space-UG_335",
+      "name": "AWS User Group Turkey",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "countryCode": "TR",
+      "url": "https://www.meetup.com/aws-user-group-turkey/"
+    },
+    {
+      "id": "Space-UG_616",
+      "name": "AWS User Group Tuxtla Gutierrez",
+      "location": "Tuxtla Gutierrez",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-user-group-tuxtla-gutierrez"
+    },
+    {
+      "id": "Space-UG_095",
+      "name": "AWS User Group Udaipur",
+      "location": "Udaipur",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-groups-udaipur/"
+    },
+    {
+      "id": "Space-UG_397",
+      "name": "AWS User Group UK",
+      "location": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/awsuguk/"
+    },
+    {
+      "id": "Space-UG_091",
+      "name": "AWS User Group Vadodara",
+      "location": "Vadodara",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/AWS-Community-Vadodara/"
+    },
+    {
+      "id": "Space-UG_446",
+      "name": "AWS User Group Vale Do Paraiba",
+      "location": "Vale Do Paraiba",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/pt-br/aws-user-group-vale-do-paraiba/"
+    },
+    {
+      "id": "Space-UG_316",
+      "name": "AWS User Group Valencia",
+      "location": "Valencia",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/aws-valencia/"
+    },
+    {
+      "id": "Space-UG_474",
+      "name": "AWS User Group Valle del Cauca",
+      "location": "Valle del Cauca",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es-ES/aws-user-group-valle-del-cauca/"
+    },
+    {
+      "id": "Space-UG_301",
+      "name": "AWS User Group Venezia",
+      "location": "Venezia",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/aws-user-group-venezia/"
+    },
+    {
+      "id": "Space-UG_163",
+      "name": "AWS User Group Vienna",
+      "location": "Vienna",
+      "country": "Austria",
+      "countryCode": "AT",
+      "url": "https://www.meetup.com/amazon-web-services-aws-vienna/"
+    },
+    {
+      "id": "Space-UG_038",
+      "name": "AWS User Group Vietnam",
+      "location": "Vietnam",
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "url": "https://www.facebook.com/groups/1062986163789359"
+    },
+    {
+      "id": "Space-UG_497",
+      "name": "AWS User Group Villahermosa",
+      "location": "Villahermosa",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-ug-villahermosa"
+    },
+    {
+      "id": "Space-UG_628",
+      "name": "AWS User Group Virovitica",
+      "location": "Virovitica",
+      "country": "Croatia",
+      "countryCode": "HR",
+      "url": "https://www.meetup.com/aws-user-group-virovitica/"
+    },
+    {
+      "id": "Space-UG_217",
+      "name": "AWS User Group Warsaw",
+      "location": "Warsaw",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-warsaw/"
+    },
+    {
+      "id": "Space-UG_394",
+      "name": "AWS User Group West Midlands",
+      "location": "Birmingham",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-west-midlands/"
+    },
+    {
+      "id": "Space-UG_582",
+      "name": "AWS User Group West Palm Beach",
+      "location": "West Palm Beach, Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-west-palm-beach-user-group/"
+    },
+    {
+      "id": "Space-UG_359",
+      "name": "AWS User Group Windhoek",
+      "location": "Windhoek",
+      "country": "Namibia",
+      "countryCode": "NA",
+      "url": "https://www.meetup.com/aws-user-group-windhoek/"
+    },
+    {
+      "id": "Space-UG_010",
+      "name": "AWS User Group Wollongong",
+      "location": "Wollongong",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/aws-wollongong/"
+    },
+    {
+      "id": "Space-UG_479",
+      "name": "AWS User Group Women Ecuador",
+      "location": "Guayaquil",
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "url": "https://www.meetup.com/aws-women-ecuador/"
+    },
+    {
+      "id": "Space-UG_618",
+      "name": "AWS User Group Women Goiania",
+      "location": "Goiania",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "url": "https://www.meetup.com/aws-women-user-group-goiania/"
+    },
+    {
+      "id": "Space-UG_092",
+      "name": "AWS User Group Women in Tech India",
+      "location": "Chennai",
+      "country": "India",
+      "countryCode": "IN",
+      "url": "https://www.meetup.com/aws-user-group-women-in-tech-india/"
+    },
+    {
+      "id": "Space-UG_040",
+      "name": "AWS User Group Women in Tech Lahore",
+      "location": "Lahore",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "url": "https://www.linkedin.com/company/aws-user-group-women-in-tech-lahore/"
+    },
+    {
+      "id": "Space-UG_098",
+      "name": "AWS User Group Women in Tech Nepal",
+      "location": "Kathmandu",
+      "country": "Nepal",
+      "countryCode": "NP",
+      "url": "https://www.meetup.com/meetup-group-diiznhre/"
+    },
+    {
+      "id": "Space-UG_592",
+      "name": "AWS User Group Women in Tech Ontario",
+      "location": "Toronto, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/aws-women-in-tech-user-group-ontario/"
+    },
+    {
+      "id": "Space-UG_209",
+      "name": "AWS User Group Wroclaw",
+      "location": "Wroclaw",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-ug-wroclaw/"
+    },
+    {
+      "id": "Space-UG_053",
+      "name": "AWS User Group Wuhan",
+      "location": "Wuhan",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/wuhan/"
+    },
+    {
+      "id": "Space-UG_051",
+      "name": "AWS User Group Xian",
+      "location": "Xian",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/xian/"
+    },
+    {
+      "id": "Space-UG_345",
+      "name": "AWS User Group Yaounde",
+      "location": "Yaounde",
+      "country": "Cameroon",
+      "countryCode": "CM",
+      "url": "https://www.meetup.com/aws-user-group-yaounde/"
+    },
+    {
+      "id": "Space-UG_341",
+      "name": "AWS User Group Yemen",
+      "location": "Yemen",
+      "country": "Yemen",
+      "countryCode": "YE",
+      "url": "https://www.meetup.com/aws-yemen-user-group"
+    },
+    {
+      "id": "Space-UG_402",
+      "name": "AWS User Group York",
+      "location": "York",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/york-amazon-web-services-user-group/"
+    },
+    {
+      "id": "Space-UG_168",
+      "name": "AWS User Group Zagreb",
+      "location": "Zagreb",
+      "country": "Croatia",
+      "countryCode": "HR",
+      "url": "https://www.meetup.com/aws-user-group-zg/"
+    },
+    {
+      "id": "Space-UG_058",
+      "name": "AWS User Group Zhangjiakou",
+      "location": "Zhangjiakou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/zhangjiakou/"
+    },
+    {
+      "id": "Space-UG_635",
+      "name": "AWS User Group Zhengzhou",
+      "location": "Zhengzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/cities/zhengzhou/"
+    },
+    {
+      "id": "Space-UG_229",
+      "name": "AWS User Group Zilina",
+      "location": "Zilina",
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "url": "https://www.meetup.com/aws-usergroup-zilina/"
+    },
+    {
+      "id": "Space-UG_224",
+      "name": "AWS User Group Zrenjanin",
+      "location": "Zrenjanin",
+      "country": "Serbia",
+      "countryCode": "RS",
+      "url": "https://www.meetup.com/aws-user-group-zrenjanin/"
+    },
+    {
+      "id": "Space-UG_264",
+      "name": "AWS User Group Örebro",
+      "location": "Örebro",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "url": "https://www.meetup.com/aws-user-group-orebro/"
+    },
+    {
+      "id": "Space-UG_218",
+      "name": "AWS User Group Łódź",
+      "location": "Łódź",
+      "country": "Poland",
+      "countryCode": "PL",
+      "url": "https://www.meetup.com/aws-user-group-?od?/"
+    },
+    {
+      "id": "Space-UG_391",
+      "name": "AWS User Group- North East, England",
+      "location": "North East England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-north-east-england/"
+    },
+    {
+      "id": "Space-UG_393",
+      "name": "AWS User Group- Thames Valley",
+      "location": "Thames Valley",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-user-group-thames-valley/"
+    },
+    {
+      "id": "Space-UG_540",
+      "name": "AWS User Groups of Florida - Fort Lauderdale",
+      "location": "Fort Lauderdale, Florida, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/South-Florida-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_615",
+      "name": "AWS Users Group Minatitlan",
+      "location": "Minatitlan",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "url": "https://www.meetup.com/aws-users-group-minatitlan"
+    },
+    {
+      "id": "Space-UG_018",
+      "name": "AWS Well-architected Auckland User Group",
+      "location": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "url": "https://www.meetup.com/aws-auckland-well-architected-user-group/"
+    },
+    {
+      "id": "Space-UG_011",
+      "name": "AWS Well-architected Melbourne User Group",
+      "location": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/aws-melbourne-well-architected-user-group/"
+    },
+    {
+      "id": "Space-UG_012",
+      "name": "AWS Well-architected Sydney User Group",
+      "location": "Sydney",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/aws-sydney-well-architected-user-group/"
+    },
+    {
+      "id": "Space-UG_305",
+      "name": "AWS Well-Architected User Group Italy",
+      "location": "Milano",
+      "country": "Italy",
+      "countryCode": "IT",
+      "url": "https://www.meetup.com/the-cloud-house/"
+    },
+    {
+      "id": "Space-UG_467",
+      "name": "AWS Women Colombia",
+      "location": "Bogota",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es/aws-women-colombia-user-group/"
+    },
+    {
+      "id": "Space-UG_630",
+      "name": "AWS Women in Cloud Buenos Aires",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "url": "https://www.meetup.com/aws-women-in-cloud-buenos-aires-meetup/"
+    },
+    {
+      "id": "Space-UG_189",
+      "name": "AWS Women's User Group Berlin",
+      "location": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/berlin-amazon-web-services-meetup-group/"
+    },
+    {
+      "id": "Space-UG_330",
+      "name": "AWS Women's User Group Jeddah",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "url": "https://www.linkedin.com/groups/13064153/"
+    },
+    {
+      "id": "Space-UG_187",
+      "name": "AWS Women's User Group Munich",
+      "location": "München",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-womens-user-group-munich/"
+    },
+    {
+      "id": "Space-UG_364",
+      "name": "AWS Women's User Group Port Harcourt",
+      "location": "Port Harcourt",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "url": "https://www.meetup.com/aws-womens-user-group-port-harcourt/"
+    },
+    {
+      "id": "Space-UG_266",
+      "name": "AWS Women's User Group Sweden",
+      "location": "Stockholm",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "url": "https://www.meetup.com/aws-womens-user-group-sweden/"
+    },
+    {
+      "id": "Space-UG_338",
+      "name": "AWS Women's User Group UAE",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "url": "https://www.meetup.com/aws-womens-user-group-uae/"
+    },
+    {
+      "id": "Space-UG_165",
+      "name": "AWS Women's User Group Vienna",
+      "location": "Vienna",
+      "country": "Austria",
+      "countryCode": "AT",
+      "url": "https://www.meetup.com/aws-womens-user-group-vienna/"
+    },
+    {
+      "id": "Space-UG_465",
+      "name": "AWS Women's User Groups Colombia",
+      "location": "Bogota",
+      "country": "Colombia",
+      "countryCode": "CO",
+      "url": "https://www.meetup.com/es/aws-Women's User Groups-colombia-user-group/"
+    },
+    {
+      "id": "Space-UG_363",
+      "name": "AWS Womens User Group Abuja",
+      "location": "Abuja",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "url": "https://www.meetup.com/aws-women-user-group-abujja/"
+    },
+    {
+      "id": "Space-UG_333",
+      "name": "AWS Womens User Group Tunisia",
+      "location": "Tunis",
+      "country": "Tunisia",
+      "countryCode": "TN",
+      "url": "https://www.meetup.com/aws-womens-user-group-tunisia/"
+    },
+    {
+      "id": "Space-UG_317",
+      "name": "AWS Zaragoza User Group",
+      "location": "Zaragoza",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/awszgz/"
+    },
+    {
+      "id": "Space-UG_378",
+      "name": "BelfAWSt User Group",
+      "location": "Belfast",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "url": "https://www.meetup.com/belfawst-meetup/"
+    },
+    {
+      "id": "Space-UG_172",
+      "name": "Berlin AWS User Group",
+      "location": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-berlin/"
+    },
+    {
+      "id": "Space-UG_103",
+      "name": "BigData-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-bigdata.connpass.com/"
+    },
+    {
+      "id": "Space-UG_527",
+      "name": "Birmingham AWS Meetup",
+      "location": "Birmingham, Alabama, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/BirminghamAWS/"
+    },
+    {
+      "id": "Space-UG_274",
+      "name": "Bordeaux AWS User Group",
+      "location": "Bordeaux",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/bordeaux-amazon-web-services/"
+    },
+    {
+      "id": "Space-UG_603",
+      "name": "Boulder AWS User Group (BAWSUG)",
+      "location": "Boulder, CO",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/boulder-aws-amazon-web-services/"
+    },
+    {
+      "id": "Space-UG_275",
+      "name": "Brest AWS User Group",
+      "location": "Brest",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/brest-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_383",
+      "name": "Cambridge AWS User Group",
+      "location": "Cambridge",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/aws-amazon-web-services-cambridge-meetup-group/"
+    },
+    {
+      "id": "Space-UG_571",
+      "name": "Charleston Amazon Web Services (AWS)",
+      "location": "Mount Pleasant, SC",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/chs-amazon-web-services/"
+    },
+    {
+      "id": "Space-UG_548",
+      "name": "Chicago AWS User Group",
+      "location": "Chicago, Illinois",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-chicago/"
+    },
+    {
+      "id": "Space-UG_570",
+      "name": "Columbia AWS User Group",
+      "location": "Columbia, South Carolina",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/columbia-aws-users-group/"
+    },
+    {
+      "id": "Space-UG_566",
+      "name": "Columbus AWS (Amazon Web Services) Meetup",
+      "location": "Columbus, Ohio",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Columbus-AWS-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_191",
+      "name": "Dresden AWS User Group",
+      "location": "Dresden",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/dresden-aws-user-group"
+    },
+    {
+      "id": "Space-UG_400",
+      "name": "East Anglia AWS User Group",
+      "location": "Ipswich",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "url": "https://www.meetup.com/ipswich-aws-user-group"
+    },
+    {
+      "id": "Space-UG_104",
+      "name": "Education-JAWS",
+      "location": "Tsukuba",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://education-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_105",
+      "name": "Fin-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://fin-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_175",
+      "name": "Frankfurt AWS User Group",
+      "location": "Frankfurt",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-frankfurt/"
+    },
+    {
+      "id": "Space-UG_106",
+      "name": "Gov-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://gov-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_569",
+      "name": "Greater Philadelphia AWS User Group",
+      "location": "Pottstown, Pennsylvania",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/gpawsug/"
+    },
+    {
+      "id": "Space-UG_277",
+      "name": "Grenoble AWS User Group",
+      "location": "Grenoble",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/grenoble-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_188",
+      "name": "Hamburg AWS User Group",
+      "location": "Hamburg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/awsughh/"
+    },
+    {
+      "id": "Space-UG_549",
+      "name": "IndyAWS",
+      "location": "Fishers, Indiana",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/IndyAWS/"
+    },
+    {
+      "id": "Space-UG_285",
+      "name": "Israel AWS User Group",
+      "location": "Tel Aviv-Yafo",
+      "country": "Israel",
+      "countryCode": "IL",
+      "url": "https://www.meetup.com/aws-il/"
+    },
+    {
+      "id": "Space-UG_555",
+      "name": "Jackson Metro AWS Meetup Group",
+      "location": "Jackson, Mississppi",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/jacksonmetro-amazon-web-services-meetup-group/"
+    },
+    {
+      "id": "Space-UG_541",
+      "name": "Jacksonville AWS User Group",
+      "location": "Jacksonville, Florida, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/jacksonville-aws/"
+    },
+    {
+      "id": "Space-UG_107",
+      "name": "JAWS-UG AIML",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-ai.connpass.com/"
+    },
+    {
+      "id": "Space-UG_108",
+      "name": "JAWS-UG ARCHITECTURE",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-arch.connpass.com/"
+    },
+    {
+      "id": "Space-UG_109",
+      "name": "JAWS-UG ASA",
+      "location": "Sapporo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-asa.connpass.com/"
+    },
+    {
+      "id": "Space-UG_110",
+      "name": "JAWS-UG BEGINNERS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-bgnr.connpass.com/"
+    },
+    {
+      "id": "Space-UG_111",
+      "name": "JAWS-UG CDK",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-cdk.connpass.com/"
+    },
+    {
+      "id": "Space-UG_112",
+      "name": "JAWS-UG Chiba",
+      "location": "Chiba",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-chiba.connpass.com/"
+    },
+    {
+      "id": "Space-UG_113",
+      "name": "JAWS-UG CLI",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-cli.connpass.com/"
+    },
+    {
+      "id": "Space-UG_114",
+      "name": "JAWS-UG CLOUD GIRLS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-cloudgirl.connpass.com/"
+    },
+    {
+      "id": "Space-UG_115",
+      "name": "JAWS-UG CONTAINER",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-container.connpass.com/"
+    },
+    {
+      "id": "Space-UG_116",
+      "name": "JAWS-UG DE&I",
+      "location": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsugdei.connpass.com/"
+    },
+    {
+      "id": "Space-UG_117",
+      "name": "JAWS-UG Ehime",
+      "location": "Matsuyama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-ehime.doorkeeper.jp/"
+    },
+    {
+      "id": "Space-UG_118",
+      "name": "JAWS-UG Fukuoka",
+      "location": "Fukuoka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-fukuoka.connpass.com/"
+    },
+    {
+      "id": "Space-UG_119",
+      "name": "JAWS-UG GAMETECH",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-gametech.connpass.com/"
+    },
+    {
+      "id": "Space-UG_120",
+      "name": "JAWS-UG Gunma",
+      "location": "Takasaki",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-gunma.connpass.com/"
+    },
+    {
+      "id": "Space-UG_121",
+      "name": "JAWS-UG Hakodate",
+      "location": "Hakodate",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-hakodate.connpass.com/"
+    },
+    {
+      "id": "Space-UG_122",
+      "name": "JAWS-UG Hamamatsu",
+      "location": "Hamamatsu",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-hamamatsu.connpass.com/"
+    },
+    {
+      "id": "Space-UG_123",
+      "name": "JAWS-UG Hiroshima",
+      "location": "Hiroshima",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-hiroshima.connpass.com/"
+    },
+    {
+      "id": "Space-UG_124",
+      "name": "JAWS-UG HPC",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-hpc.connpass.com/"
+    },
+    {
+      "id": "Space-UG_125",
+      "name": "JAWS-UG Ibaraki",
+      "location": "Mito",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-ibaraki.connpass.com/"
+    },
+    {
+      "id": "Space-UG_126",
+      "name": "JAWS-UG IoT",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-iot.connpass.com/"
+    },
+    {
+      "id": "Space-UG_127",
+      "name": "JAWS-UG Iwata",
+      "location": "Iwata",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-iwata.connpass.com/"
+    },
+    {
+      "id": "Space-UG_128",
+      "name": "JAWS-UG Kagawa",
+      "location": "Takamatsu",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kagawa.connpass.com/"
+    },
+    {
+      "id": "Space-UG_158",
+      "name": "JAWS-UG Kagoshima",
+      "location": "Kagoshima",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jaws-ug-kagoshima.connpass.com/"
+    },
+    {
+      "id": "Space-UG_129",
+      "name": "JAWS-UG Kanazawa",
+      "location": "Kanazawa",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kanazawa.connpass.com/"
+    },
+    {
+      "id": "Space-UG_130",
+      "name": "JAWS-UG Kobe",
+      "location": "Kobe",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kobe.connpass.com/"
+    },
+    {
+      "id": "Space-UG_131",
+      "name": "JAWS-UG Kochi",
+      "location": "Kochi",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kochi.connpass.com/"
+    },
+    {
+      "id": "Space-UG_132",
+      "name": "JAWS-UG Kumamoto",
+      "location": "Kumamoto",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kumamoto.connpass.com/"
+    },
+    {
+      "id": "Space-UG_133",
+      "name": "JAWS-UG Kyoto",
+      "location": "Kyoto",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-kyoto.connpass.com/"
+    },
+    {
+      "id": "Space-UG_157",
+      "name": "JAWS-UG Nagano",
+      "location": "Nagano",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-nagano.connpass.com/"
+    },
+    {
+      "id": "Space-UG_134",
+      "name": "JAWS-UG Nagoya",
+      "location": "Nagoya",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-nagoya.connpass.com/"
+    },
+    {
+      "id": "Space-UG_135",
+      "name": "JAWS-UG Niigata",
+      "location": "Niigata",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-niigata.connpass.com/"
+    },
+    {
+      "id": "Space-UG_136",
+      "name": "JAWS-UG Oita",
+      "location": "Oita",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-oita.connpass.com/"
+    },
+    {
+      "id": "Space-UG_137",
+      "name": "JAWS-UG Okayama",
+      "location": "Okayama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jaws-ug-okayama.doorkeeper.jp/"
+    },
+    {
+      "id": "Space-UG_138",
+      "name": "JAWS-UG Okinawa",
+      "location": "Naha",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-okinawa.connpass.com/"
+    },
+    {
+      "id": "Space-UG_139",
+      "name": "JAWS-UG Osaka",
+      "location": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsugosaka.connpass.com/"
+    },
+    {
+      "id": "Space-UG_140",
+      "name": "JAWS-UG Saga",
+      "location": "Saga",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-saga.connpass.com/"
+    },
+    {
+      "id": "Space-UG_141",
+      "name": "JAWS-UG Sainokuni Saitama",
+      "location": "Omiya",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-sainokuni-saitama.connpass.com/"
+    },
+    {
+      "id": "Space-UG_142",
+      "name": "JAWS-UG Sapporo",
+      "location": "Sapporo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-sapporo.connpass.com/"
+    },
+    {
+      "id": "Space-UG_143",
+      "name": "JAWS-UG Shimane",
+      "location": "Matsue",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-shimane.connpass.com/"
+    },
+    {
+      "id": "Space-UG_155",
+      "name": "JAWS-UG Shizuoka",
+      "location": "Shizuoka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-shizuoka.connpass.com/"
+    },
+    {
+      "id": "Space-UG_144",
+      "name": "JAWS-UG SRE",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-sre.connpass.com/"
+    },
+    {
+      "id": "Space-UG_145",
+      "name": "JAWS-UG Tochigi",
+      "location": "Oyama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-tochigi.connpass.com/"
+    },
+    {
+      "id": "Space-UG_156",
+      "name": "JAWS-UG Tokushima",
+      "location": "Tokushima",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-sikoku.connpass.com/"
+    },
+    {
+      "id": "Space-UG_146",
+      "name": "JAWS-UG Tokyo",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug.connpass.com/"
+    },
+    {
+      "id": "Space-UG_147",
+      "name": "JAWS-UG Toyama",
+      "location": "Toyama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-toyama.connpass.com/"
+    },
+    {
+      "id": "Space-UG_148",
+      "name": "JAWS-UG Yamanashi",
+      "location": "Kofu",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jaws-ug-yamanashi.connpass.com/"
+    },
+    {
+      "id": "Space-UG_149",
+      "name": "JAWS-UG Yokohama",
+      "location": "Yokohama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-yokohama.connpass.com/"
+    },
+    {
+      "id": "Space-UG_367",
+      "name": "Johannesburg AWS User Group",
+      "location": "Johannesburg",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "url": "https://www.meetup.com/aws-jozi/"
+    },
+    {
+      "id": "Space-UG_372",
+      "name": "Kampala AWS User Group",
+      "location": "Kampala",
+      "country": "Uganda",
+      "countryCode": "UG",
+      "url": "https://www.meetup.com/kampala-aws-user-group-meetup-group/"
+    },
+    {
+      "id": "Space-UG_160",
+      "name": "Kiro Korea User Group",
+      "location": "Seoul",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "url": "https://luma.com/kiro-krug"
+    },
+    {
+      "id": "Space-UG_572",
+      "name": "Knoxville Amazon Web Services Meetup",
+      "location": "Knoxville, Tennessee",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Knoxville-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_176",
+      "name": "Leipzig AWS User Group",
+      "location": "Leipzig",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/aws-leipzig/"
+    },
+    {
+      "id": "Space-UG_379",
+      "name": "Letterkeny AWS User Group",
+      "location": "Letterkeny",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "url": "https://www.meetup.com/letterkenny-aws-users-meetup-group/"
+    },
+    {
+      "id": "Space-UG_278",
+      "name": "Lille AWS User Group",
+      "location": "Lille",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/"
+    },
+    {
+      "id": "Space-UG_270",
+      "name": "Lyon AWS User Group- LAWS",
+      "location": "Lyon",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/aws-lyon-amazon-web-services-user-group/"
+    },
+    {
+      "id": "Space-UG_319",
+      "name": "Madrid AWS Meetup",
+      "location": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES",
+      "url": "https://www.meetup.com/madrid-amazon-web-services-meetup/"
+    },
+    {
+      "id": "Space-UG_357",
+      "name": "Mauritius AWS User Group",
+      "location": "Ebene",
+      "country": "Mauritius",
+      "countryCode": "MU",
+      "url": "https://www.meetup.com/mauritius-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_150",
+      "name": "Media-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://media-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_008",
+      "name": "Melbourne AWS Programming and Tools Meetup",
+      "location": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/Melbourne-AWS-Programming-and-Tools-Meetup/"
+    },
+    {
+      "id": "Space-UG_009",
+      "name": "Melbourne Serverless Meetup",
+      "location": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "url": "https://www.meetup.com/Melbourne-Serverless-Meetup-Group/"
+    },
+    {
+      "id": "Space-UG_542",
+      "name": "Miami AWS User Group",
+      "location": "Miami, Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/aws-miami-user-group/"
+    },
+    {
+      "id": "Space-UG_588",
+      "name": "Montréal AWS User Group",
+      "location": "Montréal, Québec",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/montreal-aws-users-united/"
+    },
+    {
+      "id": "Space-UG_280",
+      "name": "Mulhouse AWS User Group",
+      "location": "Mulhouse",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/mulhouse-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_370",
+      "name": "Mzansi AWS",
+      "location": "Johannesburg",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "url": "https://www.meetup.com/mzansi-aws/"
+    },
+    {
+      "id": "Space-UG_573",
+      "name": "Nashville AWS User Group",
+      "location": "Nashville, TN",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/nashville-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_546",
+      "name": "NW Atlanta Amazon Web Services Meetup",
+      "location": "Smyrna, Georgia",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/NW-Atlanta-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_151",
+      "name": "NW-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://jawsug-nw.connpass.com/"
+    },
+    {
+      "id": "Space-UG_562",
+      "name": "NY Capital District AWS User Group",
+      "location": "Albany, New York",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/ny-capital-district-aws-user-group"
+    },
+    {
+      "id": "Space-UG_563",
+      "name": "NYC Amazon Web Services User Group & Forums",
+      "location": "New York City, New York",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWSnewyork/"
+    },
+    {
+      "id": "Space-UG_194",
+      "name": "Nürnberg AWS User Group",
+      "location": "Nürnberg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "url": "https://www.meetup.com/nurnberg-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_067",
+      "name": "Observability & AIOps",
+      "location": "Virtual",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/specialized/observability/"
+    },
+    {
+      "id": "Space-UG_558",
+      "name": "Omaha Amazon Web Services Meetup",
+      "location": "Elkhorn, Nebraska",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Omaha-Amazon-Web-Services-Meetup/"
+    },
+    {
+      "id": "Space-UG_064",
+      "name": "Online Study Group",
+      "location": "Virtual",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/specialized/online-events/"
+    },
+    {
+      "id": "Space-UG_152",
+      "name": "Ops-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://opsjaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_543",
+      "name": "Orlando AWS User Group",
+      "location": "Orlando, Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/orlandoaws/"
+    },
+    {
+      "id": "Space-UG_596",
+      "name": "Ottawa AWS User Group",
+      "location": "Ottawa, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/ottawa-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_281",
+      "name": "Pau AWS User Group",
+      "location": "Pau",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/pau-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_282",
+      "name": "Poitiers AWS User Group",
+      "location": "Poitiers",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/poitiers-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_567",
+      "name": "Portland AWS User Group",
+      "location": "Portland, Oregon",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Portland/"
+    },
+    {
+      "id": "Space-UG_405",
+      "name": "Prague AWS User Group",
+      "location": "Prague",
+      "country": "Czech Republic",
+      "countryCode": "CZ",
+      "url": "https://www.meetup.com/prague-aws-meetup/"
+    },
+    {
+      "id": "Space-UG_594",
+      "name": "Québec City AWS User Group",
+      "location": "Quebec City, Quebec",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/quebeccity-aws-user-group/"
+    },
+    {
+      "id": "Space-UG_560",
+      "name": "RGC3 Rio Grande Corridor Cloud Community | AWS UG",
+      "location": "Las Cruces, NM",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/awsaerospace/"
+    },
+    {
+      "id": "Space-UG_580",
+      "name": "Richmond Cloud Wranglers",
+      "location": "Richmond, Virginia",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/rvacloudwranglers/"
+    },
+    {
+      "id": "Space-UG_537",
+      "name": "Santa Cruz AWS Meetup Group",
+      "location": "Santa Cruz, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/santa-cruz-aws-meetup-group/"
+    },
+    {
+      "id": "Space-UG_637",
+      "name": "Security User Group",
+      "location": "Virtual",
+      "country": "China",
+      "countryCode": "CN",
+      "url": "https://awscommunity.cn/specialized/security/"
+    },
+    {
+      "id": "Space-UG_153",
+      "name": "Security-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://s-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_536",
+      "name": "Silicon Valley Cloud and Artificial Intelligence Engineers",
+      "location": "Santa Clara, California, USA",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/meetup-group-kOMaBzOz/"
+    },
+    {
+      "id": "Space-UG_154",
+      "name": "Storage-JAWS",
+      "location": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "url": "https://storage-jaws.connpass.com/"
+    },
+    {
+      "id": "Space-UG_272",
+      "name": "Strasbourg AWS User Group",
+      "location": "Strasbourg",
+      "country": "France",
+      "countryCode": "FR",
+      "url": "https://www.meetup.com/aws-user-group-strasbourg/"
+    },
+    {
+      "id": "Space-UG_545",
+      "name": "Tampa Bay AWS User Group",
+      "location": "Tampa, Florida",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Tampa-Bay-AWS-Group/"
+    },
+    {
+      "id": "Space-UG_550",
+      "name": "The bAWSton User Group",
+      "location": "Boston, Massachusetts",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/The-Boston-Amazon-Web-Services-Meetup-Group/"
+    },
+    {
+      "id": "Space-UG_576",
+      "name": "The Houston Amazon Web Services (AWS) Group",
+      "location": "Houston, Texas",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Houston/"
+    },
+    {
+      "id": "Space-UG_590",
+      "name": "Toronto AWS User Group",
+      "location": "Toronto, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/Toronto-AWS-Users-United"
+    },
+    {
+      "id": "Space-UG_557",
+      "name": "Triangle AWS User Group",
+      "location": "Raleigh, North Carolina",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/AWS-Raleigh/"
+    },
+    {
+      "id": "Space-UG_577",
+      "name": "Utah AWS",
+      "location": "Lehi, Utah",
+      "country": "United States",
+      "countryCode": "US",
+      "url": "https://www.meetup.com/Utah-AWS/"
+    },
+    {
+      "id": "Space-UG_587",
+      "name": "Vancouver AWS User Group",
+      "location": "Vancouver, British Columbia",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.meetup.com/vanawsug/"
+    },
+    {
+      "id": "Space-UG_593",
+      "name": "Windsor AWS User Group",
+      "location": "Windsor, Ontario",
+      "country": "Canada",
+      "countryCode": "CA",
+      "url": "https://www.linkedin.com/groups/12207103/"
+    }
+  ]
+}
