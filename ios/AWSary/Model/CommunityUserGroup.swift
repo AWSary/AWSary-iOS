@@ -15,12 +15,26 @@ struct CommunityUserGroup: Codable, Hashable, Identifiable {
     let metadataStatus: String
     let activity: CommunityUserGroupActivity?
 
+    var platformName: String {
+        switch platform {
+        case "aws_community": "AWS Community"
+        case "connpass": "Connpass"
+        case "doorkeeper": "Doorkeeper"
+        case "facebook": "Facebook"
+        case "linkedin": "LinkedIn"
+        case "luma": "Luma"
+        case "meetup": "Meetup"
+        case "website": "Website"
+        default: platform.replacingOccurrences(of: "_", with: " ").capitalized
+        }
+    }
+
     func matches(searchText: String, selectedCountry: String?, selectedPlatform: String?) -> Bool {
         if let selectedCountry, location.country != selectedCountry {
             return false
         }
 
-        if let selectedPlatform, platform != selectedPlatform {
+        if let selectedPlatform, platformName != selectedPlatform {
             return false
         }
 

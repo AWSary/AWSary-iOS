@@ -14,6 +14,7 @@ struct SearchView: View {
     let onNavigate: (AppTab) -> Void
     @StateObject private var awsServices = AwsServices()
     @StateObject private var communityStore = CommunityMemberStore()
+    @StateObject private var userGroupStore = CommunityUserGroupStore()
     @State private var isSearchPresented = false
     @State private var submittedQuery = ""
     @State private var selectedFacet: SearchFacet = .topResults
@@ -64,7 +65,7 @@ struct SearchView: View {
                 text: $searchString,
                 isPresented: $isSearchPresented,
                 placement: .navigationBarDrawer(displayMode: .always),
-                prompt: "Services and community members"
+                prompt: "Services, people, and User Groups"
             )
             .autocorrectionDisabled()
             .onSubmit(of: .search) {
@@ -92,8 +93,9 @@ struct SearchView: View {
 
         let services = awsServices.services.map(UnifiedSearchResult.service)
         let members = communityStore.members.map(UnifiedSearchResult.member)
+        let userGroups = userGroupStore.groups.map(UnifiedSearchResult.userGroup)
 
-        return (services + members)
+        return (services + members + userGroups)
             .compactMap { result in
                 searchScore(for: result, query: searchTerm).map { (result, $0) }
             }
@@ -198,6 +200,15 @@ private struct SearchDiscoveryView: View {
                     description: "Discover community members",
                     systemImage: "person.3",
                     color: .blue
+                ) {
+                    onNavigate(.community)
+                }
+
+                SearchDiscoveryCard(
+                    title: "User Groups",
+                    description: "Find AWS communities worldwide",
+                    systemImage: "person.3.fill",
+                    color: .green
                 ) {
                     onNavigate(.community)
                 }
@@ -311,6 +322,10 @@ private struct SearchResultsView: View {
         results.compactMap(\.member)
     }
 
+    private var userGroups: [CommunityUserGroup] {
+        results.compactMap(\.userGroup)
+    }
+
     var body: some View {
         VStack(spacing: 0) {
             SearchFacetBar(selection: $selectedFacet)
@@ -363,6 +378,26 @@ private struct SearchResultsView: View {
                         }
                     }
                 }
+
+                if !userGroups.isEmpty {
+                    Section("User Groups") {
+                        ForEach(userGroups.prefix(topResultLimit)) { userGroup in
+                            NavigationLink {
+                                CommunityUserGroupDetailView(userGroup: userGroup)
+                            } label: {
+                                UserGroupSearchResultRow(userGroup: userGroup)
+                            }
+                        }
+
+                        if userGroups.count > topResultLimit {
+                            SearchFacetNavigationButton(
+                                title: "See all \(userGroups.count) User Groups",
+                                destination: .userGroups,
+                                selection: $selectedFacet
+                            )
+                        }
+                    }
+                }
             }
             .listStyle(.insetGrouped)
         case .services:
@@ -387,6 +422,19 @@ private struct SearchResultsView: View {
                         CommunityMemberDetailView(member: member)
                     } label: {
                         CommunitySearchResultRow(member: member)
+                    }
+                }
+                .listStyle(.plain)
+            }
+        case .userGroups:
+            if userGroups.isEmpty {
+                ContentUnavailableView("No User Groups", systemImage: "person.3.fill")
+            } else {
+                List(userGroups) { userGroup in
+                    NavigationLink {
+                        CommunityUserGroupDetailView(userGroup: userGroup)
+                    } label: {
+                        UserGroupSearchResultRow(userGroup: userGroup)
                     }
                 }
                 .listStyle(.plain)
@@ -445,6 +493,7 @@ private enum SearchFacet: String, CaseIterable, Identifiable {
     case topResults
     case services
     case people
+    case userGroups
 
     var id: Self { self }
 
@@ -453,6 +502,7 @@ private enum SearchFacet: String, CaseIterable, Identifiable {
         case .topResults: "Top Results"
         case .services: "Services"
         case .people: "People"
+        case .userGroups: "User Groups"
         }
     }
 }
@@ -460,11 +510,13 @@ private enum SearchFacet: String, CaseIterable, Identifiable {
 private enum UnifiedSearchResult: Identifiable {
     case service(awsService)
     case member(CommunityMember)
+    case userGroup(CommunityUserGroup)
 
     var id: String {
         switch self {
         case .service(let service): "service:\(service.id)"
         case .member(let member): "member:\(member.id)"
+        case .userGroup(let userGroup): "user-group:\(userGroup.id)"
         }
     }
 
@@ -474,6 +526,8 @@ private enum UnifiedSearchResult: Identifiable {
             service.name
         case .member(let member):
             member.name
+        case .userGroup(let userGroup):
+            userGroup.name
         }
     }
 
@@ -483,6 +537,8 @@ private enum UnifiedSearchResult: Identifiable {
             [service.name, service.longName]
         case .member(let member):
             [member.name]
+        case .userGroup(let userGroup):
+            [userGroup.name]
         }
     }
 
@@ -492,6 +548,16 @@ private enum UnifiedSearchResult: Identifiable {
             [service.shortDesctiption]
         case .member(let member):
             [member.bio, member.location] + member.statuses + member.specialties
+        case .userGroup(let userGroup):
+            [
+                userGroup.summary,
+                userGroup.location.displayName,
+                userGroup.location.city ?? "",
+                userGroup.location.region ?? "",
+                userGroup.location.country,
+                userGroup.platformName,
+                userGroup.networkName ?? ""
+            ] + userGroup.topics
         }
     }
 
@@ -499,6 +565,7 @@ private enum UnifiedSearchResult: Identifiable {
         switch self {
         case .service(let service): service.longName
         case .member(let member): member.name
+        case .userGroup(let userGroup): userGroup.name
         }
     }
 
@@ -510,6 +577,11 @@ private enum UnifiedSearchResult: Identifiable {
     var member: CommunityMember? {
         guard case .member(let member) = self else { return nil }
         return member
+    }
+
+    var userGroup: CommunityUserGroup? {
+        guard case .userGroup(let userGroup) = self else { return nil }
+        return userGroup
     }
 }
 
@@ -530,6 +602,12 @@ private struct UnifiedSearchResultLink: View {
                 CommunityMemberDetailView(member: member)
             } label: {
                 CommunitySearchResultRow(member: member)
+            }
+        case .userGroup(let userGroup):
+            NavigationLink {
+                CommunityUserGroupDetailView(userGroup: userGroup)
+            } label: {
+                UserGroupSearchResultRow(userGroup: userGroup)
             }
         }
     }
@@ -574,6 +652,28 @@ private struct CommunitySearchResultRow: View {
 
     private var memberSummary: String {
         ([member.location] + Array(member.specialties.prefix(2)))
+            .filter { !$0.isEmpty }
+            .joined(separator: " • ")
+    }
+}
+
+private struct UserGroupSearchResultRow: View {
+    let userGroup: CommunityUserGroup
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Label(userGroup.name, systemImage: "person.3.fill")
+                .foregroundStyle(.primary)
+
+            Text(userGroupSummary)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .lineLimit(2)
+        }
+    }
+
+    private var userGroupSummary: String {
+        [userGroup.location.displayName, userGroup.platformName]
             .filter { !$0.isEmpty }
             .joined(separator: " • ")
     }
