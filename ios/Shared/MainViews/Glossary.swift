@@ -14,11 +14,11 @@ struct Glossary: View {
     @State private var searchQuery = ""
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.modelContext) private var modelContext
-    @Query var settings: [SystemSetting]
+    @Query(filter: #Predicate<SystemSetting> { $0.key == "awsServiceLogoWithLabel" }) var logoSettings: [SystemSetting]
     
-    // Computed property for awsServiceLogoWithLabel setting
+    // Cached property for awsServiceLogoWithLabel setting to reduce database queries
     private var awsServiceLogoWithLabel: Bool {
-       return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
+       return logoSettings.first?.boolValue ?? true
     }
     
     var filteredAwsServices: [awsService] {
@@ -32,27 +32,33 @@ struct Glossary: View {
     var body: some View {
                NavigationStack{
                    ScrollView{
-                    LazyVGrid(
-                       columns: [GridItem(.adaptive(minimum: 100))], content: {
-                          ForEach(filteredAwsServices, id: \.self){ service in
-                             NavigationLink(destination: DetailsView(service: service)){
-                                VStack(alignment: .center, spacing: 4, content: {
-                                   AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
-                                      .frame(minHeight: 140)
-                                   if (!awsServiceLogoWithLabel){
-                                      Text(service.name)
-                                         .font(.subheadline)
-                                         .lineLimit(3)
-                                   }
-                                   Spacer()
-                                })
-                             }
-                          }
-                       }).padding(.horizontal, 12)
-                       .accentColor(Color(colorScheme == .dark ? .white : .black))
+                       if awsServices.isLoading {
+                           ProgressView("Loading AWS Services...")
+                               .frame(maxWidth: .infinity, maxHeight: .infinity)
+                               .padding()
+                       } else {
+                           LazyVGrid(
+                              columns: [GridItem(.adaptive(minimum: 100))], content: {
+                                 ForEach(filteredAwsServices, id: \.self){ service in
+                                    NavigationLink(destination: DetailsView(service: service)){
+                                       VStack(alignment: .center, spacing: 4, content: {
+                                          AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
+                                             .frame(minHeight: 140)
+                                          if (!awsServiceLogoWithLabel){
+                                             Text(service.name)
+                                                .font(.subheadline)
+                                                .lineLimit(3)
+                                          }
+                                          Spacer()
+                                       })
+                                    }
+                                 }
+                              }).padding(.horizontal, 12)
+                              .accentColor(Color(colorScheme == .dark ? .white : .black))
+                       }
                  }
                  .refreshable {
-                    AwsServices().refresh()
+                    await awsServices.refresh()
                  }
                  .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
                  .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
