@@ -20,6 +20,9 @@ struct AboutView: View {
    @StateObject private var appleProfile = AppleProfileStore()
    @Query var settings: [SystemSetting]
    @Query var cachedStats: [CachedAppStats]
+   private var developerAppsURL: URL? {
+      URL(string: "https://apps.apple.com/developer/tiagorodrigues/id1634871093")
+   }
    
    // Add state variable to store the random service
    @State private var randomAWSservice: awsService?
@@ -342,6 +345,20 @@ struct AboutView: View {
             Section(header: Text("How to use AWSary")){
                Text("Search for the name of an AWS service, you can open and look for the definition of it. You can also drag and drop the service logo to your favorite drawing application. (Check video below)")
                MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
+            }
+            Section(header: Text("More iOS Apps")){
+               if let developerAppsURL {
+                  Link(destination: developerAppsURL) {
+                     Label {
+                        VStack(alignment: .leading){
+                           Text("Discover my other apps")
+                           Text("Explore all iOS apps by Tiago Rodrigues on the App Store.").font(.footnote).opacity(0.6)
+                        }
+                     } icon:{
+                        Image(systemName: "apps.iphone")
+                     }
+                  }
+               }
             }
             Section(){
                Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!)
