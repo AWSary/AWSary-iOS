@@ -395,7 +395,7 @@ private struct SearchResultsView: View {
                                 destination: .userGroups,
                                 selection: $selectedFacet
                             )
-                        }
+                           }
                     }
                 }
             }

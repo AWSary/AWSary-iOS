@@ -1,14 +1,18 @@
 import AppIntents
 import CoreSpotlight
 import Foundation
+import UIKit
 import UniformTypeIdentifiers
 
-struct AWSServiceEntity: IndexedEntity {
+struct AWSServiceEntity: IndexedEntity, URLRepresentableEntity {
     static var typeDisplayRepresentation = TypeDisplayRepresentation(
         name: "AWS Service",
         synonyms: ["AWS glossary item", "AWS product"]
     )
     static var defaultQuery = AWSServiceEntityQuery()
+    static var urlRepresentation: URLRepresentation {
+        "awsary://service/\(.id)"
+    }
 
     let id: Int
     let name: String
@@ -29,10 +33,14 @@ struct AWSServiceEntity: IndexedEntity {
     }
 
     var displayRepresentation: DisplayRepresentation {
-        DisplayRepresentation(
+        let image = iconPNGData.map {
+            DisplayRepresentation.Image(data: $0, displayStyle: .default)
+        } ?? DisplayRepresentation.Image(named: iconAssetName)
+
+        return DisplayRepresentation(
             title: "\(fullName)",
             subtitle: "\(name)",
-            image: DisplayRepresentation.Image(named: iconAssetName)
+            image: image
         )
     }
 
@@ -42,7 +50,9 @@ struct AWSServiceEntity: IndexedEntity {
         attributes.displayName = fullName
         attributes.contentDescription = summary.awsaryPlainTextSummary
         attributes.keywords = searchableFields
-        attributes.thumbnailURL = Bundle.main.url(forResource: iconAssetName, withExtension: nil)
+        attributes.contentURL = deepLink.url
+        attributes.url = deepLink.url
+        attributes.thumbnailData = iconPNGData
         return attributes
     }
 
@@ -59,6 +69,10 @@ struct AWSServiceEntity: IndexedEntity {
             iconURL,
             youtubeID
         ]
+    }
+
+    private var iconPNGData: Data? {
+        UIImage(named: iconAssetName)?.pngData()
     }
 }
 

@@ -3,6 +3,8 @@ import Foundation
 actor AWSaryContentDataSource {
     static let shared = AWSaryContentDataSource()
 
+    private let indexSchemaVersion = "app-intents-index-v4"
+
     private var cachedServices: [awsService]?
     private var cachedHeroes: [CommunityMember]?
     private var cachedUserGroups: [CommunityUserGroup]?
@@ -113,7 +115,7 @@ actor AWSaryContentDataSource {
         let heroCount = await heroes().count
         let userGroupCount = await userGroups().count
         let counts = "\(serviceCount):\(heroCount):\(userGroupCount)"
-        return (components + [counts]).joined(separator: "|")
+        return ([indexSchemaVersion] + components + [counts]).joined(separator: "|")
     }
 
     private func loadResource<T: Decodable>(_ name: String, as type: T.Type) -> T {

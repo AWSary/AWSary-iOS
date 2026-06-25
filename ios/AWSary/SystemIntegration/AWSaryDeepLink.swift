@@ -1,3 +1,4 @@
+import CoreSpotlight
 import Foundation
 
 enum AWSaryDeepLink: Hashable, Sendable {
@@ -53,5 +54,17 @@ final class AWSaryDeepLinkDispatcher: ObservableObject {
     func open(_ url: URL) {
         guard let deepLink = AWSaryDeepLink(url: url) else { return }
         open(deepLink)
+    }
+
+    func open(_ userActivity: NSUserActivity) {
+        if let url = userActivity.webpageURL {
+            open(url)
+            return
+        }
+
+        if let identifier = userActivity.userInfo?[CSSearchableItemActivityIdentifier] as? String,
+           let url = URL(string: identifier) {
+            open(url)
+        }
     }
 }

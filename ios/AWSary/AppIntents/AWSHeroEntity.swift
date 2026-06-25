@@ -3,12 +3,15 @@ import CoreSpotlight
 import Foundation
 import UniformTypeIdentifiers
 
-struct AWSHeroEntity: IndexedEntity {
+struct AWSHeroEntity: IndexedEntity, URLRepresentableEntity {
     static var typeDisplayRepresentation = TypeDisplayRepresentation(
         name: "AWS Hero",
         synonyms: ["AWS community hero", "AWS community member"]
     )
     static var defaultQuery = AWSHeroEntityQuery()
+    static var urlRepresentation: URLRepresentation {
+        "awsary://hero/\(.id)"
+    }
 
     let id: String
     let name: String
@@ -46,6 +49,8 @@ struct AWSHeroEntity: IndexedEntity {
         attributes.displayName = name
         attributes.contentDescription = bio.awsaryPlainTextSummary
         attributes.keywords = searchableFields
+        attributes.contentURL = deepLink.url
+        attributes.url = deepLink.url
         if let url = URL(string: imageURL), !imageURL.isEmpty {
             attributes.thumbnailURL = url
         }

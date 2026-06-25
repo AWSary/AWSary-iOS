@@ -3,12 +3,15 @@ import CoreSpotlight
 import Foundation
 import UniformTypeIdentifiers
 
-struct AWSUserGroupEntity: IndexedEntity {
+struct AWSUserGroupEntity: IndexedEntity, URLRepresentableEntity {
     static var typeDisplayRepresentation = TypeDisplayRepresentation(
         name: "AWS User Group",
         synonyms: ["AWS community group", "AWS meetup"]
     )
     static var defaultQuery = AWSUserGroupEntityQuery()
+    static var urlRepresentation: URLRepresentation {
+        "awsary://user-group/\(.id)"
+    }
 
     let id: String
     let name: String
@@ -54,6 +57,8 @@ struct AWSUserGroupEntity: IndexedEntity {
         attributes.displayName = name
         attributes.contentDescription = summary.awsaryPlainTextSummary
         attributes.keywords = searchableFields
+        attributes.contentURL = deepLink.url
+        attributes.url = deepLink.url
         if let url = URL(string: imageURL), !imageURL.isEmpty {
             attributes.thumbnailURL = url
         }

@@ -5,6 +5,7 @@
 //  Created by Tiago Rodrigues on 10/11/2024.
 //
 
+import CoreSpotlight
 import SwiftUI
 
 struct AppTabsView: View {
@@ -62,6 +63,9 @@ struct AppTabsView: View {
        .tabViewStyle(.sidebarAdaptable)
        .onOpenURL { url in
            deepLinkDispatcher.open(url)
+       }
+       .onContinueUserActivity(CSSearchableItemActionType) { userActivity in
+           deepLinkDispatcher.open(userActivity)
        }
        .onReceive(deepLinkDispatcher.$pendingDeepLink.compactMap { $0 }) { deepLink in
            handle(deepLink)
