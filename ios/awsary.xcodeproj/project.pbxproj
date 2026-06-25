@@ -44,9 +44,10 @@
 		D1F0010D2FEC000000000001 /* OpenAWSHeroIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F0010C2FEC000000000001 /* OpenAWSHeroIntent.swift */; };
 		D1F0010F2FEC000000000001 /* OpenAWSUserGroupIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F0010E2FEC000000000001 /* OpenAWSUserGroupIntent.swift */; };
 		D1F001112FEC000000000001 /* AWSaryAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001102FEC000000000001 /* AWSaryAppShortcuts.swift */; };
-		D1F001132FEC000000000001 /* AWSaryContentIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001122FEC000000000001 /* AWSaryContentIndexer.swift */; };
-		D1F001152FEC000000000001 /* AWSaryDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001142FEC000000000001 /* AWSaryDeepLink.swift */; };
-		D1F001192FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */; };
+			D1F001132FEC000000000001 /* AWSaryContentIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001122FEC000000000001 /* AWSaryContentIndexer.swift */; };
+			D1F001152FEC000000000001 /* AWSaryDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001142FEC000000000001 /* AWSaryDeepLink.swift */; };
+			D1F001192FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */; };
+			D1F0011B2FEC000000000001 /* AWSaryContentSnippetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F0011A2FEC000000000001 /* AWSaryContentSnippetIntents.swift */; };
 		EE00843328820C8C003BA190 /* AWSaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842328820C8B003BA190 /* AWSaryApp.swift */; };
 		EE00843528820C8C003BA190 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00842428820C8B003BA190 /* OnboardingView.swift */; };
 		EE00843728820C8C003BA190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00842528820C8C003BA190 /* Assets.xcassets */; };
@@ -120,9 +121,10 @@
 		D1F0010C2FEC000000000001 /* OpenAWSHeroIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAWSHeroIntent.swift; sourceTree = "<group>"; };
 		D1F0010E2FEC000000000001 /* OpenAWSUserGroupIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAWSUserGroupIntent.swift; sourceTree = "<group>"; };
 		D1F001102FEC000000000001 /* AWSaryAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryAppShortcuts.swift; sourceTree = "<group>"; };
-		D1F001122FEC000000000001 /* AWSaryContentIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryContentIndexer.swift; sourceTree = "<group>"; };
-		D1F001142FEC000000000001 /* AWSaryDeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryDeepLink.swift; sourceTree = "<group>"; };
-		D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryAppIntentsDebugVerification.swift; sourceTree = "<group>"; };
+			D1F001122FEC000000000001 /* AWSaryContentIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryContentIndexer.swift; sourceTree = "<group>"; };
+			D1F001142FEC000000000001 /* AWSaryDeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryDeepLink.swift; sourceTree = "<group>"; };
+			D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryAppIntentsDebugVerification.swift; sourceTree = "<group>"; };
+			D1F0011A2FEC000000000001 /* AWSaryContentSnippetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryContentSnippetIntents.swift; sourceTree = "<group>"; };
 		EE00842328820C8B003BA190 /* AWSaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSaryApp.swift; sourceTree = "<group>"; };
 		EE00842428820C8B003BA190 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EE00842528820C8C003BA190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -380,9 +382,10 @@
 				D1F0010A2FEC000000000001 /* OpenAWSServiceIntent.swift */,
 				D1F0010C2FEC000000000001 /* OpenAWSHeroIntent.swift */,
 				D1F0010E2FEC000000000001 /* OpenAWSUserGroupIntent.swift */,
-				D1F001102FEC000000000001 /* AWSaryAppShortcuts.swift */,
-				D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */,
-			);
+					D1F001102FEC000000000001 /* AWSaryAppShortcuts.swift */,
+					D1F001182FEC000000000001 /* AWSaryAppIntentsDebugVerification.swift */,
+					D1F0011A2FEC000000000001 /* AWSaryContentSnippetIntents.swift */,
+				);
 			path = AppIntents;
 			sourceTree = "<group>";
 		};
@@ -550,8 +553,9 @@
 				EE7AE2BB2A72547F00DEEBBE /* UserViewModel.swift in Sources */,
 				EEE080502885A4C000F8F7A4 /* DetailsView.swift in Sources */,
 				34B8ABF32E4F87120074B5C5 /* WebView.swift in Sources */,
-				D1F0010B2FEC000000000001 /* OpenAWSServiceIntent.swift in Sources */,
-				EE6EE5B22C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
+					D1F0010B2FEC000000000001 /* OpenAWSServiceIntent.swift in Sources */,
+					D1F0011B2FEC000000000001 /* AWSaryContentSnippetIntents.swift in Sources */,
+					EE6EE5B22C19F6DF00F452E5 /* AAIEventData.swift in Sources */,
 				EE00CBBC29630AAF00FE3DCB /* MyYoutubePlayer.swift in Sources */,
 				D1F001032FEC000000000001 /* AWSaryContentDataSource.swift in Sources */,
 				EE6EE5BA2C19F74100F452E5 /* CalendarViewModel.swift in Sources */,

@@ -12,6 +12,6 @@ struct OpenAWSUserGroupIntent: OpenIntent {
     @MainActor
     func perform() async throws -> some IntentResult {
         AWSaryDeepLinkDispatcher.shared.open(target.deepLink)
-        return .result()
+        return .result(snippetIntent: AWSUserGroupSnippetIntent(userGroup: target))
     }
 }

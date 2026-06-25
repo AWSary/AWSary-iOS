@@ -71,7 +71,7 @@ struct AWSServiceEntity: IndexedEntity, URLRepresentableEntity {
         ]
     }
 
-    private var iconPNGData: Data? {
+    var iconPNGData: Data? {
         UIImage(named: iconAssetName)?.pngData()
     }
 }
