@@ -12,9 +12,15 @@ struct Glossary: View {
     @State private var showingSheet = false
     @ObservedObject var awsServices = AwsServices()
     @State private var searchQuery = ""
+    @State private var navigationPath: [awsService] = []
+    @Binding private var requestedServiceID: Int?
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.modelContext) private var modelContext
     @Query var settings: [SystemSetting]
+
+    init(requestedServiceID: Binding<Int?> = .constant(nil)) {
+       _requestedServiceID = requestedServiceID
+    }
     
     // Computed property for awsServiceLogoWithLabel setting
     private var awsServiceLogoWithLabel: Bool {
@@ -30,12 +36,12 @@ struct Glossary: View {
     }
     
     var body: some View {
-               NavigationStack{
+               NavigationStack(path: $navigationPath){
                    ScrollView{
                     LazyVGrid(
                        columns: [GridItem(.adaptive(minimum: 100))], content: {
                           ForEach(filteredAwsServices, id: \.self){ service in
-                             NavigationLink(destination: DetailsView(service: service)){
+                             NavigationLink(value: service){
                                 VStack(alignment: .center, spacing: 4, content: {
                                    AWSserviceImagePlaceHolderView(service: service, showLabel: awsServiceLogoWithLabel)
                                       .frame(minHeight: 140)
@@ -47,12 +53,21 @@ struct Glossary: View {
                                    Spacer()
                                 })
                              }
-                          }
-                       }).padding(.horizontal, 12)
+                       }
+                    }).padding(.horizontal, 12)
                        .accentColor(Color(colorScheme == .dark ? .white : .black))
+                 }
+                 .navigationDestination(for: awsService.self) { service in
+                    DetailsView(service: service)
                  }
                  .refreshable {
                     AwsServices().refresh()
+                 }
+                 .onChange(of: requestedServiceID) {
+                    openRequestedServiceIfPossible()
+                 }
+                 .onChange(of: awsServices.services.count) {
+                    openRequestedServiceIfPossible()
                  }
                  .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
                  .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
@@ -68,6 +83,16 @@ struct Glossary: View {
                  AboutView()
               }
        }
+
+   private func openRequestedServiceIfPossible() {
+      guard let requestedServiceID else { return }
+      guard let service = awsServices.services.first(where: { $0.id == requestedServiceID }) else {
+         return
+      }
+
+      navigationPath = [service]
+      self.requestedServiceID = nil
+   }
     }
 
 #Preview {
