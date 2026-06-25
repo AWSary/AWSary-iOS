@@ -30,17 +30,14 @@ struct AppTabsView: View {
 
     var body: some View {
        TabView(selection: tabSelection) {
-//            Tab("AWSary", systemImage: "house"){
-//                HomeView()
-//            }
+           Tab("Glossary", systemImage: "books.vertical", value: .glossary) {
+               Glossary(requestedServiceID: $requestedServiceID)
+           }
            Tab("Community", systemImage: "person.3.sequence", value: .community) {
                Community(
                    requestedHeroID: $requestedHeroID,
                    requestedUserGroupID: $requestedUserGroupID
                )
-           }
-           Tab("Glossary", systemImage: "books.vertical", value: .glossary) {
-               Glossary(requestedServiceID: $requestedServiceID)
            }
            Tab("Game", systemImage: "gamecontroller", value: .game) {
                Game()
