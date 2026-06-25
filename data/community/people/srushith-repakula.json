@@ -1,0 +1,92 @@
+{
+  "id": "person_srushith_repakula",
+  "slug": "srushith-repakula",
+  "displayName": "Srushith Repakula",
+  "headline": "Head of Engineering, KonfHub",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": "Karnataka"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/33zroPyQLeNDZjYm0V8P7APg6x6.webp",
+    "sourceUrl": "https://builder.aws.com/community/@srushith",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@srushith",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@srushith",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@srushith"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/SrushithR",
+      "handle": "SrushithR",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@srushith"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/srushith/",
+      "handle": "srushith",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@srushith"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/SrushithR",
+      "handle": "SrushithR",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@srushith"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@ServerlessSaturdays",
+      "handle": "@ServerlessSaturdays",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@srushith"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@srushith",
+      "retrievedAt": "2026-06-21T18:18:32Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:32Z"
+}

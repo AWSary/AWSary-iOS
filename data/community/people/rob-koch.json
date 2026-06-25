@@ -1,0 +1,119 @@
+{
+  "id": "person_rob_koch",
+  "slug": "rob-koch",
+  "displayName": "Rob Koch",
+  "headline": "Senior Principal @ Slalom",
+  "summary": "Rob is a tech enthusiast who guides projects from concept to completion with expertise in event-driven architecture and real-time data utilization. He excels at analyzing systems and mapping transitions to event-driven frameworks, backed by strong enterprise data strategy experience. His versatile skills in software development, database management, Kubernetes, security, analytics, and enterprise architecture have served clients across energy, healthcare, finance, insurance, marketing, telecommunications, and non-profit sectors.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "WA"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xmucnVYIsMUX5V8jIXMYmqnlCI.webp",
+    "sourceUrl": "https://builder.aws.com/community/@robcube",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@robcube",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@robcube",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@robcube",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@robcube",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/robcube",
+      "handle": "robcube",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    },
+    {
+      "type": "github",
+      "label": "Blog",
+      "url": "https://robcube.github.io",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/robkoch",
+      "handle": "robkoch",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/robcube",
+      "handle": "robcube",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/robcube",
+      "handle": "robcube",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@robcube"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@robcube",
+      "retrievedAt": "2026-06-21T18:18:15Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:15Z"
+}

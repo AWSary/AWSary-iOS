@@ -1,0 +1,78 @@
+{
+  "id": "person_sang_chris_park_aws_hero",
+  "slug": "sang-chris-park-aws-hero",
+  "displayName": "Sang Chris Park [AWS Hero]",
+  "headline": "Serverless enthusiast | AWS Serverless Hero | Dev Team Lead",
+  "summary": "I’m a developer deeply focused on serverless technologies, handling backend/frontend development, AWS infrastructure design, and DevOps. As a Dev Lead, I guide my team to build high-quality products through scalable and efficient serverless solutions.",
+  "location": {
+    "city": null,
+    "country": "KR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ojyRC6Rv6syevFHLQKT4fqKc9Z.webp",
+    "sourceUrl": "https://builder.aws.com/community/@serverless",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Serverless",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@serverless",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@serverless",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@serverless",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@serverless"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/spark323/",
+      "handle": "spark323",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@serverless"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@serverless",
+      "retrievedAt": "2026-06-21T18:18:23Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:23Z"
+}

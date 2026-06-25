@@ -1,0 +1,76 @@
+{
+  "id": "person_sanchit_jain",
+  "slug": "sanchit-jain",
+  "displayName": "Sanchit Jain",
+  "headline": "",
+  "summary": "Sanchit Jain is a Lead at Quantiphi Inc. and a certified AWS Cloud expert with deep expertise in building secure Enterprise Data Platforms. He plays a pivotal role in leading the AWS User Group Mumbai, driving community engagement and talent development through knowledge-sharing sessions and university initiatives. A recognized speaker at global forums such as AWS re:Invent and AWS Summit India, he also shares thought leadership via technical blogs on AWS services. 1. Blogs - https://blog.getsetbuild.cloud/ 2. LinkedIn - https://www.linkedin.com/in/sanchitdilipjain/ 3. AWS UserGroup Mumbai - https://www.linkedin.com/company/awsugmum 4. AWS UserGroup Data - https://www.linkedin.com/company/awsugdataindia 5. Hashicorp UserGroup Mumbai - https://www.linkedin.com/company/hug-mumbai",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3CU733S3vvwh3doZHmJZi9ozfqB.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.getsetbuild.cloud/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sanchitdilipjain",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sanchitdilipjain",
+      "retrievedAt": "2026-06-21T18:18:19Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:19Z"
+}

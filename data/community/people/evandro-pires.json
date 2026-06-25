@@ -1,0 +1,110 @@
+{
+  "id": "person_evandro_pires",
+  "slug": "evandro-pires",
+  "displayName": "Evandro Pires",
+  "headline": "Entrepreneur, CTO, sls.guru Ambassador, International Speaker, Podcaster",
+  "summary": "Evandro Pires is a entrepreneur, technology executive, and international speaker. His journey changed when he gained brutal clarity about the limits he was carrying himself, pushing him to overcome shyness, challenge restrictive beliefs, and develop new strengths in communication, perspective, and complex problem-solving. This transformation led him to become CTO of one of Brazil’s largest technology companies and the first AWS Serverless Hero in Latin America.",
+  "location": {
+    "city": null,
+    "country": "BR",
+    "region": "SC"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2rdAqmtWNzU4osBkrPD4YCeNXG5.webp",
+    "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@epiresdasilva",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/epiresdasilva",
+      "handle": "epiresdasilva",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/epiresdasilva/",
+      "handle": "epiresdasilva",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/epiresdasilva",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://evandropires.com.br",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/epiresdasilva",
+      "handle": "epiresdasilva",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@epiresdasilva",
+      "retrievedAt": "2026-06-21T18:17:21Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:21Z"
+}

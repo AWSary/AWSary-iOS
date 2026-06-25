@@ -1,0 +1,82 @@
+{
+  "id": "person_ran_ribenzaft",
+  "slug": "ran-ribenzaft",
+  "displayName": "Ran Ribenzaft",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xzpv4hvGKZITghapFkY3QHtrdw.webp",
+    "sourceUrl": "https://builder.aws.com/community/@ranrib",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ranrib",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@ranrib",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@ranrib"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/ranrib",
+      "handle": "ranrib",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ranrib"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ran-ribenzaft/",
+      "handle": "ran-ribenzaft",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ranrib"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/ranrib",
+      "handle": "ranrib",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ranrib"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@ranrib",
+      "retrievedAt": "2026-06-21T18:18:12Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:12Z"
+}

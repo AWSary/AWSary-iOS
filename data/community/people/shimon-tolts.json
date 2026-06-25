@@ -1,0 +1,94 @@
+{
+  "id": "person_shimon_tolts",
+  "slug": "shimon-tolts",
+  "displayName": "Shimon Tolts",
+  "headline": "CEO & Co-Founder at Copperhelm",
+  "summary": "Co-Founder and CEO of Copperhelm Previously as the CEO and Co-Founder of Datree, a Y Combinator-backed startup, I lead a team of engineers and developers who are on a mission to prevent misconfigurations in Kubernetes, the most popular cloud-native platform. With over five years of experience in building and scaling Datree, I have developed a deep expertise in Kubernetes security, cloud-native technologies, and AWS services. I am also passionate about sharing my knowledge and insights with the global cloud community. I am a CNCF Ambassador, a co-organizer of the Israeli chapter and KCD events, and an AWS Community Hero, leading the Israeli community with 8,000 members. I co-organize UpWards PLG, a founder group for product-led growth startups. I enjoy writing and speaking about cloud-native best practices, AWS optimization, and Kubernetes challenges.",
+  "location": {
+    "city": null,
+    "country": "IL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2hxItWI6wha9W93Ish1KdnMlicB.webp",
+    "sourceUrl": "https://builder.aws.com/community/@shimon",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shimon",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2016,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shimon",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@shimon",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@shimon"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/shimont/",
+      "handle": "shimont",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shimon"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/tolts/",
+      "handle": "tolts",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shimon"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@ShimOnOps",
+      "handle": "@ShimOnOps",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shimon"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@shimon",
+      "retrievedAt": "2026-06-21T18:18:27Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:27Z"
+}

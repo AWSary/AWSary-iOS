@@ -1,0 +1,83 @@
+{
+  "id": "person_prashanth_hn",
+  "slug": "prashanth-hn",
+  "displayName": "Prashanth HN",
+  "headline": "",
+  "summary": "AWS Serverless Hero, Co-founder & CTO of AntStack",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2om9roH6sKYf5A1OJEWnee8SacY.webp",
+    "sourceUrl": "https://builder.aws.com/community/@hnp",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hnp",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@hnp",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@hnp"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/hnprashanth",
+      "handle": "hnprashanth",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hnp"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/hnprashanth/",
+      "handle": "hnprashanth",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hnp"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/prashanth",
+      "handle": "prashanth",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hnp"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@hnp",
+      "retrievedAt": "2026-06-21T18:17:32Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:32Z"
+}

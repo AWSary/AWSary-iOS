@@ -1,0 +1,86 @@
+{
+  "id": "person_stav_ochakovski",
+  "slug": "stav-ochakovski",
+  "displayName": "Stav Ochakovski",
+  "headline": "",
+  "summary": "I'm Stav, a DevOps Engineer at Beacon where I manage highly scalable, multicloud environments with a focus on Kubernetes, CI/CD, and making sure logs actually tell you something useful. I'm also an AWS Containers Hero, with a strong interest in cloud-native identity and infrastructure security. I come from a background in DevOps engineering and instruction, and I try to bring that mix of hands-on experience and clear communication into everything I do. Outside of work, I'm a pastry-chef school graduate and a licensed skipper. Sessionnize profile: https://sessionize.com/stav-ochakovski/",
+  "location": {
+    "city": null,
+    "country": "IL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2jN4WQNsqsIvtOSRpEQyxQBbRHn.webp",
+    "sourceUrl": "https://builder.aws.com/community/@stav",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Containers",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@stav",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@stav",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@stav",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@stav",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@stav"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/stav-ochakovski/",
+      "handle": "stav-ochakovski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@stav"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@stav",
+      "retrievedAt": "2026-06-21T18:18:33Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:33Z"
+}

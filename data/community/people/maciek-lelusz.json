@@ -1,0 +1,70 @@
+{
+  "id": "person_maciek_lelusz",
+  "slug": "maciek-lelusz",
+  "displayName": "Maciek Lelusz",
+  "headline": "Mostly techie, sometimes manager",
+  "summary": "Hi, I’m Maciej Lelusz - consultant, architect, and occasional tech therapist. I spend my time wrangling cloud and datacenter infrastructure, convincing organizations that IT transformation isn’t just a buzzword, and reminding people that \"lift and shift\" is not a strategy. As an AWS Community Hero, I balance hands-on architecture work with community mischief: running meetups, speaking at events, writing blog posts that call it like it is, and podcasting about the good, the bad, and the absurd parts of enterprise tech. I care deeply about creating better experiences with technology - though I may roll my eyes while doing it. Whether it’s storage design or culture change, I’m here to make IT a little smarter, a little more human, and way less boring. Want more insight, or a war story or two? Stay connected: https://lelusz.com",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zgkVoRHlhlufp2HwWYD8Pf7Kjq.webp",
+    "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@maciejlelusz",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@maciejlelusz"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@maciejlelusz",
+      "retrievedAt": "2026-06-21T18:17:51Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:51Z"
+}

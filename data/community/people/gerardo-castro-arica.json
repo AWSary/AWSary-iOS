@@ -1,0 +1,125 @@
+{
+  "id": "person_gerardo_castro_arica",
+  "slug": "gerardo-castro-arica",
+  "displayName": "Gerardo Castro Arica",
+  "headline": "",
+  "summary": "AWS Security Hero | Cloud Security Engineer | Founder & Lead Organizer of AWS Security Users Group LatAm I specialize in cloud security for AWS multi-account environments, with a focus on automating security visibility across AWS Organizations. My work sits at the intersection of hands-on engineering and practical security — building real tools that solve real problems in production environments across LATAM. I believe the best way to learn cloud security is by building, not memorizing. Every post I write comes from something I actually built, broke, or discovered in the field. Currently building iam-audit — an open source Python tool that audits IAM users, Access Keys, and root accounts across AWS Organizations, with an interactive HTML dashboard and Docker support. Available at github.com/gerardokaztro/iam-audit As Founder and Lead Organizer of the AWS Security Users Group LatAm, I work to grow the cloud security community across the region — connecting engineers, sharing knowledge, and raising the security baseline one organization at a time. Writing about all of this at Road to CloudSec LATAM → roadtocloudsec.hashnode.dev",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3AUftb5EfAV7FxvC3B3NYN6ZKHV.webp",
+    "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://linktr.ee/gerardokaztro",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@gerardokaztro",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/gerardokaztro",
+      "handle": "gerardokaztro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/gerardokaztro/",
+      "handle": "gerardokaztro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/gerardokaztro",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/gerardokaztro",
+      "handle": "gerardokaztro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@gerardokaztro",
+      "handle": "@gerardokaztro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@gerardokaztro",
+      "retrievedAt": "2026-06-21T18:17:26Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:26Z"
+}

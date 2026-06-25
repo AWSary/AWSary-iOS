@@ -1,0 +1,141 @@
+{
+  "id": "person_johannes_koch_aws_hero",
+  "slug": "johannes-koch-aws-hero",
+  "displayName": "Johannes Koch [AWS Hero]",
+  "headline": "",
+  "summary": "Johannes is a Principal Architect at FICO where he contributes to the FICO®️ Platform. He is a builder at heart and loves to solve problems in different flavors. He believes in full CI/CD automation and everything required to run the solution being written in code. Johannes was in the AWS Community Builders program from 2022 to 2023, he founded the AWS User Group Bergstrasse, helped to start the AWS Community DACH Förderverein, and is part of the team that organizes the AWS Community Day in the DACH region. He also writes about his experiences on his personal blog, and recently started a YouTube channel: @cicdonaws to share experiences and best practices related to Continuous Integration and Continuous Deployment (CI/CD). His mission: empower developers to start their new projects with a true CI/CD pipeline, which allows a quick value generation through automation. He enjoys sharing knowledge as a public speaker, but also helping and mentoring engineers who are starting their cloud journey. He believes in true collaboration within the AWS community to make the individuals successful. Johannes is a proud husband and father. He likes hiking, playing handball, and being outside. If you would like to engage with Johannes, feel free to reach out either in person at conferences like re:Invent, the AWS Community Day DACH, or online through social platforms or E-Mail.",
+  "location": {
+    "city": null,
+    "country": "DE",
+    "region": "Hesse"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36KBlzxUDq2hYEnJ9XOXyZ95ksu.webp",
+    "sourceUrl": "https://builder.aws.com/community/@lockhead",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@lockhead",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@lockhead",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.lockhead.info",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@lockhead",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/Lock128",
+      "handle": "Lock128",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/lockhead",
+      "handle": "lockhead",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://bsky.app/profile/lockhead.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://cards.nexus-share.com/2364b802-20b1-7023-ab0a-46785deeddf5",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/lockhead",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://repost.aws/community/users/USoUX2KcRaSKGoQgtE5ZQBUw",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/lockhead",
+      "handle": "lockhead",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/@cicdonaws",
+      "handle": "@cicdonaws",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@lockhead"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@lockhead",
+      "retrievedAt": "2026-06-21T18:17:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:50Z"
+}

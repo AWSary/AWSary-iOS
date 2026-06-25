@@ -1,0 +1,108 @@
+{
+  "id": "person_rustem_feyzkhanov",
+  "slug": "rustem-feyzkhanov",
+  "displayName": "Rustem Feyzkhanov",
+  "headline": "",
+  "summary": "Rustem Feyzkhanov is the Engineering Manager for the Snorkel AI Platform team, building data-centric AI solutions. His background includes roles as ML Engineering Manager at Instrumental (manufacturing AI) and an engineer at Astro Digital (satellite imagery AI). A prominent voice on leveraging cloud infrastructure for AI, Rustem is the author of the book “Serverless Deep Learning with TensorFlow and AWS Lambda.” He is a seasoned speaker who has shared his expertise at numerous prestigious conferences, including O'Reilly Strata, O'Reilly Software Architecture, and AI DevWorld. His presentations focus on the practical application of cloud-native AWS services for building efficient and scalable deep learning training and inference pipelines. In addition to his professional and speaking engagements, Rustem is the creator of several popular open-source repositories on GitHub that provide valuable resources for the community. His current interests lie in pushing the boundaries of serverless for AI/ML, tackling the unique challenges of hosting large language models (LLMs), and engineering robust, production-grade ML workflows using AWS infrastructure.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xojZbp9Nrxis0psq3fGtVNR0X8.webp",
+    "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://ryfeus.medium.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@rustemfeyzkhanov",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/ryfeus",
+      "handle": "ryfeus",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ryfeus",
+      "handle": "ryfeus",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/ryfeus",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://www.twitter.com/ryfeus",
+      "handle": "ryfeus",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UC3aX3qJTV7JXdOgNPv7x3WQ",
+      "handle": "UC3aX3qJTV7JXdOgNPv7x3WQ",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@rustemfeyzkhanov",
+      "retrievedAt": "2026-06-21T18:18:18Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:18Z"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "person_calvin_hendryx_parker",
+  "slug": "calvin-hendryx-parker",
+  "displayName": "Calvin Hendryx-Parker",
+  "headline": "Python, AI, Orchestration & Containers | CTO and Founder | IndyPy & IndyAWS",
+  "summary": "Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, the premier AI and Python agency in the U.S. Calvin’s Massive Transformative Purpose (MTP) is to inspire and enable tech leaders to open minds and bring the world together for a sustainable future. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development. Calvin is passionate about the open-source community and specializes in app development, AI, big data and cloud technology. He is regularly sought after to share his expertise — both at international conferences and in the media. Six Feet Up, a top 10 United States Custom Software Development Company according to Clutch.co, was founded with Python at the forefront. In 2019, Calvin was named an AWS Hero — one of only 50 Heroes in North America. He is the co-founder of IndyPy, the largest Python meetup in Indiana with nearly 2,500 members. In 2023, he was named Tech Executive of the Year by the Indiana Business Journal.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "IN"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2erzF0llAucdApntZ4sPtMPPmCd.webp",
+    "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://sixfeetup.com/blog",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@calvinhp",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/calvinhp",
+      "handle": "calvinhp",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/calvinhp",
+      "handle": "calvinhp",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/calvinhp",
+      "handle": "calvinhp",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@calvinhp",
+      "retrievedAt": "2026-06-21T18:17:03Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:03Z"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "person_namrata_shah",
+  "slug": "namrata-shah",
+  "displayName": "Namrata Shah",
+  "headline": "",
+  "summary": "Namrata Shah is an AWS Hero, technology leader, and lifelong learner with over 24 years of experience in the IT industry. Holding certifications such as AWS Certified Solutions Architect – Associate (CSAA), PMP, and Six Sigma, she brings a unique blend of deep technical expertise and strategic leadership. Namrata is passionate about making cloud technologies accessible and actionable. Through her popular YouTube channel, she shares hands-on tutorials and real-world insights across AWS, cloud computing, DevOps, AI, ML, and Generative AI. Her content includes deep dives into Amazon Bedrock, LLMs, serverless architectures, and complete cloud workflows—designed to support both beginners and experienced professionals. Dedicated to empowering architects, developers, and innovators, Namrata emphasizes practical learning, enterprise transformation, and staying ahead in today’s fast-evolving tech landscape. Her motto: Hands-on. Practical. No fluff. With weekly content, she continues to inspire a growing global community—one lab at a time.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2oriG9Opclng85iYubjkfMZ1oYi.webp",
+    "sourceUrl": "https://builder.aws.com/community/@namratashah",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@namratashah",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@namratashah",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@namratashah"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/namratashah/",
+      "handle": "namratashah",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@namratashah"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/namratahshah",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@namratashah"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/CNamratha",
+      "handle": "CNamratha",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@namratashah"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/namratahshah/videos",
+      "handle": "videos",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@namratashah"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@namratashah",
+      "retrievedAt": "2026-06-21T18:18:03Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:03Z"
+}

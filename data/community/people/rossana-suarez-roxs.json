@@ -1,0 +1,108 @@
+{
+  "id": "person_rossana_suarez_roxs",
+  "slug": "rossana-suarez-roxs",
+  "displayName": "Rossana Suarez 🔥Roxs🔥",
+  "headline": "",
+  "summary": "I’m Rossana Suarez (roxsross), Tech Lead DevOps and creator of the #90DaysOfDevOps challenge an initiative that empowers the community to learn DevOps through real practice, collaboration, and a spark of fun .",
+  "location": {
+    "city": null,
+    "country": "AR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3CYAkQiqXXCNCw4sy7bsP0kn6tc.webp",
+    "sourceUrl": "https://builder.aws.com/community/@roxsross",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@roxsross",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.295devops.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@roxsross",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/roxsross",
+      "handle": "roxsross",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/roxsross/",
+      "handle": "roxsross",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://roxs.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/RoxsRoss",
+      "handle": "RoxsRoss",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@295devops",
+      "handle": "@295devops",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@roxsross"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@roxsross",
+      "retrievedAt": "2026-06-21T18:18:17Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:17Z"
+}

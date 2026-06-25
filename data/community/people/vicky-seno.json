@@ -1,0 +1,77 @@
+{
+  "id": "person_vicky_seno",
+  "slug": "vicky-seno",
+  "displayName": "Vicky Seno",
+  "headline": "Comp Sci Professor @SMC Making Cloud Skills Available to Community College Students",
+  "summary": "Vicky \"Tanya\" Seno is an AWS Container Hero, Computer Science Professor at Santa Monica College, and a involved in cloud computing education. With 20+ years of enterprise Linux and DevOps experience, she brings deep technical expertise to advancing AWS education across Southern California. As an AWS Educate Cloud Ambassador and AWS Academy Accredited Educator, Professor Seno has transformed cloud education by developing one of California's first community college Bachelor's degrees in Cloud Computing. Her AWS expertise is recognized through multiple certifications and having received the Outstanding Contribution to the AWS Ecosystem Award (Digital Revolution Awards 2020). She co-organizes AWS Cloud Day and TechUp conferences that draw 300+ attendees for hands on workshops and CTF competitions, significantly increasing student AWS certification rates. Beyond academia, Professor Seno creates AWS courses for LinkedIn Learning, including AWS Cloud Migration and Quantum Computing. Her YouTube channel (sysadmgirl) reaches 40,000+ subscribers with 100+ technical tutorials.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "CA"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/35ox6Xvh1ZNgz19xNfalmzwRvI5.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vickyseno",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vickyseno"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/vtseno/",
+      "handle": "vtseno",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vickyseno"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/sysadmgirl",
+      "handle": "sysadmgirl",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vickyseno"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vickyseno",
+      "retrievedAt": "2026-06-21T18:18:41Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:41Z"
+}

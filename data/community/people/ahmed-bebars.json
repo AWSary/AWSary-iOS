@@ -1,0 +1,77 @@
+{
+  "id": "person_ahmed_bebars",
+  "slug": "ahmed-bebars",
+  "displayName": "Ahmed Bebars",
+  "headline": "Principal Engineer @ The New York Times | AWS Container Hero | Cloud Native Ambassador",
+  "summary": "I am deeply passionate about technology and highly motivated to help people be more productive, at a faster pace. My focus is on leading teams in delivering resilient infrastructure and building platforms that improve enterprise productivity. I have a strong belief in the power of scalability and bring this sense of purpose to my mission in creating platforms that help shape everyone’s experience for the better. In my role as Principal Engineer on the Developer Platforms mission at The New York Times, I lead the implementation and delivery of robust and scalable Kubernetes-based solutions. I leverage deep technical leadership experience and engineering expertise to architect and deliver a scalable infrastructure platform and enhanced user experience to meet the organization’s business goals. As a leader, I build collaborative teams, which help to break down siloed efforts that duplicate work, impede innovation, and create chokepoints in knowledge sharing. I strive to strike the right balance of removing the friction of obstacles, while championing clear standards of excellence, so that people have the ability to use a platform and build on top it, ultimately making them more productive.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "NY"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2txHZkGOcPLHIJePpB9WYeBQm0A.webp",
+    "sourceUrl": "https://builder.aws.com/community/@abebars",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@abebars",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@abebars",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@abebars"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/abebars",
+      "handle": "abebars",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abebars"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ahmedbebars",
+      "handle": "ahmedbebars",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abebars"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@abebars",
+      "retrievedAt": "2026-06-21T18:16:43Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:43Z"
+}

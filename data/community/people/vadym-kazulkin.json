@@ -1,0 +1,132 @@
+{
+  "id": "person_vadym_kazulkin",
+  "slug": "vadym-kazulkin",
+  "displayName": "Vadym Kazulkin",
+  "headline": "",
+  "summary": "Vadym Kazulkin is ukrainian-native AWS Serverless Hero and Head of Development at ip.labs based in Bonn. Vadym has been involved with the Java ecosystem for over 25 years. His focus and interests currently include the design and implementation of highly scalable and available applications in AWS Cloud with the special passion for Serverless, Generative AI and optimization of Java applications (also using SpringBoot, Micronaut and Quarkus frameworks) on AWS Lambda. Vadym is also the co-organizer of the Java User Group Bonn meetup, a frequent speaker at various meetups and conferences and a regular author of the articles in the different published magazines and on his online blog.",
+  "location": {
+    "city": null,
+    "country": "DE",
+    "region": "North Rhine-Westphalia"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zjtTF67hF84Cbi1luRKqMr3Wgp.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://de.slideshare.net/VadymKazulkin/presentations",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vkazulkin",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/Vadym79/",
+      "handle": "Vadym79",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/vadymkazulkin",
+      "handle": "vadymkazulkin",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/vkazulkin",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://sessionize.com/vadym-kazulkin",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://vkazulkin.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/vadym.ka.3",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/VKazulkin",
+      "handle": "VKazulkin",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/watch?v=CnksMV9yNX8&list=PLE2b2mkXhNUVvcTc2nt0Mu8UnCY5WrdQA",
+      "handle": "watch",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vkazulkin",
+      "retrievedAt": "2026-06-21T18:18:45Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:45Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "person_noah_gift",
+  "slug": "noah-gift",
+  "displayName": "Noah Gift",
+  "headline": "Founder of Pragmatic AI Labs",
+  "summary": "Founder of Pragmatic AI Labs and educator to millions of learners on Coursera, edX, O'Reilly, and Pearson. I build and teach production-grade AI and cloud content — with a focus on MLOps, generative AI, Rust, and data engineering — alongside a growing catalog of AWS-centric specializations covering Amazon Bedrock, Amazon Q, SageMaker, and serverless AI on Lambda. I lecture at Duke University (AI Product Innovation EIR) and have taught at UC Berkeley, UC Davis, and Northwestern. Author of several books with Pearson and O'Reilly, including Pragmatic AI, Python for DevOps, and Implementing MLOps in the Enterprise. My goal is simple: make production AI accessible to practitioners who need to ship, not just experiment. If you're learning AWS and want hands-on paths through foundation models, prompt architecture, or deterministic LLM programming, let's connect.",
+  "location": {
+    "city": null,
+    "country": "ES",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3Cc9TXU03Q3spK1fzZl9gIUzOQv.webp",
+    "sourceUrl": "https://builder.aws.com/community/@noahgift",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@noahgift",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://paiml.com/blog/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@noahgift",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/paiml",
+      "handle": "paiml",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/noahgift/",
+      "handle": "noahgift",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://noahgift.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/c/pragmaticailabs",
+      "handle": "pragmaticailabs",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@noahgift"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@noahgift",
+      "retrievedAt": "2026-06-21T18:18:06Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:06Z"
+}

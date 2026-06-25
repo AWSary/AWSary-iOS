@@ -1,0 +1,63 @@
+{
+  "id": "person_pawe_zubkiewicz",
+  "slug": "pawe-zubkiewicz",
+  "displayName": "Paweł Zubkiewicz",
+  "headline": "AWS Serverless Hero",
+  "summary": "<p>Since his first encounters with AWS cloud in 2016, Paweł has been fascinated by serverless solutions...&nbsp;</p> <p><a href=\"https://aws.amazon.com/developer/community/heroes/pawel-zubkiewicz/?did=dh_card-body&amp;trk=dh_card-body\" rel=\"noopener\" target=\"_blank\">Learn more &raquo;</a></p>",
+  "location": {
+    "city": "Wroclaw",
+    "country": "Poland",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/pawe%c5%82_zubkiewicz-modified.79bfbe98c1d0ff041035aa52231e11602204800b.png",
+    "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+    "sourceType": "aws_public_page",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [
+    "Aws Serverless Hero"
+  ],
+  "links": [
+    {
+      "type": "website",
+      "label": "AWS public profile",
+      "url": "https://aws.amazon.com/developer/community/heroes/pawel-zubkiewicz/?did=dh_card&trk=dh_card",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/developer/community/heroes/pawel-zubkiewicz/?did=dh_card&trk=dh_card"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_public_page",
+      "sourceUrl": "https://aws.amazon.com/api/dirs/items/search?item.directoryId=community-heroes&sort_by=item.additionalFields.sortPosition&sort_order=asc&size=2000&item.locale=en_US&tags.id=!community-heroes%23alumni%23alumni-hero",
+      "retrievedAt": "2026-06-21T17:57:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary",
+        "topics"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T17:57:40Z"
+}

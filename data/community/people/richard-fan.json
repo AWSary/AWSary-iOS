@@ -1,0 +1,116 @@
+{
+  "id": "person_richard_fan",
+  "slug": "richard-fan",
+  "displayName": "Richard Fan",
+  "headline": "",
+  "summary": "Richard is a Security Engineer at ExpressVPN. He is dedicated to helping people easily adopt AWS, and supports them with moving workloads to AWS, promotes best practices, and streamlines cloud governance. The experience Richard has gained over the years has allowed him to focus more on making security on the cloud easy. Richard has developed different tools to simplify the experience with AWS security services for users. He has contributed to the AWS Nitro Enclaves community since its early stage. The nitro-enclave-python-demo project has helped many builders get started on AWS Nitro Enclaves, and it has also been adopted by some AWS workshops. Furthermore, Richard promotes the concept and use cases of enclave technology by partnering with multiple companies to review their AWS Nitro Enclaves offering.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ZUJk1nHjpIp75f35KboL1RizJC.webp",
+    "sourceUrl": "https://builder.aws.com/community/@richardfan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@richardfan",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@richardfan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.richardfan.xyz",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@richardfan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/richardfan1126",
+      "handle": "richardfan1126",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/richardfan1126/",
+      "handle": "richardfan1126",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/richardfan1126",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://repost.aws/community/users/USO5y9scJEQV6mC5pjzBZPJw",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/richardfan1126",
+      "handle": "richardfan1126",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@richardfan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@richardfan",
+      "retrievedAt": "2026-06-21T18:18:15Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:15Z"
+}

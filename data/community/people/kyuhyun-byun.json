@@ -1,0 +1,92 @@
+{
+  "id": "person_kyuhyun_byun",
+  "slug": "kyuhyun-byun",
+  "displayName": "Kyuhyun Byun",
+  "headline": "",
+  "summary": "From scaling chat platforms that connect 50+ million users to building ML pipelines that power intelligent systems—I specialize in creating infrastructure that grows with business needs at massive scale. As ML Data Platform Engineer, I'm currently architecting vector inference systems using Vertex AI and Google Dataflow, while continuously optimizing for performance and cost (recent wins: 80% Redis cost reduction, 20%+ server improvements). My journey as Lead of Chatting for a platform serving 50+ million users taught me that great engineering isn't just about code—it's about understanding user needs, collaborating across teams, and building systems that can evolve under extreme load. Whether migrating legacy platforms to Go microservices or implementing compliance frameworks, I focus on solutions that deliver lasting value at scale. Technical toolkit: ML/AI platforms • Distributed systems • Real-time analytics • Cloud architecture • Organization leadership",
+  "location": {
+    "city": null,
+    "country": "KR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ubjP9EODRtHHGab418HWwkBoj9.webp",
+    "sourceUrl": "https://builder.aws.com/community/@bien",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@bien",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@bien",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@bien"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/novemberde",
+      "handle": "novemberde",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bien"
+    },
+    {
+      "type": "github",
+      "label": "Blog",
+      "url": "https://novemberde.github.io/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bien"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/novemberde/",
+      "handle": "novemberde",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bien"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/novemberde",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@bien"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@bien",
+      "retrievedAt": "2026-06-21T18:16:59Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:59Z"
+}

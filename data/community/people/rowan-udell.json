@@ -1,0 +1,125 @@
+{
+  "id": "person_rowan_udell",
+  "slug": "rowan-udell",
+  "displayName": "Rowan Udell",
+  "headline": "",
+  "summary": "15+ years building on AWS, from early startup days through enterprise transformations. I've led engineering teams, scaled cloud practices, and built mission-critical systems. Author of \"The Practical AWS IAM Guide\" and AWS Administration Cookbook (Packt). I help scale-up startups pass their first major compliance audits (SOC2, PCI, ISO) with ease.",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "QLD"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/34X0dSNcE4unOR6Z0RPkRGX8adT.webp",
+    "sourceUrl": "https://builder.aws.com/community/@rowanu",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Security",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rowanu",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@rowanu",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.rowanudell.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@rowanu",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "http://github.com/rowanu/",
+      "handle": "rowanu",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/rowanu/",
+      "handle": "rowanu",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/rowanu",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://repost.aws/community/users/USx1keF1jkRuqcAl2Kiw8r9Q",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/elrowan",
+      "handle": "elrowan",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@rowanudell",
+      "handle": "@rowanudell",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@rowanu"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@rowanu",
+      "retrievedAt": "2026-06-21T18:18:17Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:17Z"
+}

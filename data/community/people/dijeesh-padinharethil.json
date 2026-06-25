@@ -1,0 +1,68 @@
+{
+  "id": "person_dijeesh_padinharethil",
+  "slug": "dijeesh-padinharethil",
+  "displayName": "Dijeesh Padinharethil",
+  "headline": "",
+  "summary": "I am a dynamic and self-motivated IT professional with over 18 years of experience designing, building, and operating highly available, secure, and scalable cloud and on-premises infrastructure platforms. My expertise spans Kubernetes, AWS and cloud-native technologies, Linux, and open-source ecosystems, with a strong focus on reliability, security, and operational excellence. I am deeply passionate about continuous learning and solving complex infrastructure and platform challenges. My straightforward approach, strong work ethic, and collaborative mindset have enabled me to succeed in solution architecture roles while building trusted relationships across teams and communities. Beyond my professional work, I am strongly committed to giving back to the tech community. I actively organize the AWS User Group Kochi and the CNCF Kochi Chapter, fostering knowledge sharing, mentorship, and community-driven growth within the cloud-native ecosystem. Community Contributions Organizer, AWS User Group Kochi Organizer, CNCF Kochi Chapter Lead Organizer, AWS Community Day Kochi (2019, 2022, 2023, 2024, and 2025 – in-person events)",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xopGRryrFlj8ffCDZENj0Z8mLv.webp",
+    "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@dijeeshpnair",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@dijeeshpnair",
+      "retrievedAt": "2026-06-21T18:17:16Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:16Z"
+}

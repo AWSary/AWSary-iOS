@@ -1,0 +1,59 @@
+{
+  "id": "person_kesha_williams",
+  "slug": "kesha-williams",
+  "displayName": "Kesha Williams",
+  "headline": "",
+  "summary": "Kesha Williams is an award-winning technology leader, AI strategist, and cloud architect with three decades of experience driving innovation at the intersection of artificial intelligence and enterprise systems.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xxYxCKMstuo9ate8P1yuo6VjSk.webp",
+    "sourceUrl": "https://builder.aws.com/community/@keshawilliams",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@keshawilliams",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@keshawilliams",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@keshawilliams"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@keshawilliams",
+      "retrievedAt": "2026-06-21T18:17:44Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:44Z"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "person_juyoung_song",
+  "slug": "juyoung-song",
+  "displayName": "Juyoung Song",
+  "headline": "",
+  "summary": "Juyoung Song is a Director of DAX teams at LG UPLUS. He is currently leading an organization called DAX (DevOps Acceleration), and is working to upgrade S/W organizational culture and technology.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2y8T7jBGhTyLVfvBVtfSzSTPDvF.webp",
+    "sourceUrl": "https://builder.aws.com/community/@devart",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@devart",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@devart",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@devart",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@devart"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@devart",
+      "retrievedAt": "2026-06-21T18:17:14Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:14Z"
+}

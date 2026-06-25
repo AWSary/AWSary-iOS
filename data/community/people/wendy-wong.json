@@ -1,0 +1,100 @@
+{
+  "id": "person_wendy_wong",
+  "slug": "wendy-wong",
+  "displayName": "Wendy Wong",
+  "headline": "",
+  "summary": "Data Hero Wendy Wong is a data scientist and LinkedIn Learning Instructor. As a teacher at heart, she enjoys sharing her passion writing technical blogs on dev.to. She is both an active speaker for AWS analytics and an advocate of diversity and inclusion, presenting at a number of events: AWS User Group Malaysia, Women Who Code, AWS Summit Australia 2022, AWS BuildHers, AWS Innovate Modern Applications, and many more.",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "NSW"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xrVZorGEVS9iqXJIeirCVhUbpU.webp",
+    "sourceUrl": "https://builder.aws.com/community/@abcwendsss",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@abcwendsss",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/wendy-wong",
+      "handle": "wendy-wong",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/wendywong7/",
+      "handle": "wendywong7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    },
+    {
+      "type": "linkedin",
+      "label": "Blog",
+      "url": "https://www.linkedin.com/newsletters/becoming-women-in-engineering-7375322928801861632/",
+      "handle": "becoming-women-in-engineering-7375322928801861632",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    },
+    {
+      "type": "linkedin",
+      "label": "Personal",
+      "url": "https://www.linkedin.com/newsletters/coffee-n-learn-7148606301307031552/",
+      "handle": "coffee-n-learn-7148606301307031552",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/abc_wendsss",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@abcwendsss",
+      "retrievedAt": "2026-06-21T18:16:43Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:43Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "person_luciano_mammino",
+  "slug": "luciano-mammino",
+  "displayName": "Luciano Mammino",
+  "headline": "",
+  "summary": "Full-stack developer turned cloud architect, Luciano Mammino is an AWS Serverless Hero, author of Node.js Design Patterns (https://nodejsdesignpatterns.com/), and co-author of the e-book Crafting Lambda Functions in Rust (https://rust-lambda.com/). He is also the original author of Middy (https://middy.js.org/), the Node.js middleware engine for AWS Lambda. At fourTheorem (https://fourtheorem.com/), he helps companies be successful with AWS through pragmatic, scalable serverless architectures. He loves building with JavaScript/TypeScript, Rust, and modern cloud systems.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xos8giy08ZPvxLibiortpbF6uk.webp",
+    "sourceUrl": "https://builder.aws.com/community/@loige",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@loige",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://loige.co",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@loige"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@loige",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@loige"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@loige",
+      "retrievedAt": "2026-06-21T18:17:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:50Z"
+}

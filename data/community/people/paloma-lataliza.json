@@ -1,0 +1,93 @@
+{
+  "id": "person_paloma_lataliza",
+  "slug": "paloma-lataliza",
+  "displayName": "Paloma Lataliza",
+  "headline": "",
+  "summary": "Paloma is a Cloud Engineer who loves sharing knowledge. She leads the AWS User Group Minas Gerais, organizes the AWSome Women Community Summit Brazil, and founded the Mulheres na Nuvem Minas Gerais (Women in the Cloud Minas Gerais) project. Formerly an AWS Community Builder, she has produced technical content, spoken at Cloud and DevOps events, and mentored professionals looking to deepen their technical expertise. Within the AWS community, she discovered the true meaning of community, which inspired her commitment to transformative causes, such as supporting people in socially vulnerable situations and advancing women in STEM. She dedicates her time to helping more women enter tech by creating support networks and offering free classes and mentoring to guide them on their journey. Paloma continues to build a strong career as a Cloud Engineer while making a positive impact on the women in tech community.",
+  "location": {
+    "city": null,
+    "country": "BR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xmjVhiRxYIuGmpX9eHxTRt3oeE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@shescloud",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shescloud",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@shescloud",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@shescloud",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@shescloud"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/palomalataliza/",
+      "handle": "palomalataliza",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shescloud"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.shescloud.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shescloud"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/shescloud_",
+      "handle": "shescloud_",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@shescloud"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@shescloud",
+      "retrievedAt": "2026-06-21T18:18:25Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:25Z"
+}

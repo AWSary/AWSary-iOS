@@ -1,0 +1,91 @@
+{
+  "id": "person_efi_merdler_kravitz",
+  "slug": "efi-merdler-kravitz",
+  "displayName": "Efi Merdler-Kravitz",
+  "headline": "",
+  "summary": "As an AWS Serverless Hero, I bring 15+ years of hands-on development and R&D leadership in cloud technologies. I am the author of Learning Serverless in Hebrew and enjoy contributing to the serverless community through social media, blog posts, open-source projects, events, and user groups.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ZRokEWh7dNad3PKGiDPs0A0Zxq.webp",
+    "sourceUrl": "https://builder.aws.com/community/@efimk",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@efimk",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://pashut.cloud/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@efimk"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@efimk",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@efimk"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/fun-with-serverless",
+      "handle": "fun-with-serverless",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@efimk"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/efime/",
+      "handle": "efime",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@efimk"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/TServerless",
+      "handle": "TServerless",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@efimk"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@efimk",
+      "retrievedAt": "2026-06-21T18:17:19Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:19Z"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "person_anton_babenko",
+  "slug": "anton-babenko",
+  "displayName": "Anton Babenko",
+  "headline": "Terraform AWS fanatic",
+  "summary": "Anton is a long-time developer and CTO. He runs a consulting company Betajob in Norway and has helped companies around the globe build solutions using AWS and specializing in Infrastructure-as-Code, DevOps, and reusable infrastructure components since 2015. Through his consulting and ongoing experimentation with new technologies, Anton also created compliance.tf, a product that helps companies in regulated industries simplify and automate compliance when using Terraform. He spends much of his time as an open-source contributor on various Terraform & AWS projects. Such as Terraform AWS modules (provisioned more than 2 billion times), Terraform best practices ebook (https://www.terraform-best-practices.com/), Serverless Terraform framework (https://serverless.tf), Terraform Weekly newsletter (https://weekly.tf), Your Weekly Dose of Terraform live streams (https://www.youtube.com/AntonBabenkoLive), and more (https://github.com/antonbabenko/terraform-aws-devops). Anton enjoys solving current cloud architecture tasks, figuring out generic solutions by getting to the core, and making them available as open-source to benefit the AWS community. Anton co-founded and co-organizes AWS, DevOps, and HashiCorp User Groups in Oslo (Norway) and often speaks at technical meetups and conferences.",
+  "location": {
+    "city": null,
+    "country": "NO",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3DdkVXzqcvfhbEF48P8g2hG4IoR.webp",
+    "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@antonbabenko",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/antonbabenko",
+      "handle": "antonbabenko",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/antonbabenko",
+      "handle": "antonbabenko",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://compliance.tf",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/antonbabenko",
+      "handle": "antonbabenko",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/channel/UCGH0yYPvlCN1VjSFMGVmFgQ",
+      "handle": "UCGH0yYPvlCN1VjSFMGVmFgQ",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@antonbabenko",
+      "retrievedAt": "2026-06-21T18:16:52Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:52Z"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "person_emrah_samdan",
+  "slug": "emrah-samdan",
+  "displayName": "Emrah Samdan",
+  "headline": "AWS Serverless Hero, Senior Product Manager at Edge Delta",
+  "summary": "AWS Serverless Hero since 2020, Emrah Samdan co-founded AWS Community Day Türkiye and speaks at events like re:Invent and ServerlessDays. He builds developer tools and leads product at Edge Delta, focusing on observability and AI-driven operations.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "WA"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xpRLE2mWKawMydOd8UGMTkjSlY.webp",
+    "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@emrahsamdan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/emrahsamdan/",
+      "handle": "emrahsamdan",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/emrahsamdan",
+      "handle": "emrahsamdan",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@emrahsamdan",
+      "retrievedAt": "2026-06-21T18:17:21Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:21Z"
+}

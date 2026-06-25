@@ -1,0 +1,100 @@
+{
+  "id": "person_kenta_goto",
+  "slug": "kenta-goto",
+  "displayName": "Kenta Goto",
+  "headline": "",
+  "summary": "- AWS DevTools Hero - AWS CDK Top Contributor & Community Reviewer - Maintainer of Open Constructs Library - OSS Creator: cls3, delstack, lamver, and some CDK Construct libraries",
+  "location": {
+    "city": null,
+    "country": "JP",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2btK3dDjbOe9yfOIua1go1c26h2.webp",
+    "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://go-to-k.hatenablog.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@kentagoto",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/go-to-k",
+      "handle": "go-to-k",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/kenta-goto/",
+      "handle": "kenta-goto",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/k_goto",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/365_step_tech",
+      "handle": "365_step_tech",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@kentagoto",
+      "retrievedAt": "2026-06-21T18:17:44Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:44Z"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "person_faizal_khan",
+  "slug": "faizal-khan",
+  "displayName": "Faizal Khan",
+  "headline": "",
+  "summary": "A tech entrepreneur, currently Founder & CEO at Ecomm.in, XiteLogic.com, and CTO at AIProjectPartners.com. I am an ardent contributor to the community through leading the AWS User Group in Hyderabad and talking on AWS services.",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2tqXgVGRwOCWPMGVaKyTuREB39k.webp",
+    "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@fluxtechie",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@fluxtechie"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@fluxtechie",
+      "retrievedAt": "2026-06-21T18:17:25Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:25Z"
+}

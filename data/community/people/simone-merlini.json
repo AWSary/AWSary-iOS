@@ -1,0 +1,76 @@
+{
+  "id": "person_simone_merlini",
+  "slug": "simone-merlini",
+  "displayName": "Simone Merlini",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "IT",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2yMN1cFd5JJU8RKIjXX4d0sct4X.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cloudsimo",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cloudsimo"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/simonemerlini/",
+      "handle": "simonemerlini",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudsimo"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cloudsimo",
+      "retrievedAt": "2026-06-21T18:17:06Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:06Z"
+}

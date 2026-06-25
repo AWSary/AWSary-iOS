@@ -1,0 +1,3386 @@
+{
+  "generatedAt": "2026-06-21T17:51:06Z",
+  "count": 260,
+  "people": [
+    {
+      "id": "person_adam_bien",
+      "slug": "adam-bien",
+      "displayName": "Adam Bien",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/adam-bien.16bf8ef2fddcf4d76ad43c76fc9a68a71536c33c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_adam_smolnik",
+      "slug": "adam-smolnik",
+      "displayName": "Adam Smolnik",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/adams-headshotcircle-100px.4c0fdca1ce7f909eebc17392847d9d39a0a53cbb.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_adeline_makokha",
+      "slug": "adeline-makokha",
+      "displayName": "Adeline Makokha",
+      "headline": "AWS Community Hero",
+      "country": "Kenya",
+      "avatarUrl": "https://d1.awsstatic.com/developer-center/adeline-makokha.9dedfa6a1f5a280432f9a5d0721328e50e618747.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_agustinus_nalwan",
+      "slug": "agustinus-nalwan",
+      "displayName": "Agustinus Nalwan",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/agustinusn-headshotcircle-100px.af65750ce1572b7e46051eb0e62fc5c0f94fa7d0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ahmed_bebars",
+      "slug": "ahmed-bebars",
+      "displayName": "Ahmed Bebars",
+      "headline": "AWS Container Hero",
+      "country": "United States",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/ahmed-bebars-100.d1eb6693748ab716d70f376ac93c2cdda7187445.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ahmed_samir",
+      "slug": "ahmed-samir",
+      "displayName": "Ahmed Samir",
+      "headline": "AWS Community Hero",
+      "country": "Saudi Arabia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ahmed-samir.9dc9cc62b957b5d84ddc0c680d37639a389dff88.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_aidan_steele",
+      "slug": "aidan-steele",
+      "displayName": "Aidan Steele",
+      "headline": "AWS Serverless Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/hero_aiden_steele-100.4668a5b9d09dcd0a7ef2dcfb3c58ceecdbcab27c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_aj_stuyvenberg",
+      "slug": "aj-stuyvenberg",
+      "displayName": "AJ Stuyvenberg",
+      "headline": "AWS Serverless Hero",
+      "country": "MA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/aj_stuyvenberg_headshot-modified.67daef4af2cdbe4462a9911ac5134554a0d5038c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_albert_suwandhi",
+      "slug": "albert-suwandhi",
+      "displayName": "Albert Suwandhi",
+      "headline": "AWS Community Hero",
+      "country": "Indonesia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/albert-suwandhi.b488225c68ab5948fe50ff3628283afb8e9fce1c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_aleksandar_simovic",
+      "slug": "aleksandar-simovic",
+      "displayName": "Aleksandar Simovic",
+      "headline": "AWS Serverless Hero",
+      "country": "Serbia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/aleksandars-headshotcircle-100px.4c4a7345b091200ee960e4029462223f7358dc52.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_alex_debrie",
+      "slug": "alex-debrie",
+      "displayName": "Alex DeBrie",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/alex-debrie-circular-headshot.233f6d03634ea98c48930c6f05937b63b8ac5200.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_alex_lau",
+      "slug": "alex-lau",
+      "displayName": "Alex Lau",
+      "headline": "AWS Community Hero",
+      "country": "Hong Kong",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Alex%20Lau_100.ea19499c885af97ada744699559e11af10e82534.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_allen_helton",
+      "slug": "allen-helton",
+      "displayName": "Allen Helton",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/Allen-Helton-modified.25966f3cf6b474f571ad772ed581ac8b2eda8cd7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_alvaro_hernandez",
+      "slug": "alvaro-hernandez",
+      "displayName": "Alvaro Hernandez",
+      "headline": "AWS Data Hero",
+      "country": "Spain",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/alvaro-hernandez-circular-headshot.fa5a9d0ba798f5d0fc4c6f471eeb829307037152.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_amy_tseng",
+      "slug": "amy-tseng",
+      "displayName": "Amy Tseng",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/amy-tseng.7dadf41b152f126f2b43de5e5857009ef66020ca.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_anahit_pogosova",
+      "slug": "anahit-pogosova",
+      "displayName": "Anahit Pogosova",
+      "headline": "AWS Data Hero",
+      "country": "Finland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/anahit-pogosova.ee3cb65d8a20b38e3772915b49199522161fade7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ananda_dwi_rahmawati",
+      "slug": "ananda-dwi-rahmawati",
+      "displayName": "Ananda Dwi Rahmawati",
+      "headline": "AWS Container Hero",
+      "country": "Indonesia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/hero_ananda_dwi_rahmawati-100.c173e873cf33241761a02d16cddafadcf3e0e8b7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_anders_bjrnestad",
+      "slug": "anders-bjrnestad",
+      "displayName": "Anders Bjørnestad",
+      "headline": "AWS Community Hero",
+      "country": "Norway",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Anders-Bjornestad-100.a3791df1b868652606066fdbeac066591ddb1478.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_andrew_brown",
+      "slug": "andrew-brown",
+      "displayName": "Andrew Brown",
+      "headline": "AWS Community Hero",
+      "country": "Ontario Canada",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/Andrew%20Brown%20100.b07863b9f6cb1b085a181e85e33e09898ebab69c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_angela_timofte",
+      "slug": "angela-timofte",
+      "displayName": "Angela Timofte",
+      "headline": "AWS Serverless Hero",
+      "country": "Denmark",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/angela-timofte.58e2de6834e87901e148e25fb216ef406a262894.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_anh_ho_viet",
+      "slug": "anh-ho-viet",
+      "displayName": "Anh Ho Viet",
+      "headline": "AWS Community Hero",
+      "country": "Vietnam",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/anhho-headshotcircle-100px.2b5bd833aa6b704b2e2f16231609760f3a151d90.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ankit_gupta",
+      "slug": "ankit-gupta",
+      "displayName": "Ankit Gupta",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ankit-gupta-circular-headshot.a76ec3f0326c5b720cbc70a2f5ab04ebfff34f01.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ant_stanley",
+      "slug": "ant-stanley",
+      "displayName": "Ant Stanley",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/ants-headshotcircle-100px.26ab0b3a58ef0f506747585591e231f4da81a490.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_anton_babenko",
+      "slug": "anton-babenko",
+      "displayName": "Anton Babenko",
+      "headline": "AWS Community Hero",
+      "country": "Norway",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/anton_babenko-modified.23f367001f7b41365a69b092fe6ee43459ab31f9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_anurag_kale",
+      "slug": "anurag-kale",
+      "displayName": "Anurag Kale",
+      "headline": "AWS Data Hero",
+      "country": "Sweden",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/Anurag_Anil_Kale_100.b389e5028f6b2b4be42386845c8447278d58ecbe.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_arseny_zinchenko",
+      "slug": "arseny-zinchenko",
+      "displayName": "Arseny Zinchenko",
+      "headline": "AWS Container Hero",
+      "country": "Ukraine",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/arseny-zinchenko.46cb1c3a6fb7509a85060d242f02b2a81819268a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_arshad_zackeriya",
+      "slug": "arshad-zackeriya",
+      "displayName": "Arshad Zackeriya",
+      "headline": "AWS Community Hero",
+      "country": "New Zealand",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/arshad_zackeriya_100.1ff8786d3189991628c2fcb571f6198c19ea293a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_austen_collins",
+      "slug": "austen-collins",
+      "displayName": "Austen Collins",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/austenc-headshotcircle-100px.4f48d24e2278af921d7620df082e76cd08a9b63a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_avi_keinan",
+      "slug": "avi-keinan",
+      "displayName": "Avi Keinan",
+      "headline": "AWS Community Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/avi-keinan.ca03c1b3a8c1cc4adb952dc30ed58f717c80d64b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_awedis_keofteian",
+      "slug": "awedis-keofteian",
+      "displayName": "Awedis Keofteian",
+      "headline": "AWS Community Hero",
+      "country": "Lebanon",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Awedis-100.f4ebaed1919347909cda9577387bac8a1f8e8120.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ayyanar_jeyakrishnan",
+      "slug": "ayyanar-jeyakrishnan",
+      "displayName": "Ayyanar Jeyakrishnan",
+      "headline": "AWS Machine Learning Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Ayyanar%20Jeyakrishnan%20100.d60d22b64376fd49ab99b476ea2326531679d59e.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_azmi_mengu",
+      "slug": "azmi-mengu",
+      "displayName": "Azmi Mengu",
+      "headline": "AWS Community Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/azmi-mengu.087aaabb2903b8792ef20d92e341e4772a26895d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_badri_narayanan_kesavan",
+      "slug": "badri-narayanan-kesavan",
+      "displayName": "Badri Narayanan Kesavan",
+      "headline": "AWS Community Hero",
+      "country": "Singapore",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/Badri%20Narayanan%20Kesavan-100.31ef5982037cd5ada858bf1387b82724bf12a73f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_becky_zhang",
+      "slug": "becky-zhang",
+      "displayName": "Becky Zhang",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/becky-headshotcircle-100px.f45d636a66546c99d2ca296af846b2bb86e08c14.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ben_bridts",
+      "slug": "ben-bridts",
+      "displayName": "Ben Bridts",
+      "headline": "AWS Community Hero",
+      "country": "Belgium",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ben-bridts.cf2eac9fa0f55982f83f3557287d7656e636185b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ben_ellerby",
+      "slug": "ben-ellerby",
+      "displayName": "Ben Ellerby",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ben-ellerby.9bdd91cd3d61193455de2104a24260f7c6a738b5.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ben_kehoe",
+      "slug": "ben-kehoe",
+      "displayName": "Ben Kehoe",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/benk-headshotcircle-100px.9530c035a77bdc67e38098ca2565b24782d5d2f2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_bhuvaneswari_subramani",
+      "slug": "bhuvaneswari-subramani",
+      "displayName": "Bhuvaneswari Subramani",
+      "headline": "AWS DevTools Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/bhuvanas-headshotcircle-100px.06d334d116d02fd51a784f64ac6765a79e4523d8.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_boyan_dimitrov",
+      "slug": "boyan-dimitrov",
+      "displayName": "Boyan Dimitrov",
+      "headline": "AWS Community Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/boyan-headshotcircle-100px.ab75a96438a16c21351609ff05ddffc3d4b70a6d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_brian_hough",
+      "slug": "brian-hough",
+      "displayName": "Brian Hough",
+      "headline": "AWS DevTools Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Brian%20Hough_100.ad6bf866a512b5d990a9cc470ea3c8ca8f653ff6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_brian_leroux",
+      "slug": "brian-leroux",
+      "displayName": "Brian Leroux",
+      "headline": "AWS Serverless Hero",
+      "country": "Canada",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/brian-leroux-circular-headshot.d74cf36981ab7dee70508381710b3955c01502e1.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_brian_tarbox",
+      "slug": "brian-tarbox",
+      "displayName": "Brian Tarbox",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/brian-tarbox-circular-headshot.265f9909a087103813e7f9ec36b23448e0582bae.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_bryan_chasko",
+      "slug": "bryan-chasko",
+      "displayName": "Bryan Chasko",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/bryanc-headshotcircle-100px.17f2e5ad57585f85d5ed9f0527ade819e3e00475.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_calvin_hendryx_parker",
+      "slug": "calvin-hendryx-parker",
+      "displayName": "Calvin Hendryx-Parker",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/calvin-hendryx-parker-circular-headshot.08504dfc565eebd4e800c848b6002c9994172329.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_carlos_cortez",
+      "slug": "carlos-cortez",
+      "displayName": "Carlos Cortez",
+      "headline": "AWS Community Hero",
+      "country": "Perú",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/carlos-cortez.dadc00fba5e7def50b0e254402beb1fb7211b3ed.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_carlos_zambrano",
+      "slug": "carlos-zambrano",
+      "displayName": "Carlos Zambrano",
+      "headline": "AWS Data Hero",
+      "country": "Colombia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/carlos-zambrano.255ecd89a1a6a74695c2735c44255c3865d8349f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_chao_cai",
+      "slug": "chao-cai",
+      "displayName": "Chao Cai",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/chao-kai.5ac282cd55074e395f94c8189aaceb0e45e8dea2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_chris_farris",
+      "slug": "chris-farris",
+      "displayName": "Chris Farris",
+      "headline": "AWS Security Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/secuirty/HeadShot_chris_farris-100.6f7cb8a8a9b83c5cc8c5eec3fdfc1799cd0ca051.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_chris_miller",
+      "slug": "chris-miller",
+      "displayName": "Chris Miller",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/chris-miller.7c658e7232ec12eb8cdc046d3ce0b70108de5f42.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_chris_williams",
+      "slug": "chris-williams",
+      "displayName": "Chris Williams",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Chris-Williams-100.7e205c7ef4a9320054a5cb2c55799ee2bce42561.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_christian_bonzelet",
+      "slug": "christian-bonzelet",
+      "displayName": "Christian Bonzelet",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/developer-center/christian-bonzelet.93675b75bf7fffb8cab82736e44978645bf13f91.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_colin_percival",
+      "slug": "colin-percival",
+      "displayName": "Colin Percival",
+      "headline": "AWS Community Hero",
+      "country": "Canada",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/colinp-headshotcircle-100px.f1ad49b52983c74347e636a6b05ecbcfc1a63b24.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_cyril_bandolo",
+      "slug": "cyril-bandolo",
+      "displayName": "Cyril Bandolo",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Cameroon",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/nov/Cyril_Headshot%20100.b761c52f87aa01cec037da934172f7208ff8e65c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_cyrus_wong",
+      "slug": "cyrus-wong",
+      "displayName": "Cyrus Wong",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Hong Kong",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/cyrusw-headshotcircle-100px.a8668ad209bed9f0897a4ddea324f9bfcb3e3fa4.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_damian_olguin",
+      "slug": "damian-olguin",
+      "displayName": "Damian Olguin",
+      "headline": "AWS Community Hero",
+      "country": "Argentina",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/damian-olguin.53d0af743bfa10707413b9b37445097a551a6da9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_daniel_aniszkiewicz",
+      "slug": "daniel-aniszkiewicz",
+      "displayName": "Daniel Aniszkiewicz",
+      "headline": "AWS Security Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Daniel%20Aniszkiewicz-100.98ee9f321d9cc498d8e584f7f583e80c4e8f01a0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_daniel_rankov",
+      "slug": "daniel-rankov",
+      "displayName": "Daniel Rankov",
+      "headline": "AWS Community Hero",
+      "country": "Bulgaria",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/daniel-rankov.1487dd7ef45401dc08d7482d5b55318ec64cd926.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_danielle_heberling",
+      "slug": "danielle-heberling",
+      "displayName": "Danielle Heberling",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/danielle-heberling-modified.44a3833df55fcfcc7cc804672562c909bc4ab3aa.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dave_stauffacher",
+      "slug": "dave-stauffacher",
+      "displayName": "Dave Stauffacher",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/davestauffacher-headshotcircle-100px.cacaee64f3965348ad13f2077ab81a79edeed7c3.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_david_victoria",
+      "slug": "david-victoria",
+      "displayName": "David Victoria",
+      "headline": "AWS Community Hero",
+      "country": "Mexico",
+      "avatarUrl": "https://d1.awsstatic.com/developer-center/david-victoria.681cc9ee2e95ec67d7190d15d17c975521e2d4f2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_denis_astahov",
+      "slug": "denis-astahov",
+      "displayName": "Denis Astahov",
+      "headline": "AWS Community Hero",
+      "country": "Canada",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/IMG_7757-circled.803e555f31a2426470917e72420052d7cac21832.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_denis_bauer",
+      "slug": "denis-bauer",
+      "displayName": "Denis Bauer",
+      "headline": "AWS Data Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/denis-bauer.264717c5ed2a0c367155dcadbe38172be20e6467.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dhaval_nagar",
+      "slug": "dhaval-nagar",
+      "displayName": "Dhaval Nagar",
+      "headline": "AWS Serverless Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/dhaval-nagar.b5b24a60dd8a59e405b329d2b39900ad4af16deb.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dheeraj_choudhary",
+      "slug": "dheeraj-choudhary",
+      "displayName": "Dheeraj Choudhary",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Dheeraj%20Choudhary_100.23fbaab0bf1166abb918ded6056e23651f463f1f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dijeesh_padinharethil",
+      "slug": "dijeesh-padinharethil",
+      "displayName": "Dijeesh Padinharethil",
+      "headline": "AWS Container Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/dijeesh-padinharethi.102826c6555af5e8bf80351e129a65ebdc6454e1.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dipali_kulshrestha",
+      "slug": "dipali-kulshrestha",
+      "displayName": "Dipali Kulshrestha",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/dipali-kulshrestha.5b2c76df5e18fdbbd7640cc95d4865e22587ce67.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dominik_grzywaczewski",
+      "slug": "dominik-grzywaczewski",
+      "displayName": "Dominik Grzywaczewski",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/dominik_grzywaczewski-modified.267c3f9b66946561f25e90e5e3f73acf38185526.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_drew_firment",
+      "slug": "drew-firment",
+      "displayName": "Drew Firment",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/drewfi-headshotcircle-100px.4106bb5146f21e2e00d797a88b87e299857100f2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dzenan_dzevlan",
+      "slug": "dzenan-dzevlan",
+      "displayName": "Dzenan Dzevlan",
+      "headline": "AWS Community Hero",
+      "country": "Bosnia and Herzegovina",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/dzenan-dzevlan.3bc5fd7c9c9a29eecf4f7b869e05e9ef5c247396.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_dzenana_dzevlan",
+      "slug": "dzenana-dzevlan",
+      "displayName": "Dzenana Dzevlan",
+      "headline": "AWS Community Hero",
+      "country": "Bosnia and Herzegovina",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/dzenana_dzevlan_new_picture-100.4c8cdbf61711a2107839cfd8b03203927bd88b1a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ed_miller",
+      "slug": "ed-miller",
+      "displayName": "Ed Miller",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/ed_miller-modified.c46e81090dbd66dd1620f1d08dffc39e5bac5427.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_efi_merdler_kravitz",
+      "slug": "efi-merdler-kravitz",
+      "displayName": "Efi Merdler-Kravitz",
+      "headline": "AWS Serverless Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Efi%20Merdler-Kravitz-100.b78b65f4dabb9f355c5f522f5d016eceb097dd87.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_elliott_cordo",
+      "slug": "elliott-cordo",
+      "displayName": "Elliott Cordo",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/elliott-cordo.058f5552c34e5c41912c9621699d013aeaebe399.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_emin_alemdar",
+      "slug": "emin-alemdar",
+      "displayName": "Emin Alemdar",
+      "headline": "AWS Container Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Emin-Alemdar-100.c5cf5171c09246f9ad35c05afdd031076cf36990.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_emrah_samdan",
+      "slug": "emrah-samdan",
+      "displayName": "Emrah Şamdan",
+      "headline": "AWS Serverless Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/emrah-samdan.093995ad86b7810ff09ea1cb9dbfafc79e002fe8.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_eric_hammond",
+      "slug": "eric-hammond",
+      "displayName": "Eric Hammond",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/eric-hammond-100.4fa36fa024cadae27e3ec37f53e9628413b78cc9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ernest_chiang",
+      "slug": "ernest-chiang",
+      "displayName": "Ernest Chiang",
+      "headline": "AWS Community Hero",
+      "country": "Taiwan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ernest-chiang.7080e163e723e58f05856cfce9207dd01b497be2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_evandro_pires",
+      "slug": "evandro-pires",
+      "displayName": "Evandro Pires",
+      "headline": "AWS Serverless Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Evandro%20Pires_100.608b79e2b6c39c968879619fdf6511930569d76d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ewere_diagboya",
+      "slug": "ewere-diagboya",
+      "displayName": "Ewere Diagboya",
+      "headline": "AWS Community Hero",
+      "country": "Nigeria",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ewere-diagboya.52f1b1e5be2b95b80f6e709de06e1db1fbe7302a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_faizal_khan",
+      "slug": "faizal-khan",
+      "displayName": "Faizal Khan",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/faizal-khan.7cf3b2f5d51b5d8b5b6f90e6ac26d8d52584f5aa.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_faye_ellis",
+      "slug": "faye-ellis",
+      "displayName": "Faye Ellis",
+      "headline": "AWS Community Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/Faye-Ellis-100.b7719945ff5b62470eeb97ea7fd5654687ae0307.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_filip_pyrek",
+      "slug": "filip-pyrek",
+      "displayName": "Filip Pyrek",
+      "headline": "AWS Serverless Hero",
+      "country": "Czech Republic",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/filip-pyrek.016a1496f09ca34459980d210d28286da865e0be.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_filipe_barretto",
+      "slug": "filipe-barretto",
+      "displayName": "Filipe Barretto",
+      "headline": "AWS Community Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/filipe-barretto.5c3361ca034a5c4ff8c382ea4182f465f37410d9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_francesco_pochetti",
+      "slug": "francesco-pochetti",
+      "displayName": "Francesco Pochetti",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Luxembourg",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/francescop-headshotcircle-100px.ab0355130ea94bfc43d2e356b686863edaddaf1b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_francisco_edilton",
+      "slug": "francisco-edilton",
+      "displayName": "Francisco Edilton",
+      "headline": "AWS Community Hero",
+      "country": "Portugal",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/franciscoe-headshotcircle-100px.855021d2259c06bb1effc748b34dd8fcfd5f2be6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_franck_pachot",
+      "slug": "franck-pachot",
+      "displayName": "Franck Pachot",
+      "headline": "AWS Data Hero",
+      "country": "Switzerland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/franck-pachot.13679945491ccb1dbc63c006c8b28d1200821979.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gabriel_ramirez",
+      "slug": "gabriel-ramirez",
+      "displayName": "Gabriel Ramirez",
+      "headline": "AWS Community Hero",
+      "country": "Mexico",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/gabriel-ramirez-circular-headshot.bb0573ec5a5d015014c551f12fa5da74cf0faf9c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gaurav_kamboj",
+      "slug": "gaurav-kamboj",
+      "displayName": "Gaurav Kamboj",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/gauravk-headshotcircle-100px.6be6aa13ea4d3e359f76f45ce699b4d89da5e788.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gerardo_castro",
+      "slug": "gerardo-castro",
+      "displayName": "Gerardo Castro",
+      "headline": "AWS Security Hero",
+      "country": "Perú",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/secuirty/gerardo-castro-100.590c531203aa507b6ce9e8eef6e9f34e989b4cda.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gert_leenders",
+      "slug": "gert-leenders",
+      "displayName": "Gert Leenders",
+      "headline": "AWS DevTools Hero",
+      "country": "Brussels. Belgium",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/gert-leenders.2ecbe62bc2a4efd9df8e9bd91c0359ff4e020c57.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gillian_mccann",
+      "slug": "gillian-mccann",
+      "displayName": "Gillian McCann",
+      "headline": "AWS Machine Learning Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/gillian_mccann-round.37c7ff38a72536fd6731c181ff7d9c0ba1daeffe.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_gojko_adzic",
+      "slug": "gojko-adzic",
+      "displayName": "Gojko Adzic",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/gojkoadzic-headshotcircle-100px.2c4c2dc21009fb69b0561315cd4cd35fdce8ce24.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_goran_opacic",
+      "slug": "goran-opacic",
+      "displayName": "Goran Opacic",
+      "headline": "AWS Data Hero",
+      "country": "Serbia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/goran-opacic-circular-headshot.9a48d689d182979319a16f0009d54983995c840d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_guillermo_fisher",
+      "slug": "guillermo-fisher",
+      "displayName": "Guillermo Fisher",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/guillermo-fisher-circular-headshot.a94f588b3b21c5006f4f94cd5bb741d925f82ca6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_guy_ernest",
+      "slug": "guy-ernest",
+      "displayName": "Guy Ernest",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/guye-headshotcircle-100px.0bc5c8e860a6825dc51cebbc610c71d633b9266f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hazel_saenz",
+      "slug": "hazel-saenz",
+      "displayName": "Hazel Saenz",
+      "headline": "AWS Serverless Hero",
+      "country": "Guatemala",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/hazel-100.b33f18a96006f3f173a75af760db2b063f5e5e3f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hidetoshi_matsui",
+      "slug": "hidetoshi-matsui",
+      "displayName": "Hidetoshi Matsui",
+      "headline": "AWS Serverless Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/matsui-hidetoshi.798586faf2d8615270a07eb6a7cfc71b0e069f84.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hirokazu_hatano",
+      "slug": "hirokazu-hatano",
+      "displayName": "Hirokazu Hatano",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/hirokazu-hatano.a17049b7f39e8bea32ae0fe61297687512931bf0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hiroko_nishimura",
+      "slug": "hiroko-nishimura",
+      "displayName": "Hiroko Nishimura",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/Hiro%20Nishimura.eebd9488282fcbed94e1f4fe118b603e1a1d0fff.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hiromi_ito",
+      "slug": "hiromi-ito",
+      "displayName": "Hiromi Ito",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/hiromi-ito.f869e7287a98882abd2984334582a77d00f3233b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_hyunmin_kim",
+      "slug": "hyunmin-kim",
+      "displayName": "Hyunmin Kim",
+      "headline": "AWS Community Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/hyunmin-kim.69f545439d5cde2d1bb73b281d9e89cba962625f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ian_mckay",
+      "slug": "ian-mckay",
+      "displayName": "Ian Mckay",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ian-mckay.8140d4f6168cbe08dddb1787ce88ef6cf5da8272.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ilanchezhian_ganesamurthy",
+      "slug": "ilanchezhian-ganesamurthy",
+      "displayName": "Ilanchezhian Ganesamurthy",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/Ilanchezhian-100.25577941b6492f40546505635288e07b62bf06dd.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ivonne_roberts",
+      "slug": "ivonne-roberts",
+      "displayName": "Ivonne Roberts",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/ivonne-roberts.02648d2331c9ed07bd433b34d084c727b86ebb0d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jacopo_nardiello",
+      "slug": "jacopo-nardiello",
+      "displayName": "Jacopo Nardiello",
+      "headline": "AWS Container Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/jacopo-nardiello.3e21c48520fea6c0efefbac75dd7e2b1d197fe63.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jaehyeon_shin",
+      "slug": "jaehyeon-shin",
+      "displayName": "JaeHyeon Shin",
+      "headline": "AWS Community Hero",
+      "country": "South Korea",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/_R8A4931-100.6880c6e8f0da099ca0578ef262fa23ccdd8c0356.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_james_hall",
+      "slug": "james-hall",
+      "displayName": "James Hall",
+      "headline": "AWS Community Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/jamesh-headshotcircle-100px.aff1982ee71e157919897b45e6e29c12402736b2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jared_short",
+      "slug": "jared-short",
+      "displayName": "Jared Short",
+      "headline": "AWS DevTools Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/jared-short.b9ed419d0a15366f30c1e0eb3be420c5f6ec0260.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jaroslaw_zielinski",
+      "slug": "jaroslaw-zielinski",
+      "displayName": "Jaroslaw Zielinski",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/jaroslaw-headcircle.00bea4722aae1f10c5285eb61cdc1fc0a0752264.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jayesh_ahire",
+      "slug": "jayesh-ahire",
+      "displayName": "Jayesh Ahire",
+      "headline": "AWS Machine Learning Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/jayesh-ahire.2e583a8a295603151ed9a64b04f306be259a4418.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jeremy_daly",
+      "slug": "jeremy-daly",
+      "displayName": "Jeremy Daly",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/jeremyd-headshotcircle-100px.69c3095406fda680fcdf8b5a782ae05cd910ba54.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jimmy_dahlqvist",
+      "slug": "jimmy-dahlqvist",
+      "displayName": "Jimmy Dahlqvist",
+      "headline": "AWS Serverless Hero",
+      "country": "Sweden",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/jimmy%20dahlqvist-100.80452ac668be09f30e1bdb3a7e857be3a980cbbf.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_johannes_koch",
+      "slug": "johannes-koch",
+      "displayName": "Johannes Koch",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/headshot_johannes_koch-modified.d9e6d63d69c403eef784aa4b21559e866f8b4616.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_john_varghese",
+      "slug": "john-varghese",
+      "displayName": "John Varghese",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/johnv-headshotcircle-100px.0ee23ec793ac1bad864eade170e67206c308598c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jones_zachariah_noel_n",
+      "slug": "jones-zachariah-noel-n",
+      "displayName": "Jones Zachariah Noel N",
+      "headline": "AWS Serverless Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/jones_zachariah_noel_n-modified.ec4bc7c3e6c94aadc735b1a01f0014b0e65014c1.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_joshua_arvin_lat",
+      "slug": "joshua-arvin-lat",
+      "displayName": "Joshua Arvin Lat",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Philippines",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Joshua%20Arvin%20Lat%20100.5cdc1eecfff527562930b40eda545ec85163fb1c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_julia_furst_morgado",
+      "slug": "julia-furst-morgado",
+      "displayName": "Julia Furst Morgado",
+      "headline": "AWS Container Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Julia-100.5b0b4d9c265272245b5345dc09a13ccb9b878b54.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jungyoul_yu",
+      "slug": "jungyoul-yu",
+      "displayName": "Jungyoul Yu",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/jungyoul-yu.69af9c8015142a5ce8cb13118ec68aa431a934e9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_juyoung_song",
+      "slug": "juyoung-song",
+      "displayName": "Juyoung Song",
+      "headline": "AWS Container Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/juyoung-song-circular-headshot.55ba241fdd1066d24391a1cac29e95644fca94ba.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_jeremie_rodon",
+      "slug": "jeremie-rodon",
+      "displayName": "Jérémie Rodon",
+      "headline": "AWS Community Hero",
+      "country": "France",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/j%c3%a9r%c3%a9mie_rodon-modified.cba4eff26519113e57e83d0d34d054d80196a21d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_karolina_boboli",
+      "slug": "karolina-boboli",
+      "displayName": "Karolina Boboli",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/karolina-boboli.cad41a959540918398e923cc018b41560468a7ee.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kaushik_mohanraj",
+      "slug": "kaushik-mohanraj",
+      "displayName": "Kaushik Mohanraj",
+      "headline": "AWS Community Hero",
+      "country": "Malaysia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/Kaushik-Mohanraj-2022.7be55a3ab5ac77650a1a2940e84e756a7159b565.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kazuki_miura",
+      "slug": "kazuki-miura",
+      "displayName": "Kazuki Miura",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/Kazuki%20Miura_100.5c3d8bbdbf3c5bdcf6a3574578a3164d6886fe34.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_keisuke_usuda",
+      "slug": "keisuke-usuda",
+      "displayName": "Keisuke Usuda",
+      "headline": "AWS Security Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/secuirty/usuda_jawsdays2019_100.8da5a677c1554601f9beccabd4bc819c80b08c93.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_keith_yau",
+      "slug": "keith-yau",
+      "displayName": "Keith Yau",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/keithy-headshotcircle-100px.920202ddce6820179b814579bf41714227c4c97f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ken_collins",
+      "slug": "ken-collins",
+      "displayName": "Ken Collins",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/ken%20collins-100.0179b7e37b1aa20bfc96f9b82664ca618f022933.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kenjiro_marumoto",
+      "slug": "kenjiro-marumoto",
+      "displayName": "Kenjiro Marumoto",
+      "headline": "AWS Data Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/kenjiro-marumoto.403fd853e467165de9393734fe62535d609fdf0b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kenneth_attard",
+      "slug": "kenneth-attard",
+      "displayName": "Kenneth Attard",
+      "headline": "AWS Community Hero",
+      "country": "Malta",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Kenneth%20Attard-100.f9aca609283778ada7eec13a75b1a87d8f0859b9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kenta_goto",
+      "slug": "kenta-goto",
+      "displayName": "Kenta Goto",
+      "headline": "AWS DevTools Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/kenta_goto-100.57ce0ab885396afe4c176a042cc2b1fb01766022.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kesha_williams",
+      "slug": "kesha-williams",
+      "displayName": "Kesha Williams",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/keshaw-headshotcircle-100px.1ab50838e324979b315f20d3de7872d184ee3304.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kittaya_niennattrakul",
+      "slug": "kittaya-niennattrakul",
+      "displayName": "Kittaya Niennattrakul",
+      "headline": "AWS Community Hero",
+      "country": "Thailand",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/kittaya-niennatrakul.179c05cbf1f68fea49969500c172fb90142abbd6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kohei_matsushita",
+      "slug": "kohei-matsushita",
+      "displayName": "Kohei Matsushita",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/kohei-matsushita.eb5bce735318b2b24fcf2d152eb5e5d4b746d741.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_konstantinos_siaterlis",
+      "slug": "konstantinos-siaterlis",
+      "displayName": "Konstantinos Siaterlis",
+      "headline": "AWS Data Hero",
+      "country": "Greece",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/konstantinos-siaterlis.b9f6343cd772d7cede1371607c24f2601616fbc2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kristi_perreault",
+      "slug": "kristi-perreault",
+      "displayName": "Kristi Perreault",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/kristi-perreault.d18972dfe3ccd5114a44f493209267d3f8e80d90.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kurt_lee",
+      "slug": "kurt-lee",
+      "displayName": "Kurt Lee",
+      "headline": "AWS Serverless Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/kurti-headshotcircle-100px.df03d2bb996c5555979dbfdc429691f60aaf8807.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_kyuhyun_byun",
+      "slug": "kyuhyun-byun",
+      "displayName": "Kyuhyun Byun",
+      "headline": "AWS Serverless Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/kyuhyun-byun.d0f9816b20af8d255886233c9654bb354568e38e.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_lee_gilmore",
+      "slug": "lee-gilmore",
+      "displayName": "Lee Gilmore",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/lee-gilmore-100.18f76149a294b371a9d59b089ac82e4eb84a27fb.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_linda_mohamed",
+      "slug": "linda-mohamed",
+      "displayName": "Linda Mohamed",
+      "headline": "AWS Community Hero",
+      "country": "Austria",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/gameday/championship/Linda%20Mohamed_100.6706f1fa44bf8406ace0027bc8d26db1f538819a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_linghui_gong",
+      "slug": "linghui-gong",
+      "displayName": "Linghui Gong",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/linghui-gong.9e7915432dcef6e1eec1e546ec722d1cb24f2a68.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_liz_fong_jones",
+      "slug": "liz-fong-jones",
+      "displayName": "Liz Fong-Jones",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/Liz-Fong-Jones-modified.a40e24b6b2f67a5f347da5a964ed89b7eb70f6e5.jpg",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_liz_rice",
+      "slug": "liz-rice",
+      "displayName": "Liz Rice",
+      "headline": "AWS Container Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/lizrice-headshotcircle-100px.f51f92ee4a7526fd6c4a213074f5fd7a9bc89ef6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_luc_van_donkersgoed",
+      "slug": "luc-van-donkersgoed",
+      "displayName": "Luc van Donkersgoed",
+      "headline": "AWS Serverless Hero",
+      "country": "Netherlands",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/luc-van-donkersgoed.346695fb4f0a96c0c622b4e1ac27136cedbf5750.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_luca_bianchi",
+      "slug": "luca-bianchi",
+      "displayName": "Luca Bianchi",
+      "headline": "AWS Serverless Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/luca-bianchi.61018a1edb2c52723102f5d20de0937bee0af658.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_luciano_mammino",
+      "slug": "luciano-mammino",
+      "displayName": "Luciano Mammino",
+      "headline": "AWS Serverless Hero",
+      "country": "Ireland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/luciano_mammino-modified.2e993605dd538a9d0b653ed6ccd004c0ff36afbc.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_lukasz_dorosz",
+      "slug": "lukasz-dorosz",
+      "displayName": "Lukasz Dorosz",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/lukasz-dorosz-circular-headshot.709a090ab73e496d685fdf680254a2c3c533d1c2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_lyndon_leggate",
+      "slug": "lyndon-leggate",
+      "displayName": "Lyndon Leggate",
+      "headline": "AWS Machine Learning Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/lyndon_leggate-round.a91ec87bf1305dbedae35352945eeb0f02f298ac.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_lynn_langit",
+      "slug": "lynn-langit",
+      "displayName": "Lynn Langit",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/lynnlangit-circular-headshot.5a282822b57315293dc4ee9cd8093dc0f9a65ab8.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_maciej_lelusz",
+      "slug": "maciej-lelusz",
+      "displayName": "Maciej Lelusz",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/maciej_lelusz-modified.99a202f501ae79c8d6953fe8e82662e1ef267845.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_maciej_walkowiak",
+      "slug": "maciej-walkowiak",
+      "displayName": "Maciej Walkowiak",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/Maciej%20Walkowiak-100.77d0ef5c71537f1ba5edf7f656a683ab88f535e4.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_madhu_kumar",
+      "slug": "madhu-kumar",
+      "displayName": "Madhu Kumar",
+      "headline": "AWS Container Hero",
+      "country": "Hungary",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/madhu_kumar-modified.c6074a0fc2da44695e4eb21e8542f81f2f3083c4.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_manoj_fernando",
+      "slug": "manoj-fernando",
+      "displayName": "Manoj Fernando",
+      "headline": "AWS Community Hero",
+      "country": "Sri Lanka",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/manojf-headshotcircle-100px.cfa42c254f2db6e73196cebaeeb34738ed7f28cc.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_marcelo_paiva",
+      "slug": "marcelo-paiva",
+      "displayName": "Marcelo Paiva",
+      "headline": "AWS Community Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/Marcelo%20Paiva-100.4e8e535130658846e9e4215cc9388c286ced7ea7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_marcin_sodkiewicz",
+      "slug": "marcin-sodkiewicz",
+      "displayName": "Marcin Sodkiewicz",
+      "headline": "AWS Serverless Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/marcin-sodkiewicz-100.32a848ad660eecf26f2f7af4f21570a684989939.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_margaret_valtierra",
+      "slug": "margaret-valtierra",
+      "displayName": "Margaret Valtierra",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/margaret_valtierra-100X100.d988f8c14edf1c35d2ef2edbf84f68f43b9e79ca.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_markus_ostertag",
+      "slug": "markus-ostertag",
+      "displayName": "Markus Ostertag",
+      "headline": "AWS Community Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/markuso-headshotcircle-100px.89de2a16cc5f4d6f81dcff58cc5afdda7b9140e7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_martijn_van_dongen",
+      "slug": "martijn-van-dongen",
+      "displayName": "Martijn van Dongen",
+      "headline": "AWS Community Hero",
+      "country": "The Netherlands",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/martijn-van-dongen-circular-headshot.ec0b01caa52bc0c9f232defda2e8757363ef841d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_martin_damovsky",
+      "slug": "martin-damovsky",
+      "displayName": "Martin Damovsky",
+      "headline": "AWS Community Hero",
+      "country": "Czechia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/martin-100.9046a477b89a0e783e7e2788e4546c2cfa5920c8.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_masanori_yamaguchi",
+      "slug": "masanori-yamaguchi",
+      "displayName": "Masanori Yamaguchi",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/masanori-yamaguchi.9088cc755389fa072f45cb78f83b4bb7f1a6655d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_masaya_arai",
+      "slug": "masaya-arai",
+      "displayName": "Masaya Arai",
+      "headline": "AWS Container Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/masaya-arai.38aa3892a9b03d28e2054c4b6bc921cc17f0c3a1.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_matt_coulter",
+      "slug": "matt-coulter",
+      "displayName": "Matt Coulter",
+      "headline": "AWS DevTools Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/matt-coulter.9206502c4345eff4334f273b18ca420385aaaf05.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_matt_lewis",
+      "slug": "matt-lewis",
+      "displayName": "Matt Lewis",
+      "headline": "AWS Data Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/matt-lewis-circular-headshot.f8dcf36ef93d5fbae7548392fbbcc4f23ed7d97e.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_matthew_bonig",
+      "slug": "matthew-bonig",
+      "displayName": "Matthew Bonig",
+      "headline": "AWS DevTools Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/matthew-bonig.58d1cb8ac439e06c1a36def45e1e0689fa8f3cf0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_matthieu_napoli",
+      "slug": "matthieu-napoli",
+      "displayName": "Matthieu Napoli",
+      "headline": "AWS Serverless Hero",
+      "country": "France",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/matthieu-napoli.e85872eb922483cd51b86ea71936cd5326654f37.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_mayank_pandey",
+      "slug": "mayank-pandey",
+      "displayName": "Mayank Pandey",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/mayank-pandey.a0be28b0f64030e0b108fb9b2d0ac0462e443091.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_michael_ezzell",
+      "slug": "michael-ezzell",
+      "displayName": "Michael Ezzell",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/michaele-headshotcircle-100px.6db7915446a4ea7b3d14d05c35410fc67aed7757.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_michael_walmsley",
+      "slug": "michael-walmsley",
+      "displayName": "Michael Walmsley",
+      "headline": "AWS Serverless Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/walmsley-headshot-modified.8f5ed41d85c0db56f58d9f160018482dcceec8ee.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_mike_fiedler",
+      "slug": "mike-fiedler",
+      "displayName": "Mike Fiedler",
+      "headline": "AWS Container Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/mikef-headshotcircle-100px.90e7ea499e49569e48cd2c9d34a4ce411fa37a7c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_mikey_fan",
+      "slug": "mikey-fan",
+      "displayName": "Mikey Fan",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/mikey-modified.0931fe108298908895b3df9ef50d80f711cd17a3.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_minoru_onda",
+      "slug": "minoru-onda",
+      "displayName": "Minoru Onda",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/q3/minoru_onda_100.8075f0f179fa38e32936e7ec65b4bc887defc971.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_monica_colangelo",
+      "slug": "monica-colangelo",
+      "displayName": "Monica Colangelo",
+      "headline": "AWS DevTools Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/monica2025-100.6f2f2a9507cd5646120ac963a8c3fc77680f5b85.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_namrata_shah",
+      "slug": "namrata-shah",
+      "displayName": "Namrata Shah",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/namrata-shah.07fedef7dd456c08c23dfa34d7680e18010cb506.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_nana_janashia",
+      "slug": "nana-janashia",
+      "displayName": "Nana Janashia",
+      "headline": "AWS Container Hero",
+      "country": "Austria",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/nana-janashia.bacc9c80641e9d8feba01d09a34eb59561114b3e.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_nathan_glover",
+      "slug": "nathan-glover",
+      "displayName": "Nathan Glover",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/lathanglover-headshotcircle-100px.f3fa99a35e72172d55be633e10006713663cca46.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_nick_triantafillou",
+      "slug": "nick-triantafillou",
+      "displayName": "Nick Triantafillou",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/hero-sept-2023/NicolasT_100.805eab7a76bb2db5ecd0b9835bf5ef8bfafce93b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_nilesh_vaghela",
+      "slug": "nilesh-vaghela",
+      "displayName": "Nilesh Vaghela",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/nileshv-headshotcircle-100px.84648b4605d571bdd44c1e327b75164fb7a8a32d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_niv_yungelson",
+      "slug": "niv-yungelson",
+      "displayName": "Niv Yungelson",
+      "headline": "AWS Community Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/niv-yungelson.e19bcbe45b15119b362453c6e559f59896ce10bc.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_noah_gift",
+      "slug": "noah-gift",
+      "displayName": "Noah Gift",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Noah%20Gift-100.387fd84fb07096265f4e4a806d696a02e8709868.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_nora_schoner",
+      "slug": "nora-schoner",
+      "displayName": "Nora Schöner",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/developer-center/nora-schoener.f3987cd33ecc48e46b4dccdfb456d315c38180ce.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_olalekan_elesin",
+      "slug": "olalekan-elesin",
+      "displayName": "Olalekan Elesin",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/olalekan-elesin.7c376347712123267371462c11ce5e9273f92aa5.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_or_hiltch",
+      "slug": "or-hiltch",
+      "displayName": "Or Hiltch",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/or-hiltch-circular-headshot.aa8d284efc4fd9d384fb6a47bab23b6b81033cb9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_paloma_lataliza",
+      "slug": "paloma-lataliza",
+      "displayName": "Paloma Lataliza",
+      "headline": "AWS Community Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Paloma-100.2ba9577e6580f5f3dfdb8bd137041c41378c2a3a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_pamela_gotti",
+      "slug": "pamela-gotti",
+      "displayName": "Pamela Gotti",
+      "headline": "AWS Community Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/pamela-gotti.44824b0a32099e2801aef0965dbeba671a5ab3ea.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_paolo_latella",
+      "slug": "paolo-latella",
+      "displayName": "Paolo Latella",
+      "headline": "AWS Community Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/paolol-headshotcircle-100px.6f4bd1b86c5070f3ebe9acc0bfe1c264fcd57410.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_partha_balasubramanian",
+      "slug": "partha-balasubramanian",
+      "displayName": "Partha Balasubramanian",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/partha-balasubramanian.9a99f6e256cfa26276ed9bb11aee843e52cf0ad7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_pascal_martin",
+      "slug": "pascal-martin",
+      "displayName": "Pascal Martin",
+      "headline": "AWS Container Hero",
+      "country": "France",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/pascal-martin.bc88a53fa4dc8d03163554654d30f38e8ba8644c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_pavlos_mitsoulis",
+      "slug": "pavlos-mitsoulis",
+      "displayName": "Pavlos Mitsoulis",
+      "headline": "AWS Machine Learning Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/pavlosm-headshotcircle-100px.5796010ec1d18e9358067ac9d787365aedf9e9e9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_pawe_zubkiewicz",
+      "slug": "pawe-zubkiewicz",
+      "displayName": "Paweł Zubkiewicz",
+      "headline": "AWS Serverless Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/pawe%c5%82_zubkiewicz-modified.79bfbe98c1d0ff041035aa52231e11602204800b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_peter_sankauskas",
+      "slug": "peter-sankauskas",
+      "displayName": "Peter Sankauskas",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/petersankauskas-headshotcircle-100px.6f466ac23c07b18b27cf722be12682d39ad36afd.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_peter_sbarski",
+      "slug": "peter-sbarski",
+      "displayName": "Peter Sbarski",
+      "headline": "AWS Serverless Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/peters-headshotcircle-100px.0dfc21a822f9f8642b2f71fa34d215d3178bbf6b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_philipp_garbe",
+      "slug": "philipp-garbe",
+      "displayName": "Philipp Garbe",
+      "headline": "AWS Container Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/Philipp%20Garbe-modified.33cecea45a079146e6467872a4886f41d3653e7f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_prashanth_hn",
+      "slug": "prashanth-hn",
+      "displayName": "Prashanth HN",
+      "headline": "AWS Serverless Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/prashanthhn-headshotcircle-100px.70fe28688278c94f3aacc629b82db95476658f54.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rafa_mitua",
+      "slug": "rafa-mitua",
+      "displayName": "Rafał Mituła",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/rafal%20100.862bbd3161517bf9121c1f581f619d36ffee8e51.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ran_isenberg",
+      "slug": "ran-isenberg",
+      "displayName": "Ran Isenberg",
+      "headline": "AWS Serverless Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/ran_isenberg-modified.248c17279b35467cf44547f27d46fc55ea0389e0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ran_ribenzaft",
+      "slug": "ran-ribenzaft",
+      "displayName": "Ran Ribenzaft",
+      "headline": "AWS Serverless Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/ranribenzaft-headshotcircle-100px.b82d46cedcab4ad5eb41b567f857b9d6e40480b4.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_raphael_jambalos",
+      "slug": "raphael-jambalos",
+      "displayName": "Raphael Jambalos",
+      "headline": "AWS Community Hero",
+      "country": "Philippines",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/Raphael%20Jambalos-100.9f843ef8ef3eced9dd7f86e0d5b5ea4b6ae81a16.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_raphael_quisumbing",
+      "slug": "raphael-quisumbing",
+      "displayName": "Raphael Quisumbing",
+      "headline": "AWS Community Hero",
+      "country": "Philippines",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/rafaelf-headshotcircle-100px.614dfd5b828a23850656b4d41f1aa9f5197c17c2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ray_lin",
+      "slug": "ray-lin",
+      "displayName": "Ray Lin",
+      "headline": "AWS Security Hero",
+      "country": "Taiwan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/secuirty/Ray%20Lin-100.b5df7cce743792141ef24879225bd0e7efb7899c.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rehan_van_der_merwe",
+      "slug": "rehan-van-der-merwe",
+      "displayName": "Rehan van der Merwe",
+      "headline": "AWS Community Hero",
+      "country": "South Africa",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/rehan-van-der-merwe%20100.6c76c1ef48dce0834d7b9b0cca19748b9d850fb2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_renato_losio",
+      "slug": "renato-losio",
+      "displayName": "Renato Losio",
+      "headline": "AWS Data Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/nov/Renato%20Losio-100.92679385c25107393146ab2ed4a6d2f1b5bf154e.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_richard_fan",
+      "slug": "richard-fan",
+      "displayName": "Richard Fan",
+      "headline": "AWS Security Hero",
+      "country": "Hong Kong",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/nov/Richard-fan-100.0f770d5298d5db44ba710badf8cf55d5c089ea7d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rick_hwang",
+      "slug": "rick-hwang",
+      "displayName": "Rick Hwang",
+      "headline": "AWS Community Hero",
+      "country": "Taiwan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/rick-hwang.9ba43d273e6bdca3850ece54f8ccc7cbacd731d9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rob_koch",
+      "slug": "rob-koch",
+      "displayName": "Rob Koch",
+      "headline": "AWS Data Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/nov/Rob%20Koch%20100.1c66c678676a00190e91b606c5229ac56a120289.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rolf_koski",
+      "slug": "rolf-koski",
+      "displayName": "Rolf Koski",
+      "headline": "AWS Community Hero",
+      "country": "Finland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/rolfkoski-headshotcircle-100px.3d148e0d034b16390e8071be1d4840855810ec34.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rosius_ndimofor",
+      "slug": "rosius-ndimofor",
+      "displayName": "Rosius Ndimofor",
+      "headline": "AWS Serverless Hero",
+      "country": "Cameroon",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/rosius-ndimofor.6559898ad5ab213106e34936490083d9023715ce.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rossana_suarez",
+      "slug": "rossana-suarez",
+      "displayName": "Rossana Suarez",
+      "headline": "AWS Container Hero",
+      "country": "Argentina",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/rossana_suarez-modified.3238f71160f7e6a189ba4e9c26bc59b7ab036a73.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_ruofei_ma",
+      "slug": "ruofei-ma",
+      "displayName": "Ruofei Ma",
+      "headline": "AWS Container Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/roufei-ma.1e0a32c9e0aecf6530365b1a32a3f883fa1ab6ae.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_rustem_feyzkhanov",
+      "slug": "rustem-feyzkhanov",
+      "displayName": "Rustem Feyzkhanov",
+      "headline": "AWS Machine Learning Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/rustem-feyzkhanov.b820892f2f2800789da7677fdb54cccd37de507d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sabiha_ali",
+      "slug": "sabiha-ali",
+      "displayName": "Sabiha Ali",
+      "headline": "AWS Community Hero",
+      "country": "United Arab Emirates",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/sabiha_ali_headshot-modified.3db8c6f3fe205d175344863f835f7af6687481a6.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sanchit_jain",
+      "slug": "sanchit-jain",
+      "displayName": "Sanchit Jain",
+      "headline": "AWS Data Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/oct-2023/sachit-jain-100.3480a4a2cb41a761dabd79226b4ed977be3985a0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sandip_das",
+      "slug": "sandip-das",
+      "displayName": "Sandip Das",
+      "headline": "AWS Container Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/sandip-das.9463ca3d8127c18eac95272c3708a0dc216d45b2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sanguk_park",
+      "slug": "sanguk-park",
+      "displayName": "SangUk Park",
+      "headline": "AWS Community Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/SangUk_Park-100X100.3f58ffb98b98344bb158a2f350cb6a995fc55b68.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sathyajith_bhat",
+      "slug": "sathyajith-bhat",
+      "displayName": "Sathyajith Bhat",
+      "headline": "AWS Container Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/sathya-modified.a16a0b0d309472a96645ff87fefbcd9448f00d3d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_scott_hsieh",
+      "slug": "scott-hsieh",
+      "displayName": "Scott Hsieh",
+      "headline": "AWS Data Hero",
+      "country": "Taiwan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/scott-hsieh-100.eba57fd877c6fac57b858c3fed45df34feba7d76.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sebastian_korfmann",
+      "slug": "sebastian-korfmann",
+      "displayName": "Sebastian Korfmann",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/sebastien-korfmann.fe10f4e96874e912f525d1404ef90a44dd32822b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sebastian_muller",
+      "slug": "sebastian-muller",
+      "displayName": "Sebastian Müller",
+      "headline": "AWS Serverless Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Sebastian%20M%c3%bcller%20100.2e3a14dea24e38400e12b8e8f5b47eda8a049ce8.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sena_yakut",
+      "slug": "sena-yakut",
+      "displayName": "Sena Yakut",
+      "headline": "AWS Security Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/sena%20yakut-100.532f05bd303a0fa2eb610aedd2e5b4f134490587.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_serhat_can",
+      "slug": "serhat-can",
+      "displayName": "Serhat Can",
+      "headline": "AWS Community Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/serhat-can-100.9c38f34791cf6c930eb88798db47cc3208913398.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_serkan_ozal",
+      "slug": "serkan-ozal",
+      "displayName": "Serkan Özal",
+      "headline": "AWS Serverless Hero",
+      "country": "Turkey",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/serkan-ozal.e0b1da7830509b503e5d028e33e4267e2dd94ab3.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_shaoyi_li",
+      "slug": "shaoyi-li",
+      "displayName": "Shaoyi Li",
+      "headline": "AWS Community Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/shaoyi-li-100.9f064064e7fdd70a444ad196f1fe5b25929292a9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sheen_brisals",
+      "slug": "sheen-brisals",
+      "displayName": "Sheen Brisals",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Sheen%20Brisals%20-100.21227ebb098dc5d156566b3303f9c7fd94aaeea0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sheng_wu",
+      "slug": "sheng-wu",
+      "displayName": "Sheng Wu",
+      "headline": "AWS Container Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/sheng-wu.815476b9239d56934a7b53343640105bb89eb1a9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_shigeru_oda",
+      "slug": "shigeru-oda",
+      "displayName": "Shigeru Oda",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/shigeru-oda.8661f4100d89ee6a7588e93c11c3120a4dcdbef0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_shimon_tolts",
+      "slug": "shimon-tolts",
+      "displayName": "Shimon Tolts",
+      "headline": "AWS Community Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/user-groups/shimon_tolts-round.8c7308c241a770cd29b178f098577324666ecc26.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_shingo_yoshida",
+      "slug": "shingo-yoshida",
+      "displayName": "Shingo Yoshida",
+      "headline": "AWS Serverless Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/shingoy-headshotcircle-100px.495b1a0d840071cb337360844c66695edaec35f9.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_shun_yoshie",
+      "slug": "shun-yoshie",
+      "displayName": "Shun Yoshie",
+      "headline": "AWS Security Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/shun-yoshie.8d2aa3ea8f6f6dd6c24692e2e55d11ffca69670a.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_simone_merlini",
+      "slug": "simone-merlini",
+      "displayName": "Simone Merlini",
+      "headline": "AWS Community Hero",
+      "country": "Italy",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/simone-merlini.80782776688c123866ce5f0fd3ad8cbfd2c250ab.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_slobodan_stojanovic",
+      "slug": "slobodan-stojanovic",
+      "displayName": "Slobodan Stojanović",
+      "headline": "AWS Serverless Hero",
+      "country": "Serbia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/evangelist0-slobodan.131d8cc8c5828c0627a6644b66b1877458e6f363.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_sridevi_murugayen",
+      "slug": "sridevi-murugayen",
+      "displayName": "Sridevi Murugayen",
+      "headline": "AWS Data Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/sridevi-murugayen.4ac808d7bf4462e4cd1d803d0c3a44d283acbe29.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_srushith_repakula",
+      "slug": "srushith-repakula",
+      "displayName": "Srushith Repakula",
+      "headline": "AWS Serverless Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/srushith-repakula.1550138de598b265709f501c5757f82d9b652509.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_stav_ochakovski",
+      "slug": "stav-ochakovski",
+      "displayName": "Stav Ochakovski",
+      "headline": "AWS Container Hero",
+      "country": "Israel",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/hero-images-2025/Stav%20Ochakovski-100.f8a93ae2119bd1dceb2c21b53e57c6ddb3bbbd6b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_stephen_sennett",
+      "slug": "stephen-sennett",
+      "displayName": "Stephen Sennett",
+      "headline": "AWS Community Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Stephen%20Sennett-100.e55cd775b897b1de49f21fcd9b3b3bd8744061a7.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_steve_bjorg",
+      "slug": "steve-bjorg",
+      "displayName": "Steve Bjorg",
+      "headline": "AWS Community Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/steve-bjorg-circular-headshot.e2b26c3b052237ffc17a338de4b96a169a655852.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_steve_teo",
+      "slug": "steve-teo",
+      "displayName": "Steve Teo",
+      "headline": "AWS Community Hero",
+      "country": "Singapore",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/steve-teo.677a405e25ef1327a20ad945674b6724a3b8712f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_taeseong_park",
+      "slug": "taeseong-park",
+      "displayName": "TaeSeong Park",
+      "headline": "AWS Community Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/taeseong_park-modified1.8f24a1abd9cdbbfa32524ee0a828a67e9a11eb07.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_takahiro_horike",
+      "slug": "takahiro-horike",
+      "displayName": "Takahiro Horike",
+      "headline": "AWS Serverless Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/takahiro-horike.5f9a8de26e3b570382990a9f5b444485e2225795.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_takuya_tachibana",
+      "slug": "takuya-tachibana",
+      "displayName": "Takuya Tachibana",
+      "headline": "AWS Community Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/nov/TachibanaTakuya-100.d489e05a31efdc928b1d25d707b9a7e9d0bfa352.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_teri_radichel",
+      "slug": "teri-radichel",
+      "displayName": "Teri Radichel",
+      "headline": "AWS Security Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/terir-headshotcircle-100px.cd490554a28f06c6fa8f44e499bb4de8b19b8d44.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Security Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_thorsten_hoger",
+      "slug": "thorsten-hoger",
+      "displayName": "Thorsten Höger",
+      "headline": "AWS DevTools Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Thorsten%20Hoger%20100.621a4d80fd786132a4209514ce3230ec036a00ee.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_tiago_rodrigues",
+      "slug": "tiago-rodrigues",
+      "displayName": "Tiago Rodrigues",
+      "headline": "AWS Community Hero",
+      "country": "Portugal",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/tigpt_100.84eac520f11e9ecf07493fbde6308410d74bad27.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_tom_mclaughlin",
+      "slug": "tom-mclaughlin",
+      "displayName": "Tom McLaughlin",
+      "headline": "AWS Serverless Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/tom-mclaughlin.dddac46990d50eeb157171d9fc773555c747d926.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_tomasz_dudek",
+      "slug": "tomasz-dudek",
+      "displayName": "Tomasz Dudek",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/photo_of_tomek_2022_extended-modified.eefe4b3cefb94981a1b098d32295da0a8723889f.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_tomasz_lakomy",
+      "slug": "tomasz-lakomy",
+      "displayName": "Tomasz Lakomy",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/tomasz-lakomy.e2ebd5ce84496110b8bc04b5e9d4976c023bd227.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_tomasz_ptak",
+      "slug": "tomasz-ptak",
+      "displayName": "Tomasz Ptak",
+      "headline": "AWS Machine Learning Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/tomasz-ptak.961e8b35e7e85f7f2135e505e558cfb35c360272.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_trista_pan",
+      "slug": "trista-pan",
+      "displayName": "Trista Pan",
+      "headline": "AWS Data Hero",
+      "country": "China",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/juan-pan.f239183f0d86631d47fd13869176461c89a514b0.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vadym_kazulkin",
+      "slug": "vadym-kazulkin",
+      "displayName": "Vadym Kazulkin",
+      "headline": "AWS ​​Serverless Hero",
+      "country": "Germany",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Vadym%20Kazulkin-100.4ded557b312dedf403d8e0e28973020e8b9707e1.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws ​​serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vanessa_santos",
+      "slug": "vanessa-santos",
+      "displayName": "Vanessa Santos",
+      "headline": "AWS Community Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/vanessa-santos.884979879829d30950e4bb37fca726240b0b6ace.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vicky_seno",
+      "slug": "vicky-seno",
+      "displayName": "Vicky Seno",
+      "headline": "AWS Container Hero",
+      "country": "USA",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/Community%20Heroes/vickys-headshotcircle-100px.82df96d970500dcde40c928d700510de6299da93.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vinicius_carida",
+      "slug": "vinicius-carida",
+      "displayName": "Vinicius Caridá",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Brazil",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/vinicius-carida.6406ccc62505d81887f8e651bec37afd0828a2a3.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_virginie_mathivet",
+      "slug": "virginie-mathivet",
+      "displayName": "Virginie Mathivet",
+      "headline": "AWS Machine Learning Hero",
+      "country": "France",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/virginie-mathivet.1aff1c1b12fe433a9d930d4f9a1b9996ab77674d.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vishal_alhat",
+      "slug": "vishal-alhat",
+      "displayName": "Vishal Alhat",
+      "headline": "AWS Community Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/Vishal%20-%20100.c898313528dff233356e8c8ccfa2c1a376d96da2.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vit_niennattrakul",
+      "slug": "vit-niennattrakul",
+      "displayName": "Vit Niennattrakul",
+      "headline": "AWS Community Hero",
+      "country": "Thailand",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/vitn-headshotcircle-100px.cc3ebe0ed2a86f91a0e0217b58810470adcde561.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vivek_raja_p_s",
+      "slug": "vivek-raja-p-s",
+      "displayName": "Vivek Raja P S",
+      "headline": "AWS Machine Learning Hero",
+      "country": "India",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/New-Heroes-2024/may-2024/Vivek_Headshot_100.84c6b28cc9ac37216cb726d170fbe646db250595.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_vlad_ionescu",
+      "slug": "vlad-ionescu",
+      "displayName": "Vlad Ionescu",
+      "headline": "AWS Container Hero",
+      "country": "Romania",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/vlad-ionescu-circular-headshot.16833e2334f7d7786f7888333f3a2ebb3caee733.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_wendy_wong",
+      "slug": "wendy-wong",
+      "displayName": "Wendy Wong",
+      "headline": "AWS Data Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heroes-2023/oct-2023/WendyWongImg-100.441c9ba1eac3d66caa0077f05d88b26b9d304138.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_wojciech_dabrowski",
+      "slug": "wojciech-dabrowski",
+      "displayName": "Wojciech Dąbrowski",
+      "headline": "AWS Community Hero",
+      "country": "Poland",
+      "avatarUrl": "https://d1.awsstatic.com/getting-started-guides/new-heros-nov-2022/2023/june-2023/headshot_wojciech_d%c4%85browski-modified.8a00e6612cc640bf12e1fb4623e6304ddafd4b61.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Community Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_yan_cui",
+      "slug": "yan-cui",
+      "displayName": "Yan Cui",
+      "headline": "AWS Serverless Hero",
+      "country": "United Kingdom",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/yanc-headshotcircle-100px.d664c7a0b9fe2ad4365ab87854365ada2fbdba52.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Serverless Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_yan_so",
+      "slug": "yan-so",
+      "displayName": "Yan So",
+      "headline": "AWS Machine Learning Hero",
+      "country": "Korea",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/yan-so.776cda83d6eb86b2a5fe45582d553c0ea004d2c3.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Machine Learning Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_yasunori_kirimoto",
+      "slug": "yasunori-kirimoto",
+      "displayName": "Yasunori Kirimoto",
+      "headline": "AWS DevTools Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/yasunori-kirimoto.916eb8082858390be71e940466806b8b250e7ae5.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Devtools Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_yusuke_kuoka",
+      "slug": "yusuke-kuoka",
+      "displayName": "Yusuke Kuoka",
+      "headline": "AWS Container Hero",
+      "country": "Japan",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/yasukek-headshotcircle-100px.40579b937cfad9935f9f862611ae62f0f314f879.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Container Hero"
+      ],
+      "profileStatus": "draft"
+    },
+    {
+      "id": "person_zainab_maleki",
+      "slug": "zainab-maleki",
+      "displayName": "Zainab Maleki",
+      "headline": "AWS Data Hero",
+      "country": "Australia",
+      "avatarUrl": "https://d1.awsstatic.com/Developer%20Marketing/developer-center/zainab-maleki.28bb5d0e01c21d47f4aa7dc1da675ca6b1a67a9b.png",
+      "primaryProgram": "AWS Hero",
+      "topics": [
+        "Aws Data Hero"
+      ],
+      "profileStatus": "draft"
+    }
+  ]
+}

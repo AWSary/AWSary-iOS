@@ -1,0 +1,68 @@
+{
+  "id": "person_kenneth_attard",
+  "slug": "kenneth-attard",
+  "displayName": "Kenneth Attard",
+  "headline": "",
+  "summary": "Kenneth is an AWS Hero and an Enterprise Architect at Betsson Group in Malta with over 20 years of technical experience . I am also AWS Malta User Group Leader and the organizer of the Malta AWS Community day",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xzRgZ8PhQIAoYMZqNpFYZfT2Mf.webp",
+    "sourceUrl": "https://builder.aws.com/community/@kattard",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kattard",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2024,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kattard",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@kattard",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@kattard"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@kattard",
+      "retrievedAt": "2026-06-21T18:17:42Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:42Z"
+}

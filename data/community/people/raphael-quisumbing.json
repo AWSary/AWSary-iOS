@@ -1,0 +1,102 @@
+{
+  "id": "person_raphael_quisumbing",
+  "slug": "raphael-quisumbing",
+  "displayName": "Raphael Quisumbing",
+  "headline": "Cloud Enthusiast, Community Hero, Podcast Founder",
+  "summary": "Helps tech and cloud enablement to multitude various brands, enterprises and online startups. Recognized Cloud Enthusiast and leader (AWS Hero) with genuine enthusiasm for effective mentoring. Comes from a family of teachers and educators, serving in the academe as well as being an AWS Authorized Instructor. As co-leader of the AWS User Group Philippines since 2013, regularly answers questions, gives advice and organizes events for the AWS community.",
+  "location": {
+    "city": null,
+    "country": "PH",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2omy8qr6SNCJVpNo5W8K4x0QOVv.webp",
+    "sourceUrl": "https://builder.aws.com/community/@youngcto",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@youngcto",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2015,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@youngcto",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://kakacomputer.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@youngcto"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@youngcto",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@youngcto"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://ph.linkedin.com/in/rafi-quisumbing",
+      "handle": "rafi-quisumbing",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@youngcto"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/kakacomputer/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@youngcto"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/c/YoungCTO",
+      "handle": "YoungCTO",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@youngcto"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@youngcto",
+      "retrievedAt": "2026-06-21T18:18:49Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:49Z"
+}

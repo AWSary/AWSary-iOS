@@ -1,0 +1,100 @@
+{
+  "id": "person_kaushik_mohanraj",
+  "slug": "kaushik-mohanraj",
+  "displayName": "Kaushik Mohanraj",
+  "headline": "",
+  "summary": "A Cloud Enthusiast with a career spanning roles of Cloud-Native Product Development, Solution Architecting, & Cloud Pre-sales, and now responsible for leading Enterprise Sales for Malaysia Region for a Born in the Cloud Company Blazeclan Technologies",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2pNDKt1j1gRfFgbl3zIPsLRp0pG.webp",
+    "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@kaushikmohanraj",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/kaushikmohanraj/",
+      "handle": "kaushikmohanraj",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+    },
+    {
+      "type": "website",
+      "label": "Repost",
+      "url": "https://repost.aws/community/users/UShuFopwiET2m_L_ES7muaDw",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kaushik.mohanraj/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/kaushikmohanraj",
+      "handle": "kaushikmohanraj",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@kaushikmohanraj",
+      "retrievedAt": "2026-06-21T18:17:43Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:43Z"
+}

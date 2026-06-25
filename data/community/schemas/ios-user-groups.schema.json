@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://awsary.example/schemas/community/ios-user-groups.schema.json",
+  "title": "AWSary iOS User Groups Resource",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id", "name", "summary", "location", "imageURL", "joinURL", "platform",
+      "topics", "links", "foundedAt", "networkName", "metadataStatus", "activity"
+    ],
+    "properties": {
+      "id": { "type": "string", "pattern": "^Space-UG_[0-9]+$" },
+      "name": { "type": "string", "minLength": 1 },
+      "summary": { "type": "string" },
+      "location": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["displayName", "city", "region", "country", "countryCode", "latitude", "longitude", "timezone"],
+        "properties": {
+          "displayName": { "type": "string" },
+          "city": { "type": ["string", "null"] },
+          "region": { "type": ["string", "null"] },
+          "country": { "type": "string", "minLength": 1 },
+          "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "latitude": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+          "longitude": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+          "timezone": { "type": ["string", "null"] }
+        }
+      },
+      "imageURL": { "type": "string" },
+      "joinURL": { "type": "string" },
+      "platform": { "enum": ["meetup", "connpass", "doorkeeper", "aws_community", "linkedin", "facebook", "luma", "accupass", "website"] },
+      "topics": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+      "links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["label", "url"],
+          "properties": {
+            "label": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "format": "uri" }
+          }
+        }
+      },
+      "foundedAt": { "type": ["string", "null"] },
+      "networkName": { "type": ["string", "null"] },
+      "metadataStatus": { "enum": ["enriched", "directory_only", "unavailable"] },
+      "activity": {
+        "oneOf": [
+          { "type": "null" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["capturedAt", "memberCount", "leaderCount", "ratingAverage", "ratingCount", "upcomingEventCount", "pastEventCount"],
+            "properties": {
+              "capturedAt": { "type": ["string", "null"] },
+              "memberCount": { "type": ["integer", "null"], "minimum": 0 },
+              "leaderCount": { "type": ["integer", "null"], "minimum": 0 },
+              "ratingAverage": { "type": ["number", "null"], "minimum": 0, "maximum": 5 },
+              "ratingCount": { "type": ["integer", "null"], "minimum": 0 },
+              "upcomingEventCount": { "type": ["integer", "null"], "minimum": 0 },
+              "pastEventCount": { "type": ["integer", "null"], "minimum": 0 }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

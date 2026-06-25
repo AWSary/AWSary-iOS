@@ -1,0 +1,67 @@
+{
+  "id": "person_nana_janashia",
+  "slug": "nana-janashia",
+  "displayName": "Nana Janashia",
+  "headline": "",
+  "summary": "Nana Janashia is Co-Founder of TechWorld with Nana, a top DevOps & cloud e-learning provider. She’s taught millions to become professional DevOps engineers via bootcamps, YouTube, online courses, corporate trainings and hands-on workshops.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xy36bNt9AiGFoG4UnAg2pA9zaf.webp",
+    "sourceUrl": "https://builder.aws.com/community/@techworldwithnana",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@techworldwithnana",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.techworld-with-nana.com/blog",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@techworldwithnana"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@techworldwithnana",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@techworldwithnana"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@techworldwithnana",
+      "retrievedAt": "2026-06-21T18:18:35Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:35Z"
+}

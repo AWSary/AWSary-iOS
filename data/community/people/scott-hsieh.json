@@ -1,0 +1,59 @@
+{
+  "id": "person_scott_hsieh",
+  "slug": "scott-hsieh",
+  "displayName": "Scott Hsieh",
+  "headline": "",
+  "summary": "Scott Hsieh, also known as Shu-Jeng Hsieh, is a Lead Data Architect at 104 Corporation where he promotes, plans, and implements a lakehouse paradigm into 104 Corp. within hybrid environments to accelerate data engineering, data analysis, and data science.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xrDKOXq84QDc0lenyYB9FDnpsT.webp",
+    "sourceUrl": "https://builder.aws.com/community/@scott516",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@scott516",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@scott516",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@scott516"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@scott516",
+      "retrievedAt": "2026-06-21T18:18:21Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:21Z"
+}

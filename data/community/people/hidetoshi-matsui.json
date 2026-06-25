@@ -1,0 +1,68 @@
+{
+  "id": "person_hidetoshi_matsui",
+  "slug": "hidetoshi-matsui",
+  "displayName": "Hidetoshi Matsui",
+  "headline": "",
+  "summary": "Working at Generative Technology Inc. as a manager of engineering. AWS Serverless Hero since 2021. I like building web & broadcasting apps using AWS. I run several branches of JAWS-UG, the AWS community in Japan.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xnThPjHM4GLBmmOqEJYR1u8JZ0.webp",
+    "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@hidetoshimatsui",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@hidetoshimatsui",
+      "retrievedAt": "2026-06-21T18:17:30Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:30Z"
+}

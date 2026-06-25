@@ -1,0 +1,92 @@
+{
+  "id": "person_peter_sbarski",
+  "slug": "peter-sbarski",
+  "displayName": "Peter Sbarski",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3683uy1NlM1Da5NNhCQpShuXRzX.webp",
+    "sourceUrl": "https://builder.aws.com/community/@sbarski",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sbarski",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@sbarski",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@sbarski",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@sbarski"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "http://github.com/sbarski",
+      "handle": "sbarski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sbarski"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/petersbarski/",
+      "handle": "petersbarski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sbarski"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/sbarski",
+      "handle": "sbarski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@sbarski"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@sbarski",
+      "retrievedAt": "2026-06-21T18:18:21Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:21Z"
+}

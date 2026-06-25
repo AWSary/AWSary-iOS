@@ -1,0 +1,59 @@
+{
+  "id": "person_wu_sheng",
+  "slug": "wu-sheng",
+  "displayName": "Wu Sheng",
+  "headline": "",
+  "summary": "Tetrate Founding Engineer & Apache SkyWalking creator & AWS Container Hero",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3AgtyAPOEA9U7IQiC3nChOcDV6A.webp",
+    "sourceUrl": "https://builder.aws.com/community/@wusheng",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@wusheng",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@wusheng",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@wusheng"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@wusheng",
+      "retrievedAt": "2026-06-21T18:18:48Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:48Z"
+}

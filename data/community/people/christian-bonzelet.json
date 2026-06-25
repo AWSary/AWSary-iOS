@@ -1,0 +1,102 @@
+{
+  "id": "person_christian_bonzelet",
+  "slug": "christian-bonzelet",
+  "displayName": "Christian Bonzelet",
+  "headline": "AWS DevTools Hero working as a Solutions Architect for Bundesliga. Founder of promptz.dev",
+  "summary": "👋 Hi my name is Christian. I am an AWS DevTools Hero working as a Solution Architect at DFL Digital Sports GmbH. Based in Cologne (Germany) with my beloved wife and two kids. I am interested in all things around ☁️ (cloud), 👨‍💻 (tech) and 🧠 (AI/ML).",
+  "location": {
+    "city": null,
+    "country": "DE",
+    "region": "North Rhine-Westphalia"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3331kM2I9mYtPrWGr0gUuJTynEs.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cremich",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Serverless",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cremich",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cremich",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://cremich.cloud",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cremich"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cremich",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cremich"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/cremich",
+      "handle": "cremich",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cremich"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/christian-bonzelet",
+      "handle": "christian-bonzelet",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cremich"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://promptz.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cremich"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cremich",
+      "retrievedAt": "2026-06-21T18:17:07Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:07Z"
+}

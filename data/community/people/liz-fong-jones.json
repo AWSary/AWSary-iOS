@@ -1,0 +1,59 @@
+{
+  "id": "person_liz_fong_jones",
+  "slug": "liz-fong-jones",
+  "displayName": "Liz Fong-Jones",
+  "headline": "",
+  "summary": "Liz is a developer advocate, labor and ethics organizer, and Site Reliability Engineer (SRE) with over two decades of experience. She is currently a Technical Fellow at Honeycomb, and previously was an SRE working on products ranging from GCLB to Flights.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/39xs1lYqV5cWdjjZsy0pkekHVUH.webp",
+    "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@lizthegrey",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@lizthegrey"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@lizthegrey",
+      "retrievedAt": "2026-06-21T18:17:49Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:49Z"
+}

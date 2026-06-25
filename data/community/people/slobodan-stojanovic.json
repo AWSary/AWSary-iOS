@@ -1,0 +1,59 @@
+{
+  "id": "person_slobodan_stojanovic",
+  "slug": "slobodan-stojanovic",
+  "displayName": "Slobodan Stojanović",
+  "headline": "",
+  "summary": "Slobodan Stojanović is the CTO and co-founder of Vacation Tracker, an application that simplifies employee leave and absence management for organizations, AWS Serverless Hero, and JS Belgrade meetup co-organizer",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xmiQERmWJ3gfKU7J66MProuXRp.webp",
+    "sourceUrl": "https://builder.aws.com/community/@slobodan",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@slobodan",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@slobodan",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@slobodan"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@slobodan",
+      "retrievedAt": "2026-06-21T18:18:30Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:30Z"
+}

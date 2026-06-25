@@ -1,0 +1,76 @@
+{
+  "id": "person_shun_yoshie",
+  "slug": "shun-yoshie",
+  "displayName": "Shun Yoshie",
+  "headline": "",
+  "summary": "Please feel free to follow and DM. # Work - Nomura Research Institute, Ltd # Job/Role - Security Consultant # Award - AWS Samurai 2018 - AWS Samurai 2019 - AWS Samurai 2020 - AWS Community Builder (Security) (2020) - AWS Community Hero (2021) - AWS Security Hero (2023) - APJ User Group of the Year (2023) - APJ Community Leader Award 2024 \"Think Big\" (2024) # Community Leader - Security-JAWS (2016 - now) | https://s-jaws.connpass.com/ - JAWS-UG Tokyo (2018 - 2023) | https://jawsug.connpass.com/ - X-Tech JAWS (2017 - 2022) | https://xtechjaws.doorkeeper.jp/ # Community / Event Chairman - JAWS DAYS 2019 Chairman (Onsight/2,300 Participants) - JAWS SONIC 2020 / MIDNIGHT JAWS 2020 Chairman (24-hours/Domestic Virtual Online) - JAWS PANKRATION 2021 Chairman (24hours/Global Virtual Online) - JAWS PANKRATION 2024 Chairman (24hours/Global Virtual Online) # Speaker - AWS Summit Tokyo 2015 - AWS Summit Tokyo 2020 - AWS Summit Tokyo 2021 - AWS Summit Tokyo 2022 - AWS APAC Community Summit 2022 - AWS Dev Day 2022 Day0 - AWS Summit Tokyo 2023 - AWS re:Inforce 2024 - AWS Summit Tokyo 2024 - AWS Community Day Taiwan 2024 - AWS Summit Tokyo 2025 # Interesting - CNAPP - Multi-Cloud - Security Observability - Threat Intelligence - Community Management # Book - 効果的な導入・運用のための Amazon Web Services活用入門 | https://book.mynavi.jp/ec/products/detail/id=54224 - ITロードマップ 2023年版 | https://str.toyokeizai.net/books/9784492581209/ - マルチクラウドセキュリティの教科書 | https://www.shoeisha.co.jp/book/detail/9784798190853",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2c1IThBhoVkgeXxT4mZOPebFXvE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@typhon666",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@typhon666",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Security Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@typhon666",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://medium.com/@metal.preacher",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@typhon666"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@typhon666",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@typhon666"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@typhon666",
+      "retrievedAt": "2026-06-21T18:18:40Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:40Z"
+}

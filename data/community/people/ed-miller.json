@@ -1,0 +1,61 @@
+{
+  "id": "person_ed_miller",
+  "slug": "ed-miller",
+  "displayName": "Ed Miller",
+  "headline": "AWS AI Hero | Sr. Principal Engineer @ Arm | Tech Lead @ BearID",
+  "summary": "Senior Principal Engineer at Arm leading technical engagements with strategic partners around ML and IoT. Co-founder and director at the BearID Project, developing open source, ML solutions for non-invasive wildlife monitoring. AWS AI Hero.",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "CA"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/32whCT2DcAHTtlznFCOV0IkTWlM.webp",
+    "sourceUrl": "https://builder.aws.com/community/@bluevalhalla",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@bluevalhalla",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@bluevalhalla",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@bluevalhalla"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@bluevalhalla",
+      "retrievedAt": "2026-06-21T18:17:00Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:00Z"
+}

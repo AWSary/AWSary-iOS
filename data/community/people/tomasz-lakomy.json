@@ -1,0 +1,60 @@
+{
+  "id": "person_tomasz_lakomy",
+  "slug": "tomasz-lakomy",
+  "displayName": "Tomasz Lakomy",
+  "headline": "",
+  "summary": "Tomasz Łakomy AWS Hero | Staff Software Engineer Tomasz Łakomy is a Staff Software Engineer at Runway with over a decade of experience in frontend and cloud development. Based in Poland, he focuses on building maintainable applications using TypeScript, AWS CDK, and serverless technologies. Tomasz is a proponent of \"learning in public,\" regularly sharing his journey to help other developers navigate the complexities of cloud infrastructure. Throughout his career at companies like Stedi and OLX, Tomasz has focused on bridging the gap between product engineering and infrastructure. As a co-founder of Cloudash, he helped develop a tool designed to make monitoring serverless applications more accessible. He advocates for using the AWS Cloud Development Kit (CDK) to treat infrastructure as a natural extension of the application code. Tomasz enjoys breaking down technical topics into practical, easy-to-digest content. His contributions to the community include: Educational Content: Creating over 200 concise lessons for egghead.io on AWS Lambda, AppSync, and the CDK. Writing: Sharing technical walkthroughs and lessons learned on tlakomy.com and the DEV Community. Speaking: Presenting at various community events and conferences to discuss the practicalities of cloud-native development.",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/38O3QW8FkAiq9Nm9Ub0XLdKnMjU.webp",
+    "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@tlakomy",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@tlakomy"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@tlakomy",
+      "retrievedAt": "2026-06-21T18:18:38Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:38Z"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "person_dhaval_nagar",
+  "slug": "dhaval-nagar",
+  "displayName": "Dhaval Nagar",
+  "headline": "",
+  "summary": "Dhaval Nagar is the Founder & Principal Architect at APPGAMBiT, an AWS-focused consultancy that helps startups and enterprises launch lean, event-driven products. With 19 years in the industry—progressing from developer to architect to AWS Hero—Dhaval has guided teams through every stage of cloud adoption, earning all AWS certifications and serving as both an AWS Certification SME and an AWS User Group Lead. He has spoken at AWS Summit Bengaluru 2024 and AWS re:Invent 2024, where he showcased real-world examples of blending generative AI with serverless workflows to achieve optimal result and scale at optimal cost. Dhaval is committed to democratizing serverless best practices, helping teams cut infrastructure overhead, accelerate delivery, and optimize cloud spend without sacrificing performance or security. When he isn’t sketching architecture diagrams or mentoring builder communities, you’ll find him experimenting with 3D printing or perfecting his barista skills. https://appgambit.com https://antigravityapps.dev/ https://stackadvisor.ai https://ipoiq.in/",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zs3LIAApmE2DwUr1d3QUhKLRgi.webp",
+    "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@dhavaln",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@dhavaln"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@dhavaln",
+      "retrievedAt": "2026-06-21T18:17:14Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:14Z"
+}

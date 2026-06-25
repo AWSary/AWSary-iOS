@@ -1,0 +1,67 @@
+{
+  "id": "person_olalekan_elesin",
+  "slug": "olalekan-elesin",
+  "displayName": "Olalekan Elesin",
+  "headline": "",
+  "summary": "With over a decade of experience leading innovative teams, I've consistently driven results across SaaS, Cloud, Data, and AI domains. I'm passionate about sharing knowledge, particularly in building AI & ML on AWS Cloud as Machine Learning Community Hero",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xo86IIxNNr1cCC5E3d3CmhOUwV.webp",
+    "sourceUrl": "https://builder.aws.com/community/@oelesin",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@oelesin",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://elesin-olalekan.medium.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@oelesin"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@oelesin",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@oelesin"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@oelesin",
+      "retrievedAt": "2026-06-21T18:18:06Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:06Z"
+}

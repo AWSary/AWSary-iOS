@@ -1,0 +1,127 @@
+{
+  "id": "person_jones_zachariah_noel_n",
+  "slug": "jones-zachariah-noel-n",
+  "displayName": "Jones Zachariah Noel N",
+  "headline": "DevRel @ New Relic | AWS Serverless Hero | AWS User Group Bengaluru leader",
+  "summary": "Jones Zachariah Noel aka Zach Jones is an AWS Serverless Hero and AWS UG Bengaluru leader and at his day job an observability focused Developer Advocate at New Relic. Jones has been an advocate for Serverless first and also best monitoring strategies for applications and infrastructures. Coming from a full-stack developer background has always been a curious on building and breaking things! Jones writes his Serverless stories (blog and newsletter) on The Serverless Terminal and runs a podcast called The Zacs Show Talking AWS with another Hero Zack from NZ. Apart from this, Jones loves to explore the mountains and driving around the country side. And burns money on LEGOs and action figures.",
+  "location": {
+    "city": null,
+    "country": "IN",
+    "region": "Karnataka"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36szxFBRMykn1NT4w7OFIi5Aq3q.webp",
+    "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://blog.theserverlessterminal.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@zachjonesnoel",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/zachjonesnoel",
+      "handle": "zachjonesnoel",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jones-zachariah-noel-n",
+      "handle": "jones-zachariah-noel-n",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.theserverlessterminal.com",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/zachjonesnoel",
+      "handle": "zachjonesnoel",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@thezacsshowtalkingaws",
+      "handle": "@thezacsshowtalkingaws",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@zachjonesnoel",
+      "retrievedAt": "2026-06-21T18:18:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:50Z"
+}

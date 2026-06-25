@@ -1,0 +1,84 @@
+{
+  "id": "person_kazuki_miura",
+  "slug": "kazuki-miura",
+  "displayName": "Kazuki Miura",
+  "headline": "",
+  "summary": "aws community hero since 2023",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2pMs2XNiqfbzNv9Wd87YlcoCJz3.webp",
+    "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@miucrescent",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/kazuki.miura.75/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/miu_crescent",
+      "handle": "miu_crescent",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@miucrescent",
+      "retrievedAt": "2026-06-21T18:17:58Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:58Z"
+}

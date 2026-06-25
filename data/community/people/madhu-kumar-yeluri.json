@@ -1,0 +1,116 @@
+{
+  "id": "person_madhu_kumar_yeluri",
+  "slug": "madhu-kumar-yeluri",
+  "displayName": "Madhu Kumar Yeluri",
+  "headline": "",
+  "summary": "Madhu is an accomplished technology leader with over 24 years of IT experience and 10+ years in leadership roles, driving digital transformation, cloud migrations, change management, and DevSecOps strategies across finance, telecom, retail, security, and government sectors. He specialises in defining and delivering enterprise-scale cloud architectures, modernising legacy systems, and implementing secure, scalable, and resilient IT environments. With deep expertise in multi-cloud strategies, containerised microservices, and cloud security frameworks, Madhu has successfully built and led global, cross-functional teams, mentoring senior architects and engineers while fostering a culture of innovation and technical excellence. He has developed and implemented robust cloud governance frameworks, ensuring compliance with industry standards and regulatory requirements, including PCI DSS, GDPR, ISO 27001, and SOC2. In addition to his professional achievements, Madhu is also passionate about giving back to the community. Open-source Software (OSS) supporter. He is humbled to serve as an AWS Hero and AWS User Group Leader, DevSecCon Chapter Leader, DevOps Institute Brand Ambassador and Chapter Leader, HashiCorp User Group Leader, Calico Big Cat, and Docker Captain. Blogs: https://medium.com/@cloudgeek7 / https://dev.to/cloudgeek7 GitHub: https://github.com/cloudgeek7 Discord Container Builders: https://discord.gg/TejhNdfe26",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2rI1I6vPplMjCoKd5DAFOzv7z17.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cloudgeek7",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Container Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://medium.com/@cloudgeek7",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cloudgeek7",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/cloudgeek7",
+      "handle": "cloudgeek7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/cloudgeek7",
+      "handle": "cloudgeek7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/cloudgeek7",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/cloudgeek7",
+      "handle": "cloudgeek7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@cloudgeek7",
+      "handle": "@cloudgeek7",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cloudgeek7",
+      "retrievedAt": "2026-06-21T18:17:05Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:05Z"
+}

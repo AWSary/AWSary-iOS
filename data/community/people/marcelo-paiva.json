@@ -1,0 +1,102 @@
+{
+  "id": "person_marcelo_paiva",
+  "slug": "marcelo-paiva",
+  "displayName": "Marcelo Paiva",
+  "headline": "Entrepreneur, CTO at Softprime, AWS Community Hero, Microsoft MVP AI",
+  "summary": "25+ years of experience in technology and is the CTO at Softprime Soluções, leading product development and research in digital biometrics, facial recognition, and artificial intelligence (AI). With more than a decade working with cloud computing, he specializes in building scalable and innovative solutions using AWS. Passionate about tech communities, Marcelo founded the AWS User Group in Goiânia in 2018, helping grow the local community. Today, he organizes events such as JoinCommunity and Cloud Summit Cerrado, fostering learning and networking in the Cerrado region.",
+  "location": {
+    "city": null,
+    "country": "BR",
+    "region": "GO"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2aoTCZZSG36jxSJD6afS2eRMfbu.webp",
+    "sourceUrl": "https://builder.aws.com/community/@awsuggoiania",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2025,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@awsuggoiania",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/marcelojpaiva",
+      "handle": "marcelojpaiva",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/marcelopaiva",
+      "handle": "marcelopaiva",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/marcelojpaiva",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://sessionize.com/marcelojpaiva",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@awsuggoiania",
+      "retrievedAt": "2026-06-21T18:16:56Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:56Z"
+}

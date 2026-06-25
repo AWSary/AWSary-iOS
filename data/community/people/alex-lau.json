@@ -1,0 +1,77 @@
+{
+  "id": "person_alex_lau",
+  "slug": "alex-lau",
+  "displayName": "Alex Lau",
+  "headline": "",
+  "summary": "Alex Lau is a Lead Instructor of Tecky Academy with a focus on Full Stack, Mobile App, and AWS technologies. Enthusiastic about teaching and sharing, Alex has been an active leader in the Hong Kong developer community since 2015.",
+  "location": {
+    "city": null,
+    "country": "HK",
+    "region": "Hong Kong Island"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2ycwh8R6BNPlLxmGuc7ySX7O9JE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@alexlau811",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@alexlau811"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/alexlau811/",
+      "handle": "alexlau811",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@alexlau811"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@alexlau811",
+      "retrievedAt": "2026-06-21T18:16:48Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:48Z"
+}

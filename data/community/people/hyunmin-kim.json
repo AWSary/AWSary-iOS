@@ -1,0 +1,75 @@
+{
+  "id": "person_hyunmin_kim",
+  "slug": "hyunmin-kim",
+  "displayName": "Hyunmin Kim",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xnecf3zB4GGfskgpeqSWNfSlgd.webp",
+    "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@hyunmin",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@hyunmin"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/hyunmin-kim-1356a260/",
+      "handle": "hyunmin-kim-1356a260",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@hyunmin"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@hyunmin",
+      "retrievedAt": "2026-06-21T18:17:34Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:34Z"
+}

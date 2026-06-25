@@ -1,0 +1,59 @@
+{
+  "id": "person_franck_pachot",
+  "slug": "franck-pachot",
+  "displayName": "Franck Pachot",
+  "headline": "",
+  "summary": "Developer Advocate at MongoDB, AWS Data Hero, PostgreSQL fan,YugabyteDB expert, Oracle Certified Master, and loving all databases",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xpMDtNYWWZpBQjn3AOKQ7nESPc.webp",
+    "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@franckpachot",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@franckpachot"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@franckpachot",
+      "retrievedAt": "2026-06-21T18:17:26Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:26Z"
+}

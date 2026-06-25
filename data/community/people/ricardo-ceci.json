@@ -1,0 +1,136 @@
+{
+  "id": "person_ricardo_ceci",
+  "slug": "ricardo-ceci",
+  "displayName": "Ricardo Ceci",
+  "headline": "Founder & CTO @ VNStudios",
+  "summary": "Apasionado por cloud computing y desarrollador web con más de 15 años de experiencia. Disfruto emprender, crear cosas y hacer que los equipos funcionen. Mi encanta definir procesos y encontrar soluciones",
+  "location": {
+    "city": null,
+    "country": "AR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3EMaVdESOtJIMWDZsOYNqIq2twa.webp",
+    "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Ai Engineering",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.ricardoceci.dev",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@ricardoceci",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://www.github.com/ricardoceci",
+      "handle": "ricardoceci",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/ricardoceci",
+      "handle": "ricardoceci",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/ricardoceci",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://www.x.com/ricardoceci",
+      "handle": "ricardoceci",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@ricardoceci-dev",
+      "handle": "@ricardoceci-dev",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@ricardoceci",
+      "retrievedAt": "2026-06-21T18:18:15Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:15Z"
+}

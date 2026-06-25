@@ -1,0 +1,76 @@
+{
+  "id": "person_allen_helton",
+  "slug": "allen-helton",
+  "displayName": "Allen Helton",
+  "headline": "",
+  "summary": "I’m an Ecosystem Engineer at Momento with a background in building scalable, event-driven systems. These days, I spend a lot of time exploring how AI agents can actually work at enterprise scale. I focus on challenges like determinism, orchestration, and fault tolerance. I enjoy sharing what I learn. I write, livestream, and host podcasts to help developers understand complex systems in a way that feels approachable and practical. Community is at the core of everything I do. From the Believe in Serverless community to conference talks and one-on-one mentoring, I try to make space where people can learn and build together. I believe good humans build good technology, and I do my best to live that out in everything I do. Happy coding!",
+  "location": {
+    "city": null,
+    "country": "US",
+    "region": "TX"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/32WXy3F6yVBpRwjTdu0TCJ0AEP2.webp",
+    "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@allenheltondev",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@allenheltondev"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/allenheltondev",
+      "handle": "allenheltondev",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@allenheltondev"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/allenheltondev",
+      "handle": "allenheltondev",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@allenheltondev"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@allenheltondev",
+      "retrievedAt": "2026-06-21T18:16:49Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:49Z"
+}

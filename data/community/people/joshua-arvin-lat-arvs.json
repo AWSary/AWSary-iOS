@@ -1,0 +1,93 @@
+{
+  "id": "person_joshua_arvin_lat_arvs",
+  "slug": "joshua-arvin-lat-arvs",
+  "displayName": "Joshua Arvin Lat (ARVS)",
+  "headline": "Chief Technology Officer | AWS AI Hero | Author of AI and Security books",
+  "summary": "Joshua Arvin Lat is the Chief Technology Officer (CTO) of NuWorks Interactive Labs, Inc. He previously served as the CTO of three Australian-owned companies and as the Director for Software Development and Engineering for multiple ecommerce start-ups. Years ago, he and his team won first place in a global cybersecurity competition with their published research paper. He is an AWS AI Hero and has authored several technical books on AI and Security, including Machine Learning with Amazon SageMaker Cookbook, Machine Learning Engineering on AWS, Building and Automating Penetration Testing Labs in the Cloud, and Learning Serverless Security. Because of his proven track record in leading digital transformation within organizations, he has been recognized as one of the prestigious Orange Boomerang: Digital Leader of the Year 2023 award winners.",
+  "location": {
+    "city": null,
+    "country": "PH",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3A7NsaeeNR8mJUpTmC7jGRGCsdC.webp",
+    "sourceUrl": "https://builder.aws.com/community/@arvs",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@arvs",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://medium.com/@arvs.lat",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@arvs"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@arvs",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@arvs"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/joshualat",
+      "handle": "joshualat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@arvs"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://ph.linkedin.com/in/joshualat",
+      "handle": "joshualat",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@arvs"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://www.amazon.com/stores/Joshua-Arvin-Lat/author/B0947BKL8H",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@arvs"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@arvs",
+      "retrievedAt": "2026-06-21T18:16:53Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:53Z"
+}

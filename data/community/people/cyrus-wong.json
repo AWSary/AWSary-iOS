@@ -1,0 +1,101 @@
+{
+  "id": "person_cyrus_wong",
+  "slug": "cyrus-wong",
+  "displayName": "Cyrus Wong",
+  "headline": "AWS AI Hero + Microsoft MVP + Google Developer Experts - GCP(AI)",
+  "summary": "Cyrus Wong is an accomplished senior lecturer who oversees the Higher Diploma program in Cloud and Data Centre Administration at the Hong Kong Institute of Information Technology (HKIIT) at IVE(Lee Wai Lee) in Hong Kong. He is a passionate advocate for the adoption of cloud technology across various media and events. With his extensive knowledge and expertise, he has earned prestigious recognitions such as AWS AI Hero, Microsoft MVP - Microsoft Foundry, and Google Developer Expert for Google Cloud Platform (AI) Microsoft Azure AI MVP https://mvp.microsoft.com/en-US/MVP/profile/86da86ff-8786-ed11-aad1-000d3a197333 Google Developer Expert in Google Cloud Platform & AI/ML (GenAI) https://developers.google.com/profile/u/cyruswong Higher Diploma in Cloud and Data Centre Administration https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/",
+  "location": {
+    "city": null,
+    "country": "HK",
+    "region": "New Territories"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/36ddCTPbJWIsu5rYPgFLUjzxIR8.webp",
+    "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2016,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@wongcyrus",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/wongcyrus",
+      "handle": "wongcyrus",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/cyruswong/",
+      "handle": "cyruswong",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/cywong.vtc",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/wongcyrus",
+      "handle": "wongcyrus",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@cyruswong",
+      "handle": "@cyruswong",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@wongcyrus",
+      "retrievedAt": "2026-06-21T18:18:48Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:48Z"
+}

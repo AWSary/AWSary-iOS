@@ -1,0 +1,76 @@
+{
+  "id": "person_anahit_pogosova",
+  "slug": "anahit-pogosova",
+  "displayName": "Anahit Pogosova",
+  "headline": "",
+  "summary": "Anahit is a Cloud Architecture & Engineering Lead at F-Secure, where she leads the Cloud Center of Excellence: a team focused on AWS governance, security, and cloud best practices. With over 16 years of experience across full-stack and data engineering, her career has evolved from building monolithic on-premises systems to architecting modern, resilient, and scalable cloud solutions. Anahit is also an active voice in the tech community. She speaks at conferences and meetups, appears on podcasts and YouTube channels, and teaches online courses.",
+  "location": {
+    "city": null,
+    "country": "FI",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/32xltDsyWX45iotxXhbJfUmwiNE.webp",
+    "sourceUrl": "https://builder.aws.com/community/@anahit",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@anahit",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@anahit",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@anahit"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/anahit-pogosova",
+      "handle": "anahit-pogosova",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@anahit"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://twitter.com/anahit_fi",
+      "handle": "anahit_fi",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@anahit"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@anahit",
+      "retrievedAt": "2026-06-21T18:16:50Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:50Z"
+}

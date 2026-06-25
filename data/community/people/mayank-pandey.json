@@ -1,0 +1,85 @@
+{
+  "id": "person_mayank_pandey",
+  "slug": "mayank-pandey",
+  "displayName": "Mayank Pandey",
+  "headline": "trying to make Cloud easy for everyone!",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "AU",
+    "region": "VIC"
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/3ENtkcq3HF0U6eyV2eMlkxYPvnz.webp",
+    "sourceUrl": "https://builder.aws.com/community/@learncloud",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Authorized Instructor",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@learncloud",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@learncloud",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@learncloud",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@learncloud"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/mayankpandey20/",
+      "handle": "mayankpandey20",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@learncloud"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://youtube.com/@knowledgeindia",
+      "handle": "@knowledgeindia",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@learncloud"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@learncloud",
+      "retrievedAt": "2026-06-21T18:17:48Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:48Z"
+}

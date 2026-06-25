@@ -1,0 +1,103 @@
+{
+  "id": "person_maurizio_argoneto",
+  "slug": "maurizio-argoneto",
+  "displayName": "Maurizio Argoneto",
+  "headline": "Where code meets community: building bridges, not just architectures.",
+  "summary": "I am a CTO/Solution Architect and the founder of the AWS User Group Basilicata. Based in Southern Italy, I have dedicated the last decade to building a thriving tech ecosystem in one of the most remote and beautiful regions of the country. My passion lies in bridging the gap between high-level cloud innovation and local communities. I am the creator and organizer of 'Come To Code', an annual international conference held in the mountain village of Pignola. My mission is to prove that world-class technology can be shared and mastered anywhere, as long as there is a strong human connection behind it. Key Contributions & Expertise: - Community Leadership: 10+ years leading the Pignola Linux User Group (PLUG) and founding the AWS User Group Basilicata. - Event Architecture: Founder and lead organizer of 'Come To Code' (5+ editions), attracting speakers and attendees from across Europe to a small mountain village. - Public Speaking: Regular speaker at international and national conferences (NDC Copenhagen, Codemotion, DevFest, AWS Community Day Italy) focusing on Serverless, App Runner, and Python/Django. - Education & Mentorship: Promoting digital literacy through CoderDojo for kids, cybersecurity workshops in schools, and mentoring students in the 'Cloud Architecting on AWS' program at MT Academy. - Cloud Culture Advocate: Dedicated to showing how AWS services can empower local businesses and young talents in underserved regions.",
+  "location": {
+    "city": null,
+    "country": "IT",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zbapcZotzGkvmbop2GILVgwAdg.webp",
+    "sourceUrl": "https://builder.aws.com/community/@margoneto81",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Community Builder",
+      "category": "Serverless",
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@margoneto81",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/argomauro/",
+      "handle": "argomauro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/argomauro/",
+      "handle": "argomauro",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://sessionize.com/maurizio-argoneto/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@margoneto81",
+      "retrievedAt": "2026-06-21T18:17:53Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:53Z"
+}

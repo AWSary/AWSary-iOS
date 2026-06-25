@@ -1,0 +1,75 @@
+{
+  "id": "person_gillian_mccann",
+  "slug": "gillian-mccann",
+  "displayName": "Gillian McCann",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": "GB",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/31voLlfzy0o3HsY2lcs5yY4UgzA.webp",
+    "sourceUrl": "https://builder.aws.com/community/@gillian",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2018,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@gillian",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@gillian",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@gillian"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/gillian-mccann-6a743149/",
+      "handle": "gillian-mccann-6a743149",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gillian"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/othergill",
+      "handle": "othergill",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@gillian"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@gillian",
+      "retrievedAt": "2026-06-21T18:17:27Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:27Z"
+}

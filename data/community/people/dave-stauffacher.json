@@ -1,0 +1,68 @@
+{
+  "id": "person_dave_stauffacher",
+  "slug": "dave-stauffacher",
+  "displayName": "Dave Stauffacher",
+  "headline": "",
+  "summary": "Dave Stauffacher is a Cloud Architect focused on helping organizations THRIVE in AWS. With deep knowledge in data storage and protection, Dave has helped organizations navigate data growth in excess of 30,000%.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2yeZBVHGUXfeswzeXDEzrOyLDTV.webp",
+    "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@davebuildscloud",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@davebuildscloud"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@davebuildscloud",
+      "retrievedAt": "2026-06-21T18:17:12Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:12Z"
+}

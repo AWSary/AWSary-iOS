@@ -1,0 +1,90 @@
+{
+  "id": "person_alex_debrie",
+  "slug": "alex-debrie",
+  "displayName": "Alex DeBrie",
+  "headline": "",
+  "summary": "",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xoyGxOjc5bQNbq5xPp07agCjWP.webp",
+    "sourceUrl": "https://builder.aws.com/community/@alexdebrie",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Data Hero",
+      "startYear": 2019,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://www.alexdebrie.com/",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@alexdebrie",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/alexdebrie",
+      "handle": "alexdebrie",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/alex-debrie/",
+      "handle": "alex-debrie",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/alexbdebrie",
+      "handle": "alexbdebrie",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@alexdebrie",
+      "retrievedAt": "2026-06-21T18:16:48Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:16:48Z"
+}

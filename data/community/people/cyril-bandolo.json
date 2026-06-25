@@ -1,0 +1,86 @@
+{
+  "id": "person_cyril_bandolo",
+  "slug": "cyril-bandolo",
+  "displayName": "Cyril Bandolo",
+  "headline": "",
+  "summary": "Cyril Bandolo is a Data Scientist and Senior Cloud Developer at Serverless Guru, where he leads initiatives to build and deploy scalable machine learning solutions on AWS.",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2xyR001Asrkk0bPXb2ZwzO3M8GY.webp",
+    "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2022,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@cyrilbandolo",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/cyrilbandolo/",
+      "handle": "cyrilbandolo",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@cyrilbandolo",
+      "retrievedAt": "2026-06-21T18:17:08Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:08Z"
+}

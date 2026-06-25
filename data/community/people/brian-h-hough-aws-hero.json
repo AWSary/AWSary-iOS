@@ -1,0 +1,124 @@
+{
+  "id": "person_brian_h_hough_aws_hero",
+  "slug": "brian-h-hough-aws-hero",
+  "displayName": "Brian H. Hough [AWS Hero]",
+  "headline": "",
+  "summary": "Building epic tech & scaling the cloud at Tech Stack Playbook® AWS DevTools Hero 5x Hackathon Winner 50+ AI, Cloud & Software Clients (work with us ↓) https://techstackplaybook.com",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/30SX2ZT1Il7XDJgzSlXe5XzAIuH.webp",
+    "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "New Voices",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Devtools Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://brianhhough.com/blog",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@brianhhough",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/BrianHHough",
+      "handle": "BrianHHough",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/brianhhough",
+      "handle": "brianhhough",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "website",
+      "label": "Devto",
+      "url": "https://dev.to/brianhhough",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "website",
+      "label": "Facebook",
+      "url": "https://instagram.com/brianhhough",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/brianhhough",
+      "handle": "brianhhough",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/brianhhough",
+      "handle": "brianhhough",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@brianhhough",
+      "retrievedAt": "2026-06-21T18:17:01Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:01Z"
+}

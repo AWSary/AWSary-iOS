@@ -1,0 +1,109 @@
+{
+  "id": "person_matthieu_napoli",
+  "slug": "matthieu-napoli",
+  "displayName": "Matthieu Napoli",
+  "headline": "Building Bref, the serverless framework for PHP",
+  "summary": "Hi! I’m Matthieu, open-source developer and consultant. I build Bref, the serverless framework for PHP, and am the author of the Serverless Visually Explained course. I believe running modern applications should be simpler, and I’m trying to do my part!",
+  "location": {
+    "city": null,
+    "country": "FR",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zfx2P0jquPrp5tp9HnGNEejwEq.webp",
+    "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS Hero",
+      "category": "Serverless Hero",
+      "startYear": 2020,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "blog",
+      "label": "Blog",
+      "url": "https://mnapoli.fr",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@mnapoli",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "github",
+      "label": "Github",
+      "url": "https://github.com/mnapoli",
+      "handle": "mnapoli",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://linkedin.com/in/matthieunapoli",
+      "handle": "matthieunapoli",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "website",
+      "label": "Personal",
+      "url": "https://bref.sh",
+      "handle": null,
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "x",
+      "label": "Twitter",
+      "url": "https://x.com/matthieunapoli",
+      "handle": "matthieunapoli",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    },
+    {
+      "type": "youtube",
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@mnapoli_",
+      "handle": "@mnapoli_",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@mnapoli",
+      "retrievedAt": "2026-06-21T18:17:59Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:17:59Z"
+}

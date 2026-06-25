@@ -1,0 +1,68 @@
+{
+  "id": "person_vinicius_carida",
+  "slug": "vinicius-carida",
+  "displayName": "Vinicius Caridá",
+  "headline": "",
+  "summary": "With over 15 years of experience in IT and artificial intelligence, I hold both a Master's and a PhD in Computer Science, specializing in AI. I currently hold the position of Executive Specialist in Data and AI at Itaú Unibanco, while also teaching MBA programs in machine learning, data science, and business intelligence at FIAP and ESPM. My technical expertise spans generative AI, natural language processing, virtual assistants, chatbots, recommendation engines, control systems, and the entire MLOps lifecycle. I am honored to be recognized as an AWS Machine Learning Hero, Google Developer Expert in machine learning, and Google Champion Innovator. Additionally, I contribute as an advisor and mentor for Google Startups. I have contributed to the AI community as a Microsoft MVP in AI (2021-2022), and I currently lead AWS and Machine Learning/TensorFlow user groups in São Paulo. As Co-Chair of the LatinX in AI (LXAI) workshops at prestigious international conferences like AAAI, ICML, and NeurIPS, I remain committed to fostering diversity in AI research. As a TEDx speaker and presenter at national and international events, I am passionate about sharing my knowledge and driving discussions on AI's role in creating fairer and more innovative global solutions. My work is grounded in the belief that AI and data have the power to transform industries and improve lives.",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/31KRQaAUFgHCbyK5fRPicvQGupX.webp",
+    "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Ai Hero",
+      "startYear": 2021,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@vinicarida",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@vinicarida"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@vinicarida",
+      "retrievedAt": "2026-06-21T18:18:42Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "links",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:42Z"
+}

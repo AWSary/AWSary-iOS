@@ -1,0 +1,1278 @@
+{
+  "generatedAt": "2026-06-21T18:14:02Z",
+  "groupId": "f6a3ad1ff4",
+  "groupType": "HERO",
+  "sourceUrl": "https://api.builder.aws.com/camp/groups/f6a3ad1ff4/members?pageSize=500",
+  "count": 253,
+  "people": [
+    {
+      "alias": "abcwendsss",
+      "builderProfileId": "d9ad296d-994d-47fa-8909-b78337776336",
+      "displayName": "Wendy Wong"
+    },
+    {
+      "alias": "abebars",
+      "builderProfileId": "5b9ebb78-5cdc-49f5-87c5-a6606b362843",
+      "displayName": "Ahmed Bebars"
+    },
+    {
+      "alias": "adambien",
+      "builderProfileId": "9a5199e8-fc19-444e-99a8-d536e4798868",
+      "displayName": "adam bien"
+    },
+    {
+      "alias": "adamsmolnik",
+      "builderProfileId": "f4fa314d-f6ec-499c-aa3c-c55fce8ea590",
+      "displayName": "Adam Smolnik"
+    },
+    {
+      "alias": "adeline",
+      "builderProfileId": "6a730cf2-feed-4010-a30d-93f7c0416b83",
+      "displayName": "Adeline Makokha"
+    },
+    {
+      "alias": "advit",
+      "builderProfileId": "881944b4-930c-4bff-ae3d-18116c3b8b34",
+      "displayName": "Denis Astahov"
+    },
+    {
+      "alias": "aht",
+      "builderProfileId": "d804e7bc-993c-4b2b-8e8c-0cd8e1140077",
+      "displayName": "Alvaro Hernandez"
+    },
+    {
+      "alias": "aiguy",
+      "builderProfileId": "eda61d6d-04eb-4dcd-a3a4-649f45e51224",
+      "displayName": "MLGuy"
+    },
+    {
+      "alias": "albertsuwandhi",
+      "builderProfileId": "812ca3f6-5d70-46b0-a743-88213cfbb73c",
+      "displayName": "Albert Suwandhi"
+    },
+    {
+      "alias": "aletheia",
+      "builderProfileId": "86931417-cc18-46ae-8d73-23a0e1e663d8",
+      "displayName": "Luca Bianchi"
+    },
+    {
+      "alias": "alexdebrie",
+      "builderProfileId": "b68f8ead-a4c5-44c3-bba9-c9a3972c5b18",
+      "displayName": "Alex DeBrie"
+    },
+    {
+      "alias": "alexlau811",
+      "builderProfileId": "e188e53b-46e1-4714-9ebd-0f5ebd0f93f5",
+      "displayName": "Alex Lau"
+    },
+    {
+      "alias": "allenheltondev",
+      "builderProfileId": "cac0aa93-4fb1-4538-abfa-05c872c98442",
+      "displayName": "Allen Helton"
+    },
+    {
+      "alias": "amyt",
+      "builderProfileId": "e8dd43aa-c9c2-42bf-a351-301f2c1f8be2",
+      "displayName": "Amy Tseng"
+    },
+    {
+      "alias": "anahit",
+      "builderProfileId": "5fb21be3-de2e-4ae8-9735-408babe1455d",
+      "displayName": "Anahit Pogosova"
+    },
+    {
+      "alias": "andersb",
+      "builderProfileId": "d3a612ad-8520-448c-b091-62e3f9987459",
+      "displayName": "Anders Bjørnestad [AWS Hero]"
+    },
+    {
+      "alias": "angelatimofte",
+      "builderProfileId": "b5f75dd8-5825-454e-b3e4-aca19a736444",
+      "displayName": "Angela"
+    },
+    {
+      "alias": "ankitkumargupta",
+      "builderProfileId": "4618196a-0cac-4fc2-b908-799dc223bf40",
+      "displayName": "Ankit Kumar Gupta"
+    },
+    {
+      "alias": "antonbabenko",
+      "builderProfileId": "1e84cf67-9f07-46fd-a741-0c965cd7509a",
+      "displayName": "Anton Babenko"
+    },
+    {
+      "alias": "antstanley",
+      "builderProfileId": "a7b99c19-85f8-47ca-9c05-e3e72791f8fa",
+      "displayName": "Ant Stanley"
+    },
+    {
+      "alias": "arvs",
+      "builderProfileId": "ed122bb7-88fe-40b5-9997-f9d0e413929a",
+      "displayName": "Joshua Arvin Lat (ARVS)"
+    },
+    {
+      "alias": "asamir",
+      "builderProfileId": "3d65c551-bc5c-49a3-a1b9-58700a1f20d4",
+      "displayName": "Ahmed Samir"
+    },
+    {
+      "alias": "astuyve",
+      "builderProfileId": "060e2569-c73a-492f-a3de-de9448c60ecc",
+      "displayName": "AJ Stuyvenberg"
+    },
+    {
+      "alias": "austen",
+      "builderProfileId": "19579657-bb47-4d5b-a6b1-fe0317b3dd09",
+      "displayName": "Austen Collins"
+    },
+    {
+      "alias": "avikeinan",
+      "builderProfileId": "5c2064d4-b3e8-4af9-be8c-7974a007a236",
+      "displayName": "Avi Keinan"
+    },
+    {
+      "alias": "awedis",
+      "builderProfileId": "f63a1ff5-7919-4085-96bb-6da61411e637",
+      "displayName": "Awedis Keofteian"
+    },
+    {
+      "alias": "awsteele",
+      "builderProfileId": "865e133d-a190-48c7-a037-cbd24aaa3a68",
+      "displayName": "Aidan Steele"
+    },
+    {
+      "alias": "awsuggoiania",
+      "builderProfileId": "3cfc82f6-04c8-440e-b7b6-b3189aa43377",
+      "displayName": "Marcelo Paiva"
+    },
+    {
+      "alias": "ayyanar",
+      "builderProfileId": "c7a5484c-865f-46db-92ef-c963d34a755d",
+      "displayName": "Ayyanar Jeyakrishnan"
+    },
+    {
+      "alias": "beckyame",
+      "builderProfileId": "62a837c1-d72c-4a22-96b0-b782358f44f9",
+      "displayName": "Becky Zhang"
+    },
+    {
+      "alias": "benbridts",
+      "builderProfileId": "7210179d-6162-41aa-b131-395d94b335f1",
+      "displayName": "Ben Bridts"
+    },
+    {
+      "alias": "benkehoe",
+      "builderProfileId": "54f208c5-e7bb-4ccc-a4c8-e1a8eb90ecbd",
+      "displayName": "Ben Kehoe"
+    },
+    {
+      "alias": "bhuvaneswari",
+      "builderProfileId": "73510081-8dff-4b0b-8ed4-ef7a8a40798f",
+      "displayName": "Bhuvaneswari Subramani"
+    },
+    {
+      "alias": "bien",
+      "builderProfileId": "3f57bfa4-e35d-4e33-8bb5-49bbc5d340d9",
+      "displayName": "Kyuhyun Byun"
+    },
+    {
+      "alias": "bluevalhalla",
+      "builderProfileId": "11238b2b-d8e6-4878-80fb-aee3c50a3d3c",
+      "displayName": "Ed Miller"
+    },
+    {
+      "alias": "breakinthecloud",
+      "builderProfileId": "aae3dca4-4bcb-487f-9469-0bdc881df927",
+      "displayName": "Carlos Cortez Bazan"
+    },
+    {
+      "alias": "brianhhough",
+      "builderProfileId": "ca9c9f97-b8de-4f4c-b39e-fcf55be05b1c",
+      "displayName": "Brian H. Hough [AWS Hero]"
+    },
+    {
+      "alias": "brianleroux",
+      "builderProfileId": "60aec0f8-ef89-4f4f-af0e-ce0d3d907bf8",
+      "displayName": "Brian LeRoux"
+    },
+    {
+      "alias": "briantarbox",
+      "builderProfileId": "b806cb29-a1c1-4d46-aa68-1c45c57b1ffc",
+      "displayName": "Brian Tarbox"
+    },
+    {
+      "alias": "bryanchasko",
+      "builderProfileId": "d30b0a99-cdbe-44e2-8210-a10472d3f67c",
+      "displayName": "Bryan Chasko"
+    },
+    {
+      "alias": "calvinhp",
+      "builderProfileId": "3a3ce80a-e366-4719-99c9-1b857ed801a5",
+      "displayName": "Calvin Hendryx-Parker"
+    },
+    {
+      "alias": "chaocai",
+      "builderProfileId": "25d20825-3b1c-44ea-b9a3-b4fc5b0ff96a",
+      "displayName": "chaocai"
+    },
+    {
+      "alias": "chrisatroom17",
+      "builderProfileId": "0ba8afa6-c991-4fc9-8af6-ed0bfb2692cd",
+      "displayName": "Chris Farris [AWS Hero] "
+    },
+    {
+      "alias": "cloudfather",
+      "builderProfileId": "a8dbd9fc-d100-470b-9c33-12c656f439d6",
+      "displayName": "Drew Firment"
+    },
+    {
+      "alias": "cloudgeek7",
+      "builderProfileId": "5d2f3edd-a437-431f-82ff-68d01e3b874a",
+      "displayName": "Madhu Kumar Yeluri"
+    },
+    {
+      "alias": "cloudiamo",
+      "builderProfileId": "71fe4b37-d002-4052-9441-00b97a8265f0",
+      "displayName": "Renato Losio"
+    },
+    {
+      "alias": "cloudsimo",
+      "builderProfileId": "f25979cb-9d0a-44af-a666-e7465729f08b",
+      "displayName": "Simone Merlini"
+    },
+    {
+      "alias": "colors4ideas",
+      "builderProfileId": "64a57765-68f5-443a-a8bb-08478b623c9f",
+      "displayName": "Vanessa Santos"
+    },
+    {
+      "alias": "cperciva",
+      "builderProfileId": "5125efb6-329b-426d-af24-968939c0ace7",
+      "displayName": "Colin Percival"
+    },
+    {
+      "alias": "cremich",
+      "builderProfileId": "f457cb95-f57d-4d17-b2af-9149f3f69515",
+      "displayName": "Christian Bonzelet"
+    },
+    {
+      "alias": "ctodd",
+      "builderProfileId": "aaa24bb7-85dc-4b61-a929-c5eeb5ea8f05",
+      "displayName": "Chris Miller"
+    },
+    {
+      "alias": "cyrilbandolo",
+      "builderProfileId": "59958917-9352-4f2d-9837-a77dbcba827a",
+      "displayName": "Cyril Bandolo"
+    },
+    {
+      "alias": "czam",
+      "builderProfileId": "ec87eaa4-3d4b-4c79-a51f-b9a135ba6d7d",
+      "displayName": "Carlos Zambrano"
+    },
+    {
+      "alias": "damiano",
+      "builderProfileId": "c620175e-f219-4401-98ed-a25aae15a2b3",
+      "displayName": "Damiano Giorgi"
+    },
+    {
+      "alias": "damovsky",
+      "builderProfileId": "7c6b1c16-47da-4326-93e4-49889402b5cc",
+      "displayName": "Martin Damovsky"
+    },
+    {
+      "alias": "danielglh",
+      "builderProfileId": "64492d81-8b7f-4179-b55d-1a618a1fdbae",
+      "displayName": "Linghui Gong"
+    },
+    {
+      "alias": "danielrankov",
+      "builderProfileId": "f2bf09d6-5999-4596-8ef9-a3043acbf029",
+      "displayName": "Daniel Rankov"
+    },
+    {
+      "alias": "darrylr",
+      "builderProfileId": "7a6c8994-ca19-4ab8-816a-5236addc51cc",
+      "displayName": "Darryl Ruggles"
+    },
+    {
+      "alias": "davebuildscloud",
+      "builderProfileId": "caccac28-c6e0-49fa-9b9c-2a938cbfa41f",
+      "displayName": "Dave Stauffacher"
+    },
+    {
+      "alias": "dayjournal",
+      "builderProfileId": "493be2fb-d593-4205-8372-78187545d8ef",
+      "displayName": "Yasunori Kirimoto"
+    },
+    {
+      "alias": "deeheber",
+      "builderProfileId": "350fbc02-84cb-4a9c-9af7-622e31d76e65",
+      "displayName": "Danielle Heberling"
+    },
+    {
+      "alias": "devart",
+      "builderProfileId": "64e17e30-50a4-4782-a5fd-e75ff10ca5e1",
+      "displayName": "Juyoung Song"
+    },
+    {
+      "alias": "devopswithzack",
+      "builderProfileId": "863e6af1-a326-4132-8620-c660d04005bf",
+      "displayName": "Arshad Zackeriya"
+    },
+    {
+      "alias": "dhavaln",
+      "builderProfileId": "5c5bcc57-42fb-4af0-bcbc-2b8ae2d944f5",
+      "displayName": "Dhaval Nagar"
+    },
+    {
+      "alias": "dheerajchoudhary",
+      "builderProfileId": "ea280f15-4c0e-4aed-8ab6-f65392303241",
+      "displayName": "Dheeraj Choudhary"
+    },
+    {
+      "alias": "dijeeshpnair",
+      "builderProfileId": "89fc2e52-8006-4f51-9e80-120fb2907e86",
+      "displayName": "Dijeesh Padinharethil"
+    },
+    {
+      "alias": "dimplevaghela",
+      "builderProfileId": "5b2ec469-9bf5-4e77-b500-f4cf337f0a8c",
+      "displayName": "Dimple Vaghela"
+    },
+    {
+      "alias": "dipalik",
+      "builderProfileId": "e08ae84b-f0d7-4790-ba7b-aa33ac76688c",
+      "displayName": "Dipali Kulshrestha"
+    },
+    {
+      "alias": "dolguin",
+      "builderProfileId": "a812d730-f3ac-42df-9cba-f9dc8c2c9ab1",
+      "displayName": "Damian Olguin"
+    },
+    {
+      "alias": "donkersgoed",
+      "builderProfileId": "2ed8c9a2-e1a1-4cbc-a22c-e20e266e49ab",
+      "displayName": "Luc van Donkersgoed"
+    },
+    {
+      "alias": "dzenana",
+      "builderProfileId": "ddb81676-7fa9-42fe-b899-600d070fe109",
+      "displayName": "Dzenana Dzevlan"
+    },
+    {
+      "alias": "dzenandzevlan",
+      "builderProfileId": "51595bbc-4b17-41f1-b4a8-c6894bba8762",
+      "displayName": "Dzenan Dzevlan"
+    },
+    {
+      "alias": "efimk",
+      "builderProfileId": "5f953ca3-8502-4fe2-b992-20d50eea2e4c",
+      "displayName": "Efi Merdler-Kravitz"
+    },
+    {
+      "alias": "elliottcordo",
+      "builderProfileId": "17685204-07cf-441d-8ab8-2374c2f97085",
+      "displayName": "elliott cordo"
+    },
+    {
+      "alias": "eminalemdar",
+      "builderProfileId": "5108de51-5024-4aa9-90cf-62ba92073e88",
+      "displayName": "Emin Alemdar"
+    },
+    {
+      "alias": "emrahsamdan",
+      "builderProfileId": "8466860d-25da-4b6e-b031-883cf0118940",
+      "displayName": "Emrah Samdan"
+    },
+    {
+      "alias": "epiresdasilva",
+      "builderProfileId": "55032c4e-57e2-4833-a249-378f81815855",
+      "displayName": "Evandro Pires"
+    },
+    {
+      "alias": "ernestchiang",
+      "builderProfileId": "59baa385-404c-4959-8b23-afc6ce02ffba",
+      "displayName": "Ernest Chiang"
+    },
+    {
+      "alias": "esh",
+      "builderProfileId": "8268fde4-f739-4120-bf07-45278c2d5568",
+      "displayName": "Eric Hammond"
+    },
+    {
+      "alias": "ewere",
+      "builderProfileId": "9ac0f29f-0a6c-4864-80ad-83cef4b13fd5",
+      "displayName": "Ewere Diagboya"
+    },
+    {
+      "alias": "faye",
+      "builderProfileId": "c04cc64f-59f0-40dd-869b-1904a778ffa2",
+      "displayName": "Faye Ellis"
+    },
+    {
+      "alias": "filipebarretto",
+      "builderProfileId": "d22e5574-88a1-495c-a900-2b253bf199ba",
+      "displayName": "Filipe Barretto"
+    },
+    {
+      "alias": "filippyrek",
+      "builderProfileId": "2a066a13-6734-459d-bc11-12dd02667952",
+      "displayName": "Filip Pyrek"
+    },
+    {
+      "alias": "fluxtechie",
+      "builderProfileId": "d22fe3d3-48d7-40d2-8e81-63a24cd953ef",
+      "displayName": "Faizal Khan"
+    },
+    {
+      "alias": "franciscoed",
+      "builderProfileId": "60bc3958-44a4-440d-8f26-91b2d09b98d0",
+      "displayName": "Francisco Edilton"
+    },
+    {
+      "alias": "franckpachot",
+      "builderProfileId": "7cb249f7-5434-4c75-842b-1da072f1eb18",
+      "displayName": "Franck Pachot"
+    },
+    {
+      "alias": "gerardokaztro",
+      "builderProfileId": "96c2bb8a-7402-401e-bcff-a236775d8e52",
+      "displayName": "Gerardo Castro Arica"
+    },
+    {
+      "alias": "gillian",
+      "builderProfileId": "95e9ccd9-945c-4a26-b4f4-defb2fa5494c",
+      "displayName": "Gillian McCann"
+    },
+    {
+      "alias": "glover",
+      "builderProfileId": "4e89c0d4-5f19-49a3-915f-485adeced0b9",
+      "displayName": "Nathan Glover"
+    },
+    {
+      "alias": "gojko",
+      "builderProfileId": "6f52ef80-6ce1-4eed-ac3e-7555e0c0985e",
+      "displayName": "Gojko Adzic"
+    },
+    {
+      "alias": "goran",
+      "builderProfileId": "e60a4890-fef6-4d6c-8ec6-a92b5762f5f0",
+      "displayName": "Goran Opacic"
+    },
+    {
+      "alias": "gunnargrosch",
+      "builderProfileId": "d4482ad4-b02a-40e7-bbf3-8f7c7a6fec90",
+      "displayName": "Gunnar Grosch"
+    },
+    {
+      "alias": "gusnalwan",
+      "builderProfileId": "dd64929b-874c-480c-af91-0dce6667dfe7",
+      "displayName": "Agustinus Nalwan"
+    },
+    {
+      "alias": "hatano",
+      "builderProfileId": "e08e5bde-39c0-435a-abac-d727970e735d",
+      "displayName": "Hirokazu Hatano"
+    },
+    {
+      "alias": "hidetoshimatsui",
+      "builderProfileId": "01b0cf84-c8cd-40bf-9605-8937d8a6c533",
+      "displayName": "Hidetoshi Matsui"
+    },
+    {
+      "alias": "hiltch",
+      "builderProfileId": "7488097c-a20d-46cd-9bcd-5196d1b66d76",
+      "displayName": "Or Hiltch"
+    },
+    {
+      "alias": "hirokonishimura",
+      "builderProfileId": "aa9a21a7-d95f-4f9b-a6f8-42edc69e9382",
+      "displayName": "Hiroko Nishimura"
+    },
+    {
+      "alias": "hiromi",
+      "builderProfileId": "b4878f6e-3e9b-4a3a-81fc-819a30fdd216",
+      "displayName": "Hiromi｜AWS Community Hero"
+    },
+    {
+      "alias": "hnp",
+      "builderProfileId": "f7aa9d6e-5608-45d5-a0e0-5dad1434f770",
+      "displayName": "Prashanth HN"
+    },
+    {
+      "alias": "hoegertn",
+      "builderProfileId": "0ba36351-980b-4c17-b0a2-1ca55c8fc2d2",
+      "displayName": "Thorsten Höger"
+    },
+    {
+      "alias": "horike",
+      "builderProfileId": "0941add5-c03a-4a6f-a75e-5c0f0989d793",
+      "displayName": "horike"
+    },
+    {
+      "alias": "hovietanh",
+      "builderProfileId": "3a0cffd8-7ce5-43df-8ab7-3292bbf9ff39",
+      "displayName": "Anh Ho Viet"
+    },
+    {
+      "alias": "hyunmin",
+      "builderProfileId": "c92f50d9-525c-4a3a-9a5f-1c69c7d47797",
+      "displayName": "Hyunmin Kim"
+    },
+    {
+      "alias": "ianmckay",
+      "builderProfileId": "e08ea6ee-a6c4-48e6-9ec2-6fcf2dcecec6",
+      "displayName": "Ian Mckay"
+    },
+    {
+      "alias": "ianuragkale",
+      "builderProfileId": "05868567-e75c-4f98-9b6c-e0cdf44fe87c",
+      "displayName": "Anurag Kale"
+    },
+    {
+      "alias": "ilan",
+      "builderProfileId": "f095a25d-349b-44da-a39d-8b2c886e1ca3",
+      "displayName": "Ilanchezhian Ganesamurthy"
+    },
+    {
+      "alias": "iselegant",
+      "builderProfileId": "a34a0f47-46b2-4cb2-8262-60f11df197f9",
+      "displayName": "Masaya Arai"
+    },
+    {
+      "alias": "ivlo11",
+      "builderProfileId": "f933b168-5128-49f7-8328-9d47dbf5ac98",
+      "displayName": "Ivonne Roberts"
+    },
+    {
+      "alias": "jamby",
+      "builderProfileId": "1f8c845e-b727-4144-bfb4-2bf2752eca70",
+      "displayName": "Raphael Jambalos"
+    },
+    {
+      "alias": "jbahire",
+      "builderProfileId": "06e2f44b-9c42-49e4-8e64-c4d53d06404d",
+      "displayName": "Jayesh Bapu Ahire"
+    },
+    {
+      "alias": "jeremydaly",
+      "builderProfileId": "0720c248-8ac9-464a-a9fd-7881bc8a1b27",
+      "displayName": "Jeremy Daly"
+    },
+    {
+      "alias": "jimmydqv",
+      "builderProfileId": "3cafbd3b-00db-4122-93af-1da2f48be7a5",
+      "displayName": "Jimmy Dahlqvist"
+    },
+    {
+      "alias": "jnardiello",
+      "builderProfileId": "274c34d1-06fe-43b6-a888-f02a9bf21883",
+      "displayName": "Jacopo Nardiello"
+    },
+    {
+      "alias": "johnvarghese",
+      "builderProfileId": "665b64d0-dd55-409b-84bc-80774bde1a3b",
+      "displayName": "John Varghese"
+    },
+    {
+      "alias": "jrodon",
+      "builderProfileId": "a7c1d166-3fae-4d4a-800e-adcf07fe8dd0",
+      "displayName": "Jérémie RODON"
+    },
+    {
+      "alias": "jshort",
+      "builderProfileId": "a0551ca0-fe1f-48d4-8d2e-33c08401d5fb",
+      "displayName": "Jared Short"
+    },
+    {
+      "alias": "juliafmorgado",
+      "builderProfileId": "cc902698-eb00-4d6b-84de-153a155daecf",
+      "displayName": "Julia Morgado"
+    },
+    {
+      "alias": "karolinaboboli",
+      "builderProfileId": "4884ac90-14b8-4710-9dc8-e3edd792ff38",
+      "displayName": "Karolina Boboli"
+    },
+    {
+      "alias": "kattard",
+      "builderProfileId": "6edf2c8d-a45b-4569-8a46-8c62f911a539",
+      "displayName": "Kenneth Attard"
+    },
+    {
+      "alias": "kaushikmohanraj",
+      "builderProfileId": "c65acbb4-e408-40bf-beb9-f395b245f20e",
+      "displayName": "Kaushik Mohanraj"
+    },
+    {
+      "alias": "keisukeusuda",
+      "builderProfileId": "89efc571-bfed-412d-a5ff-36ea671f4b9c",
+      "displayName": "Keisuke Usuda"
+    },
+    {
+      "alias": "kentagoto",
+      "builderProfileId": "8980785e-c520-4080-ab5e-78d5a2d62383",
+      "displayName": "Kenta Goto"
+    },
+    {
+      "alias": "keshawilliams",
+      "builderProfileId": "ca06ab8e-af4b-43e6-ab80-e98a2c0fcc79",
+      "displayName": "Kesha Williams"
+    },
+    {
+      "alias": "kinimod",
+      "builderProfileId": "bc1e48ee-a60a-4fd1-b53c-8ccbedcf043f",
+      "displayName": "Dominik Grzywaczewski"
+    },
+    {
+      "alias": "kinunori",
+      "builderProfileId": "398c22c8-ed9d-4be9-9df9-3087b91f9c5f",
+      "displayName": "Masanori Yamaguchi"
+    },
+    {
+      "alias": "kittaya",
+      "builderProfileId": "ad45e6ad-6073-4124-99c0-ad2aef0875e5",
+      "displayName": "Kittaya Niennattrakul"
+    },
+    {
+      "alias": "kristinearmiyants",
+      "builderProfileId": "5e1ca907-61ae-46c9-a0fc-d2e2caaccaff",
+      "displayName": "Kristine Armiyants"
+    },
+    {
+      "alias": "kristiperreault",
+      "builderProfileId": "55f97ee6-e166-4d4a-8844-f3a462b86a6b",
+      "displayName": "Kristi Perreault"
+    },
+    {
+      "alias": "kurtlee",
+      "builderProfileId": "69b8d1eb-d2f7-4cee-8eb5-b323b532c570",
+      "displayName": "Kurt Lee"
+    },
+    {
+      "alias": "learncloud",
+      "builderProfileId": "b0d0161d-6d27-48a9-b496-ce7e81d0d396",
+      "displayName": "Mayank Pandey"
+    },
+    {
+      "alias": "lizrice",
+      "builderProfileId": "e1c71c1d-6171-4c5e-a56a-e30d63c507d9",
+      "displayName": "Liz Rice"
+    },
+    {
+      "alias": "lizthegrey",
+      "builderProfileId": "970bb9e4-0f76-46f0-b891-2435fc7c5862",
+      "displayName": "Liz Fong-Jones"
+    },
+    {
+      "alias": "lockhead",
+      "builderProfileId": "37987122-2501-428f-9ab2-c6a9aa3849cf",
+      "displayName": "Johannes Koch [AWS Hero]"
+    },
+    {
+      "alias": "loige",
+      "builderProfileId": "67cdc1ed-8a12-4169-b75d-96c27c96ba9a",
+      "displayName": "Luciano Mammino"
+    },
+    {
+      "alias": "lyndonleggate",
+      "builderProfileId": "839538df-88b6-4465-91d0-64f7c456a9ab",
+      "displayName": "Lyndon Leggate"
+    },
+    {
+      "alias": "maciejlelusz",
+      "builderProfileId": "c2969536-ad8a-4f74-9021-b3e8375d67ee",
+      "displayName": "Maciek Lelusz"
+    },
+    {
+      "alias": "manojf",
+      "builderProfileId": "9cb8cf49-4fef-4cae-9735-86a4249eeb2e",
+      "displayName": "Manoj Fernando"
+    },
+    {
+      "alias": "margaretvaltierra",
+      "builderProfileId": "79b7a9b2-ea97-4839-b5c7-108f810a768b",
+      "displayName": "margaret valtierra"
+    },
+    {
+      "alias": "margoneto81",
+      "builderProfileId": "b9a69c53-0622-4e59-a53a-38e230e7ef02",
+      "displayName": "Maurizio Argoneto"
+    },
+    {
+      "alias": "marumoto",
+      "builderProfileId": "3c6169d3-2ac7-4570-af97-162d418ec901",
+      "displayName": "marumoto"
+    },
+    {
+      "alias": "matthewbonig",
+      "builderProfileId": "b5bd86ce-5773-4825-b526-6a7c29043d57",
+      "displayName": "Matthew Bonig"
+    },
+    {
+      "alias": "mattlewis",
+      "builderProfileId": "d1ba1b48-9b35-4200-b5c3-2952a193043a",
+      "displayName": "Matt Lewis"
+    },
+    {
+      "alias": "maxjp",
+      "builderProfileId": "e135c85f-e69f-481d-b0cd-921af96315f2",
+      "displayName": "Kohei \"Max\" MATSUSHITA"
+    },
+    {
+      "alias": "metaskills",
+      "builderProfileId": "8c072aad-00d6-4632-8e80-12fe214b26bf",
+      "displayName": "Ken Collins"
+    },
+    {
+      "alias": "miketheman",
+      "builderProfileId": "b3364de6-0ec1-4082-b991-6e20137ab51a",
+      "displayName": "Mike Fiedler"
+    },
+    {
+      "alias": "mikeyfan",
+      "builderProfileId": "6f75faac-a751-4e01-bddb-20c30ca3f493",
+      "displayName": "FAN GUIJU"
+    },
+    {
+      "alias": "minorun365",
+      "builderProfileId": "eafa4431-817e-4b49-829c-d54f7d911070",
+      "displayName": "Minoru Onda"
+    },
+    {
+      "alias": "misskecupbung",
+      "builderProfileId": "a458e15c-2c01-4f08-8a8c-0a9c8af2418c",
+      "displayName": "Ananda Dwi Rahmawati"
+    },
+    {
+      "alias": "mistwire",
+      "builderProfileId": "86dd1ae5-af3f-448b-9845-d4adeca3af0e",
+      "displayName": "Chris Williams"
+    },
+    {
+      "alias": "miucrescent",
+      "builderProfileId": "d215f887-75aa-41b0-9e93-fa23a28b9e6e",
+      "displayName": "Kazuki Miura"
+    },
+    {
+      "alias": "mkreder",
+      "builderProfileId": "8ff57496-410f-456d-b03a-7ddbfb0b103a",
+      "displayName": "Matias Kreder [AWS Hero]"
+    },
+    {
+      "alias": "mnapoli",
+      "builderProfileId": "2f4163cc-8f95-4dcb-ad6c-c9f62f6eef64",
+      "displayName": "Matthieu Napoli"
+    },
+    {
+      "alias": "monica",
+      "builderProfileId": "83853189-14bf-4f72-8482-6de4f312b9db",
+      "displayName": "Monica Colangelo"
+    },
+    {
+      "alias": "mrdoro",
+      "builderProfileId": "d6b7ceda-f546-45a2-819b-65aba3c45f69",
+      "displayName": "Lukasz 'Luke' Dorosz"
+    },
+    {
+      "alias": "mumoshu",
+      "builderProfileId": "36f0a519-14ea-48f6-97cb-3690a96b4d86",
+      "displayName": "Yusuke Kuoka"
+    },
+    {
+      "alias": "mvandongen",
+      "builderProfileId": "865bd97b-8df6-48cb-9279-4c749e8cfd82",
+      "displayName": "Martijn van Dongen"
+    },
+    {
+      "alias": "mzzavaa",
+      "builderProfileId": "b1607120-5353-488e-af13-d7a2b83ff2b6",
+      "displayName": "Linda Mohamed"
+    },
+    {
+      "alias": "nafia1212",
+      "builderProfileId": "f8fc4e62-7db9-4637-b49c-8966f12040c1",
+      "displayName": "Nadia(Ronak) Reyhani"
+    },
+    {
+      "alias": "nalbam",
+      "builderProfileId": "d5addfaf-cdc6-4e81-9912-f9b1bdc4bc41",
+      "displayName": "Jungyoul Yu"
+    },
+    {
+      "alias": "namratashah",
+      "builderProfileId": "4ae21c89-533e-4e06-aea7-63f075e5be8c",
+      "displayName": "Namrata Shah"
+    },
+    {
+      "alias": "nickt",
+      "builderProfileId": "538c1f26-581c-4c29-aea0-648aaabc0d4c",
+      "displayName": "Nick Triantafillou"
+    },
+    {
+      "alias": "nideveloper",
+      "builderProfileId": "c77c6f42-1da6-4971-a554-053311ff9f12",
+      "displayName": "Matt Coulter"
+    },
+    {
+      "alias": "nileshvaghela",
+      "builderProfileId": "e19e976d-3de8-4e2e-b401-7c338dc56495",
+      "displayName": "Nilesh Vaghela"
+    },
+    {
+      "alias": "niv",
+      "builderProfileId": "cc8716ff-0c61-4cf7-8841-c7c8c3547364",
+      "displayName": "Niv"
+    },
+    {
+      "alias": "noahgift",
+      "builderProfileId": "3e9e58f4-e930-4f20-9e9a-a4f2a24e763f",
+      "displayName": "Noah Gift"
+    },
+    {
+      "alias": "oelesin",
+      "builderProfileId": "13b0b1cd-e805-47f1-a3cc-270ed3a404b4",
+      "displayName": "Olalekan Elesin"
+    },
+    {
+      "alias": "osterjour",
+      "builderProfileId": "da2e308f-621e-4c08-849d-8ea2a8942f92",
+      "displayName": "Markus Ostertag"
+    },
+    {
+      "alias": "paolol",
+      "builderProfileId": "9b5cf394-ec46-4d48-b6c7-9c0718c50491",
+      "displayName": "Paolo Latella"
+    },
+    {
+      "alias": "partha",
+      "builderProfileId": "6d4b6013-2b01-44d6-84ce-f17c13408fe3",
+      "displayName": "Parthasarathi Balasubramanian"
+    },
+    {
+      "alias": "pas256",
+      "builderProfileId": "1c5bae7a-498d-4fc7-9f63-2ee81a120f84",
+      "displayName": "Peter Sankauskas"
+    },
+    {
+      "alias": "pawelzubkiewicz",
+      "builderProfileId": "7d8e97ad-1449-4591-9008-86dfe4677330",
+      "displayName": "Pawel Zubkiewicz"
+    },
+    {
+      "alias": "pgarbe",
+      "builderProfileId": "57ee61b0-337a-4ebc-b1a6-04ae956795e8",
+      "displayName": "Philipp Garbe"
+    },
+    {
+      "alias": "pigius",
+      "builderProfileId": "9a4d8009-ad2c-44c2-b1b9-ba92d2a3b484",
+      "displayName": "Daniel Aniszkiewicz"
+    },
+    {
+      "alias": "pmartin",
+      "builderProfileId": "49ff4dad-37ae-4fc5-848f-8e81ba871143",
+      "displayName": "Pascal MARTIN"
+    },
+    {
+      "alias": "rafalmitula",
+      "builderProfileId": "1b7fc453-7958-4011-8bc0-9b2d00842733",
+      "displayName": "Rafał Mituła"
+    },
+    {
+      "alias": "ranisenberg",
+      "builderProfileId": "e2423fed-3b20-40ef-92a8-d06772fe1fdd",
+      "displayName": "Ran Isenberg"
+    },
+    {
+      "alias": "ranrib",
+      "builderProfileId": "45a9c229-e422-47b0-b0bc-97251dd8a32c",
+      "displayName": "Ran Ribenzaft"
+    },
+    {
+      "alias": "raphaelmanke",
+      "builderProfileId": "69d97209-da57-41a7-a026-87cf27723735",
+      "displayName": "Raphael Manke"
+    },
+    {
+      "alias": "rayg",
+      "builderProfileId": "85105420-39cb-4ab0-bafa-d78350dd1585",
+      "displayName": "Ray Goh"
+    },
+    {
+      "alias": "rdali",
+      "builderProfileId": "65dfb8cd-1997-450b-9c5a-f81fb062151a",
+      "displayName": "Rola Dali"
+    },
+    {
+      "alias": "rehanvdm",
+      "builderProfileId": "70f6e398-3bb6-41ac-a9cd-a7f8f1ed38f4",
+      "displayName": "Rehan van der Merwe"
+    },
+    {
+      "alias": "ricardoceci",
+      "builderProfileId": "05b6c5bd-cbb8-4334-add7-d44740cbe588",
+      "displayName": "Ricardo Ceci"
+    },
+    {
+      "alias": "richardfan",
+      "builderProfileId": "81d32861-bac9-409b-9a46-c375e97a035b",
+      "displayName": "Richard Fan"
+    },
+    {
+      "alias": "robcube",
+      "builderProfileId": "1b1752f3-2333-47fb-a63d-090f3fe96f05",
+      "displayName": "Rob Koch"
+    },
+    {
+      "alias": "rolle",
+      "builderProfileId": "d441c99f-df1f-49a8-a095-cb8fa3af50e6",
+      "displayName": "Rolf Koski"
+    },
+    {
+      "alias": "rosius",
+      "builderProfileId": "e15f5793-40cf-4fb6-86cf-69ca86162747",
+      "displayName": "Rosius Ndimofor"
+    },
+    {
+      "alias": "rowanu",
+      "builderProfileId": "40166945-d0b7-4d08-bf0c-310e0d886e3c",
+      "displayName": "Rowan Udell"
+    },
+    {
+      "alias": "roxsross",
+      "builderProfileId": "d92d78d7-1a2c-46ea-add1-4a3515cfe1e8",
+      "displayName": "Rossana Suarez 🔥Roxs🔥"
+    },
+    {
+      "alias": "rustemfeyzkhanov",
+      "builderProfileId": "b11e4e7d-801c-4843-8f99-e7aae49dd18a",
+      "displayName": "Rustem Feyzkhanov"
+    },
+    {
+      "alias": "sabihaali",
+      "builderProfileId": "ab4ea3cc-d86e-4a64-801d-d141864ff860",
+      "displayName": "Sabiha"
+    },
+    {
+      "alias": "sanchitdilipjain",
+      "builderProfileId": "f5e14ccc-a5cd-4b3f-9840-29210ea9bc73",
+      "displayName": "Sanchit Jain"
+    },
+    {
+      "alias": "sandipdasawshero",
+      "builderProfileId": "1ba1fe32-12ad-4c6e-9529-d318170691b2",
+      "displayName": "Sandip Das"
+    },
+    {
+      "alias": "sanguk",
+      "builderProfileId": "3866942c-8cb6-4f4d-8d68-e95611c57a71",
+      "displayName": "Park SangUk"
+    },
+    {
+      "alias": "sathyabhat",
+      "builderProfileId": "939e59d8-2123-4641-b135-fd0bdf2aadbe",
+      "displayName": "Sathyajith Bhat"
+    },
+    {
+      "alias": "sbarski",
+      "builderProfileId": "bbf61978-efbd-4689-a10e-c44c9709e52a",
+      "displayName": "Peter Sbarski"
+    },
+    {
+      "alias": "scott516",
+      "builderProfileId": "c4a34d03-d470-42b3-90f2-04d03509e311",
+      "displayName": "Scott Hsieh"
+    },
+    {
+      "alias": "senayakut",
+      "builderProfileId": "886e8fb4-4b9d-4005-b17d-410634891f25",
+      "displayName": "Sena Yakut"
+    },
+    {
+      "alias": "serhatcan",
+      "builderProfileId": "bfa2095b-3363-4d1d-8c3c-97daa67071c2",
+      "displayName": "Serhat Can"
+    },
+    {
+      "alias": "serverless",
+      "builderProfileId": "77637c24-c632-49a5-989f-b31bad158721",
+      "displayName": "Sang Chris Park [AWS Hero]"
+    },
+    {
+      "alias": "serverlessadvocate",
+      "builderProfileId": "12dda6d0-a47d-4135-b12f-70ebc95a223e",
+      "displayName": "Lee Gilmore (Serverless Hero)"
+    },
+    {
+      "alias": "setevoy",
+      "builderProfileId": "1d88e053-de69-4a3b-bccc-8e2daf325bc4",
+      "displayName": "Arseny Zinchneko"
+    },
+    {
+      "alias": "shaoyi",
+      "builderProfileId": "be697d12-3ef6-4a3e-b8b0-a8944670f325",
+      "displayName": "Shaoyi Li"
+    },
+    {
+      "alias": "sheenbrisals",
+      "builderProfileId": "923ae3c3-4a7b-4c63-98d9-ffe2f223eaac",
+      "displayName": "Sheen Brisals"
+    },
+    {
+      "alias": "shescloud",
+      "builderProfileId": "569b3d87-287c-491f-90d4-8a02a57ae7d8",
+      "displayName": "Paloma Lataliza"
+    },
+    {
+      "alias": "sheyla",
+      "builderProfileId": "96189635-9bc3-49d1-8be6-cfea1304888d",
+      "displayName": "Sheyla Leacock"
+    },
+    {
+      "alias": "shigeru0oda",
+      "builderProfileId": "32fc8d8b-31e5-4fb3-8b80-0e1cfd347f92",
+      "displayName": "Shigeru Oda"
+    },
+    {
+      "alias": "shimon",
+      "builderProfileId": "41144279-7b7f-404b-a680-d21548557576",
+      "displayName": "Shimon Tolts"
+    },
+    {
+      "alias": "shingo",
+      "builderProfileId": "3684220b-57dd-4747-8760-704dc6eaaba5",
+      "displayName": "Shingo Yoshida"
+    },
+    {
+      "alias": "siakon",
+      "builderProfileId": "728f0a90-f5b0-4fea-a98a-9d704260e6b0",
+      "displayName": "Konstantinos Siaterlis"
+    },
+    {
+      "alias": "simalexan",
+      "builderProfileId": "a4036e6f-ecca-4c44-b390-b7abea79f212",
+      "displayName": "Aleksandar Simovic"
+    },
+    {
+      "alias": "sinsky",
+      "builderProfileId": "30134733-c8aa-4dfa-855b-a47b29cbf5e1",
+      "displayName": "JaeHyeon Shin"
+    },
+    {
+      "alias": "skorfmann",
+      "builderProfileId": "ff3dc9a7-1ae2-4aa6-b42d-6fe8321ee105",
+      "displayName": "Sebastian Korfmann"
+    },
+    {
+      "alias": "slobodan",
+      "builderProfileId": "3892950f-a122-4846-b0d7-b731d9cceb70",
+      "displayName": "Slobodan Stojanović"
+    },
+    {
+      "alias": "sodkiewicz",
+      "builderProfileId": "90d6a347-c610-4638-b00d-f1abf678b888",
+      "displayName": "Marcin Sodkiewicz"
+    },
+    {
+      "alias": "sozal",
+      "builderProfileId": "a67e1326-34a9-4ec1-b1ec-fbe4e942e13d",
+      "displayName": "Serkan Özal"
+    },
+    {
+      "alias": "sridevijms",
+      "builderProfileId": "8cc3c0c0-e0d8-4cd5-81f0-5f861b0e1568",
+      "displayName": "Sridevi"
+    },
+    {
+      "alias": "srushith",
+      "builderProfileId": "3d126bc3-7523-4e58-9cb4-13682968828d",
+      "displayName": "Srushith Repakula"
+    },
+    {
+      "alias": "ssennettau",
+      "builderProfileId": "0fae6e5f-1307-40c6-9fbd-c61b75d860ec",
+      "displayName": "Stephen Sennett"
+    },
+    {
+      "alias": "stav",
+      "builderProfileId": "a13c9c62-7d41-4b43-a9e4-2f9f142505e2",
+      "displayName": "Stav Ochakovski"
+    },
+    {
+      "alias": "stevepotayteo",
+      "builderProfileId": "dad61d37-0728-4fca-af6a-e6f5b20689e7",
+      "displayName": "Steve Teo"
+    },
+    {
+      "alias": "tachibana",
+      "builderProfileId": "ae587e04-b8ae-4386-8496-18f40f3463aa",
+      "displayName": "Takuya Tachibana"
+    },
+    {
+      "alias": "taeseongpark",
+      "builderProfileId": "7a83e8ce-bbd0-422a-8d6b-4f6458641546",
+      "displayName": "TaeSeong Park"
+    },
+    {
+      "alias": "tdudek",
+      "builderProfileId": "b91cb7cf-08f7-42bf-8a60-3ab17c6470ff",
+      "displayName": "Tomasz Dudek"
+    },
+    {
+      "alias": "techworldwithnana",
+      "builderProfileId": "d936e78c-c768-4a45-a44b-4a9da5a6b31e",
+      "displayName": "Nana Janashia"
+    },
+    {
+      "alias": "teriradichel",
+      "builderProfileId": "8578fee8-86e0-4633-8d37-64e6edaa75b5",
+      "displayName": "Teri Radichel"
+    },
+    {
+      "alias": "theburningmonk",
+      "builderProfileId": "a8811f74-899e-4dae-b41c-375584deffc7",
+      "displayName": "Yan Cui"
+    },
+    {
+      "alias": "threeforwyy",
+      "builderProfileId": "9d62e351-aaf6-4a60-bc0f-5d6cf4468211",
+      "displayName": "Ray Lin"
+    },
+    {
+      "alias": "tigpt",
+      "builderProfileId": "2cc2acaa-fa00-4f16-a58d-f14721e26bbd",
+      "displayName": "Tiago Rodrigues"
+    },
+    {
+      "alias": "tlakomy",
+      "builderProfileId": "47840ccd-31c7-4537-bd03-d055f9f9c512",
+      "displayName": "Tomasz Lakomy"
+    },
+    {
+      "alias": "tmclaugh",
+      "builderProfileId": "7d86a095-e1cc-412f-be79-8b08ea42fddb",
+      "displayName": "Tom McLaughlin"
+    },
+    {
+      "alias": "toshal",
+      "builderProfileId": "7de3509f-34da-48d6-af23-e3538c146bb6",
+      "displayName": "Toshal Khawale"
+    },
+    {
+      "alias": "tptak",
+      "builderProfileId": "a73ad699-6aa7-47fc-8c5d-3fe7ba11adf0",
+      "displayName": "Tomasz Ptak"
+    },
+    {
+      "alias": "trista0zero",
+      "builderProfileId": "9d017876-1aae-4f2e-af72-7a1b13c2d2ef",
+      "displayName": "Trista Pan"
+    },
+    {
+      "alias": "typhon666",
+      "builderProfileId": "55511269-2918-48b6-b7af-c752e130846c",
+      "displayName": "Shun Yoshie"
+    },
+    {
+      "alias": "vickyseno",
+      "builderProfileId": "631dcec9-e99c-41cc-b61a-2e8b288e5508",
+      "displayName": "Vicky Seno"
+    },
+    {
+      "alias": "vikomex",
+      "builderProfileId": "39105896-f268-4274-8474-718da84791a3",
+      "displayName": "David Victoria"
+    },
+    {
+      "alias": "vinicarida",
+      "builderProfileId": "391d1ddc-3061-4836-9bcb-fd70acda2053",
+      "displayName": "Vinicius Caridá"
+    },
+    {
+      "alias": "virginie",
+      "builderProfileId": "2a367b0f-56e8-4bb3-98bf-c548fbce5f25",
+      "displayName": "Virginie Mathivet"
+    },
+    {
+      "alias": "vitnien",
+      "builderProfileId": "87ab708a-3736-450f-a6f2-0e3b4308520d",
+      "displayName": "Vit Niennattrakul"
+    },
+    {
+      "alias": "vivekraja",
+      "builderProfileId": "dae45d88-e0b3-4d55-9d91-c17c6cbf492b",
+      "displayName": "Vivek Raja P S"
+    },
+    {
+      "alias": "vivekv",
+      "builderProfileId": "27558176-4113-4f8d-a2b2-8799e1fb52f3",
+      "displayName": "Vivek V [AWS Hero]"
+    },
+    {
+      "alias": "vjzielinski",
+      "builderProfileId": "c4e0100f-3947-4521-b913-48ac2c396987",
+      "displayName": "Jaroslaw Zielinski"
+    },
+    {
+      "alias": "vkazulkin",
+      "builderProfileId": "0bc65782-2e42-4203-bbfb-98acdc3f2cf3",
+      "displayName": "Vadym Kazulkin"
+    },
+    {
+      "alias": "vlaaaaaaad",
+      "builderProfileId": "9de04a3f-b63d-4d2e-ac2d-be13a9594785",
+      "displayName": "Vlad Ionescu (he/him)"
+    },
+    {
+      "alias": "walmsles",
+      "builderProfileId": "16ed6c7d-4e64-4ec1-afee-281bf8794f4f",
+      "displayName": "Michael Walmsley"
+    },
+    {
+      "alias": "wojbrowski",
+      "builderProfileId": "6e1f1279-a343-49c8-9c21-578e3121b60c",
+      "displayName": "Wojciech Dabrowski"
+    },
+    {
+      "alias": "wolkencode",
+      "builderProfileId": "f63bcae9-94f1-4351-be88-d8cfc7d6d6ea",
+      "displayName": "Nora Schoener (wolkencode)"
+    },
+    {
+      "alias": "wongcyrus",
+      "builderProfileId": "1505146e-2f86-4626-b4c3-1169c88f87e5",
+      "displayName": "Cyrus Wong"
+    },
+    {
+      "alias": "wusheng",
+      "builderProfileId": "a6297b29-65b8-440e-a747-a3218f67c433",
+      "displayName": "Wu Sheng"
+    },
+    {
+      "alias": "yanso",
+      "builderProfileId": "5a35ba36-a6b8-41c8-bdab-f9b6589a4899",
+      "displayName": "Yan So"
+    },
+    {
+      "alias": "youngcto",
+      "builderProfileId": "14f8d8ea-9b92-436d-948e-b0b63ac3323b",
+      "displayName": "Raphael Quisumbing"
+    },
+    {
+      "alias": "zachjonesnoel",
+      "builderProfileId": "cb27a662-8360-4710-aa88-499dffdfbc9d",
+      "displayName": "Jones Zachariah Noel N"
+    },
+    {
+      "alias": "zmaleki",
+      "builderProfileId": "5b548f60-7c09-4075-a8f9-5fa6456d3dd6",
+      "displayName": "Zainab"
+    }
+  ],
+  "omittedWithoutAlias": [
+    "Ben Ellerby",
+    "Denis Bauer"
+  ]
+}

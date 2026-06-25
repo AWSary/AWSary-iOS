@@ -1,0 +1,78 @@
+{
+  "id": "person_wojciech_dabrowski",
+  "slug": "wojciech-dabrowski",
+  "displayName": "Wojciech Dabrowski",
+  "headline": "Software Engineer | Tech Lead | Cloud Architect | Consultant",
+  "summary": "Wojciech began his IT career in 2015, working close to the code as a backend developer. Over time, his responsibilities expanded from hands-on implementation to system design, technical leadership, consulting, and architectural decision-making, with AWS as his primary area of specialization. Throughout his career, he has worked across multiple levels of abstraction: building and operating backend systems, improving DevOps and delivery practices, leading technical teams, advising organizations, and designing cloud architectures. This breadth of experience allows him to understand how technical decisions impact systems, people, and long-term results. Although he currently works as a solutions architect, Wojciech remains hands-on and stays close to implementation, believing that effective architecture must be rooted in real operational constraints. Since 2019, he has been the leader of AWS User Group Silesia in Poland, where he organizes meetups and shares practical knowledge with the local AWS community. In June 2023, he was awarded the AWS Hero title. He focuses on pragmatic engineering, clarity of thought, and straightforward solutions to complex problems.",
+  "location": {
+    "city": null,
+    "country": "PL",
+    "region": null
+  },
+  "avatar": {
+    "url": "https://avatars.builderprofile.aws.dev/2zfcm8TdhohQZDluLYHrivUSxDg.webp",
+    "sourceUrl": "https://builder.aws.com/community/@wojbrowski",
+    "sourceType": "aws_builder_center",
+    "verified": true
+  },
+  "programs": [
+    {
+      "name": "AWS User Group Leader",
+      "category": null,
+      "startYear": 2026,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@wojbrowski",
+      "lastCheckedAt": "2026-06-21"
+    },
+    {
+      "name": "AWS Hero",
+      "category": "Community Hero",
+      "startYear": 2023,
+      "endYear": null,
+      "verificationStatus": "aws_source_verified",
+      "sourceUrl": "https://builder.aws.com/community/@wojbrowski",
+      "lastCheckedAt": "2026-06-21"
+    }
+  ],
+  "topics": [],
+  "links": [
+    {
+      "type": "builder_center",
+      "label": "AWS Builder Center",
+      "url": "https://builder.aws.com/community/@wojbrowski",
+      "handle": null,
+      "verified": true,
+      "sourceUrl": "https://builder.aws.com/community/@wojbrowski"
+    },
+    {
+      "type": "linkedin",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/wojciech-dabrowski/",
+      "handle": "wojciech-dabrowski",
+      "verified": false,
+      "sourceUrl": "https://builder.aws.com/community/@wojbrowski"
+    }
+  ],
+  "featuredContent": [],
+  "sourceEvidence": [
+    {
+      "sourceType": "aws_builder_center",
+      "sourceUrl": "https://builder.aws.com/community/@wojbrowski",
+      "retrievedAt": "2026-06-21T18:18:47Z",
+      "fields": [
+        "avatar",
+        "displayName",
+        "headline",
+        "links",
+        "location",
+        "programs",
+        "summary"
+      ]
+    }
+  ],
+  "profileStatus": "draft",
+  "ownershipStatus": "unclaimed",
+  "lastReviewedAt": null,
+  "lastHarvestedAt": "2026-06-21T18:18:47Z"
+}
