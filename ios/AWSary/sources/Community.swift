@@ -12,10 +12,21 @@ public struct Community: View {
     @StateObject private var userGroupStore = CommunityUserGroupStore()
     @State private var selectedDirectory = CommunityDirectory.people
     @State private var searchText = ""
+    @State private var navigationPath: [CommunityNavigationDestination] = []
+    @Binding private var requestedHeroID: String?
+    @Binding private var requestedUserGroupID: String?
     @State private var selectedStatus: String?
     @State private var selectedSpecialty: String?
     @State private var selectedCountry: String?
     @State private var selectedPlatform: String?
+
+    init(
+        requestedHeroID: Binding<String?> = .constant(nil),
+        requestedUserGroupID: Binding<String?> = .constant(nil)
+    ) {
+        _requestedHeroID = requestedHeroID
+        _requestedUserGroupID = requestedUserGroupID
+    }
 
     private var availableStatuses: [String] {
         sortedUniqueValues(memberStore.members.flatMap(\.statuses))
@@ -54,7 +65,7 @@ public struct Community: View {
     }
 
     public var body: some View {
-        NavigationStack {
+        NavigationStack(path: $navigationPath) {
             VStack(spacing: 0) {
                 Picker("Community directory", selection: $selectedDirectory) {
                     ForEach(CommunityDirectory.allCases) { directory in
@@ -80,6 +91,26 @@ public struct Community: View {
             .disableAutocorrection(true)
             .onChange(of: selectedDirectory) {
                 searchText = ""
+            }
+            .onChange(of: requestedHeroID) {
+                openRequestedHeroIfPossible()
+            }
+            .onChange(of: requestedUserGroupID) {
+                openRequestedUserGroupIfPossible()
+            }
+            .onChange(of: memberStore.members.count) {
+                openRequestedHeroIfPossible()
+            }
+            .onChange(of: userGroupStore.groups.count) {
+                openRequestedUserGroupIfPossible()
+            }
+            .navigationDestination(for: CommunityNavigationDestination.self) { destination in
+                switch destination {
+                case .hero(let member):
+                    CommunityMemberDetailView(member: member)
+                case .userGroup(let userGroup):
+                    CommunityUserGroupDetailView(userGroup: userGroup)
+                }
             }
         }
     }
@@ -134,7 +165,7 @@ public struct Community: View {
                         .padding(.top, 48)
                     } else {
                         ForEach(filteredMembers) { member in
-                            NavigationLink(destination: CommunityMemberDetailView(member: member)) {
+                            NavigationLink(value: CommunityNavigationDestination.hero(member)) {
                                 CommunityMemberRow(member: member)
                             }
                             .buttonStyle(.plain)
@@ -211,7 +242,7 @@ public struct Community: View {
                         .padding(.top, 48)
                     } else {
                         ForEach(filteredUserGroups) { userGroup in
-                            NavigationLink(destination: CommunityUserGroupDetailView(userGroup: userGroup)) {
+                            NavigationLink(value: CommunityNavigationDestination.userGroup(userGroup)) {
                                 CommunityUserGroupRow(userGroup: userGroup)
                             }
                             .buttonStyle(.plain)
@@ -231,6 +262,33 @@ public struct Community: View {
             $0.localizedCaseInsensitiveCompare($1) == .orderedAscending
         }
     }
+
+    private func openRequestedHeroIfPossible() {
+        guard let requestedHeroID else { return }
+        guard let member = memberStore.members.first(where: { $0.id == requestedHeroID }) else {
+            return
+        }
+
+        selectedDirectory = .people
+        navigationPath = [.hero(member)]
+        self.requestedHeroID = nil
+    }
+
+    private func openRequestedUserGroupIfPossible() {
+        guard let requestedUserGroupID else { return }
+        guard let userGroup = userGroupStore.groups.first(where: { $0.id == requestedUserGroupID }) else {
+            return
+        }
+
+        selectedDirectory = .userGroups
+        navigationPath = [.userGroup(userGroup)]
+        self.requestedUserGroupID = nil
+    }
+}
+
+private enum CommunityNavigationDestination: Hashable {
+    case hero(CommunityMember)
+    case userGroup(CommunityUserGroup)
 }
 
 private enum CommunityDirectory: String, CaseIterable, Identifiable {

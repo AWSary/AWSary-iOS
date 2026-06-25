@@ -5,12 +5,17 @@
 //  Created by Tiago Rodrigues on 10/11/2024.
 //
 
+import CoreSpotlight
 import SwiftUI
 
 struct AppTabsView: View {
     @State private var searchString = ""
     @State private var selectedTab: AppTab = .community
     @State private var searchFocusRequest = 0
+    @StateObject private var deepLinkDispatcher = AWSaryDeepLinkDispatcher.shared
+    @State private var requestedServiceID: Int?
+    @State private var requestedHeroID: String?
+    @State private var requestedUserGroupID: String?
 
     private var tabSelection: Binding<AppTab> {
         Binding {
@@ -29,10 +34,13 @@ struct AppTabsView: View {
 //                HomeView()
 //            }
            Tab("Community", systemImage: "person.3.sequence", value: .community) {
-               Community()
+               Community(
+                   requestedHeroID: $requestedHeroID,
+                   requestedUserGroupID: $requestedUserGroupID
+               )
            }
            Tab("Glossary", systemImage: "books.vertical", value: .glossary) {
-               Glossary()
+               Glossary(requestedServiceID: $requestedServiceID)
            }
            Tab("Game", systemImage: "gamecontroller", value: .game) {
                Game()
@@ -53,6 +61,31 @@ struct AppTabsView: View {
            }
        }
        .tabViewStyle(.sidebarAdaptable)
+       .onOpenURL { url in
+           deepLinkDispatcher.open(url)
+       }
+       .onContinueUserActivity(CSSearchableItemActionType) { userActivity in
+           deepLinkDispatcher.open(userActivity)
+       }
+       .onReceive(deepLinkDispatcher.$pendingDeepLink.compactMap { $0 }) { deepLink in
+           handle(deepLink)
+       }
+    }
+
+    private func handle(_ deepLink: AWSaryDeepLink) {
+        switch deepLink {
+        case .service(let id):
+            selectedTab = .glossary
+            requestedServiceID = id
+        case .hero(let id):
+            selectedTab = .community
+            requestedHeroID = id
+        case .userGroup(let id):
+            selectedTab = .community
+            requestedUserGroupID = id
+        }
+
+        deepLinkDispatcher.pendingDeepLink = nil
     }
  }
 
