@@ -8,7 +8,6 @@
 import SwiftUI
 import SwiftData
 import StoreKit
-import AuthenticationServices
 import RevenueCat
 import RevenueCatUI
 
@@ -21,7 +20,6 @@ struct AboutView: View {
    @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
-   @StateObject private var appleProfile = AppleProfileStore()
    @Query var settings: [SystemSetting]
    @Query var cachedStats: [CachedAppStats]
    
@@ -205,13 +203,6 @@ struct AboutView: View {
    var body: some View {
       NavigationStack{
          List{
-            Section {
-               AboutProfileHeader(profile: appleProfile)
-                  .listRowInsets(EdgeInsets(top: 24, leading: 20, bottom: 20, trailing: 20))
-                  .listRowBackground(Color.clear)
-                  .listRowSeparator(.hidden)
-            }
-
             if let featuredMessage = appStats?.visibleFeaturedMessage {
                Section {
                   Label(featuredMessage, systemImage: "sparkles")
@@ -450,7 +441,6 @@ struct AboutView: View {
             }
             // Load app statistics (from cache first, then API if needed)
             loadAppStats()
-            appleProfile.refreshCredentialState()
          }
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
    }
@@ -481,172 +471,6 @@ struct AboutView: View {
    //            })
    //         }
    //   }
-}
-
-private struct AboutProfileHeader: View {
-   @ObservedObject var profile: AppleProfileStore
-   @Environment(\.colorScheme) private var colorScheme
-
-   var body: some View {
-      VStack(spacing: 14) {
-         ZStack {
-            Circle()
-               .fill(
-                  LinearGradient(
-                     colors: [.orange, Color(red: 1.0, green: 0.36, blue: 0.12)],
-                     startPoint: .topLeading,
-                     endPoint: .bottomTrailing
-                  )
-               )
-
-            if let initials = profile.initials {
-               Text(initials)
-                  .font(.system(size: 36, weight: .bold, design: .rounded))
-                  .foregroundStyle(.white)
-            } else {
-               Image(systemName: "person.crop.circle.fill")
-                  .resizable()
-                  .scaledToFit()
-                  .foregroundStyle(.white.opacity(0.95))
-                  .padding(13)
-            }
-         }
-         .frame(width: 108, height: 108)
-         .accessibilityHidden(true)
-
-         VStack(spacing: 5) {
-            Text(profile.displayName ?? "Welcome to AWSary")
-               .font(.title2.bold())
-            Text(profile.isSignedIn ? "Signed in with Apple" : "Your AWS learning companion")
-               .font(.subheadline)
-               .foregroundStyle(.secondary)
-         }
-
-         Text(profile.isSignedIn
-              ? "Your profile is stored on this device and personalizes your AWSary experience."
-              : "Create an optional profile to make AWSary feel more personal.")
-            .font(.subheadline)
-            .multilineTextAlignment(.center)
-            .foregroundStyle(.secondary)
-            .fixedSize(horizontal: false, vertical: true)
-
-         if profile.isSignedIn {
-            Button("Disconnect Apple profile", role: .destructive) {
-               profile.disconnect()
-            }
-            .font(.footnote.weight(.medium))
-         } else {
-            SignInWithAppleButton(.signUp) { request in
-               request.requestedScopes = [.fullName]
-            } onCompletion: { result in
-               profile.handleAuthorization(result)
-            }
-            .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
-            .frame(height: 48)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-         }
-
-         if let errorMessage = profile.errorMessage {
-            Text(errorMessage)
-               .font(.caption)
-               .foregroundStyle(.red)
-               .multilineTextAlignment(.center)
-         }
-      }
-      .frame(maxWidth: .infinity)
-   }
-}
-
-@MainActor
-private final class AppleProfileStore: ObservableObject {
-   private enum Key {
-      static let userIdentifier = "appleProfile.userIdentifier"
-      static let displayName = "appleProfile.displayName"
-   }
-
-   @Published private(set) var userIdentifier: String?
-   @Published private(set) var displayName: String?
-   @Published private(set) var errorMessage: String?
-
-   private let defaults: UserDefaults
-
-   init(defaults: UserDefaults = .standard) {
-      self.defaults = defaults
-      userIdentifier = defaults.string(forKey: Key.userIdentifier)
-      displayName = defaults.string(forKey: Key.displayName)
-   }
-
-   var isSignedIn: Bool {
-      userIdentifier != nil
-   }
-
-   var initials: String? {
-      guard let displayName else { return nil }
-      let words = displayName.split(separator: " ")
-      let letters = words.prefix(2).compactMap(\.first)
-      guard !letters.isEmpty else { return nil }
-      return String(letters).uppercased()
-   }
-
-   func handleAuthorization(_ result: Result<ASAuthorization, Error>) {
-      switch result {
-      case .success(let authorization):
-         guard let credential = authorization.credential as? ASAuthorizationAppleIDCredential else {
-            errorMessage = "AWSary could not read the Apple credential."
-            return
-         }
-
-         userIdentifier = credential.user
-         defaults.set(credential.user, forKey: Key.userIdentifier)
-
-         if let fullName = credential.fullName {
-            let formattedName = PersonNameComponentsFormatter.localizedString(
-               from: fullName,
-               style: .default,
-               options: []
-            ).trimmingCharacters(in: .whitespacesAndNewlines)
-
-            if !formattedName.isEmpty {
-               displayName = formattedName
-               defaults.set(formattedName, forKey: Key.displayName)
-            }
-         }
-         errorMessage = nil
-
-      case .failure(let error):
-         if let authorizationError = error as? ASAuthorizationError,
-            authorizationError.code == .canceled {
-            return
-         }
-         errorMessage = "Sign in with Apple could not be completed. Please try again."
-      }
-   }
-
-   func refreshCredentialState() {
-      guard let userIdentifier else { return }
-
-      ASAuthorizationAppleIDProvider().getCredentialState(forUserID: userIdentifier) { [weak self] state, _ in
-         Task { @MainActor in
-            guard let self else { return }
-            switch state {
-            case .authorized, .transferred:
-               break
-            case .revoked, .notFound:
-               self.disconnect()
-            @unknown default:
-               break
-            }
-         }
-      }
-   }
-
-   func disconnect() {
-      defaults.removeObject(forKey: Key.userIdentifier)
-      defaults.removeObject(forKey: Key.displayName)
-      userIdentifier = nil
-      displayName = nil
-      errorMessage = nil
-   }
 }
 
 private struct AboutNavigationRow: View {
