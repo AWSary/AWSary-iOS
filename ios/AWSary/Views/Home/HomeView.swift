@@ -4,10 +4,11 @@ struct HomeView: View {
     @Namespace var namespace
     @State var showArticle = false
     
+    @State private var showingAboutSheet: Bool = false
     @State private var awsUserGroups:[AwsCloudClubElement] = []
     @State private var buildersContent:[FeedContent] = []
     @State private var backgroundIsAnimating = false
-    // site fir color conversion
+    // site for color conversion
     // https://iosref.com/uihex
     let backgorundColor1 = (0..<9).map { _ in
         [Color.awsaryPink, Color.awsaryPurple, Color.awsaryBlue]
@@ -74,6 +75,19 @@ struct HomeView: View {
                 ).ignoresSafeArea()
             }
             .navigationTitle("AWSary")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        showingAboutSheet.toggle()
+                    } label: {
+                        Image(systemName: "gearshape")
+                    }
+                    .accessibilityLabel("Settings")
+                }
+            }
+        }
+        .sheet(isPresented: $showingAboutSheet) {
+           AboutView()
         }
 // Disabled during dev to reduce cpu usage and pc heat
 //        .onAppear(){
