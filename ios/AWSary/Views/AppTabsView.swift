@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AppTabsView: View {
     @State private var searchString = ""
-    @State private var selectedTab: AppTab = .community
+    @State private var selectedTab: AppTab = .glossary
     @State private var searchFocusRequest = 0
     @StateObject private var deepLinkDispatcher = AWSaryDeepLinkDispatcher.shared
     @State private var requestedServiceID: Int?
