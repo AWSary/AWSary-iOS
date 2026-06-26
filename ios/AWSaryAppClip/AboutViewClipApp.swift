@@ -10,12 +10,18 @@ import SwiftData
 import StoreKit
 import RevenueCat
 
+private func awsaryRemoteURL(_ remoteURLString: String?, fallback fallbackURLString: String) -> URL {
+   URL(string: remoteURLString ?? fallbackURLString) ?? URL(string: fallbackURLString)!
+}
+
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @Environment(\.modelContext) private var modelContext
    @ObservedObject var userModel = UserViewModel.shared
    @ObservedObject var awsServices = AwsServices()
    @Query var settings: [SystemSetting]
+   @State private var appStats: AppStats?
+   @State private var isLoadingStats = false
    
    // Computed property for awsServiceLogoWithLabel setting
    private var awsServiceLogoWithLabel: Bool {
@@ -43,12 +49,69 @@ struct AboutView: View {
          print("Failed to save setting: \(error)")
       }
    }
+
+   private func fetchAppStatsFromAPI() {
+      guard !isLoadingStats else { return }
+
+      isLoadingStats = true
+
+      guard let url = URL(string: "https://api.awsary.com/app-stats") else {
+         isLoadingStats = false
+         return
+      }
+
+      URLSession.shared.dataTask(with: url) { data, response, error in
+         DispatchQueue.main.async {
+            isLoadingStats = false
+
+            if let data = data {
+               do {
+                  self.appStats = try JSONDecoder().decode(AppStats.self, from: data)
+               } catch {
+                  print("Failed to decode app stats: \(error)")
+               }
+            }
+         }
+      }.resume()
+   }
+
+   private func openAppStore() {
+      let appId = "1634871091"
+      guard let url = URL(string: "itms-apps://itunes.apple.com/app/id\(appId)") else {
+         return
+      }
+
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
+   }
    
    var body: some View {
       let randomAWSservice = awsServices.getRandomElement()
       
       NavigationStack{
          List{
+            if let featuredMessage = appStats?.visibleFeaturedMessage {
+               Section {
+                  Label(featuredMessage, systemImage: "sparkles")
+               }
+            }
+
+            if let stats = appStats, stats.updateAvailable {
+               Section {
+                  Button(action: openAppStore) {
+                     Label {
+                        VStack(alignment: .leading, spacing: 3) {
+                           Text("Update AWSary")
+                           Text("Version \(stats.currentVersion) is available.")
+                              .font(.caption)
+                              .foregroundStyle(.secondary)
+                        }
+                     } icon: {
+                        Image(systemName: "arrow.down.app.fill")
+                     }
+                  }
+               }
+            }
+
             Section(header: Text("Configure service logos")){
                VStack{
                   Toggle(isOn: Binding(
@@ -87,7 +150,13 @@ struct AboutView: View {
                Label {
                   VStack(alignment: .leading){
                      Text("Rate version \(Bundle.main.appVersionLong) of AWSary")
-                     Text("Be like the 19 other beautiful people that have rated this version.").font(.footnote).opacity(0.6)
+                     if let stats = appStats {
+                        Text(stats.ratings.displayMessage).font(.footnote).opacity(0.6)
+                     } else if isLoadingStats {
+                        Text("Loading rating info...").font(.footnote).opacity(0.6)
+                     } else {
+                        Text("Be one of the first to rate this version!").font(.footnote).opacity(0.6)
+                     }
                   }
                } icon:{
                   Image(systemName: "star.fill")
@@ -108,11 +177,12 @@ struct AboutView: View {
                } icon:{
                   Image(systemName: "envelope")
                }.onTapGesture {
-                  let address = "mail@tig.pt"
-                  let subject = "Feedback on AWSary"
+                  let address = appStats?.supportEmail ?? "mail@tig.pt"
+                  let subject = appStats?.feedbackSubject ?? "Feedback on AWSary"
+                  let feedbackBodySuffix = appStats?.feedbackFooter.map { "\n\n\($0)" } ?? ""
 
                   // Example email body with useful info for bug reports
-                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))"
+                  let body = "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\(feedbackBodySuffix)"
 
                   // Build the URL from its components
                   var components = URLComponents()
@@ -138,11 +208,17 @@ struct AboutView: View {
             }
             Section(header: Text("How to use AWSary")){
                Text("Search for the name of an AWS service, you can open and look for the definition of it. You can also drag and drop the service logo to your favorite drawing application. (Check video below)")
-               MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
+               MyYoutubePlayer(youtube_id: appStats?.aboutYoutubeID ?? "c0SjbhRR3lk")
             }
             Section(){
-               Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!)
-               Link("Privacy Policy", destination: URL(string: "https://tig.pt/awsary-privacy")!)
+               Link(
+                  "Terms of Use (EULA)",
+                  destination: awsaryRemoteURL(appStats?.termsOfUseURLString, fallback: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")
+               )
+               Link(
+                  "Privacy Policy",
+                  destination: awsaryRemoteURL(appStats?.privacyPolicyURLString, fallback: "https://tig.pt/awsary-privacy")
+               )
             }
 //            Section(header: Text("AWSary.com")){
 //               Text("This is a hobby project from Tiago Rodrigues to help more people learn about Cloud, specialy AWS. Special tanks to tecRacer for supporting the backend.").lineLimit(100)
@@ -172,6 +248,9 @@ struct AboutView: View {
                   dismiss()
                })
             }
+         }
+         .onAppear {
+            fetchAppStatsFromAPI()
          }
       }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
    }

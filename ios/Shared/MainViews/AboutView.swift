@@ -12,6 +12,10 @@ import AuthenticationServices
 import RevenueCat
 import RevenueCatUI
 
+private func awsaryRemoteURL(_ remoteURLString: String?, fallback fallbackURLString: String) -> URL {
+   URL(string: remoteURLString ?? fallbackURLString) ?? URL(string: fallbackURLString)!
+}
+
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @Environment(\.modelContext) private var modelContext
@@ -78,7 +82,23 @@ struct AboutView: View {
                lastUpdated: cached.lastUpdated
             ),
             featuredMessage: cached.featuredMessage,
-            updateAvailable: cached.updateAvailable
+            updateAvailable: cached.updateAvailable,
+            links: AppStatsLinks(
+               merchStore: cached.merchStoreURL,
+               privacyPolicy: cached.privacyPolicyURL,
+               termsOfUse: cached.termsOfUseURL,
+               github: cached.githubURL
+            ),
+            support: AppStatsSupport(
+               email: cached.supportEmail,
+               feedbackSubject: cached.feedbackSubject,
+               feedbackFooter: cached.feedbackFooter
+            ),
+            premium: AppStatsPremium(
+               discountCode: cached.premiumDiscountCode,
+               discountLabel: cached.premiumDiscountLabel
+            ),
+            about: AppStatsAbout(youtubeId: cached.aboutYoutubeID)
          )
       }
    }
@@ -145,15 +165,25 @@ struct AboutView: View {
       UIApplication.shared.open(url, options: [:], completionHandler: nil)
    }
 
+   private func openAppStore() {
+      let appId = "1634871091"
+      guard let url = URL(string: "itms-apps://itunes.apple.com/app/id\(appId)") else {
+         return
+      }
+
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
+   }
+
    private func sendFeedback() {
       var components = URLComponents()
       components.scheme = "mailto"
-      components.path = "mail@tig.pt"
+      components.path = appStats?.supportEmail ?? "mail@tig.pt"
+      let feedbackBodySuffix = appStats?.feedbackFooter.map { "\n\n\($0)" } ?? ""
       components.queryItems = [
-         URLQueryItem(name: "subject", value: "Feedback on AWSary"),
+         URLQueryItem(name: "subject", value: appStats?.feedbackSubject ?? "Feedback on AWSary"),
          URLQueryItem(
             name: "body",
-            value: "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About"
+            value: "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About\(feedbackBodySuffix)"
          )
       ]
 
@@ -162,6 +192,14 @@ struct AboutView: View {
          return
       }
       UIApplication.shared.open(url)
+   }
+
+   private func openRemoteURL(_ urlString: String) {
+      guard let url = URL(string: urlString) else {
+         return
+      }
+
+      UIApplication.shared.open(url, options: [:], completionHandler: nil)
    }
    
    var body: some View {
@@ -174,9 +212,32 @@ struct AboutView: View {
                   .listRowSeparator(.hidden)
             }
 
+            if let featuredMessage = appStats?.visibleFeaturedMessage {
+               Section {
+                  Label(featuredMessage, systemImage: "sparkles")
+               }
+            }
+
+            if let stats = appStats, stats.updateAvailable {
+               Section {
+                  Button(action: openAppStore) {
+                     Label {
+                        VStack(alignment: .leading, spacing: 3) {
+                           Text("Update AWSary")
+                           Text("Version \(stats.currentVersion) is available.")
+                              .font(.caption)
+                              .foregroundStyle(.secondary)
+                        }
+                     } icon: {
+                        Image(systemName: "arrow.down.app.fill")
+                     }
+                  }
+               }
+            }
+
             Section("Explore") {
                NavigationLink {
-                  AboutAWSaryDetailsView()
+                  AboutAWSaryDetailsView(appStats: appStats)
                } label: {
                   AboutNavigationRow(
                      title: "About AWSary",
@@ -191,7 +252,8 @@ struct AboutView: View {
                         get: { awsServiceLogoWithLabel },
                         set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
                      ),
-                     subscriptionActive: userModel.subscriptionActive
+                     subscriptionActive: userModel.subscriptionActive,
+                     appStats: appStats
                   )
                } label: {
                   AboutNavigationRow(
@@ -203,7 +265,7 @@ struct AboutView: View {
 
                NavigationLink {
                   AboutContactDetailsView(
-                     ratingCount: appStats?.ratings.ratingCount,
+                     ratingInfo: appStats?.ratings,
                      isLoadingStats: isLoadingStats,
                      openReview: openAppReview,
                      sendFeedback: sendFeedback
@@ -217,7 +279,7 @@ struct AboutView: View {
                }
 
                NavigationLink {
-                  AboutLegalDetailsView()
+                  AboutLegalDetailsView(appStats: appStats)
                } label: {
                   AboutNavigationRow(
                      title: "Legal",
@@ -279,14 +341,13 @@ struct AboutView: View {
             }
             Section(header: Text("AWSary Premium")){
                Label("AWSary Merch Store", systemImage: "storefront").onTapGesture {
-                  guard let url = URL(string: "https://bit.ly/awsary-merch") else {
-                     return
-                  }
-                  UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                  openRemoteURL(appStats?.merchStoreURLString ?? "https://bit.ly/awsary-merch")
                }
                if self.userModel.subscriptionActive{
-                  Label("Discount Code: GSC293ZEQD", systemImage: "doc.on.doc").onTapGesture {
-                     UIPasteboard.general.string = "GSC293ZEQD"
+                  let discountCode = appStats?.premiumDiscountCode ?? "GSC293ZEQD"
+                  let discountLabel = appStats?.premiumDiscountLabel ?? "10% Discount on AWSary Merch Store"
+                  Label("\(discountLabel): \(discountCode)", systemImage: "doc.on.doc").onTapGesture {
+                     UIPasteboard.general.string = discountCode
                   }
                    NavigationLink(destination:PaywallView(displayCloseButton: true)){
                        Label("Manage Subscription", systemImage: "heart.fill")
@@ -308,7 +369,7 @@ struct AboutView: View {
                   VStack(alignment: .leading){
                      Text("Rate version \(Bundle.main.appVersionLong) of AWSary")
                      if let stats = appStats {
-                        Text("Join the \(stats.ratings.ratingCount) wonderful people who have already rated this version!").font(.footnote).opacity(0.6)
+                        Text(stats.ratings.displayMessage).font(.footnote).opacity(0.6)
                      } else if isLoadingStats {
                         Text("Loading rating info...").font(.footnote).opacity(0.6)
                      } else {
@@ -341,11 +402,17 @@ struct AboutView: View {
             }
             Section(header: Text("How to use AWSary")){
                Text("Search for the name of an AWS service, you can open and look for the definition of it. You can also drag and drop the service logo to your favorite drawing application. (Check video below)")
-               MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
+               MyYoutubePlayer(youtube_id: appStats?.aboutYoutubeID ?? "c0SjbhRR3lk")
             }
             Section(){
-               Link("Terms of Use (EULA)", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!)
-               Link("Privacy Policy", destination: URL(string: "https://tig.pt/awsary-privacy")!)
+               Link(
+                  "Terms of Use (EULA)",
+                  destination: awsaryRemoteURL(appStats?.termsOfUseURLString, fallback: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")
+               )
+               Link(
+                  "Privacy Policy",
+                  destination: awsaryRemoteURL(appStats?.privacyPolicyURLString, fallback: "https://tig.pt/awsary-privacy")
+               )
             }
 //            Section(header: Text("AWSary.com")){
 //               Text("This is a hobby project from Tiago Rodrigues to help more people learn about Cloud, specialy AWS. Special tanks to tecRacer for supporting the backend.").lineLimit(100)
@@ -609,6 +676,8 @@ private struct AboutNavigationRow: View {
 }
 
 private struct AboutAWSaryDetailsView: View {
+   let appStats: AppStats?
+
    var body: some View {
       List {
          Section("Why AWSary") {
@@ -618,11 +687,11 @@ private struct AboutAWSaryDetailsView: View {
 
          Section("How to use AWSary") {
             Text("Search for an AWS service to read its definition. You can also drag its logo into your favorite drawing application.")
-            MyYoutubePlayer(youtube_id: "c0SjbhRR3lk")
+            MyYoutubePlayer(youtube_id: appStats?.aboutYoutubeID ?? "c0SjbhRR3lk")
          }
 
          Section("Open source") {
-            Link(destination: URL(string: "https://github.com/tigpt/AWSary/")!) {
+            Link(destination: awsaryRemoteURL(appStats?.githubURLString, fallback: "https://github.com/tigpt/AWSary/")) {
                Label("Help develop AWSary on GitHub", systemImage: "chevron.left.forwardslash.chevron.right")
             }
          }
@@ -635,6 +704,7 @@ private struct AboutAWSaryDetailsView: View {
 private struct AboutSettingsDetailsView: View {
    @Binding var showServiceLogoName: Bool
    let subscriptionActive: Bool
+   let appStats: AppStats?
 
    var body: some View {
       List {
@@ -643,8 +713,18 @@ private struct AboutSettingsDetailsView: View {
          }
 
          Section("AWSary Premium") {
-            Link(destination: URL(string: "https://bit.ly/awsary-merch")!) {
+            Link(destination: awsaryRemoteURL(appStats?.merchStoreURLString, fallback: "https://bit.ly/awsary-merch")) {
                Label("AWSary Merch Store", systemImage: "storefront")
+            }
+
+            if subscriptionActive {
+               let discountCode = appStats?.premiumDiscountCode ?? "GSC293ZEQD"
+               let discountLabel = appStats?.premiumDiscountLabel ?? "10% Discount on AWSary Merch Store"
+               Button {
+                  UIPasteboard.general.string = discountCode
+               } label: {
+                  Label("\(discountLabel): \(discountCode)", systemImage: "doc.on.doc")
+               }
             }
 
             NavigationLink {
@@ -663,7 +743,7 @@ private struct AboutSettingsDetailsView: View {
 }
 
 private struct AboutContactDetailsView: View {
-   let ratingCount: Int?
+   let ratingInfo: RatingInfo?
    let isLoadingStats: Bool
    let openReview: () -> Void
    let sendFeedback: () -> Void
@@ -704,8 +784,8 @@ private struct AboutContactDetailsView: View {
 
    @ViewBuilder
    private var ratingMessage: some View {
-      if let ratingCount {
-         Text("Join the \(ratingCount) people who have rated this version.")
+      if let ratingInfo {
+         Text(ratingInfo.displayMessage)
       } else if isLoadingStats {
          Text("Loading rating info…")
       } else {
@@ -715,13 +795,15 @@ private struct AboutContactDetailsView: View {
 }
 
 private struct AboutLegalDetailsView: View {
+   let appStats: AppStats?
+
    var body: some View {
       List {
          Section {
-            Link(destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")!) {
+            Link(destination: awsaryRemoteURL(appStats?.termsOfUseURLString, fallback: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")) {
                Label("Terms of Use (EULA)", systemImage: "doc.text")
             }
-            Link(destination: URL(string: "https://tig.pt/awsary-privacy")!) {
+            Link(destination: awsaryRemoteURL(appStats?.privacyPolicyURLString, fallback: "https://tig.pt/awsary-privacy")) {
                Label("Privacy Policy", systemImage: "hand.raised.fill")
             }
          }
