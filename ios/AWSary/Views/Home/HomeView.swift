@@ -61,12 +61,12 @@ struct HomeView: View {
                     .init(x:0,y:0.5), .init(x:0.5,y:0.5), .init(x:1,y:0.5),
                     .init(x:0,y:1),  .init(x:0.5,y:1),.init(x:1,y:1),
                 ], colors: backgroundIsAnimating ? backgorundColor1 : backgorundColor2)
-                .frame(height: .infinity)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .mask(
                     LinearGradient(
                         gradient: Gradient(stops: [
-                            .init(color: .black, location: 0.4),
-                            .init(color: .clear, location: 0.9),
+                            .init(color: .black.opacity(0.7), location: 0.0),
+                            .init(color: .clear, location: 0.7),
                             .init(color: .clear, location: 1.0)
                         ]),
                         startPoint: .top,
@@ -90,11 +90,11 @@ struct HomeView: View {
            AboutView()
         }
 // Disabled during dev to reduce cpu usage and pc heat
-//        .onAppear(){
-//            withAnimation(.easeInOut(duration: 5).repeatForever()) {
-//                backgroundIsAnimating.toggle()
-//            }
-//        }
+        .onAppear(){
+            withAnimation(.easeInOut(duration: 15).repeatForever()) {
+                backgroundIsAnimating.toggle()
+            }
+        }
 // End here the - Disabled during dev to reduce cpu usage and pc heat
     }
         

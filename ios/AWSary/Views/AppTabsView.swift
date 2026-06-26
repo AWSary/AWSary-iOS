@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AppTabsView: View {
     @State private var searchString = ""
-    @State private var selectedTab: AppTab = .glossary
+    @State private var selectedTab: AppTab = .home
     @State private var searchFocusRequest = 0
     @StateObject private var deepLinkDispatcher = AWSaryDeepLinkDispatcher.shared
     @State private var requestedServiceID: Int?
@@ -30,6 +30,9 @@ struct AppTabsView: View {
 
     var body: some View {
        TabView(selection: tabSelection) {
+           Tab("Home", systemImage: "house.fill", value: .home){
+               HomeView()
+           }
            Tab("Glossary", systemImage: "books.vertical", value: .glossary) {
                Glossary(requestedServiceID: $requestedServiceID)
            }
@@ -87,6 +90,7 @@ struct AppTabsView: View {
  }
 
 enum AppTab: Hashable {
+    case home
     case community
     case glossary
     case game
