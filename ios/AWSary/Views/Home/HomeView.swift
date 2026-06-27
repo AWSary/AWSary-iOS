@@ -20,6 +20,17 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                Spacer()
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Good morning, 👋")
+                    Text("Ready to build something amazing?")
+                        .font(.title)
+                        .fontWeight(.bold)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 20)
+                
+                
                 LazyVStack(spacing: 24, pinnedViews: []) {
                     HStack{
                         Text("Trending Articles")
@@ -66,7 +77,7 @@ struct HomeView: View {
                     LinearGradient(
                         gradient: Gradient(stops: [
                             .init(color: .black.opacity(0.7), location: 0.0),
-                            .init(color: .clear, location: 0.7),
+                            .init(color: .clear, location: 0.9),
                             .init(color: .clear, location: 1.0)
                         ]),
                         startPoint: .top,
@@ -74,7 +85,7 @@ struct HomeView: View {
                     )
                 ).ignoresSafeArea()
             }
-            .navigationTitle("AWSary")
+            //.navigationTitle("AWSary")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {

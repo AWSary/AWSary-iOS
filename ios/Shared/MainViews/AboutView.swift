@@ -425,7 +425,7 @@ struct AboutView: View {
 //               Text("Icon 3")
 //            }
          }
-         .navigationTitle("About")
+         //.navigationTitle("About")
          .navigationBarTitleDisplayMode(.inline)
          .toolbar {
             ToolbarItem(placement: .confirmationAction){
