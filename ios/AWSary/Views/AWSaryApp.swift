@@ -34,7 +34,7 @@ struct awsaryApp: App {
                     print("Error fetching offerings: \(error)")
                 }
             }
-            .accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
+            .accentColor(Color(red: 0.357, green: 0.361, blue: 1.0))
       }
       .modelContainer(for: [SystemSetting.self, CachedAppStats.self])
    }

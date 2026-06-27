@@ -22,6 +22,10 @@ This repository contains multiple components (e.g., iOS app, website, Terraform,
 - Follow existing Swift style and naming conventions.
 - Use `@MainActor` or concurrency annotations consistently with neighboring code.
 - Avoid force-unwrapping unless the codebase already uses it and it is safe.
+- Treat these as the primary app colors when adding or updating UI:
+  - Primary / accent: `#5B5CFF` = `Color(red: 0.357, green: 0.361, blue: 1.0)`
+  - Secondary: `#00A3FF` = `Color(red: 0.0, green: 0.639, blue: 1.0)`
+  - Special: `#E83DD8` = `Color(red: 0.910, green: 0.239, blue: 0.847)`
 
 ## Web (website)
 - Follow existing linting/formatting rules.
