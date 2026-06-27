@@ -5,7 +5,6 @@ struct HomeView: View {
     @State var showArticle = false
     
     @State private var showingAboutSheet: Bool = false
-    @State private var awsUserGroups:[AwsCloudClubElement] = []
     @State private var buildersContent:[FeedContent] = []
     @State private var backgroundIsAnimating = false
     // site for color conversion
@@ -101,19 +100,19 @@ struct HomeView: View {
            AboutView()
         }
 // Disabled during dev to reduce cpu usage and pc heat
-        .onAppear(){
-            withAnimation(.easeInOut(duration: 15).repeatForever()) {
-                backgroundIsAnimating.toggle()
-            }
-        }
+//        .onAppear(){
+//            withAnimation(.easeInOut(duration: 15).repeatForever()) {
+//                backgroundIsAnimating.toggle()
+//            }
+//        }
 // End here the - Disabled during dev to reduce cpu usage and pc heat
     }
         
     private func getData() async{
         do {
-            awsUserGroups = try await CommunityDatabaseHelper().getUserGroups()
             buildersContent = try await BuildersContentHelper().getBuildersContent()
         }catch{
+            print("Error loading Builder articles: \(error)")
         }
     }
 }

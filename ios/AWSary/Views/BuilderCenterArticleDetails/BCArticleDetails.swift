@@ -401,7 +401,7 @@ I created a comprehensive portfolio website that showcases my AWS DevOps experti
         lastModifiedAt: 1756231415, // ms -> s
         lastPublishedAt: 1755932814,// ms -> s
         likesCount: 158,
-        locale: .en,
+        locale: "en",
         markdownDescription: md,
         status: .live,
         title: "How I Built a Serverless Portfolio That Scales to Millions ☁️ λ  | Day 7"

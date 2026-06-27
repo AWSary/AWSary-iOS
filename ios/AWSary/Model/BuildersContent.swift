@@ -27,7 +27,7 @@ struct FeedContent: Codable, Hashable {
     let createdAt: Int
     let isLiked: Bool
     let lastModifiedAt, lastPublishedAt, likesCount: Int
-    let locale: Locale
+    let locale: String
     let markdownDescription: String
     let status: Status
     let title: String
@@ -84,10 +84,6 @@ struct Article: Codable, Hashable {
         case tags
         case versionID = "versionId"
     }
-}
-
-enum Locale: String, Codable {
-    case en = "en"
 }
 
 enum Status: String, Codable {

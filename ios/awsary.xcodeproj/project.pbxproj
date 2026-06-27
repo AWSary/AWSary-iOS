@@ -12,7 +12,6 @@
 		34571B602E05BA83008B8BC2 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 34571B5F2E05BA83008B8BC2 /* RevenueCatUI */; };
 		34571B672E06F97F008B8BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */; };
 		3489D56E2E076DD8001F2AE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3489D56D2E076DD8001F2AE5 /* HomeView.swift */; };
-		349500BC2E43D38C004133FF /* CommunityDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */; };
 		349500C02E43F4D6004133FF /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349500BF2E43F4D2004133FF /* Community.swift */; };
 		34A0B6C22E4245F700033444 /* AWSaryAppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */; };
 		34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */; };
@@ -90,7 +89,6 @@
 		342A01652E465B100093C6E7 /* BuildersContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildersContent.swift; sourceTree = "<group>"; };
 		34571B652E06F97F008B8BC2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3489D56D2E076DD8001F2AE5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDatabaseHelper.swift; sourceTree = "<group>"; };
 		349500BF2E43F4D2004133FF /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
 		34A0B6BF2E4245F700033444 /* AWSaryAppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; name = AWSaryAppIcon.icon; path = ../../logo/iOS26/AWSaryAppIcon.icon; sourceTree = "<group>"; };
 		34A535A22E00CA1C004DDE06 /* CachedAppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAppStats.swift; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				342A01652E465B100093C6E7 /* BuildersContent.swift */,
-				349500BB2E43D385004133FF /* CommunityDatabaseHelper.swift */,
 				D1E167002E9A000000000001 /* CommunityMember.swift */,
 				D1E168002E9B000000000001 /* CommunityUserGroup.swift */,
 			);
@@ -570,7 +567,6 @@
 				34A535A52E00CA1C004DDE06 /* CachedAppStats.swift in Sources */,
 				34B8ABF52E4F955B0074B5C5 /* ArticleTempView.swift in Sources */,
 				34CBFB9E2CE143B7004CFADD /* Glossary.swift in Sources */,
-				349500BC2E43D38C004133FF /* CommunityDatabaseHelper.swift in Sources */,
 				D1E167012E9A000000000001 /* CommunityMember.swift in Sources */,
 				D1E168012E9B000000000001 /* CommunityUserGroup.swift in Sources */,
 				34DE6A3E2E18362D0022AECF /* SearchView.swift in Sources */,
