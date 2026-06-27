@@ -100,11 +100,11 @@ struct HomeView: View {
            AboutView()
         }
 // Disabled during dev to reduce cpu usage and pc heat
-//        .onAppear(){
-//            withAnimation(.easeInOut(duration: 15).repeatForever()) {
-//                backgroundIsAnimating.toggle()
-//            }
-//        }
+        .onAppear(){
+            withAnimation(.easeInOut(duration: 15).repeatForever()) {
+                backgroundIsAnimating.toggle()
+            }
+        }
 // End here the - Disabled during dev to reduce cpu usage and pc heat
     }
         
