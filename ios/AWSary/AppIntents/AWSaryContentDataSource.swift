@@ -29,14 +29,8 @@ actor AWSaryContentDataSource {
             query: query,
             in: allServices,
             title: { $0.longName },
-            fields: { service in
-                [
-                    service.name,
-                    service.longName,
-                    service.shortDesctiption,
-                    service.imageURL.replacingOccurrences(of: "https://static.tig.pt/awsary/logos/Arch_", with: "")
-                ]
-            }
+            rank: { $0.awsarySearchRank(for: query) },
+            fields: { $0.awsarySearchFields }
         )
     }
 

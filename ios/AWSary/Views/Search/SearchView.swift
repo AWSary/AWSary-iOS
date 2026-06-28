@@ -109,6 +109,9 @@ struct SearchView: View {
     }
 
     private func searchScore(for result: UnifiedSearchResult, query: String) -> Int? {
+        if let service = result.service {
+            return service.awsarySearchRank(for: query)
+        }
         if result.names.contains(where: { $0.localizedCaseInsensitiveCompare(query) == .orderedSame }) {
             return 0
         }
@@ -534,7 +537,7 @@ private enum UnifiedSearchResult: Identifiable {
     var names: [String] {
         switch self {
         case .service(let service):
-            [service.name, service.longName]
+            service.awsarySearchNames
         case .member(let member):
             [member.name]
         case .userGroup(let userGroup):
@@ -545,7 +548,7 @@ private enum UnifiedSearchResult: Identifiable {
     var metadata: [String] {
         switch self {
         case .service(let service):
-            [service.shortDesctiption]
+            service.awsarySearchFields
         case .member(let member):
             [member.bio, member.location] + member.statuses + member.specialties
         case .userGroup(let userGroup):

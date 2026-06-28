@@ -28,10 +28,21 @@ struct Glossary: View {
     }
     
     var filteredAwsServices: [awsService] {
-       if searchQuery.isEmpty {
+       let query = searchQuery.trimmingCharacters(in: .whitespacesAndNewlines)
+       if query.isEmpty {
           return awsServices.services
        } else {
-          return awsServices.services.filter { $0.name.lowercased().contains(searchQuery.lowercased()) }
+          return awsServices.services
+             .compactMap { service in
+                service.awsarySearchRank(for: query).map { (service, $0) }
+             }
+             .sorted {
+                if $0.1 == $1.1 {
+                   return $0.0.name.localizedCaseInsensitiveCompare($1.0.name) == .orderedAscending
+                }
+                return $0.1 < $1.1
+             }
+             .map(\.0)
        }
     }
     

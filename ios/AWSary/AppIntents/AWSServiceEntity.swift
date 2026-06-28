@@ -21,6 +21,7 @@ struct AWSServiceEntity: IndexedEntity, URLRepresentableEntity {
     let iconAssetName: String
     let iconURL: String
     let youtubeID: String
+    let searchableFields: [String]
 
     init(service: awsService) {
         id = service.id
@@ -30,6 +31,7 @@ struct AWSServiceEntity: IndexedEntity, URLRepresentableEntity {
         iconURL = service.imageURL
         iconAssetName = service.awsaryIconAssetName
         youtubeID = service.youtube_id
+        searchableFields = service.awsarySearchFields
     }
 
     var displayRepresentation: DisplayRepresentation {
@@ -58,17 +60,6 @@ struct AWSServiceEntity: IndexedEntity, URLRepresentableEntity {
 
     var deepLink: AWSaryDeepLink {
         .service(id: id)
-    }
-
-    fileprivate var searchableFields: [String] {
-        [
-            name,
-            fullName,
-            summary,
-            iconAssetName,
-            iconURL,
-            youtubeID
-        ]
     }
 
     var iconPNGData: Data? {

@@ -37,11 +37,12 @@ enum AWSaryAppEntitySearch {
         query: String,
         in entities: [Entity],
         title: (Entity) -> String,
+        rank: ((Entity) -> Int?)? = nil,
         fields: (Entity) -> [String]
     ) -> [Entity] {
         entities
             .compactMap { entity -> (Entity, Int)? in
-                guard let score = score(query: query, title: title(entity), fields: fields(entity)) else {
+                guard let score = rank?(entity) ?? score(query: query, title: title(entity), fields: fields(entity)) else {
                     return nil
                 }
                 return (entity, score)
