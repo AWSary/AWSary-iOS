@@ -67,7 +67,6 @@ struct BCArticleDetails: View {
             .background(.clear)
 //            .background(Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
-            .ignoresSafeArea()
         }
     }
 }

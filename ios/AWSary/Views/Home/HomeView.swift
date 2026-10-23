@@ -90,9 +90,8 @@ struct HomeView: View {
                     Button {
                         showingAboutSheet.toggle()
                     } label: {
-                        Image(systemName: "gearshape")
+                        Label("Settings", systemImage: "gearshape")
                     }
-                    .accessibilityLabel("Settings")
                 }
             }
         }

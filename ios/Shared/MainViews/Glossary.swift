@@ -84,10 +84,12 @@ struct Glossary: View {
                  .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
                  .navigationTitle("AWSary")
                  .toolbar {
-                    Button(action: {
-                       showingSheet.toggle()
-                    }) {
-                       Image(systemName: "gear")
+                    ToolbarItem(placement: .topBarTrailing) {
+                       Button(action: {
+                          showingSheet.toggle()
+                       }) {
+                          Label("Settings", systemImage: "gear")
+                       }
                     }
                  }
               }.sheet(isPresented: $showingSheet) {

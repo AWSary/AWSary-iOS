@@ -19,7 +19,8 @@ struct AAIplannerContentView: View {
     let timeZones = AAIEventData.timeZones
     
     var body: some View {
-        VStack {
+        ScrollView {
+          VStack {
            Spacer()
             Text("AAI Planner")
                 .font(.largeTitle)
@@ -47,7 +48,7 @@ struct AAIplannerContentView: View {
                 .padding()
                 
                DatePicker("Start Date and Time", selection: $startDate)
-                  .frame(width: 360)
+                  .padding(.horizontal)
              
                Picker("Time Zone", selection: $selectedTimeZone) {
                   ForEach(timeZones) { timeZone in
@@ -121,6 +122,7 @@ struct AAIplannerContentView: View {
                     }
                Spacer()
             }
+          }
         }
         .sheet(isPresented: $displayPaywall) {
             PaywallView(displayCloseButton: true)
