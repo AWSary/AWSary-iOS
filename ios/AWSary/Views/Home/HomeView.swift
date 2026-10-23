@@ -39,10 +39,12 @@ struct HomeView: View {
                             .padding(.bottom, -15)
                             
                     }
-                    TrendingArticlesStatusView(state: loadState, hasArticles: !buildersContent.isEmpty) {
-                        Task { await getData() }
+                    if buildersContent.isEmpty {
+                        TrendingArticlesStatusView(state: loadState) {
+                            Task { await getData() }
+                        }
+                        .padding(.horizontal)
                     }
-                    .padding(.horizontal)
                     ForEach(buildersContent.sorted() { $0.createdAt > $1.createdAt }, id:\.id) { article in
                         
                         if let articleURL = URL(string: "https://builder.aws.com\(article.contentID)") {
@@ -66,6 +68,7 @@ struct HomeView: View {
                 }
                 .padding(.vertical)
                 .task {
+                    guard loadState == .idle else { return }
                     await getData()
                 }
             }
@@ -130,13 +133,12 @@ private enum TrendingArticlesLoadState {
 
 private struct TrendingArticlesStatusView: View {
     let state: TrendingArticlesLoadState
-    let hasArticles: Bool
     let retry: () -> Void
 
     var body: some View {
         switch state {
         case .idle, .loading:
-            ProgressView(hasArticles ? "Refreshing articles…" : "Loading articles…")
+            ProgressView("Loading articles…")
                 .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
                 .frame(maxWidth: .infinity)
                 .padding(24)
@@ -145,14 +147,9 @@ private struct TrendingArticlesStatusView: View {
                 Label(state == .offline ? "You're offline" : "Couldn't load articles",
                       systemImage: state == .offline ? "wifi.slash" : "exclamationmark.triangle")
             } description: {
-                VStack(spacing: 8) {
-                    Text(state == .offline
-                         ? "Connect to the internet and try again."
-                         : "Trending articles are unavailable right now. Please try again.")
-                    if hasArticles {
-                        Text("Showing previously loaded articles.")
-                    }
-                }
+                Text(state == .offline
+                     ? "Connect to the internet and try again."
+                     : "Trending articles are unavailable right now. Please try again.")
             } actions: {
                 Button("Retry", action: retry)
                     .buttonStyle(.borderedProminent)
@@ -160,18 +157,16 @@ private struct TrendingArticlesStatusView: View {
             }
             .background(Color.awsaryArticleCardBackground, in: RoundedRectangle(cornerRadius: 20))
         case .loaded:
-            if !hasArticles {
-                ContentUnavailableView {
-                    Label("No trending articles yet", systemImage: "newspaper")
-                } description: {
-                    Text("Check back later for new articles.")
-                } actions: {
-                    Button("Refresh", action: retry)
-                        .buttonStyle(.borderedProminent)
-                        .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
-                }
-                .background(Color.awsaryArticleCardBackground, in: RoundedRectangle(cornerRadius: 20))
+            ContentUnavailableView {
+                Label("No trending articles yet", systemImage: "newspaper")
+            } description: {
+                Text("Check back later for new articles.")
+            } actions: {
+                Button("Refresh", action: retry)
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
             }
+            .background(Color.awsaryArticleCardBackground, in: RoundedRectangle(cornerRadius: 20))
         }
     }
 }
@@ -181,10 +176,10 @@ private struct TrendingArticlesStatusView: View {
 }
 
 #Preview("Trending — Offline") {
-    TrendingArticlesStatusView(state: .offline, hasArticles: false, retry: {})
+    TrendingArticlesStatusView(state: .offline, retry: {})
         .padding()
 }
 
 #Preview("Trending — Loading") {
-    TrendingArticlesStatusView(state: .loading, hasArticles: false, retry: {})
+    TrendingArticlesStatusView(state: .loading, retry: {})
 }
