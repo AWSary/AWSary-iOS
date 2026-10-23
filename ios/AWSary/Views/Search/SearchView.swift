@@ -60,6 +60,7 @@ struct SearchView: View {
                 }
             }
             .navigationTitle(usesCompactNavigation ? "" : "Search")
+            .awsarySettingsToolbar()
             .navigationBarTitleDisplayMode(usesCompactNavigation ? .inline : .large)
             .searchable(
                 text: $searchString,
@@ -189,51 +190,62 @@ private struct SearchDiscoveryView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, spacing: 12) {
-                SearchDiscoveryCard(
-                    title: "Services",
-                    description: "Browse the AWS glossary",
-                    systemImage: "books.vertical",
-                    color: .orange
-                ) {
+                Button {
                     onNavigate(.glossary)
+                } label: {
+                    SearchDiscoveryCard(
+                        title: "Services",
+                        description: "Browse the AWS glossary",
+                        systemImage: "books.vertical",
+                        color: .orange
+                    )
                 }
 
-                SearchDiscoveryCard(
-                    title: "People",
-                    description: "Discover community members",
-                    systemImage: "person.3",
-                    color: .blue
-                ) {
+                Button {
                     onNavigate(.community)
+                } label: {
+                    SearchDiscoveryCard(
+                        title: "People",
+                        description: "Discover community members",
+                        systemImage: "person.3",
+                        color: .blue
+                    )
                 }
 
-                SearchDiscoveryCard(
-                    title: "User Groups",
-                    description: "Find AWS communities worldwide",
-                    systemImage: "person.3.fill",
-                    color: .green
-                ) {
+                Button {
                     onNavigate(.community)
+                } label: {
+                    SearchDiscoveryCard(
+                        title: "User Groups",
+                        description: "Find AWS communities worldwide",
+                        systemImage: "person.3.fill",
+                        color: .green
+                    )
                 }
 
-                SearchDiscoveryCard(
-                    title: "Game",
-                    description: "Test your AWS knowledge",
-                    systemImage: "gamecontroller",
-                    color: .purple
-                ) {
-                    onNavigate(.game)
+                NavigationLink {
+                    Game()
+                } label: {
+                    SearchDiscoveryCard(
+                        title: "Game",
+                        description: "Test your AWS knowledge",
+                        systemImage: "gamecontroller",
+                        color: .purple
+                    )
                 }
 
-                SearchDiscoveryCard(
-                    title: "AAI Planner",
-                    description: "Explore conference sessions",
-                    systemImage: "calendar.badge.clock",
-                    color: .teal
-                ) {
-                    onNavigate(.planner)
+                NavigationLink {
+                    AAIplannerContentView()
+                } label: {
+                    SearchDiscoveryCard(
+                        title: "AAI Planner",
+                        description: "Explore conference sessions",
+                        systemImage: "calendar.badge.clock",
+                        color: .teal
+                    )
                 }
             }
+            .buttonStyle(.plain)
             .padding()
         }
     }
@@ -244,39 +256,34 @@ private struct SearchDiscoveryCard: View {
     let description: String
     let systemImage: String
     let color: Color
-    let action: () -> Void
-
     var body: some View {
-        Button(action: action) {
-            VStack(alignment: .leading, spacing: 10) {
-                Image(systemName: systemImage)
-                    .font(.title2.weight(.semibold))
-                    .foregroundStyle(color)
+        VStack(alignment: .leading, spacing: 10) {
+            Image(systemName: systemImage)
+                .font(.title2.weight(.semibold))
+                .foregroundStyle(color)
 
-                Spacer(minLength: 8)
+            Spacer(minLength: 8)
 
-                Text(title)
-                    .font(.headline)
-                    .foregroundStyle(.primary)
+            Text(title)
+                .font(.headline)
+                .foregroundStyle(.primary)
 
-                Text(description)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-            }
-            .frame(maxWidth: .infinity, minHeight: 120, alignment: .leading)
-            .padding()
-            .background {
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(color.opacity(0.12))
-                    .overlay {
-                        RoundedRectangle(cornerRadius: 20)
-                            .stroke(color.opacity(0.25), lineWidth: 1)
-                    }
-            }
+            Text(description)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.leading)
+                .lineLimit(2)
         }
-        .buttonStyle(.plain)
+        .frame(maxWidth: .infinity, minHeight: 120, alignment: .leading)
+        .padding()
+        .background {
+            RoundedRectangle(cornerRadius: 20)
+                .fill(color.opacity(0.12))
+                .overlay {
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(color.opacity(0.25), lineWidth: 1)
+                }
+        }
     }
 }
 

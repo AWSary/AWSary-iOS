@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct Glossary: View {
-    @State private var showingSheet = false
     @ObservedObject var awsServices = AwsServices()
     @State private var searchQuery = ""
     @State private var navigationPath: [awsService] = []
@@ -83,17 +82,7 @@ struct Glossary: View {
                  .searchable(text: $searchQuery, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search for an AWS Service")
                  .disableAutocorrection(true) // .autocorrectionDisabled() //only available on iOS 16
                  .navigationTitle("AWSary")
-                 .toolbar {
-                    ToolbarItem(placement: .topBarTrailing) {
-                       Button(action: {
-                          showingSheet.toggle()
-                       }) {
-                          Label("Settings", systemImage: "gear")
-                       }
-                    }
-                 }
-              }.sheet(isPresented: $showingSheet) {
-                 AboutView()
+                 .awsarySettingsToolbar()
               }
        }
 

@@ -42,15 +42,6 @@ struct AppTabsView: View {
                    requestedUserGroupID: $requestedUserGroupID
                )
            }
-           Tab("Game", systemImage: "gamecontroller", value: .game) {
-               Game()
-           }
-//           Tab("Tools", systemImage: "wrench.and.screwdriver.fill"){
-//           }
-           Tab("AAI Planner", systemImage: "calendar.badge.clock", value: .planner) {
-               AAIplannerContentView()
-           }
-
            Tab("Search", systemImage: "magnifyingglass", value: .search) {
                SearchView(
                    searchString: $searchString,
@@ -93,8 +84,6 @@ enum AppTab: Hashable {
     case home
     case community
     case glossary
-    case game
-    case planner
     case search
 }
 

@@ -83,6 +83,7 @@ public struct Community: View {
                 }
             }
             .navigationTitle("Community")
+            .awsarySettingsToolbar()
             .searchable(
                 text: $searchText,
                 placement: .navigationBarDrawer(displayMode: .always),

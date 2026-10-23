@@ -64,8 +64,10 @@ struct OnboardingView: View {
                       Button(action: {
                          showingSheet.toggle()
                       }) {
-                         Label("Settings", systemImage: "gear")
+                         Label("Settings", systemImage: "gearshape")
+                            .labelStyle(.iconOnly)
                       }
+                      .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
                    }
                 }
              }.sheet(isPresented: $showingSheet) {

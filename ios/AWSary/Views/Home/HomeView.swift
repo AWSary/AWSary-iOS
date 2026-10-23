@@ -4,7 +4,6 @@ struct HomeView: View {
     @Namespace var namespace
     @State var showArticle = false
     
-    @State private var showingAboutSheet: Bool = false
     @State private var buildersContent:[FeedContent] = []
     @State private var backgroundIsAnimating = false
     // site for color conversion
@@ -84,19 +83,7 @@ struct HomeView: View {
                     )
                 ).ignoresSafeArea()
             }
-            //.navigationTitle("AWSary")
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        showingAboutSheet.toggle()
-                    } label: {
-                        Label("Settings", systemImage: "gearshape")
-                    }
-                }
-            }
-        }
-        .sheet(isPresented: $showingAboutSheet) {
-           AboutView()
+            .awsarySettingsToolbar()
         }
 // Disabled during dev to reduce cpu usage and pc heat
         .onAppear(){

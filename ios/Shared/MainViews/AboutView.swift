@@ -287,6 +287,35 @@ struct AboutView: View {
    }
 }
 
+extension View {
+   /// Adds the shared Settings entry point to a main screen inside a NavigationStack.
+   func awsarySettingsToolbar() -> some View {
+      modifier(AWSarySettingsToolbar())
+   }
+}
+
+private struct AWSarySettingsToolbar: ViewModifier {
+   @State private var showingSettings = false
+
+   func body(content: Content) -> some View {
+      content
+         .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+               Button {
+                  showingSettings = true
+               } label: {
+                  Label("Settings", systemImage: "gearshape")
+               }
+               .labelStyle(.iconOnly)
+               .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
+            }
+         }
+         .sheet(isPresented: $showingSettings) {
+            AboutView()
+         }
+   }
+}
+
 private struct AboutNavigationRow: View {
    let title: String
    let subtitle: String
