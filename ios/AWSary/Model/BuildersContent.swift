@@ -6,7 +6,12 @@ struct BuildersContentHelper {
             throw URLError(.badURL)
         }
             
-        let (data,_) = try await URLSession.shared.data(from: url)
+        let request = URLRequest(url: url, timeoutInterval: 20)
+        let (data, response) = try await URLSession.shared.data(for: request)
+        guard let response = response as? HTTPURLResponse,
+              (200..<300).contains(response.statusCode) else {
+            throw URLError(.badServerResponse)
+        }
         let buildersContent = try JSONDecoder().decode(BuildersContent.self, from: data)
         return buildersContent.feedContents
     }

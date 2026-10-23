@@ -5,6 +5,7 @@ struct HomeView: View {
     @State var showArticle = false
     
     @State private var buildersContent:[FeedContent] = []
+    @State private var loadState: TrendingArticlesLoadState = .idle
     @State private var backgroundIsAnimating = false
     // site for color conversion
     // https://iosref.com/uihex
@@ -38,6 +39,10 @@ struct HomeView: View {
                             .padding(.bottom, -15)
                             
                     }
+                    TrendingArticlesStatusView(state: loadState, hasArticles: !buildersContent.isEmpty) {
+                        Task { await getData() }
+                    }
+                    .padding(.horizontal)
                     ForEach(buildersContent.sorted() { $0.createdAt > $1.createdAt }, id:\.id) { article in
                         
                         if let articleURL = URL(string: "https://builder.aws.com\(article.contentID)") {
@@ -63,6 +68,9 @@ struct HomeView: View {
                 .task {
                     await getData()
                 }
+            }
+            .refreshable {
+                await getData()
             }
             .background(){
                 MeshGradient(width: 3, height: 3, points: [
@@ -94,15 +102,89 @@ struct HomeView: View {
 // End here the - Disabled during dev to reduce cpu usage and pc heat
     }
         
-    private func getData() async{
+    @MainActor
+    private func getData() async {
+        guard loadState != .loading else { return }
+        loadState = .loading
         do {
-            buildersContent = try await BuildersContentHelper().getBuildersContent()
-        }catch{
-            print("Error loading Builder articles: \(error)")
+            let articles = try await BuildersContentHelper().getBuildersContent()
+            try Task.checkCancellation()
+            buildersContent = articles
+            loadState = .loaded
+        } catch {
+            if Task.isCancelled || (error as? URLError)?.code == .cancelled {
+                loadState = .idle
+            } else if let error = error as? URLError,
+                      error.code == .notConnectedToInternet || error.code == .networkConnectionLost {
+                loadState = .offline
+            } else {
+                loadState = .failed
+            }
+        }
+    }
+}
+
+private enum TrendingArticlesLoadState {
+    case idle, loading, loaded, offline, failed
+}
+
+private struct TrendingArticlesStatusView: View {
+    let state: TrendingArticlesLoadState
+    let hasArticles: Bool
+    let retry: () -> Void
+
+    var body: some View {
+        switch state {
+        case .idle, .loading:
+            ProgressView(hasArticles ? "Refreshing articles…" : "Loading articles…")
+                .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
+                .frame(maxWidth: .infinity)
+                .padding(24)
+        case .offline, .failed:
+            ContentUnavailableView {
+                Label(state == .offline ? "You're offline" : "Couldn't load articles",
+                      systemImage: state == .offline ? "wifi.slash" : "exclamationmark.triangle")
+            } description: {
+                VStack(spacing: 8) {
+                    Text(state == .offline
+                         ? "Connect to the internet and try again."
+                         : "Trending articles are unavailable right now. Please try again.")
+                    if hasArticles {
+                        Text("Showing previously loaded articles.")
+                    }
+                }
+            } actions: {
+                Button("Retry", action: retry)
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
+            }
+            .background(Color.awsaryArticleCardBackground, in: RoundedRectangle(cornerRadius: 20))
+        case .loaded:
+            if !hasArticles {
+                ContentUnavailableView {
+                    Label("No trending articles yet", systemImage: "newspaper")
+                } description: {
+                    Text("Check back later for new articles.")
+                } actions: {
+                    Button("Refresh", action: retry)
+                        .buttonStyle(.borderedProminent)
+                        .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
+                }
+                .background(Color.awsaryArticleCardBackground, in: RoundedRectangle(cornerRadius: 20))
+            }
         }
     }
 }
 
 #Preview {
     HomeView()
+}
+
+#Preview("Trending — Offline") {
+    TrendingArticlesStatusView(state: .offline, hasArticles: false, retry: {})
+        .padding()
+}
+
+#Preview("Trending — Loading") {
+    TrendingArticlesStatusView(state: .loading, hasArticles: false, retry: {})
 }
