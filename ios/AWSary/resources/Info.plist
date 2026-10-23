@@ -13,9 +13,5 @@
 			</array>
 		</dict>
 	</array>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
-	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
-	<string>We add events you choose to your calendar. We do not read your existing events.</string>
 </dict>
 </plist>
