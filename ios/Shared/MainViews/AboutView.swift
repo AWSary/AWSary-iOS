@@ -1,5 +1,5 @@
 //
-//  SettingsView.swift
+//  AboutView.swift
 //  awsary
 //
 //  Created by Tiago Rodrigues on 20/07/2022.
@@ -18,13 +18,11 @@ private func awsaryRemoteURL(_ remoteURLString: String?, fallback fallbackURLStr
 struct AboutView: View {
    @Environment(\.dismiss) var dismiss
    @Environment(\.modelContext) private var modelContext
-   @ObservedObject var userModel = UserViewModel.shared
-   @ObservedObject var awsServices = AwsServices()
+   @StateObject private var awsServices = AwsServices()
    @Query var settings: [SystemSetting]
    @Query var cachedStats: [CachedAppStats]
    
-   // Add state variable to store the random service
-   @State private var randomAWSservice: awsService?
+   @State private var previewService: awsService?
    
    // State variables for app statistics
    @State private var appStats: AppStats?
@@ -32,12 +30,7 @@ struct AboutView: View {
    
    // Computed property for awsServiceLogoWithLabel setting
    private var awsServiceLogoWithLabel: Bool {
-      get {
-         return settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
-      }
-      set {
-         updateSetting(key: "awsServiceLogoWithLabel", boolValue: newValue)
-      }
+      settings.first(where: { $0.key == "awsServiceLogoWithLabel" })?.boolValue ?? true
    }
    
    // Helper method to update or create a setting
@@ -181,7 +174,7 @@ struct AboutView: View {
          URLQueryItem(name: "subject", value: appStats?.feedbackSubject ?? "Feedback on AWSary"),
          URLQueryItem(
             name: "body",
-            value: "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: About\(feedbackBodySuffix)"
+            value: "\n\n--\nAWSary Version: \(Bundle.main.appVersionLong) (\(Bundle.main.appBuild))\n\nScreen: Settings\(feedbackBodySuffix)"
          )
       ]
 
@@ -192,17 +185,9 @@ struct AboutView: View {
       UIApplication.shared.open(url)
    }
 
-   private func openRemoteURL(_ urlString: String) {
-      guard let url = URL(string: urlString) else {
-         return
-      }
-
-      UIApplication.shared.open(url, options: [:], completionHandler: nil)
-   }
-   
    var body: some View {
-      NavigationStack{
-         List{
+      NavigationStack {
+         List {
             if let featuredMessage = appStats?.visibleFeaturedMessage {
                Section {
                   Label(featuredMessage, systemImage: "sparkles")
@@ -226,7 +211,24 @@ struct AboutView: View {
                }
             }
 
-            Section("Explore") {
+            Section {
+               NavigationLink {
+                  AboutSettingsDetailsView(
+                     showServiceLogoName: Binding(
+                        get: { awsServiceLogoWithLabel },
+                        set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
+                     ),
+                     previewService: previewService,
+                     appStats: appStats
+                  )
+               } label: {
+                  AboutNavigationRow(
+                     title: "Preferences & Premium",
+                     subtitle: "Service logos and your subscription",
+                     systemImage: "gearshape.fill"
+                  )
+               }
+
                NavigationLink {
                   AboutAWSaryDetailsView(appStats: appStats)
                } label: {
@@ -234,23 +236,6 @@ struct AboutView: View {
                      title: "About AWSary",
                      subtitle: "The story and the person behind the app",
                      systemImage: "person.crop.circle"
-                  )
-               }
-
-               NavigationLink {
-                  AboutSettingsDetailsView(
-                     showServiceLogoName: Binding(
-                        get: { awsServiceLogoWithLabel },
-                        set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
-                     ),
-                     subscriptionActive: userModel.subscriptionActive,
-                     appStats: appStats
-                  )
-               } label: {
-                  AboutNavigationRow(
-                     title: "Settings & Premium",
-                     subtitle: "Personalize AWSary and manage access",
-                     systemImage: "gearshape.fill"
                   )
                }
 
@@ -279,153 +264,8 @@ struct AboutView: View {
                   )
                }
             }
-
-            Section {
-               HStack(spacing: 12) {
-                  Image(systemName: "shippingbox.fill")
-                     .foregroundStyle(.orange)
-                  VStack(alignment: .leading, spacing: 3) {
-                     Text("Current settings")
-                        .font(.headline)
-                     Text("The existing screen remains below while the new experience reaches feature parity.")
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                  }
-               }
-               .padding(.vertical, 6)
-            }
-
-            Section(header: Text("Configure service logos")){
-               VStack{
-                  Toggle(isOn: Binding(
-                     get: { awsServiceLogoWithLabel },
-                     set: { updateSetting(key: "awsServiceLogoWithLabel", boolValue: $0) }
-                  )){
-                     Text("Show name on service logo")
-                  }
-//                  .disabled(!self.userModel.subscriptionActive)
-//                  Text("")
-//                  Text("Drag-and-drop each of the icons bellow, to test it on your diagrams.\n\nTap to load a diferent random icon, purchange a subscription to enable on all logos.")
-                  if let service = randomAWSservice {
-                     LazyVGrid(
-                        columns: [GridItem(.adaptive(minimum: 110))], content: {
-                           
-                           if (awsServiceLogoWithLabel){
-                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
-                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
-                                 .padding(.horizontal, 8)
-                                 .padding(.vertical, 6)
-                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                                 .cornerRadius(8.0)
-                           }else{
-                              AWSserviceImagePlaceHolderView(service: service, showLabel: false)
-                                 .padding(.horizontal, 8)
-                                 .padding(.vertical, 6)
-                                 .background(Color(red:1.0, green: 0.5, blue: 0.0))
-                                 .cornerRadius(8.0)
-                              AWSserviceImagePlaceHolderView(service: service, showLabel: true)
-                           }
-                        }
-                     ).frame(minHeight: 160)
-                  }
-               }
-            }
-            Section(header: Text("AWSary Premium")){
-               Label("AWSary Merch Store", systemImage: "storefront").onTapGesture {
-                  openRemoteURL(appStats?.merchStoreURLString ?? "https://bit.ly/awsary-merch")
-               }
-               if self.userModel.subscriptionActive{
-                  let discountCode = appStats?.premiumDiscountCode ?? "GSC293ZEQD"
-                  let discountLabel = appStats?.premiumDiscountLabel ?? "10% Discount on AWSary Merch Store"
-                  Label("\(discountLabel): \(discountCode)", systemImage: "doc.on.doc").onTapGesture {
-                     UIPasteboard.general.string = discountCode
-                  }
-                   NavigationLink(destination:PaywallView(displayCloseButton: true)){
-                       Label("Manage Subscription", systemImage: "heart.fill")
-                   }
-               } else {
-                   NavigationLink(destination:PaywallView(displayCloseButton: true)){
-                       Label("Purchase Subscription", systemImage: "creditcard")
-                   }
-                  Label("Restore Purchase", systemImage: "arrow.triangle.2.circlepath").onTapGesture {
-                     Purchases.shared.restorePurchases { customerInfo, error in
-                        //... check customerInfo to see if entitlement is now active
-                     }
-                  }
-               }
-            }
-            Section(header: Text("Feedback")){
-//              Label("Send Feedback", systemImage: "envelope")
-               Label {
-                  VStack(alignment: .leading){
-                     Text("Rate version \(Bundle.main.appVersionLong) of AWSary")
-                     if let stats = appStats {
-                        Text(stats.ratings.displayMessage).font(.footnote).opacity(0.6)
-                     } else if isLoadingStats {
-                        Text("Loading rating info...").font(.footnote).opacity(0.6)
-                     } else {
-                        Text("Be one of the first to rate this version!").font(.footnote).opacity(0.6)
-                     }
-                  }
-               } icon:{
-                  Image(systemName: "star.fill")                  //                     .frame(width: 40, height: 40)
-                  //                     .foregroundColor(Color.white)
-                  //                     .background(Color.orange)
-                  //                     .cornerRadius(7)
-               }.onTapGesture {
-                  openAppReview()
-               }
-               
-               Label {
-                  VStack(alignment: .leading){
-                     Text("Send Feedback")
-                     Text("Feedback emails are lovely to read!").font(.footnote).opacity(0.6)
-                  }
-               } icon:{
-                  Image(systemName: "envelope")
-               }.onTapGesture {
-                  sendFeedback()
-               }
-               
-            }
-            Section(header: Text("Why AWSary")){
-               Text("I'm an AWS Cloud Consultant and Trainer.\n\nNew AWS Services are released all the time, and sometimes you just want a quick dictionary definition.\n\nI also draw AWS Cloud Architecture diagrams daily on iPad, to explore ideas either with Colleagues, Clients or Students.\n\nGood drawing Applications don't have AWS services logos, so on top of this dictionary I enabled the drag and drop of the logos to 3rd party drawing tools.\n\n This App is a great AWS Cloud Consultant companion tool.\n\nHelp develop this app at [GitHub](https://github.com/tigpt/AWSary/).")
-            }
-            Section(header: Text("How to use AWSary")){
-               Text("Search for the name of an AWS service, you can open and look for the definition of it. You can also drag and drop the service logo to your favorite drawing application. (Check video below)")
-               MyYoutubePlayer(youtube_id: appStats?.aboutYoutubeID ?? "c0SjbhRR3lk")
-            }
-            Section(){
-               Link(
-                  "Terms of Use (EULA)",
-                  destination: awsaryRemoteURL(appStats?.termsOfUseURLString, fallback: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula")
-               )
-               Link(
-                  "Privacy Policy",
-                  destination: awsaryRemoteURL(appStats?.privacyPolicyURLString, fallback: "https://tig.pt/awsary-privacy")
-               )
-            }
-//            Section(header: Text("AWSary.com")){
-//               Text("This is a hobby project from Tiago Rodrigues to help more people learn about Cloud, specialy AWS. Special tanks to tecRacer for supporting the backend.").lineLimit(100)
-//            }
-//            Section(header: Text("Help developing this app")){
-//               Text("Get involved in this application")
-//            }
-//            Section(header: Text("Contact & Help")){
-//               Text("FAQ - Frequently Asked Questions")
-//            }
-//            Section(header: Text("info")){
-//               Text("Acknowledgements")
-//               Text("Colophon")
-//               Text("Privacy Policy")
-//            }
-//            Section(header: Text("Icon")){
-//               Text("Icon 1")
-//               Text("Icon 2")
-//               Text("Icon 3")
-//            }
          }
-         //.navigationTitle("About")
+         .navigationTitle("Settings")
          .navigationBarTitleDisplayMode(.inline)
          .toolbar {
             ToolbarItem(placement: .confirmationAction){
@@ -435,42 +275,16 @@ struct AboutView: View {
             }
          }
          .onAppear {
-            // Initialize the random service only once when the view appears
-            if randomAWSservice == nil {
-               randomAWSservice = awsServices.getRandomElement()
+            // Keep the same preview service when returning from a detail screen.
+            if previewService == nil {
+               previewService = awsServices.services.randomElement()
             }
             // Load app statistics (from cache first, then API if needed)
             loadAppStats()
          }
-      }.accentColor(Color(red:1.0, green: 0.5, blue: 0.0))
+      }
+      .tint(Color(red: 0.357, green: 0.361, blue: 1.0))
    }
-   //   var body: some View {
-   //      NavigationStack{
-   ////         VStack{
-   ////            HStack{
-   ////               Spacer()
-   ////               Button(action: {
-   ////                  dismiss()
-   ////               }){
-   ////                  Text("Done").font(.title3 .bold()).padding(10)
-   ////               }
-   ////            }.background(Color .yellow)
-   ////            ScrollView{
-   ////               Text("AWSary.com").font(.largeTitle)
-   ////               Text("Multiline \ntext \nis called \nTextEditor")
-   ////            }.background(Color .red)
-   ////               .font(.title)
-   ////            Spacer()
-   ////         }
-   //         Text("hello world")
-   //      }.background(Color .pink)
-   //      .navigationTitle("Settings")
-   //      .toolbar {
-   //            Button("Done", action: {
-   //               dismiss()
-   //            })
-   //         }
-   //   }
 }
 
 private struct AboutNavigationRow: View {
@@ -484,7 +298,7 @@ private struct AboutNavigationRow: View {
             .font(.headline)
             .foregroundStyle(.white)
             .frame(width: 34, height: 34)
-            .background(Color.orange.gradient, in: RoundedRectangle(cornerRadius: 9))
+            .background(Color(red: 0.357, green: 0.361, blue: 1.0).gradient, in: RoundedRectangle(cornerRadius: 9))
 
          VStack(alignment: .leading, spacing: 3) {
             Text(title)
@@ -492,7 +306,6 @@ private struct AboutNavigationRow: View {
             Text(subtitle)
                .font(.caption)
                .foregroundStyle(.secondary)
-               .lineLimit(2)
          }
       }
       .padding(.vertical, 4)
@@ -505,8 +318,8 @@ private struct AboutAWSaryDetailsView: View {
    var body: some View {
       List {
          Section("Why AWSary") {
-            Text("I'm an AWS Cloud Consultant and Trainer. New AWS services are released all the time, and sometimes you just want a quick dictionary definition.")
-            Text("I also draw AWS Cloud Architecture diagrams daily on iPad. AWSary combines a practical dictionary with service logos you can drag into third-party drawing tools.")
+            Text("AWSary is built by Tiago Rodrigues, an AWS Cloud Consultant and Trainer. New AWS services are released all the time, and sometimes you just want a quick dictionary definition.")
+            Text("Inspired by drawing AWS architecture diagrams on iPad with colleagues, clients, and students, AWSary combines a practical dictionary with service logos you can drag into your favorite drawing tools.")
          }
 
          Section("How to use AWSary") {
@@ -519,6 +332,11 @@ private struct AboutAWSaryDetailsView: View {
                Label("Help develop AWSary on GitHub", systemImage: "chevron.left.forwardslash.chevron.right")
             }
          }
+
+         Section("App information") {
+            LabeledContent("Version", value: Bundle.main.appVersionLong)
+            LabeledContent("Build", value: Bundle.main.appBuild)
+         }
       }
       .navigationTitle("About AWSary")
       .navigationBarTitleDisplayMode(.inline)
@@ -527,13 +345,26 @@ private struct AboutAWSaryDetailsView: View {
 
 private struct AboutSettingsDetailsView: View {
    @Binding var showServiceLogoName: Bool
-   let subscriptionActive: Bool
+   let previewService: awsService?
    let appStats: AppStats?
+   @ObservedObject private var userModel = UserViewModel.shared
+   @State private var isRestoringPurchases = false
+   @State private var restoreMessage: String?
 
    var body: some View {
       List {
-         Section("Service logos") {
+         Section {
             Toggle("Show name on service logo", isOn: $showServiceLogoName)
+            if let previewService {
+               AWSserviceImagePlaceHolderView(service: previewService, showLabel: showServiceLogoName)
+                  .frame(maxWidth: .infinity, minHeight: 160)
+                  .padding(.vertical, 8)
+                  .accessibilityLabel("Service logo preview: \(previewService.name)")
+            }
+         } header: {
+            Text("Service logos")
+         } footer: {
+            Text("Choose whether service names appear on logos, including when you drag them into a drawing app.")
          }
 
          Section("AWSary Premium") {
@@ -541,7 +372,7 @@ private struct AboutSettingsDetailsView: View {
                Label("AWSary Merch Store", systemImage: "storefront")
             }
 
-            if subscriptionActive {
+            if userModel.subscriptionActive {
                let discountCode = appStats?.premiumDiscountCode ?? "GSC293ZEQD"
                let discountLabel = appStats?.premiumDiscountLabel ?? "10% Discount on AWSary Merch Store"
                Button {
@@ -551,18 +382,59 @@ private struct AboutSettingsDetailsView: View {
                }
             }
 
-            NavigationLink {
-               PaywallView(displayCloseButton: true)
-            } label: {
-               Label(
-                  subscriptionActive ? "Manage Subscription" : "Purchase Subscription",
-                  systemImage: subscriptionActive ? "heart.fill" : "creditcard"
-               )
+            if userModel.subscriptionActive {
+               Link(destination: awsaryRemoteURL(nil, fallback: "https://apps.apple.com/account/subscriptions")) {
+                  Label("Manage Subscription", systemImage: "creditcard")
+               }
+            } else {
+               NavigationLink {
+                  PaywallView(displayCloseButton: true)
+               } label: {
+                  Label("Get AWSary Premium", systemImage: "sparkles")
+               }
+            }
+
+            Button(action: restorePurchases) {
+               HStack {
+                  Label("Restore Purchases", systemImage: "arrow.triangle.2.circlepath")
+                  Spacer()
+                  if isRestoringPurchases {
+                     ProgressView()
+                  }
+               }
+            }
+            .disabled(isRestoringPurchases)
+         }
+      }
+      .navigationTitle("Preferences & Premium")
+      .navigationBarTitleDisplayMode(.inline)
+      .alert("Restore Purchases", isPresented: Binding(
+         get: { restoreMessage != nil },
+         set: { if !$0 { restoreMessage = nil } }
+      )) {
+         Button("OK", role: .cancel) { restoreMessage = nil }
+      } message: {
+         Text(restoreMessage ?? "")
+      }
+   }
+
+   private func restorePurchases() {
+      isRestoringPurchases = true
+      Purchases.shared.restorePurchases { customerInfo, error in
+         DispatchQueue.main.async {
+            isRestoringPurchases = false
+            if let error {
+               restoreMessage = error.localizedDescription
+            } else if let customerInfo {
+               userModel.customerInfo = customerInfo
+               restoreMessage = userModel.subscriptionActive
+                  ? "Your AWSary Premium subscription has been restored."
+                  : "No active subscription was found for your Apple Account."
+            } else {
+               restoreMessage = "Unable to restore purchases. Please try again."
             }
          }
       }
-      .navigationTitle("Settings & Premium")
-      .navigationBarTitleDisplayMode(.inline)
    }
 }
 
@@ -631,21 +503,15 @@ private struct AboutLegalDetailsView: View {
                Label("Privacy Policy", systemImage: "hand.raised.fill")
             }
          }
-
-         Section("App information") {
-            LabeledContent("Version", value: Bundle.main.appVersionLong)
-            LabeledContent("Build", value: Bundle.main.appBuild)
-         }
       }
       .navigationTitle("Legal")
       .navigationBarTitleDisplayMode(.inline)
    }
 }
 
-
-
 #Preview {
    AboutView()
+      .modelContainer(for: [SystemSetting.self, CachedAppStats.self], inMemory: true)
 }
 
 extension Bundle {
