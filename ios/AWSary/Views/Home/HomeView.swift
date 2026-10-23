@@ -41,23 +41,23 @@ struct HomeView: View {
                     }
                     ForEach(buildersContent.sorted() { $0.createdAt > $1.createdAt }, id:\.id) { article in
                         
-// - move from webview to bcArticleDetails
-                       NavigationLink(destination: BCArticleDetails(bcArticle: article), label: {
-                           CardView(article: article)
-                       })
-                       .buttonStyle(PressableButtonStyle())
-                       .padding(.horizontal)
-                        
-// - move from webview to bcArticleDetails
-//                        NavigationLink(destination: WebView(url: URL(string: "https://builder.aws.com\(article.contentID)")!)
-//                            .navigationTitle(article.title)
-//                            .navigationBarTitleDisplayMode(.inline)
-//                        ){
+                        if let articleURL = URL(string: "https://builder.aws.com\(article.contentID)") {
+                            NavigationLink(destination: WebView(url: articleURL)
+                                .navigationTitle(article.title)
+                                .navigationBarTitleDisplayMode(.inline)
+                            ) {
+                                CardView(article: article)
+                            }
+                            .buttonStyle(PressableButtonStyle())
+                            .padding(.horizontal)
+                        }
+
+//                        Native article details are retained for future use.
+//                        NavigationLink(destination: BCArticleDetails(bcArticle: article)) {
 //                            CardView(article: article)
 //                        }
 //                        .buttonStyle(PressableButtonStyle())
 //                        .padding(.horizontal)
-// - move from webview to bcArticleDetails
                     }
                 }
                 .padding(.vertical)
