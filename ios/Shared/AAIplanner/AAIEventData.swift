@@ -44,6 +44,7 @@ struct AAIEventData {
 //      "Authoring Visual Analytics Using Amazon QuickSight",
       "Machine Learning Engineering on AWS",
       "Developing Generative AI Applications on AWS",
+      "Generative AI Essentials on AWS",
     ]
     
     static let eventSequences: [String: [(name: String, duration: Int)]] = [
@@ -676,6 +677,23 @@ struct AAIEventData {
           ("DevGenAI - 🔬🛠️ Lab 5: Using Amazon Bedrock Models for Code Generation", 5),
           ("DevGenAI - 🔬🛠️ Lab 6: Integrating Amazon Bedrock Models with LangChain Agents", 15),
           ("DevGenAI - Module 9: Wrap-up", 5),
+      ],
+      
+      "Generative AI Essentials on AWS": [
+          ("GAIEonAWS - Module 0: Course and Student Introductions", 15),
+          ("GAIEonAWS - Module 1: From Model to Companion Tool", 40),
+          ("GAIEonAWS - Module 2: Output Failures and Responsible AI", 30),
+          ("GAIEonAWS - ☕️🍎 Break", 15),
+          ("GAIEonAWS - Module 3: Retrieving Answers and Grounding Output", 50),
+          ("GAIEonAWS - 🔬🛠️ Lab 1: Evaluate and Govern AI Output with Amazon Quick", 60),
+          ("GAIEonAWS - 🍴🍲🥝 Lunch", 60),
+          ("GAIEonAWS - Module 4: Discussion - What Would You Automate?", 15),
+          ("GAIEonAWS - Module 5: From Companion to Agentic", 30),
+          ("GAIEonAWS - Module 6: Scaling an Agent - Audience, Performance, and Cost", 30),
+          ("GAIEonAWS - ☕️🍎 Break", 15),
+          ("GAIEonAWS - Module 7: Governing an External-Facing Agent", 40),
+          ("GAIEonAWS - 🔬🛠️ Lab 2: Building an HR Assistant with Amazon Bedrock", 60),
+          ("GAIEonAWS - Module 8: Debrief and Wrap-Up", 10),
       ]
       
 
